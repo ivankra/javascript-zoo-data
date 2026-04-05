@@ -14,23 +14,23 @@
   "probes": {
     "$262": "ReferenceError: $262 is not defined",
     "$262.AbstractModuleSource": "ReferenceError: $262 is not defined",
-    "$262.IsHTMLDDA": "SyntaxError: /tmp/probe-we1hensc/33-probe.sloppy.js:4:47: expect ')'",
+    "$262.IsHTMLDDA": "SyntaxError: /tmp/probe-_41c2_rs/36-probe.sloppy.js:4:47: expect ')'",
     "$262.agent": "ReferenceError: $262 is not defined",
     "$262.createRealm": "ReferenceError: $262 is not defined",
     "$262.detachArrayBuffer": "ReferenceError: $262 is not defined",
     "$262.evalScript": "ReferenceError: $262 is not defined",
     "$262.gc": "ReferenceError: $262 is not defined",
     "$262.global": "ReferenceError: $262 is not defined",
-    "EvalError": "ReferenceError: EvalError is not defined stdout='throw new EvalError(\"foo\");\\n          ^\\nError(Reference error: \\'EvalError\\' is not defined)' stderr='\\x1b[1;31mRuntime error\\x1b[0m: /tmp/probe-rmdmvkch/34-probe.sloppy.js:4:10: Uncaught Exception'",
+    "EvalError": "ReferenceError: EvalError is not defined stdout='throw new EvalError(\"foo\");\\n          ^\\nError(Reference error: \\'EvalError\\' is not defined)' stderr='\\x1b[1;31mRuntime error\\x1b[0m: /tmp/probe-wykkgmeg/34-probe.sloppy.js:4:10: Uncaught Exception'",
     "Intl": "ReferenceError: Intl is not defined",
-    "RangeError": "ReferenceError: RangeError is not defined stdout=\"throw new RangeError();\\n          ^\\nError(Reference error: 'RangeError' is not defined)\" stderr='\\x1b[1;31mRuntime error\\x1b[0m: /tmp/probe-z005n69h/36-probe.sloppy.js:4:10: Uncaught Exception'",
+    "RangeError": "ReferenceError: RangeError is not defined stdout=\"throw new RangeError();\\n          ^\\nError(Reference error: 'RangeError' is not defined)\" stderr='\\x1b[1;31mRuntime error\\x1b[0m: /tmp/probe-9_ukitet/36-probe.sloppy.js:4:10: Uncaught Exception'",
     "ReferenceError": "OK",
     "SyntaxError": "OK",
     "Test262Error": "crashed: thread 'main' panicked at 'not implemented: Switch(Node { base: TernaryOp(Node { base: BinaryOp(Node { base: Identifier(\"value\"), loc: Loc(line:147,column:10,pos:4011) }, Node { base: Null, loc: Loc(l... stderr='thread \\'main\\' panicked at \\'not implemented: Switch(Node { base: TernaryOp(Node { base: BinaryOp(Node { base: Identifier(\"value\"), loc: Loc(line:147,column:10,pos:4011) }, Node { base: Null, loc: Loc(line:147,column:20,pos:4021) }, SEq), loc: Loc(line:147,column:20,pos:4021) }, Node { base: String(\"null\"), loc: Loc(line:147,column:27,pos:4028) }, Node { base: UnaryOp(Node { base: Identifier(\"value\"), loc: Loc(line:147,column:43,pos:4044) }, Typeof), loc: Loc(line:147,column:36,pos:4037) }), loc: Loc(line:147,column:10,pos:4011) }, Node { base: Block([Node { base: CaseLabel(Node { base: String(\"string\"), loc: Loc(line:148,column:9,pos:4062) }), loc: Loc(line:148,column:4,pos:4057) }, Node { base: Return(Some(Node { base: TernaryOp(Node { base: BinaryOp(Node { base: UnaryOp(Node { base: Identifier(\"JSON\"), loc: Loc(line:149,column:20,pos:4092) }, Typeof), loc: Loc(line:149,column:13,pos:4085) }, Node { base: String(\"undefined\"), loc: Loc(line:149,column:29,pos:4101) }, SNe), loc: Loc(line:149,column:29,pos:4101) }, Node { base: Call(Node { base: Member(Node { base: Identifier(\"JSON\"), loc: Loc(line:149,column:43,pos:4115) }, \"stringify\"), loc: Loc(line:149,column:43,pos:4115) }, [Node { base: Identifier(\"value\"), loc: Loc(line:149,column:58,pos:4130) }]), loc: Loc(line:149,column:43,pos:4115) }, Node { base: BinaryOp(Node { base: BinaryOp(Node { base: String(\"\\\\\"\"), loc: Loc(line:149,column:67,pos:4139) }, Node { base: Identifier(\"value\"), loc: Loc(line:149,column:73,pos:4145) }, Add), loc: Loc(line:149,column:73,pos:4145) }, Node { base: String(\"\\\\\"\"), loc: Loc(line:149,column:81,pos:4153) }, Add), loc: Loc(line:149,column:81,pos:4153) }), loc: Loc(line:149,column:13,pos:4085) })), loc: Loc(line:149,column:6,pos:4078) }, Node { base: CaseLabel(Node { base: String(\"bigint\"), loc: Loc(line:150,column:9,pos:4167) }), loc: Loc(line:150,column:4,pos:4162) }, Node { base: Return(Some(Node { base: BinaryOp(Node { base: Call(Node { base: Identifier(\"String\"), loc: Loc(line:151,column:13,pos:4190) }, [Node { base: Identifier(\"value\"), loc: Loc(line:151,column:20,pos:4197) }]), loc: Loc(line:151,column:13,pos:4190) }, Node { base: String(\"n\"), loc: Loc(line:151,column:29,pos:4206) }, Add), loc: Loc(line:151,column:29,pos:4206) })), loc: Loc(line:151,column:6,pos:4183) }, Node { base: CaseLabel(Node { base: String(\"number\"), loc: Loc(line:152,column:9,pos:4220) }), loc: Loc(line:152,column:4,pos:4215) }, Node { base: If(Node { base: BinaryOp(Node { base: BinaryOp(Node { base: Identifier(\"value\"), loc: Loc(line:153,column:10,pos:4240) }, Node { base: Number(0.0), loc: Loc(line:153,column:20,pos:4250) }, SEq), loc: Loc(line:153,column:20,pos:4250) }, Node { base: BinaryOp(Node { base: BinaryOp(Node { base: Number(1.0), loc: Loc(line:153,column:25,pos:4255) }, Node { base: Identifier(\"value\"), loc: Loc(line:153,column:29,pos:4259) }, Div), loc: Loc(line:153,column:29,pos:4259) }, Node { base: UnaryOp(Node { base: Identifier(\"Infinity\"), loc: Loc(line:153,column:40,pos:4270) }, Minus), loc: Loc(line:153,column:39,pos:4269) }, SEq), loc: Loc(line:153,column:39,pos:4269) }, LAnd), loc: Loc(line:153,column:25,pos:4255) }, Node { base: Return(Some(Node { base: String(\"-0\"), loc: Loc(line:153,column:57,pos:4287) })), loc: Loc(line:153,column:50,pos:4280) }, Node { base: Nope, loc: Loc(line:153,column:62,pos:4292) }), loc: Loc(line:153,column:6,pos:4236) }, Node { base: CaseLabel(Node { base: String(\"boolean\"), loc: Loc(line:155,column:9,pos:4325) }), loc: Loc(line:155,column:4,pos:4320) }, Node { base: CaseLabel(Node { base: String(\"undefined\"), loc: Loc(line:156,column:9,pos:4345) }), loc: Loc(line:156,column:4,pos:4340) }, Node { base: CaseLabel(Node { base: String(\"null\"), loc: Loc(line:157,column:9,pos:4367) }), loc: Loc(line:157,column:4,pos:4362) }, Node { base: Return(Some(Node { base: Call(Node { base: Identifier(\"String\"), loc: Loc(line:158,column:13,pos:4388) }, [Node { base: Identifier(\"value\"), loc: Loc(line:158,column:20,pos:4395) }]), loc: Loc(line:158,column:13,pos:4388) })), loc: Loc(line:158,column:6,pos:4381) }]), loc: Loc(line:147,column:51,pos:4052) })\\', core/src/vm/codegen.rs:230:22\\nnote: run with `RUST_BACKTRACE=1` environment variable to display a backtrace'",
-    "TypeError": "ReferenceError: TypeError is not defined stdout=\"throw new TypeError();\\n          ^\\nError(Reference error: 'TypeError' is not defined)\" stderr='\\x1b[1;31mRuntime error\\x1b[0m: /tmp/probe-8obkn72v/35-probe.sloppy.js:4:10: Uncaught Exception'",
+    "TypeError": "ReferenceError: TypeError is not defined stdout=\"throw new TypeError();\\n          ^\\nError(Reference error: 'TypeError' is not defined)\" stderr='\\x1b[1;31mRuntime error\\x1b[0m: /tmp/probe-tzbnj713/36-probe.sloppy.js:4:10: Uncaught Exception'",
     "annexB": "ReferenceError: escape is not defined",
     "assert.throws": "OK",
-    "async": "SyntaxError: /tmp/probe-j_enov2s/33-probe.sloppy.js:216:61: expect ')'",
+    "async": "SyntaxError: /tmp/probe-_8y3vhwg/34-probe.sloppy.js:216:61: expect ')'",
     "eval": "ReferenceError: eval is not defined",
     "harness": "crashed: thread 'main' panicked at 'not implemented: Switch(Node { base: TernaryOp(Node { base: BinaryOp(Node { base: Identifier(\"value\"), loc: Loc(line:147,column:10,pos:4011) }, Node { base: Null, loc: Loc(l...",
     "module-export": "marker not found",
@@ -47,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 3602, "fail": 49529, "pass_percent": 6.779},
+    "esnext": {"pass": 171, "fail": 8153, "pass_percent": 2.054},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"fail": 1484, "pass_percent": 0.0},
     "annexb": {"pass": 7, "fail": 1079, "pass_percent": 0.645},
+    "ex-intl": {"pass": 3602, "fail": 46206, "pass_percent": 7.232},
     "ex-staging": {"pass": 3602, "fail": 48045, "pass_percent": 6.974},
     "ex-staging-intl": {"pass": 3602, "fail": 44722, "pass_percent": 7.454},
     "ex-staging-intl-annexb": {"pass": 3595, "fail": 43643, "pass_percent": 7.61},
@@ -324,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 2611.623,
+    "total_user_sec": 9898.419,
+    "total_sys_sec": 85.557,
+    "peak_rss_mb": 47.5,
+    "wall_time_s": {
+      "test/language/expressions/postfix-increment/whitespace.strict.js": 60.066,
+      "test/language/white-space/after-regular-expression-literal-four-per-em-space.strict.js": 60.066,
+      "test/language/white-space/after-regular-expression-literal-punctuation-space.strict.js": 60.066,
+      "test/language/line-terminators/invalid-regexp-cr.strict.js": 60.066,
+      "test/annexB/language/comments/single-line-html-close-unicode-separators.strict.js": 60.065,
+      "test/language/literals/regexp/regexp-source-char-no-line-separator.strict.js": 60.065,
+      "test/language/white-space/after-regular-expression-literal-thin-space.strict.js": 60.065,
+      "test/language/literals/regexp/regexp-source-char-no-paragraph-separator.strict.js": 60.065,
+      "test/language/white-space/after-regular-expression-literal-six-per-em-space.strict.js": 60.065,
+      "test/built-ins/Promise/race/resolve-non-callable.strict.js": 60.065
+    },
+    "duration_sec": {
+      "test/language/expressions/postfix-increment/whitespace.strict.js": 60.066,
+      "test/language/white-space/after-regular-expression-literal-four-per-em-space.strict.js": 60.066,
+      "test/language/white-space/after-regular-expression-literal-punctuation-space.strict.js": 60.066,
+      "test/language/line-terminators/invalid-regexp-cr.strict.js": 60.066,
+      "test/annexB/language/comments/single-line-html-close-unicode-separators.strict.js": 60.065,
+      "test/language/literals/regexp/regexp-source-char-no-line-separator.strict.js": 60.065,
+      "test/language/white-space/after-regular-expression-literal-thin-space.strict.js": 60.065,
+      "test/language/literals/regexp/regexp-source-char-no-paragraph-separator.strict.js": 60.065,
+      "test/language/white-space/after-regular-expression-literal-six-per-em-space.strict.js": 60.065,
+      "test/built-ins/Promise/race/resolve-non-callable.strict.js": 60.065
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 47.5,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 47.5,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.sloppy.js": 47.5,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.strict.js": 47.5,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 47.5,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 47.5,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 47.5,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 47.5,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.sloppy.js": 47.5,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.strict.js": 47.5
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": {"sloppy": "crashed: thread 'main' panicked at 'not implemented: Switch(Node { base: TernaryOp(Node { base: BinaryOp(Node { base: Identifier(\"value\"), loc: Loc(line:147,column:10,pos:4011) }, Node { base: Null, loc: Loc(l...", "strict": "crashed: thread 'main' panicked at 'not implemented: Switch(Node { base: TernaryOp(Node { base: BinaryOp(Node { base: Identifier(\"value\"), loc: Loc(line:147,column:10,pos:4009) }, Node { base: Null, loc: Loc(l..."},
@@ -53457,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: 8.12.5-01.js:248:11: expect '('.",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: import-source-source-text-module.js:216:61: expect ')'",
     "test/staging/top-level-await/tla-hang-entry.js": "NoAsyncTestComplete"
-  },
-  "rusage": {
-    "total_time_s": 2633.804,
-    "peak_rss_mb": 49.5,
-    "wall_time_s": {
-      "test/language/line-terminators/between-tokens-ps.sloppy.js": 60.067,
-      "test/language/statements/continue/line-terminators.strict.js": 60.067,
-      "test/language/expressions/arrow-function/arrow/capturing-closure-variables-1.strict.js": 60.066,
-      "test/language/expressions/arrow-function/arrow/binding-tests-3.js": 60.066,
-      "test/language/literals/regexp/regexp-source-char-no-paragraph-separator.strict.js": 60.066,
-      "test/language/expressions/logical-assignment/lgcl-nullish-whitespace.strict.js": 60.066,
-      "test/language/expressions/compound-assignment/urshift-whitespace.strict.js": 60.066,
-      "test/language/expressions/arrow-function/arrow/binding-tests-1.js": 60.065,
-      "test/built-ins/Promise/allSettled/resolve-non-callable.strict.js": 60.065,
-      "test/language/line-terminators/between-tokens-ls.strict.js": 60.065
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.strict.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 49.5
-    }
   }
 }

@@ -53,9 +53,11 @@
   },
   "summary": {
     "all": {"pass": 15899, "fail": 37232, "pass_percent": 29.924},
+    "esnext": {"pass": 159, "fail": 8165, "pass_percent": 1.91},
     "intl": {"pass": 12, "fail": 3311, "pass_percent": 0.361},
     "staging": {"pass": 280, "fail": 1204, "pass_percent": 18.868},
     "annexb": {"pass": 428, "fail": 658, "pass_percent": 39.411},
+    "ex-intl": {"pass": 15887, "fail": 33921, "pass_percent": 31.896},
     "ex-staging": {"pass": 15619, "fail": 36028, "pass_percent": 30.242},
     "ex-staging-intl": {"pass": 15607, "fail": 32717, "pass_percent": 32.297},
     "ex-staging-intl-annexb": {"pass": 15179, "fail": 32059, "pass_percent": 32.133},
@@ -330,6 +332,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 3, "fail": 323, "pass_percent": 0.92},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 294.359,
+    "total_user_sec": 305.242,
+    "total_sys_sec": 268.928,
+    "peak_rss_mb": 111.5,
+    "wall_time_s": {
+      "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.sloppy.js": 60.042,
+      "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.strict.js": 60.028,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.781,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.762,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 1.748,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 1.746,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.741,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.738,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.722,
+      "test/staging/sm/Date/dst-offset-caching-1-of-8.sloppy.js": 1.413
+    },
+    "duration_sec": {
+      "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.sloppy.js": 60.042,
+      "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.strict.js": 60.028,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.781,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.762,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 1.748,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 1.746,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.741,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.738,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.722,
+      "test/staging/sm/Date/dst-offset-caching-1-of-8.sloppy.js": 1.413
+    },
+    "rss_mb": {
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 111.5,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.strict.js": 111.5,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 111.5,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.strict.js": 111.4,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 111.4,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 111.4,
+      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 111.4,
+      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 111.4,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 111.4,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 111.4
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: Symbol is not defined",
@@ -53463,33 +53507,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: missing ) after argument list:",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: import is a reserved identifier:"
-  },
-  "rusage": {
-    "total_time_s": 193.555,
-    "peak_rss_mb": 111.6,
-    "wall_time_s": {
-      "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.sloppy.js": 60.065,
-      "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.strict.js": 60.064,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.952,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.818,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.796,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.696,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 1.696,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.682,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 1.552,
-      "test/staging/sm/Date/dst-offset-caching-1-of-8.sloppy.js": 1.383
-    },
-    "rss_mb": {
-      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 111.6,
-      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.strict.js": 111.6,
-      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.strict.js": 111.5,
-      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 111.5,
-      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 111.5,
-      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 111.5,
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 111.5,
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 111.5,
-      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-class-range.sloppy.js": 111.5,
-      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-class-range.strict.js": 111.5
-    }
   }
 }

@@ -5,10 +5,7 @@
     "binary_sha256": "39ac9614d0b13a06cbc954b374a4d8f28ae870539bd0bef4cc94fd0bf76f8982",
     "binary_size": 1428512,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "quickjit",
     "repository": "https://github.com/bnoordhuis/quickjit.git",
     "revision": "d5a3e722aecb8412330282739b409bec1298eabe",
@@ -50,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 33582, "fail": 19549, "pass_percent": 63.206},
+    "esnext": {"pass": 297, "fail": 8027, "pass_percent": 3.568},
     "intl": {"pass": 20, "fail": 3303, "pass_percent": 0.602},
     "staging": {"pass": 888, "fail": 596, "pass_percent": 59.838},
     "annexb": {"pass": 901, "fail": 185, "pass_percent": 82.965},
+    "ex-intl": {"pass": 33562, "fail": 16246, "pass_percent": 67.383},
     "ex-staging": {"pass": 32694, "fail": 18953, "pass_percent": 63.303},
     "ex-staging-intl": {"pass": 32674, "fail": 15650, "pass_percent": 67.614},
     "ex-staging-intl-annexb": {"pass": 31773, "fail": 15465, "pass_percent": 67.262},
@@ -327,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 1, "fail": 325, "pass_percent": 0.307},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 1011.224,
+    "total_user_sec": 2334.806,
+    "total_sys_sec": 347.869,
+    "peak_rss_mb": 4101.5,
+    "wall_time_s": {
+      "test/language/expressions/call/eval-spread.strict.js": 60.079,
+      "test/language/statements/for-of/iterator-close-throw-get-method-non-callable.strict.js": 60.066,
+      "test/built-ins/String/prototype/repeat/repeat-string-n-times.strict.js": 60.066,
+      "test/language/statements/for-of/iterator-close-throw-get-method-non-callable.sloppy.js": 60.065,
+      "test/language/statements/while/S12.6.2_A4_T5.strict.js": 60.065,
+      "test/staging/sm/extensions/bug472534.strict.js": 60.063,
+      "test/language/statements/for-of/iterator-close-throw-get-method-abrupt.sloppy.js": 60.063,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 60.063,
+      "test/language/statements/for-of/iterator-close-throw-get-method-abrupt.strict.js": 60.063,
+      "test/language/statements/for/head-init-expr-check-empty-inc-empty-syntax.strict.js": 60.062
+    },
+    "duration_sec": {
+      "test/language/expressions/call/eval-spread.strict.js": 60.079,
+      "test/language/statements/for-of/iterator-close-throw-get-method-non-callable.strict.js": 60.066,
+      "test/built-ins/String/prototype/repeat/repeat-string-n-times.strict.js": 60.066,
+      "test/language/statements/for-of/iterator-close-throw-get-method-non-callable.sloppy.js": 60.065,
+      "test/language/statements/while/S12.6.2_A4_T5.strict.js": 60.065,
+      "test/staging/sm/extensions/bug472534.strict.js": 60.063,
+      "test/language/statements/for-of/iterator-close-throw-get-method-abrupt.sloppy.js": 60.063,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 60.063,
+      "test/language/statements/for-of/iterator-close-throw-get-method-abrupt.strict.js": 60.063,
+      "test/language/statements/for/head-init-expr-check-empty-inc-empty-syntax.strict.js": 60.062
+    },
+    "rss_mb": {
+      "test/staging/sm/lexical-environment/for-loop.strict.js": 4101.5,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 4101.1,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 4101.1,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 4101.1,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 4101.1,
+      "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 4101.1,
+      "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 4101.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 4101.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 4101.1,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 4101.1
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: Exception in iterator-method-emulates-undefined.js: ReferenceError: '$262' is not defined",
@@ -53167,7 +53208,7 @@
     "test/staging/sm/lexical-environment/const-declaration-in-for-loop.js": "OK",
     "test/staging/sm/lexical-environment/eval-has-lexical-environment.js": "OK",
     "test/staging/sm/lexical-environment/for-loop-with-bindings-added-at-runtime.js": "OK",
-    "test/staging/sm/lexical-environment/for-loop.js": {"sloppy": "OK", "strict": "OOM: >3584MB"},
+    "test/staging/sm/lexical-environment/for-loop.js": {"sloppy": "OK", "strict": "OOM: >4096MB"},
     "test/staging/sm/lexical-environment/implicit-this-in-with.js": "OK",
     "test/staging/sm/lexical-environment/unscopables-basics.js": "OK",
     "test/staging/sm/lexical-environment/unscopables-closures.js": "ReferenceError: Exception in unscopables-closures.js: ReferenceError: 'y' is not defined",
@@ -53460,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Exception in import-source-source-text-module.js: SyntaxError: meta expected",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: Exception in tla-hang-entry.js: SyntaxError: expecting '('"
-  },
-  "rusage": {
-    "total_time_s": 953.792,
-    "peak_rss_mb": 3588.8,
-    "wall_time_s": {
-      "test/language/expressions/call/eval-spread.strict.js": 60.105,
-      "test/language/statements/for-of/iterator-close-throw-get-method-non-callable.strict.js": 60.067,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 60.066,
-      "test/language/statements/do-while/S12.6.1_A4_T5.strict.js": 60.066,
-      "test/built-ins/String/prototype/repeat/repeat-string-n-times.strict.js": 60.065,
-      "test/language/statements/for-of/iterator-close-throw-get-method-abrupt.strict.js": 60.064,
-      "test/language/statements/for/head-init-var-check-empty-inc-empty-syntax.strict.js": 60.064,
-      "test/staging/sm/extensions/bug472534.strict.js": 60.064,
-      "test/staging/sm/statements/for-of-iterator-close.sloppy.js": 60.063,
-      "test/language/statements/for/head-init-expr-check-empty-inc-empty-syntax.strict.js": 60.063
-    },
-    "rss_mb": {
-      "test/staging/sm/lexical-environment/for-loop.strict.js": 3588.8,
-      "test/built-ins/Array/prototype/reduce/15.4.4.21-5-11.sloppy.js": 3588.4,
-      "test/built-ins/Array/prototype/reduce/15.4.4.21-5-11.strict.js": 3588.4,
-      "test/built-ins/Function/StrictFunction_restricted-properties.js": 3588.4,
-      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Old_North_Arabian.sloppy.js": 3588.4,
-      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Old_North_Arabian.strict.js": 3588.4,
-      "test/intl402/Locale/constructor-unicode-ext-valid.sloppy.js": 3588.4,
-      "test/intl402/Locale/constructor-unicode-ext-valid.strict.js": 3588.4,
-      "test/intl402/Temporal/ZonedDateTime/prototype/toPlainDateTime/basic.sloppy.js": 3588.4,
-      "test/intl402/Temporal/ZonedDateTime/prototype/toPlainDateTime/basic.strict.js": 3588.4
-    }
   }
 }

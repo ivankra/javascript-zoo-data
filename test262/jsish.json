@@ -22,13 +22,13 @@
     "$262.evalScript": "marker not found",
     "$262.gc": "marker not found",
     "$262.global": "marker not found",
-    "EvalError": "can not execute expression: 'EvalError' not a function stderr=\"/tmp/probe-4rm0ajnx/35-probe.sloppy.js:10: error: can not execute expression: 'EvalError' not a function\\nERROR:\"",
+    "EvalError": "can not execute expression: 'EvalError' not a function stderr=\"/tmp/probe-j0furf4g/35-probe.sloppy.js:10: error: can not execute expression: 'EvalError' not a function\\nERROR:\"",
     "Intl": "marker not found",
-    "RangeError": "can not execute expression: 'RangeError' not a function stderr=\"/tmp/probe-xtufuxsk/36-probe.sloppy.js:10: error: can not execute expression: 'RangeError' not a function\\nERROR:\"",
-    "ReferenceError": "SyntaxError: unexpected IDENTIFIER, expecting end of file stderr='/tmp/probe-r3rfpfpz/34-probe.sloppy.js:13: parse: :13.2: error: syntax error, unexpected IDENTIFIER, expecting end of file\\nERROR:'",
+    "RangeError": "can not execute expression: 'RangeError' not a function stderr=\"/tmp/probe-fjwa0tf8/33-probe.sloppy.js:10: error: can not execute expression: 'RangeError' not a function\\nERROR:\"",
+    "ReferenceError": "SyntaxError: unexpected IDENTIFIER, expecting end of file stderr='/tmp/probe-lqdtgxoh/35-probe.sloppy.js:13: parse: :13.2: error: syntax error, unexpected IDENTIFIER, expecting end of file\\nERROR:'",
     "SyntaxError": "OK",
-    "Test262Error": "invalid redefine of builtin: assert stderr='/tmp/probe-uh8m2rdp/33-probe.sloppy.js:19: error: invalid redefine of builtin: assert\\nERROR:'",
-    "TypeError": "can not execute expression: 'TypeError' not a function stderr=\"/tmp/probe-yatcny_a/33-probe.sloppy.js:10: error: can not execute expression: 'TypeError' not a function\\nERROR:\"",
+    "Test262Error": "invalid redefine of builtin: assert stderr='/tmp/probe-tklatu08/34-probe.sloppy.js:19: error: invalid redefine of builtin: assert\\nERROR:'",
+    "TypeError": "can not execute expression: 'TypeError' not a function stderr=\"/tmp/probe-9v545kog/36-probe.sloppy.js:10: error: can not execute expression: 'TypeError' not a function\\nERROR:\"",
     "annexB": "marker not found",
     "assert.throws": "assign to readonly variable",
     "async": "invalid redefine of builtin: assert",
@@ -48,9 +48,11 @@
   },
   "summary": {
     "all": {"pass": 4027, "fail": 49104, "pass_percent": 7.579},
+    "esnext": {"pass": 156, "fail": 8168, "pass_percent": 1.874},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"pass": 6, "fail": 1478, "pass_percent": 0.404},
     "annexb": {"pass": 6, "fail": 1080, "pass_percent": 0.552},
+    "ex-intl": {"pass": 4027, "fail": 45781, "pass_percent": 8.085},
     "ex-staging": {"pass": 4021, "fail": 47626, "pass_percent": 7.786},
     "ex-staging-intl": {"pass": 4021, "fail": 44303, "pass_percent": 8.321},
     "ex-staging-intl-annexb": {"pass": 4015, "fail": 43223, "pass_percent": 8.5},
@@ -325,6 +327,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 201.983,
+    "total_user_sec": 282.875,
+    "total_sys_sec": 210.847,
+    "peak_rss_mb": 49.1,
+    "wall_time_s": {
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 52.597,
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 51.374,
+      "test/staging/sm/regress/regress-561031.sloppy.js": 0.19,
+      "test/staging/sm/regress/regress-561031.strict.js": 0.184,
+      "test/staging/sm/extensions/dataview.strict.js": 0.128,
+      "test/staging/sm/extensions/dataview.sloppy.js": 0.122,
+      "test/staging/sm/String/string-code-point-upper-lower-mapping.strict.js": 0.065,
+      "test/staging/sm/String/string-code-point-upper-lower-mapping.sloppy.js": 0.061,
+      "test/language/expressions/right-shift/S11.7.2_A4_T1.strict.js": 0.044,
+      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T3.sloppy.js": 0.042
+    },
+    "duration_sec": {
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 52.597,
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 51.374,
+      "test/staging/sm/regress/regress-561031.sloppy.js": 0.19,
+      "test/staging/sm/regress/regress-561031.strict.js": 0.184,
+      "test/staging/sm/extensions/dataview.strict.js": 0.128,
+      "test/staging/sm/extensions/dataview.sloppy.js": 0.122,
+      "test/staging/sm/String/string-code-point-upper-lower-mapping.strict.js": 0.065,
+      "test/staging/sm/String/string-code-point-upper-lower-mapping.sloppy.js": 0.061,
+      "test/language/expressions/right-shift/S11.7.2_A4_T1.strict.js": 0.044,
+      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T3.sloppy.js": 0.042
+    },
+    "rss_mb": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 49.1,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 48.8,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 48.8,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.sloppy.js": 48.8,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.strict.js": 48.8,
+      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/prop-desc.sloppy.js": 48.8,
+      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/prop-desc.strict.js": 48.8,
+      "test/annexB/built-ins/String/prototype/bold/prop-desc.sloppy.js": 48.8,
+      "test/annexB/built-ins/String/prototype/bold/prop-desc.strict.js": 48.8,
+      "test/annexB/language/eval-code/direct/func-if-decl-else-decl-b-eval-func-skip-early-err-for-in.js": 48.8
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "invalid redefine of builtin: assert",
@@ -53458,33 +53502,5 @@
     "test/staging/sm/types/8.12.5-01.js": "invalid redefine of builtin: assert",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: invalid redefine of builtin: assert; unexpected '}'",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: tla-hang-entry.js:242: SyntaxError: unexpected STRING, expecting end of file"
-  },
-  "rusage": {
-    "total_time_s": 209.125,
-    "peak_rss_mb": 49.2,
-    "wall_time_s": {
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 54.467,
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 52.908,
-      "test/staging/sm/regress/regress-561031.strict.js": 0.191,
-      "test/staging/sm/regress/regress-561031.sloppy.js": 0.185,
-      "test/staging/sm/extensions/dataview.sloppy.js": 0.127,
-      "test/staging/sm/extensions/dataview.strict.js": 0.126,
-      "test/staging/sm/String/string-code-point-upper-lower-mapping.sloppy.js": 0.062,
-      "test/staging/sm/String/string-code-point-upper-lower-mapping.strict.js": 0.06,
-      "test/language/expressions/right-shift/S11.7.2_A4_T2.strict.js": 0.047,
-      "test/language/expressions/left-shift/S11.7.1_A4_T1.sloppy.js": 0.045
-    },
-    "rss_mb": {
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 49.2,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.sloppy.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.strict.js": 49.0,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 49.0,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 49.0,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 49.0
-    }
   }
 }

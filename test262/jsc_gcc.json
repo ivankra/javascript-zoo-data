@@ -58,9 +58,11 @@
   },
   "summary": {
     "all": {"pass": 48969, "fail": 4162, "pass_percent": 92.167},
+    "esnext": {"pass": 4295, "fail": 4029, "pass_percent": 51.598},
     "intl": {"pass": 1292, "fail": 2031, "pass_percent": 38.881},
     "staging": {"pass": 1440, "fail": 44, "pass_percent": 97.035},
     "annexb": {"pass": 1085, "fail": 1, "pass_percent": 99.908},
+    "ex-intl": {"pass": 47677, "fail": 2131, "pass_percent": 95.722},
     "ex-staging": {"pass": 47529, "fail": 4118, "pass_percent": 92.027},
     "ex-staging-intl": {"pass": 46237, "fail": 2087, "pass_percent": 95.681},
     "ex-staging-intl-annexb": {"pass": 45152, "fail": 2086, "pass_percent": 95.584},
@@ -335,6 +337,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 324, "fail": 2, "pass_percent": 99.387},
     "ref:$262.evalScript": {"pass": 31, "pass_percent": 100.0},
     "ref:$262.gc": {"pass": 13, "fail": 2, "pass_percent": 86.667}
+  },
+  "rusage": {
+    "total_duration_sec": 416.039,
+    "total_user_sec": 818.725,
+    "total_sys_sec": 456.233,
+    "peak_rss_mb": 2911.2,
+    "wall_time_s": {
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.065,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.063,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 33.469,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.sloppy.js": 31.834,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.strict.js": 31.614,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.sloppy.js": 29.953,
+      "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.strict.js": 12.698,
+      "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.sloppy.js": 12.28,
+      "test/built-ins/RegExp/property-escapes/generated/Any.strict.js": 11.699,
+      "test/built-ins/RegExp/property-escapes/generated/ID_Start.sloppy.js": 11.56
+    },
+    "duration_sec": {
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.065,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.063,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 33.469,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.sloppy.js": 31.834,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.strict.js": 31.614,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.sloppy.js": 29.953,
+      "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.strict.js": 12.698,
+      "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.sloppy.js": 12.28,
+      "test/built-ins/RegExp/property-escapes/generated/Any.strict.js": 11.699,
+      "test/built-ins/RegExp/property-escapes/generated/ID_Start.sloppy.js": 11.56
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 2911.2,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 2911.2,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 2911.2,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 2911.2,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 2911.2,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 2911.2,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 2911.2,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 2911.2,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 2911.2,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 2911.2
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "OK",
@@ -53468,33 +53512,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Unexpected identifier 'source'. \"import.\" can only be followed with meta.",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 429.672,
-    "peak_rss_mb": 2750.7,
-    "wall_time_s": {
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.063,
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.005,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 30.74,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.strict.js": 30.265,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.sloppy.js": 29.025,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.sloppy.js": 28.354,
-      "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.strict.js": 12.711,
-      "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.sloppy.js": 12.177,
-      "test/built-ins/RegExp/property-escapes/generated/Any.strict.js": 11.34,
-      "test/built-ins/RegExp/property-escapes/generated/ID_Start.sloppy.js": 11.293
-    },
-    "rss_mb": {
-      "test/annexB/language/eval-code/direct/func-if-decl-else-decl-a-eval-func-skip-early-err-block.js": 2750.7,
-      "test/annexB/language/eval-code/direct/func-if-decl-else-decl-b-eval-func-skip-early-err-for-in.js": 2750.7,
-      "test/annexB/language/eval-code/indirect/global-if-decl-no-else-eval-global-skip-early-err-for-of.js": 2750.7,
-      "test/annexB/language/eval-code/indirect/global-switch-dflt-eval-global-block-scoping.js": 2750.7,
-      "test/annexB/language/function-code/if-decl-else-stmt-func-skip-early-err.js": 2750.7,
-      "test/annexB/language/global-code/if-stmt-else-decl-global-existing-block-fn-update.js": 2750.7,
-      "test/annexB/language/global-code/if-stmt-else-decl-global-skip-early-err-try.js": 2750.7,
-      "test/annexB/language/global-code/switch-dflt-global-existing-fn-no-init.js": 2750.7,
-      "test/built-ins/Array/isArray/15.4.3.2-1-2.sloppy.js": 2750.7,
-      "test/built-ins/Array/isArray/15.4.3.2-1-2.strict.js": 2750.7
-    }
   }
 }

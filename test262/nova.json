@@ -55,9 +55,11 @@
   },
   "summary": {
     "all": {"pass": 41287, "fail": 11844, "pass_percent": 77.708},
+    "esnext": {"pass": 967, "fail": 7357, "pass_percent": 11.617},
     "intl": {"pass": 26, "fail": 3297, "pass_percent": 0.782},
     "staging": {"pass": 1076, "fail": 408, "pass_percent": 72.507},
     "annexb": {"pass": 566, "fail": 520, "pass_percent": 52.118},
+    "ex-intl": {"pass": 41261, "fail": 8547, "pass_percent": 82.84},
     "ex-staging": {"pass": 40211, "fail": 11436, "pass_percent": 77.857},
     "ex-staging-intl": {"pass": 40185, "fail": 8139, "pass_percent": 83.157},
     "ex-staging-intl-annexb": {"pass": 39619, "fail": 7619, "pass_percent": 83.871},
@@ -332,6 +334,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 317, "fail": 9, "pass_percent": 97.239},
     "ref:$262.evalScript": {"pass": 13, "fail": 18, "pass_percent": 41.935},
     "ref:$262.gc": {"pass": 13, "fail": 2, "pass_percent": 86.667}
+  },
+  "rusage": {
+    "total_duration_sec": 829.014,
+    "total_user_sec": 2395.435,
+    "total_sys_sec": 353.575,
+    "peak_rss_mb": 4108.1,
+    "wall_time_s": {
+      "test/built-ins/Promise/allSettled/invoke-then-get-error-close.sloppy.js": 60.076,
+      "test/built-ins/Promise/race/invoke-then-error-close.strict.js": 60.073,
+      "test/built-ins/Promise/allSettled/invoke-then-get-error-close.strict.js": 60.073,
+      "test/built-ins/Promise/race/invoke-then-error-close.sloppy.js": 60.073,
+      "test/built-ins/Promise/race/invoke-then-get-error-close.sloppy.js": 60.073,
+      "test/built-ins/Promise/allSettled/invoke-then-error-close.sloppy.js": 60.073,
+      "test/built-ins/Promise/allSettled/invoke-then-error-close.strict.js": 60.072,
+      "test/built-ins/Promise/all/invoke-then-error-close.strict.js": 60.072,
+      "test/built-ins/Promise/all/invoke-then-get-error-close.sloppy.js": 60.072,
+      "test/built-ins/Promise/any/invoke-then-get-error-close.strict.js": 60.072
+    },
+    "duration_sec": {
+      "test/built-ins/Promise/allSettled/invoke-then-get-error-close.sloppy.js": 60.076,
+      "test/built-ins/Promise/race/invoke-then-error-close.strict.js": 60.073,
+      "test/built-ins/Promise/allSettled/invoke-then-get-error-close.strict.js": 60.073,
+      "test/built-ins/Promise/race/invoke-then-error-close.sloppy.js": 60.073,
+      "test/built-ins/Promise/race/invoke-then-get-error-close.sloppy.js": 60.073,
+      "test/built-ins/Promise/allSettled/invoke-then-error-close.sloppy.js": 60.073,
+      "test/built-ins/Promise/allSettled/invoke-then-error-close.strict.js": 60.072,
+      "test/built-ins/Promise/all/invoke-then-error-close.strict.js": 60.072,
+      "test/built-ins/Promise/all/invoke-then-get-error-close.sloppy.js": 60.072,
+      "test/built-ins/Promise/any/invoke-then-get-error-close.strict.js": 60.072
+    },
+    "rss_mb": {
+      "test/staging/sm/String/replace-math.sloppy.js": 4108.1,
+      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 4107.8,
+      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 4107.8,
+      "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 4107.8,
+      "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 4107.8,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 4107.8,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 4107.8,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.sloppy.js": 4107.8,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.strict.js": 4107.8,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 4107.8
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
@@ -52715,7 +52759,7 @@
     "test/staging/sm/String/replace-GetMethod.js": "OK",
     "test/staging/sm/String/replace-bad-dollar-single-quote.js": "OK",
     "test/staging/sm/String/replace-flags.js": "OK",
-    "test/staging/sm/String/replace-math.js": "OOM: >3584MB",
+    "test/staging/sm/String/replace-math.js": "OOM: >4096MB",
     "test/staging/sm/String/replace-throws-nonwritable-lastIndex-global.js": "Test262Error: Expected SameValue(\u00ab0\u00bb, \u00ab3\u00bb) to be true",
     "test/staging/sm/String/replace-updates-global-lastIndex.js": "OK",
     "test/staging/sm/String/replace.js": "OK",
@@ -53465,33 +53509,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "AsyncTestFailure: Promise should be rejected with SyntaxError Expected a SyntaxError to be thrown asynchronously but no exception was thrown at all",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 813.907,
-    "peak_rss_mb": 3587.9,
-    "wall_time_s": {
-      "test/built-ins/Promise/race/invoke-then-get-error-close.strict.js": 60.083,
-      "test/built-ins/Promise/all/invoke-then-error-close.sloppy.js": 60.08,
-      "test/built-ins/Promise/all/invoke-then-error-close.strict.js": 60.076,
-      "test/built-ins/Promise/allSettled/invoke-then-error-close.strict.js": 60.076,
-      "test/built-ins/Promise/all/invoke-then-get-error-close.strict.js": 60.075,
-      "test/built-ins/Promise/race/invoke-then-error-close.strict.js": 60.075,
-      "test/built-ins/Promise/allSettled/invoke-then-get-error-close.strict.js": 60.074,
-      "test/built-ins/Promise/allSettled/invoke-then-get-error-close.sloppy.js": 60.074,
-      "test/built-ins/Promise/allSettled/invoke-then-error-close.sloppy.js": 60.073,
-      "test/built-ins/Promise/race/invoke-then-error-close.sloppy.js": 60.073
-    },
-    "rss_mb": {
-      "test/staging/sm/String/replace-math.strict.js": 3587.9,
-      "test/annexB/built-ins/RegExp/prototype/compile/flags-string-invalid.sloppy.js": 3587.7,
-      "test/annexB/built-ins/RegExp/prototype/compile/flags-string-invalid.strict.js": 3587.7,
-      "test/annexB/built-ins/String/prototype/fontsize/length.sloppy.js": 3587.7,
-      "test/annexB/built-ins/String/prototype/fontsize/length.strict.js": 3587.7,
-      "test/annexB/language/eval-code/direct/func-if-decl-else-decl-b-eval-func-existing-fn-update.js": 3587.7,
-      "test/annexB/language/eval-code/direct/func-if-decl-else-decl-b-eval-func-skip-early-err-for.js": 3587.7,
-      "test/annexB/language/eval-code/direct/global-if-decl-else-decl-b-eval-global-existing-fn-update.js": 3587.7,
-      "test/annexB/language/eval-code/direct/global-if-decl-else-decl-b-eval-global-existing-var-update.js": 3587.7,
-      "test/annexB/language/eval-code/direct/global-if-decl-else-stmt-eval-global-block-scoping.js": 3587.7
-    }
   }
 }

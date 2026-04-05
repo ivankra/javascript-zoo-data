@@ -2,10 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jispy",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "dist_size": 82861,
     "engine": "jispy",
     "repository": "https://github.com/polydojo/jispy.git",
@@ -49,9 +46,11 @@
   },
   "summary": {
     "all": {"pass": 4633, "fail": 48498, "pass_percent": 8.72},
+    "esnext": {"pass": 261, "fail": 8063, "pass_percent": 3.136},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"pass": 7, "fail": 1477, "pass_percent": 0.472},
     "annexb": {"pass": 7, "fail": 1079, "pass_percent": 0.645},
+    "ex-intl": {"pass": 4633, "fail": 45175, "pass_percent": 9.302},
     "ex-staging": {"pass": 4626, "fail": 47021, "pass_percent": 8.957},
     "ex-staging-intl": {"pass": 4626, "fail": 43698, "pass_percent": 9.573},
     "ex-staging-intl-annexb": {"pass": 4619, "fail": 42619, "pass_percent": 9.778},
@@ -326,6 +325,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 2387.868,
+    "total_user_sec": 7583.829,
+    "total_sys_sec": 1470.818,
+    "peak_rss_mb": 48.4,
+    "wall_time_s": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.937,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.935,
+      "test/staging/sm/object/15.2.3.7-01.strict.js": 0.189,
+      "test/language/expressions/generators/dstr/ary-ptrn-rest-id-exhausted.sloppy.js": 0.188,
+      "test/built-ins/Temporal/ZonedDateTime/prototype/with/month-and-month-code-must-agree.strict.js": 0.184,
+      "test/language/expressions/class/accessor-name-inst/computed-err-evaluation.strict.js": 0.178,
+      "test/language/statements/async-generator/dstr/dflt-obj-ptrn-list-err.sloppy.js": 0.174,
+      "test/language/statements/function/dstr/dflt-obj-ptrn-list-err.sloppy.js": 0.171,
+      "test/language/block-scope/syntax/redeclaration/async-generator-name-redeclaration-attempt-with-class.strict.js": 0.167,
+      "test/built-ins/Object/defineProperties/15.2.3.7-6-a-74.strict.js": 0.163
+    },
+    "duration_sec": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.937,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.935,
+      "test/staging/sm/object/15.2.3.7-01.strict.js": 0.189,
+      "test/language/expressions/generators/dstr/ary-ptrn-rest-id-exhausted.sloppy.js": 0.188,
+      "test/built-ins/Temporal/ZonedDateTime/prototype/with/month-and-month-code-must-agree.strict.js": 0.184,
+      "test/language/expressions/class/accessor-name-inst/computed-err-evaluation.strict.js": 0.178,
+      "test/language/statements/async-generator/dstr/dflt-obj-ptrn-list-err.sloppy.js": 0.174,
+      "test/language/statements/function/dstr/dflt-obj-ptrn-list-err.sloppy.js": 0.171,
+      "test/language/block-scope/syntax/redeclaration/async-generator-name-redeclaration-attempt-with-class.strict.js": 0.167,
+      "test/built-ins/Object/defineProperties/15.2.3.7-6-a-74.strict.js": 0.163
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 48.4,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 48.4,
+      "test/annexB/built-ins/String/prototype/fontsize/this-val-tostring-err.sloppy.js": 48.4,
+      "test/annexB/built-ins/String/prototype/fontsize/this-val-tostring-err.strict.js": 48.4,
+      "test/annexB/built-ins/escape/length.sloppy.js": 48.4,
+      "test/annexB/built-ins/escape/length.strict.js": 48.4,
+      "test/annexB/language/eval-code/direct/func-if-decl-no-else-eval-func-init.js": 48.4,
+      "test/annexB/language/eval-code/direct/func-if-stmt-else-decl-eval-func-existing-fn-no-init.js": 48.4,
+      "test/annexB/language/eval-code/direct/func-switch-dflt-eval-func-existing-block-fn-update.js": 48.4,
+      "test/annexB/language/eval-code/direct/func-switch-dflt-eval-func-skip-early-err-for.js": 48.4
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "SyntaxError: unexpected token --",
@@ -53459,33 +53500,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: unexpected token --",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: unexpected token --",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: EOL while scanning string literal"
-  },
-  "rusage": {
-    "total_time_s": 2410.955,
-    "peak_rss_mb": 48.8,
-    "wall_time_s": {
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.937,
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.933,
-      "test/built-ins/DataView/prototype/setFloat64/this-has-no-dataview-internal.strict.js": 0.21,
-      "test/built-ins/RegExp/named-groups/functional-replace-non-global.sloppy.js": 0.184,
-      "test/built-ins/Array/prototype/push/S15.4.4.7_A4_T3.strict.js": 0.172,
-      "test/language/statements/class/dstr/private-meth-static-dflt-ary-ptrn-elem-obj-prop-id-init.sloppy.js": 0.172,
-      "test/built-ins/RegExp/property-escapes/unsupported-binary-property-Expands_On_NFC-negated.strict.js": 0.17,
-      "test/built-ins/Temporal/Instant/builtin.strict.js": 0.169,
-      "test/intl402/Temporal/ZonedDateTime/compare/infinity-throws-rangeerror.sloppy.js": 0.168,
-      "test/built-ins/Map/groupBy/toPropertyKey.sloppy.js": 0.168
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 48.8,
-      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 48.8,
-      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 48.8,
-      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 48.8,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 48.8,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 48.8,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 48.8,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 48.8,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 48.8,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 48.8
-    }
   }
 }

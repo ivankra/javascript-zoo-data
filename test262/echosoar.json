@@ -47,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 3515, "fail": 49616, "pass_percent": 6.616},
+    "esnext": {"pass": 248, "fail": 8076, "pass_percent": 2.979},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"pass": 7, "fail": 1477, "pass_percent": 0.472},
     "annexb": {"pass": 6, "fail": 1080, "pass_percent": 0.552},
+    "ex-intl": {"pass": 3515, "fail": 46293, "pass_percent": 7.057},
     "ex-staging": {"pass": 3508, "fail": 48139, "pass_percent": 6.792},
     "ex-staging-intl": {"pass": 3508, "fail": 44816, "pass_percent": 7.259},
     "ex-staging-intl-annexb": {"pass": 3502, "fail": 43736, "pass_percent": 7.414},
@@ -324,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 141.943,
+    "total_user_sec": 164.504,
+    "total_sys_sec": 114.238,
+    "peak_rss_mb": 121.6,
+    "wall_time_s": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.417,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.405,
+      "test/built-ins/Array/prototype/sort/stability-2048-elements.strict.js": 0.025,
+      "test/built-ins/Array/prototype/sort/stability-2048-elements.sloppy.js": 0.019,
+      "test/language/expressions/right-shift/S11.7.2_A4_T1.sloppy.js": 0.019,
+      "test/built-ins/Date/prototype/setMinutes/arg-ms-to-number.strict.js": 0.018,
+      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T2.sloppy.js": 0.018,
+      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T4.sloppy.js": 0.018,
+      "test/language/expressions/left-shift/S11.7.1_A4_T1.strict.js": 0.018,
+      "test/language/expressions/left-shift/S11.7.1_A4_T2.sloppy.js": 0.018
+    },
+    "duration_sec": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.417,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.405,
+      "test/built-ins/Array/prototype/sort/stability-2048-elements.strict.js": 0.025,
+      "test/built-ins/Array/prototype/sort/stability-2048-elements.sloppy.js": 0.019,
+      "test/language/expressions/right-shift/S11.7.2_A4_T1.sloppy.js": 0.019,
+      "test/built-ins/Date/prototype/setMinutes/arg-ms-to-number.strict.js": 0.018,
+      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T2.sloppy.js": 0.018,
+      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T4.sloppy.js": 0.018,
+      "test/language/expressions/left-shift/S11.7.1_A4_T1.strict.js": 0.018,
+      "test/language/expressions/left-shift/S11.7.1_A4_T2.sloppy.js": 0.018
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/String/prototype/bold/this-val-tostring-err.sloppy.js": 121.6,
+      "test/annexB/built-ins/String/prototype/bold/this-val-tostring-err.strict.js": 121.6,
+      "test/annexB/built-ins/String/prototype/strike/name.sloppy.js": 121.6,
+      "test/annexB/built-ins/String/prototype/strike/name.strict.js": 121.6,
+      "test/annexB/language/eval-code/direct/global-if-decl-else-decl-a-eval-global-existing-block-fn-update.js": 121.6,
+      "test/annexB/language/eval-code/direct/global-if-decl-else-decl-a-eval-global-existing-global-init.js": 121.6,
+      "test/annexB/language/eval-code/direct/global-if-decl-else-decl-a-eval-global-existing-global-update.js": 121.6,
+      "test/annexB/language/eval-code/direct/global-if-decl-else-decl-a-eval-global-no-skip-try.js": 121.6,
+      "test/annexB/language/eval-code/direct/global-if-decl-no-else-eval-global-skip-early-err-block.js": 121.6,
+      "test/annexB/language/eval-code/direct/global-if-stmt-else-decl-eval-global-existing-non-enumerable-global-init.js": 121.6
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: print is not defined",
@@ -53457,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: Unexpected token LeftParenthesis",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Unexpected token Async",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: Unexpected token Import"
-  },
-  "rusage": {
-    "total_time_s": 142.836,
-    "peak_rss_mb": 120.6,
-    "wall_time_s": {
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.397,
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.39,
-      "test/language/expressions/right-shift/S11.7.2_A4_T4.sloppy.js": 0.024,
-      "test/language/expressions/right-shift/S11.7.2_A4_T1.strict.js": 0.02,
-      "test/built-ins/Array/prototype/sort/stability-2048-elements.sloppy.js": 0.02,
-      "test/language/expressions/left-shift/S11.7.1_A4_T3.sloppy.js": 0.018,
-      "test/built-ins/Array/prototype/sort/stability-2048-elements.strict.js": 0.018,
-      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T2.strict.js": 0.018,
-      "test/language/expressions/right-shift/S11.7.2_A4_T3.strict.js": 0.018,
-      "test/language/expressions/left-shift/S11.7.1_A4_T2.sloppy.js": 0.018
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 120.6,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 120.6,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.sloppy.js": 120.6,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.strict.js": 120.6,
-      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/prop-desc.sloppy.js": 120.6,
-      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/prop-desc.strict.js": 120.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/length.sloppy.js": 120.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/length.strict.js": 120.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-flags-defined.sloppy.js": 120.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-flags-defined.strict.js": 120.6
-    }
   }
 }

@@ -51,9 +51,11 @@
   },
   "summary": {
     "all": {"pass": 43634, "fail": 9497, "pass_percent": 82.125},
+    "esnext": {"pass": 1031, "fail": 7293, "pass_percent": 12.386},
     "intl": {"pass": 25, "fail": 3298, "pass_percent": 0.752},
     "staging": {"pass": 1294, "fail": 190, "pass_percent": 87.197},
     "annexb": {"pass": 254, "fail": 832, "pass_percent": 23.389},
+    "ex-intl": {"pass": 43609, "fail": 6199, "pass_percent": 87.554},
     "ex-staging": {"pass": 42340, "fail": 9307, "pass_percent": 81.98},
     "ex-staging-intl": {"pass": 42315, "fail": 6009, "pass_percent": 87.565},
     "ex-staging-intl-annexb": {"pass": 42061, "fail": 5177, "pass_percent": 89.041},
@@ -328,6 +330,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 323, "fail": 3, "pass_percent": 99.08},
     "ref:$262.evalScript": {"pass": 17, "fail": 14, "pass_percent": 54.839},
     "ref:$262.gc": {"pass": 13, "fail": 2, "pass_percent": 86.667}
+  },
+  "rusage": {
+    "total_duration_sec": 2337.702,
+    "total_user_sec": 4462.101,
+    "total_sys_sec": 1104.806,
+    "peak_rss_mb": 2772.1,
+    "wall_time_s": {
+      "test/built-ins/Atomics/wait/no-spurious-wakeup-on-store.strict.js": 60.066,
+      "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-store.strict.js": 60.066,
+      "test/built-ins/Atomics/waitAsync/no-spurious-wakeup-on-compareExchange.sloppy.js": 60.064,
+      "test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-compareExchange.strict.js": 60.064,
+      "test/staging/sm/PrivateName/home-object-when-preceded-by-computed-key.strict.js": 60.064,
+      "test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-xor.sloppy.js": 60.064,
+      "test/built-ins/Atomics/wait/no-spurious-wakeup-on-add.sloppy.js": 60.064,
+      "test/built-ins/Atomics/waitAsync/true-for-timeout-agent.strict.js": 60.063,
+      "test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-and.sloppy.js": 60.063,
+      "test/built-ins/Atomics/waitAsync/no-spurious-wakeup-no-operation.sloppy.js": 60.063
+    },
+    "duration_sec": {
+      "test/built-ins/Atomics/wait/no-spurious-wakeup-on-store.strict.js": 60.066,
+      "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-store.strict.js": 60.066,
+      "test/built-ins/Atomics/waitAsync/no-spurious-wakeup-on-compareExchange.sloppy.js": 60.064,
+      "test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-compareExchange.strict.js": 60.064,
+      "test/staging/sm/PrivateName/home-object-when-preceded-by-computed-key.strict.js": 60.064,
+      "test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-xor.sloppy.js": 60.064,
+      "test/built-ins/Atomics/wait/no-spurious-wakeup-on-add.sloppy.js": 60.064,
+      "test/built-ins/Atomics/waitAsync/true-for-timeout-agent.strict.js": 60.063,
+      "test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-and.sloppy.js": 60.063,
+      "test/built-ins/Atomics/waitAsync/no-spurious-wakeup-no-operation.sloppy.js": 60.063
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 2772.1,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 2772.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 2772.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 2772.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 2772.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 2772.1,
+      "test/annexB/built-ins/Date/prototype/toGMTString/value.sloppy.js": 2772.1,
+      "test/annexB/built-ins/Date/prototype/toGMTString/value.strict.js": 2772.1,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 2772.1,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 2772.1
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
@@ -53461,33 +53505,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: invalid import.",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 2418.183,
-    "peak_rss_mb": 2772.1,
-    "wall_time_s": {
-      "test/built-ins/Atomics/waitAsync/true-for-timeout-agent.sloppy.js": 60.066,
-      "test/built-ins/Atomics/wait/no-spurious-wakeup-on-or.strict.js": 60.065,
-      "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-sub.sloppy.js": 60.065,
-      "test/built-ins/Atomics/waitAsync/no-spurious-wakeup-no-operation.strict.js": 60.065,
-      "test/built-ins/Atomics/wait/good-views.strict.js": 60.064,
-      "test/built-ins/Atomics/wait/good-views.sloppy.js": 60.064,
-      "test/built-ins/Atomics/waitAsync/bigint/true-for-timeout-agent.strict.js": 60.064,
-      "test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-xor.strict.js": 60.064,
-      "test/built-ins/Atomics/wait/null-for-timeout-agent.sloppy.js": 60.064,
-      "test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-and.strict.js": 60.064
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 2772.1,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.strict.js": 2772.1,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.sloppy.js": 2772.1,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.strict.js": 2772.1,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.sloppy.js": 2772.1,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.strict.js": 2772.1,
-      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed.sloppy.js": 2772.1,
-      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed.strict.js": 2772.1,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-undefined.sloppy.js": 2772.1,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-undefined.strict.js": 2772.1
-    }
   }
 }

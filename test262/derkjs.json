@@ -51,9 +51,11 @@
   },
   "summary": {
     "all": {"pass": 4629, "fail": 48502, "pass_percent": 8.712},
+    "esnext": {"pass": 261, "fail": 8063, "pass_percent": 3.136},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"pass": 7, "fail": 1477, "pass_percent": 0.472},
     "annexb": {"pass": 7, "fail": 1079, "pass_percent": 0.645},
+    "ex-intl": {"pass": 4629, "fail": 45179, "pass_percent": 9.294},
     "ex-staging": {"pass": 4622, "fail": 47025, "pass_percent": 8.949},
     "ex-staging-intl": {"pass": 4622, "fail": 43702, "pass_percent": 9.565},
     "ex-staging-intl-annexb": {"pass": 4615, "fail": 42623, "pass_percent": 9.77},
@@ -328,6 +330,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 115.913,
+    "total_user_sec": 93.435,
+    "total_sys_sec": 46.864,
+    "peak_rss_mb": 49.1,
+    "wall_time_s": {
+      "test/language/statements/await-using/global-use-before-initialization-in-declaration-statement.sloppy.js": 0.209,
+      "test/built-ins/Temporal/PlainTime/prototype/round/roundingmode-expand.strict.js": 0.183,
+      "test/built-ins/Object/hasOwn/prototype.sloppy.js": 0.158,
+      "test/built-ins/Array/prototype/sort/precise-setter-appends-elements.sloppy.js": 0.143,
+      "test/language/statements/async-generator/generator-created-after-decl-inst.strict.js": 0.101,
+      "test/built-ins/Object/prototype/__proto__/set-fn-name.sloppy.js": 0.101,
+      "test/built-ins/Temporal/ZonedDateTime/prototype/since/roundingmode-trunc.sloppy.js": 0.1,
+      "test/intl402/Locale/constructor-options-language-grandfathered.strict.js": 0.1,
+      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-8-b-i-8.sloppy.js": 0.09,
+      "test/language/expressions/class/dstr/async-private-gen-meth-obj-ptrn-prop-id-init.strict.js": 0.086
+    },
+    "duration_sec": {
+      "test/language/statements/await-using/global-use-before-initialization-in-declaration-statement.sloppy.js": 0.209,
+      "test/built-ins/Temporal/PlainTime/prototype/round/roundingmode-expand.strict.js": 0.183,
+      "test/built-ins/Object/hasOwn/prototype.sloppy.js": 0.158,
+      "test/built-ins/Array/prototype/sort/precise-setter-appends-elements.sloppy.js": 0.143,
+      "test/language/statements/async-generator/generator-created-after-decl-inst.strict.js": 0.101,
+      "test/built-ins/Object/prototype/__proto__/set-fn-name.sloppy.js": 0.101,
+      "test/built-ins/Temporal/ZonedDateTime/prototype/since/roundingmode-trunc.sloppy.js": 0.1,
+      "test/intl402/Locale/constructor-options-language-grandfathered.strict.js": 0.1,
+      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-8-b-i-8.sloppy.js": 0.09,
+      "test/language/expressions/class/dstr/async-private-gen-meth-obj-ptrn-prop-id-init.strict.js": 0.086
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 49.1,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 49.1,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 49.1,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 49.1,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 49.1,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 49.1,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 49.1,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 49.1,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 49.1,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 49.1
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "SyntaxError: SyntaxError [ln 335, col 13]:",
@@ -53461,33 +53505,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: SyntaxError [ln 335, col 13]:",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: SyntaxError [ln 335, col 13]:",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: SyntaxError [ln 335, col 13]:"
-  },
-  "rusage": {
-    "total_time_s": 116.375,
-    "peak_rss_mb": 49.5,
-    "wall_time_s": {
-      "test/built-ins/Temporal/ZonedDateTime/prototype/toPlainDate/not-a-constructor.strict.js": 0.192,
-      "test/built-ins/Array/prototype/some/15.4.4.17-7-c-ii-5.strict.js": 0.148,
-      "test/language/expressions/dynamic-import/syntax/invalid/invalid-assignmenttargettype-syntax-error-1-update-expression.strict.js": 0.142,
-      "test/language/literals/numeric/numeric-separators/numeric-separator-literal-hil-nsl-hd-err.sloppy.js": 0.133,
-      "test/built-ins/Temporal/PlainTime/prototype/subtract/argument-object.sloppy.js": 0.128,
-      "test/built-ins/TypedArray/prototype/reduceRight/BigInt/callbackfn-arguments-default-accumulator.sloppy.js": 0.122,
-      "test/built-ins/Iterator/prototype/find/predicate-this.sloppy.js": 0.119,
-      "test/language/expressions/assignmenttargettype/direct-unaryexpression-delete-unaryexpression.sloppy.js": 0.118,
-      "test/built-ins/Temporal/PlainTime/prototype/since/options-read-before-algorithmic-validation.strict.js": 0.109,
-      "test/built-ins/Array/prototype/forEach/S15.4.4.18_A1.strict.js": 0.108
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 49.5,
-      "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 49.5,
-      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class-range.sloppy.js": 49.5,
-      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class-range.strict.js": 49.5,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/prop-desc.sloppy.js": 49.5,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/prop-desc.strict.js": 49.5
-    }
   }
 }

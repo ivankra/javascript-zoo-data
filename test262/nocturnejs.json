@@ -46,9 +46,11 @@
   },
   "summary": {
     "all": {"pass": 39009, "fail": 14122, "pass_percent": 73.42},
+    "esnext": {"pass": 186, "fail": 8138, "pass_percent": 2.235},
     "intl": {"pass": 23, "fail": 3300, "pass_percent": 0.692},
     "staging": {"pass": 1354, "fail": 130, "pass_percent": 91.24},
     "annexb": {"pass": 1051, "fail": 35, "pass_percent": 96.777},
+    "ex-intl": {"pass": 38986, "fail": 10822, "pass_percent": 78.273},
     "ex-staging": {"pass": 37655, "fail": 13992, "pass_percent": 72.908},
     "ex-staging-intl": {"pass": 37632, "fail": 10692, "pass_percent": 77.874},
     "ex-staging-intl-annexb": {"pass": 36581, "fail": 10657, "pass_percent": 77.44},
@@ -323,6 +325,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 318, "fail": 8, "pass_percent": 97.546},
     "ref:$262.evalScript": {"pass": 31, "pass_percent": 100.0},
     "ref:$262.gc": {"pass": 7, "fail": 8, "pass_percent": 46.667}
+  },
+  "rusage": {
+    "total_duration_sec": 15302.494,
+    "total_user_sec": 59697.63,
+    "total_sys_sec": 254.991,
+    "peak_rss_mb": 697.1,
+    "wall_time_s": {
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Modifier_Letter.strict.js": 60.101,
+      "test/built-ins/RegExp/property-escapes/generated/Script_-_Grantha.strict.js": 60.068,
+      "test/built-ins/RegExp/property-escapes/generated/Any.sloppy.js": 60.067,
+      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Pau_Cin_Hau.strict.js": 60.066,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 60.066,
+      "test/built-ins/RegExp/property-escapes/generated/Script_-_Inscriptional_Pahlavi.sloppy.js": 60.066,
+      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Bopomofo.strict.js": 60.066,
+      "test/built-ins/RegExp/property-escapes/generated/XID_Start.strict.js": 60.065,
+      "test/built-ins/RegExp/property-escapes/generated/Script_-_Yi.strict.js": 60.065,
+      "test/staging/sm/TypedArray/sort_large_countingsort.strict.js": 60.065
+    },
+    "duration_sec": {
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Modifier_Letter.strict.js": 60.101,
+      "test/built-ins/RegExp/property-escapes/generated/Script_-_Grantha.strict.js": 60.068,
+      "test/built-ins/RegExp/property-escapes/generated/Any.sloppy.js": 60.067,
+      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Pau_Cin_Hau.strict.js": 60.066,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 60.066,
+      "test/built-ins/RegExp/property-escapes/generated/Script_-_Inscriptional_Pahlavi.sloppy.js": 60.066,
+      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Bopomofo.strict.js": 60.066,
+      "test/built-ins/RegExp/property-escapes/generated/XID_Start.strict.js": 60.065,
+      "test/built-ins/RegExp/property-escapes/generated/Script_-_Yi.strict.js": 60.065,
+      "test/staging/sm/TypedArray/sort_large_countingsort.strict.js": 60.065
+    },
+    "rss_mb": {
+      "test/annexB/language/eval-code/direct/func-if-decl-no-else-eval-func-skip-early-err.js": 697.1,
+      "test/built-ins/Array/isArray/15.4.3.2-1-13.sloppy.js": 697.1,
+      "test/built-ins/Array/isArray/15.4.3.2-1-13.strict.js": 697.1,
+      "test/built-ins/Array/prototype/every/15.4.4.16-2-6.sloppy.js": 697.1,
+      "test/built-ins/Array/prototype/every/15.4.4.16-2-6.strict.js": 697.1,
+      "test/built-ins/Array/prototype/filter/15.4.4.20-9-c-iii-22.sloppy.js": 697.1,
+      "test/built-ins/Array/prototype/filter/15.4.4.20-9-c-iii-22.strict.js": 697.1,
+      "test/built-ins/Array/prototype/reduce/15.4.4.21-9-c-i-16.sloppy.js": 697.1,
+      "test/built-ins/Array/prototype/reduce/15.4.4.21-9-c-i-16.strict.js": 697.1,
+      "test/built-ins/Array/prototype/reduceRight/15.4.4.22-8-b-iii-1-22.sloppy.js": 697.1
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "OK",
@@ -14285,7 +14329,7 @@
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Common.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Coptic.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Cuneiform.js": "timeout: >60s",
-    "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Cypriot.js": "timeout: >60s",
+    "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Cypriot.js": {"sloppy": "OK", "strict": "timeout: >60s"},
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Cypro_Minoan.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Cyrillic.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Deseret.js": "timeout: >60s",
@@ -14326,7 +14370,7 @@
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Kayah_Li.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Kharoshthi.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Khitan_Small_Script.js": "timeout: >60s",
-    "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Khmer.js": "timeout: >60s",
+    "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Khmer.js": {"sloppy": "OK", "strict": "timeout: >60s"},
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Khojki.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Khudawadi.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Kirat_Rai.js": "timeout: >60s",
@@ -14345,7 +14389,7 @@
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Mandaic.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Manichaean.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Marchen.js": "timeout: >60s",
-    "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Masaram_Gondi.js": {"sloppy": "OK", "strict": "timeout: >60s"},
+    "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Masaram_Gondi.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Medefaidrin.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Meetei_Mayek.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Mende_Kikakui.js": "timeout: >60s",
@@ -14575,7 +14619,7 @@
     "test/built-ins/RegExp/property-escapes/generated/Script_-_Sora_Sompeng.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_-_Soyombo.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_-_Sundanese.js": "timeout: >60s",
-    "test/built-ins/RegExp/property-escapes/generated/Script_-_Sunuwar.js": {"sloppy": "OK", "strict": "timeout: >60s"},
+    "test/built-ins/RegExp/property-escapes/generated/Script_-_Sunuwar.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_-_Syloti_Nagri.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_-_Syriac.js": "timeout: >60s",
     "test/built-ins/RegExp/property-escapes/generated/Script_-_Tagalog.js": "timeout: >60s",
@@ -53456,33 +53500,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "NoAsyncTestComplete",
     "test/staging/top-level-await/tla-hang-entry.js": "NoAsyncTestComplete"
-  },
-  "rusage": {
-    "total_time_s": 15409.997,
-    "peak_rss_mb": 697.0,
-    "wall_time_s": {
-      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Buhid.strict.js": 60.069,
-      "test/staging/sm/Array/toSpliced-dense.sloppy.js": 60.069,
-      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Tifinagh.strict.js": 60.068,
-      "test/built-ins/RegExp/property-escapes/generated/Join_Control.sloppy.js": 60.068,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 60.068,
-      "test/built-ins/RegExp/property-escapes/generated/Script_-_Lisu.strict.js": 60.067,
-      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Bopomofo.strict.js": 60.067,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Spacing_Mark.strict.js": 60.067,
-      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Han.strict.js": 60.067,
-      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Egyptian_Hieroglyphs.strict.js": 60.067
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 697.0,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 697.0,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 697.0,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 697.0,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 697.0,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 697.0,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.sloppy.js": 697.0,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.strict.js": 697.0,
-      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-cross-realm-constructor.sloppy.js": 697.0,
-      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-cross-realm-constructor.strict.js": 697.0
-    }
   }
 }

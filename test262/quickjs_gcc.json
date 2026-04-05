@@ -5,10 +5,7 @@
     "binary_sha256": "fc5862fb9eb04af512deab4c7f5d94de9184f895f844c278d6f5ac374eff99bc",
     "binary_size": 1334648,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "quickjs",
     "repository": "https://github.com/bellard/quickjs.git",
     "revision": "d7ae12ae71dfd6ab2997527d295014a8996fa0f9",
@@ -55,9 +52,11 @@
   },
   "summary": {
     "all": {"pass": 43274, "fail": 9857, "pass_percent": 81.448},
+    "esnext": {"pass": 462, "fail": 7862, "pass_percent": 5.55},
     "intl": {"pass": 23, "fail": 3300, "pass_percent": 0.692},
     "staging": {"pass": 1262, "fail": 222, "pass_percent": 85.04},
     "annexb": {"pass": 1000, "fail": 86, "pass_percent": 92.081},
+    "ex-intl": {"pass": 43251, "fail": 6557, "pass_percent": 86.835},
     "ex-staging": {"pass": 42012, "fail": 9635, "pass_percent": 81.345},
     "ex-staging-intl": {"pass": 41989, "fail": 6335, "pass_percent": 86.891},
     "ex-staging-intl-annexb": {"pass": 40989, "fail": 6249, "pass_percent": 86.771},
@@ -332,6 +331,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 1, "fail": 325, "pass_percent": 0.307},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 168.499,
+    "total_user_sec": 315.656,
+    "total_sys_sec": 100.438,
+    "peak_rss_mb": 1063.0,
+    "wall_time_s": {
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.886,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.884,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 1.878,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 1.874,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 1.87,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 1.868,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 1.864,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 1.863,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.863,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.859
+    },
+    "duration_sec": {
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.886,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.884,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 1.878,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 1.874,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 1.87,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 1.868,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 1.864,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 1.863,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.863,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.859
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 1063.0,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 1063.0,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 1063.0,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 1063.0,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 1063.0,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 1063.0,
+      "test/annexB/built-ins/Date/prototype/toGMTString/value.sloppy.js": 1063.0,
+      "test/annexB/built-ins/Date/prototype/toGMTString/value.strict.js": 1063.0,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 1063.0,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 1063.0
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: '$262' is not defined",
@@ -53465,33 +53506,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: meta expected",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 167.558,
-    "peak_rss_mb": 1062.1,
-    "wall_time_s": {
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.897,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.863,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 1.86,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 1.842,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.829,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 1.828,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.822,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 1.821,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 1.819,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 1.812
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 1062.1,
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 1062.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 1062.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 1062.1,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 1062.1,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 1062.1,
-      "test/annexB/built-ins/Date/prototype/toGMTString/value.sloppy.js": 1062.1,
-      "test/annexB/built-ins/Date/prototype/toGMTString/value.strict.js": 1062.1,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/prop-desc.sloppy.js": 1062.1,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/prop-desc.strict.js": 1062.1
-    }
   }
 }

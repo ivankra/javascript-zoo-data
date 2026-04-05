@@ -47,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 3, "fail": 53128, "pass_percent": 0.006},
+    "esnext": {"fail": 8324, "pass_percent": 0.0},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"fail": 1484, "pass_percent": 0.0},
     "annexb": {"fail": 1086, "pass_percent": 0.0},
+    "ex-intl": {"pass": 3, "fail": 49805, "pass_percent": 0.006},
     "ex-staging": {"pass": 3, "fail": 51644, "pass_percent": 0.006},
     "ex-staging-intl": {"pass": 3, "fail": 48321, "pass_percent": 0.006},
     "ex-staging-intl-annexb": {"pass": 3, "fail": 47235, "pass_percent": 0.006},
@@ -324,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 182.061,
+    "total_user_sec": 197.219,
+    "total_sys_sec": 210.762,
+    "peak_rss_mb": 48.8,
+    "wall_time_s": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.16,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.152,
+      "test/staging/sm/RegExp/unicode-ignoreCase.strict.js": 0.019,
+      "test/staging/sm/RegExp/unicode-ignoreCase.sloppy.js": 0.018,
+      "test/language/statements/for-await-of/async-gen-decl-dstr-obj-prop-put-prop-ref.strict.js": 0.016,
+      "test/language/identifiers/start-unicode-10.0.0-escaped.strict.js": 0.016,
+      "test/language/identifiers/start-unicode-8.0.0-escaped.strict.js": 0.016,
+      "test/intl402/Temporal/ZonedDateTime/prototype/add/leap-months-dangi.sloppy.js": 0.016,
+      "test/intl402/Intl/getCanonicalLocales/invalid-tags.strict.js": 0.015,
+      "test/language/identifiers/start-unicode-9.0.0-escaped.sloppy.js": 0.015
+    },
+    "duration_sec": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.16,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.152,
+      "test/staging/sm/RegExp/unicode-ignoreCase.strict.js": 0.019,
+      "test/staging/sm/RegExp/unicode-ignoreCase.sloppy.js": 0.018,
+      "test/language/statements/for-await-of/async-gen-decl-dstr-obj-prop-put-prop-ref.strict.js": 0.016,
+      "test/language/identifiers/start-unicode-10.0.0-escaped.strict.js": 0.016,
+      "test/language/identifiers/start-unicode-8.0.0-escaped.strict.js": 0.016,
+      "test/intl402/Temporal/ZonedDateTime/prototype/add/leap-months-dangi.sloppy.js": 0.016,
+      "test/intl402/Intl/getCanonicalLocales/invalid-tags.strict.js": 0.015,
+      "test/language/identifiers/start-unicode-9.0.0-escaped.sloppy.js": 0.015
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 48.8,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 48.8,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 48.8,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 48.8,
+      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 48.8,
+      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 48.8,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 48.8,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 48.8,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 48.8,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 48.8
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got TrueEqual; parsing error (Unexpecte...",
@@ -53457,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got TrueEqual; parsing error (Unexpecte...",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got TrueEqual; parsing error (Unexpecte...",
     "test/staging/top-level-await/tla-hang-entry.js": "parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got TrueEqual; parsing error (Unexpecte..."
-  },
-  "rusage": {
-    "total_time_s": 175.13,
-    "peak_rss_mb": 49.0,
-    "wall_time_s": {
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.157,
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.146,
-      "test/built-ins/Temporal/ZonedDateTime/prototype/until/infinity-throws-rangeerror.sloppy.js": 0.019,
-      "test/staging/sm/RegExp/unicode-ignoreCase.strict.js": 0.019,
-      "test/staging/sm/RegExp/unicode-ignoreCase.sloppy.js": 0.018,
-      "test/language/expressions/class/dstr/async-gen-meth-static-dflt-ary-ptrn-rest-ary-elem.strict.js": 0.018,
-      "test/built-ins/String/prototype/localeCompare/not-a-constructor.strict.js": 0.017,
-      "test/language/expressions/async-generator/yield-star-sync-next.sloppy.js": 0.016,
-      "test/intl402/Temporal/PlainYearMonth/prototype/subtract/basic-ethiopic.sloppy.js": 0.015,
-      "test/language/identifiers/start-unicode-10.0.0-class-escaped.strict.js": 0.015
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/toGMTString/value.sloppy.js": 49.0,
-      "test/annexB/built-ins/Date/prototype/toGMTString/value.strict.js": 49.0
-    }
   }
 }

@@ -27,13 +27,13 @@
     "$262.evalScript": "SyntaxError: missing : after property id:",
     "$262.gc": "SyntaxError: missing : after property id:",
     "$262.global": "SyntaxError: missing : after property id:",
-    "EvalError": "SyntaxError: missing : after property id: stderr='/tmp/probe-9qox0dnz/33-probe.sloppy.js:59:0 SyntaxError: missing : after property id:\\n/tmp/probe-9qox0dnz/33-probe.sloppy.js:59:0         createRealm() {\\n/tmp/probe-9qox0dnz/33-probe.sloppy.js:59:0 ...................^'",
+    "EvalError": "SyntaxError: missing : after property id: stderr='/tmp/probe-vn25qdeu/34-probe.sloppy.js:59:0 SyntaxError: missing : after property id:\\n/tmp/probe-vn25qdeu/34-probe.sloppy.js:59:0         createRealm() {\\n/tmp/probe-vn25qdeu/34-probe.sloppy.js:59:0 ...................^'",
     "Intl": "SyntaxError: missing : after property id:",
-    "RangeError": "SyntaxError: missing : after property id: stderr='/tmp/probe-hx6iw_jv/34-probe.sloppy.js:59:0 SyntaxError: missing : after property id:\\n/tmp/probe-hx6iw_jv/34-probe.sloppy.js:59:0         createRealm() {\\n/tmp/probe-hx6iw_jv/34-probe.sloppy.js:59:0 ...................^'",
-    "ReferenceError": "SyntaxError: missing : after property id: stderr='/tmp/probe-6p7cpprm/36-probe.sloppy.js:59:0 SyntaxError: missing : after property id:\\n/tmp/probe-6p7cpprm/36-probe.sloppy.js:59:0         createRealm() {\\n/tmp/probe-6p7cpprm/36-probe.sloppy.js:59:0 ...................^'",
+    "RangeError": "SyntaxError: missing : after property id: stderr='/tmp/probe-9u52t1n_/33-probe.sloppy.js:59:0 SyntaxError: missing : after property id:\\n/tmp/probe-9u52t1n_/33-probe.sloppy.js:59:0         createRealm() {\\n/tmp/probe-9u52t1n_/33-probe.sloppy.js:59:0 ...................^'",
+    "ReferenceError": "SyntaxError: missing : after property id: stderr='/tmp/probe-tj7inhk8/33-probe.sloppy.js:59:0 SyntaxError: missing : after property id:\\n/tmp/probe-tj7inhk8/33-probe.sloppy.js:59:0         createRealm() {\\n/tmp/probe-tj7inhk8/33-probe.sloppy.js:59:0 ...................^'",
     "SyntaxError": "OK",
-    "Test262Error": "SyntaxError: missing : after property id: stderr='/tmp/probe-os0zmvf3/36-probe.sloppy.js:59:0 SyntaxError: missing : after property id:\\n/tmp/probe-os0zmvf3/36-probe.sloppy.js:59:0         createRealm() {\\n/tmp/probe-os0zmvf3/36-probe.sloppy.js:59:0 ...................^'",
-    "TypeError": "SyntaxError: missing : after property id: stderr='/tmp/probe-leo3k0yn/35-probe.sloppy.js:59:0 SyntaxError: missing : after property id:\\n/tmp/probe-leo3k0yn/35-probe.sloppy.js:59:0         createRealm() {\\n/tmp/probe-leo3k0yn/35-probe.sloppy.js:59:0 ...................^'",
+    "Test262Error": "SyntaxError: missing : after property id: stderr='/tmp/probe-y908u_mv/35-probe.sloppy.js:59:0 SyntaxError: missing : after property id:\\n/tmp/probe-y908u_mv/35-probe.sloppy.js:59:0         createRealm() {\\n/tmp/probe-y908u_mv/35-probe.sloppy.js:59:0 ...................^'",
+    "TypeError": "SyntaxError: missing : after property id: stderr='/tmp/probe-uo_uh95x/36-probe.sloppy.js:59:0 SyntaxError: missing : after property id:\\n/tmp/probe-uo_uh95x/36-probe.sloppy.js:59:0         createRealm() {\\n/tmp/probe-uo_uh95x/36-probe.sloppy.js:59:0 ...................^'",
     "annexB": "SyntaxError: missing : after property id:",
     "assert.throws": "SyntaxError: missing : after property id:",
     "async": "SyntaxError: missing : after property id:",
@@ -53,9 +53,11 @@
   },
   "summary": {
     "all": {"pass": 4636, "fail": 48495, "pass_percent": 8.726},
+    "esnext": {"pass": 261, "fail": 8063, "pass_percent": 3.136},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"pass": 7, "fail": 1477, "pass_percent": 0.472},
     "annexb": {"pass": 10, "fail": 1076, "pass_percent": 0.921},
+    "ex-intl": {"pass": 4636, "fail": 45172, "pass_percent": 9.308},
     "ex-staging": {"pass": 4629, "fail": 47018, "pass_percent": 8.963},
     "ex-staging-intl": {"pass": 4629, "fail": 43695, "pass_percent": 9.579},
     "ex-staging-intl-annexb": {"pass": 4619, "fail": 42619, "pass_percent": 9.778},
@@ -330,6 +332,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 180.344,
+    "total_user_sec": 141.782,
+    "total_sys_sec": 242.859,
+    "peak_rss_mb": 50.2,
+    "wall_time_s": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.032,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.029,
+      "test/language/literals/numeric/binary-invalid-leading.sloppy.js": 0.019,
+      "test/built-ins/Temporal/PlainYearMonth/calendar-invalid.sloppy.js": 0.014,
+      "test/built-ins/RegExp/prototype/exec/S15.10.6.2_A2_T8.strict.js": 0.014,
+      "test/language/expressions/class/dstr/async-private-gen-meth-static-dflt-obj-ptrn-rest-val-obj.sloppy.js": 0.013,
+      "test/built-ins/TypedArray/prototype/findLast/callbackfn-resize.sloppy.js": 0.013,
+      "test/built-ins/Array/prototype/reduce/15.4.4.21-9-b-7.strict.js": 0.013,
+      "test/built-ins/Temporal/Instant/prototype/equals/not-a-constructor.sloppy.js": 0.013,
+      "test/built-ins/Object/seal/seal-uint8clampedarray.sloppy.js": 0.012
+    },
+    "duration_sec": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.032,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.029,
+      "test/language/literals/numeric/binary-invalid-leading.sloppy.js": 0.019,
+      "test/built-ins/Temporal/PlainYearMonth/calendar-invalid.sloppy.js": 0.014,
+      "test/built-ins/RegExp/prototype/exec/S15.10.6.2_A2_T8.strict.js": 0.014,
+      "test/language/expressions/class/dstr/async-private-gen-meth-static-dflt-obj-ptrn-rest-val-obj.sloppy.js": 0.013,
+      "test/built-ins/TypedArray/prototype/findLast/callbackfn-resize.sloppy.js": 0.013,
+      "test/built-ins/Array/prototype/reduce/15.4.4.21-9-b-7.strict.js": 0.013,
+      "test/built-ins/Temporal/Instant/prototype/equals/not-a-constructor.sloppy.js": 0.013,
+      "test/built-ins/Object/seal/seal-uint8clampedarray.sloppy.js": 0.012
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 50.2,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 50.2
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "SyntaxError: missing : after property id:",
@@ -53463,33 +53507,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: missing : after property id:",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: missing : after property id:",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: missing : after property id:"
-  },
-  "rusage": {
-    "total_time_s": 203.205,
-    "peak_rss_mb": 49.2,
-    "wall_time_s": {
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.032,
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.028,
-      "test/built-ins/Math/expm1/not-a-constructor.strict.js": 0.027,
-      "test/built-ins/TypedArray/prototype/set/BigInt/typedarray-arg-negative-integer-offset-throws.strict.js": 0.024,
-      "test/built-ins/Temporal/PlainYearMonth/prototype/until/argument-string-unknown-annotation.strict.js": 0.023,
-      "test/language/expressions/class/dstr/gen-meth-ary-ptrn-rest-id-exhausted.sloppy.js": 0.022,
-      "test/built-ins/NativeErrors/TypeError/prototype/message.strict.js": 0.022,
-      "test/staging/sm/RegExp/unicode-ignoreCase-word-boundary.sloppy.js": 0.021,
-      "test/built-ins/Date/prototype/S15.9.5_A14_T1.sloppy.js": 0.021,
-      "test/language/expressions/object/dstr/async-gen-meth-ary-ptrn-elem-ary-elem-iter.strict.js": 0.02
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 49.2,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 49.2,
-      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 49.2,
-      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 49.2,
-      "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 49.2,
-      "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 49.2,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 49.2,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 49.2,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 49.2,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 49.2
-    }
   }
 }

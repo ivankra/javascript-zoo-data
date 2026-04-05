@@ -54,9 +54,11 @@
   },
   "summary": {
     "all": {"pass": 42539, "fail": 10592, "pass_percent": 80.064},
+    "esnext": {"pass": 353, "fail": 7971, "pass_percent": 4.241},
     "intl": {"pass": 23, "fail": 3300, "pass_percent": 0.692},
     "staging": {"pass": 1327, "fail": 157, "pass_percent": 89.42},
     "annexb": {"pass": 380, "fail": 706, "pass_percent": 34.991},
+    "ex-intl": {"pass": 42516, "fail": 7292, "pass_percent": 85.36},
     "ex-staging": {"pass": 41212, "fail": 10435, "pass_percent": 79.796},
     "ex-staging-intl": {"pass": 41189, "fail": 7135, "pass_percent": 85.235},
     "ex-staging-intl-annexb": {"pass": 40809, "fail": 6429, "pass_percent": 86.39},
@@ -331,6 +333,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 315, "fail": 11, "pass_percent": 96.626},
     "ref:$262.evalScript": {"pass": 17, "fail": 14, "pass_percent": 54.839},
     "ref:$262.gc": {"pass": 14, "fail": 1, "pass_percent": 93.333}
+  },
+  "rusage": {
+    "total_duration_sec": 570.418,
+    "total_user_sec": 1687.454,
+    "total_sys_sec": 266.419,
+    "peak_rss_mb": 1884.0,
+    "wall_time_s": {
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.062,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.062,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.sloppy.js": 31.176,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.strict.js": 30.629,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other.sloppy.js": 28.71,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Unassigned.strict.js": 24.993,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 23.634,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.sloppy.js": 23.543,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Unassigned.sloppy.js": 23.178,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other.strict.js": 23.048
+    },
+    "duration_sec": {
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.062,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.062,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.sloppy.js": 31.176,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.strict.js": 30.629,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other.sloppy.js": 28.71,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Unassigned.strict.js": 24.993,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 23.634,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.sloppy.js": 23.543,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Unassigned.sloppy.js": 23.178,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other.strict.js": 23.048
+    },
+    "rss_mb": {
+      "test/staging/sm/regress/regress-610026.sloppy.js": 1884.0,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 1883.7,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 1883.7,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 1883.7,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.strict.js": 1883.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.sloppy.js": 1883.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.strict.js": 1883.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.sloppy.js": 1883.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.strict.js": 1883.7,
+      "test/annexB/built-ins/RegExp/prototype/compile/flags-string-invalid.sloppy.js": 1883.7
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "[Object]",
@@ -41049,7 +41093,7 @@
     "test/language/import/import-defer/errors/get-self-while-defer-evaluating/main.js": "SyntaxError: Unexpected token *, expected from",
     "test/language/import/import-defer/errors/get-self-while-evaluating-async/main.js": "SyntaxError: Unexpected token *, expected from",
     "test/language/import/import-defer/errors/get-self-while-evaluating.js": "SyntaxError: Unexpected token *, expected from",
-    "test/language/import/import-defer/errors/module-throws/defer-import-after-evaluation.js": "AsyncTestFailure: SyntaxError: /tmp/t262-mod-5e3_9t6l/test/language/import/import-defer/errors/module-throws/import-defer-throws_FIXTURE.js:4:14 Unexpected token *, expected from",
+    "test/language/import/import-defer/errors/module-throws/defer-import-after-evaluation.js": "AsyncTestFailure: SyntaxError: /tmp/t262-mod-ev21qsla/test/language/import/import-defer/errors/module-throws/import-defer-throws_FIXTURE.js:4:14 Unexpected token *, expected from",
     "test/language/import/import-defer/errors/module-throws/third-party-evaluation-after-defer-import.js": "SyntaxError: Unexpected token *, expected from",
     "test/language/import/import-defer/errors/module-throws/trigger-evaluation.js": "SyntaxError: Unexpected token *, expected from",
     "test/language/import/import-defer/errors/resolution-error/import-defer-of-missing-module-fails.js": "OK",
@@ -53464,33 +53508,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Unexpected token )",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 608.135,
-    "peak_rss_mb": 1887.9,
-    "wall_time_s": {
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.063,
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.062,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.sloppy.js": 31.247,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.strict.js": 30.925,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other.strict.js": 25.511,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other.sloppy.js": 24.544,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 23.435,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Lowercase_Letter.strict.js": 23.371,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Unassigned.strict.js": 22.917,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.sloppy.js": 22.631
-    },
-    "rss_mb": {
-      "test/staging/sm/regress/regress-610026.strict.js": 1887.9,
-      "test/staging/sm/regress/regress-610026.sloppy.js": 1887.8,
-      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 1887.7,
-      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 1887.7,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 1887.7,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 1887.7,
-      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.sloppy.js": 1887.7,
-      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.strict.js": 1887.7,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 1887.7,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 1887.7
-    }
   }
 }

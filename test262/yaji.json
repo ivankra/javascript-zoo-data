@@ -20,7 +20,7 @@
     "EvalError": "OK",
     "Intl": "marker not found",
     "RangeError": "OK",
-    "ReferenceError": "Runtime error Variable 'x' does not exist in the scope chain stderr=\"Runtime error Variable 'x' does not exist in the scope chain\\ndetected at line 10 in in file: '/tmp/probe-id7bee6m/55-probe.sloppy.js'\\n[[Error loading file' /tmp/probe-id7bee6m/55-probe.sloppy.js']]\"",
+    "ReferenceError": "Runtime error Variable 'x' does not exist in the scope chain stderr=\"Runtime error Variable 'x' does not exist in the scope chain\\ndetected at line 10 in in file: '/tmp/probe-yjyp92sg/57-probe.sloppy.js'\\n[[Error loading file' /tmp/probe-yjyp92sg/57-probe.sloppy.js']]\"",
     "SyntaxError": "OK",
     "Test262Error": "OK",
     "TypeError": "OK",
@@ -43,9 +43,11 @@
   },
   "summary": {
     "all": {"pass": 12098, "fail": 41033, "pass_percent": 22.77},
+    "esnext": {"pass": 142, "fail": 8182, "pass_percent": 1.706},
     "intl": {"pass": 12, "fail": 3311, "pass_percent": 0.361},
     "staging": {"pass": 175, "fail": 1309, "pass_percent": 11.792},
     "annexb": {"pass": 35, "fail": 1051, "pass_percent": 3.223},
+    "ex-intl": {"pass": 12086, "fail": 37722, "pass_percent": 24.265},
     "ex-staging": {"pass": 11923, "fail": 39724, "pass_percent": 23.086},
     "ex-staging-intl": {"pass": 11911, "fail": 36413, "pass_percent": 24.648},
     "ex-staging-intl-annexb": {"pass": 11876, "fail": 35362, "pass_percent": 25.141},
@@ -320,6 +322,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 13512.799,
+    "total_user_sec": 47978.124,
+    "total_sys_sec": 4387.169,
+    "peak_rss_mb": 3744.3,
+    "wall_time_s": {
+      "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.sloppy.js": 60.184,
+      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.sloppy.js": 60.076,
+      "test/harness/propertyhelper-verifywritable-array-length.sloppy.js": 60.074,
+      "test/harness/propertyhelper-verifywritable-array-length.strict.js": 60.073,
+      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.strict.js": 60.072,
+      "test/staging/sm/RegExp/regress-yarr-regexp.sloppy.js": 17.192,
+      "test/staging/sm/RegExp/regress-yarr-regexp.strict.js": 17.185,
+      "test/language/literals/regexp/S7.8.5_A2.4_T2.strict.js": 12.924,
+      "test/language/literals/regexp/S7.8.5_A1.4_T2.strict.js": 12.795,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 11.958
+    },
+    "duration_sec": {
+      "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.sloppy.js": 60.184,
+      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.sloppy.js": 60.076,
+      "test/harness/propertyhelper-verifywritable-array-length.sloppy.js": 60.074,
+      "test/harness/propertyhelper-verifywritable-array-length.strict.js": 60.073,
+      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.strict.js": 60.072,
+      "test/staging/sm/RegExp/regress-yarr-regexp.sloppy.js": 17.192,
+      "test/staging/sm/RegExp/regress-yarr-regexp.strict.js": 17.185,
+      "test/language/literals/regexp/S7.8.5_A2.4_T2.strict.js": 12.924,
+      "test/language/literals/regexp/S7.8.5_A1.4_T2.strict.js": 12.795,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 11.958
+    },
+    "rss_mb": {
+      "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.sloppy.js": 3744.3,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 3744.1,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 3744.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 3744.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 3744.1,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 3744.1,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.strict.js": 3744.1,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 3744.1,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 3744.1,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.sloppy.js": 3744.1
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "Runtime error Variable 'Symbol' does not exist in the scope chain",
@@ -52690,7 +52734,7 @@
     "test/staging/sm/String/match-GetMethod.js": "SyntaxError: at line 224, column 15.  Encountered: \"`\" (96), after : \"\"",
     "test/staging/sm/String/match-defines-match-elements.js": "Test262Error: Expected SameValue(\u00abtrue\u00bb, \u00abfalse\u00bb) to be true",
     "test/staging/sm/String/match-forward-lookahead.js": "Test262Error: Expected SameValue(\u00ab4\u00bb, \u00ab2\u00bb) to be true",
-    "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.js": {"sloppy": "OOM: >3584MB", "strict": "OK"},
+    "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.js": {"sloppy": "timeout: >60s", "strict": "OK"},
     "test/staging/sm/String/match-updates-global-lastIndex.js": "OK",
     "test/staging/sm/String/match.js": "SyntaxError: detected Encountered \"[\" at line 221, column 3.",
     "test/staging/sm/String/normalize-form-non-atom.js": "OK",
@@ -53453,33 +53497,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: detected Encountered \"function\" at line 233, column 3.",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: detected Encountered \"function\" at line 350, column 17.",
     "test/staging/top-level-await/tla-hang-entry.js": "NoAsyncTestComplete"
-  },
-  "rusage": {
-    "total_time_s": 15061.441,
-    "peak_rss_mb": 3595.3,
-    "wall_time_s": {
-      "test/harness/propertyhelper-verifywritable-array-length.strict.js": 60.11,
-      "test/harness/propertyhelper-verifywritable-array-length.sloppy.js": 60.109,
-      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.sloppy.js": 60.096,
-      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.strict.js": 60.089,
-      "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.sloppy.js": 17.934,
-      "test/staging/sm/RegExp/regress-yarr-regexp.strict.js": 15.839,
-      "test/staging/sm/RegExp/regress-yarr-regexp.sloppy.js": 15.789,
-      "test/language/literals/regexp/S7.8.5_A1.1_T2.strict.js": 14.543,
-      "test/language/literals/regexp/S7.8.5_A2.4_T2.strict.js": 12.47,
-      "test/language/literals/regexp/S7.8.5_A1.4_T2.strict.js": 12.136
-    },
-    "rss_mb": {
-      "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.sloppy.js": 3595.3,
-      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 3595.2,
-      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 3595.2,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 3595.2,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 3595.2,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/prop-desc.sloppy.js": 3595.2,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/prop-desc.strict.js": 3595.2,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.sloppy.js": 3595.2,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.strict.js": 3595.2,
-      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed.sloppy.js": 3595.2
-    }
   }
 }

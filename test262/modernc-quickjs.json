@@ -4,10 +4,7 @@
     "binary_name": "modernc-quickjs",
     "binary_sha256": "8ba08f3d84a97bf451d89c7be2d510d65375a22199477d7db7dd667fb0c5c693",
     "binary_size": 4994176,
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "modernc-quickjs",
     "go": "1.26.1",
     "repository": "https://gitlab.com/cznic/quickjs.git",
@@ -54,9 +51,11 @@
   },
   "summary": {
     "all": {"pass": 36336, "fail": 16795, "pass_percent": 68.389},
+    "esnext": {"pass": 310, "fail": 8014, "pass_percent": 3.724},
     "intl": {"pass": 23, "fail": 3300, "pass_percent": 0.692},
     "staging": {"pass": 1068, "fail": 416, "pass_percent": 71.968},
     "annexb": {"pass": 999, "fail": 87, "pass_percent": 91.989},
+    "ex-intl": {"pass": 36313, "fail": 13495, "pass_percent": 72.906},
     "ex-staging": {"pass": 35268, "fail": 16379, "pass_percent": 68.287},
     "ex-staging-intl": {"pass": 35245, "fail": 13079, "pass_percent": 72.935},
     "ex-staging-intl-annexb": {"pass": 34246, "fail": 12992, "pass_percent": 72.497},
@@ -331,6 +330,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 1, "fail": 325, "pass_percent": 0.307},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 459.706,
+    "total_user_sec": 1106.49,
+    "total_sys_sec": 317.71,
+    "peak_rss_mb": 2055.6,
+    "wall_time_s": {
+      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.sloppy.js": 60.063,
+      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.strict.js": 60.062,
+      "test/staging/sm/String/replace-math.strict.js": 43.614,
+      "test/staging/sm/String/replace-math.sloppy.js": 40.623,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 8.395,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 8.389,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 8.259,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 8.239,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 8.17,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 8.164
+    },
+    "duration_sec": {
+      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.sloppy.js": 60.063,
+      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.strict.js": 60.062,
+      "test/staging/sm/String/replace-math.strict.js": 43.614,
+      "test/staging/sm/String/replace-math.sloppy.js": 40.623,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 8.395,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 8.389,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 8.259,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 8.239,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 8.17,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 8.164
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 2055.6,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 2055.6,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-string-u.sloppy.js": 2055.6,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-string-u.strict.js": 2055.6,
+      "test/annexB/built-ins/String/prototype/anchor/prop-desc.sloppy.js": 2055.6,
+      "test/annexB/built-ins/String/prototype/anchor/prop-desc.strict.js": 2055.6,
+      "test/annexB/built-ins/String/prototype/big/not-a-constructor.sloppy.js": 2055.6,
+      "test/annexB/built-ins/String/prototype/big/not-a-constructor.strict.js": 2055.6,
+      "test/annexB/built-ins/String/prototype/fontsize/B.2.3.8.sloppy.js": 2055.6,
+      "test/annexB/built-ins/String/prototype/fontsize/B.2.3.8.strict.js": 2055.6
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: '$262' is not defined",
@@ -53464,33 +53505,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: meta expected",
     "test/staging/top-level-await/tla-hang-entry.js": "ReferenceError: could not load module filename 'parent-tla_FIXTURE.js'"
-  },
-  "rusage": {
-    "total_time_s": 497.734,
-    "peak_rss_mb": 2055.8,
-    "wall_time_s": {
-      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.strict.js": 60.064,
-      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.sloppy.js": 60.063,
-      "test/staging/sm/String/replace-math.strict.js": 21.269,
-      "test/staging/sm/String/replace-math.sloppy.js": 18.379,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 9.305,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 9.195,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 9.154,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 9.122,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 9.08,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 9.071
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 2055.8,
-      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 2055.8,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 2055.8,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 2055.8,
-      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.sloppy.js": 2055.8,
-      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.strict.js": 2055.8,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-not-regexp-constructor.sloppy.js": 2055.8,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-not-regexp-constructor.strict.js": 2055.8,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/prop-desc.sloppy.js": 2055.8,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/prop-desc.strict.js": 2055.8
-    }
   }
 }

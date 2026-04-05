@@ -2,10 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "eval5",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "dist_size": 272427,
     "engine": "eval5",
     "repository": "https://github.com/bplok20010/eval5.git",
@@ -47,10 +44,12 @@
     "revision_date": "2026-03-30"
   },
   "summary": {
-    "all": {"pass": 17371, "fail": 35760, "pass_percent": 32.695},
+    "all": {"pass": 17370, "fail": 35761, "pass_percent": 32.693},
+    "esnext": {"pass": 284, "fail": 8040, "pass_percent": 3.412},
     "intl": {"pass": 15, "fail": 3308, "pass_percent": 0.451},
-    "staging": {"pass": 349, "fail": 1135, "pass_percent": 23.518},
+    "staging": {"pass": 348, "fail": 1136, "pass_percent": 23.45},
     "annexb": {"pass": 383, "fail": 703, "pass_percent": 35.267},
+    "ex-intl": {"pass": 17355, "fail": 32453, "pass_percent": 34.844},
     "ex-staging": {"pass": 17022, "fail": 34625, "pass_percent": 32.958},
     "ex-staging-intl": {"pass": 17007, "fail": 31317, "pass_percent": 35.194},
     "ex-staging-intl-annexb": {"pass": 16624, "fail": 30614, "pass_percent": 35.192},
@@ -58,7 +57,7 @@
     "ex-staging-intl-annexb-esnext-$262": {"pass": 16341, "fail": 24314, "pass_percent": 40.194}
   },
   "tags": {
-    "edition:N/A": {"pass": 4962, "fail": 3758, "pass_percent": 56.904},
+    "edition:N/A": {"pass": 4961, "fail": 3759, "pass_percent": 56.892},
     "edition:es5": {"pass": 6774, "fail": 1423, "pass_percent": 82.64},
     "edition:es6": {"pass": 2745, "fail": 8309, "pass_percent": 24.833},
     "edition:es2016": {"pass": 56, "fail": 74, "pass_percent": 43.077},
@@ -121,7 +120,7 @@
     "features:IsHTMLDDA": {"fail": 42, "pass_percent": 0.0},
     "features:Map": {"pass": 8, "fail": 32, "pass_percent": 20.0},
     "features:Math.sumPrecise": {"fail": 10, "pass_percent": 0.0},
-    "features:N/A": {"pass": 12552, "fail": 6100, "pass_percent": 67.296},
+    "features:N/A": {"pass": 12551, "fail": 6101, "pass_percent": 67.29},
     "features:Object.fromEntries": {"pass": 9, "fail": 16, "pass_percent": 36.0},
     "features:Object.hasOwn": {"pass": 58, "fail": 4, "pass_percent": 93.548},
     "features:Object.is": {"pass": 1, "fail": 1, "pass_percent": 50.0},
@@ -272,7 +271,7 @@
     "field:negative": {"pass": 4581, "fail": 88, "pass_percent": 98.115},
     "flags:CanBlockIsFalse": {"fail": 2, "pass_percent": 0.0},
     "flags:CanBlockIsTrue": {"fail": 7, "pass_percent": 0.0},
-    "flags:N/A": {"pass": 12929, "fail": 19999, "pass_percent": 39.264},
+    "flags:N/A": {"pass": 12928, "fail": 20000, "pass_percent": 39.261},
     "flags:async": {"pass": 140, "fail": 5418, "pass_percent": 2.519},
     "flags:generated": {"pass": 3080, "fail": 13860, "pass_percent": 18.182},
     "flags:module": {"pass": 236, "fail": 594, "pass_percent": 28.434},
@@ -315,8 +314,8 @@
     "includes:testIntl.js": {"fail": 175, "pass_percent": 0.0},
     "includes:testTypedArray.js": {"fail": 2060, "pass_percent": 0.0},
     "includes:wellKnownIntrinsicObjects.js": {"fail": 10, "pass_percent": 0.0},
-    "mode:sloppy": {"pass": 16658, "fail": 34965, "pass_percent": 32.269},
-    "mode:strict": {"pass": 16449, "fail": 33971, "pass_percent": 32.624},
+    "mode:sloppy": {"pass": 16657, "fail": 34966, "pass_percent": 32.267},
+    "mode:strict": {"pass": 16448, "fail": 33972, "pass_percent": 32.622},
     "ref:$262": {"fail": 796, "pass_percent": 0.0},
     "ref:$262.AbstractModuleSource": {"fail": 8, "pass_percent": 0.0},
     "ref:$262.IsHTMLDDA": {"fail": 42, "pass_percent": 0.0},
@@ -325,6 +324,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 2091.27,
+    "total_user_sec": 6502.459,
+    "total_sys_sec": 1322.089,
+    "peak_rss_mb": 2218.3,
+    "wall_time_s": {
+      "test/staging/sm/regress/regress-610026.strict.js": 35.851,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 34.642,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 25.769,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 25.484,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 25.477,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 25.002,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 24.898,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 24.868,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 24.851,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 24.799
+    },
+    "duration_sec": {
+      "test/staging/sm/regress/regress-610026.strict.js": 35.851,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 34.642,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 25.769,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 25.484,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 25.477,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 25.002,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 24.898,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 24.868,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 24.851,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 24.799
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class-range.sloppy.js": 2218.3,
+      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class-range.strict.js": 2218.3,
+      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.sloppy.js": 2218.3,
+      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.strict.js": 2218.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/prop-desc.sloppy.js": 2218.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/prop-desc.strict.js": 2218.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.sloppy.js": 2218.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.strict.js": 2218.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.sloppy.js": 2218.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.strict.js": 2218.3
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: $262 is not defined [226:25]",
@@ -53346,7 +53387,7 @@
     "test/staging/sm/regress/regress-600067.js": "OK",
     "test/staging/sm/regress/regress-601399.js": "OK",
     "test/staging/sm/regress/regress-602621.js": "Test262Error: function sub-statement must override arguments Expected SameValue(\u00ab\"function\"\u00bb, \u00ab\"object\"\u00bb) to be true",
-    "test/staging/sm/regress/regress-610026.js": "OK",
+    "test/staging/sm/regress/regress-610026.js": "crashed: SIGABRT",
     "test/staging/sm/regress/regress-617405-1.js": "OK",
     "test/staging/sm/regress/regress-617405-2.js": "OK",
     "test/staging/sm/regress/regress-618572.js": "OK",
@@ -53458,33 +53499,5 @@
     "test/staging/sm/types/8.12.5-01.js": "Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Unexpected token (343:16)",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: The keyword 'import' is reserved (235:0)"
-  },
-  "rusage": {
-    "total_time_s": 2073.03,
-    "peak_rss_mb": 3040.5,
-    "wall_time_s": {
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 25.014,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 24.845,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 24.727,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 24.696,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 24.694,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 24.59,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 24.553,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 24.527,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 24.524,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 24.522
-    },
-    "rss_mb": {
-      "test/staging/sm/regress/regress-610026.strict.js": 3040.5,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 3040.2,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 3040.2,
-      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 3040.2,
-      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 3040.2,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 3040.2,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 3040.2,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 3040.2,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 3040.2,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 3040.2
-    }
   }
 }

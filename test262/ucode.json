@@ -47,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 4615, "fail": 48516, "pass_percent": 8.686},
+    "esnext": {"pass": 253, "fail": 8071, "pass_percent": 3.039},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"pass": 7, "fail": 1477, "pass_percent": 0.472},
     "annexb": {"pass": 7, "fail": 1079, "pass_percent": 0.645},
+    "ex-intl": {"pass": 4615, "fail": 45193, "pass_percent": 9.266},
     "ex-staging": {"pass": 4608, "fail": 47039, "pass_percent": 8.922},
     "ex-staging-intl": {"pass": 4608, "fail": 43716, "pass_percent": 9.536},
     "ex-staging-intl-annexb": {"pass": 4601, "fail": 42637, "pass_percent": 9.74},
@@ -324,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 299.283,
+    "total_user_sec": 337.875,
+    "total_sys_sec": 382.162,
+    "peak_rss_mb": 54.3,
+    "wall_time_s": {
+      "test/language/identifiers/start-unicode-10.0.0.strict.js": 1.986,
+      "test/language/identifiers/start-unicode-10.0.0-escaped.strict.js": 1.822,
+      "test/language/identifiers/start-unicode-10.0.0-escaped.sloppy.js": 1.437,
+      "test/language/identifiers/start-unicode-10.0.0-class-escaped.sloppy.js": 1.429,
+      "test/language/identifiers/start-unicode-10.0.0-class-escaped.strict.js": 1.418,
+      "test/language/identifiers/start-unicode-10.0.0.sloppy.js": 1.385,
+      "test/language/identifiers/start-unicode-10.0.0-class.sloppy.js": 1.379,
+      "test/language/identifiers/start-unicode-10.0.0-class.strict.js": 1.376,
+      "test/language/identifiers/start-unicode-8.0.0-class-escaped.strict.js": 1.319,
+      "test/language/identifiers/start-unicode-9.0.0-escaped.sloppy.js": 1.104
+    },
+    "duration_sec": {
+      "test/language/identifiers/start-unicode-10.0.0.strict.js": 1.986,
+      "test/language/identifiers/start-unicode-10.0.0-escaped.strict.js": 1.822,
+      "test/language/identifiers/start-unicode-10.0.0-escaped.sloppy.js": 1.437,
+      "test/language/identifiers/start-unicode-10.0.0-class-escaped.sloppy.js": 1.429,
+      "test/language/identifiers/start-unicode-10.0.0-class-escaped.strict.js": 1.418,
+      "test/language/identifiers/start-unicode-10.0.0.sloppy.js": 1.385,
+      "test/language/identifiers/start-unicode-10.0.0-class.sloppy.js": 1.379,
+      "test/language/identifiers/start-unicode-10.0.0-class.strict.js": 1.376,
+      "test/language/identifiers/start-unicode-8.0.0-class-escaped.strict.js": 1.319,
+      "test/language/identifiers/start-unicode-9.0.0-escaped.sloppy.js": 1.104
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 54.3,
+      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 54.3,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 54.3,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 54.3,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 54.3,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 54.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.sloppy.js": 54.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.strict.js": 54.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-cross-realm-constructor.sloppy.js": 54.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-cross-realm-constructor.strict.js": 54.3
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "SyntaxError: Unexpected token",
@@ -53457,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: Unexpected token",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Unexpected token",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: Unexpected token"
-  },
-  "rusage": {
-    "total_time_s": 293.026,
-    "peak_rss_mb": 59.4,
-    "wall_time_s": {
-      "test/language/identifiers/start-unicode-10.0.0-escaped.strict.js": 1.444,
-      "test/language/identifiers/start-unicode-10.0.0-escaped.sloppy.js": 1.439,
-      "test/language/identifiers/start-unicode-10.0.0-class-escaped.sloppy.js": 1.43,
-      "test/language/identifiers/start-unicode-10.0.0-class-escaped.strict.js": 1.428,
-      "test/language/identifiers/start-unicode-10.0.0.sloppy.js": 1.378,
-      "test/language/identifiers/start-unicode-10.0.0-class.strict.js": 1.37,
-      "test/language/identifiers/start-unicode-10.0.0.strict.js": 1.363,
-      "test/language/identifiers/start-unicode-9.0.0-class-escaped.sloppy.js": 1.087,
-      "test/language/identifiers/start-unicode-9.0.0-escaped.strict.js": 1.082,
-      "test/language/identifiers/start-unicode-9.0.0-class-escaped.strict.js": 1.079
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 59.4,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 59.4,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 59.4,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 59.4,
-      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.sloppy.js": 59.4,
-      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.strict.js": 59.4,
-      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.sloppy.js": 59.4,
-      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.strict.js": 59.4,
-      "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.sloppy.js": 59.4,
-      "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.strict.js": 59.4
-    }
   }
 }

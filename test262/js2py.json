@@ -45,9 +45,11 @@
   },
   "summary": {
     "all": {"pass": 15080, "fail": 38051, "pass_percent": 28.383},
+    "esnext": {"pass": 268, "fail": 8056, "pass_percent": 3.22},
     "intl": {"pass": 7, "fail": 3316, "pass_percent": 0.211},
     "staging": {"pass": 232, "fail": 1252, "pass_percent": 15.633},
     "annexb": {"pass": 332, "fail": 754, "pass_percent": 30.571},
+    "ex-intl": {"pass": 15073, "fail": 34735, "pass_percent": 30.262},
     "ex-staging": {"pass": 14848, "fail": 36799, "pass_percent": 28.749},
     "ex-staging-intl": {"pass": 14841, "fail": 33483, "pass_percent": 30.711},
     "ex-staging-intl-annexb": {"pass": 14509, "fail": 32729, "pass_percent": 30.715},
@@ -322,6 +324,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 3, "fail": 323, "pass_percent": 0.92},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 16870.771,
+    "total_user_sec": 61095.952,
+    "total_sys_sec": 4921.945,
+    "peak_rss_mb": 4123.5,
+    "wall_time_s": {
+      "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.sloppy.js": 60.221,
+      "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.strict.js": 60.166,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 60.118,
+      "test/staging/sm/regress/regress-610026.strict.js": 60.111,
+      "test/language/expressions/compound-assignment/S11.13.2_A3.2_T3.strict.js": 60.097,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 60.097,
+      "test/language/expressions/compound-assignment/S11.13.2_A2.1_T1.3.strict.js": 60.089,
+      "test/language/literals/regexp/S7.8.5_A2.4_T2.strict.js": 60.089,
+      "test/language/literals/regexp/S7.8.5_A2.1_T2.sloppy.js": 60.088,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 60.087
+    },
+    "duration_sec": {
+      "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.sloppy.js": 60.221,
+      "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.strict.js": 60.166,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 60.118,
+      "test/staging/sm/regress/regress-610026.strict.js": 60.111,
+      "test/language/expressions/compound-assignment/S11.13.2_A3.2_T3.strict.js": 60.097,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 60.097,
+      "test/language/expressions/compound-assignment/S11.13.2_A2.1_T1.3.strict.js": 60.089,
+      "test/language/literals/regexp/S7.8.5_A2.4_T2.strict.js": 60.089,
+      "test/language/literals/regexp/S7.8.5_A2.1_T2.sloppy.js": 60.088,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 60.087
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 4123.5,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 4123.5,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 4123.5,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 4123.5,
+      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.sloppy.js": 4123.5,
+      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.strict.js": 4123.5,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.sloppy.js": 4123.5,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.strict.js": 4123.5,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/prop-desc.sloppy.js": 4123.5,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/prop-desc.strict.js": 4123.5
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: Symbol is not defined",
@@ -52705,7 +52749,7 @@
     "test/staging/sm/String/replace-GetMethod.js": "SyntaxError: Line 228: Unexpected identifier",
     "test/staging/sm/String/replace-bad-dollar-single-quote.js": "SyntaxError: Line 228: ArrowFunction is not supported by ECMA 5.1.",
     "test/staging/sm/String/replace-flags.js": "OK",
-    "test/staging/sm/String/replace-math.js": "OOM: >3584MB",
+    "test/staging/sm/String/replace-math.js": "OOM: >4096MB",
     "test/staging/sm/String/replace-throws-nonwritable-lastIndex-global.js": "Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
     "test/staging/sm/String/replace-updates-global-lastIndex.js": "Test262Error: Expected SameValue(\u00ab3\u00bb, \u00ab0\u00bb) to be true",
     "test/staging/sm/String/replace.js": "NotImplementedError: Shorthand and Computed properties not implemented!",
@@ -53455,33 +53499,5 @@
     "test/staging/sm/types/8.12.5-01.js": "AttributeError: 'PyJsUndefined' object has no attribute 'call'",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Line 350: Unexpected token function",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: Line 242: ImportDeclaration is not supported by ECMA 5.1."
-  },
-  "rusage": {
-    "total_time_s": 17045.667,
-    "peak_rss_mb": 3603.5,
-    "wall_time_s": {
-      "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.sloppy.js": 60.162,
-      "test/staging/sm/String/match-throws-nonwritable-lastIndex-global.strict.js": 60.161,
-      "test/staging/sm/regress/regress-610026.strict.js": 60.113,
-      "test/language/literals/regexp/S7.8.5_A2.1_T2.sloppy.js": 60.094,
-      "test/language/expressions/compound-assignment/S11.13.2_A3.2_T3.sloppy.js": 60.093,
-      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.strict.js": 60.092,
-      "test/language/expressions/compound-assignment/S11.13.2_A2.1_T1.3.sloppy.js": 60.091,
-      "test/language/expressions/compound-assignment/S11.13.2_A3.1_T3.sloppy.js": 60.09,
-      "test/staging/sm/regress/regress-610026.sloppy.js": 60.087,
-      "test/language/literals/regexp/S7.8.5_A1.4_T2.strict.js": 60.082
-    },
-    "rss_mb": {
-      "test/staging/sm/String/replace-math.strict.js": 3603.5,
-      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 3603.1,
-      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 3603.1,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 3603.1,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 3603.1,
-      "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 3603.1,
-      "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 3603.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 3603.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 3603.1,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 3603.1
-    }
   }
 }

@@ -47,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 42279, "fail": 10852, "pass_percent": 79.575},
+    "esnext": {"pass": 1002, "fail": 7322, "pass_percent": 12.037},
     "intl": {"pass": 24, "fail": 3299, "pass_percent": 0.722},
     "staging": {"pass": 1345, "fail": 139, "pass_percent": 90.633},
     "annexb": {"pass": 1015, "fail": 71, "pass_percent": 93.462},
+    "ex-intl": {"pass": 42255, "fail": 7553, "pass_percent": 84.836},
     "ex-staging": {"pass": 40934, "fail": 10713, "pass_percent": 79.257},
     "ex-staging-intl": {"pass": 40910, "fail": 7414, "pass_percent": 84.658},
     "ex-staging-intl-annexb": {"pass": 39895, "fail": 7343, "pass_percent": 84.455},
@@ -324,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 2, "fail": 324, "pass_percent": 0.613},
     "ref:$262.evalScript": {"pass": 3, "fail": 28, "pass_percent": 9.677},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 3980.842,
+    "total_user_sec": 10911.399,
+    "total_sys_sec": 4360.202,
+    "peak_rss_mb": 378.2,
+    "wall_time_s": {
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 5.095,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 5.081,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 5.066,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 5.054,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 5.045,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 5.043,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 5.027,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 5.022,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 5.021,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 5.02
+    },
+    "duration_sec": {
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 5.095,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 5.081,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 5.066,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 5.054,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 5.045,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 5.043,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 5.027,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 5.022,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 5.021,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 5.02
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 378.2,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 378.2,
+      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 378.2,
+      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 378.2,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 378.2,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 378.2,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.sloppy.js": 378.2,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.strict.js": 378.2,
+      "test/annexB/built-ins/Object/is/emulates-undefined.sloppy.js": 378.2,
+      "test/annexB/built-ins/Object/is/emulates-undefined.strict.js": 378.2
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
@@ -53457,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: expected meta, got identifier:",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: import declarations may only appear at top level of a module:"
-  },
-  "rusage": {
-    "total_time_s": 3973.661,
-    "peak_rss_mb": 377.8,
-    "wall_time_s": {
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 5.529,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 5.072,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 5.059,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 5.058,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 5.044,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 5.042,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 5.034,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 5.022,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 5.02,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 5.02
-    },
-    "rss_mb": {
-      "test/staging/sm/regress/regress-610026.sloppy.js": 377.8,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 377.6,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 377.6,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 377.6,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 377.6,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 377.6,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.strict.js": 377.6,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.sloppy.js": 377.6,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.strict.js": 377.6,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.sloppy.js": 377.6
-    }
   }
 }

@@ -21,13 +21,13 @@
     "$262.evalScript": "SyntaxError: detected near line 4, column 20, after \"==\"",
     "$262.gc": "SyntaxError: detected near line 4, column 20, after \"==\"",
     "$262.global": "SyntaxError: detected near line 4, column 20, after \"==\"",
-    "EvalError": "SyntaxError: detected near line 4, column 20, after \"==\" stderr='Syntax error detected near line 4, column 20, after \"==\"\\nin file: \\'/tmp/probe-qjklfw15/56-probe.sloppy.js\\'\\n[[Error loading file\\' /tmp/probe-qjklfw15/56-probe.sloppy.js\\']]'",
+    "EvalError": "SyntaxError: detected near line 4, column 20, after \"==\" stderr='Syntax error detected near line 4, column 20, after \"==\"\\nin file: \\'/tmp/probe-5ic_l3it/54-probe.sloppy.js\\'\\n[[Error loading file\\' /tmp/probe-5ic_l3it/54-probe.sloppy.js\\']]'",
     "Intl": "SyntaxError: detected near line 4, column 20, after \"==\"",
-    "RangeError": "SyntaxError: detected near line 4, column 20, after \"==\" stderr='Syntax error detected near line 4, column 20, after \"==\"\\nin file: \\'/tmp/probe-5piw_8d0/55-probe.sloppy.js\\'\\n[[Error loading file\\' /tmp/probe-5piw_8d0/55-probe.sloppy.js\\']]'",
-    "ReferenceError": "SyntaxError: detected near line 4, column 20, after \"==\" stderr='Syntax error detected near line 4, column 20, after \"==\"\\nin file: \\'/tmp/probe-6zpkmilx/54-probe.sloppy.js\\'\\n[[Error loading file\\' /tmp/probe-6zpkmilx/54-probe.sloppy.js\\']]'",
+    "RangeError": "SyntaxError: detected near line 4, column 20, after \"==\" stderr='Syntax error detected near line 4, column 20, after \"==\"\\nin file: \\'/tmp/probe-i96c8ocw/55-probe.sloppy.js\\'\\n[[Error loading file\\' /tmp/probe-i96c8ocw/55-probe.sloppy.js\\']]'",
+    "ReferenceError": "SyntaxError: detected near line 4, column 20, after \"==\" stderr='Syntax error detected near line 4, column 20, after \"==\"\\nin file: \\'/tmp/probe-br2k9oz_/55-probe.sloppy.js\\'\\n[[Error loading file\\' /tmp/probe-br2k9oz_/55-probe.sloppy.js\\']]'",
     "SyntaxError": "OK",
-    "Test262Error": "SyntaxError: detected near line 4, column 20, after \"==\" stderr='Syntax error detected near line 4, column 20, after \"==\"\\nin file: \\'/tmp/probe-188vtuhf/54-probe.sloppy.js\\'\\n[[Error loading file\\' /tmp/probe-188vtuhf/54-probe.sloppy.js\\']]'",
-    "TypeError": "SyntaxError: detected near line 4, column 20, after \"==\" stderr='Syntax error detected near line 4, column 20, after \"==\"\\nin file: \\'/tmp/probe-zxmjf7gn/57-probe.sloppy.js\\'\\n[[Error loading file\\' /tmp/probe-zxmjf7gn/57-probe.sloppy.js\\']]'",
+    "Test262Error": "SyntaxError: detected near line 4, column 20, after \"==\" stderr='Syntax error detected near line 4, column 20, after \"==\"\\nin file: \\'/tmp/probe-aaq7rc4o/56-probe.sloppy.js\\'\\n[[Error loading file\\' /tmp/probe-aaq7rc4o/56-probe.sloppy.js\\']]'",
+    "TypeError": "SyntaxError: detected near line 4, column 20, after \"==\" stderr='Syntax error detected near line 4, column 20, after \"==\"\\nin file: \\'/tmp/probe-fj_yfdjy/57-probe.sloppy.js\\'\\n[[Error loading file\\' /tmp/probe-fj_yfdjy/57-probe.sloppy.js\\']]'",
     "annexB": "SyntaxError: detected near line 4, column 20, after \"==\"",
     "assert.throws": "SyntaxError: detected near line 4, column 20, after \"==\"",
     "async": "SyntaxError: detected near line 4, column 20, after \"==\"",
@@ -47,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 4627, "fail": 48504, "pass_percent": 8.709},
+    "esnext": {"pass": 261, "fail": 8063, "pass_percent": 3.136},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"pass": 7, "fail": 1477, "pass_percent": 0.472},
     "annexb": {"pass": 7, "fail": 1079, "pass_percent": 0.645},
+    "ex-intl": {"pass": 4627, "fail": 45181, "pass_percent": 9.29},
     "ex-staging": {"pass": 4620, "fail": 47027, "pass_percent": 8.945},
     "ex-staging-intl": {"pass": 4620, "fail": 43704, "pass_percent": 9.56},
     "ex-staging-intl-annexb": {"pass": 4613, "fail": 42625, "pass_percent": 9.765},
@@ -324,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 6632.433,
+    "total_user_sec": 21036.807,
+    "total_sys_sec": 3904.128,
+    "peak_rss_mb": 57.1,
+    "wall_time_s": {
+      "test/language/expressions/class/elements/multiple-definitions-grammar-privatename-identifier-semantics-stringvalue.sloppy.js": 0.409,
+      "test/language/expressions/async-generator/dstr/dflt-ary-ptrn-elem-ary-rest-iter.strict.js": 0.402,
+      "test/language/statements/class/dstr/async-private-gen-meth-dflt-ary-ptrn-elem-id-init-fn-name-arrow.sloppy.js": 0.383,
+      "test/language/statements/class/dstr/async-gen-meth-static-dflt-obj-ptrn-prop-ary-init.sloppy.js": 0.38,
+      "test/intl402/Temporal/PlainMonthDay/from/chinese-month-codes.sloppy.js": 0.377,
+      "test/language/statements/class/async-gen-method/yield-star-next-not-callable-string-throw.strict.js": 0.377,
+      "test/language/statements/class/dstr/private-meth-static-dflt-ary-ptrn-elem-id-init-skipped.sloppy.js": 0.372,
+      "test/built-ins/Temporal/PlainDate/prototype/equals/length.sloppy.js": 0.369,
+      "test/built-ins/RegExp/S15.10.2.6_A3_T9.strict.js": 0.368,
+      "test/language/expressions/dynamic-import/syntax/valid/nested-block-empty-str-is-valid-assign-expr.strict.js": 0.368
+    },
+    "duration_sec": {
+      "test/language/expressions/class/elements/multiple-definitions-grammar-privatename-identifier-semantics-stringvalue.sloppy.js": 0.409,
+      "test/language/expressions/async-generator/dstr/dflt-ary-ptrn-elem-ary-rest-iter.strict.js": 0.402,
+      "test/language/statements/class/dstr/async-private-gen-meth-dflt-ary-ptrn-elem-id-init-fn-name-arrow.sloppy.js": 0.383,
+      "test/language/statements/class/dstr/async-gen-meth-static-dflt-obj-ptrn-prop-ary-init.sloppy.js": 0.38,
+      "test/intl402/Temporal/PlainMonthDay/from/chinese-month-codes.sloppy.js": 0.377,
+      "test/language/statements/class/async-gen-method/yield-star-next-not-callable-string-throw.strict.js": 0.377,
+      "test/language/statements/class/dstr/private-meth-static-dflt-ary-ptrn-elem-id-init-skipped.sloppy.js": 0.372,
+      "test/built-ins/Temporal/PlainDate/prototype/equals/length.sloppy.js": 0.369,
+      "test/built-ins/RegExp/S15.10.2.6_A3_T9.strict.js": 0.368,
+      "test/language/expressions/dynamic-import/syntax/valid/nested-block-empty-str-is-valid-assign-expr.strict.js": 0.368
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 57.1,
+      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 57.1,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 57.1,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.strict.js": 57.1,
+      "test/annexB/built-ins/Date/prototype/toGMTString/value.sloppy.js": 57.1,
+      "test/annexB/built-ins/Date/prototype/toGMTString/value.strict.js": 57.1,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.sloppy.js": 57.1,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.strict.js": 57.1,
+      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-not-capturing.sloppy.js": 57.1,
+      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-not-capturing.strict.js": 57.1
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "SyntaxError: detected near line 4, column 20, after \"==\"",
@@ -53457,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: detected near line 4, column 20, after \"==\"",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: detected near line 4, column 20, after \"==\"",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: detected near line 4, column 20, after \"==\""
-  },
-  "rusage": {
-    "total_time_s": 6176.856,
-    "peak_rss_mb": 54.3,
-    "wall_time_s": {
-      "test/built-ins/TypedArrayConstructors/Uint8Array/BYTES_PER_ELEMENT.sloppy.js": 0.379,
-      "test/intl402/DurationFormat/prototype/format/style-narrow-en.strict.js": 0.372,
-      "test/language/expressions/dynamic-import/usage/nested-async-function-await-eval-gtbndng-indirect-update-dflt.sloppy.js": 0.36,
-      "test/language/statements/for-await-of/async-gen-decl-dstr-array-elem-nested-obj.sloppy.js": 0.36,
-      "test/built-ins/DataView/prototype/getInt8/toindex-byteoffset.strict.js": 0.358,
-      "test/language/statements/function/dstr/ary-ptrn-elem-id-init-fn-name-arrow.sloppy.js": 0.351,
-      "test/built-ins/Number/prototype/toString/numeric-literal-tostring-radix-11.sloppy.js": 0.351,
-      "test/built-ins/Iterator/prototype/reduce/is-function.strict.js": 0.35,
-      "test/language/statements/for/S12.6.3_A15.strict.js": 0.349,
-      "test/built-ins/Temporal/ZonedDateTime/prototype/with/throws-if-timezone-included.strict.js": 0.349
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 54.3,
-      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 54.3,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 54.3,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 54.3,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 54.3,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 54.3,
-      "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.sloppy.js": 54.3,
-      "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.strict.js": 54.3,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 54.3,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.strict.js": 54.3
-    }
   }
 }

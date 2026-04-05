@@ -2,10 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "js-interpreter",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "dist_size": 206529,
     "engine": "js-interpreter",
     "repository": "https://github.com/NeilFraser/JS-Interpreter.git",
@@ -48,9 +45,11 @@
   },
   "summary": {
     "all": {"pass": 13943, "fail": 39188, "pass_percent": 26.243},
+    "esnext": {"pass": 193, "fail": 8131, "pass_percent": 2.319},
     "intl": {"pass": 15, "fail": 3308, "pass_percent": 0.451},
     "staging": {"pass": 179, "fail": 1305, "pass_percent": 12.062},
     "annexb": {"pass": 295, "fail": 791, "pass_percent": 27.164},
+    "ex-intl": {"pass": 13928, "fail": 35880, "pass_percent": 27.963},
     "ex-staging": {"pass": 13764, "fail": 37883, "pass_percent": 26.65},
     "ex-staging-intl": {"pass": 13749, "fail": 34575, "pass_percent": 28.452},
     "ex-staging-intl-annexb": {"pass": 13454, "fail": 33784, "pass_percent": 28.481},
@@ -315,7 +314,7 @@
     "includes:testIntl.js": {"fail": 175, "pass_percent": 0.0},
     "includes:testTypedArray.js": {"fail": 2060, "pass_percent": 0.0},
     "includes:wellKnownIntrinsicObjects.js": {"fail": 10, "pass_percent": 0.0},
-    "mode:sloppy": {"pass": 13490, "fail": 38133, "pass_percent": 26.132},
+    "mode:sloppy": {"pass": 13489, "fail": 38134, "pass_percent": 26.13},
     "mode:strict": {"pass": 13138, "fail": 37282, "pass_percent": 26.057},
     "ref:$262": {"fail": 796, "pass_percent": 0.0},
     "ref:$262.AbstractModuleSource": {"fail": 8, "pass_percent": 0.0},
@@ -325,6 +324,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 2447.116,
+    "total_user_sec": 7769.623,
+    "total_sys_sec": 1444.021,
+    "peak_rss_mb": 2116.4,
+    "wall_time_s": {
+      "test/built-ins/RegExp/character-class-escape-non-whitespace.strict.js": 60.106,
+      "test/built-ins/RegExp/character-class-escape-non-whitespace.sloppy.js": 60.093,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.strict.js": 60.086,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.strict.js": 60.083,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.sloppy.js": 60.082,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.sloppy.js": 60.081,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 60.073,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 60.071,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 60.071,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 60.071
+    },
+    "duration_sec": {
+      "test/built-ins/RegExp/character-class-escape-non-whitespace.strict.js": 60.106,
+      "test/built-ins/RegExp/character-class-escape-non-whitespace.sloppy.js": 60.093,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.strict.js": 60.086,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.strict.js": 60.083,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.sloppy.js": 60.082,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.sloppy.js": 60.081,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 60.073,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 60.071,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 60.071,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 60.071
+    },
+    "rss_mb": {
+      "test/staging/sm/regress/regress-610026.strict.js": 2116.4,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 2116.3,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 2116.3,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.sloppy.js": 2116.3,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.strict.js": 2116.3,
+      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.sloppy.js": 2116.3,
+      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.strict.js": 2116.3,
+      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed.sloppy.js": 2116.3,
+      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed.strict.js": 2116.3,
+      "test/annexB/built-ins/String/prototype/anchor/B.2.3.2.sloppy.js": 2116.3
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: Symbol is not defined",
@@ -52164,7 +52205,7 @@
     "test/staging/sm/Date/constructor-one-argument.js": "OK",
     "test/staging/sm/Date/defaultvalue.js": "Uncaught exception: [object Object]",
     "test/staging/sm/Date/dst-offset-caching-1-of-8.js": "timeout: >60s",
-    "test/staging/sm/Date/dst-offset-caching-2-of-8.js": {"sloppy": "OK", "strict": "timeout: >60s"},
+    "test/staging/sm/Date/dst-offset-caching-2-of-8.js": "timeout: >60s",
     "test/staging/sm/Date/dst-offset-caching-3-of-8.js": "timeout: >60s",
     "test/staging/sm/Date/dst-offset-caching-4-of-8.js": "timeout: >60s",
     "test/staging/sm/Date/dst-offset-caching-5-of-8.js": "timeout: >60s",
@@ -53458,33 +53499,5 @@
     "test/staging/sm/types/8.12.5-01.js": "Uncaught exception: [object Object]",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Unexpected token (343:16)",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: Unexpected token (235:7)"
-  },
-  "rusage": {
-    "total_time_s": 2605.462,
-    "peak_rss_mb": 3011.3,
-    "wall_time_s": {
-      "test/built-ins/RegExp/character-class-escape-non-whitespace.sloppy.js": 60.11,
-      "test/built-ins/RegExp/character-class-escape-non-whitespace.strict.js": 60.108,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.strict.js": 60.09,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.sloppy.js": 60.084,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.sloppy.js": 60.083,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.strict.js": 60.083,
-      "test/staging/sm/Date/dst-offset-caching-1-of-8.strict.js": 60.076,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 60.072,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 60.072,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 60.071
-    },
-    "rss_mb": {
-      "test/staging/sm/regress/regress-610026.sloppy.js": 3011.3,
-      "test/annexB/built-ins/RegExp/prototype/compile/length.sloppy.js": 3010.8,
-      "test/annexB/built-ins/RegExp/prototype/compile/length.strict.js": 3010.8,
-      "test/annexB/built-ins/String/prototype/blink/not-a-constructor.sloppy.js": 3010.8,
-      "test/annexB/built-ins/String/prototype/blink/not-a-constructor.strict.js": 3010.8,
-      "test/annexB/built-ins/String/prototype/fontsize/B.2.3.8.sloppy.js": 3010.8,
-      "test/annexB/built-ins/String/prototype/fontsize/B.2.3.8.strict.js": 3010.8,
-      "test/annexB/built-ins/String/prototype/link/this-val-tostring-err.sloppy.js": 3010.8,
-      "test/annexB/built-ins/String/prototype/link/this-val-tostring-err.strict.js": 3010.8,
-      "test/annexB/built-ins/String/prototype/strike/prop-desc.sloppy.js": 3010.8
-    }
   }
 }

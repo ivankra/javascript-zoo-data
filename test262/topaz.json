@@ -2,10 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "topaz",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "dist_size": 665785,
     "dotnet": "10.0.201",
     "engine": "topaz",
@@ -50,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 3163, "fail": 49968, "pass_percent": 5.953},
+    "esnext": {"pass": 261, "fail": 8063, "pass_percent": 3.136},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"pass": 3, "fail": 1481, "pass_percent": 0.202},
     "annexb": {"pass": 2, "fail": 1084, "pass_percent": 0.184},
+    "ex-intl": {"pass": 3163, "fail": 46645, "pass_percent": 6.35},
     "ex-staging": {"pass": 3160, "fail": 48487, "pass_percent": 6.118},
     "ex-staging-intl": {"pass": 3160, "fail": 45164, "pass_percent": 6.539},
     "ex-staging-intl-annexb": {"pass": 3158, "fail": 44080, "pass_percent": 6.685},
@@ -327,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 3518.314,
+    "total_user_sec": 10779.819,
+    "total_sys_sec": 2579.108,
+    "peak_rss_mb": 94.8,
+    "wall_time_s": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.656,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.651,
+      "test/language/literals/regexp/named-groups/invalid-punctuator-within-groupspecifier-u.sloppy.js": 0.237,
+      "test/language/statements/for-of/escaped-of.strict.js": 0.236,
+      "test/built-ins/Temporal/PlainDate/from/argument-string-time-separators.strict.js": 0.221,
+      "test/built-ins/Function/prototype/call/S15.3.4.4_A3_T3.strict.js": 0.221,
+      "test/language/block-scope/shadowing/parameter-name-shadowing-catch-parameter.strict.js": 0.219,
+      "test/built-ins/Array/prototype/filter/15.4.4.20-9-2.sloppy.js": 0.216,
+      "test/staging/sm/strict/11.4.4.strict.js": 0.215,
+      "test/built-ins/Temporal/PlainYearMonth/prototype/until/argument-string.strict.js": 0.214
+    },
+    "duration_sec": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.656,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.651,
+      "test/language/literals/regexp/named-groups/invalid-punctuator-within-groupspecifier-u.sloppy.js": 0.237,
+      "test/language/statements/for-of/escaped-of.strict.js": 0.236,
+      "test/built-ins/Temporal/PlainDate/from/argument-string-time-separators.strict.js": 0.221,
+      "test/built-ins/Function/prototype/call/S15.3.4.4_A3_T3.strict.js": 0.221,
+      "test/language/block-scope/shadowing/parameter-name-shadowing-catch-parameter.strict.js": 0.219,
+      "test/built-ins/Array/prototype/filter/15.4.4.20-9-2.sloppy.js": 0.216,
+      "test/staging/sm/strict/11.4.4.strict.js": 0.215,
+      "test/built-ins/Temporal/PlainYearMonth/prototype/until/argument-string.strict.js": 0.214
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 94.8,
+      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 94.8,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 94.8,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 94.8,
+      "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 94.8,
+      "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 94.8,
+      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 94.8,
+      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 94.8,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.sloppy.js": 94.8,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.strict.js": 94.8
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "Cannot set object member Tenray.Topaz.TopazFunction._isSameValue = Tenray.Topaz.TopazFunction",
@@ -53460,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "Cannot set object member Tenray.Topaz.TopazFunction._isSameValue = Tenray.Topaz.TopazFunction",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Line 346: Unexpected reserved word",
     "test/staging/top-level-await/tla-hang-entry.js": "Cannot set object member Tenray.Topaz.TopazFunction._isSameValue = Tenray.Topaz.TopazFunction"
-  },
-  "rusage": {
-    "total_time_s": 3568.155,
-    "peak_rss_mb": 94.2,
-    "wall_time_s": {
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.668,
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.665,
-      "test/language/expressions/postfix-increment/S11.3.1_A4_T5.sloppy.js": 0.241,
-      "test/language/arguments-object/func-decl-args-trailing-comma-null.sloppy.js": 0.24,
-      "test/intl402/Temporal/PlainDate/prototype/with/wrapping-at-end-of-month-ethiopic.sloppy.js": 0.23,
-      "test/built-ins/Array/length/S15.4.5.2_A3_T4.sloppy.js": 0.227,
-      "test/built-ins/String/S15.5.1.1_A1_T13.sloppy.js": 0.223,
-      "test/intl402/Temporal/ZonedDateTime/prototype/since/basic-chinese.sloppy.js": 0.219,
-      "test/built-ins/Object/defineProperty/15.2.3.6-3-165.sloppy.js": 0.218,
-      "test/built-ins/Array/prototype/push/length-near-integer-limit-set-failure.sloppy.js": 0.217
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 94.2,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 94.2,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 94.2,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 94.2,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 94.2,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 94.2,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 94.2,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 94.2,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 94.2,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 94.2
-    }
   }
 }

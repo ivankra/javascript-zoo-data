@@ -5,10 +5,7 @@
     "binary_sha256": "9c1b1685776e197ef9fc27abc4e13ac2d3638cd35456ac9363d036a040075919",
     "binary_size": 707680,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "duktape",
     "repository": "https://github.com/svaarala/duktape.git",
     "revision": "50af773b1b32067170786c2b7c661705ec7425d4",
@@ -50,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 18289, "fail": 34842, "pass_percent": 34.422},
+    "esnext": {"pass": 269, "fail": 8055, "pass_percent": 3.232},
     "intl": {"pass": 17, "fail": 3306, "pass_percent": 0.512},
     "staging": {"pass": 412, "fail": 1072, "pass_percent": 27.763},
     "annexb": {"pass": 320, "fail": 766, "pass_percent": 29.466},
+    "ex-intl": {"pass": 18272, "fail": 31536, "pass_percent": 36.685},
     "ex-staging": {"pass": 17877, "fail": 33770, "pass_percent": 34.614},
     "ex-staging-intl": {"pass": 17860, "fail": 30464, "pass_percent": 36.959},
     "ex-staging-intl-annexb": {"pass": 17540, "fail": 29698, "pass_percent": 37.131},
@@ -318,7 +317,7 @@
     "includes:testTypedArray.js": {"pass": 263, "fail": 1797, "pass_percent": 12.767},
     "includes:wellKnownIntrinsicObjects.js": {"fail": 10, "pass_percent": 0.0},
     "mode:sloppy": {"pass": 17549, "fail": 34074, "pass_percent": 33.995},
-    "mode:strict": {"pass": 17191, "fail": 33229, "pass_percent": 34.096},
+    "mode:strict": {"pass": 17190, "fail": 33230, "pass_percent": 34.094},
     "ref:$262": {"pass": 3, "fail": 793, "pass_percent": 0.377},
     "ref:$262.AbstractModuleSource": {"fail": 8, "pass_percent": 0.0},
     "ref:$262.IsHTMLDDA": {"fail": 42, "pass_percent": 0.0},
@@ -327,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 3, "fail": 323, "pass_percent": 0.92},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 434.285,
+    "total_user_sec": 659.895,
+    "total_sys_sec": 656.361,
+    "peak_rss_mb": 1739.6,
+    "wall_time_s": {
+      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.sloppy.js": 60.064,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.strict.js": 60.062,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.sloppy.js": 60.062,
+      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.strict.js": 60.061,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 57.659,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 49.308,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 47.968,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 47.617,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 47.617,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 47.317
+    },
+    "duration_sec": {
+      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.sloppy.js": 60.064,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.strict.js": 60.062,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.sloppy.js": 60.062,
+      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.strict.js": 60.061,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 57.659,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 49.308,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 47.968,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 47.617,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 47.617,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 47.317
+    },
+    "rss_mb": {
+      "test/staging/sm/String/replace-math.sloppy.js": 1739.6,
+      "test/staging/sm/String/replace-math.strict.js": 1739.6,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 1739.5
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: identifier '$262' undefined",
@@ -3908,7 +3949,7 @@
     "test/built-ins/Array/prototype/reduceRight/15.4.4.22-10-8.js": "OK",
     "test/built-ins/Array/prototype/reduceRight/callbackfn-resize-arraybuffer.js": "OK",
     "test/built-ins/Array/prototype/reduceRight/call-with-boolean.js": "SyntaxError: empty expression not allowed (line 211)",
-    "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.js": {"sloppy": "Test262Error: The value of acc.length is expected to be 2 Expected SameValue(\u00abundefined\u00bb, \u00ab2\u00bb) to be true", "strict": "timeout: >60s"},
+    "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.js": "Test262Error: The value of acc.length is expected to be 2 Expected SameValue(\u00abundefined\u00bb, \u00ab2\u00bb) to be true",
     "test/built-ins/Array/prototype/reduceRight/length.js": "OK",
     "test/built-ins/Array/prototype/reduceRight/name.js": "OK",
     "test/built-ins/Array/prototype/reduceRight/not-a-constructor.js": "SyntaxError: empty expression not allowed (line 254)",
@@ -4480,7 +4521,7 @@
     "test/built-ins/Array/prototype/unshift/S15.4.4.13_A4_T2.js": "OK",
     "test/built-ins/Array/prototype/unshift/call-with-boolean.js": "OK",
     "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.js": "timeout: >60s",
-    "test/built-ins/Array/prototype/unshift/length-near-integer-limit.js": {"sloppy": "Test262Error: Expected a StopUnshift to be thrown but no exception was thrown at all", "strict": "timeout: >60s"},
+    "test/built-ins/Array/prototype/unshift/length-near-integer-limit.js": "timeout: >60s",
     "test/built-ins/Array/prototype/unshift/length.js": "OK",
     "test/built-ins/Array/prototype/unshift/name.js": "OK",
     "test/built-ins/Array/prototype/unshift/not-a-constructor.js": "SyntaxError: empty expression not allowed (line 254)",
@@ -52110,7 +52151,7 @@
     "test/staging/sm/Array/regress-599159.js": "OK",
     "test/staging/sm/Array/regress-619970.js": "OK",
     "test/staging/sm/Array/reverse-order-of-low-high-accesses.js": "OK",
-    "test/staging/sm/Array/set-with-indexed-property-on-prototype-chain.js": {"sloppy": "Test262Error: Expected SameValue(\u00abtrue\u00bb, \u00abfalse\u00bb) to be true", "strict": "OK"},
+    "test/staging/sm/Array/set-with-indexed-property-on-prototype-chain.js": "Test262Error: Expected SameValue(\u00abtrue\u00bb, \u00abfalse\u00bb) to be true",
     "test/staging/sm/Array/shift-no-has-trap.js": "SyntaxError: invalid object literal (line 225)",
     "test/staging/sm/Array/shift_for_in.js": "Test262Error: Expected SameValue(\u00abfalse\u00bb, \u00abtrue\u00bb) to be true",
     "test/staging/sm/Array/sort-01.js": "OK",
@@ -53460,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: parse error (line 343)",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: parse error (line 235)"
-  },
-  "rusage": {
-    "total_time_s": 355.349,
-    "peak_rss_mb": 1739.7,
-    "wall_time_s": {
-      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.strict.js": 60.064,
-      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.strict.js": 60.063,
-      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.sloppy.js": 60.061,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 60.044,
-      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.sloppy.js": 52.393,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 34.819,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 30.518,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 30.136,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 29.653,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 29.373
-    },
-    "rss_mb": {
-      "test/staging/sm/String/replace-math.strict.js": 1739.7,
-      "test/staging/sm/String/replace-math.sloppy.js": 1739.7,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-cross-realm-constructor.sloppy.js": 1739.4,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-cross-realm-constructor.strict.js": 1739.4,
-      "test/annexB/built-ins/RegExp/prototype/compile/flags-to-string-err.sloppy.js": 1739.4,
-      "test/annexB/built-ins/RegExp/prototype/compile/flags-to-string-err.strict.js": 1739.4,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-distinct.sloppy.js": 1739.4,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-distinct.strict.js": 1739.4,
-      "test/annexB/built-ins/RegExp/prototype/compile/this-obj-not-regexp.sloppy.js": 1739.4,
-      "test/annexB/built-ins/RegExp/prototype/compile/this-obj-not-regexp.strict.js": 1739.4
-    }
   }
 }

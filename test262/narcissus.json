@@ -2,10 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "narcissus",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "dist_size": 208475,
     "engine": "narcissus",
     "repository": "https://github.com/ivankra/narcissus.git",
@@ -48,9 +45,11 @@
   },
   "summary": {
     "all": {"pass": 16616, "fail": 36515, "pass_percent": 31.274},
+    "esnext": {"pass": 417, "fail": 7907, "pass_percent": 5.01},
     "intl": {"pass": 8, "fail": 3315, "pass_percent": 0.241},
     "staging": {"pass": 364, "fail": 1120, "pass_percent": 24.528},
     "annexb": {"pass": 430, "fail": 656, "pass_percent": 39.595},
+    "ex-intl": {"pass": 16608, "fail": 33200, "pass_percent": 33.344},
     "ex-staging": {"pass": 16252, "fail": 35395, "pass_percent": 31.467},
     "ex-staging-intl": {"pass": 16244, "fail": 32080, "pass_percent": 33.615},
     "ex-staging-intl-annexb": {"pass": 15814, "fail": 31424, "pass_percent": 33.477},
@@ -325,6 +324,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 3099.905,
+    "total_user_sec": 9664.533,
+    "total_sys_sec": 2043.255,
+    "peak_rss_mb": 1487.5,
+    "wall_time_s": {
+      "test/staging/sm/regress/regress-610026.sloppy.js": 60.246,
+      "test/staging/sm/regress/regress-610026.strict.js": 60.235,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.4_T2.strict.js": 60.183,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.1_T1.strict.js": 60.169,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.4_T2.strict.js": 60.168,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.5_T1.strict.js": 60.165,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.4_T2.sloppy.js": 60.16,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.1_T1.sloppy.js": 60.159,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.5_T1.sloppy.js": 60.158,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.4_T1.strict.js": 60.156
+    },
+    "duration_sec": {
+      "test/staging/sm/regress/regress-610026.sloppy.js": 60.246,
+      "test/staging/sm/regress/regress-610026.strict.js": 60.235,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.4_T2.strict.js": 60.183,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.1_T1.strict.js": 60.169,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.4_T2.strict.js": 60.168,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.5_T1.strict.js": 60.165,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.4_T2.sloppy.js": 60.16,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.1_T1.sloppy.js": 60.159,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.5_T1.sloppy.js": 60.158,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.4_T1.strict.js": 60.156
+    },
+    "rss_mb": {
+      "test/staging/sm/regress/regress-610026.sloppy.js": 1487.5,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 1487.4,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 1487.4,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 1487.4,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 1487.4,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 1487.4,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 1487.4,
+      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 1487.4,
+      "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 1487.4,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 1487.4
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: $262 is not defined",
@@ -35708,7 +35749,7 @@
     "test/language/expressions/comma/S11.14_A2.1_T2.js": "OK",
     "test/language/expressions/comma/S11.14_A2.1_T3.js": "OK",
     "test/language/expressions/comma/S11.14_A3.js": "OK",
-    "test/language/expressions/comma/tco-final.js": "InternalError: narcissus:310:14 InternalError: too much recursion",
+    "test/language/expressions/comma/tco-final.js": "InternalError: narcissus:5706:23 InternalError: too much recursion",
     "test/language/expressions/compound-assignment/11.13.2-1-s.js": "OK",
     "test/language/expressions/compound-assignment/11.13.2-2-s.js": "OK",
     "test/language/expressions/compound-assignment/11.13.2-4-s.js": "OK",
@@ -38284,7 +38325,7 @@
     "test/language/expressions/logical-and/S11.11.1_A4_T3.js": "OK",
     "test/language/expressions/logical-and/S11.11.1_A4_T4.js": "OK",
     "test/language/expressions/logical-and/symbol-logical-and-evaluation.js": "OK",
-    "test/language/expressions/logical-and/tco-right.js": "InternalError: narcissus:310:14 InternalError: too much recursion",
+    "test/language/expressions/logical-and/tco-right.js": "InternalError: narcissus:5811:21 InternalError: too much recursion",
     "test/language/expressions/logical-assignment/left-hand-side-private-reference-accessor-property-and.js": "SyntaxError: 244: missing ; before statement",
     "test/language/expressions/logical-assignment/left-hand-side-private-reference-accessor-property-nullish.js": "SyntaxError: 243: missing ; before statement",
     "test/language/expressions/logical-assignment/left-hand-side-private-reference-accessor-property-or.js": "SyntaxError: 244: missing ; before statement",
@@ -53458,33 +53499,5 @@
     "test/staging/sm/types/8.12.5-01.js": "narcissus:6526:16 uncaught exception: [object Object]; Stack:; call@narcissus:6526:16; call@narcissus:6505:19; execute@narcissus:6297:15; execute@narcissus:6065:33; execute@narcissus:5892:20; execute@...",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: 343: Missing )",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: 235: Missing identifier"
-  },
-  "rusage": {
-    "total_time_s": 3083.613,
-    "peak_rss_mb": 1477.3,
-    "wall_time_s": {
-      "test/staging/sm/regress/regress-610026.sloppy.js": 60.226,
-      "test/staging/sm/regress/regress-610026.strict.js": 60.221,
-      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.4_T2.sloppy.js": 60.208,
-      "test/built-ins/encodeURI/S15.1.3.3_A2.1_T1.strict.js": 60.191,
-      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.4_T2.strict.js": 60.167,
-      "test/built-ins/encodeURI/S15.1.3.3_A2.4_T1.strict.js": 60.161,
-      "test/built-ins/encodeURI/S15.1.3.3_A2.4_T2.strict.js": 60.156,
-      "test/harness/decimalToHexString.sloppy.js": 60.154,
-      "test/built-ins/encodeURI/S15.1.3.3_A2.1_T1.sloppy.js": 60.152,
-      "test/harness/decimalToHexString.strict.js": 60.151
-    },
-    "rss_mb": {
-      "test/staging/sm/regress/regress-610026.strict.js": 1477.3,
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 1477.2,
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 1477.2,
-      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 1477.2,
-      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 1477.2,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 1477.2,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 1477.2,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 1477.2,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 1477.2,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 1477.2
-    }
   }
 }

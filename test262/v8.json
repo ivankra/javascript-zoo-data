@@ -5,10 +5,7 @@
     "binary_sha256": "27fca9740c65638c960c169b64c0a7c6090bde0c9a033d5df72e7d3e8cb7e4fe",
     "binary_size": 22168328,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "v8",
     "repository": "https://chromium.googlesource.com/v8/v8.git",
     "revision": "5d4c5979f9f16103e3d41e0530021d6759ffcdb6",
@@ -134,9 +131,11 @@
   },
   "summary": {
     "all": {"pass": 44203, "fail": 8928, "pass_percent": 83.196},
+    "esnext": {"pass": 1397, "fail": 6927, "pass_percent": 16.783},
     "intl": {"pass": 25, "fail": 3298, "pass_percent": 0.752},
     "staging": {"pass": 1461, "fail": 23, "pass_percent": 98.45},
     "annexb": {"pass": 1059, "fail": 27, "pass_percent": 97.514},
+    "ex-intl": {"pass": 44178, "fail": 5630, "pass_percent": 88.697},
     "ex-staging": {"pass": 42742, "fail": 8905, "pass_percent": 82.758},
     "ex-staging-intl": {"pass": 42717, "fail": 5607, "pass_percent": 88.397},
     "ex-staging-intl-annexb": {"pass": 41658, "fail": 5580, "pass_percent": 88.187},
@@ -411,6 +410,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 324, "fail": 2, "pass_percent": 99.387},
     "ref:$262.evalScript": {"pass": 29, "fail": 2, "pass_percent": 93.548},
     "ref:$262.gc": {"pass": 15, "pass_percent": 100.0}
+  },
+  "rusage": {
+    "total_duration_sec": 329.733,
+    "total_user_sec": 380.484,
+    "total_sys_sec": 508.669,
+    "peak_rss_mb": 1506.5,
+    "wall_time_s": {
+      "test/staging/sm/regress/regress-610026.sloppy.js": 2.655,
+      "test/staging/sm/regress/regress-610026.strict.js": 2.619,
+      "test/built-ins/Atomics/notify/notify-one.strict.js": 1.129,
+      "test/built-ins/Atomics/notify/notify-two.strict.js": 1.126,
+      "test/built-ins/Atomics/notify/notify-zero.sloppy.js": 1.126,
+      "test/built-ins/Atomics/notify/notify-zero.strict.js": 1.124,
+      "test/built-ins/Atomics/notify/notify-one.sloppy.js": 1.123,
+      "test/built-ins/Atomics/notify/notify-two.sloppy.js": 1.123,
+      "test/built-ins/Atomics/notify/notify-nan.strict.js": 1.118,
+      "test/built-ins/Atomics/notify/notify-nan.sloppy.js": 1.118
+    },
+    "duration_sec": {
+      "test/staging/sm/regress/regress-610026.sloppy.js": 2.655,
+      "test/staging/sm/regress/regress-610026.strict.js": 2.619,
+      "test/built-ins/Atomics/notify/notify-one.strict.js": 1.129,
+      "test/built-ins/Atomics/notify/notify-two.strict.js": 1.126,
+      "test/built-ins/Atomics/notify/notify-zero.sloppy.js": 1.126,
+      "test/built-ins/Atomics/notify/notify-zero.strict.js": 1.124,
+      "test/built-ins/Atomics/notify/notify-one.sloppy.js": 1.123,
+      "test/built-ins/Atomics/notify/notify-two.sloppy.js": 1.123,
+      "test/built-ins/Atomics/notify/notify-nan.strict.js": 1.118,
+      "test/built-ins/Atomics/notify/notify-nan.sloppy.js": 1.118
+    },
+    "rss_mb": {
+      "test/staging/sm/regress/regress-610026.strict.js": 1506.5,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 1506.4,
+      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 1506.2,
+      "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 1506.2,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.sloppy.js": 1506.2,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.strict.js": 1506.2,
+      "test/annexB/built-ins/String/prototype/blink/length.sloppy.js": 1506.2,
+      "test/annexB/built-ins/String/prototype/blink/length.strict.js": 1506.2,
+      "test/annexB/built-ins/String/prototype/fontcolor/this-val-tostring-err.sloppy.js": 1506.2,
+      "test/annexB/built-ins/String/prototype/fontcolor/this-val-tostring-err.strict.js": 1506.2
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "OK",
@@ -53544,33 +53585,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "OK",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 338.882,
-    "peak_rss_mb": 1506.6,
-    "wall_time_s": {
-      "test/staging/sm/regress/regress-610026.sloppy.js": 2.607,
-      "test/staging/sm/regress/regress-610026.strict.js": 2.349,
-      "test/built-ins/Atomics/notify/notify-one.strict.js": 1.126,
-      "test/built-ins/Atomics/notify/notify-zero.strict.js": 1.125,
-      "test/built-ins/Atomics/notify/notify-nan.strict.js": 1.125,
-      "test/built-ins/Atomics/notify/notify-two.sloppy.js": 1.124,
-      "test/built-ins/Atomics/notify/notify-two.strict.js": 1.123,
-      "test/built-ins/Atomics/notify/notify-one.sloppy.js": 1.123,
-      "test/built-ins/Atomics/notify/notify-zero.sloppy.js": 1.121,
-      "test/built-ins/Atomics/notify/notify-nan.sloppy.js": 1.119
-    },
-    "rss_mb": {
-      "test/staging/sm/regress/regress-610026.sloppy.js": 1506.6,
-      "test/staging/sm/regress/regress-610026.strict.js": 1506.4,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 1506.3,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 1506.3,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/prop-desc.sloppy.js": 1506.3,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/prop-desc.strict.js": 1506.3,
-      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-cross-realm-constructor.sloppy.js": 1506.3,
-      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-cross-realm-constructor.strict.js": 1506.3,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-string-invalid-u.sloppy.js": 1506.3,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-string-invalid-u.strict.js": 1506.3
-    }
   }
 }

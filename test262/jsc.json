@@ -58,9 +58,11 @@
   },
   "summary": {
     "all": {"pass": 48961, "fail": 4170, "pass_percent": 92.151},
+    "esnext": {"pass": 4295, "fail": 4029, "pass_percent": 51.598},
     "intl": {"pass": 1293, "fail": 2030, "pass_percent": 38.911},
     "staging": {"pass": 1439, "fail": 45, "pass_percent": 96.968},
     "annexb": {"pass": 1085, "fail": 1, "pass_percent": 99.908},
+    "ex-intl": {"pass": 47668, "fail": 2140, "pass_percent": 95.704},
     "ex-staging": {"pass": 47522, "fail": 4125, "pass_percent": 92.013},
     "ex-staging-intl": {"pass": 46229, "fail": 2095, "pass_percent": 95.665},
     "ex-staging-intl-annexb": {"pass": 45144, "fail": 2094, "pass_percent": 95.567},
@@ -335,6 +337,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 324, "fail": 2, "pass_percent": 99.387},
     "ref:$262.evalScript": {"pass": 31, "pass_percent": 100.0},
     "ref:$262.gc": {"pass": 13, "fail": 2, "pass_percent": 86.667}
+  },
+  "rusage": {
+    "total_duration_sec": 422.542,
+    "total_user_sec": 801.085,
+    "total_sys_sec": 465.814,
+    "peak_rss_mb": 2750.5,
+    "wall_time_s": {
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.064,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.063,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 32.099,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.strict.js": 30.16,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.sloppy.js": 29.542,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.sloppy.js": 29.442,
+      "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.strict.js": 12.908,
+      "test/built-ins/RegExp/property-escapes/generated/Any.sloppy.js": 11.329,
+      "test/built-ins/RegExp/property-escapes/generated/Any.strict.js": 11.14,
+      "test/built-ins/RegExp/property-escapes/generated/Alphabetic.strict.js": 11.124
+    },
+    "duration_sec": {
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.064,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.063,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 32.099,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.strict.js": 30.16,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.sloppy.js": 29.542,
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.sloppy.js": 29.442,
+      "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.strict.js": 12.908,
+      "test/built-ins/RegExp/property-escapes/generated/Any.sloppy.js": 11.329,
+      "test/built-ins/RegExp/property-escapes/generated/Any.strict.js": 11.14,
+      "test/built-ins/RegExp/property-escapes/generated/Alphabetic.strict.js": 11.124
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 2750.5,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 2750.5,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 2750.5,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 2750.5,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.sloppy.js": 2750.5,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.strict.js": 2750.5,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.sloppy.js": 2750.5,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.strict.js": 2750.5,
+      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class-range.sloppy.js": 2750.5,
+      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class-range.strict.js": 2750.5
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "OK",
@@ -53468,33 +53512,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Unexpected identifier 'source'. \"import.\" can only be followed with meta.",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 425.407,
-    "peak_rss_mb": 2901.1,
-    "wall_time_s": {
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.064,
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.064,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 31.024,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.strict.js": 30.569,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.sloppy.js": 30.255,
-      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.sloppy.js": 30.241,
-      "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.sloppy.js": 12.584,
-      "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.strict.js": 12.035,
-      "test/built-ins/RegExp/property-escapes/generated/Any.sloppy.js": 11.568,
-      "test/built-ins/RegExp/property-escapes/generated/Any.strict.js": 11.139
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 2901.1,
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 2901.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 2901.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 2901.1,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 2901.1,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 2901.1,
-      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-not-capturing.sloppy.js": 2901.1,
-      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-not-capturing.strict.js": 2901.1,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 2901.1,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.strict.js": 2901.1
-    }
   }
 }

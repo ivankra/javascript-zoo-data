@@ -52,9 +52,11 @@
   },
   "summary": {
     "all": {"pass": 43880, "fail": 9251, "pass_percent": 82.588},
+    "esnext": {"pass": 640, "fail": 7684, "pass_percent": 7.689},
     "intl": {"pass": 23, "fail": 3300, "pass_percent": 0.692},
     "staging": {"pass": 1299, "fail": 185, "pass_percent": 87.534},
     "annexb": {"pass": 1052, "fail": 34, "pass_percent": 96.869},
+    "ex-intl": {"pass": 43857, "fail": 5951, "pass_percent": 88.052},
     "ex-staging": {"pass": 42581, "fail": 9066, "pass_percent": 82.446},
     "ex-staging-intl": {"pass": 42558, "fail": 5766, "pass_percent": 88.068},
     "ex-staging-intl-annexb": {"pass": 41506, "fail": 5732, "pass_percent": 87.866},
@@ -329,6 +331,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 311, "fail": 15, "pass_percent": 95.399},
     "ref:$262.evalScript": {"pass": 31, "pass_percent": 100.0},
     "ref:$262.gc": {"pass": 3, "fail": 12, "pass_percent": 20.0}
+  },
+  "rusage": {
+    "total_duration_sec": 175.136,
+    "total_user_sec": 347.577,
+    "total_sys_sec": 84.136,
+    "peak_rss_mb": 1027.1,
+    "wall_time_s": {
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.887,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 1.878,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.84,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 1.819,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 1.815,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 1.811,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 1.808,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.806,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 1.792,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.78
+    },
+    "duration_sec": {
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.887,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 1.878,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.84,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 1.819,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 1.815,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 1.811,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 1.808,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.806,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 1.792,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.78
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 1027.1,
+      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 1027.1,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 1027.1,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 1027.1,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 1027.1,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 1027.1,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 1027.1,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 1027.1,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.sloppy.js": 1027.1,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.strict.js": 1027.1
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "OK",
@@ -53461,34 +53505,6 @@
     "test/staging/sm/syntax/yield-as-identifier.js": "OK",
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: meta expected",
-    "test/staging/top-level-await/tla-hang-entry.js": "NoAsyncTestComplete"
-  },
-  "rusage": {
-    "total_time_s": 180.79,
-    "peak_rss_mb": 1027.0,
-    "wall_time_s": {
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 1.898,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.853,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 1.84,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.832,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.813,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 1.811,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.808,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 1.799,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 1.797,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.782
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 1027.0,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 1027.0,
-      "test/annexB/built-ins/Date/prototype/toGMTString/value.sloppy.js": 1027.0,
-      "test/annexB/built-ins/Date/prototype/toGMTString/value.strict.js": 1027.0,
-      "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.sloppy.js": 1027.0,
-      "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.strict.js": 1027.0,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.sloppy.js": 1027.0,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.strict.js": 1027.0,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.sloppy.js": 1027.0,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.strict.js": 1027.0
-    }
+    "test/staging/top-level-await/tla-hang-entry.js": "crashed: SIGABRT"
   }
 }

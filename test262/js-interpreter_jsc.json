@@ -44,10 +44,12 @@
     "revision_date": "2026-03-30"
   },
   "summary": {
-    "all": {"pass": 13442, "fail": 39689, "pass_percent": 25.3},
+    "all": {"pass": 13443, "fail": 39688, "pass_percent": 25.302},
+    "esnext": {"pass": 187, "fail": 8137, "pass_percent": 2.247},
     "intl": {"pass": 15, "fail": 3308, "pass_percent": 0.451},
-    "staging": {"pass": 160, "fail": 1324, "pass_percent": 10.782},
+    "staging": {"pass": 161, "fail": 1323, "pass_percent": 10.849},
     "annexb": {"pass": 280, "fail": 806, "pass_percent": 25.783},
+    "ex-intl": {"pass": 13428, "fail": 36380, "pass_percent": 26.96},
     "ex-staging": {"pass": 13282, "fail": 38365, "pass_percent": 25.717},
     "ex-staging-intl": {"pass": 13267, "fail": 35057, "pass_percent": 27.454},
     "ex-staging-intl-annexb": {"pass": 12987, "fail": 34251, "pass_percent": 27.493},
@@ -55,7 +57,7 @@
     "ex-staging-intl-annexb-esnext-$262": {"pass": 12800, "fail": 27855, "pass_percent": 31.484}
   },
   "tags": {
-    "edition:N/A": {"pass": 3771, "fail": 4949, "pass_percent": 43.245},
+    "edition:N/A": {"pass": 3772, "fail": 4948, "pass_percent": 43.257},
     "edition:es5": {"pass": 6075, "fail": 2122, "pass_percent": 74.112},
     "edition:es6": {"pass": 1277, "fail": 9777, "pass_percent": 11.552},
     "edition:es2016": {"pass": 28, "fail": 102, "pass_percent": 21.538},
@@ -118,7 +120,7 @@
     "features:IsHTMLDDA": {"fail": 42, "pass_percent": 0.0},
     "features:Map": {"fail": 40, "pass_percent": 0.0},
     "features:Math.sumPrecise": {"fail": 10, "pass_percent": 0.0},
-    "features:N/A": {"pass": 10321, "fail": 8331, "pass_percent": 55.335},
+    "features:N/A": {"pass": 10322, "fail": 8330, "pass_percent": 55.34},
     "features:Object.fromEntries": {"fail": 25, "pass_percent": 0.0},
     "features:Object.hasOwn": {"fail": 62, "pass_percent": 0.0},
     "features:Object.is": {"fail": 2, "pass_percent": 0.0},
@@ -269,7 +271,7 @@
     "field:negative": {"pass": 4324, "fail": 345, "pass_percent": 92.611},
     "flags:CanBlockIsFalse": {"fail": 2, "pass_percent": 0.0},
     "flags:CanBlockIsTrue": {"fail": 7, "pass_percent": 0.0},
-    "flags:N/A": {"pass": 9464, "fail": 23464, "pass_percent": 28.741},
+    "flags:N/A": {"pass": 9465, "fail": 23463, "pass_percent": 28.745},
     "flags:async": {"fail": 5558, "pass_percent": 0.0},
     "flags:generated": {"pass": 2914, "fail": 14026, "pass_percent": 17.202},
     "flags:module": {"pass": 226, "fail": 604, "pass_percent": 27.229},
@@ -297,7 +299,7 @@
     "includes:regExpUtils.js": {"fail": 586, "pass_percent": 0.0},
     "includes:resizableArrayBufferUtils.js": {"fail": 188, "pass_percent": 0.0},
     "includes:sm/assertThrowsValue.js": {"fail": 25, "pass_percent": 0.0},
-    "includes:sm/non262-Date-shell.js": {"fail": 8, "pass_percent": 0.0},
+    "includes:sm/non262-Date-shell.js": {"pass": 1, "fail": 7, "pass_percent": 12.5},
     "includes:sm/non262-JSON-shell.js": {"fail": 7, "pass_percent": 0.0},
     "includes:sm/non262-Math-shell.js": {"fail": 15, "pass_percent": 0.0},
     "includes:sm/non262-Reflect-shell.js": {"fail": 5, "pass_percent": 0.0},
@@ -312,8 +314,8 @@
     "includes:testIntl.js": {"fail": 175, "pass_percent": 0.0},
     "includes:testTypedArray.js": {"fail": 2060, "pass_percent": 0.0},
     "includes:wellKnownIntrinsicObjects.js": {"fail": 10, "pass_percent": 0.0},
-    "mode:sloppy": {"pass": 12989, "fail": 38634, "pass_percent": 25.161},
-    "mode:strict": {"pass": 12638, "fail": 37782, "pass_percent": 25.065},
+    "mode:sloppy": {"pass": 12990, "fail": 38633, "pass_percent": 25.163},
+    "mode:strict": {"pass": 12639, "fail": 37781, "pass_percent": 25.067},
     "ref:$262": {"fail": 796, "pass_percent": 0.0},
     "ref:$262.AbstractModuleSource": {"fail": 8, "pass_percent": 0.0},
     "ref:$262.IsHTMLDDA": {"fail": 42, "pass_percent": 0.0},
@@ -322,6 +324,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 2206.473,
+    "total_user_sec": 6970.062,
+    "total_sys_sec": 1206.695,
+    "peak_rss_mb": 4098.0,
+    "wall_time_s": {
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 60.073,
+      "test/staging/sm/Date/dst-offset-caching-1-of-8.strict.js": 60.07,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.strict.js": 60.07,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 60.069,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 60.069,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.sloppy.js": 60.068,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.strict.js": 60.068,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 60.068,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 60.067,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 60.067
+    },
+    "duration_sec": {
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 60.073,
+      "test/staging/sm/Date/dst-offset-caching-1-of-8.strict.js": 60.07,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.strict.js": 60.07,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 60.069,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 60.069,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.sloppy.js": 60.068,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.strict.js": 60.068,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 60.068,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 60.067,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 60.067
+    },
+    "rss_mb": {
+      "test/staging/sm/regress/regress-610026.strict.js": 4098.0,
+      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 4097.8,
+      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 4097.8,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 4097.8,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 4097.8,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.sloppy.js": 4097.8,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.strict.js": 4097.8,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 4097.8,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.strict.js": 4097.8,
+      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.sloppy.js": 4097.8
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: Symbol is not defined",
@@ -52161,7 +52205,7 @@
     "test/staging/sm/Date/constructor-one-argument.js": "OK",
     "test/staging/sm/Date/defaultvalue.js": "Uncaught exception: [object Object]",
     "test/staging/sm/Date/dst-offset-caching-1-of-8.js": "timeout: >60s",
-    "test/staging/sm/Date/dst-offset-caching-2-of-8.js": "timeout: >60s",
+    "test/staging/sm/Date/dst-offset-caching-2-of-8.js": "OK",
     "test/staging/sm/Date/dst-offset-caching-3-of-8.js": "timeout: >60s",
     "test/staging/sm/Date/dst-offset-caching-4-of-8.js": "timeout: >60s",
     "test/staging/sm/Date/dst-offset-caching-5-of-8.js": "timeout: >60s",
@@ -53343,7 +53387,7 @@
     "test/staging/sm/regress/regress-600067.js": "OK",
     "test/staging/sm/regress/regress-601399.js": "OK",
     "test/staging/sm/regress/regress-602621.js": "Uncaught exception: [object Object]",
-    "test/staging/sm/regress/regress-610026.js": "OOM: >3584MB",
+    "test/staging/sm/regress/regress-610026.js": "OOM: >4096MB",
     "test/staging/sm/regress/regress-617405-1.js": "Uncaught exception: [object Object]",
     "test/staging/sm/regress/regress-617405-2.js": "Uncaught exception: [object Object]",
     "test/staging/sm/regress/regress-618572.js": "Uncaught exception: [object Object]",
@@ -53455,33 +53499,5 @@
     "test/staging/sm/types/8.12.5-01.js": "Uncaught exception: [object Object]",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Unexpected token (350:16)",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: Unexpected token (242:7)"
-  },
-  "rusage": {
-    "total_time_s": 2156.926,
-    "peak_rss_mb": 3593.9,
-    "wall_time_s": {
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 60.077,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.sloppy.js": 60.076,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.strict.js": 60.076,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.strict.js": 60.073,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 60.073,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 60.073,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.sloppy.js": 60.069,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 60.069,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 60.068,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 60.068
-    },
-    "rss_mb": {
-      "test/staging/sm/regress/regress-610026.sloppy.js": 3593.9,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 3593.8,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 3593.8,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 3593.8,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 3593.8,
-      "test/annexB/built-ins/Date/prototype/toGMTString/value.sloppy.js": 3593.8,
-      "test/annexB/built-ins/Date/prototype/toGMTString/value.strict.js": 3593.8,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 3593.8,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 3593.8,
-      "test/annexB/built-ins/RegExp/RegExp-trailing-escape.sloppy.js": 3593.8
-    }
   }
 }

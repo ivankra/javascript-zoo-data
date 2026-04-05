@@ -27,13 +27,13 @@
     "RangeError": "OK",
     "ReferenceError": "OK",
     "SyntaxError": "OK",
-    "Test262Error": "SyntaxError: :0: /tmp/probe-6g0u29d9/33-probe.sloppy.js:70: expected an identifier but got a reserved word stderr='WARNING: SEE is using non-release malloc\\nexception:\\n  SyntaxError: :0: /tmp/probe-6g0u29d9/33-probe.sloppy.js:70: expected an identifier but got a reserved word\\n  (thrown from parse.c:1223)'",
+    "Test262Error": "SyntaxError: :0: /tmp/probe-hd5wuglc/35-probe.sloppy.js:70: expected an identifier but got a reserved word stderr='WARNING: SEE is using non-release malloc\\nexception:\\n  SyntaxError: :0: /tmp/probe-hd5wuglc/35-probe.sloppy.js:70: expected an identifier but got a reserved word\\n  (thrown from parse.c:1223)'",
     "TypeError": "OK",
     "annexB": "OK",
     "assert.throws": "SyntaxError: expected an identifier but got a reserved word",
-    "async": "SyntaxError: :0: /tmp/probe-_7m31jya/35-probe.sloppy.js:70: expected an identifier but got a reserved word",
+    "async": "SyntaxError: :0: /tmp/probe-kkya51a7/33-probe.sloppy.js:70: expected an identifier but got a reserved word",
     "eval": "OK",
-    "harness": "SyntaxError: :0: /tmp/probe-ssbeynwp/33-probe.sloppy.js:70: expected an identifier but got a reserved word",
+    "harness": "SyntaxError: :0: /tmp/probe-subx0gwh/33-probe.sloppy.js:70: expected an identifier but got a reserved word",
     "module-export": "SyntaxError: probe.mjs:3: unexpected token, near a reserved word",
     "module-import": "SyntaxError: probe.mjs:3: unexpected token, near a reserved word",
     "negative": "OK",
@@ -48,9 +48,11 @@
   },
   "summary": {
     "all": {"pass": 8802, "fail": 44329, "pass_percent": 16.567},
+    "esnext": {"pass": 264, "fail": 8060, "pass_percent": 3.172},
     "intl": {"pass": 1, "fail": 3322, "pass_percent": 0.03},
     "staging": {"pass": 125, "fail": 1359, "pass_percent": 8.423},
     "annexb": {"pass": 46, "fail": 1040, "pass_percent": 4.236},
+    "ex-intl": {"pass": 8801, "fail": 41007, "pass_percent": 17.67},
     "ex-staging": {"pass": 8677, "fail": 42970, "pass_percent": 16.801},
     "ex-staging-intl": {"pass": 8676, "fail": 39648, "pass_percent": 17.954},
     "ex-staging-intl-annexb": {"pass": 8630, "fail": 38608, "pass_percent": 18.269},
@@ -325,6 +327,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 234.934,
+    "total_user_sec": 130.592,
+    "total_sys_sec": 124.525,
+    "peak_rss_mb": 1658.0,
+    "wall_time_s": {
+      "test/staging/sm/regress/regress-610026.sloppy.js": 7.274,
+      "test/staging/sm/regress/regress-610026.strict.js": 6.689,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.sloppy.js": 5.477,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.3_T1.strict.js": 3.89,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.3_T1.sloppy.js": 3.828,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.strict.js": 3.743,
+      "test/built-ins/Date/prototype/setMilliseconds/arg-coercion-order.sloppy.js": 2.288,
+      "test/built-ins/Date/prototype/setFullYear/this-value-invalid-date.sloppy.js": 1.573,
+      "test/language/statements/switch/tco-dftl-body.js": 1.536,
+      "test/language/comments/S7.4_A5.sloppy.js": 1.393
+    },
+    "duration_sec": {
+      "test/staging/sm/regress/regress-610026.sloppy.js": 7.274,
+      "test/staging/sm/regress/regress-610026.strict.js": 6.689,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.sloppy.js": 5.477,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.3_T1.strict.js": 3.89,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.3_T1.sloppy.js": 3.828,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.strict.js": 3.743,
+      "test/built-ins/Date/prototype/setMilliseconds/arg-coercion-order.sloppy.js": 2.288,
+      "test/built-ins/Date/prototype/setFullYear/this-value-invalid-date.sloppy.js": 1.573,
+      "test/language/statements/switch/tco-dftl-body.js": 1.536,
+      "test/language/comments/S7.4_A5.sloppy.js": 1.393
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 1658.0,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 1658.0,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 1658.0,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 1658.0,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/prop-desc.sloppy.js": 1658.0,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/prop-desc.strict.js": 1658.0,
+      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.sloppy.js": 1658.0,
+      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.strict.js": 1658.0,
+      "test/annexB/built-ins/RegExp/prototype/Symbol.split/toint32-limit-recompiles-source.sloppy.js": 1658.0,
+      "test/annexB/built-ins/RegExp/prototype/Symbol.split/toint32-limit-recompiles-source.strict.js": 1658.0
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: Symbol",
@@ -53458,33 +53502,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: :0: 8.12.5-01.js:216: expected ':' but got an identifier",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: :0: import-source-source-text-module.js:343: expected ',' or ')' but got 'function'",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: :0: tla-hang-entry.js:235: unexpected token, near a reserved word"
-  },
-  "rusage": {
-    "total_time_s": 236.699,
-    "peak_rss_mb": 1658.0,
-    "wall_time_s": {
-      "test/staging/sm/regress/regress-610026.strict.js": 8.174,
-      "test/staging/sm/regress/regress-610026.sloppy.js": 7.428,
-      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.strict.js": 4.118,
-      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.sloppy.js": 3.54,
-      "test/built-ins/encodeURI/S15.1.3.3_A2.3_T1.strict.js": 3.462,
-      "test/built-ins/encodeURI/S15.1.3.3_A2.3_T1.sloppy.js": 3.306,
-      "test/language/statements/try/cptn-catch-finally-empty-continue.strict.js": 2.391,
-      "test/language/statements/try/tco-catch-finally.js": 1.937,
-      "test/language/comments/S7.4_A5.sloppy.js": 1.492,
-      "test/language/statements/try/S12.14_A9_T4.sloppy.js": 1.168
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 1658.0,
-      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 1658.0,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 1658.0,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 1658.0,
-      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.sloppy.js": 1658.0,
-      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.strict.js": 1658.0,
-      "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.sloppy.js": 1658.0,
-      "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.strict.js": 1658.0,
-      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.sloppy.js": 1658.0,
-      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.strict.js": 1658.0
-    }
   }
 }

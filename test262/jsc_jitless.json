@@ -58,9 +58,11 @@
   },
   "summary": {
     "all": {"pass": 48959, "fail": 4172, "pass_percent": 92.148},
+    "esnext": {"pass": 4295, "fail": 4029, "pass_percent": 51.598},
     "intl": {"pass": 1293, "fail": 2030, "pass_percent": 38.911},
     "staging": {"pass": 1438, "fail": 46, "pass_percent": 96.9},
     "annexb": {"pass": 1085, "fail": 1, "pass_percent": 99.908},
+    "ex-intl": {"pass": 47666, "fail": 2142, "pass_percent": 95.699},
     "ex-staging": {"pass": 47521, "fail": 4126, "pass_percent": 92.011},
     "ex-staging-intl": {"pass": 46228, "fail": 2096, "pass_percent": 95.663},
     "ex-staging-intl-annexb": {"pass": 45143, "fail": 2095, "pass_percent": 95.565},
@@ -335,6 +337,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 324, "fail": 2, "pass_percent": 99.387},
     "ref:$262.evalScript": {"pass": 31, "pass_percent": 100.0},
     "ref:$262.gc": {"pass": 13, "fail": 2, "pass_percent": 86.667}
+  },
+  "rusage": {
+    "total_duration_sec": 383.68,
+    "total_user_sec": 633.239,
+    "total_sys_sec": 512.518,
+    "peak_rss_mb": 2115.6,
+    "wall_time_s": {
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.062,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.061,
+      "test/staging/sm/regress/regress-610026.strict.js": 3.311,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 2.863,
+      "test/staging/sm/String/replace-math.strict.js": 2.018,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.strict.js": 1.667,
+      "test/staging/sm/String/replace-math.sloppy.js": 1.633,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 1.611,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 1.407,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.strict.js": 1.321
+    },
+    "duration_sec": {
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.062,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.061,
+      "test/staging/sm/regress/regress-610026.strict.js": 3.311,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 2.863,
+      "test/staging/sm/String/replace-math.strict.js": 2.018,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.strict.js": 1.667,
+      "test/staging/sm/String/replace-math.sloppy.js": 1.633,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 1.611,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 1.407,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.strict.js": 1.321
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 2115.6,
+      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 2115.6,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 2115.6,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 2115.6,
+      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 2115.6,
+      "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 2115.6,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 2115.6,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 2115.6,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 2115.6,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.strict.js": 2115.6
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "OK",
@@ -53468,33 +53512,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Unexpected identifier 'source'. \"import.\" can only be followed with meta.",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 366.325,
-    "peak_rss_mb": 2096.6,
-    "wall_time_s": {
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.062,
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.061,
-      "test/staging/sm/regress/regress-610026.strict.js": 3.328,
-      "test/staging/sm/regress/regress-610026.sloppy.js": 3.167,
-      "test/built-ins/Atomics/waitAsync/bigint/waiterlist-block-indexedposition-wake.strict.js": 2.123,
-      "test/built-ins/Atomics/waitAsync/bigint/waiterlist-block-indexedposition-wake.sloppy.js": 2.116,
-      "test/built-ins/Atomics/waitAsync/waiterlist-block-indexedposition-wake.sloppy.js": 2.116,
-      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 1.604,
-      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 1.589,
-      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.strict.js": 1.574
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 2096.6,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 2096.6,
-      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 2096.6,
-      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 2096.6,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 2096.6,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 2096.6,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.sloppy.js": 2096.6,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.strict.js": 2096.6,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 2096.6,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 2096.6
-    }
   }
 }

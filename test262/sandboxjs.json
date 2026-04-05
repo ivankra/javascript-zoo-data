@@ -2,10 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "sandboxjs",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "dist_size": 135513,
     "engine": "sandboxjs",
     "repository": "https://github.com/nyariv/SandboxJS.git",
@@ -49,9 +46,11 @@
   },
   "summary": {
     "all": {"pass": 3597, "fail": 49534, "pass_percent": 6.77},
+    "esnext": {"pass": 221, "fail": 8103, "pass_percent": 2.655},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"pass": 3, "fail": 1481, "pass_percent": 0.202},
     "annexb": {"pass": 7, "fail": 1079, "pass_percent": 0.645},
+    "ex-intl": {"pass": 3597, "fail": 46211, "pass_percent": 7.222},
     "ex-staging": {"pass": 3594, "fail": 48053, "pass_percent": 6.959},
     "ex-staging-intl": {"pass": 3594, "fail": 44730, "pass_percent": 7.437},
     "ex-staging-intl-annexb": {"pass": 3587, "fail": 43651, "pass_percent": 7.593},
@@ -326,6 +325,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 2707.949,
+    "total_user_sec": 8336.355,
+    "total_sys_sec": 1926.957,
+    "peak_rss_mb": 206.7,
+    "wall_time_s": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 1.655,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 1.611,
+      "test/staging/sm/extensions/dataview.sloppy.js": 0.318,
+      "test/language/expressions/left-shift/S11.7.1_A4_T4.strict.js": 0.305,
+      "test/staging/sm/extensions/dataview.strict.js": 0.304,
+      "test/staging/sm/RegExp/unicode-ignoreCase.strict.js": 0.302,
+      "test/staging/sm/RegExp/unicode-ignoreCase.sloppy.js": 0.3,
+      "test/language/expressions/left-shift/S11.7.1_A4_T1.sloppy.js": 0.296,
+      "test/language/expressions/left-shift/S11.7.1_A4_T1.strict.js": 0.296,
+      "test/built-ins/Array/prototype/sort/stability-2048-elements.sloppy.js": 0.287
+    },
+    "duration_sec": {
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 1.655,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 1.611,
+      "test/staging/sm/extensions/dataview.sloppy.js": 0.318,
+      "test/language/expressions/left-shift/S11.7.1_A4_T4.strict.js": 0.305,
+      "test/staging/sm/extensions/dataview.strict.js": 0.304,
+      "test/staging/sm/RegExp/unicode-ignoreCase.strict.js": 0.302,
+      "test/staging/sm/RegExp/unicode-ignoreCase.sloppy.js": 0.3,
+      "test/language/expressions/left-shift/S11.7.1_A4_T1.sloppy.js": 0.296,
+      "test/language/expressions/left-shift/S11.7.1_A4_T1.strict.js": 0.296,
+      "test/built-ins/Array/prototype/sort/stability-2048-elements.sloppy.js": 0.287
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 206.7,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 206.7,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 206.7,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 206.7,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 206.7,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 206.7,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 206.7,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.strict.js": 206.7,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 206.7,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 206.7
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "SandboxAccessError: Override prototype property 'toString' not allowed",
@@ -53459,33 +53500,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: Unexpected token after prop: p: var o = { get p() { return \"55\"; } }",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SandboxAccessError: Override prototype property 'toString' not allowed",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: Unexpected token 'import': import \"63\""
-  },
-  "rusage": {
-    "total_time_s": 2741.612,
-    "peak_rss_mb": 204.8,
-    "wall_time_s": {
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 1.702,
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 1.646,
-      "test/staging/sm/RegExp/unicode-ignoreCase.strict.js": 0.321,
-      "test/staging/sm/extensions/dataview.strict.js": 0.321,
-      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T2.strict.js": 0.31,
-      "test/staging/sm/extensions/dataview.sloppy.js": 0.306,
-      "test/staging/sm/RegExp/unicode-ignoreCase.sloppy.js": 0.298,
-      "test/language/expressions/right-shift/S11.7.2_A4_T1.strict.js": 0.297,
-      "test/built-ins/Array/prototype/sort/stability-2048-elements.sloppy.js": 0.29,
-      "test/language/expressions/right-shift/S11.7.2_A4_T2.sloppy.js": 0.29
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/prop-desc.sloppy.js": 204.8,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/prop-desc.strict.js": 204.8,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/prop-desc.sloppy.js": 204.8,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/prop-desc.strict.js": 204.8,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/prop-desc.sloppy.js": 204.8,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/prop-desc.strict.js": 204.8,
-      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed.sloppy.js": 204.8,
-      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed.strict.js": 204.8,
-      "test/annexB/built-ins/RegExp/prototype/compile/length.sloppy.js": 204.8,
-      "test/annexB/built-ins/RegExp/prototype/compile/length.strict.js": 204.8
-    }
   }
 }

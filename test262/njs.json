@@ -5,10 +5,7 @@
     "binary_sha256": "5bcde9b9fd6c5a8b71c8275a1506218c29d55c58d349608a6d153e1c692fbbea",
     "binary_size": 874040,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "njs",
     "repository": "https://github.com/nginx/njs.git",
     "revision": "3185ce819be0eadbaea1b602c6aa72108fdc32cd",
@@ -53,9 +50,11 @@
   },
   "summary": {
     "all": {"pass": 18996, "fail": 34135, "pass_percent": 35.753},
+    "esnext": {"pass": 277, "fail": 8047, "pass_percent": 3.328},
     "intl": {"pass": 9, "fail": 3314, "pass_percent": 0.271},
     "staging": {"pass": 336, "fail": 1148, "pass_percent": 22.642},
     "annexb": {"pass": 53, "fail": 1033, "pass_percent": 4.88},
+    "ex-intl": {"pass": 18987, "fail": 30821, "pass_percent": 38.12},
     "ex-staging": {"pass": 18660, "fail": 32987, "pass_percent": 36.13},
     "ex-staging-intl": {"pass": 18651, "fail": 29673, "pass_percent": 38.596},
     "ex-staging-intl-annexb": {"pass": 18598, "fail": 28640, "pass_percent": 39.371},
@@ -330,6 +329,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 152, "fail": 174, "pass_percent": 46.626},
     "ref:$262.evalScript": {"pass": 3, "fail": 28, "pass_percent": 9.677},
     "ref:$262.gc": {"pass": 3, "fail": 12, "pass_percent": 20.0}
+  },
+  "rusage": {
+    "total_duration_sec": 151.126,
+    "total_user_sec": 198.991,
+    "total_sys_sec": 144.46,
+    "peak_rss_mb": 4141.3,
+    "wall_time_s": {
+      "test/staging/sm/String/replace-math.strict.js": 2.857,
+      "test/staging/sm/String/replace-math.sloppy.js": 2.807,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 2.06,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 2.058,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 2.047,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 2.045,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 2.035,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 2.029,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 2.024,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 2.023
+    },
+    "duration_sec": {
+      "test/staging/sm/String/replace-math.strict.js": 2.857,
+      "test/staging/sm/String/replace-math.sloppy.js": 2.807,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 2.06,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 2.058,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 2.047,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 2.045,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 2.035,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 2.029,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 2.024,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 2.023
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 4141.3,
+      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 4141.3,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 4141.3,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 4141.3,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 4141.3,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 4141.3,
+      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-not-capturing.sloppy.js": 4141.3,
+      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-not-capturing.strict.js": 4141.3,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 4141.3,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape.strict.js": 4141.3
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
@@ -52713,7 +52754,7 @@
     "test/staging/sm/String/replace-GetMethod.js": "SyntaxError: Token \"of\" not supported in this version",
     "test/staging/sm/String/replace-bad-dollar-single-quote.js": "OK",
     "test/staging/sm/String/replace-flags.js": "OK",
-    "test/staging/sm/String/replace-math.js": "OOM: >3584MB",
+    "test/staging/sm/String/replace-math.js": "OOM: >4096MB",
     "test/staging/sm/String/replace-throws-nonwritable-lastIndex-global.js": "OK",
     "test/staging/sm/String/replace-updates-global-lastIndex.js": "OK",
     "test/staging/sm/String/replace.js": "OK",
@@ -53463,33 +53504,5 @@
     "test/staging/sm/types/8.12.5-01.js": "TypeError: Cannot set property \"p\" of object which has only a getter",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Token \"import\" not supported in this version",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: Non-default import is not supported"
-  },
-  "rusage": {
-    "total_time_s": 151.777,
-    "peak_rss_mb": 3630.2,
-    "wall_time_s": {
-      "test/staging/sm/String/replace-math.strict.js": 2.591,
-      "test/staging/sm/String/replace-math.sloppy.js": 2.5,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 2.024,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 2.02,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 2.014,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 2.009,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 2.003,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 2.002,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 2.001,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 1.999
-    },
-    "rss_mb": {
-      "test/staging/sm/String/replace-math.sloppy.js": 3630.2,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 3630.0,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 3630.0,
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 3630.0,
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 3630.0,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 3630.0,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 3630.0,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 3630.0,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 3630.0,
-      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 3630.0
-    }
   }
 }

@@ -47,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 6645, "fail": 46486, "pass_percent": 12.507},
+    "esnext": {"pass": 262, "fail": 8062, "pass_percent": 3.148},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"pass": 56, "fail": 1428, "pass_percent": 3.774},
     "annexb": {"pass": 297, "fail": 789, "pass_percent": 27.348},
+    "ex-intl": {"pass": 6645, "fail": 43163, "pass_percent": 13.341},
     "ex-staging": {"pass": 6589, "fail": 45058, "pass_percent": 12.758},
     "ex-staging-intl": {"pass": 6589, "fail": 41735, "pass_percent": 13.635},
     "ex-staging-intl-annexb": {"pass": 6292, "fail": 40946, "pass_percent": 13.32},
@@ -324,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 223.143,
+    "total_user_sec": 137.013,
+    "total_sys_sec": 283.772,
+    "peak_rss_mb": 2051.2,
+    "wall_time_s": {
+      "test/staging/sm/Date/dst-offset-caching-1-of-8.strict.js": 2.625,
+      "test/staging/sm/Date/dst-offset-caching-1-of-8.sloppy.js": 2.49,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 2.182,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 2.133,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 2.097,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 2.034,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 2.01,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 2.0,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.978,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 1.975
+    },
+    "duration_sec": {
+      "test/staging/sm/Date/dst-offset-caching-1-of-8.strict.js": 2.625,
+      "test/staging/sm/Date/dst-offset-caching-1-of-8.sloppy.js": 2.49,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 2.182,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 2.133,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 2.097,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 2.034,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 2.01,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 2.0,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.978,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 1.975
+    },
+    "rss_mb": {
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 2051.2,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 2051.1,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 2051.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 2051.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 2051.1,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.sloppy.js": 2051.1,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.strict.js": 2051.1,
+      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 2051.1,
+      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 2051.1,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 2051.1
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "TypeError: undefined has no properties",
@@ -51905,7 +51949,7 @@
     "test/language/types/undefined/S8.1_A3_T1.js": "OK",
     "test/language/types/undefined/S8.1_A3_T2.js": "OK",
     "test/language/types/undefined/S8.1_A4.js": "OK",
-    "test/language/types/undefined/S8.1_A5.js": {"sloppy": "thread 'main' panicked at 'index out of bounds: the len is 17 but the index is 6473', crates/vm/src/realm/exec.rs:1371:19; note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace", "strict": "RuntimeError: invalid instruction"},
+    "test/language/types/undefined/S8.1_A5.js": {"sloppy": "thread 'main' panicked at 'index out of bounds: the len is 17 but the index is 34608', crates/vm/src/realm/exec.rs:1371:19; note: run with `RUST_BACKTRACE=1` environment variable to display a backtrac...", "strict": "RuntimeError: invalid instruction"},
     "test/language/white-space/S7.2_A2.1_T2.js": "OK",
     "test/language/white-space/S7.2_A2.2_T2.js": "OK",
     "test/language/white-space/S7.2_A2.3_T2.js": "OK",
@@ -53457,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: unexpected token: found 'p' expected ':'",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: unexpected token: found 'function' expected ')'",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: parser encountered an unimplemented path in: crates/parser/src/prime.rs:99, Sorry! token: Keyword(Import)"
-  },
-  "rusage": {
-    "total_time_s": 120.499,
-    "peak_rss_mb": 2101.8,
-    "wall_time_s": {
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 2.235,
-      "test/staging/sm/Date/dst-offset-caching-1-of-8.strict.js": 2.154,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 2.091,
-      "test/staging/sm/Date/dst-offset-caching-1-of-8.sloppy.js": 1.952,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 1.851,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.804,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 1.783,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.77,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 1.766,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 1.757
-    },
-    "rss_mb": {
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 2101.8,
-      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 2084.5,
-      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 2084.5,
-      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 2084.5,
-      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 2084.5,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 2084.5,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 2084.5,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 2084.5,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 2084.5,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 2084.5
-    }
   }
 }

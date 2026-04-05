@@ -5,10 +5,7 @@
     "binary_sha256": "23388fac84bc18dc93d482576b159780ff94090b6609d712dc4edf55d7581991",
     "binary_size": 45677744,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "v8",
     "repository": "https://chromium.googlesource.com/v8/v8.git",
     "revision": "d10b2cfdc1609aed75b39336d804e8bacca0e528",
@@ -136,9 +133,11 @@
   },
   "summary": {
     "all": {"pass": 52639, "fail": 492, "pass_percent": 99.074},
+    "esnext": {"pass": 8189, "fail": 135, "pass_percent": 98.378},
     "intl": {"pass": 3287, "fail": 36, "pass_percent": 98.917},
     "staging": {"pass": 1474, "fail": 10, "pass_percent": 99.326},
     "annexb": {"pass": 1059, "fail": 27, "pass_percent": 97.514},
+    "ex-intl": {"pass": 49352, "fail": 456, "pass_percent": 99.084},
     "ex-staging": {"pass": 51165, "fail": 482, "pass_percent": 99.067},
     "ex-staging-intl": {"pass": 47878, "fail": 446, "pass_percent": 99.077},
     "ex-staging-intl-annexb": {"pass": 46819, "fail": 419, "pass_percent": 99.113},
@@ -413,6 +412,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 324, "fail": 2, "pass_percent": 99.387},
     "ref:$262.evalScript": {"pass": 29, "fail": 2, "pass_percent": 93.548},
     "ref:$262.gc": {"pass": 15, "pass_percent": 100.0}
+  },
+  "rusage": {
+    "total_duration_sec": 458.408,
+    "total_user_sec": 665.839,
+    "total_sys_sec": 704.174,
+    "peak_rss_mb": 1511.3,
+    "wall_time_s": {
+      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.strict.js": 60.066,
+      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.sloppy.js": 60.066,
+      "test/intl402/supportedLocalesOf-unicode-extensions-ignored.sloppy.js": 12.169,
+      "test/intl402/supportedLocalesOf-unicode-extensions-ignored.strict.js": 12.029,
+      "test/intl402/NumberFormat/prototype/format/units.strict.js": 4.283,
+      "test/intl402/NumberFormat/constructor-unit.sloppy.js": 4.058,
+      "test/intl402/NumberFormat/constructor-unit.strict.js": 3.99,
+      "test/intl402/NumberFormat/prototype/format/units.sloppy.js": 3.871,
+      "test/intl402/supportedLocalesOf-consistent-with-resolvedOptions.strict.js": 3.492,
+      "test/intl402/supportedLocalesOf-consistent-with-resolvedOptions.sloppy.js": 3.458
+    },
+    "duration_sec": {
+      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.strict.js": 60.066,
+      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.sloppy.js": 60.066,
+      "test/intl402/supportedLocalesOf-unicode-extensions-ignored.sloppy.js": 12.169,
+      "test/intl402/supportedLocalesOf-unicode-extensions-ignored.strict.js": 12.029,
+      "test/intl402/NumberFormat/prototype/format/units.strict.js": 4.283,
+      "test/intl402/NumberFormat/constructor-unit.sloppy.js": 4.058,
+      "test/intl402/NumberFormat/constructor-unit.strict.js": 3.99,
+      "test/intl402/NumberFormat/prototype/format/units.sloppy.js": 3.871,
+      "test/intl402/supportedLocalesOf-consistent-with-resolvedOptions.strict.js": 3.492,
+      "test/intl402/supportedLocalesOf-consistent-with-resolvedOptions.sloppy.js": 3.458
+    },
+    "rss_mb": {
+      "test/staging/sm/regress/regress-610026.strict.js": 1511.3,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 1511.1,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 1511.1,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 1511.1,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 1511.1,
+      "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 1511.1,
+      "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 1511.1,
+      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 1511.1,
+      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 1511.1,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 1511.1
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "OK",
@@ -53546,33 +53587,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "OK",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 556.067,
-    "peak_rss_mb": 1511.0,
-    "wall_time_s": {
-      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.strict.js": 60.264,
-      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.sloppy.js": 60.215,
-      "test/intl402/supportedLocalesOf-unicode-extensions-ignored.sloppy.js": 12.422,
-      "test/intl402/supportedLocalesOf-unicode-extensions-ignored.strict.js": 12.249,
-      "test/intl402/NumberFormat/prototype/format/units.strict.js": 4.36,
-      "test/intl402/NumberFormat/prototype/format/units.sloppy.js": 4.305,
-      "test/intl402/NumberFormat/constructor-unit.sloppy.js": 3.968,
-      "test/intl402/NumberFormat/constructor-unit.strict.js": 3.868,
-      "test/intl402/supportedLocalesOf-consistent-with-resolvedOptions.strict.js": 3.791,
-      "test/intl402/supportedLocalesOf-consistent-with-resolvedOptions.sloppy.js": 3.563
-    },
-    "rss_mb": {
-      "test/staging/sm/regress/regress-610026.strict.js": 1511.0,
-      "test/staging/sm/regress/regress-610026.sloppy.js": 1510.9,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-not-regexp-constructor.sloppy.js": 1510.9,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-not-regexp-constructor.strict.js": 1510.9,
-      "test/annexB/built-ins/RegExp/prototype/Symbol.split/toint32-limit-recompiles-source.sloppy.js": 1510.9,
-      "test/annexB/built-ins/RegExp/prototype/Symbol.split/toint32-limit-recompiles-source.strict.js": 1510.9,
-      "test/annexB/built-ins/String/prototype/fixed/prop-desc.sloppy.js": 1510.9,
-      "test/annexB/built-ins/String/prototype/fixed/prop-desc.strict.js": 1510.9,
-      "test/annexB/built-ins/String/prototype/matchAll/custom-matcher-emulates-undefined.sloppy.js": 1510.9,
-      "test/annexB/built-ins/String/prototype/matchAll/custom-matcher-emulates-undefined.strict.js": 1510.9
-    }
   }
 }

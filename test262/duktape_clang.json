@@ -5,10 +5,7 @@
     "binary_sha256": "3cb4dd50d3ef8e8fd78eb78a2d1b55a9541a9af8bd449592fd3912627931ca1b",
     "binary_size": 748544,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "duktape",
     "repository": "https://github.com/svaarala/duktape.git",
     "revision": "50af773b1b32067170786c2b7c661705ec7425d4",
@@ -50,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 18289, "fail": 34842, "pass_percent": 34.422},
+    "esnext": {"pass": 269, "fail": 8055, "pass_percent": 3.232},
     "intl": {"pass": 17, "fail": 3306, "pass_percent": 0.512},
     "staging": {"pass": 412, "fail": 1072, "pass_percent": 27.763},
     "annexb": {"pass": 320, "fail": 766, "pass_percent": 29.466},
+    "ex-intl": {"pass": 18272, "fail": 31536, "pass_percent": 36.685},
     "ex-staging": {"pass": 17877, "fail": 33770, "pass_percent": 34.614},
     "ex-staging-intl": {"pass": 17860, "fail": 30464, "pass_percent": 36.959},
     "ex-staging-intl-annexb": {"pass": 17540, "fail": 29698, "pass_percent": 37.131},
@@ -327,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 3, "fail": 323, "pass_percent": 0.92},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 460.079,
+    "total_user_sec": 685.717,
+    "total_sys_sec": 660.525,
+    "peak_rss_mb": 1739.6,
+    "wall_time_s": {
+      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.strict.js": 60.063,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 60.062,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 60.062,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.sloppy.js": 60.061,
+      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.sloppy.js": 60.061,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.strict.js": 60.06,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 50.118,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 49.043,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 47.929,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 47.583
+    },
+    "duration_sec": {
+      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.strict.js": 60.063,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 60.062,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 60.062,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.sloppy.js": 60.061,
+      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.sloppy.js": 60.061,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.strict.js": 60.06,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 50.118,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 49.043,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 47.929,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 47.583
+    },
+    "rss_mb": {
+      "test/staging/sm/String/replace-math.strict.js": 1739.6,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 1739.5,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 1739.5
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: identifier '$262' undefined",
@@ -53460,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: parse error (line 343)",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: parse error (line 235)"
-  },
-  "rusage": {
-    "total_time_s": 425.764,
-    "peak_rss_mb": 1739.8,
-    "wall_time_s": {
-      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.strict.js": 60.065,
-      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.strict.js": 60.065,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 60.063,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 60.062,
-      "test/built-ins/Array/prototype/unshift/length-near-integer-limit.sloppy.js": 60.062,
-      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.sloppy.js": 60.034,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 48.14,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 47.923,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 47.797,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 47.437
-    },
-    "rss_mb": {
-      "test/staging/sm/String/replace-math.sloppy.js": 1739.8,
-      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 1739.6,
-      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 1739.6,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 1739.6,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 1739.6,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 1739.6,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 1739.6,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 1739.6,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 1739.6,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 1739.6
-    }
   }
 }

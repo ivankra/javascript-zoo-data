@@ -4,10 +4,7 @@
     "binary_name": "goja",
     "binary_sha256": "d021d3d008bbc854831dabf9a6060c788f5b83db7c23984be81497d6b20298d8",
     "binary_size": 10050264,
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "goja",
     "go": "1.26.1",
     "repository": "https://github.com/dop251/goja.git",
@@ -53,9 +50,11 @@
   },
   "summary": {
     "all": {"pass": 34838, "fail": 18293, "pass_percent": 65.57},
+    "esnext": {"pass": 311, "fail": 8013, "pass_percent": 3.736},
     "intl": {"pass": 23, "fail": 3300, "pass_percent": 0.692},
     "staging": {"pass": 984, "fail": 500, "pass_percent": 66.307},
     "annexb": {"pass": 612, "fail": 474, "pass_percent": 56.354},
+    "ex-intl": {"pass": 34815, "fail": 14993, "pass_percent": 69.898},
     "ex-staging": {"pass": 33854, "fail": 17793, "pass_percent": 65.549},
     "ex-staging-intl": {"pass": 33831, "fail": 14493, "pass_percent": 70.009},
     "ex-staging-intl-annexb": {"pass": 33219, "fail": 14019, "pass_percent": 70.323},
@@ -330,6 +329,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 283, "fail": 43, "pass_percent": 86.81},
     "ref:$262.evalScript": {"pass": 27, "fail": 4, "pass_percent": 87.097},
     "ref:$262.gc": {"pass": 12, "fail": 3, "pass_percent": 80.0}
+  },
+  "rusage": {
+    "total_duration_sec": 350.977,
+    "total_user_sec": 775.162,
+    "total_sys_sec": 243.871,
+    "peak_rss_mb": 4199.1,
+    "wall_time_s": {
+      "test/language/statements/try/tco-catch.js": 60.128,
+      "test/staging/sm/lexical-environment/const-declaration-in-for-loop.sloppy.js": 60.062,
+      "test/staging/sm/lexical-environment/const-declaration-in-for-loop.strict.js": 60.062,
+      "test/staging/sm/extensions/recursion.js": 40.893,
+      "test/staging/sm/Array/to-length.sloppy.js": 39.875,
+      "test/staging/sm/Array/to-length.strict.js": 34.067,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 9.662,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.strict.js": 8.139,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.strict.js": 7.933,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 7.429
+    },
+    "duration_sec": {
+      "test/language/statements/try/tco-catch.js": 60.128,
+      "test/staging/sm/lexical-environment/const-declaration-in-for-loop.sloppy.js": 60.062,
+      "test/staging/sm/lexical-environment/const-declaration-in-for-loop.strict.js": 60.062,
+      "test/staging/sm/extensions/recursion.js": 40.893,
+      "test/staging/sm/Array/to-length.sloppy.js": 39.875,
+      "test/staging/sm/Array/to-length.strict.js": 34.067,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 9.662,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.strict.js": 8.139,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.strict.js": 7.933,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 7.429
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 4199.1,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 4199.1,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 4199.1,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 4199.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 4199.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 4199.1,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.sloppy.js": 4199.1,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.strict.js": 4199.1,
+      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-not-capturing.sloppy.js": 4199.1,
+      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-not-capturing.strict.js": 4199.1
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
@@ -52135,7 +52176,7 @@
     "test/staging/sm/Array/toSpliced-dense.js": "OK",
     "test/staging/sm/Array/toSpliced.js": "OK",
     "test/staging/sm/Array/toString-01.js": "OK",
-    "test/staging/sm/Array/to-length.js": "OOM: >3584MB",
+    "test/staging/sm/Array/to-length.js": "OOM: >4096MB",
     "test/staging/sm/Array/unscopables.js": "Test262Error: Actual [copyWithin, entries, fill, find, findIndex, findLast, findLastIndex, flat, flatMap, includes, keys, groupBy, groupByToMap, toReversed, toSorted, toSpliced, values] and expected [at, copyWithin...",
     "test/staging/sm/Array/unshift-01.js": "OK",
     "test/staging/sm/Array/unshift-with-enumeration.js": "Test262Error: Actual [0, 1] and expected [0] should have the same contents.",
@@ -52713,7 +52754,7 @@
     "test/staging/sm/String/replace-GetMethod.js": "OK",
     "test/staging/sm/String/replace-bad-dollar-single-quote.js": "OK",
     "test/staging/sm/String/replace-flags.js": "OK",
-    "test/staging/sm/String/replace-math.js": "OOM: >3584MB",
+    "test/staging/sm/String/replace-math.js": "OOM: >4096MB",
     "test/staging/sm/String/replace-throws-nonwritable-lastIndex-global.js": "OK",
     "test/staging/sm/String/replace-updates-global-lastIndex.js": "OK",
     "test/staging/sm/String/replace.js": "OK",
@@ -53081,7 +53122,7 @@
     "test/staging/sm/extensions/proxy-enumeration.js": "OK",
     "test/staging/sm/extensions/proxy-strict.js": "OK",
     "test/staging/sm/extensions/quote-string-for-nul-character.js": "OK",
-    "test/staging/sm/extensions/recursion.js": "OOM: >3584MB",
+    "test/staging/sm/extensions/recursion.js": "OOM: >4096MB",
     "test/staging/sm/extensions/regress-455380.js": "OK",
     "test/staging/sm/extensions/regress-469625-01.js": "OK",
     "test/staging/sm/extensions/regress-480579.js": "OK",
@@ -53463,33 +53504,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: import-source-source-text-module.js: Line 346:11 Unexpected reserved word (and 3 more errors)",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: tla-hang-entry.js: Line 235:1 Unexpected reserved word"
-  },
-  "rusage": {
-    "total_time_s": 338.591,
-    "peak_rss_mb": 3737.1,
-    "wall_time_s": {
-      "test/language/statements/try/tco-catch.js": 60.071,
-      "test/staging/sm/lexical-environment/const-declaration-in-for-loop.sloppy.js": 60.066,
-      "test/staging/sm/lexical-environment/const-declaration-in-for-loop.strict.js": 60.061,
-      "test/staging/sm/Array/to-length.strict.js": 40.084,
-      "test/staging/sm/Array/to-length.sloppy.js": 35.735,
-      "test/staging/sm/extensions/recursion.js": 20.276,
-      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.strict.js": 7.308,
-      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.strict.js": 7.223,
-      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 7.097,
-      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 7.076
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 3737.1,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 3737.1,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 3737.1,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 3737.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 3737.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 3737.1,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 3737.1,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 3737.1,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 3737.1,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 3737.1
-    }
   }
 }

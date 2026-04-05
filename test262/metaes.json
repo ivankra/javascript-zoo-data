@@ -2,10 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "metaes",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "dist_size": 344862,
     "engine": "metaes",
     "repository": "https://github.com/metaes/metaes.git",
@@ -48,9 +45,11 @@
   },
   "summary": {
     "all": {"pass": 7106, "fail": 46025, "pass_percent": 13.374},
+    "esnext": {"pass": 277, "fail": 8047, "pass_percent": 3.328},
     "intl": {"pass": 7, "fail": 3316, "pass_percent": 0.211},
     "staging": {"pass": 101, "fail": 1383, "pass_percent": 6.806},
     "annexb": {"pass": 63, "fail": 1023, "pass_percent": 5.801},
+    "ex-intl": {"pass": 7099, "fail": 42709, "pass_percent": 14.253},
     "ex-staging": {"pass": 7005, "fail": 44642, "pass_percent": 13.563},
     "ex-staging-intl": {"pass": 6998, "fail": 41326, "pass_percent": 14.481},
     "ex-staging-intl-annexb": {"pass": 6935, "fail": 40303, "pass_percent": 14.681},
@@ -325,6 +324,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"pass": 1, "fail": 14, "pass_percent": 6.667}
+  },
+  "rusage": {
+    "total_duration_sec": 2348.832,
+    "total_user_sec": 6567.532,
+    "total_sys_sec": 1855.516,
+    "peak_rss_mb": 541.3,
+    "wall_time_s": {
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 20.015,
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 17.5,
+      "test/built-ins/decodeURI/S15.1.3.1_A1.11_T2.sloppy.js": 3.72,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.12_T2.sloppy.js": 3.481,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.12_T2.strict.js": 3.475,
+      "test/built-ins/decodeURI/S15.1.3.1_A1.12_T3.strict.js": 3.442,
+      "test/built-ins/decodeURI/S15.1.3.1_A1.10_T1.sloppy.js": 3.435,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.12_T3.sloppy.js": 3.432,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.11_T2.strict.js": 3.424,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.12_T1.strict.js": 3.424
+    },
+    "duration_sec": {
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 20.015,
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 17.5,
+      "test/built-ins/decodeURI/S15.1.3.1_A1.11_T2.sloppy.js": 3.72,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.12_T2.sloppy.js": 3.481,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.12_T2.strict.js": 3.475,
+      "test/built-ins/decodeURI/S15.1.3.1_A1.12_T3.strict.js": 3.442,
+      "test/built-ins/decodeURI/S15.1.3.1_A1.10_T1.sloppy.js": 3.435,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.12_T3.sloppy.js": 3.432,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.11_T2.strict.js": 3.424,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.12_T1.strict.js": 3.424
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/prop-desc.sloppy.js": 541.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/prop-desc.strict.js": 541.3,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-props.sloppy.js": 541.3,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-props.strict.js": 541.3,
+      "test/annexB/built-ins/String/prototype/small/not-a-constructor.sloppy.js": 541.3,
+      "test/annexB/built-ins/String/prototype/small/not-a-constructor.strict.js": 541.3,
+      "test/annexB/built-ins/String/prototype/substr/not-a-constructor.sloppy.js": 541.3,
+      "test/annexB/built-ins/String/prototype/substr/not-a-constructor.strict.js": 541.3,
+      "test/annexB/language/eval-code/direct/func-block-decl-eval-func-init.js": 541.3,
+      "test/annexB/language/eval-code/direct/func-if-decl-else-decl-b-eval-func-existing-block-fn-no-init.js": 541.3
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "DONOTEVALUATE",
@@ -4295,7 +4336,7 @@
     "test/built-ins/Array/prototype/sort/stability-5-elements.js": "OK",
     "test/built-ins/Array/prototype/sort/stability-11-elements.js": "OK",
     "test/built-ins/Array/prototype/sort/stability-513-elements.js": "DONOTEVALUATE",
-    "test/built-ins/Array/prototype/sort/stability-2048-elements.js": {"sloppy": "Test262Error: Uncaught exception: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":2275,\"column\":16},\"end\":{\"line\":2282,\"column\":6}},\"range\":[69766,69966],\"type\":\"Apply\",\"thisValue\":[{\"name\":\"D000\",\"ra...", "strict": "DONOTEVALUATE"},
+    "test/built-ins/Array/prototype/sort/stability-2048-elements.js": {"sloppy": "Test262Error: Uncaught exception: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":2275,\"column\":16},\"end\":{\"line\":2282,\"column\":6}},\"range\":[69766,69966],\"type\":\"Apply\",\"thisValue\":[{\"name\":\"D000\",\"ra...", "strict": "Test262Error: Uncaught exception: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":2275,\"column\":16},\"end\":{\"line\":2282,\"column\":6}},\"range\":[69764,69964],\"type\":\"Apply\",\"thisValue\":[{\"name\":\"D000\",\"ra..."},
     "test/built-ins/Array/prototype/splice/15.4.4.12-9-a-1.js": "OK",
     "test/built-ins/Array/prototype/splice/15.4.4.12-9-c-ii-1.js": "DONOTEVALUATE",
     "test/built-ins/Array/prototype/splice/S15.4.4.12_A1.1_T1.js": "DONOTEVALUATE",
@@ -53458,33 +53499,5 @@
     "test/staging/sm/types/8.12.5-01.js": "DONOTEVALUATE",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Cannot use \"import.meta\" outside a module",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: 'Await' may not be used as an identifier in this context"
-  },
-  "rusage": {
-    "total_time_s": 2301.002,
-    "peak_rss_mb": 551.6,
-    "wall_time_s": {
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 15.92,
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 15.715,
-      "test/built-ins/decodeURI/S15.1.3.1_A1.12_T2.strict.js": 3.583,
-      "test/built-ins/decodeURI/S15.1.3.1_A1.12_T1.sloppy.js": 3.513,
-      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.11_T2.strict.js": 3.473,
-      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.12_T2.strict.js": 3.465,
-      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.12_T3.sloppy.js": 3.443,
-      "test/built-ins/decodeURI/S15.1.3.1_A1.12_T3.strict.js": 3.435,
-      "test/built-ins/decodeURI/S15.1.3.1_A1.2_T2.strict.js": 3.429,
-      "test/built-ins/decodeURIComponent/S15.1.3.2_A1.12_T1.sloppy.js": 3.418
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.sloppy.js": 551.6,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.strict.js": 551.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/flags-string-invalid.sloppy.js": 551.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/flags-string-invalid.strict.js": 551.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/flags-to-string-err.sloppy.js": 551.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/flags-to-string-err.strict.js": 551.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-undefined.sloppy.js": 551.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-undefined.strict.js": 551.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/this-subclass-instance.sloppy.js": 551.6,
-      "test/annexB/built-ins/RegExp/prototype/compile/this-subclass-instance.strict.js": 551.6
-    }
   }
 }

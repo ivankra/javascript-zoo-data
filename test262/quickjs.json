@@ -5,10 +5,7 @@
     "binary_sha256": "a7ed97e9c229fee4b33b4c316d99dca608c37ff11d084f16ac6a0d0c8aaa8076",
     "binary_size": 1117520,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "quickjs",
     "repository": "https://github.com/bellard/quickjs.git",
     "revision": "d7ae12ae71dfd6ab2997527d295014a8996fa0f9",
@@ -55,9 +52,11 @@
   },
   "summary": {
     "all": {"pass": 43274, "fail": 9857, "pass_percent": 81.448},
+    "esnext": {"pass": 462, "fail": 7862, "pass_percent": 5.55},
     "intl": {"pass": 23, "fail": 3300, "pass_percent": 0.692},
     "staging": {"pass": 1262, "fail": 222, "pass_percent": 85.04},
     "annexb": {"pass": 1000, "fail": 86, "pass_percent": 92.081},
+    "ex-intl": {"pass": 43251, "fail": 6557, "pass_percent": 86.835},
     "ex-staging": {"pass": 42012, "fail": 9635, "pass_percent": 81.345},
     "ex-staging-intl": {"pass": 41989, "fail": 6335, "pass_percent": 86.891},
     "ex-staging-intl-annexb": {"pass": 40989, "fail": 6249, "pass_percent": 86.771},
@@ -332,6 +331,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 1, "fail": 325, "pass_percent": 0.307},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 163.318,
+    "total_user_sec": 296.516,
+    "total_sys_sec": 102.911,
+    "peak_rss_mb": 1062.7,
+    "wall_time_s": {
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 1.724,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.723,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 1.715,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 1.709,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.703,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.703,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 1.7,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 1.697,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 1.694,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.691
+    },
+    "duration_sec": {
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 1.724,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.723,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 1.715,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 1.709,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.703,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.703,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 1.7,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 1.697,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 1.694,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.691
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 1062.7,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 1062.7,
+      "test/annexB/built-ins/RegExp/prototype/compile/flags-undefined.sloppy.js": 1062.7,
+      "test/annexB/built-ins/RegExp/prototype/compile/flags-undefined.strict.js": 1062.7,
+      "test/annexB/built-ins/String/prototype/fixed/not-a-constructor.sloppy.js": 1062.7,
+      "test/annexB/built-ins/String/prototype/fixed/not-a-constructor.strict.js": 1062.7,
+      "test/annexB/built-ins/String/prototype/fontcolor/B.2.3.7.sloppy.js": 1062.7,
+      "test/annexB/built-ins/String/prototype/fontcolor/B.2.3.7.strict.js": 1062.7,
+      "test/annexB/built-ins/String/prototype/fontsize/prop-desc.sloppy.js": 1062.7,
+      "test/annexB/built-ins/String/prototype/fontsize/prop-desc.strict.js": 1062.7
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: '$262' is not defined",
@@ -53465,33 +53506,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: meta expected",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 162.468,
-    "peak_rss_mb": 1061.9,
-    "wall_time_s": {
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.805,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.713,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 1.705,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 1.691,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 1.676,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 1.667,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 1.661,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.658,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.657,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 1.655
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 1061.9,
-      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 1061.9,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 1061.9,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 1061.9,
-      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 1061.9,
-      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 1061.9,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 1061.9,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 1061.9,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 1061.9,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 1061.9
-    }
   }
 }

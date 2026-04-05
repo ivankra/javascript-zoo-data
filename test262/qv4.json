@@ -5,10 +5,7 @@
     "binary_sha256": "49ad0958be2f77a9b02c7789c73e8d51761fab4790dcee2f7af08c68db445ba1",
     "binary_size": 14026320,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "qv4",
     "repository": "https://github.com/qt/qt5.git",
     "revision": "d2bc5fdeae27d01755b93a72d1fe84c91fd1b914",
@@ -53,9 +50,11 @@
   },
   "summary": {
     "all": {"pass": 26481, "fail": 26650, "pass_percent": 49.841},
+    "esnext": {"pass": 296, "fail": 8028, "pass_percent": 3.556},
     "intl": {"pass": 19, "fail": 3304, "pass_percent": 0.572},
     "staging": {"pass": 702, "fail": 782, "pass_percent": 47.305},
     "annexb": {"pass": 265, "fail": 821, "pass_percent": 24.401},
+    "ex-intl": {"pass": 26462, "fail": 23346, "pass_percent": 53.128},
     "ex-staging": {"pass": 25779, "fail": 25868, "pass_percent": 49.914},
     "ex-staging-intl": {"pass": 25760, "fail": 22564, "pass_percent": 53.307},
     "ex-staging-intl-annexb": {"pass": 25495, "fail": 21743, "pass_percent": 53.971},
@@ -330,6 +329,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 2, "fail": 324, "pass_percent": 0.613},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 449.813,
+    "total_user_sec": 800.588,
+    "total_sys_sec": 559.592,
+    "peak_rss_mb": 4141.9,
+    "wall_time_s": {
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.067,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.064,
+      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.strict.js": 58.862,
+      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.sloppy.js": 58.724,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 57.081,
+      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.strict.js": 55.26,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 54.277,
+      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.sloppy.js": 53.788,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 26.941,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 26.696
+    },
+    "duration_sec": {
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.067,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.064,
+      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.strict.js": 58.862,
+      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.sloppy.js": 58.724,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 57.081,
+      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.strict.js": 55.26,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 54.277,
+      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.sloppy.js": 53.788,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 26.941,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 26.696
+    },
+    "rss_mb": {
+      "test/built-ins/Date/prototype/getUTCHours/name.sloppy.js": 4141.9,
+      "test/built-ins/Date/prototype/getUTCHours/name.strict.js": 4141.9,
+      "test/built-ins/Map/Symbol.species/return-value.sloppy.js": 4141.9,
+      "test/built-ins/Map/Symbol.species/return-value.strict.js": 4141.9,
+      "test/built-ins/Math/cbrt/name.sloppy.js": 4141.9,
+      "test/built-ins/Math/cbrt/name.strict.js": 4141.9,
+      "test/built-ins/Object/defineProperty/15.2.3.6-3-39-1.sloppy.js": 4141.9,
+      "test/built-ins/Object/defineProperty/15.2.3.6-3-39-1.strict.js": 4141.9,
+      "test/built-ins/Object/getOwnPropertyNames/15.2.3.4-1-2.sloppy.js": 4141.9,
+      "test/built-ins/Object/getOwnPropertyNames/15.2.3.4-1-2.strict.js": 4141.9
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: $262 is not defined",
@@ -3125,7 +3166,7 @@
     "test/built-ins/Array/prototype/lastIndexOf/coerced-position-grow.js": "ReferenceError: BigInt64Array is not defined",
     "test/built-ins/Array/prototype/lastIndexOf/coerced-position-shrink.js": "ReferenceError: BigInt64Array is not defined",
     "test/built-ins/Array/prototype/lastIndexOf/fromindex-zero-conversion.js": "OK",
-    "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.js": "timeout: >60s",
+    "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.js": "Test262Error: Expected SameValue(\u00ab-1\u00bb, \u00ab9007199254740988\u00bb) to be true",
     "test/built-ins/Array/prototype/lastIndexOf/length-zero-returns-minus-one.js": "OK",
     "test/built-ins/Array/prototype/lastIndexOf/length.js": "OK",
     "test/built-ins/Array/prototype/lastIndexOf/name.js": "OK",
@@ -52713,7 +52754,7 @@
     "test/staging/sm/String/replace-GetMethod.js": "Test262Error: Expected a TypeError to be thrown but no exception was thrown at all",
     "test/staging/sm/String/replace-bad-dollar-single-quote.js": "Test262Error: Expected SameValue(\u00ab\"abcabc\"\u00bb, \u00ab\"\"\u00bb) to be true",
     "test/staging/sm/String/replace-flags.js": "Test262Error: Expected SameValue(\u00ab3\u00bb, \u00ab4\u00bb) to be true",
-    "test/staging/sm/String/replace-math.js": "OOM: >3584MB",
+    "test/staging/sm/String/replace-math.js": "OOM: >4096MB",
     "test/staging/sm/String/replace-throws-nonwritable-lastIndex-global.js": "OK",
     "test/staging/sm/String/replace-updates-global-lastIndex.js": "OK",
     "test/staging/sm/String/replace.js": "Test262Error: Expected SameValue(\u00ab\"abcAbcABC\"\u00bb, \u00ab42\u00bb) to be true",
@@ -53081,7 +53122,7 @@
     "test/staging/sm/extensions/proxy-enumeration.js": "OK",
     "test/staging/sm/extensions/proxy-strict.js": "OK",
     "test/staging/sm/extensions/quote-string-for-nul-character.js": "OK",
-    "test/staging/sm/extensions/recursion.js": "OOM: >3584MB",
+    "test/staging/sm/extensions/recursion.js": "OOM: >4096MB",
     "test/staging/sm/extensions/regress-455380.js": "OK",
     "test/staging/sm/extensions/regress-469625-01.js": {"sloppy": "OK", "strict": "TypeError: Type error"},
     "test/staging/sm/extensions/regress-480579.js": "Test262Error: Expected SameValue(\u00ab\"12\"\u00bb, \u00ab\"undefinedundefined\"\u00bb) to be true",
@@ -53463,33 +53504,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Expected token `)'",
     "test/staging/top-level-await/tla-hang-entry.js": "Could not load module file"
-  },
-  "rusage": {
-    "total_time_s": 447.745,
-    "peak_rss_mb": 3653.7,
-    "wall_time_s": {
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.067,
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.066,
-      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.strict.js": 60.064,
-      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.sloppy.js": 60.063,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 56.585,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 56.418,
-      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.strict.js": 55.206,
-      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.sloppy.js": 51.543,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 25.19,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 24.95
-    },
-    "rss_mb": {
-      "test/staging/sm/String/replace-math.strict.js": 3653.7,
-      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 3653.6,
-      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 3653.6,
-      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 3653.6,
-      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 3653.6,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 3653.6,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.strict.js": 3653.6,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 3653.6,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 3653.6,
-      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.sloppy.js": 3653.6
-    }
   }
 }

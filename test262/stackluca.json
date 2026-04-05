@@ -47,9 +47,11 @@
   },
   "summary": {
     "all": {"fail": 53131, "pass_percent": 0.0},
+    "esnext": {"fail": 8324, "pass_percent": 0.0},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"fail": 1484, "pass_percent": 0.0},
     "annexb": {"fail": 1086, "pass_percent": 0.0},
+    "ex-intl": {"fail": 49808, "pass_percent": 0.0},
     "ex-staging": {"fail": 51647, "pass_percent": 0.0},
     "ex-staging-intl": {"fail": 48324, "pass_percent": 0.0},
     "ex-staging-intl-annexb": {"fail": 47238, "pass_percent": 0.0},
@@ -324,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 132.264,
+    "total_user_sec": 34.59,
+    "total_sys_sec": 54.334,
+    "peak_rss_mb": 48.8,
+    "wall_time_s": {
+      "test/language/expressions/async-generator/dstr/dflt-obj-ptrn-prop-obj-value-null.sloppy.js": 0.339,
+      "test/staging/sm/Iterator/prototype/some/check-fn-after-getting-iterator.sloppy.js": 0.274,
+      "test/harness/detachArrayBuffer.strict.js": 0.221,
+      "test/language/statements/class/dstr/async-gen-meth-static-dflt-ary-ptrn-rest-obj-prop-id.strict.js": 0.213,
+      "test/language/statements/class/cpn-class-decl-fields-methods-computed-property-name-from-additive-expression-add.strict.js": 0.206,
+      "test/built-ins/Temporal/ZonedDateTime/construction-and-properties.sloppy.js": 0.201,
+      "test/built-ins/Object/create/15.2.3.5-4-4.strict.js": 0.194,
+      "test/language/expressions/function/dstr/obj-ptrn-rest-skip-non-enumerable.sloppy.js": 0.193,
+      "test/language/expressions/dynamic-import/syntax/valid/nested-else-empty-str-is-valid-assign-expr.sloppy.js": 0.187,
+      "test/built-ins/RegExp/prototype/Symbol.replace/subst-before.sloppy.js": 0.176
+    },
+    "duration_sec": {
+      "test/language/expressions/async-generator/dstr/dflt-obj-ptrn-prop-obj-value-null.sloppy.js": 0.339,
+      "test/staging/sm/Iterator/prototype/some/check-fn-after-getting-iterator.sloppy.js": 0.274,
+      "test/harness/detachArrayBuffer.strict.js": 0.221,
+      "test/language/statements/class/dstr/async-gen-meth-static-dflt-ary-ptrn-rest-obj-prop-id.strict.js": 0.213,
+      "test/language/statements/class/cpn-class-decl-fields-methods-computed-property-name-from-additive-expression-add.strict.js": 0.206,
+      "test/built-ins/Temporal/ZonedDateTime/construction-and-properties.sloppy.js": 0.201,
+      "test/built-ins/Object/create/15.2.3.5-4-4.strict.js": 0.194,
+      "test/language/expressions/function/dstr/obj-ptrn-rest-skip-non-enumerable.sloppy.js": 0.193,
+      "test/language/expressions/dynamic-import/syntax/valid/nested-else-empty-str-is-valid-assign-expr.sloppy.js": 0.187,
+      "test/built-ins/RegExp/prototype/Symbol.replace/subst-before.sloppy.js": 0.176
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.sloppy.js": 48.8,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.strict.js": 48.8,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.sloppy.js": 48.8,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.strict.js": 48.8,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.sloppy.js": 48.8,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.strict.js": 48.8,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-subclass-constructor.sloppy.js": 48.8,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-subclass-constructor.strict.js": 48.8,
+      "test/annexB/built-ins/RegExp/prototype/compile/B.RegExp.prototype.compile.sloppy.js": 48.8,
+      "test/annexB/built-ins/RegExp/prototype/compile/B.RegExp.prototype.compile.strict.js": 48.8
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": {"sloppy": "welcome to v3 javascript interpretor 0.1; line: 1225; error_code:-3(unexpected token) index:299, token:if", "strict": "welcome to v3 javascript interpretor 0.1; line: 1225; error_code:-3(unexpected token) index:297, token:if"},
@@ -53457,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "welcome to v3 javascript interpretor 0.1; line: 1225; error_code:-3(unexpected token) index:299, token:if",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "NoAsyncTestComplete",
     "test/staging/top-level-await/tla-hang-entry.js": "NoAsyncTestComplete"
-  },
-  "rusage": {
-    "total_time_s": 127.849,
-    "peak_rss_mb": 50.5,
-    "wall_time_s": {
-      "test/language/comments/hashbang/use-strict.js": 0.166,
-      "test/language/comments/hashbang/escaped-bang-041.js": 0.14,
-      "test/language/comments/hashbang/multi-line-comment.js": 0.133,
-      "test/language/comments/hashbang/escaped-bang-x21.js": 0.127,
-      "test/language/comments/hashbang/module.mjs": 0.126,
-      "test/language/comments/hashbang/preceding-multi-line-comment.js": 0.123,
-      "test/language/comments/hashbang/line-terminator-carriage-return.js": 0.123,
-      "test/language/comments/hashbang/escaped-bang-u0021.js": 0.118,
-      "test/language/comments/hashbang/escaped-hash-u0023.js": 0.118,
-      "test/language/comments/hashbang/line-terminator-paragraph-separator.js": 0.115
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 50.5,
-      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 50.5,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 50.5,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 50.5,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 50.5,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 50.5,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 50.5,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 50.5,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 50.5,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 50.5
-    }
   }
 }

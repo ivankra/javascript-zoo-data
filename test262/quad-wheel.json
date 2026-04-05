@@ -47,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 4629, "fail": 48502, "pass_percent": 8.712},
+    "esnext": {"pass": 261, "fail": 8063, "pass_percent": 3.136},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"pass": 7, "fail": 1477, "pass_percent": 0.472},
     "annexb": {"pass": 7, "fail": 1079, "pass_percent": 0.645},
+    "ex-intl": {"pass": 4629, "fail": 45179, "pass_percent": 9.294},
     "ex-staging": {"pass": 4622, "fail": 47025, "pass_percent": 8.949},
     "ex-staging-intl": {"pass": 4622, "fail": 43702, "pass_percent": 9.565},
     "ex-staging-intl-annexb": {"pass": 4615, "fail": 42623, "pass_percent": 9.77},
@@ -324,6 +326,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 109.104,
+    "total_user_sec": 24.428,
+    "total_sys_sec": 124.067,
+    "peak_rss_mb": 50.2,
+    "wall_time_s": {
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Spacing_Mark.sloppy.js": 0.063,
+      "test/language/statements/while/decl-cls.sloppy.js": 0.062,
+      "test/intl402/Temporal/PlainDateTime/prototype/since/wrapping-at-end-of-month-buddhist.sloppy.js": 0.057,
+      "test/language/expressions/class/dstr/async-private-gen-meth-ary-ptrn-elem-id-init-fn-name-fn.strict.js": 0.047,
+      "test/built-ins/RegExp/property-escapes/unsupported-binary-property-Other_Lowercase-negated.sloppy.js": 0.033,
+      "test/built-ins/Object/defineProperty/15.2.3.6-3-83.sloppy.js": 0.03,
+      "test/language/expressions/object/dstr/gen-meth-ary-ptrn-elem-id-init-skipped.sloppy.js": 0.03,
+      "test/built-ins/Object/seal/seal-finalizationregistry.strict.js": 0.029,
+      "test/language/statements/class/ident-name-method-def-public-escaped.sloppy.js": 0.029,
+      "test/language/statements/for/S12.6.3_A7_T2.sloppy.js": 0.028
+    },
+    "duration_sec": {
+      "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Spacing_Mark.sloppy.js": 0.063,
+      "test/language/statements/while/decl-cls.sloppy.js": 0.062,
+      "test/intl402/Temporal/PlainDateTime/prototype/since/wrapping-at-end-of-month-buddhist.sloppy.js": 0.057,
+      "test/language/expressions/class/dstr/async-private-gen-meth-ary-ptrn-elem-id-init-fn-name-fn.strict.js": 0.047,
+      "test/built-ins/RegExp/property-escapes/unsupported-binary-property-Other_Lowercase-negated.sloppy.js": 0.033,
+      "test/built-ins/Object/defineProperty/15.2.3.6-3-83.sloppy.js": 0.03,
+      "test/language/expressions/object/dstr/gen-meth-ary-ptrn-elem-id-init-skipped.sloppy.js": 0.03,
+      "test/built-ins/Object/seal/seal-finalizationregistry.strict.js": 0.029,
+      "test/language/statements/class/ident-name-method-def-public-escaped.sloppy.js": 0.029,
+      "test/language/statements/for/S12.6.3_A7_T2.sloppy.js": 0.028
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 50.2,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 50.2
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "SyntaxError: unexpected IDENTIFIER",
@@ -53457,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError: unexpected IDENTIFIER",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: unexpected IDENTIFIER",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: unexpected IDENTIFIER"
-  },
-  "rusage": {
-    "total_time_s": 109.407,
-    "peak_rss_mb": 50.8,
-    "wall_time_s": {
-      "test/language/statements/class/elements/regular-definitions-rs-private-setter-alt.strict.js": 0.039,
-      "test/built-ins/Temporal/PlainMonthDay/length.sloppy.js": 0.026,
-      "test/language/expressions/object/ident-name-method-def-delete-escaped.strict.js": 0.024,
-      "test/built-ins/Array/prototype/every/15.4.4.16-7-b-12.strict.js": 0.021,
-      "test/language/statements/async-generator/yield-star-next-call-returns-abrupt.sloppy.js": 0.021,
-      "test/language/statements/for-await-of/async-func-dstr-let-ary-ptrn-elem-id-init-skipped.strict.js": 0.02,
-      "test/language/statements/for-of/decl-cls.strict.js": 0.019,
-      "test/language/statements/class/elements/new-sc-line-method-rs-field-identifier.sloppy.js": 0.019,
-      "test/language/expressions/class/dstr/async-gen-meth-static-obj-ptrn-prop-ary-init.strict.js": 0.018,
-      "test/staging/sm/object/duplProps.strict.js": 0.018
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/String/prototype/fontsize/prop-desc.sloppy.js": 50.8,
-      "test/annexB/built-ins/String/prototype/fontsize/prop-desc.strict.js": 50.8,
-      "test/annexB/built-ins/String/prototype/trimRight/reference-trimEnd.sloppy.js": 50.8,
-      "test/annexB/built-ins/String/prototype/trimRight/reference-trimEnd.strict.js": 50.8,
-      "test/annexB/built-ins/escape/length.sloppy.js": 50.8,
-      "test/annexB/built-ins/escape/length.strict.js": 50.8,
-      "test/annexB/language/eval-code/direct/func-if-decl-else-decl-a-eval-func-existing-var-update.js": 50.8,
-      "test/annexB/language/eval-code/direct/global-if-stmt-else-decl-eval-global-no-skip-try.js": 50.8,
-      "test/annexB/language/eval-code/direct/global-switch-case-eval-global-block-scoping.js": 50.8,
-      "test/annexB/language/eval-code/direct/global-switch-dflt-eval-global-block-scoping.js": 50.8
-    }
   }
 }

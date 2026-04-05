@@ -52,9 +52,11 @@
   },
   "summary": {
     "all": {"pass": 51183, "fail": 1948, "pass_percent": 96.334},
+    "esnext": {"pass": 7064, "fail": 1260, "pass_percent": 84.863},
     "intl": {"pass": 2428, "fail": 895, "pass_percent": 73.067},
     "staging": {"pass": 1321, "fail": 163, "pass_percent": 89.016},
     "annexb": {"pass": 1041, "fail": 45, "pass_percent": 95.856},
+    "ex-intl": {"pass": 48755, "fail": 1053, "pass_percent": 97.886},
     "ex-staging": {"pass": 49862, "fail": 1785, "pass_percent": 96.544},
     "ex-staging-intl": {"pass": 47434, "fail": 890, "pass_percent": 98.158},
     "ex-staging-intl-annexb": {"pass": 46393, "fail": 845, "pass_percent": 98.211},
@@ -329,6 +331,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 323, "fail": 3, "pass_percent": 99.08},
     "ref:$262.evalScript": {"pass": 27, "fail": 4, "pass_percent": 87.097},
     "ref:$262.gc": {"pass": 14, "fail": 1, "pass_percent": 93.333}
+  },
+  "rusage": {
+    "total_duration_sec": 751.119,
+    "total_user_sec": 1408.691,
+    "total_sys_sec": 1162.128,
+    "peak_rss_mb": 4164.7,
+    "wall_time_s": {
+      "test/staging/sm/regress/regress-610026.sloppy.js": 8.378,
+      "test/staging/sm/regress/regress-610026.strict.js": 7.799,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.strict.js": 6.912,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 6.871,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 6.774,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 6.72,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 6.673,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 6.659,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 6.617,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 6.59
+    },
+    "duration_sec": {
+      "test/staging/sm/regress/regress-610026.sloppy.js": 8.378,
+      "test/staging/sm/regress/regress-610026.strict.js": 7.799,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.strict.js": 6.912,
+      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 6.871,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 6.774,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 6.72,
+      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 6.673,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 6.659,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 6.617,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 6.59
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 4164.7,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 4164.7,
+      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 4164.7,
+      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 4164.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-not-regexp-constructor.sloppy.js": 4164.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-not-regexp-constructor.strict.js": 4164.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.sloppy.js": 4164.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.strict.js": 4164.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.sloppy.js": 4164.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.strict.js": 4164.7
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "OK",
@@ -25090,7 +25134,7 @@
     "test/intl402/Collator/unicode-ext-seq-with-attribute.js": "OK",
     "test/intl402/Collator/unicode-ext-value-collation.js": "OK",
     "test/intl402/Collator/usage-de.js": "OK",
-    "test/intl402/Date/prototype/returns-same-results-as-DateTimeFormat.js": "Test262Error: Actual [April 3, 2026 at 11:30:22\\u{202f}AM, January 1, 1970 at 12:00:00\\u{202f}AM, November 9, 1989 at 5:57:00\\u{202f}PM] and expected [4/3/26, 11:30:22\\u{202f}AM, 1/1/70, 12:00:00\\u{202f}AM, 11/9/89...",
+    "test/intl402/Date/prototype/returns-same-results-as-DateTimeFormat.js": "Test262Error: Actual [April 4, 2026 at 10:59:37\\u{202f}AM, January 1, 1970 at 12:00:00\\u{202f}AM, November 9, 1989 at 5:57:00\\u{202f}PM] and expected [4/4/26, 10:59:37\\u{202f}AM, 1/1/70, 12:00:00\\u{202f}AM, 11/9/89...",
     "test/intl402/Date/prototype/taint-Intl-DateTimeFormat.js": "OK",
     "test/intl402/Date/prototype/this-value-invalid-date.js": "OK",
     "test/intl402/Date/prototype/this-value-non-date.js": "OK",
@@ -52712,7 +52756,7 @@
     "test/staging/sm/String/replace-GetMethod.js": "OK",
     "test/staging/sm/String/replace-bad-dollar-single-quote.js": "OK",
     "test/staging/sm/String/replace-flags.js": "OK",
-    "test/staging/sm/String/replace-math.js": "OOM: >3584MB",
+    "test/staging/sm/String/replace-math.js": "OOM: >4096MB",
     "test/staging/sm/String/replace-throws-nonwritable-lastIndex-global.js": "OK",
     "test/staging/sm/String/replace-updates-global-lastIndex.js": "OK",
     "test/staging/sm/String/replace.js": "OK",
@@ -53462,33 +53506,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "OK",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 746.576,
-    "peak_rss_mb": 3611.9,
-    "wall_time_s": {
-      "test/staging/sm/regress/regress-610026.sloppy.js": 8.027,
-      "test/staging/sm/regress/regress-610026.strict.js": 8.011,
-      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.sloppy.js": 6.937,
-      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 6.888,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 6.848,
-      "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.strict.js": 6.848,
-      "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.strict.js": 6.825,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 6.717,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 6.7,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 6.665
-    },
-    "rss_mb": {
-      "test/staging/sm/String/replace-math.sloppy.js": 3611.9,
-      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 3611.9,
-      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 3611.9,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 3611.9,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 3611.9,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 3611.9,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 3611.9,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.sloppy.js": 3611.9,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.strict.js": 3611.9,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 3611.9
-    }
   }
 }

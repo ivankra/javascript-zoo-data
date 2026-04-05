@@ -5,10 +5,7 @@
     "binary_sha256": "55c74aee82b9da999895274b8ad2ac3d9aa0dfe90879b007e539c4da105f6314",
     "binary_size": 47544,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "cesanta-elk",
     "repository": "https://github.com/cesanta/elk.git",
     "revision": "71a86fa2fef146696be9ae66715bf3f91d0a5f2c",
@@ -51,9 +48,11 @@
   },
   "summary": {
     "all": {"fail": 53131, "pass_percent": 0.0},
+    "esnext": {"fail": 8324, "pass_percent": 0.0},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"fail": 1484, "pass_percent": 0.0},
     "annexb": {"fail": 1086, "pass_percent": 0.0},
+    "ex-intl": {"fail": 49808, "pass_percent": 0.0},
     "ex-staging": {"fail": 51647, "pass_percent": 0.0},
     "ex-staging-intl": {"fail": 48324, "pass_percent": 0.0},
     "ex-staging-intl-annexb": {"fail": 47238, "pass_percent": 0.0},
@@ -328,6 +327,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 81.889,
+    "total_user_sec": 32.514,
+    "total_sys_sec": 42.267,
+    "peak_rss_mb": 49.2,
+    "wall_time_s": {
+      "test/built-ins/RegExp/early-err-modifiers-other-code-point-uppercase-I.sloppy.js": 0.012,
+      "test/language/expressions/assignment/dstr/array-rest-elision-invalid.sloppy.js": 0.01,
+      "test/language/comments/mongolian-vowel-separator-single.strict.js": 0.01,
+      "test/language/comments/mongolian-vowel-separator-single.sloppy.js": 0.01,
+      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Ol_Onal.strict.js": 0.009,
+      "test/language/statements/for-of/dstr/var-ary-ptrn-elem-obj-val-undef.strict.js": 0.009,
+      "test/harness/deepEqual-primitives-bigint.strict.js": 0.009,
+      "test/language/statements/try/dstr/ary-ptrn-elem-obj-val-null.strict.js": 0.008,
+      "test/built-ins/TypedArray/prototype/indexOf/resizable-buffer-special-float-values.sloppy.js": 0.008,
+      "test/language/statements/generators/dstr/dflt-obj-ptrn-prop-id-init-skipped.strict.js": 0.007
+    },
+    "duration_sec": {
+      "test/built-ins/RegExp/early-err-modifiers-other-code-point-uppercase-I.sloppy.js": 0.012,
+      "test/language/expressions/assignment/dstr/array-rest-elision-invalid.sloppy.js": 0.01,
+      "test/language/comments/mongolian-vowel-separator-single.strict.js": 0.01,
+      "test/language/comments/mongolian-vowel-separator-single.sloppy.js": 0.01,
+      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Ol_Onal.strict.js": 0.009,
+      "test/language/statements/for-of/dstr/var-ary-ptrn-elem-obj-val-undef.strict.js": 0.009,
+      "test/harness/deepEqual-primitives-bigint.strict.js": 0.009,
+      "test/language/statements/try/dstr/ary-ptrn-elem-obj-val-null.strict.js": 0.008,
+      "test/built-ins/TypedArray/prototype/indexOf/resizable-buffer-special-float-values.sloppy.js": 0.008,
+      "test/language/statements/generators/dstr/dflt-obj-ptrn-prop-id-init-skipped.strict.js": 0.007
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 49.2,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 49.2,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 49.2,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 49.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.sloppy.js": 49.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.strict.js": 49.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.sloppy.js": 49.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.strict.js": 49.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-subclass-constructor.sloppy.js": 49.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-subclass-constructor.strict.js": 49.2
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "parse error",
@@ -53461,33 +53502,5 @@
     "test/staging/sm/types/8.12.5-01.js": "parse error",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "parse error",
     "test/staging/top-level-await/tla-hang-entry.js": "parse error"
-  },
-  "rusage": {
-    "total_time_s": 85.18,
-    "peak_rss_mb": 49.1,
-    "wall_time_s": {
-      "test/language/expressions/class/async-method-static/forbidden-ext/b1/cls-expr-async-meth-static-forbidden-ext-direct-access-prop-arguments.js": 0.01,
-      "test/built-ins/Temporal/Instant/prototype/since/instant-string.strict.js": 0.009,
-      "test/language/expressions/postfix-decrement/line-terminator-line-separator.strict.js": 0.009,
-      "test/built-ins/TypedArray/prototype/some/name.strict.js": 0.009,
-      "test/language/statements/class/dstr/async-gen-meth-ary-ptrn-rest-id-exhausted.strict.js": 0.008,
-      "test/built-ins/Temporal/PlainYearMonth/prototype/since/largestunit-plurals-accepted.sloppy.js": 0.008,
-      "test/language/literals/numeric/numeric-separators/numeric-separator-literal-dot-dds-nsl-ep-err.strict.js": 0.007,
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.007,
-      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T2.sloppy.js": 0.007,
-      "test/language/statements/let/dstr/obj-ptrn-prop-id-init-skipped.sloppy.js": 0.007
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 49.1,
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 49.1,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 49.1,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 49.1,
-      "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 49.1,
-      "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 49.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 49.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 49.1,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 49.1,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 49.1
-    }
   }
 }

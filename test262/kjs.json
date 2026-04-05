@@ -48,9 +48,11 @@
   },
   "summary": {
     "all": {"pass": 14591, "fail": 38540, "pass_percent": 27.462},
+    "esnext": {"pass": 264, "fail": 8060, "pass_percent": 3.172},
     "intl": {"pass": 11, "fail": 3312, "pass_percent": 0.331},
     "staging": {"pass": 243, "fail": 1241, "pass_percent": 16.375},
     "annexb": {"pass": 176, "fail": 910, "pass_percent": 16.206},
+    "ex-intl": {"pass": 14580, "fail": 35228, "pass_percent": 29.272},
     "ex-staging": {"pass": 14348, "fail": 37299, "pass_percent": 27.781},
     "ex-staging-intl": {"pass": 14337, "fail": 33987, "pass_percent": 29.668},
     "ex-staging-intl-annexb": {"pass": 14161, "fail": 33077, "pass_percent": 29.978},
@@ -325,6 +327,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 447.997,
+    "total_user_sec": 719.097,
+    "total_sys_sec": 446.817,
+    "peak_rss_mb": 949.5,
+    "wall_time_s": {
+      "test/built-ins/Array/prototype/splice/throws-if-integer-limit-exceeded.strict.js": 60.066,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.strict.js": 60.063,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 60.063,
+      "test/built-ins/Array/prototype/unshift/throws-if-integer-limit-exceeded.sloppy.js": 60.063,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.sloppy.js": 60.063,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 60.062,
+      "test/built-ins/Array/prototype/unshift/throws-if-integer-limit-exceeded.strict.js": 60.062,
+      "test/built-ins/Array/prototype/splice/throws-if-integer-limit-exceeded.sloppy.js": 60.061,
+      "test/staging/sm/String/replace-math.strict.js": 30.681,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 27.325
+    },
+    "duration_sec": {
+      "test/built-ins/Array/prototype/splice/throws-if-integer-limit-exceeded.strict.js": 60.066,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.strict.js": 60.063,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 60.063,
+      "test/built-ins/Array/prototype/unshift/throws-if-integer-limit-exceeded.sloppy.js": 60.063,
+      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.sloppy.js": 60.063,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 60.062,
+      "test/built-ins/Array/prototype/unshift/throws-if-integer-limit-exceeded.strict.js": 60.062,
+      "test/built-ins/Array/prototype/splice/throws-if-integer-limit-exceeded.sloppy.js": 60.061,
+      "test/staging/sm/String/replace-math.strict.js": 30.681,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 27.325
+    },
+    "rss_mb": {
+      "test/staging/sm/String/replace-math.sloppy.js": 949.5,
+      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 949.3,
+      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 949.3,
+      "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 949.3,
+      "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 949.3,
+      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 949.3,
+      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 949.3,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 949.3,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 949.3,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 949.3
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: Can't find variable: Symbol",
@@ -53187,7 +53231,7 @@
     "test/staging/sm/misc/enumerate-undefined.js": "OK",
     "test/staging/sm/misc/error-undefined-message.js": "OK",
     "test/staging/sm/misc/explicit-undefined-optional-argument.js": "OK",
-    "test/staging/sm/misc/function-definition-eval.js": "KJS: warning: overriding already set exception : FAIL set 1 function acc1(); {; throw \"FAIL redefined 1\";; } : String (0x7fd149842a80); KJS: with : FAIL get 1 : String (0x7fd149842ac0); function-defin...",
+    "test/staging/sm/misc/function-definition-eval.js": "KJS: warning: overriding already set exception : FAIL set 1 function acc1(); {; throw \"FAIL redefined 1\";; } : String (0x7fbf8f222a80); KJS: with : FAIL get 1 : String (0x7fbf8f222ac0); function-defin...",
     "test/staging/sm/misc/future-reserved-words.js": "TypeError: Attempt to use a non-function object or a value as a function.",
     "test/staging/sm/misc/getter-setter-outerize-this.js": "OK",
     "test/staging/sm/misc/global-numeric-properties.js": "Test262Error: wrong strict mode error setting NaN Expected a undefined to be thrown but no exception was thrown at all",
@@ -53458,33 +53502,5 @@
     "test/staging/sm/types/8.12.5-01.js": "Test262Error: Expected a undefined to be thrown but no exception was thrown at all",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError"
-  },
-  "rusage": {
-    "total_time_s": 433.662,
-    "peak_rss_mb": 949.1,
-    "wall_time_s": {
-      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.strict.js": 60.064,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 60.064,
-      "test/built-ins/Array/prototype/splice/throws-if-integer-limit-exceeded.strict.js": 60.063,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 60.063,
-      "test/built-ins/Array/prototype/unshift/throws-if-integer-limit-exceeded.strict.js": 60.062,
-      "test/built-ins/Array/prototype/unshift/throws-if-integer-limit-exceeded.sloppy.js": 60.062,
-      "test/built-ins/Array/prototype/splice/throws-if-integer-limit-exceeded.sloppy.js": 60.061,
-      "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.sloppy.js": 60.054,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 25.752,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 25.75
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 949.1,
-      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 949.1,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 949.1,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 949.1,
-      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 949.1,
-      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 949.1,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 949.1,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 949.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 949.1,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 949.1
-    }
   }
 }

@@ -2,10 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "bramblex",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "dist_size": 211549,
     "engine": "bramblex",
     "repository": "https://github.com/bramblex/jsjs.git",
@@ -48,9 +45,11 @@
   },
   "summary": {
     "all": {"pass": 13875, "fail": 39256, "pass_percent": 26.115},
+    "esnext": {"pass": 278, "fail": 8046, "pass_percent": 3.34},
     "intl": {"pass": 15, "fail": 3308, "pass_percent": 0.451},
     "staging": {"pass": 226, "fail": 1258, "pass_percent": 15.229},
     "annexb": {"pass": 143, "fail": 943, "pass_percent": 13.168},
+    "ex-intl": {"pass": 13860, "fail": 35948, "pass_percent": 27.827},
     "ex-staging": {"pass": 13649, "fail": 37998, "pass_percent": 26.427},
     "ex-staging-intl": {"pass": 13634, "fail": 34690, "pass_percent": 28.214},
     "ex-staging-intl-annexb": {"pass": 13491, "fail": 33747, "pass_percent": 28.56},
@@ -325,6 +324,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 2102.884,
+    "total_user_sec": 6249.532,
+    "total_sys_sec": 1585.668,
+    "peak_rss_mb": 252.2,
+    "wall_time_s": {
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 46.366,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 46.165,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 45.687,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 45.52,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 45.345,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 45.065,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 44.938,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 44.884,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 44.524,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 44.517
+    },
+    "duration_sec": {
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 46.366,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 46.165,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 45.687,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 45.52,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 45.345,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 45.065,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 44.938,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 44.884,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 44.524,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 44.517
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 252.2,
+      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 252.2,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 252.2,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 252.2,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.sloppy.js": 252.2,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.strict.js": 252.2,
+      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.sloppy.js": 252.2,
+      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.strict.js": 252.2,
+      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.sloppy.js": 252.2,
+      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.strict.js": 252.2
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: 'Symbol'",
@@ -53458,33 +53499,5 @@
     "test/staging/sm/types/8.12.5-01.js": "TypeError: Cannot set property p of #<Object> which has only a getter",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Unexpected token (343:16)",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: The keyword 'import' is reserved (235:0)"
-  },
-  "rusage": {
-    "total_time_s": 2130.712,
-    "peak_rss_mb": 253.4,
-    "wall_time_s": {
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 45.373,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 44.689,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 44.547,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 44.521,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 44.452,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 44.39,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 44.371,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 44.248,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 44.031,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 43.85
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.sloppy.js": 253.4,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.strict.js": 253.4,
-      "test/annexB/built-ins/String/prototype/anchor/attr-tostring-err.sloppy.js": 253.4,
-      "test/annexB/built-ins/String/prototype/anchor/attr-tostring-err.strict.js": 253.4,
-      "test/annexB/built-ins/String/prototype/anchor/prop-desc.sloppy.js": 253.4,
-      "test/annexB/built-ins/String/prototype/anchor/prop-desc.strict.js": 253.4,
-      "test/annexB/built-ins/String/prototype/sub/not-a-constructor.sloppy.js": 253.4,
-      "test/annexB/built-ins/String/prototype/sub/not-a-constructor.strict.js": 253.4,
-      "test/annexB/built-ins/unescape/four-ignore-end-str.sloppy.js": 253.4,
-      "test/annexB/built-ins/unescape/four-ignore-end-str.strict.js": 253.4
-    }
   }
 }

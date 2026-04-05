@@ -51,9 +51,11 @@
   },
   "summary": {
     "all": {"pass": 44635, "fail": 8496, "pass_percent": 84.009},
+    "esnext": {"pass": 1133, "fail": 7191, "pass_percent": 13.611},
     "intl": {"pass": 1204, "fail": 2119, "pass_percent": 36.232},
     "staging": {"pass": 1239, "fail": 245, "pass_percent": 83.491},
     "annexb": {"pass": 1018, "fail": 68, "pass_percent": 93.738},
+    "ex-intl": {"pass": 43431, "fail": 6377, "pass_percent": 87.197},
     "ex-staging": {"pass": 43396, "fail": 8251, "pass_percent": 84.024},
     "ex-staging-intl": {"pass": 42192, "fail": 6132, "pass_percent": 87.311},
     "ex-staging-intl-annexb": {"pass": 41174, "fail": 6064, "pass_percent": 87.163},
@@ -328,6 +330,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 1, "fail": 325, "pass_percent": 0.307},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 499.926,
+    "total_user_sec": 895.44,
+    "total_sys_sec": 352.524,
+    "peak_rss_mb": 1032.3,
+    "wall_time_s": {
+      "test/language/statements/try/tco-catch.js": 60.077,
+      "test/staging/sm/class/superPropProxies.strict.js": 60.067,
+      "test/staging/sm/extensions/recursion.js": 60.066,
+      "test/staging/sm/class/superPropProxies.sloppy.js": 60.064,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 19.781,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 17.915,
+      "test/staging/sm/BigInt/large-bit-length.strict.js": 8.973,
+      "test/staging/sm/BigInt/large-bit-length.sloppy.js": 7.007,
+      "test/staging/sm/Date/two-digit-years.sloppy.js": 6.955,
+      "test/staging/sm/Date/two-digit-years.strict.js": 6.87
+    },
+    "duration_sec": {
+      "test/language/statements/try/tco-catch.js": 60.077,
+      "test/staging/sm/class/superPropProxies.strict.js": 60.067,
+      "test/staging/sm/extensions/recursion.js": 60.066,
+      "test/staging/sm/class/superPropProxies.sloppy.js": 60.064,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 19.781,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 17.915,
+      "test/staging/sm/BigInt/large-bit-length.strict.js": 8.973,
+      "test/staging/sm/BigInt/large-bit-length.sloppy.js": 7.007,
+      "test/staging/sm/Date/two-digit-years.sloppy.js": 6.955,
+      "test/staging/sm/Date/two-digit-years.strict.js": 6.87
+    },
+    "rss_mb": {
+      "test/staging/sm/BigInt/large-bit-length.strict.js": 1032.3,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 1032.2,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 1032.2,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.sloppy.js": 1032.2,
+      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.strict.js": 1032.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-not-regexp-constructor.sloppy.js": 1032.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-not-regexp-constructor.strict.js": 1032.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-subclass-constructor.sloppy.js": 1032.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-subclass-constructor.strict.js": 1032.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/prop-desc.sloppy.js": 1032.2
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: $262 is not defined",
@@ -53461,33 +53505,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: Unexpected token .",
     "test/staging/top-level-await/tla-hang-entry.js": "OK"
-  },
-  "rusage": {
-    "total_time_s": 523.851,
-    "peak_rss_mb": 1032.2,
-    "wall_time_s": {
-      "test/language/statements/try/tco-catch.js": 60.066,
-      "test/staging/sm/class/superPropProxies.strict.js": 60.065,
-      "test/staging/sm/extensions/recursion.js": 60.065,
-      "test/staging/sm/class/superPropProxies.sloppy.js": 60.064,
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 18.418,
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 16.907,
-      "test/staging/sm/BigInt/large-bit-length.strict.js": 7.183,
-      "test/staging/sm/BigInt/large-bit-length.sloppy.js": 6.396,
-      "test/staging/sm/Date/two-digit-years.strict.js": 6.348,
-      "test/staging/sm/Date/two-digit-years.sloppy.js": 6.175
-    },
-    "rss_mb": {
-      "test/staging/sm/BigInt/large-bit-length.sloppy.js": 1032.2,
-      "test/staging/sm/BigInt/large-bit-length.strict.js": 1032.1,
-      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 1032.0,
-      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 1032.0,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.sloppy.js": 1032.0,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.strict.js": 1032.0,
-      "test/annexB/built-ins/Date/prototype/toGMTString/value.sloppy.js": 1032.0,
-      "test/annexB/built-ins/Date/prototype/toGMTString/value.strict.js": 1032.0,
-      "test/annexB/built-ins/Object/is/emulates-undefined.sloppy.js": 1032.0,
-      "test/annexB/built-ins/Object/is/emulates-undefined.strict.js": 1032.0
-    }
   }
 }

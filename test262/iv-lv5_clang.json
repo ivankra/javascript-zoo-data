@@ -5,10 +5,7 @@
     "binary_sha256": "c320806bfdf010181af3a73a498c9715b11556c5ac4c98106fac01a9a2f8402d",
     "binary_size": 5959464,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": [
-      "console.log",
-      "print"
-    ],
+    "console_log": ["console.log", "print"],
     "engine": "iv-lv5",
     "jit": "true",
     "repository": "https://github.com/Constellation/iv.git",
@@ -51,9 +48,11 @@
   },
   "summary": {
     "all": {"pass": 17349, "fail": 35782, "pass_percent": 32.653},
+    "esnext": {"pass": 282, "fail": 8042, "pass_percent": 3.388},
     "intl": {"pass": 43, "fail": 3280, "pass_percent": 1.294},
     "staging": {"pass": 315, "fail": 1169, "pass_percent": 21.226},
     "annexb": {"pass": 463, "fail": 623, "pass_percent": 42.634},
+    "ex-intl": {"pass": 17306, "fail": 32502, "pass_percent": 34.745},
     "ex-staging": {"pass": 17034, "fail": 34613, "pass_percent": 32.982},
     "ex-staging-intl": {"pass": 16991, "fail": 31333, "pass_percent": 35.161},
     "ex-staging-intl-annexb": {"pass": 16528, "fail": 30710, "pass_percent": 34.989},
@@ -328,6 +327,48 @@
     "ref:$262.detachArrayBuffer": {"pass": 3, "fail": 323, "pass_percent": 0.92},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 830.167,
+    "total_user_sec": 1166.986,
+    "total_sys_sec": 646.639,
+    "peak_rss_mb": 2079.0,
+    "wall_time_s": {
+      "test/language/literals/regexp/S7.8.5_A1.1_T2.strict.js": 60.283,
+      "test/language/statements/do-while/S12.6.1_A1.sloppy.js": 60.077,
+      "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.sloppy.js": 60.071,
+      "test/language/statements/do-while/S12.6.1_A1.strict.js": 60.071,
+      "test/language/statements/for/12.6.3_2-3-a-ii-18.sloppy.js": 60.069,
+      "test/built-ins/Object/prototype/setPrototypeOf-with-different-values.strict.js": 60.068,
+      "test/built-ins/Object/prototype/setPrototypeOf-with-different-values.sloppy.js": 60.067,
+      "test/language/statements/for/12.6.3_2-3-a-ii-18.strict.js": 60.065,
+      "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.strict.js": 60.065,
+      "test/language/literals/regexp/S7.8.5_A2.1_T2.sloppy.js": 49.271
+    },
+    "duration_sec": {
+      "test/language/literals/regexp/S7.8.5_A1.1_T2.strict.js": 60.283,
+      "test/language/statements/do-while/S12.6.1_A1.sloppy.js": 60.077,
+      "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.sloppy.js": 60.071,
+      "test/language/statements/do-while/S12.6.1_A1.strict.js": 60.071,
+      "test/language/statements/for/12.6.3_2-3-a-ii-18.sloppy.js": 60.069,
+      "test/built-ins/Object/prototype/setPrototypeOf-with-different-values.strict.js": 60.068,
+      "test/built-ins/Object/prototype/setPrototypeOf-with-different-values.sloppy.js": 60.067,
+      "test/language/statements/for/12.6.3_2-3-a-ii-18.strict.js": 60.065,
+      "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.strict.js": 60.065,
+      "test/language/literals/regexp/S7.8.5_A2.1_T2.sloppy.js": 49.271
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 2079.0,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 2079.0,
+      "test/annexB/built-ins/RegExp/RegExp-trailing-escape.sloppy.js": 2079.0,
+      "test/annexB/built-ins/RegExp/RegExp-trailing-escape.strict.js": 2079.0,
+      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.sloppy.js": 2079.0,
+      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.strict.js": 2079.0,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.sloppy.js": 2079.0,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.strict.js": 2079.0,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-not-regexp-constructor.sloppy.js": 2079.0,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-not-regexp-constructor.strict.js": 2079.0
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: \"$262\" not defined",
@@ -41429,7 +41470,7 @@
     "test/language/literals/regexp/7.8.5-1.js": "OK",
     "test/language/literals/regexp/7.8.5-2gs.js": "OK",
     "test/language/literals/regexp/S7.8.5_A1.1_T1.js": "OK",
-    "test/language/literals/regexp/S7.8.5_A1.1_T2.js": "OOM: >2048MB",
+    "test/language/literals/regexp/S7.8.5_A1.1_T2.js": {"sloppy": "OOM: >2048MB", "strict": "timeout: >60s"},
     "test/language/literals/regexp/S7.8.5_A1.2_T1.js": "OK",
     "test/language/literals/regexp/S7.8.5_A1.2_T2.js": "OK",
     "test/language/literals/regexp/S7.8.5_A1.2_T3.js": "OK",
@@ -41441,7 +41482,7 @@
     "test/language/literals/regexp/S7.8.5_A1.3_T5.js": "OK",
     "test/language/literals/regexp/S7.8.5_A1.3_T6.js": "OK",
     "test/language/literals/regexp/S7.8.5_A1.4_T1.js": "OK",
-    "test/language/literals/regexp/S7.8.5_A1.4_T2.js": {"sloppy": "OOM: >2048MB", "strict": "timeout: >60s"},
+    "test/language/literals/regexp/S7.8.5_A1.4_T2.js": "OOM: >2048MB",
     "test/language/literals/regexp/S7.8.5_A1.5_T1.js": "OK",
     "test/language/literals/regexp/S7.8.5_A1.5_T2.js": "OK",
     "test/language/literals/regexp/S7.8.5_A1.5_T3.js": "OK",
@@ -53461,33 +53502,5 @@
     "test/staging/sm/types/8.12.5-01.js": "OK",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError: unexpected token function",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError: unexpected token import"
-  },
-  "rusage": {
-    "total_time_s": 672.585,
-    "peak_rss_mb": 2321.0,
-    "wall_time_s": {
-      "test/language/literals/regexp/S7.8.5_A1.4_T2.strict.js": 60.15,
-      "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.strict.js": 60.068,
-      "test/built-ins/Object/prototype/setPrototypeOf-with-different-values.sloppy.js": 60.067,
-      "test/built-ins/Object/prototype/setPrototypeOf-with-different-values.strict.js": 60.067,
-      "test/language/statements/for/12.6.3_2-3-a-ii-18.sloppy.js": 60.063,
-      "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.sloppy.js": 60.062,
-      "test/language/statements/do-while/S12.6.1_A1.strict.js": 60.062,
-      "test/language/statements/for/12.6.3_2-3-a-ii-18.strict.js": 60.062,
-      "test/language/statements/do-while/S12.6.1_A1.sloppy.js": 60.061,
-      "test/language/comments/S7.4_A5.sloppy.js": 57.714
-    },
-    "rss_mb": {
-      "test/built-ins/String/raw/return-empty-string-if-length-is-zero-or-less-number.sloppy.js": 2321.0,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-immutable-lastindex.sloppy.js": 2321.0,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-immutable-lastindex.strict.js": 2321.0,
-      "test/annexB/built-ins/String/prototype/fontsize/attr-tostring-err.sloppy.js": 2321.0,
-      "test/annexB/built-ins/String/prototype/fontsize/attr-tostring-err.strict.js": 2321.0,
-      "test/annexB/built-ins/String/prototype/sup/prop-desc.sloppy.js": 2321.0,
-      "test/annexB/built-ins/String/prototype/sup/prop-desc.strict.js": 2321.0,
-      "test/annexB/language/eval-code/direct/func-if-decl-else-decl-a-eval-func-existing-block-fn-update.js": 2321.0,
-      "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-block-scoping.js": 2321.0,
-      "test/annexB/language/eval-code/direct/global-if-decl-else-decl-a-eval-global-existing-fn-update.js": 2321.0
-    }
   }
 }

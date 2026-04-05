@@ -21,13 +21,13 @@
     "$262.evalScript": "marker not found",
     "$262.gc": "marker not found",
     "$262.global": "marker not found",
-    "EvalError": "foo stdout='undefined' stderr='Exec error [/tmp/probe-66700xf0/34-probe.sloppy.js]: \"foo\"\\n    at /tmp/probe-66700xf0/34-probe.sloppy.js:3'",
+    "EvalError": "foo stdout='undefined' stderr='Exec error [/tmp/probe-zgt55m4v/34-probe.sloppy.js]: \"foo\"\\n    at /tmp/probe-zgt55m4v/34-probe.sloppy.js:3'",
     "Intl": "marker not found",
-    "RangeError": "{\"stack\":\"    at /tmp/probe-d86zn5so/36-probe.sloppy.js:3\",\"message\":undefined} stdout='undefined' stderr='Exec error [/tmp/probe-d86zn5so/36-probe.sloppy.js]: {\"stack\":\"    at /tmp/probe-d86zn5so/36-probe.sloppy.js:3\",\"message\":undefined}\\n    at /tmp/probe-d86zn5so/36-probe.sloppy.js:3'",
+    "RangeError": "{\"stack\":\"    at /tmp/probe-bb6ep9qo/35-probe.sloppy.js:3\",\"message\":undefined} stdout='undefined' stderr='Exec error [/tmp/probe-bb6ep9qo/35-probe.sloppy.js]: {\"stack\":\"    at /tmp/probe-bb6ep9qo/35-probe.sloppy.js:3\",\"message\":undefined}\\n    at /tmp/probe-bb6ep9qo/35-probe.sloppy.js:3'",
     "ReferenceError": "OK",
     "SyntaxError": "OK",
-    "Test262Error": "probe stdout='undefined' stderr='Exec error [/tmp/probe-7ah4cujy/35-probe.sloppy.js]: \"probe\"'",
-    "TypeError": "{\"stack\":\"    at /tmp/probe-9zz6xsdm/33-probe.sloppy.js:3\",\"message\":undefined} stdout='undefined' stderr='Exec error [/tmp/probe-9zz6xsdm/33-probe.sloppy.js]: {\"stack\":\"    at /tmp/probe-9zz6xsdm/33-probe.sloppy.js:3\",\"message\":undefined}\\n    at /tmp/probe-9zz6xsdm/33-probe.sloppy.js:3'",
+    "Test262Error": "probe stdout='undefined' stderr='Exec error [/tmp/probe-2602a219/33-probe.sloppy.js]: \"probe\"'",
+    "TypeError": "{\"stack\":\"    at /tmp/probe-abc8odty/36-probe.sloppy.js:3\",\"message\":undefined} stdout='undefined' stderr='Exec error [/tmp/probe-abc8odty/36-probe.sloppy.js]: {\"stack\":\"    at /tmp/probe-abc8odty/36-probe.sloppy.js:3\",\"message\":undefined}\\n    at /tmp/probe-abc8odty/36-probe.sloppy.js:3'",
     "annexB": "marker not found",
     "assert.throws": "OK",
     "async": "ReferenceError: Promise is not defined",
@@ -47,9 +47,11 @@
   },
   "summary": {
     "all": {"pass": 10926, "fail": 42205, "pass_percent": 20.564},
+    "esnext": {"pass": 184, "fail": 8140, "pass_percent": 2.21},
     "intl": {"pass": 2, "fail": 3321, "pass_percent": 0.06},
     "staging": {"pass": 141, "fail": 1343, "pass_percent": 9.501},
     "annexb": {"pass": 92, "fail": 994, "pass_percent": 8.471},
+    "ex-intl": {"pass": 10924, "fail": 38884, "pass_percent": 21.932},
     "ex-staging": {"pass": 10785, "fail": 40862, "pass_percent": 20.882},
     "ex-staging-intl": {"pass": 10783, "fail": 37541, "pass_percent": 22.314},
     "ex-staging-intl-annexb": {"pass": 10691, "fail": 36547, "pass_percent": 22.632},
@@ -325,6 +327,48 @@
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
   },
+  "rusage": {
+    "total_duration_sec": 858.478,
+    "total_user_sec": 2656.368,
+    "total_sys_sec": 63.97,
+    "peak_rss_mb": 564.7,
+    "wall_time_s": {
+      "test/language/statements/switch/tco-case-body.js": 60.094,
+      "test/language/expressions/call/tco-member-args.js": 60.067,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 60.066,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 60.066,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 60.066,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 60.065,
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 60.065,
+      "test/staging/sm/JSON/parse-mega-huge-array.strict.js": 60.065,
+      "test/language/expressions/call/tco-non-eval-function-dynamic.js": 60.065,
+      "test/language/expressions/logical-and/tco-right.js": 60.065
+    },
+    "duration_sec": {
+      "test/language/statements/switch/tco-case-body.js": 60.094,
+      "test/language/expressions/call/tco-member-args.js": 60.067,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 60.066,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 60.066,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 60.066,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 60.065,
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 60.065,
+      "test/staging/sm/JSON/parse-mega-huge-array.strict.js": 60.065,
+      "test/language/expressions/call/tco-non-eval-function-dynamic.js": 60.065,
+      "test/language/expressions/logical-and/tco-right.js": 60.065
+    },
+    "rss_mb": {
+      "test/staging/sm/String/replace-math.strict.js": 564.7,
+      "test/staging/sm/String/replace-math.sloppy.js": 564.7,
+      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 564.5,
+      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 564.5,
+      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 564.5,
+      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 564.5,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 564.5,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 564.5,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 564.5,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 564.5
+    }
+  },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "ReferenceError: Symbol is not defined",
     "test/annexB/built-ins/Date/prototype/getYear/B.2.4.js": "obj should have an own property getYear",
@@ -350,7 +394,7 @@
     "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.js": "ReferenceError: Symbol is not defined",
     "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.js": "SyntaxError",
     "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.js": "obj should have an own property toGMTString",
-    "test/annexB/built-ins/Date/prototype/toGMTString/value.js": {"sloppy": "Expected SameValue(\u00abundefined\u00bb, \u00abcfunc_0x5624676d2ac0\u00bb) to be true", "strict": "Expected SameValue(\u00abundefined\u00bb, \u00abcfunc_0x560395587ac0\u00bb) to be true"},
+    "test/annexB/built-ins/Date/prototype/toGMTString/value.js": {"sloppy": "Expected SameValue(\u00abundefined\u00bb, \u00abcfunc_0x55cc9ee05ac0\u00bb) to be true", "strict": "Expected SameValue(\u00abundefined\u00bb, \u00abcfunc_0x557961c7dac0\u00bb) to be true"},
     "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.js": "Invalid function body",
     "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.js": "Invalid function body",
     "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.js": "Invalid function body",
@@ -53457,33 +53501,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError",
     "test/staging/top-level-await/tla-hang-entry.js": "SyntaxError"
-  },
-  "rusage": {
-    "total_time_s": 861.26,
-    "peak_rss_mb": 564.9,
-    "wall_time_s": {
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 60.071,
-      "test/language/statements/while/tco-body.js": 60.069,
-      "test/language/statements/try/tco-finally.js": 60.067,
-      "test/language/expressions/call/tco-non-eval-global.js": 60.066,
-      "test/staging/sm/JSON/parse-mega-huge-array.sloppy.js": 60.066,
-      "test/language/expressions/call/tco-non-eval-function.js": 60.066,
-      "test/language/statements/try/tco-catch-finally.js": 60.066,
-      "test/language/expressions/call/tco-call-args.js": 60.066,
-      "test/language/statements/switch/tco-dftl-body.js": 60.066,
-      "test/staging/sm/JSON/parse-mega-huge-array.strict.js": 60.066
-    },
-    "rss_mb": {
-      "test/staging/sm/String/replace-math.strict.js": 564.9,
-      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 564.8,
-      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 564.8,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 564.8,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 564.8,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 564.8,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 564.8,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 564.8,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 564.8,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 564.8
-    }
   }
 }

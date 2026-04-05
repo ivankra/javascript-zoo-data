@@ -22,13 +22,13 @@
     "$262.evalScript": "marker not found",
     "$262.gc": "marker not found",
     "$262.global": "marker not found",
-    "EvalError": "illegal object for new stderr=\"VM: warning: using undefined global `EvalError'\\nngs: evaluation of file `/tmp/probe-eadz5k9d/33-probe.sloppy.js' failed:\\n/tmp/probe-eadz5k9d/33-probe.sloppy.js:4: illegal object for new\"",
+    "EvalError": "illegal object for new stderr=\"VM: warning: using undefined global `EvalError'\\nngs: evaluation of file `/tmp/probe-cke6hl89/36-probe.sloppy.js' failed:\\n/tmp/probe-cke6hl89/36-probe.sloppy.js:4: illegal object for new\"",
     "Intl": "marker not found",
-    "RangeError": "illegal object for new stderr=\"VM: warning: using undefined global `RangeError'\\nngs: evaluation of file `/tmp/probe-v7zb84wd/35-probe.sloppy.js' failed:\\n/tmp/probe-v7zb84wd/35-probe.sloppy.js:4: illegal object for new\"",
+    "RangeError": "illegal object for new stderr=\"VM: warning: using undefined global `RangeError'\\nngs: evaluation of file `/tmp/probe-4enzcywv/34-probe.sloppy.js' failed:\\n/tmp/probe-4enzcywv/34-probe.sloppy.js:4: illegal object for new\"",
     "ReferenceError": "OK stdout='ScriptExecutionFinished' stderr=\"VM: warning: using undefined global `x'\"",
     "SyntaxError": "OK",
-    "Test262Error": "SyntaxError stderr=\"ngs: evaluation of file `/tmp/probe-5gr7qb5a/34-probe.sloppy.js' failed:\\n/tmp/probe-5gr7qb5a/34-probe.sloppy.js:24: syntax error\"",
-    "TypeError": "illegal object for new stderr=\"VM: warning: using undefined global `TypeError'\\nngs: evaluation of file `/tmp/probe-mac85ifl/36-probe.sloppy.js' failed:\\n/tmp/probe-mac85ifl/36-probe.sloppy.js:4: illegal object for new\"",
+    "Test262Error": "SyntaxError stderr=\"ngs: evaluation of file `/tmp/probe-0u8m5iv1/35-probe.sloppy.js' failed:\\n/tmp/probe-0u8m5iv1/35-probe.sloppy.js:24: syntax error\"",
+    "TypeError": "illegal object for new stderr=\"VM: warning: using undefined global `TypeError'\\nngs: evaluation of file `/tmp/probe-idjj7mz6/33-probe.sloppy.js' failed:\\n/tmp/probe-idjj7mz6/33-probe.sloppy.js:4: illegal object for new\"",
     "annexB": "marker not found",
     "assert.throws": "OK",
     "async": "SyntaxError",
@@ -48,9 +48,11 @@
   },
   "summary": {
     "all": {"pass": 4385, "fail": 48746, "pass_percent": 8.253},
+    "esnext": {"pass": 255, "fail": 8069, "pass_percent": 3.063},
     "intl": {"fail": 3323, "pass_percent": 0.0},
     "staging": {"fail": 1484, "pass_percent": 0.0},
     "annexb": {"pass": 7, "fail": 1079, "pass_percent": 0.645},
+    "ex-intl": {"pass": 4385, "fail": 45423, "pass_percent": 8.804},
     "ex-staging": {"pass": 4385, "fail": 47262, "pass_percent": 8.49},
     "ex-staging-intl": {"pass": 4385, "fail": 43939, "pass_percent": 9.074},
     "ex-staging-intl-annexb": {"pass": 4378, "fail": 42860, "pass_percent": 9.268},
@@ -325,6 +327,48 @@
     "ref:$262.detachArrayBuffer": {"fail": 326, "pass_percent": 0.0},
     "ref:$262.evalScript": {"fail": 31, "pass_percent": 0.0},
     "ref:$262.gc": {"fail": 15, "pass_percent": 0.0}
+  },
+  "rusage": {
+    "total_duration_sec": 168.201,
+    "total_user_sec": 309.041,
+    "total_sys_sec": 115.617,
+    "peak_rss_mb": 46.7,
+    "wall_time_s": {
+      "test/intl402/DateTimeFormat/prototype/formatToParts/this-is-not-object-throws.sloppy.js": 0.019,
+      "test/annexB/language/eval-code/direct/global-switch-case-eval-global-skip-early-err-switch.js": 0.016,
+      "test/language/arguments-object/cls-decl-private-gen-meth-static-args-trailing-comma-undefined.strict.js": 0.013,
+      "test/language/expressions/class/dstr/async-private-gen-meth-static-dflt-ary-ptrn-rest-not-final-id.sloppy.js": 0.013,
+      "test/language/expressions/async-generator/yield-star-next-not-callable-string-throw.sloppy.js": 0.012,
+      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Phoenician.strict.js": 0.012,
+      "test/built-ins/String/prototype/codePointAt/this-is-null-throws.sloppy.js": 0.012,
+      "test/built-ins/Temporal/PlainDateTime/prototype/calendarId/branding.sloppy.js": 0.012,
+      "test/language/statements/let/dstr/ary-ptrn-elem-id-init-skipped.sloppy.js": 0.012,
+      "test/built-ins/Array/of/of.sloppy.js": 0.012
+    },
+    "duration_sec": {
+      "test/intl402/DateTimeFormat/prototype/formatToParts/this-is-not-object-throws.sloppy.js": 0.019,
+      "test/annexB/language/eval-code/direct/global-switch-case-eval-global-skip-early-err-switch.js": 0.016,
+      "test/language/arguments-object/cls-decl-private-gen-meth-static-args-trailing-comma-undefined.strict.js": 0.013,
+      "test/language/expressions/class/dstr/async-private-gen-meth-static-dflt-ary-ptrn-rest-not-final-id.sloppy.js": 0.013,
+      "test/language/expressions/async-generator/yield-star-next-not-callable-string-throw.sloppy.js": 0.012,
+      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Phoenician.strict.js": 0.012,
+      "test/built-ins/String/prototype/codePointAt/this-is-null-throws.sloppy.js": 0.012,
+      "test/built-ins/Temporal/PlainDateTime/prototype/calendarId/branding.sloppy.js": 0.012,
+      "test/language/statements/let/dstr/ary-ptrn-elem-id-init-skipped.sloppy.js": 0.012,
+      "test/built-ins/Array/of/of.sloppy.js": 0.012
+    },
+    "rss_mb": {
+      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.sloppy.js": 46.7,
+      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.strict.js": 46.7,
+      "test/annexB/built-ins/String/prototype/trimRight/length.sloppy.js": 46.7,
+      "test/annexB/built-ins/String/prototype/trimRight/length.strict.js": 46.7,
+      "test/annexB/language/eval-code/direct/global-switch-case-eval-global-skip-early-err-for-in.js": 46.7,
+      "test/annexB/language/eval-code/indirect/global-if-decl-no-else-eval-global-existing-var-no-init.js": 46.7,
+      "test/annexB/language/eval-code/indirect/global-if-stmt-else-decl-eval-global-existing-block-fn-update.js": 46.7,
+      "test/annexB/language/function-code/if-decl-else-decl-a-func-existing-fn-update.js": 46.7,
+      "test/built-ins/AbstractModuleSource/prototype.mjs": 46.7,
+      "test/built-ins/Array/from/elements-updated-after.sloppy.js": 46.7
+    }
   },
   "tests": {
     "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.js": "SyntaxError",
@@ -53458,33 +53502,5 @@
     "test/staging/sm/types/8.12.5-01.js": "SyntaxError",
     "test/staging/source-phase-imports/import-source-source-text-module.js": "SyntaxError",
     "test/staging/top-level-await/tla-hang-entry.js": "NoAsyncTestComplete"
-  },
-  "rusage": {
-    "total_time_s": 169.442,
-    "peak_rss_mb": 47.1,
-    "wall_time_s": {
-      "test/language/expressions/typeof/get-value-ref-err.sloppy.js": 0.016,
-      "test/staging/sm/strict/11.4.5.sloppy.js": 0.014,
-      "test/language/statements/class/async-method-static/dflt-params-ref-prior.strict.js": 0.014,
-      "test/language/statements/for/dstr/const-ary-ptrn-rest-not-final-obj.strict.js": 0.013,
-      "test/built-ins/Temporal/ZonedDateTime/prototype/withPlainTime/argument-string-time-zone-annotation.strict.js": 0.013,
-      "test/language/arguments-object/cls-decl-async-gen-meth-args-trailing-comma-undefined.sloppy.js": 0.013,
-      "test/language/literals/regexp/named-groups/invalid-non-id-start-groupspecifier-u.sloppy.js": 0.013,
-      "test/built-ins/Iterator/zip/name.sloppy.js": 0.013,
-      "test/intl402/Temporal/PlainDate/prototype/until/leap-year-gregory.strict.js": 0.012,
-      "test/built-ins/JSON/parse/S15.12.2_A1.strict.js": 0.012
-    },
-    "rss_mb": {
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 47.1,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 47.1,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 47.1,
-      "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 47.1,
-      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-class-range.sloppy.js": 47.1,
-      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-class-range.strict.js": 47.1,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.sloppy.js": 47.1,
-      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.strict.js": 47.1,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-subclass-constructor.sloppy.js": 47.1,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-subclass-constructor.strict.js": 47.1
-    }
   }
 }
