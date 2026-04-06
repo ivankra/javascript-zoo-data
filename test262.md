@@ -67,10 +67,12 @@
 * 34.616 niljs
 * 34.422 duktape_clang
 * 34.422 duktape
+* 33.86 spidermonkey_24
 * 33.363 quanta
 * 32.693 eval5
 * 32.653 iv-lv5_clang
 * 32.245 iv-lv5_jitless
+* 32.243 spidermonkey_17
 * 31.584 ant
 * 31.274 narcissus
 * 29.924 spidermonkey_1.8.5
@@ -106,8 +108,6 @@
 * 12.494 castl
 * 10.19 espruino
 * 9.303 besen
-* 8.726 spidermonkey_24
-* 8.726 spidermonkey_17
 * 8.72 tiny-js
 * 8.72 jispy
 * 8.712 quad-wheel
@@ -197,10 +197,12 @@
 * 34.827 niljs
 * 34.614 duktape_clang
 * 34.614 duktape
+* 34.054 spidermonkey_24
 * 33.582 quanta
 * 32.982 iv-lv5_clang
 * 32.958 eval5
 * 32.565 iv-lv5_jitless
+* 32.482 spidermonkey_17
 * 31.725 ant
 * 31.467 narcissus
 * 30.242 spidermonkey_1.8.5
@@ -236,8 +238,6 @@
 * 12.758 delskayn
 * 10.183 espruino
 * 9.484 besen
-* 8.963 spidermonkey_24
-* 8.963 spidermonkey_17
 * 8.957 tiny-js
 * 8.957 jispy
 * 8.949 quad-wheel
@@ -327,10 +327,12 @@
 * 37.211 niljs
 * 36.959 duktape_clang
 * 36.959 duktape
+* 36.369 spidermonkey_24
 * 35.707 quanta
 * 35.194 eval5
 * 35.161 iv-lv5_clang
 * 34.732 iv-lv5_jitless
+* 34.691 spidermonkey_17
 * 33.894 ant
 * 33.615 narcissus
 * 32.297 spidermonkey_1.8.5
@@ -366,8 +368,6 @@
 * 13.635 delskayn
 * 10.881 espruino
 * 10.136 besen
-* 9.579 spidermonkey_24
-* 9.579 spidermonkey_17
 * 9.573 tiny-js
 * 9.573 jispy
 * 9.565 quad-wheel
@@ -457,9 +457,11 @@
 * 37.243 niljs
 * 37.131 duktape_clang
 * 37.131 duktape
+* 36.242 spidermonkey_24
 * 35.709 quanta
 * 35.192 eval5
 * 34.989 iv-lv5_clang
+* 34.565 spidermonkey_17
 * 34.551 iv-lv5_jitless
 * 33.966 ant
 * 33.477 narcissus
@@ -497,8 +499,6 @@
 * 10.602 espruino
 * 10.356 besen
 * 9.778 tiny-js
-* 9.778 spidermonkey_24
-* 9.778 spidermonkey_17
 * 9.778 jispy
 * 9.77 quad-wheel
 * 9.77 derkjs
@@ -587,9 +587,11 @@
 * 41.989 niljs
 * 41.882 duktape_clang
 * 41.882 duktape
+* 40.81 spidermonkey_24
 * 39.661 quanta
 * 39.627 eval5
 * 39.397 iv-lv5_clang
+* 38.96 spidermonkey_17
 * 38.892 iv-lv5_jitless
 * 38.56 ant
 * 37.372 narcissus
@@ -628,8 +630,6 @@
 * 11.228 besen
 * 10.607 dscriptcpp
 * 10.568 tiny-js
-* 10.568 spidermonkey_24
-* 10.568 spidermonkey_17
 * 10.568 jispy
 * 10.558 quad-wheel
 * 10.558 derkjs

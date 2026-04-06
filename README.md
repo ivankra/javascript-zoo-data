@@ -5,5 +5,6 @@ This repository hosts data files for [javascript-zoo](https://github.com/ivankra
 * [es1-5](es1-5/): results for ES1/ES3/ES5 test suites ([repo](https://github.com/ivankra/javascript-zoo/tree/main/conformance))
 * [compat-table](compat-table/): results for compat-table test suites ([repo](https://github.com/compat-table/compat-table), [github.io](https://compat-table.github.io/compat-table/))
 * [test262](test262/): test262 results ([repo](https://github.com/tc39/test262))
+* [test262-tags](test262-tags/): test to tags mapping, one file per test262 revision (see [tags.py](https://github.com/ivankra/javascript-zoo/blob/main/harness/tags.py))
 
 [Test262 rankings](test262.md)
