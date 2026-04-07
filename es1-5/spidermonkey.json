@@ -13,25 +13,6 @@
     "version": "151.0\n1"
   },
   "flags": [
-    "--enable-iterator-helpers",
-    "--enable-async-iterator-helpers",
-    "--enable-symbols-as-weakmap-keys",
-    "--enable-top-level-await",
-    "--enable-iterator-sequencing",
-    "--enable-error-iserror",
-    "--enable-iterator-range",
-    "--enable-joint-iteration",
-    "--enable-atomics-pause",
-    "--enable-explicit-resource-management",
-    "--enable-temporal",
-    "--enable-import-bytes",
-    "--enable-import-text",
-    "--enable-promise-allkeyed",
-    "--enable-arraybuffer-immutable",
-    "--enable-iterator-chunking",
-    "--enable-iterator-join",
-    "--enable-source-phase-imports",
-    "--enable-source-phase-imports-test262-module-source",
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {

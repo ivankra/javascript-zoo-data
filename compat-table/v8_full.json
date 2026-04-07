@@ -76,20 +76,6 @@
     "version": "14.8.177"
   },
   "flags": [
-    "--harmony",
-    "--js-staging",
-    "--harmony-shadow-realm",
-    "--harmony-struct",
-    "--harmony-intl-best-fit-matcher",
-    "--js-iterator-join",
-    "--js-decorators",
-    "--js-source-phase-imports",
-    "--js-defer-import-eval",
-    "--js-immutable-arraybuffer",
-    "--js-joint-iteration",
-    "--js-intl-locale-variants",
-    "--js-nonextensible-applies-to-private",
-    "--future",
     "--ignore-unhandled-promises",
     "--no-arguments",
     "--allow-natives-syntax",
@@ -98,14 +84,14 @@
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 1062, "fail": 32, "pass_percent": 97.075, "weight": 469.0, "weighted_pass_percent": 94.742},
+    "all": {"pass": 1061, "fail": 33, "pass_percent": 96.984, "weight": 469.0, "weighted_pass_percent": 94.528},
     "es6": {"pass": 696, "fail": 4, "pass_percent": 99.429, "weight": 211.0, "weighted_pass_percent": 98.021},
     "es2016+": {"pass": 248, "fail": 2, "pass_percent": 99.2, "weight": 151.0, "weighted_pass_percent": 99.678},
-    "esnext": {"pass": 17, "fail": 26, "pass_percent": 39.535, "weight": 33.0, "weighted_pass_percent": 39.394},
+    "esnext": {"pass": 16, "fail": 27, "pass_percent": 37.209, "weight": 33.0, "weighted_pass_percent": 36.364},
     "intl": {"pass": 28, "pass_percent": 100.0, "weight": 28.0, "weighted_pass_percent": 100.0}
   },
   "dirs": {
-    "compat-table": {"pass": 1062, "fail": 32, "pass_percent": 97.075, "weight": 469.0, "weighted_pass_percent": 94.742},
+    "compat-table": {"pass": 1061, "fail": 33, "pass_percent": 96.984, "weight": 469.0, "weighted_pass_percent": 94.528},
     "compat-table/es5": {"pass": 73, "pass_percent": 100.0, "weight": 46.0, "weighted_pass_percent": 100.0},
     "compat-table/es6": {"pass": 696, "fail": 4, "pass_percent": 99.429, "weight": 211.0, "weighted_pass_percent": 98.021},
     "compat-table/es2016": {"pass": 14, "pass_percent": 100.0, "weight": 11.0, "weighted_pass_percent": 100.0},
@@ -119,7 +105,7 @@
     "compat-table/es2024": {"pass": 12, "fail": 1, "pass_percent": 92.308, "weight": 7.0, "weighted_pass_percent": 95.918},
     "compat-table/es2025": {"pass": 29, "pass_percent": 100.0, "weight": 19.0, "weighted_pass_percent": 100.0},
     "compat-table/intl": {"pass": 28, "pass_percent": 100.0, "weight": 28.0, "weighted_pass_percent": 100.0},
-    "compat-table/next": {"pass": 17, "fail": 26, "pass_percent": 39.535, "weight": 33.0, "weighted_pass_percent": 39.394}
+    "compat-table/next": {"pass": 16, "fail": 27, "pass_percent": 37.209, "weight": 33.0, "weighted_pass_percent": 36.364}
   },
   "tests": {
     "compat-table/es5/Array.isArray.js": "OK",
@@ -1196,7 +1182,7 @@
     "compat-table/next/Map.prototype.upsert.js": "TypeError: map.upsert is not a function",
     "compat-table/next/RegExp.1-9.js": "OK",
     "compat-table/next/RegExp.lastMatch.js": "OK",
-    "compat-table/next/ShadowRealm.js": "OK",
+    "compat-table/next/ShadowRealm.js": "failed",
     "compat-table/next/SuppressedError.js": "OK",
     "compat-table/next/Symbol.dispose.bound.js": "OK",
     "compat-table/next/Uint8Array.fromBase64.js": "OK",

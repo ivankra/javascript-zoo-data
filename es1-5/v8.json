@@ -76,18 +76,6 @@
     "version": "14.8.176"
   },
   "flags": [
-    "--harmony",
-    "--js-staging",
-    "--harmony-shadow-realm",
-    "--harmony-struct",
-    "--js-iterator-join",
-    "--js-decorators",
-    "--js-source-phase-imports",
-    "--js-defer-import-eval",
-    "--js-immutable-arraybuffer",
-    "--js-joint-iteration",
-    "--js-nonextensible-applies-to-private",
-    "--future",
     "--ignore-unhandled-promises",
     "--no-arguments",
     "--allow-natives-syntax",

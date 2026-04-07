@@ -1,30 +1,36 @@
 {
   "binary": {
     "arch": "amd64",
-    "binary_name": "jsc_gcc",
-    "binary_sha256": "dbbb4d7e05026fb779cc060781cbdb670ffffdb8cbd399f39a8261e182b47582",
-    "binary_size": 35632352,
-    "cc": "gcc 15.2.0 (Debian 15.2.0-16)",
+    "binary_name": "jsc",
+    "binary_sha256": "f8b5ec61d3887abe47ca90c0bc2062fd427ea3086b960fe3ec38c5956494f0d7",
+    "binary_size": 30696944,
+    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
     "console_log": "print",
     "engine": "jsc",
     "repository": "https://github.com/WebKit/WebKit.git",
-    "revision": "6a920a24908e60f2fe2a83f979e6daab411beae6",
+    "revision": "a8d761d4e2d7316766b48b0fde5252eb36ce9b12",
     "revision_date": "2026-04-02",
-    "version": "310432"
+    "version": "310431"
   },
   "flags": [
     {"if": "flags:CanBlockIsFalse", "then": "--can-block-is-false"},
-    {"if": "flags:module", "then": "-m"}
+    {"if": "flags:module", "then": "-m"},
+    "--useExplicitResourceManagement=true",
+    "--useImportDefer=true",
+    "--useIteratorChunking=true",
+    "--useMoreCurrencyDisplayChoices=true",
+    "--useShadowRealm=true",
+    "--useTemporal=true"
   ],
   "summary": {
-    "all": {"pass": 1059, "fail": 35, "pass_percent": 96.801, "weight": 469.0, "weighted_pass_percent": 93.817},
+    "all": {"pass": 1068, "fail": 26, "pass_percent": 97.623, "weight": 469.0, "weighted_pass_percent": 95.736},
     "es6": {"pass": 700, "pass_percent": 100.0, "weight": 211.0, "weighted_pass_percent": 100.0},
     "es2016+": {"pass": 250, "pass_percent": 100.0, "weight": 151.0, "weighted_pass_percent": 100.0},
-    "esnext": {"pass": 8, "fail": 35, "pass_percent": 18.605, "weight": 33.0, "weighted_pass_percent": 12.121},
+    "esnext": {"pass": 17, "fail": 26, "pass_percent": 39.535, "weight": 33.0, "weighted_pass_percent": 39.394},
     "intl": {"pass": 28, "pass_percent": 100.0, "weight": 28.0, "weighted_pass_percent": 100.0}
   },
   "dirs": {
-    "compat-table": {"pass": 1059, "fail": 35, "pass_percent": 96.801, "weight": 469.0, "weighted_pass_percent": 93.817},
+    "compat-table": {"pass": 1068, "fail": 26, "pass_percent": 97.623, "weight": 469.0, "weighted_pass_percent": 95.736},
     "compat-table/es5": {"pass": 73, "pass_percent": 100.0, "weight": 46.0, "weighted_pass_percent": 100.0},
     "compat-table/es6": {"pass": 700, "pass_percent": 100.0, "weight": 211.0, "weighted_pass_percent": 100.0},
     "compat-table/es2016": {"pass": 14, "pass_percent": 100.0, "weight": 11.0, "weighted_pass_percent": 100.0},
@@ -38,7 +44,7 @@
     "compat-table/es2024": {"pass": 13, "pass_percent": 100.0, "weight": 7.0, "weighted_pass_percent": 100.0},
     "compat-table/es2025": {"pass": 29, "pass_percent": 100.0, "weight": 19.0, "weighted_pass_percent": 100.0},
     "compat-table/intl": {"pass": 28, "pass_percent": 100.0, "weight": 28.0, "weighted_pass_percent": 100.0},
-    "compat-table/next": {"pass": 8, "fail": 35, "pass_percent": 18.605, "weight": 33.0, "weighted_pass_percent": 12.121}
+    "compat-table/next": {"pass": 17, "fail": 26, "pass_percent": 39.535, "weight": 33.0, "weighted_pass_percent": 39.394}
   },
   "tests": {
     "compat-table/es5/Array.isArray.js": "OK",
@@ -1093,7 +1099,7 @@
     "compat-table/intl/Object.prototype.toLocaleString.js": "OK",
     "compat-table/intl/String.prototype.localeCompare.js": "OK",
     "compat-table/next/Array.isTemplateObject.js": "TypeError: Array.isTemplateObject is not a function. (In 'Array.isTemplateObject([])', 'Array.isTemplateObject' is undefined)",
-    "compat-table/next/AsyncDisposableStack.js": "ReferenceError: Can't find variable: AsyncDisposableStack",
+    "compat-table/next/AsyncDisposableStack.js": "OK",
     "compat-table/next/AsyncIterator.extends.js": "ReferenceError: Can't find variable: AsyncIterator",
     "compat-table/next/AsyncIterator.from.async-iterable.js": "ReferenceError: Can't find variable: AsyncIterator",
     "compat-table/next/AsyncIterator.from.iterable.js": "ReferenceError: Can't find variable: AsyncIterator",
@@ -1111,13 +1117,13 @@
     "compat-table/next/AsyncIterator.prototype.some.js": "TypeError: (async function*() { yield * [1, 2, 3] })().some is not a function. (In '(async function*() { yield * [1, 2, 3] })().some(it => typeof it === 'number')', '(async function*() { yield * [1, 2, 3] })().s...",
     "compat-table/next/AsyncIterator.prototype.take.js": "TypeError: async function*() { yield * [1, 2, 3] }().take is not a function. (In 'async function*() { yield * [1, 2, 3] }().take(2)', 'async function*() { yield * [1, 2, 3] }().take' is undefined)",
     "compat-table/next/AsyncIterator.prototype.toArray.js": "TypeError: (async function*() { yield * [1, 2, 3] })().toArray is not a function. (In '(async function*() { yield * [1, 2, 3] })().toArray()', '(async function*() { yield * [1, 2, 3] })().toArray' is undefined)",
-    "compat-table/next/DisposableStack.js": "ReferenceError: Can't find variable: DisposableStack",
+    "compat-table/next/DisposableStack.js": "OK",
     "compat-table/next/Map.prototype.upsert.js": "TypeError: map.upsert is not a function. (In 'map.upsert('a', it => 2, () => 3)', 'map.upsert' is undefined)",
     "compat-table/next/RegExp.1-9.js": "OK",
     "compat-table/next/RegExp.lastMatch.js": "OK",
-    "compat-table/next/ShadowRealm.js": "failed",
-    "compat-table/next/SuppressedError.js": "SyntaxError: Unexpected identifier '_1'",
-    "compat-table/next/Symbol.dispose.bound.js": "SyntaxError: Unexpected identifier '_'",
+    "compat-table/next/ShadowRealm.js": "OK",
+    "compat-table/next/SuppressedError.js": "OK",
+    "compat-table/next/Symbol.dispose.bound.js": "OK",
     "compat-table/next/Uint8Array.fromBase64.js": "OK",
     "compat-table/next/Uint8Array.fromHex.js": "OK",
     "compat-table/next/Uint8Array.setFromBase64.js": "OK",
@@ -1125,15 +1131,15 @@
     "compat-table/next/Uint8Array.toBase64.js": "OK",
     "compat-table/next/Uint8Array.toHex.js": "OK",
     "compat-table/next/WeakMap.prototype.upsert.js": "TypeError: map.upsert is not a function. (In 'map.upsert(a, it => 2, () => 3)', 'map.upsert' is undefined)",
-    "compat-table/next/await-using.for-of.js": "SyntaxError: Unexpected identifier '_'. Expected either 'in' or 'of' in enumeration syntax.",
-    "compat-table/next/await-using.js": "SyntaxError: Unexpected identifier '_'",
+    "compat-table/next/await-using.for-of.js": "OK",
+    "compat-table/next/await-using.js": "OK",
     "compat-table/next/class-decorators.js": "SyntaxError: Invalid character: '@'",
     "compat-table/next/function.sent.js": "SyntaxError: Unexpected token '.'. Expected an opening '(' before a function's parameter list.",
     "compat-table/next/throw-expr.arrow.js": "SyntaxError: Unexpected keyword 'throw'",
     "compat-table/next/throw-expr.conditional.js": "SyntaxError: Unexpected keyword 'throw'",
     "compat-table/next/throw-expr.logical.js": "SyntaxError: Unexpected keyword 'throw'",
     "compat-table/next/throw-expr.param-init.js": "SyntaxError: Unexpected keyword 'throw'",
-    "compat-table/next/using.for-of.js": "SyntaxError: Unexpected identifier '_'. Expected either 'in' or 'of' in enumeration syntax.",
-    "compat-table/next/using.js": "SyntaxError: Unexpected identifier '_'"
+    "compat-table/next/using.for-of.js": "OK",
+    "compat-table/next/using.js": "OK"
   }
 }

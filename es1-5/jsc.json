@@ -13,12 +13,6 @@
     "version": "310431"
   },
   "flags": [
-    "--useExplicitResourceManagement=true",
-    "--useImportDefer=true",
-    "--useIteratorChunking=true",
-    "--useMoreCurrencyDisplayChoices=true",
-    "--useShadowRealm=true",
-    "--useTemporal=true",
     {"if": "flags:CanBlockIsFalse", "then": "--can-block-is-false"},
     {"if": "flags:module", "then": "-m"}
   ],
