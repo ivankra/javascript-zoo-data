@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 18:56:02 UTC",
+  "duration_sec": 2815.329,
+  "total_user_sec": 8572.154,
+  "total_sys_sec": 718.708,
+  "peak_rss_mb": 12230.8,
+  "run_duration_sec": {
+    "test/built-ins/Promise/race/invoke-then-error-reject.strict.js": 60.845,
+    "test/built-ins/TypedArrayConstructors/ctors-bigint/object-arg/length-excessive-throws.strict.js": 60.274,
+    "test/built-ins/TypedArrayConstructors/ctors/object-arg/length-excessive-throws.strict.js": 60.257,
+    "test/built-ins/Promise/all/invoke-resolve-get-error-reject.sloppy.js": 60.224,
+    "test/built-ins/TypedArrayConstructors/ctors/object-arg/length-excessive-throws.sloppy.js": 60.157,
+    "test/built-ins/TypedArrayConstructors/ctors-bigint/object-arg/length-excessive-throws.sloppy.js": 60.148,
+    "test/built-ins/AsyncGeneratorPrototype/next/request-queue-promise-resolve-order.sloppy.js": 60.107,
+    "test/built-ins/Promise/race/invoke-then-error-reject.sloppy.js": 60.097,
+    "test/built-ins/AsyncGeneratorPrototype/next/request-queue-promise-resolve-order.strict.js": 60.075,
+    "test/built-ins/Array/prototype/splice/create-species-length-exceeding-integer-limit.sloppy.js": 60.074
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 12230.8,
+    "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 12230.8,
+    "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 12230.8,
+    "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 12230.8,
+    "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.sloppy.js": 12230.8,
+    "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.strict.js": 12230.8,
+    "test/annexB/built-ins/Object/is/emulates-undefined.sloppy.js": 12230.8,
+    "test/annexB/built-ins/Object/is/emulates-undefined.strict.js": 12230.8,
+    "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.sloppy.js": 12230.8,
+    "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.strict.js": 12230.8
+  }
+}

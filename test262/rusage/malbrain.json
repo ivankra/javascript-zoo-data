@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 12:46:48 UTC",
+  "duration_sec": 79.856,
+  "total_user_sec": 24.481,
+  "total_sys_sec": 79.628,
+  "peak_rss_mb": 44.1,
+  "run_duration_sec": {
+    "test/language/expressions/class/elements/syntax/early-errors/delete/field-delete-covered-err-delete-call-expression-private-no-reference.sloppy.js": 0.02,
+    "test/built-ins/Function/S15.3.2.1_A3_T10.sloppy.js": 0.017,
+    "test/language/statements/generators/dstr/ary-ptrn-rest-init-ary.strict.js": 0.016,
+    "test/language/block-scope/leave/try-block-let-declaration-only-shadows-outer-parameter-value-2.sloppy.js": 0.014,
+    "test/language/asi/S7.9_A6.1_T6.sloppy.js": 0.013,
+    "test/built-ins/WeakMap/prototype/getOrInsertComputed/adds-symbol-element.sloppy.js": 0.012,
+    "test/built-ins/RegExp/match-indices/indices-array-element.strict.js": 0.011,
+    "test/built-ins/Temporal/Instant/prototype/round/string-shorthand-no-object-prototype-pollution.sloppy.js": 0.011,
+    "test/language/statements/class/dstr/meth-dflt-ary-init-iter-no-close.strict.js": 0.011,
+    "test/language/statements/generators/dstr/ary-ptrn-rest-init-ary.sloppy.js": 0.011
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/RegExp/prototype/compile/flags-string-invalid.sloppy.js": 44.1,
+    "test/annexB/built-ins/RegExp/prototype/compile/flags-string-invalid.strict.js": 44.1,
+    "test/annexB/built-ins/String/prototype/big/length.sloppy.js": 44.1,
+    "test/annexB/built-ins/String/prototype/big/length.strict.js": 44.1,
+    "test/annexB/built-ins/String/prototype/fontsize/this-val-tostring-err.sloppy.js": 44.1,
+    "test/annexB/built-ins/String/prototype/fontsize/this-val-tostring-err.strict.js": 44.1,
+    "test/annexB/built-ins/String/prototype/sub/name.sloppy.js": 44.1,
+    "test/annexB/built-ins/String/prototype/sub/name.strict.js": 44.1,
+    "test/annexB/built-ins/String/prototype/substr/length-positive.sloppy.js": 44.1,
+    "test/annexB/built-ins/String/prototype/substr/length-positive.strict.js": 44.1
+  }
+}

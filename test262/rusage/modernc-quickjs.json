@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 13:41:54 UTC",
+  "duration_sec": 449.246,
+  "total_user_sec": 1131.829,
+  "total_sys_sec": 329.28,
+  "peak_rss_mb": 2055.8,
+  "run_duration_sec": {
+    "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.strict.js": 60.062,
+    "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.sloppy.js": 60.061,
+    "test/staging/sm/String/replace-math.strict.js": 42.564,
+    "test/staging/sm/String/replace-math.sloppy.js": 40.484,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 8.679,
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 8.66,
+    "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 8.41,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 8.399,
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 8.245,
+    "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 8.231
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 2055.8,
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 2055.8,
+    "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 2055.8,
+    "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 2055.8,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 2055.8,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 2055.8,
+    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 2055.8,
+    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 2055.8,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 2055.8,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 2055.8
+  }
+}

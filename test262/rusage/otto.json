@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 15:38:59 UTC",
+  "duration_sec": 1170.302,
+  "total_user_sec": 3369.133,
+  "total_sys_sec": 553.33,
+  "peak_rss_mb": 12217.1,
+  "run_duration_sec": {
+    "test/staging/sm/String/replace-math.strict.js": 62.22,
+    "test/staging/sm/String/replace-math.sloppy.js": 61.566,
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 60.071,
+    "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 60.067,
+    "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 60.066,
+    "test/harness/propertyhelper-verifywritable-array-length.sloppy.js": 60.066,
+    "test/built-ins/Object/defineProperty/15.2.3.6-4-116.sloppy.js": 60.064,
+    "test/built-ins/Array/length/S15.4.5.2_A3_T4.strict.js": 60.064,
+    "test/staging/sm/Array/length-truncate-with-indexed.strict.js": 60.064,
+    "test/built-ins/Object/defineProperty/15.2.3.6-4-116.strict.js": 60.063
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 12217.1,
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 12217.1,
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 12217.1,
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 12217.1,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 12217.1,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 12217.1,
+    "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 12217.1,
+    "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 12217.1,
+    "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 12217.1,
+    "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 12217.1
+  }
+}

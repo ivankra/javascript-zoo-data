@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 14:07:07 UTC",
+  "duration_sec": 67.558,
+  "total_user_sec": 33.089,
+  "total_sys_sec": 42.287,
+  "peak_rss_mb": 41.8,
+  "run_duration_sec": {
+    "test/built-ins/String/prototype/indexOf/S15.5.4.7_A1_T6.sloppy.js": 0.02,
+    "test/language/expressions/dynamic-import/syntax/valid/nested-async-function-import-defer-script-code-valid.strict.js": 0.015,
+    "test/language/statements/class/dstr/meth-static-dflt-obj-ptrn-prop-eval-err.sloppy.js": 0.012,
+    "test/built-ins/RegExp/S15.10.2.7_A4_T1.strict.js": 0.01,
+    "test/language/statements/class/dstr/private-gen-meth-static-dflt-ary-ptrn-elem-id-init-hole.strict.js": 0.009,
+    "test/language/function-code/10.4.3-1-5-s.sloppy.js": 0.009,
+    "test/built-ins/Proxy/defineProperty/desc-realm.strict.js": 0.008,
+    "test/language/expressions/coalesce/chainable-if-parenthesis-covered-logical-or.strict.js": 0.008,
+    "test/language/statements/for/dstr/const-obj-ptrn-prop-obj-value-null.sloppy.js": 0.007,
+    "test/built-ins/Temporal/Instant/fromEpochNanoseconds/builtin.sloppy.js": 0.007
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 41.8,
+    "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 41.8,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 41.8,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 41.8,
+    "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 41.8,
+    "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 41.8,
+    "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 41.8,
+    "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 41.8,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.sloppy.js": 41.8,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.strict.js": 41.8
+  }
+}

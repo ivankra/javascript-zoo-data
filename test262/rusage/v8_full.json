@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 20:31:53 UTC",
+  "duration_sec": 677.904,
+  "total_user_sec": 588.124,
+  "total_sys_sec": 1303.678,
+  "peak_rss_mb": 1518.4,
+  "run_duration_sec": {
+    "test/language/module-code/source-phase-import/import-source.strict.js": 60.076,
+    "test/built-ins/AbstractModuleSource/prototype/proto.mjs": 60.069,
+    "test/built-ins/AbstractModuleSource/throw-from-constructor.mjs": 60.069,
+    "test/built-ins/AbstractModuleSource/prototype/Symbol.toStringTag.mjs": 60.067,
+    "test/built-ins/AbstractModuleSource/name.mjs": 60.067,
+    "test/built-ins/AbstractModuleSource/prototype.mjs": 60.065,
+    "test/built-ins/AbstractModuleSource/length.mjs": 60.064,
+    "test/language/module-code/source-phase-import/import-source.sloppy.js": 60.064,
+    "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.sloppy.js": 60.063,
+    "test/built-ins/AbstractModuleSource/prototype/constructor.mjs": 60.063
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 1518.4,
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 1518.4,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 1518.4,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 1518.4,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 1518.4,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 1518.4,
+    "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 1518.4,
+    "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 1518.4,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 1518.4,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 1518.4
+  }
+}

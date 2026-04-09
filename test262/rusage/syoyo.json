@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 18:59:05 UTC",
+  "duration_sec": 16286.48,
+  "total_user_sec": 63678.589,
+  "total_sys_sec": 497.042,
+  "peak_rss_mb": 2573.2,
+  "run_duration_sec": {
+    "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.sloppy.js": 60.171,
+    "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.strict.js": 60.17,
+    "test/staging/sm/regress/regress-610026.sloppy.js": 60.112,
+    "test/staging/sm/regress/regress-610026.strict.js": 60.108,
+    "test/staging/sm/expressions/short-circuit-compound-assignment.js": 60.099,
+    "test/language/expressions/call/tco-call-args.js": 60.089,
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 60.087,
+    "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 60.087,
+    "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 60.086,
+    "test/staging/sm/TypedArray/set-same-buffer-different-source-target-types.sloppy.js": 60.086
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 2573.2,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 2573.2,
+    "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 2573.2,
+    "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 2573.2,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 2573.2,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 2573.2,
+    "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 2573.2,
+    "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 2573.2,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 2573.2,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 2573.2
+  }
+}

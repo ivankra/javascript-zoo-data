@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 12:33:10 UTC",
+  "duration_sec": 510.096,
+  "total_user_sec": 765.143,
+  "total_sys_sec": 270.054,
+  "peak_rss_mb": 12114.3,
+  "run_duration_sec": {
+    "test/staging/sm/String/replace-math.strict.js": 61.711,
+    "test/staging/sm/String/replace-math.sloppy.js": 61.488,
+    "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.strict.js": 60.353,
+    "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-5-16.sloppy.js": 60.174,
+    "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.sloppy.js": 60.156,
+    "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-8-9.strict.js": 60.12,
+    "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.sloppy.js": 60.12,
+    "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-8-9.sloppy.js": 60.12,
+    "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.strict.js": 60.098,
+    "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-5-12.strict.js": 60.09
+  },
+  "run_rss_mb": {
+    "test/staging/sm/String/replace-math.sloppy.js": 12114.3,
+    "test/staging/sm/String/replace-math.strict.js": 11584.1,
+    "test/built-ins/Array/prototype/indexOf/15.4.4.14-9-9.sloppy.js": 2811.9,
+    "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.sloppy.js": 1992.4,
+    "test/built-ins/Array/prototype/indexOf/15.4.4.14-9-9.strict.js": 1908.9,
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 1494.7,
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 1494.7,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 1494.7,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 1494.7,
+    "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 1494.7
+  }
+}

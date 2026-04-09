@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 12:39:46 UTC",
+  "duration_sec": 507.64,
+  "total_user_sec": 858.914,
+  "total_sys_sec": 375.685,
+  "peak_rss_mb": 1032.1,
+  "run_duration_sec": {
+    "test/staging/sm/extensions/recursion.js": 60.066,
+    "test/staging/sm/class/superPropProxies.sloppy.js": 60.065,
+    "test/staging/sm/class/superPropProxies.strict.js": 60.008,
+    "test/language/statements/try/tco-catch.js": 59.163,
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 15.386,
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 14.901,
+    "test/staging/sm/BigInt/large-bit-length.strict.js": 7.026,
+    "test/staging/sm/BigInt/large-bit-length.sloppy.js": 5.971,
+    "test/staging/sm/Date/two-digit-years.sloppy.js": 5.321,
+    "test/staging/sm/Date/two-digit-years.strict.js": 4.838
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 1032.1,
+    "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 1032.1,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 1032.1,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 1032.1,
+    "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 1032.1,
+    "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 1032.1,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 1032.1,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 1032.1,
+    "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 1032.1,
+    "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 1032.1
+  }
+}

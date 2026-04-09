@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 18:43:54 UTC",
+  "duration_sec": 544.37,
+  "total_user_sec": 798.667,
+  "total_sys_sec": 657.568,
+  "peak_rss_mb": 12089.7,
+  "run_duration_sec": {
+    "test/staging/sm/String/replace-math.strict.js": 63.116,
+    "test/staging/sm/String/replace-math.sloppy.js": 62.506,
+    "test/staging/sm/extensions/recursion.js": 60.48,
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.065,
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.065,
+    "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.strict.js": 59.747,
+    "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.sloppy.js": 58.917,
+    "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.sloppy.js": 57.1,
+    "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.strict.js": 55.503,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 51.655
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/RegExp/legacy-accessors/input/this-cross-realm-constructor.sloppy.js": 12089.7,
+    "test/annexB/built-ins/RegExp/legacy-accessors/input/this-cross-realm-constructor.strict.js": 12089.7,
+    "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.sloppy.js": 12089.7,
+    "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.strict.js": 12089.7,
+    "test/annexB/built-ins/String/prototype/anchor/attr-tostring-err.sloppy.js": 12089.7,
+    "test/annexB/built-ins/String/prototype/anchor/attr-tostring-err.strict.js": 12089.7,
+    "test/annexB/built-ins/String/prototype/big/length.sloppy.js": 12089.7,
+    "test/annexB/built-ins/String/prototype/big/length.strict.js": 12089.7,
+    "test/annexB/built-ins/String/prototype/bold/length.sloppy.js": 12089.7,
+    "test/annexB/built-ins/String/prototype/bold/length.strict.js": 12089.7
+  }
+}

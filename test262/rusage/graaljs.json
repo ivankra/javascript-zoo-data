@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 12:32:33 UTC",
+  "duration_sec": 1171.823,
+  "total_user_sec": 2436.356,
+  "total_sys_sec": 1871.082,
+  "peak_rss_mb": 1614.8,
+  "run_duration_sec": {
+    "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.strict.js": 60.073,
+    "test/staging/sm/Array/length-truncate-nonconfigurable-sparse.js": 60.072,
+    "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.sloppy.js": 60.071,
+    "test/built-ins/Object/defineProperty/15.2.3.6-4-116.strict.js": 60.068,
+    "test/built-ins/Object/defineProperty/15.2.3.6-4-116.sloppy.js": 60.065,
+    "test/staging/sm/regress/regress-610026.strict.js": 16.45,
+    "test/staging/sm/regress/regress-610026.sloppy.js": 15.786,
+    "test/language/literals/regexp/S7.8.5_A2.4_T2.strict.js": 4.068,
+    "test/language/literals/regexp/S7.8.5_A2.4_T2.sloppy.js": 3.933,
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 3.787
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 1614.8,
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 1614.8,
+    "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 1614.8,
+    "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 1614.8,
+    "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 1614.8,
+    "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 1614.8,
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 1614.8,
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 1614.8,
+    "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 1614.8,
+    "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 1614.8
+  }
+}

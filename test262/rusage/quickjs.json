@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 15:14:19 UTC",
+  "duration_sec": 144.573,
+  "total_user_sec": 295.905,
+  "total_sys_sec": 100.033,
+  "peak_rss_mb": 1062.1,
+  "run_duration_sec": {
+    "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.686,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.648,
+    "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 1.639,
+    "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.639,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 1.636,
+    "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 1.631,
+    "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 1.63,
+    "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.623,
+    "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 1.621,
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.617
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 1062.1,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 1062.1,
+    "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 1062.1,
+    "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 1062.1,
+    "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class-range.sloppy.js": 1062.1,
+    "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class-range.strict.js": 1062.1,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-not-regexp-constructor.sloppy.js": 1062.1,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-not-regexp-constructor.strict.js": 1062.1,
+    "test/annexB/built-ins/RegExp/prototype/compile/flags-to-string-err.sloppy.js": 1062.1,
+    "test/annexB/built-ins/RegExp/prototype/compile/flags-to-string-err.strict.js": 1062.1
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 18:57:06 UTC",
+  "duration_sec": 2191.025,
+  "total_user_sec": 6778.11,
+  "total_sys_sec": 879.079,
+  "peak_rss_mb": 12194.5,
+  "run_duration_sec": {
+    "test/staging/sm/Array/length-truncate-nonconfigurable-sparse.js": 63.668,
+    "test/staging/sm/Function/return-finally.strict.js": 63.194,
+    "test/staging/sm/generators/return-finally.strict.js": 62.739,
+    "test/staging/sm/Array/length-truncate-with-indexed.sloppy.js": 62.138,
+    "test/staging/sm/generators/return-finally.sloppy.js": 61.97,
+    "test/language/comments/S7.4_A5.sloppy.js": 61.661,
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 61.423,
+    "test/language/literals/regexp/S7.8.5_A2.4_T2.sloppy.js": 61.334,
+    "test/language/literals/regexp/S7.8.5_A1.4_T2.sloppy.js": 61.287,
+    "test/language/literals/regexp/S7.8.5_A2.1_T2.sloppy.js": 61.242
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/RegExp/legacy-accessors/index/this-not-regexp-constructor.sloppy.js": 12194.5,
+    "test/annexB/built-ins/RegExp/legacy-accessors/index/this-not-regexp-constructor.strict.js": 12194.5,
+    "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-props.sloppy.js": 12194.5,
+    "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-props.strict.js": 12194.5,
+    "test/annexB/built-ins/escape/prop-desc.sloppy.js": 12194.5,
+    "test/annexB/built-ins/escape/prop-desc.strict.js": 12194.5,
+    "test/annexB/language/eval-code/direct/func-if-decl-else-decl-a-eval-func-existing-block-fn-update.js": 12194.5,
+    "test/annexB/language/eval-code/direct/func-if-decl-else-decl-b-eval-func-no-skip-param.js": 12194.5,
+    "test/annexB/language/eval-code/direct/global-if-stmt-else-decl-eval-global-existing-block-fn-no-init.js": 12194.5,
+    "test/annexB/language/eval-code/indirect/global-switch-case-eval-global-skip-early-err-block.js": 12194.5
+  }
+}

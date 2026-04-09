@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 19:27:45 UTC",
+  "duration_sec": 1956.667,
+  "total_user_sec": 35.785,
+  "total_sys_sec": 268.385,
+  "peak_rss_mb": 28.0,
+  "run_duration_sec": {
+    "test/intl402/Intl/getCanonicalLocales/preferred-variant.sloppy.js": 16.563,
+    "test/language/statements/class/definition/methods-gen-yield-as-property-name.strict.js": 8.924,
+    "test/intl402/Intl/getCanonicalLocales/preferred-variant.strict.js": 7.911,
+    "test/built-ins/RegExp/CharacterClassEscapes/character-class-digit-class-escape-positive-cases.strict.js": 7.631,
+    "test/intl402/DurationFormat/prototype/format/numeric-hour-with-zero-minutes-and-non-zero-seconds-with-auto-display-and-zero-fractional.strict.js": 6.592,
+    "test/built-ins/Temporal/Instant/prototype/toZonedDateTimeISO/timezone-missing.strict.js": 6.576,
+    "test/built-ins/Set/prototype/values/returns-iterator.strict.js": 6.196,
+    "test/built-ins/RegExp/CharacterClassEscapes/character-class-digit-class-escape-positive-cases.sloppy.js": 6.048,
+    "test/staging/sm/Math/atanh-approx.strict.js": 5.642,
+    "test/intl402/DurationFormat/prototype/formatToParts/negative-duration-with-leading-zero-style-narrow-en.strict.js": 5.268
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 28.0,
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 28.0,
+    "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 28.0,
+    "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 28.0,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 28.0,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 28.0,
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 28.0,
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 28.0,
+    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 28.0,
+    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 28.0
+  }
+}

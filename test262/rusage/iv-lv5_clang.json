@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 20:02:16 UTC",
+  "duration_sec": 1141.103,
+  "total_user_sec": 1649.381,
+  "total_sys_sec": 342.174,
+  "peak_rss_mb": 3743.1,
+  "run_duration_sec": {
+    "test/language/comments/S7.4_A5.strict.js": 60.166,
+    "test/language/literals/regexp/S7.8.5_A1.1_T2.sloppy.js": 60.156,
+    "test/language/literals/regexp/S7.8.5_A1.4_T2.sloppy.js": 60.15,
+    "test/language/comments/S7.4_A6.strict.js": 60.14,
+    "test/language/comments/S7.4_A5.sloppy.js": 60.14,
+    "test/language/literals/regexp/S7.8.5_A1.1_T2.strict.js": 60.139,
+    "test/language/comments/S7.4_A6.sloppy.js": 60.135,
+    "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.strict.js": 60.134,
+    "test/language/literals/regexp/S7.8.5_A1.4_T2.strict.js": 60.129,
+    "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.sloppy.js": 60.129
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 3743.1,
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape.strict.js": 3743.1,
+    "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.sloppy.js": 3743.1,
+    "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.strict.js": 3743.1,
+    "test/annexB/built-ins/String/prototype/anchor/not-a-constructor.sloppy.js": 3743.1,
+    "test/annexB/built-ins/String/prototype/anchor/not-a-constructor.strict.js": 3743.1,
+    "test/annexB/built-ins/String/prototype/fontcolor/length.sloppy.js": 3743.1,
+    "test/annexB/built-ins/String/prototype/fontcolor/length.strict.js": 3743.1,
+    "test/annexB/language/eval-code/direct/func-switch-case-eval-func-existing-fn-update.js": 3743.1,
+    "test/annexB/language/eval-code/direct/func-switch-dflt-eval-func-no-skip-try.js": 3743.1
+  }
+}

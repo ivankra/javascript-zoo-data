@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 13:06:35 UTC",
+  "duration_sec": 6512.204,
+  "total_user_sec": 20884.974,
+  "total_sys_sec": 3909.272,
+  "peak_rss_mb": 53.7,
+  "run_duration_sec": {
+    "test/built-ins/Object/isSealed/15.2.3.11-4-25.sloppy.js": 0.384,
+    "test/language/expressions/class/elements/fields-asi-same-line-2.sloppy.js": 0.376,
+    "test/built-ins/RegExp/prototype/exec/success-g-lastindex-no-access.strict.js": 0.37,
+    "test/built-ins/Date/prototype/S15.9.5_A31_T1.strict.js": 0.366,
+    "test/language/statements/class/cpn-class-decl-computed-property-name-from-integer-separators.sloppy.js": 0.366,
+    "test/language/module-code/top-level-await/syntax/export-class-decl-await-expr-literal-number.mjs": 0.363,
+    "test/built-ins/Array/prototype/every/15.4.4.16-7-b-2.sloppy.js": 0.363,
+    "test/language/statements/class/elements/after-same-line-static-gen-rs-field-identifier-initializer.sloppy.js": 0.363,
+    "test/language/expressions/object/dstr/gen-meth-obj-ptrn-prop-id-trailing-comma.sloppy.js": 0.362,
+    "test/built-ins/Temporal/Duration/from/infinity-throws-rangeerror.sloppy.js": 0.362
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 53.7,
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 53.7,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 53.7,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 53.7,
+    "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 53.7,
+    "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 53.7,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 53.7,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 53.7,
+    "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 53.7,
+    "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 53.7
+  }
+}

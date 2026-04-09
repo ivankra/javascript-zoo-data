@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 13:42:48 UTC",
+  "duration_sec": 2316.076,
+  "total_user_sec": 7463.282,
+  "total_sys_sec": 1453.415,
+  "peak_rss_mb": 47.3,
+  "run_duration_sec": {
+    "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.94,
+    "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.923,
+    "test/language/expressions/compound-assignment/S11.13.2_A4.1_T2.5.sloppy.js": 0.185,
+    "test/built-ins/Object/seal/object-seal-p-is-own-property-of-an-array-object-that-uses-object-s-get-own-property.sloppy.js": 0.184,
+    "test/built-ins/Temporal/PlainDateTime/prototype/since/year-zero.sloppy.js": 0.184,
+    "test/language/statements/async-generator/dstr/dflt-ary-ptrn-elem-id-iter-val-err.strict.js": 0.182,
+    "test/built-ins/Object/create/15.2.3.5-4-279.sloppy.js": 0.181,
+    "test/intl402/DateTimeFormat/prototype/format/temporal-plaindatetime-formatting-timezonename.strict.js": 0.18,
+    "test/language/expressions/class/cpn-class-expr-fields-computed-property-name-from-function-expression.strict.js": 0.178,
+    "test/language/statements/class/elements/after-same-line-static-async-method-rs-static-method-privatename-identifier.sloppy.js": 0.173
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 47.3,
+    "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 47.3,
+    "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-flags-defined.sloppy.js": 47.3,
+    "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-flags-defined.strict.js": 47.3,
+    "test/annexB/built-ins/String/prototype/big/prop-desc.sloppy.js": 47.3,
+    "test/annexB/built-ins/String/prototype/big/prop-desc.strict.js": 47.3,
+    "test/annexB/built-ins/String/prototype/blink/not-a-constructor.sloppy.js": 47.3,
+    "test/annexB/built-ins/String/prototype/blink/not-a-constructor.strict.js": 47.3,
+    "test/annexB/built-ins/String/prototype/italics/length.sloppy.js": 47.3,
+    "test/annexB/built-ins/String/prototype/italics/length.strict.js": 47.3
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 20:33:46 UTC",
+  "duration_sec": 2628.914,
+  "total_user_sec": 9979.433,
+  "total_sys_sec": 113.755,
+  "peak_rss_mb": 41.4,
+  "run_duration_sec": {
+    "test/language/comments/hashbang/line-terminator-paragraph-separator.js": 60.063,
+    "test/language/expressions/compound-assignment/srshift-whitespace.sloppy.js": 60.063,
+    "test/language/white-space/between-nbsp.strict.js": 60.063,
+    "test/language/expressions/compound-assignment/and-whitespace.strict.js": 60.063,
+    "test/language/comments/hashbang/line-terminator-carriage-return.js": 60.063,
+    "test/language/white-space/after-regular-expression-literal-six-per-em-space.sloppy.js": 60.063,
+    "test/language/expressions/assignment/white-space.strict.js": 60.063,
+    "test/language/expressions/compound-assignment/lshift-whitespace.sloppy.js": 60.063,
+    "test/language/expressions/logical-assignment/lgcl-or-whitespace.sloppy.js": 60.063,
+    "test/language/expressions/arrow-function/arrow/concisebody-lookahead-assignmentexpression-2.strict.js": 60.063
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-subclass-constructor.sloppy.js": 41.4,
+    "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-subclass-constructor.strict.js": 41.4,
+    "test/annexB/built-ins/String/prototype/blink/B.2.3.4.sloppy.js": 41.4,
+    "test/annexB/built-ins/String/prototype/blink/B.2.3.4.strict.js": 41.4,
+    "test/annexB/built-ins/String/prototype/fontcolor/B.2.3.7.sloppy.js": 41.4,
+    "test/annexB/built-ins/String/prototype/fontcolor/B.2.3.7.strict.js": 41.4,
+    "test/annexB/language/eval-code/direct/global-if-decl-else-decl-b-eval-global-skip-early-err.js": 41.4,
+    "test/annexB/language/eval-code/direct/global-if-decl-else-stmt-eval-global-skip-early-err-block.js": 41.4,
+    "test/annexB/language/eval-code/indirect/global-switch-case-eval-global-existing-global-update.js": 41.4,
+    "test/annexB/language/eval-code/indirect/global-switch-case-eval-global-skip-early-err-for-in.js": 41.4
+  }
+}

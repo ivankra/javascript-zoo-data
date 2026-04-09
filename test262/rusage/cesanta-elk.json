@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 12:32:53 UTC",
+  "duration_sec": 66.828,
+  "total_user_sec": 31.98,
+  "total_sys_sec": 43.174,
+  "peak_rss_mb": 39.8,
+  "run_duration_sec": {
+    "test/language/expressions/bitwise-or/S11.10.3_A2.3_T1.strict.js": 0.008,
+    "test/language/expressions/class/dstr/private-gen-meth-dflt-ary-ptrn-elem-ary-elem-init.sloppy.js": 0.008,
+    "test/built-ins/Object/freeze/15.2.3.9-2-4.sloppy.js": 0.008,
+    "test/built-ins/Object/defineProperty/15.2.3.6-3-58.strict.js": 0.008,
+    "test/built-ins/Atomics/waitAsync/bigint/null-bufferdata-throws.strict.js": 0.008,
+    "test/built-ins/Temporal/PlainDate/prototype/until/roundingmode-floor.sloppy.js": 0.006,
+    "test/language/statements/for-await-of/async-func-dstr-var-async-obj-ptrn-rest-skip-non-enumerable.strict.js": 0.006,
+    "test/staging/sm/extensions/regress-650753.strict.js": 0.006,
+    "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Old_Uyghur.sloppy.js": 0.006,
+    "test/language/statements/class/dstr/private-meth-obj-ptrn-prop-ary.strict.js": 0.006
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 39.8,
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 39.8,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 39.8,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 39.8,
+    "test/annexB/built-ins/Date/prototype/setYear/year-nan.sloppy.js": 39.8,
+    "test/annexB/built-ins/Date/prototype/setYear/year-nan.strict.js": 39.8,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.sloppy.js": 39.8,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.strict.js": 39.8,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.sloppy.js": 39.8,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.strict.js": 39.8
+  }
+}

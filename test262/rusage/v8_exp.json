@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 12:33:09 UTC",
+  "duration_sec": 467.845,
+  "total_user_sec": 702.399,
+  "total_sys_sec": 746.524,
+  "peak_rss_mb": 1510.8,
+  "run_duration_sec": {
+    "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.sloppy.js": 60.064,
+    "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.strict.js": 60.064,
+    "test/intl402/supportedLocalesOf-unicode-extensions-ignored.sloppy.js": 12.289,
+    "test/intl402/supportedLocalesOf-unicode-extensions-ignored.strict.js": 12.043,
+    "test/intl402/NumberFormat/prototype/format/units.sloppy.js": 4.369,
+    "test/intl402/NumberFormat/prototype/format/units.strict.js": 4.344,
+    "test/intl402/NumberFormat/constructor-unit.strict.js": 3.832,
+    "test/intl402/NumberFormat/constructor-unit.sloppy.js": 3.807,
+    "test/intl402/supportedLocalesOf-consistent-with-resolvedOptions.sloppy.js": 3.538,
+    "test/intl402/supportedLocalesOf-consistent-with-resolvedOptions.strict.js": 3.49
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 1510.8,
+    "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 1510.8,
+    "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 1510.8,
+    "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 1510.8,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/prop-desc.sloppy.js": 1510.8,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/prop-desc.strict.js": 1510.8,
+    "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-subclass-constructor.sloppy.js": 1510.8,
+    "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-subclass-constructor.strict.js": 1510.8,
+    "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-cross-realm-constructor.sloppy.js": 1510.8,
+    "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-cross-realm-constructor.strict.js": 1510.8
+  }
+}

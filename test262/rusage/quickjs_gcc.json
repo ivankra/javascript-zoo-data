@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 16:14:34 UTC",
+  "duration_sec": 151.015,
+  "total_user_sec": 316.586,
+  "total_sys_sec": 100.534,
+  "peak_rss_mb": 1061.8,
+  "run_duration_sec": {
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 1.83,
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.81,
+    "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 1.792,
+    "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 1.784,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.778,
+    "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 1.777,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 1.777,
+    "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 1.775,
+    "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 1.773,
+    "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.772
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 1061.8,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 1061.8,
+    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 1061.8,
+    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 1061.8,
+    "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 1061.8,
+    "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 1061.8,
+    "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.sloppy.js": 1061.8,
+    "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.strict.js": 1061.8,
+    "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 1061.8,
+    "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 1061.8
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 12:55:00 UTC",
+  "duration_sec": 458.873,
+  "total_user_sec": 720.389,
+  "total_sys_sec": 599.511,
+  "peak_rss_mb": 4580.5,
+  "run_duration_sec": {
+    "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 60.596,
+    "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 60.534,
+    "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.sloppy.js": 60.525,
+    "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.strict.js": 60.494,
+    "test/staging/sm/Array/to-length.strict.js": 60.063,
+    "test/staging/sm/Array/to-length.sloppy.js": 60.062,
+    "test/staging/sm/regress/regress-610026.sloppy.js": 3.971,
+    "test/staging/sm/regress/regress-610026.strict.js": 3.937,
+    "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 3.598,
+    "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 3.452
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/RegExp/prototype/compile/this-cross-realm-instance.sloppy.js": 4580.5,
+    "test/annexB/built-ins/RegExp/prototype/compile/this-cross-realm-instance.strict.js": 4580.5,
+    "test/annexB/built-ins/RegExp/prototype/compile/this-subclass-instance.sloppy.js": 4580.5,
+    "test/annexB/built-ins/RegExp/prototype/compile/this-subclass-instance.strict.js": 4580.5,
+    "test/annexB/built-ins/String/prototype/italics/length.sloppy.js": 4580.5,
+    "test/annexB/built-ins/String/prototype/italics/length.strict.js": 4580.5,
+    "test/annexB/built-ins/String/prototype/substr/length-positive.sloppy.js": 4580.5,
+    "test/annexB/built-ins/String/prototype/substr/length-positive.strict.js": 4580.5,
+    "test/annexB/built-ins/unescape/argument_bigint.sloppy.js": 4580.5,
+    "test/annexB/built-ins/unescape/argument_bigint.strict.js": 4580.5
+  }
+}

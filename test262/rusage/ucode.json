@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 20:11:24 UTC",
+  "duration_sec": 237.778,
+  "total_user_sec": 333.531,
+  "total_sys_sec": 243.327,
+  "peak_rss_mb": 54.7,
+  "run_duration_sec": {
+    "test/language/identifiers/start-unicode-10.0.0-class-escaped.sloppy.js": 2.2,
+    "test/language/identifiers/start-unicode-9.0.0-class-escaped.sloppy.js": 1.472,
+    "test/language/identifiers/start-unicode-10.0.0-class-escaped.strict.js": 1.349,
+    "test/language/identifiers/start-unicode-8.0.0.strict.js": 1.287,
+    "test/language/identifiers/start-unicode-10.0.0-escaped.sloppy.js": 1.28,
+    "test/language/identifiers/start-unicode-10.0.0.strict.js": 1.271,
+    "test/language/identifiers/start-unicode-10.0.0-escaped.strict.js": 1.263,
+    "test/language/identifiers/start-unicode-10.0.0.sloppy.js": 1.258,
+    "test/language/identifiers/start-unicode-10.0.0-class.sloppy.js": 1.249,
+    "test/language/identifiers/start-unicode-8.0.0.sloppy.js": 1.242
+  },
+  "run_rss_mb": {
+    "test/built-ins/Array/fromAsync/sync-iterable-iteration-err.sloppy.js": 54.7,
+    "test/built-ins/Array/fromAsync/sync-iterable-iteration-err.strict.js": 54.7,
+    "test/built-ins/Array/prototype/filter/15.4.4.20-2-2.sloppy.js": 54.7,
+    "test/built-ins/Array/prototype/filter/15.4.4.20-2-2.strict.js": 54.7,
+    "test/built-ins/Array/prototype/filter/create-ctor-non-object.sloppy.js": 54.7,
+    "test/built-ins/Array/prototype/filter/create-ctor-non-object.strict.js": 54.7,
+    "test/built-ins/Array/prototype/filter/prop-desc.sloppy.js": 54.7,
+    "test/built-ins/Array/prototype/filter/prop-desc.strict.js": 54.7,
+    "test/built-ins/Array/prototype/findIndex/resizable-buffer.sloppy.js": 54.7,
+    "test/built-ins/Array/prototype/findIndex/resizable-buffer.strict.js": 54.7
+  }
+}

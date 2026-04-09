@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 18:02:14 UTC",
+  "duration_sec": 813.182,
+  "total_user_sec": 2379.769,
+  "total_sys_sec": 406.532,
+  "peak_rss_mb": 4117.7,
+  "run_duration_sec": {
+    "test/built-ins/Promise/race/resolve-throws-iterator-return-null-or-undefined.strict.js": 60.18,
+    "test/built-ins/Promise/any/resolve-throws-iterator-return-is-not-callable.strict.js": 60.178,
+    "test/built-ins/Promise/any/resolve-throws-iterator-return-is-not-callable.sloppy.js": 60.161,
+    "test/built-ins/Promise/race/resolve-throws-iterator-return-is-not-callable.sloppy.js": 60.157,
+    "test/built-ins/Promise/race/resolve-throws-iterator-return-is-not-callable.strict.js": 60.128,
+    "test/built-ins/Promise/race/resolve-throws-iterator-return-null-or-undefined.sloppy.js": 60.091,
+    "test/built-ins/Promise/any/resolve-throws-iterator-return-null-or-undefined.strict.js": 60.079,
+    "test/built-ins/Promise/any/resolve-throws-iterator-return-null-or-undefined.sloppy.js": 60.078,
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 56.771,
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 55.929
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 4117.7,
+    "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 4117.7,
+    "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.sloppy.js": 4117.7,
+    "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.strict.js": 4117.7,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 4117.7,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 4117.7,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.sloppy.js": 4117.7,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.strict.js": 4117.7,
+    "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-cross-realm-constructor.sloppy.js": 4117.7,
+    "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-cross-realm-constructor.strict.js": 4117.7
+  }
+}

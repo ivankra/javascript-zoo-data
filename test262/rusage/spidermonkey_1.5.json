@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 16:22:21 UTC",
+  "duration_sec": 210.988,
+  "total_user_sec": 401.722,
+  "total_sys_sec": 78.028,
+  "peak_rss_mb": 464.8,
+  "run_duration_sec": {
+    "test/staging/sm/Array/length-truncate-with-indexed.strict.js": 60.061,
+    "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.strict.js": 60.06,
+    "test/staging/sm/Array/length-truncate-with-indexed.sloppy.js": 60.06,
+    "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.sloppy.js": 60.028,
+    "test/built-ins/Array/prototype/push/S15.4.4.7_A3.strict.js": 6.596,
+    "test/built-ins/Array/prototype/push/S15.4.4.7_A3.sloppy.js": 6.589,
+    "test/built-ins/Array/length/S15.4.5.2_A3_T4.sloppy.js": 6.578,
+    "test/built-ins/Array/length/S15.4.5.2_A3_T4.strict.js": 6.357,
+    "test/built-ins/decodeURIComponent/S15.1.3.2_A2.5_T1.sloppy.js": 5.351,
+    "test/built-ins/decodeURI/S15.1.3.1_A2.5_T1.strict.js": 4.25
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.sloppy.js": 464.8,
+    "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.strict.js": 464.8,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.sloppy.js": 464.8,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.strict.js": 464.8,
+    "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-skip-early-err-for-in.js": 464.8,
+    "test/annexB/language/eval-code/direct/func-switch-case-eval-func-skip-early-err-for-in.js": 464.8,
+    "test/annexB/language/eval-code/direct/global-block-decl-eval-global-existing-fn-no-init.js": 464.8,
+    "test/annexB/language/eval-code/direct/global-if-decl-else-decl-b-eval-global-skip-early-err-block.js": 464.8,
+    "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-existing-fn-update.js": 464.8,
+    "test/annexB/language/eval-code/indirect/global-if-decl-no-else-eval-global-existing-global-update.js": 464.8
+  }
+}

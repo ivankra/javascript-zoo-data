@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "cesanta-mjs",
-    "binary_sha256": "457f7b17e1a9f113765d248555794b80fa3de29ef8dd6c07b46414f222d5eb57",
+    "binary_sha256": "6a18406b732dfa4ebab5d32f9474988a5e849a5a488bceadd98cbb5a6dd75ebe",
     "binary_size": 203576,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "console_log": "print",

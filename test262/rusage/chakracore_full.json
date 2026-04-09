@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 14:00:08 UTC",
+  "duration_sec": 490.724,
+  "total_user_sec": 773.309,
+  "total_sys_sec": 570.489,
+  "peak_rss_mb": 4611.6,
+  "run_duration_sec": {
+    "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 60.528,
+    "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 60.524,
+    "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.strict.js": 60.481,
+    "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.sloppy.js": 60.324,
+    "test/staging/sm/Array/to-length.sloppy.js": 60.063,
+    "test/staging/sm/Array/to-length.strict.js": 60.062,
+    "test/built-ins/Atomics/wait/good-views.strict.js": 60.061,
+    "test/built-ins/Atomics/wait/good-views.sloppy.js": 60.012,
+    "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 5.69,
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 5.498
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 4611.6,
+    "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 4611.6,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.sloppy.js": 4611.6,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.strict.js": 4611.6,
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 4611.6,
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.strict.js": 4611.6,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/prop-desc.sloppy.js": 4611.6,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/prop-desc.strict.js": 4611.6,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.sloppy.js": 4611.6,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.strict.js": 4611.6
+  }
+}

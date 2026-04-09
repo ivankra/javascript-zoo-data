@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 13:39:09 UTC",
+  "duration_sec": 428.309,
+  "total_user_sec": 1364.605,
+  "total_sys_sec": 97.85,
+  "peak_rss_mb": 42.6,
+  "run_duration_sec": {
+    "test/built-ins/String/S15.5.2.1_A1_T6.sloppy.js": 0.063,
+    "test/language/literals/regexp/early-err-modifiers-other-code-point-non-flag.sloppy.js": 0.062,
+    "test/built-ins/RegExp/property-escapes/generated/Changes_When_Titlecased.sloppy.js": 0.059,
+    "test/language/statements/variable/dstr/ary-ptrn-elem-id-init-exhausted.sloppy.js": 0.05,
+    "test/language/statements/class/dstr/meth-static-dflt-ary-ptrn-elem-ary-empty-iter.sloppy.js": 0.05,
+    "test/intl402/Temporal/PlainMonthDay/prototype/toString/calendarname-undefined.sloppy.js": 0.05,
+    "test/staging/sm/TypedArray/sort_snans.sloppy.js": 0.049,
+    "test/language/expressions/assignmenttargettype/parenthesized-lefthandsideexpression-logical-or-assignment-assignmentexpression-1.sloppy.js": 0.048,
+    "test/language/expressions/class/elements/syntax/early-errors/delete/method-delete-covered-err-delete-call-expression-private-method-gen.sloppy.js": 0.047,
+    "test/language/expressions/unary-minus/S11.4.7_A3_T4.sloppy.js": 0.047
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 42.6,
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 42.6,
+    "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 42.6,
+    "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 42.6,
+    "test/annexB/built-ins/RegExp/RegExp-decimal-escape-class-range.sloppy.js": 42.6,
+    "test/annexB/built-ins/RegExp/RegExp-decimal-escape-class-range.strict.js": 42.6,
+    "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.sloppy.js": 42.6,
+    "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.strict.js": 42.6,
+    "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.sloppy.js": 42.6,
+    "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.strict.js": 42.6
+  }
+}

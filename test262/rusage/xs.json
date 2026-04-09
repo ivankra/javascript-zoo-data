@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 19:42:03 UTC",
+  "duration_sec": 3095.571,
+  "total_user_sec": 4309.086,
+  "total_sys_sec": 1038.379,
+  "peak_rss_mb": 2772.1,
+  "run_duration_sec": {
+    "test/built-ins/Atomics/wait/negative-timeout-agent.strict.js": 60.064,
+    "test/built-ins/Atomics/waitAsync/no-spurious-wakeup-on-store.sloppy.js": 60.063,
+    "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-exchange.strict.js": 60.063,
+    "test/built-ins/Atomics/waitAsync/true-for-timeout-agent.sloppy.js": 60.063,
+    "test/built-ins/Atomics/wait/bigint/waiterlist-order-of-operations-is-fifo.strict.js": 60.063,
+    "test/built-ins/Atomics/wait/object-for-timeout-agent.sloppy.js": 60.063,
+    "test/built-ins/Atomics/wait/null-for-timeout-agent.strict.js": 60.063,
+    "test/built-ins/Atomics/wait/good-views.strict.js": 60.063,
+    "test/built-ins/Atomics/wait/no-spurious-wakeup-on-or.strict.js": 60.063,
+    "test/built-ins/Atomics/waitAsync/no-spurious-wakeup-no-operation.strict.js": 60.062
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 2772.1,
+    "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 2772.1,
+    "test/annexB/built-ins/Date/prototype/toGMTString/value.sloppy.js": 2772.1,
+    "test/annexB/built-ins/Date/prototype/toGMTString/value.strict.js": 2772.1,
+    "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.sloppy.js": 2772.1,
+    "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.strict.js": 2772.1,
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 2772.1,
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.strict.js": 2772.1,
+    "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.sloppy.js": 2772.1,
+    "test/annexB/built-ins/RegExp/RegExp-trailing-escape-BMP.strict.js": 2772.1
+  }
+}

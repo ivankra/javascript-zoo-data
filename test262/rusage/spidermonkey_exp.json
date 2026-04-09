@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 14:13:51 UTC",
+  "duration_sec": 629.703,
+  "total_user_sec": 1535.876,
+  "total_sys_sec": 652.797,
+  "peak_rss_mb": 463.8,
+  "run_duration_sec": {
+    "test/staging/sm/regress/regress-610026.strict.js": 2.974,
+    "test/staging/sm/regress/regress-610026.sloppy.js": 2.84,
+    "test/built-ins/Atomics/notify/notify-one.sloppy.js": 1.157,
+    "test/built-ins/Atomics/notify/notify-zero.sloppy.js": 1.151,
+    "test/built-ins/Atomics/notify/notify-one.strict.js": 1.148,
+    "test/built-ins/Atomics/notify/notify-two.strict.js": 1.146,
+    "test/built-ins/Atomics/notify/notify-zero.strict.js": 1.143,
+    "test/built-ins/Atomics/notify/notify-two.sloppy.js": 1.142,
+    "test/built-ins/Atomics/notify/notify-nan.sloppy.js": 1.137,
+    "test/built-ins/Atomics/notify/notify-nan.strict.js": 1.125
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 463.8,
+    "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 463.8,
+    "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.sloppy.js": 463.8,
+    "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.strict.js": 463.8,
+    "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.sloppy.js": 463.8,
+    "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.strict.js": 463.8,
+    "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.sloppy.js": 463.8,
+    "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.strict.js": 463.8,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-cross-realm-constructor.sloppy.js": 463.8,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-cross-realm-constructor.strict.js": 463.8
+  }
+}

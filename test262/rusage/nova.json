@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 18:50:57 UTC",
+  "duration_sec": 863.945,
+  "total_user_sec": 2257.131,
+  "total_sys_sec": 437.436,
+  "peak_rss_mb": 12174.1,
+  "run_duration_sec": {
+    "test/staging/sm/String/replace-math.strict.js": 61.936,
+    "test/staging/sm/String/replace-math.sloppy.js": 61.494,
+    "test/built-ins/Promise/all/invoke-then-get-error-close.strict.js": 60.103,
+    "test/built-ins/Promise/allSettled/invoke-then-error-close.sloppy.js": 60.082,
+    "test/built-ins/Promise/any/invoke-then-get-error-close.sloppy.js": 60.078,
+    "test/built-ins/Promise/allSettled/invoke-then-error-close.strict.js": 60.077,
+    "test/built-ins/Promise/allSettled/invoke-then-get-error-close.strict.js": 60.076,
+    "test/built-ins/Promise/race/invoke-then-error-close.strict.js": 60.076,
+    "test/built-ins/Promise/allSettled/invoke-then-get-error-close.sloppy.js": 60.076,
+    "test/built-ins/Promise/race/invoke-then-get-error-close.strict.js": 60.074
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 12174.1,
+    "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.strict.js": 12174.1,
+    "test/annexB/built-ins/RegExp/RegExp-decimal-escape-class-range.sloppy.js": 12174.1,
+    "test/annexB/built-ins/RegExp/RegExp-decimal-escape-class-range.strict.js": 12174.1,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.sloppy.js": 12174.1,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.strict.js": 12174.1,
+    "test/annexB/built-ins/RegExp/prototype/compile/pattern-string-invalid.sloppy.js": 12174.1,
+    "test/annexB/built-ins/RegExp/prototype/compile/pattern-string-invalid.strict.js": 12174.1,
+    "test/annexB/built-ins/String/prototype/blink/B.2.3.4.sloppy.js": 12174.1,
+    "test/annexB/built-ins/String/prototype/blink/B.2.3.4.strict.js": 12174.1
+  }
+}

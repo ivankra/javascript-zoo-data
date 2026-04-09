@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 15:05:56 UTC",
+  "duration_sec": 2527.493,
+  "total_user_sec": 8205.5,
+  "total_sys_sec": 1492.157,
+  "peak_rss_mb": 216.2,
+  "run_duration_sec": {
+    "test/staging/sm/String/string-upper-lower-mapping.strict.js": 1.6,
+    "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 1.538,
+    "test/language/expressions/right-shift/S11.7.2_A4_T1.strict.js": 0.277,
+    "test/staging/sm/RegExp/unicode-ignoreCase.sloppy.js": 0.273,
+    "test/staging/sm/RegExp/unicode-ignoreCase.strict.js": 0.272,
+    "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T1.strict.js": 0.271,
+    "test/staging/sm/extensions/dataview.strict.js": 0.268,
+    "test/staging/sm/extensions/dataview.sloppy.js": 0.267,
+    "test/language/expressions/right-shift/S11.7.2_A4_T4.sloppy.js": 0.264,
+    "test/language/identifiers/start-unicode-8.0.0-escaped.sloppy.js": 0.263
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 216.2,
+    "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 216.2,
+    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 216.2,
+    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 216.2,
+    "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 216.2,
+    "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 216.2,
+    "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 216.2,
+    "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 216.2,
+    "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.sloppy.js": 216.2,
+    "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.strict.js": 216.2
+  }
+}

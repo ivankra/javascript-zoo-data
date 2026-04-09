@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 20:26:23 UTC",
+  "duration_sec": 93.083,
+  "total_user_sec": 33.903,
+  "total_sys_sec": 54.226,
+  "peak_rss_mb": 42.7,
+  "run_duration_sec": {
+    "test/language/comments/hashbang/preceding-line-comment.js": 0.146,
+    "test/language/comments/hashbang/preceding-multi-line-comment.js": 0.139,
+    "test/language/comments/hashbang/escaped-hashbang.js": 0.131,
+    "test/language/comments/hashbang/not-empty.js": 0.13,
+    "test/language/comments/hashbang/preceding-directive-prologue.js": 0.127,
+    "test/language/comments/hashbang/use-strict.js": 0.124,
+    "test/language/comments/hashbang/escaped-hash-043.js": 0.122,
+    "test/language/comments/hashbang/escaped-hash-u0023.js": 0.119,
+    "test/language/comments/hashbang/escaped-hash-u23.js": 0.118,
+    "test/language/comments/hashbang/multi-line-comment.js": 0.117
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 42.7,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 42.7,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 42.7,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 42.7,
+    "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 42.7,
+    "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 42.7,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 42.7,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 42.7,
+    "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 42.7,
+    "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 42.7
+  }
+}

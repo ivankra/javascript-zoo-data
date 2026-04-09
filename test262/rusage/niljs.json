@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 15:14:34 UTC",
+  "duration_sec": 9630.751,
+  "total_user_sec": 33168.15,
+  "total_sys_sec": 3987.378,
+  "peak_rss_mb": 854.7,
+  "run_duration_sec": {
+    "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.sloppy.js": 60.078,
+    "test/built-ins/Array/prototype/splice/throws-if-integer-limit-exceeded.sloppy.js": 60.072,
+    "test/built-ins/Array/prototype/unshift/length-near-integer-limit.strict.js": 60.072,
+    "test/built-ins/Array/prototype/unshift/throws-if-integer-limit-exceeded.strict.js": 60.07,
+    "test/built-ins/Array/prototype/unshift/throws-if-integer-limit-exceeded.sloppy.js": 60.069,
+    "test/language/expressions/tagged-template/tco-call.js": 60.068,
+    "test/built-ins/Array/prototype/copyWithin/negative-out-of-bounds-end.sloppy.js": 60.067,
+    "test/built-ins/Array/prototype/copyWithin/negative-out-of-bounds-end.strict.js": 60.066,
+    "test/language/expressions/tagged-template/tco-member.js": 60.065,
+    "test/built-ins/Array/prototype/splice/throws-if-integer-limit-exceeded.strict.js": 59.496
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 854.7,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 854.7,
+    "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 854.7,
+    "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 854.7,
+    "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 854.7,
+    "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 854.7,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 854.7,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 854.7,
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 854.7,
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.strict.js": 854.7
+  }
+}

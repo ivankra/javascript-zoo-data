@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 13:49:29 UTC",
+  "duration_sec": 468.146,
+  "total_user_sec": 820.186,
+  "total_sys_sec": 337.796,
+  "peak_rss_mb": 1032.4,
+  "run_duration_sec": {
+    "test/staging/sm/extensions/recursion.js": 60.065,
+    "test/staging/sm/class/superPropProxies.strict.js": 55.102,
+    "test/staging/sm/class/superPropProxies.sloppy.js": 47.257,
+    "test/language/statements/try/tco-catch.js": 39.916,
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 13.948,
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 13.579,
+    "test/staging/sm/BigInt/large-bit-length.strict.js": 7.111,
+    "test/staging/sm/Date/two-digit-years.sloppy.js": 6.983,
+    "test/staging/sm/Date/two-digit-years.strict.js": 6.92,
+    "test/staging/sm/BigInt/large-bit-length.sloppy.js": 6.847
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 1032.4,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 1032.4,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 1032.4,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 1032.4,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.sloppy.js": 1032.4,
+    "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-body.strict.js": 1032.4,
+    "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 1032.4,
+    "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 1032.4,
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 1032.4,
+    "test/annexB/built-ins/RegExp/RegExp-leading-escape.strict.js": 1032.4
+  }
+}

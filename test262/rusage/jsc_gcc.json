@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 13:51:59 UTC",
+  "duration_sec": 436.078,
+  "total_user_sec": 816.495,
+  "total_sys_sec": 493.789,
+  "peak_rss_mb": 2815.0,
+  "run_duration_sec": {
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.064,
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.063,
+    "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.strict.js": 32.052,
+    "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.strict.js": 32.028,
+    "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.sloppy.js": 30.923,
+    "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.sloppy.js": 30.604,
+    "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.sloppy.js": 13.399,
+    "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.strict.js": 12.762,
+    "test/built-ins/RegExp/property-escapes/generated/Any.sloppy.js": 12.018,
+    "test/built-ins/RegExp/property-escapes/generated/Any.strict.js": 11.28
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 2815.0,
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 2815.0,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 2815.0,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 2815.0,
+    "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 2815.0,
+    "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 2815.0,
+    "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.sloppy.js": 2815.0,
+    "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.strict.js": 2815.0,
+    "test/annexB/built-ins/RegExp/prototype/compile/B.RegExp.prototype.compile.sloppy.js": 2815.0,
+    "test/annexB/built-ins/RegExp/prototype/compile/B.RegExp.prototype.compile.strict.js": 2815.0
+  }
+}

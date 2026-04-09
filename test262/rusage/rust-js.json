@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 18:22:01 UTC",
+  "duration_sec": 320.913,
+  "total_user_sec": 856.804,
+  "total_sys_sec": 145.378,
+  "peak_rss_mb": 1113.7,
+  "run_duration_sec": {
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 35.241,
+    "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 34.934,
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 34.524,
+    "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 33.943,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 33.725,
+    "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 33.605,
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 33.116,
+    "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 32.366,
+    "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 31.617,
+    "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 31.065
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/RegExp/prototype/Symbol.split/Symbol.match-getter-recompiles-source.sloppy.js": 1113.7,
+    "test/annexB/built-ins/RegExp/prototype/Symbol.split/Symbol.match-getter-recompiles-source.strict.js": 1113.7,
+    "test/annexB/language/eval-code/direct/func-if-decl-else-decl-a-eval-func-skip-early-err-for-of.js": 1113.7,
+    "test/annexB/language/eval-code/indirect/global-switch-case-eval-global-existing-global-update.js": 1113.7,
+    "test/annexB/language/function-code/if-stmt-else-decl-func-skip-early-err-for-of.js": 1113.7,
+    "test/built-ins/Array/from/Array.from-descriptor.sloppy.js": 1113.7,
+    "test/built-ins/Array/from/Array.from-descriptor.strict.js": 1113.7,
+    "test/built-ins/Array/prototype/copyWithin/non-negative-out-of-bounds-end.sloppy.js": 1113.7,
+    "test/built-ins/Array/prototype/copyWithin/non-negative-out-of-bounds-end.strict.js": 1113.7,
+    "test/built-ins/Array/prototype/entries/iteration-mutable.sloppy.js": 1113.7
+  }
+}

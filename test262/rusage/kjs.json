@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 15:09:09 UTC",
+  "duration_sec": 392.519,
+  "total_user_sec": 709.604,
+  "total_sys_sec": 422.725,
+  "peak_rss_mb": 949.3,
+  "run_duration_sec": {
+    "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 60.063,
+    "test/built-ins/Array/prototype/splice/throws-if-integer-limit-exceeded.strict.js": 60.062,
+    "test/built-ins/Array/prototype/unshift/throws-if-integer-limit-exceeded.sloppy.js": 60.062,
+    "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 60.061,
+    "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.strict.js": 60.061,
+    "test/built-ins/Array/prototype/splice/throws-if-integer-limit-exceeded.sloppy.js": 60.061,
+    "test/built-ins/Array/prototype/unshift/clamps-to-integer-limit.sloppy.js": 60.061,
+    "test/built-ins/Array/prototype/unshift/throws-if-integer-limit-exceeded.strict.js": 60.06,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 26.717,
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 25.226
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 949.3,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 949.3,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.sloppy.js": 949.3,
+    "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.strict.js": 949.3,
+    "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.sloppy.js": 949.3,
+    "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.strict.js": 949.3,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-subclass-constructor.sloppy.js": 949.3,
+    "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-subclass-constructor.strict.js": 949.3,
+    "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.sloppy.js": 949.3,
+    "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.strict.js": 949.3
+  }
+}

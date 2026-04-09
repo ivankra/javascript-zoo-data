@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 18:31:46 UTC",
+  "duration_sec": 154.071,
+  "total_user_sec": 309.777,
+  "total_sys_sec": 117.461,
+  "peak_rss_mb": 39.1,
+  "run_duration_sec": {
+    "test/built-ins/Array/prototype/slice/S15.4.4.10_A1.1_T2.sloppy.js": 0.032,
+    "test/language/expressions/class/dstr/gen-meth-static-ary-ptrn-elem-ary-elem-init.strict.js": 0.026,
+    "test/built-ins/Object/defineProperty/15.2.3.6-4-378.sloppy.js": 0.018,
+    "test/built-ins/Temporal/PlainDateTime/prototype/since/options-invalid.strict.js": 0.018,
+    "test/language/expressions/arrow-function/syntax/arrowparameters-bindingidentifier-concisebody-assignmentexpression.sloppy.js": 0.016,
+    "test/built-ins/Array/prototype/some/15.4.4.17-2-17.strict.js": 0.014,
+    "test/language/expressions/async-generator/yield-identifier-spread-strict.js": 0.013,
+    "test/language/statements/while/cptn-iter.strict.js": 0.012,
+    "test/language/expressions/object/method-definition/async-returns-async-function-returns-arguments-from-own-function.sloppy.js": 0.012,
+    "test/intl402/Temporal/PlainDateTime/prototype/with/basic-islamic-umalqura.sloppy.js": 0.012
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 39.1,
+    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 39.1,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 39.1,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 39.1,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 39.1,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 39.1,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 39.1,
+    "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 39.1,
+    "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 39.1,
+    "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 39.1
+  }
+}

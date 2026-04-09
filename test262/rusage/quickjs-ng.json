@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 13:54:04 UTC",
+  "duration_sec": 181.205,
+  "total_user_sec": 466.224,
+  "total_sys_sec": 66.781,
+  "peak_rss_mb": 1027.1,
+  "run_duration_sec": {
+    "test/language/module-code/top-level-await/module-graphs-does-not-hang.mjs": 60.062,
+    "test/staging/top-level-await/tla-hang-entry.mjs": 60.062,
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 3.559,
+    "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 2.635,
+    "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 1.793,
+    "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 1.768,
+    "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 1.715,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 1.707,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.702,
+    "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.695
+  },
+  "run_rss_mb": {
+    "test/annexB/language/eval-code/direct/func-if-decl-else-stmt-eval-func-existing-block-fn-update.js": 1027.1,
+    "test/annexB/language/eval-code/direct/func-if-stmt-else-decl-eval-func-existing-fn-no-init.js": 1027.1,
+    "test/annexB/language/eval-code/direct/func-switch-dflt-eval-func-update.js": 1027.1,
+    "test/annexB/language/eval-code/direct/global-switch-dflt-eval-global-existing-var-no-init.js": 1027.1,
+    "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-b-eval-global-existing-var-no-init.js": 1027.1,
+    "test/annexB/language/eval-code/indirect/global-if-decl-else-stmt-eval-global-existing-global-init.js": 1027.1,
+    "test/annexB/language/eval-code/indirect/global-switch-dflt-eval-global-skip-early-err-for.js": 1027.1,
+    "test/annexB/language/function-code/if-decl-else-decl-b-func-skip-early-err.js": 1027.1,
+    "test/built-ins/Array/S15.4_A1.1_T7.sloppy.js": 1027.1,
+    "test/built-ins/Array/S15.4_A1.1_T7.strict.js": 1027.1
+  }
+}

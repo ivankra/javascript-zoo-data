@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 18:11:48 UTC",
+  "duration_sec": 15373.874,
+  "total_user_sec": 60335.816,
+  "total_sys_sec": 275.505,
+  "peak_rss_mb": 696.7,
+  "run_duration_sec": {
+    "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 60.072,
+    "test/staging/sm/TypedArray/element-setting-converts-using-ToNumber.sloppy.js": 60.069,
+    "test/built-ins/RegExp/property-escapes/generated/Script_-_Cuneiform.strict.js": 60.067,
+    "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Pahawh_Hmong.strict.js": 60.067,
+    "test/built-ins/RegExp/property-escapes/generated/General_Category_-_Close_Punctuation.strict.js": 60.066,
+    "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Pahawh_Hmong.sloppy.js": 60.066,
+    "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Common.sloppy.js": 60.066,
+    "test/built-ins/RegExp/property-escapes/generated/Script_-_Cherokee.strict.js": 60.066,
+    "test/built-ins/RegExp/property-escapes/generated/Sentence_Terminal.strict.js": 60.065,
+    "test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.sloppy.js": 60.065
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 696.7,
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 696.7,
+    "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 696.7,
+    "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 696.7,
+    "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-subclass-constructor.sloppy.js": 696.7,
+    "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-subclass-constructor.strict.js": 696.7,
+    "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed.sloppy.js": 696.7,
+    "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed.strict.js": 696.7,
+    "test/annexB/built-ins/RegExp/prototype/Symbol.split/Symbol.match-getter-recompiles-source.sloppy.js": 696.7,
+    "test/annexB/built-ins/RegExp/prototype/Symbol.split/Symbol.match-getter-recompiles-source.strict.js": 696.7
+  }
+}

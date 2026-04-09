@@ -1,0 +1,31 @@
+{
+  "started_at": "2026-04-08 14:29:47 UTC",
+  "duration_sec": 1234.767,
+  "total_user_sec": 1305.787,
+  "total_sys_sec": 606.206,
+  "peak_rss_mb": 2324.2,
+  "run_duration_sec": {
+    "test/language/literals/regexp/S7.8.5_A2.4_T2.strict.js": 60.205,
+    "test/language/literals/regexp/S7.8.5_A1.1_T2.sloppy.js": 60.145,
+    "test/language/literals/regexp/S7.8.5_A2.4_T2.sloppy.js": 60.116,
+    "test/language/literals/regexp/S7.8.5_A2.1_T2.sloppy.js": 60.115,
+    "test/language/comments/S7.4_A6.strict.js": 60.113,
+    "test/language/literals/regexp/S7.8.5_A1.1_T2.strict.js": 60.087,
+    "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.sloppy.js": 60.066,
+    "test/built-ins/Object/prototype/setPrototypeOf-with-different-values.sloppy.js": 60.063,
+    "test/built-ins/Object/prototype/setPrototypeOf-with-different-values.strict.js": 60.062,
+    "test/built-ins/Object/prototype/setPrototypeOf-with-non-circular-values-__proto__.strict.js": 60.062
+  },
+  "run_rss_mb": {
+    "test/annexB/built-ins/String/prototype/bold/prop-desc.sloppy.js": 2324.2,
+    "test/annexB/built-ins/String/prototype/bold/prop-desc.strict.js": 2324.2,
+    "test/annexB/built-ins/String/prototype/fixed/not-a-constructor.sloppy.js": 2324.2,
+    "test/annexB/built-ins/String/prototype/fixed/not-a-constructor.strict.js": 2324.2,
+    "test/annexB/built-ins/escape/to-string-err.sloppy.js": 2324.2,
+    "test/annexB/built-ins/escape/to-string-err.strict.js": 2324.2,
+    "test/annexB/built-ins/unescape/argument_types.sloppy.js": 2324.2,
+    "test/annexB/built-ins/unescape/argument_types.strict.js": 2324.2,
+    "test/annexB/language/comments/multi-line-html-close.sloppy.js": 2324.2,
+    "test/annexB/language/comments/multi-line-html-close.strict.js": 2324.2
+  }
+}
