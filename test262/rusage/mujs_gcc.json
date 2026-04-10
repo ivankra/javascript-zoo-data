@@ -1,31 +1,31 @@
 {
-  "started_at": "2026-04-08 14:16:44 UTC",
-  "duration_sec": 725.493,
-  "total_user_sec": 2450.387,
-  "total_sys_sec": 95.548,
+  "started_at": "2026-04-09 09:19:58 UTC",
+  "duration_sec": 760.483,
+  "total_user_sec": 2448.882,
+  "total_sys_sec": 96.25,
   "peak_rss_mb": 802.5,
   "run_duration_sec": {
-    "test/built-ins/Array/prototype/map/15.4.4.19-3-29.sloppy.js": 60.064,
-    "test/built-ins/Array/prototype/reduceRight/15.4.4.22-3-14.sloppy.js": 60.064,
+    "test/built-ins/Array/prototype/reduceRight/15.4.4.22-3-9.sloppy.js": 60.064,
     "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-3-28.strict.js": 60.063,
-    "test/built-ins/Array/prototype/splice/create-non-array-invalid-len.strict.js": 60.063,
-    "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-3-7.strict.js": 60.063,
-    "test/built-ins/Array/prototype/splice/create-non-array-invalid-len.sloppy.js": 60.063,
+    "test/built-ins/Array/prototype/map/create-non-array-invalid-len.sloppy.js": 60.063,
+    "test/built-ins/Array/prototype/map/create-non-array-invalid-len.strict.js": 60.063,
+    "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-3-9.strict.js": 60.063,
     "test/built-ins/Array/prototype/slice/create-non-array-invalid-len.sloppy.js": 60.063,
-    "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-3-14.sloppy.js": 60.063,
-    "test/built-ins/Array/prototype/map/15.4.4.19-3-28.sloppy.js": 60.063,
-    "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-3-28.sloppy.js": 60.062
+    "test/built-ins/Array/prototype/reduceRight/15.4.4.22-3-14.sloppy.js": 60.063,
+    "test/built-ins/Array/prototype/map/15.4.4.19-3-8.sloppy.js": 60.063,
+    "test/built-ins/Array/prototype/reduceRight/15.4.4.22-3-12.sloppy.js": 60.063,
+    "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-3-7.sloppy.js": 60.063
   },
   "run_rss_mb": {
-    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 802.5,
-    "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 802.5,
-    "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 802.5,
-    "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 802.5,
-    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 802.5,
-    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 802.5,
-    "test/annexB/built-ins/RegExp/legacy-accessors/input/prop-desc.sloppy.js": 802.5,
-    "test/annexB/built-ins/RegExp/legacy-accessors/input/prop-desc.strict.js": 802.5,
-    "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.sloppy.js": 802.5,
-    "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.strict.js": 802.5
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 802.5,
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 802.5,
+    "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 802.5,
+    "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 802.5,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 802.5,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 802.5,
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 802.5,
+    "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 802.5,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 802.5,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 802.5
   }
 }

@@ -403,7 +403,7 @@
     "es5/Object.isSealed.js": "PASS",
     "es5/Object.keys.js": "PASS",
     "es5/Object.preventExtensions.js": "PASS",
-    "es5/Object.property-shadowing.js": "non-enumerable did not shadow enumerable",
+    "es5/Object.property-shadowing.js": "FAIL: non-enumerable did not shadow enumerable",
     "es5/Object.seal.js": "PASS",
     "es5/String.indexing.js": "PASS",
     "es5/String.prototype.trim.js": "PASS",
@@ -437,7 +437,7 @@
     "es5/strict.no-with.js": "PASS",
     "es5/strict.reserved-words.js": "PASS",
     "es5/strict.this-primitive-not-coerced-in-accessors.js": "TypeError: Cannot set property \"test\" of  to \"42\"",
-    "es5/strict.this-primitive-not-coerced.js": "string 'this' was coerced to object",
+    "es5/strict.this-primitive-not-coerced.js": "FAIL: string 'this' was coerced to object",
     "es5/strict.this-undefined-in-function.js": "PASS",
     "es5/strict.unmapped-arguments.js": "PASS",
     "es5/this.thrown-function.js": "PASS"

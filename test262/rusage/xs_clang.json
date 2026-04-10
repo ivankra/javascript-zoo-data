@@ -1,31 +1,31 @@
 {
-  "started_at": "2026-04-08 18:58:32 UTC",
-  "duration_sec": 3039.862,
-  "total_user_sec": 4301.332,
-  "total_sys_sec": 1025.981,
+  "started_at": "2026-04-09 15:20:30 UTC",
+  "duration_sec": 2322.613,
+  "total_user_sec": 4345.533,
+  "total_sys_sec": 1056.642,
   "peak_rss_mb": 2772.2,
   "run_duration_sec": {
-    "test/built-ins/Atomics/waitAsync/true-for-timeout-agent.strict.js": 60.063,
-    "test/built-ins/Atomics/wait/waiterlist-block-indexedposition-wake.sloppy.js": 60.063,
-    "test/built-ins/Atomics/waitAsync/no-spurious-wakeup-on-xor.strict.js": 60.063,
-    "test/built-ins/Atomics/wait/no-spurious-wakeup-on-store.strict.js": 60.063,
-    "test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-compareExchange.strict.js": 60.063,
-    "test/built-ins/Atomics/notify/notify-nan.strict.js": 60.063,
-    "test/staging/sm/PrivateName/home-object-when-preceded-by-computed-key.sloppy.js": 60.063,
-    "test/built-ins/Atomics/waitAsync/no-spurious-wakeup-on-or.sloppy.js": 60.063,
-    "test/built-ins/Atomics/wait/negative-timeout-agent.sloppy.js": 60.062,
-    "test/built-ins/Atomics/wait/no-spurious-wakeup-on-and.strict.js": 60.062
+    "test/built-ins/Atomics/wait/no-spurious-wakeup-on-add.strict.js": 60.063,
+    "test/built-ins/Atomics/wait/false-for-timeout-agent.strict.js": 60.063,
+    "test/built-ins/Atomics/waitAsync/bigint/true-for-timeout-agent.sloppy.js": 60.063,
+    "test/built-ins/Atomics/waitAsync/no-spurious-wakeup-no-operation.strict.js": 60.063,
+    "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-or.strict.js": 60.063,
+    "test/built-ins/Atomics/wait/no-spurious-wakeup-on-sub.sloppy.js": 60.063,
+    "test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-no-operation.sloppy.js": 60.063,
+    "test/built-ins/Atomics/wait/object-for-timeout-agent.sloppy.js": 60.063,
+    "test/built-ins/Atomics/wait/no-spurious-wakeup-on-add.sloppy.js": 60.063,
+    "test/built-ins/Atomics/wait/bigint/no-spurious-wakeup-on-add.sloppy.js": 60.063
   },
   "run_rss_mb": {
     "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 2772.2,
     "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 2772.2,
-    "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 2772.2,
-    "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 2772.2,
-    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 2772.2,
-    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 2772.2,
-    "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.sloppy.js": 2772.2,
-    "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.strict.js": 2772.2,
-    "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/prop-desc.sloppy.js": 2772.2,
-    "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/prop-desc.strict.js": 2772.2
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 2772.2,
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 2772.2,
+    "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 2772.2,
+    "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 2772.2,
+    "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.sloppy.js": 2772.2,
+    "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.strict.js": 2772.2,
+    "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.sloppy.js": 2772.2,
+    "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class.strict.js": 2772.2
   }
 }

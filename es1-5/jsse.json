@@ -256,7 +256,7 @@
     "es3/Number.prototype.toExponential.js": "PASS",
     "es3/Number.prototype.toExponential.rounding.js": "PASS",
     "es3/Number.prototype.toExponential.throws-infinity.js": "PASS",
-    "es3/Number.prototype.toFixed.js": "rounding failed",
+    "es3/Number.prototype.toFixed.js": "FAIL: rounding failed",
     "es3/Number.prototype.toLocaleString.js": "PASS",
     "es3/Number.prototype.toPrecision.js": "PASS",
     "es3/Object.prototype.hasOwnProperty.js": "PASS",

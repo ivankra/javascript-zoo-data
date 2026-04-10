@@ -255,7 +255,7 @@
     "es3/Math.min.variadic.js": "PASS",
     "es3/Number.prototype.toExponential.edge-cases.js": "PASS",
     "es3/Number.prototype.toExponential.js": "PASS",
-    "es3/Number.prototype.toExponential.rounding.js": "(25).toExponential(0) != '3e+1' (got: '2e+1'); (12345).toExponential(3) != '1.235e+4' (got: '1.234e+4'); (1.25).toExponential(1) != '1.26e+0' (got: '1.2e+0')",
+    "es3/Number.prototype.toExponential.rounding.js": "FAIL: (25).toExponential(0) != '3e+1' (got: '2e+1'); (12345).toExponential(3) != '1.235e+4' (got: '1.234e+4'); (1.25).toExponential(1) != '1.26e+0' (got: '1.2e+0')",
     "es3/Number.prototype.toExponential.throws-infinity.js": "PASS",
     "es3/Number.prototype.toFixed.js": "PASS",
     "es3/Number.prototype.toLocaleString.js": "PASS",

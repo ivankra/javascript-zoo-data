@@ -725,7 +725,7 @@
     "compat-table/es6/super.statement.js": "PASS",
     "compat-table/es6/super.static-binding.js": "PASS",
     "compat-table/es6/super.this-binding.js": "PASS",
-    "compat-table/es6/tail-calls.direct.js": "timeout: >60s",
+    "compat-table/es6/tail-calls.direct.js": "TIMEOUT: >60s",
     "compat-table/es6/tail-calls.mutual.js": "PASS",
     "compat-table/es6/template.basic.js": "PASS",
     "compat-table/es6/template.caching.js": "PASS",

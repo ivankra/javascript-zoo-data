@@ -12,16 +12,16 @@
     "revision_date": "2026-03-11"
   },
   "summary": {
-    "all": {"pass": 913, "fail": 181, "pass_percent": 83.455, "weight": 469.0, "weighted_pass_percent": 76.143},
-    "es6": {"pass": 682, "fail": 18, "pass_percent": 97.429, "weight": 211.0, "weighted_pass_percent": 96.935},
+    "all": {"pass": 912, "fail": 182, "pass_percent": 83.364, "weight": 469.0, "weighted_pass_percent": 75.717},
+    "es6": {"pass": 681, "fail": 19, "pass_percent": 97.286, "weight": 211.0, "weighted_pass_percent": 95.987},
     "es2016+": {"pass": 152, "fail": 98, "pass_percent": 60.8, "weight": 151.0, "weighted_pass_percent": 66.225},
     "esnext": {"fail": 43, "pass_percent": 0.0, "weight": 33.0, "weighted_pass_percent": 0.0},
     "intl": {"pass": 7, "fail": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0}
   },
   "dirs": {
-    "compat-table": {"pass": 913, "fail": 181, "pass_percent": 83.455, "weight": 469.0, "weighted_pass_percent": 76.143},
+    "compat-table": {"pass": 912, "fail": 182, "pass_percent": 83.364, "weight": 469.0, "weighted_pass_percent": 75.717},
     "compat-table/es5": {"pass": 72, "fail": 1, "pass_percent": 98.63, "weight": 46.0, "weighted_pass_percent": 99.085},
-    "compat-table/es6": {"pass": 682, "fail": 18, "pass_percent": 97.429, "weight": 211.0, "weighted_pass_percent": 96.935},
+    "compat-table/es6": {"pass": 681, "fail": 19, "pass_percent": 97.286, "weight": 211.0, "weighted_pass_percent": 95.987},
     "compat-table/es2016": {"pass": 13, "fail": 1, "pass_percent": 92.857, "weight": 11.0, "weighted_pass_percent": 90.909},
     "compat-table/es2017": {"pass": 25, "fail": 39, "pass_percent": 39.062, "weight": 25.0, "weighted_pass_percent": 68.0},
     "compat-table/es2018": {"pass": 9, "fail": 13, "pass_percent": 40.909, "weight": 19.0, "weighted_pass_percent": 63.158},
@@ -722,8 +722,8 @@
     "compat-table/es6/super.statement.js": "PASS",
     "compat-table/es6/super.static-binding.js": "PASS",
     "compat-table/es6/super.this-binding.js": "PASS",
-    "compat-table/es6/tail-calls.direct.js": "timeout: >60s",
-    "compat-table/es6/tail-calls.mutual.js": "PASS",
+    "compat-table/es6/tail-calls.direct.js": "TIMEOUT: >60s",
+    "compat-table/es6/tail-calls.mutual.js": "TIMEOUT: >60s",
     "compat-table/es6/template.basic.js": "PASS",
     "compat-table/es6/template.caching.js": "PASS",
     "compat-table/es6/template.escape-sequences.js": "PASS",

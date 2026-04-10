@@ -218,7 +218,7 @@
     "compat-table/es6/Proxy.handler.defineProperty.js": "ReferenceError: \"Proxy\" not defined",
     "compat-table/es6/Proxy.handler.deleteProperty.invariants.js": "ReferenceError: \"Proxy\" not defined",
     "compat-table/es6/Proxy.handler.deleteProperty.js": "ReferenceError: \"Proxy\" not defined",
-    "compat-table/es6/Proxy.handler.getOwnPropertyDescriptor.invariants.js": "crashed: SIGABRT",
+    "compat-table/es6/Proxy.handler.getOwnPropertyDescriptor.invariants.js": "CRASH: SIGABRT",
     "compat-table/es6/Proxy.handler.getOwnPropertyDescriptor.js": "ReferenceError: \"Proxy\" not defined",
     "compat-table/es6/Proxy.handler.getPrototypeOf.invariants.js": "ReferenceError: \"Proxy\" not defined",
     "compat-table/es6/Proxy.handler.getPrototypeOf.js": "ReferenceError: \"Proxy\" not defined",

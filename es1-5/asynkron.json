@@ -329,7 +329,7 @@
     "es3/literals.string.esc-v.js": "PASS",
     "es3/nested-functions.eval.js": "PASS",
     "es3/nested-functions.js": "PASS",
-    "es3/regex.backref.js": "backref for a group that hasn't captured failed",
+    "es3/regex.backref.js": "FAIL: backref for a group that hasn't captured failed",
     "es3/regex.begin.js": "PASS",
     "es3/regex.bracket.esc-b.js": "PASS",
     "es3/regex.bracket.js": "PASS",

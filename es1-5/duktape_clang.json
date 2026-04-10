@@ -403,7 +403,7 @@
     "es5/Object.isSealed.js": "PASS",
     "es5/Object.keys.js": "PASS",
     "es5/Object.preventExtensions.js": "PASS",
-    "es5/Object.property-shadowing.js": "non-enumerable did not shadow enumerable",
+    "es5/Object.property-shadowing.js": "FAIL: non-enumerable did not shadow enumerable",
     "es5/Object.seal.js": "PASS",
     "es5/String.indexing.js": "PASS",
     "es5/String.prototype.trim.js": "PASS",

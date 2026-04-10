@@ -1,31 +1,31 @@
 {
-  "started_at": "2026-04-08 17:26:04 UTC",
-  "duration_sec": 255.539,
-  "total_user_sec": 291.197,
-  "total_sys_sec": 261.855,
+  "started_at": "2026-04-09 14:07:02 UTC",
+  "duration_sec": 230.938,
+  "total_user_sec": 287.885,
+  "total_sys_sec": 256.707,
   "peak_rss_mb": 112.0,
   "run_duration_sec": {
-    "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.strict.js": 60.064,
+    "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.strict.js": 60.062,
     "test/language/statements/const/syntax/const-invalid-assignment-next-expression-for.sloppy.js": 60.061,
-    "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 1.04,
-    "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.024,
-    "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.018,
-    "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.001,
-    "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 0.988,
-    "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 0.981,
-    "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 0.974,
-    "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 0.875
+    "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.028,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.016,
+    "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 1.015,
+    "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.015,
+    "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.01,
+    "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 1.009,
+    "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 1.007,
+    "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 0.868
   },
   "run_rss_mb": {
-    "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 112.0,
-    "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 112.0,
-    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 112.0,
-    "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 112.0,
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 112.0,
+    "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 112.0,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 112.0,
+    "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 112.0,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 112.0,
+    "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 112.0,
+    "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 112.0,
+    "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 112.0,
     "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 112.0,
-    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 112.0,
-    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 112.0,
-    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 112.0,
-    "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 112.0,
-    "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 112.0
+    "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 112.0
   }
 }

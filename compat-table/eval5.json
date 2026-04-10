@@ -240,7 +240,7 @@
     "compat-table/es6/Proxy.revocable.js": "PASS",
     "compat-table/es6/Reflect.apply.js": "PASS",
     "compat-table/es6/Reflect.construct.Array-subclassing.js": "PASS",
-    "compat-table/es6/Reflect.construct.Function-subclassing.js": "Illegal call",
+    "compat-table/es6/Reflect.construct.Function-subclassing.js": "FAIL: Illegal call",
     "compat-table/es6/Reflect.construct.Promise-subclassing.js": "PASS",
     "compat-table/es6/Reflect.construct.RegExp-subclassing.js": "PASS",
     "compat-table/es6/Reflect.construct.js": "PASS",
