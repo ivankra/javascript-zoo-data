@@ -1,0 +1,99 @@
+Comparing: ../test262/brimstone.json ../../dist/arm64/brimstone.test262
+Binary revision: MATCH (ours: 6a04fef64560, theirs: 6a04fef64560)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: cff568602848)
+Tests: MISMATCH (ours: 53164, theirs: 51255, shared: 51059)
+Skipped tests: 9889 (ours: 0, theirs: 10078)
+Diffs: 91
+
+test/built-ins/Iterator/concat/non-constructible.js: PASS vs FAIL
+test/built-ins/Iterator/concat/throws-typeerror-when-iterable-not-an-object.js: PASS vs FAIL
+test/built-ins/Iterator/concat/throws-typeerror-when-iterator-method-not-callable.js: PASS vs FAIL
+test/built-ins/RegExp/named-groups/unicode-references.js: SyntaxError: Malformed escape sequence vs PASS
+test/built-ins/RegExp/property-escapes/generated/Alphabetic.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Assigned.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Case_Ignorable.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Cased.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Changes_When_Casefolded.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Changes_When_Casemapped.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Changes_When_Lowercased.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Changes_When_NFKC_Casefolded.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Changes_When_Titlecased.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Changes_When_Uppercased.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Diacritic.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Emoji.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Emoji_Presentation.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Extended_Pictographic.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Extender.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Cased_Letter.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Currency_Symbol.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Decimal_Number.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Letter_Number.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Lowercase_Letter.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Mark.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Math_Symbol.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Modifier_Letter.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Nonspacing_Mark.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Number.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Letter.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Punctuation.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Other_Symbol.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Punctuation.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Spacing_Mark.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Symbol.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Unassigned.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/General_Category_-_Uppercase_Letter.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Grapheme_Base.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Grapheme_Extend.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/ID_Continue.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/ID_Start.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Ideographic.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Lowercase.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Math.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_-_Arabic.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_-_Common.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_-_Han.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_-_Inherited.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_-_Kannada.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_-_Latin.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_-_Sharada.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_-_Tangut.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_-_Telugu.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Arabic.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Common.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Han.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Inherited.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Kannada.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Latin.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Nandinagari.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Newa.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Sharada.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Syriac.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Tangut.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Telugu.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Tifinagh.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Tirhuta.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Unified_Ideograph.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/Uppercase.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/XID_Continue.js: PASS vs FAIL
+test/built-ins/RegExp/property-escapes/generated/XID_Start.js: PASS vs FAIL
+test/built-ins/RegExp/S15.10.1_A1_T13.js: FAIL: [Object] vs PASS
+test/built-ins/RegExp/S15.10.1_A1_T14.js: FAIL: [Object] vs PASS
+test/built-ins/RegExp/S15.10.1_A1_T15.js: FAIL: [Object] vs PASS
+test/built-ins/RegExp/S15.10.1_A1_T16.js: FAIL: [Object] vs PASS
+test/built-ins/RegExp/unicode_restricted_identity_escape_alpha.js: FAIL: [Object] vs PASS
+test/built-ins/RegExp/unicode_restricted_identity_escape_c.js: FAIL: [Object] vs PASS
+test/built-ins/Uint8Array/fromBase64/string-coercion.js: PASS vs FAIL
+test/built-ins/Uint8Array/fromHex/string-coercion.js: PASS vs FAIL
+test/built-ins/Uint8Array/prototype/setFromBase64/string-coercion.js: PASS vs FAIL
+test/built-ins/Uint8Array/prototype/setFromHex/detached-buffer.js: PASS vs FAIL
+test/built-ins/Uint8Array/prototype/setFromHex/string-coercion.js: PASS vs FAIL
+test/built-ins/Uint8Array/prototype/toBase64/receiver-not-uint8array.js: PASS vs FAIL
+test/built-ins/Uint8Array/prototype/toHex/detached-buffer.js: PASS vs FAIL
+test/built-ins/Uint8Array/prototype/toHex/receiver-not-uint8array.js: PASS vs FAIL
+test/language/literals/regexp/invalid-braced-quantifier-exact.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/literals/regexp/invalid-braced-quantifier-lower.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/literals/regexp/invalid-braced-quantifier-range.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/module-code/verify-dfs.js: NoAsyncTestComplete vs PASS

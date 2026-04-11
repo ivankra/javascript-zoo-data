@@ -1,0 +1,263 @@
+Comparing: ../test262/jint.json ../../dist/arm64/jint.test262
+Binary revision: MISMATCH (ours: d4d231b3dd47, theirs: 7b41ac049d31)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 5c8206929d81)
+Tests: MISMATCH (ours: 53164, theirs: 50622, shared: 50622)
+Skipped tests: 688 (ours: 0, theirs: 688)
+Diffs: 255
+
+test/built-ins/Array/prototype/concat/Array.prototype.concat_spreadable-boolean-wrapper.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/Array.prototype.concat_spreadable-number-wrapper.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/Array.prototype.concat_spreadable-string-wrapper.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-ctor-non-object.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-ctor-poisoned.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-proto-from-ctor-realm-array.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-proto-from-ctor-realm-non-array.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-species-abrupt.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-species-non-ctor.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-species-non-extensible.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-species-null.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-species-poisoned.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-species-undef.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-species-with-non-configurable-property.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-species-with-non-writable-property.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/create-species.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/is-concat-spreadable-get-order.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/S15.4.4.4_A1_T3.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/S15.4.4.4_A2_T2.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/S15.4.4.4_A3_T1.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/S15.4.4.4_A3_T2.js: CRASH: SIGABRT vs PASS
+test/built-ins/Array/prototype/concat/S15.4.4.4_A3_T3.js: CRASH: SIGABRT vs PASS
+test/built-ins/Atomics/wait/bigint/cannot-suspend-throws.js: Test262Error: Expected a TypeError to be thrown but no exception was thrown at all vs PASS
+test/built-ins/Atomics/wait/cannot-suspend-throws.js: Test262Error: Expected a TypeError to be thrown but no exception was thrown at all vs PASS
+test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-exchange.js: PASS vs {"sloppy": "FAIL", "strict": "PASS"}
+test/built-ins/Atomics/waitAsync/no-spurious-wakeup-on-compareExchange.js: PASS vs {"sloppy": "PASS", "strict": "FAIL"}
+test/intl402/Temporal/Duration/compare/relativeto-sub-minute-offset.js: RangeError: Offset does not match any possible instant for the given date-time in the time zone vs PASS
+test/intl402/Temporal/Duration/prototype/round/relativeto-sub-minute-offset.js: RangeError: Offset does not match any possible instant for the given date-time in the time zone vs PASS
+test/intl402/Temporal/Duration/prototype/total/relativeto-sub-minute-offset.js: RangeError: Offset does not match any possible instant for the given date-time in the time zone vs PASS
+test/intl402/Temporal/Instant/prototype/toString/timezone-offset.js: Test262Error: sub-minute offset Expected SameValue(«"1969-12-31T23:16:00-00:44"», «"1969-12-31T23:15:30-00:45"») to be true vs PASS
+test/intl402/Temporal/PlainDate/prototype/toZonedDateTime/dst-skipped-cross-midnight.js: Test262Error: start of day is 30 minutes earlier than following the disambiguation strategy for midnight: hours result: Expected SameValue(«5», «0») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/compare/sub-minute-offset.js: RangeError: Offset does not match any possible instant for the given date-time in the time zone vs PASS
+test/intl402/Temporal/ZonedDateTime/from/argument-propertybag-subminute-offset.js: Test262Error: Expected SameValue(«"-00:44"», «"-00:44:30"») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/from/dst-skipped-cross-midnight.js: Test262Error: start of day is 30 minutes earlier than following the disambiguation strategy for midnight: hours result: Expected SameValue(«5», «0») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/from/zoneddatetime-sub-minute-offset.js: Test262Error: offset property is correct Expected SameValue(«"-00:44"», «"-00:44:30"») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/add/dst.js: Test262Error: Day result: Samoa date line change, add 1 day and 1 hour. Expected SameValue(«29», «31») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/add/offset-before-1883.js: Test262Error: add -P5432Y1837M, offset should be -08:12:28 Expected SameValue(«"-08:12"», «"-08:12:28"») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/equals/canonical-not-equal.js: Test262Error: Africa/Abidjan does not equal Africa/Bissau vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/equals/sub-minute-offset.js: RangeError: Offset does not match any possible instant for the given date-time in the time zone vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/getTimeZoneTransition/nanoseconds-subtracted-or-added-at-dst-transition.js: Test262Error: DST transition minus one nanosecond Expected SameValue(«"2020-10-25T03:59:59+01:00[Europe/Berlin]"», «"2020-10-25T02:00:00+01:00[Europe/Berlin]"») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/getTimeZoneTransition/no-future-transitions.js: Test262Error: Asia/Kolkata should have a previous time zone transition (historical) Expected SameValue(«null», «null») to be false vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/getTimeZoneTransition/no-transitions-named-timezone.js: Test262Error: Asia/Riyadh should have no previous transition from 1850 Expected SameValue(«1849-01-01T03:06:00+03:06[Asia/Riyadh]», «null») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/getTimeZoneTransition/rule-change-without-offset-transition.js: Test262Error: should be a UTC offset transition Expected SameValue(«3600000000000», «3600000000000») to be false vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/getTimeZoneTransition/specific-tzdb-values.js: Test262Error: Expected SameValue(«1572746399000000000n», «1572760800000000000n») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/getTimeZoneTransition/subtract-second-and-nanosecond-from-last-transition.js: Test262Error: Expected SameValue(«"1800-01-01T00:00:00+00:10[Europe/Paris]"», «"1800-01-01T00:00:00+00:09[Europe/Paris]"») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/getTimeZoneTransition/transitions-close-together.js: Test262Error: Africa/Tunis offset transitions close together, next to first transition Expected SameValue(«-842911201000000000n», «-842918400000000000n») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/hoursInDay/dst-basic.js: Test262Error: 24 hours in day before Samoa date line change Expected SameValue(«37.999722222222225», «24») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/hoursInDay/dst-less-than-hour.js: Test262Error: 20 minutes less in day vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/hoursInDay/dst-midnight.js: Test262Error: 23-hour day with forward jump at midnight Expected SameValue(«26», «23») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/hoursInDay/dst-skipped-cross-midnight.js: Test262Error: 1919-03-30 had 23.5 hours in America/Toronto Expected SameValue(«18.5», «23.5») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/offsetNanoseconds/nanoseconds-subtracted-or-added-at-dst-transition.js: Test262Error: DST transition minus one nanosecond Expected SameValue(«-25200000000000», «-28800000000000») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/round/dst-skipped-cross-midnight.js: Test262Error: 1919-03-30T11:45 rounds up to start of next day with halfExpand: day result: Expected SameValue(«30», «31») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/since/sub-minute-offset.js: RangeError: Offset does not match any possible instant for the given date-time in the time zone vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/startOfDay/dst-skipped-cross-midnight.js: Test262Error: 1919-03-31 started at hour 0 Expected SameValue(«18», «0») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/startOfDay/transitions-close-together.js: Test262Error: America/Noronha offset transitions close together Expected SameValue(«970963200000000000n», «970970400000000000n») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/subtract/dst.js: Test262Error: Day result: Samoa date line change, subtract 1 day and 1 hour. Expected SameValue(«29», «31») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/subtract/offset-before-1883.js: Test262Error: subtract -P5432Y1837M, offset should be -08:12:28 Expected SameValue(«"-08:12"», «"-08:12:28"») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/toPlainDateTime/basic.js: Test262Error: Local time of 1970-01-01T00:00:00Z in Africa/Monrovia: minute result: Expected SameValue(«16», «15») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/until/dst-rounding-result.js: Test262Error: Difference when date portion ends inside day skipped by Samoa's 24hr 2011 transition: days result: Expected SameValue(«2», «1») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/until/sub-minute-offset.js: RangeError: Offset does not match any possible instant for the given date-time in the time zone vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/with/offset-property-sub-minute.js: Test262Error: original offset Expected SameValue(«"-00:44"», «"-00:44:30"») to be true vs PASS
+test/intl402/Temporal/ZonedDateTime/prototype/withPlainTime/dst-skipped-cross-midnight.js: Test262Error: start of day is 30 minutes earlier than following the disambiguation strategy for midnight: hours result: Expected SameValue(«5», «0») to be true vs PASS
+test/language/arguments-object/async-gen-meth-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/async-gen-meth-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/async-gen-meth-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/async-gen-named-func-expr-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/async-gen-named-func-expr-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/async-gen-named-func-expr-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-gen-func-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-gen-func-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-gen-func-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-gen-meth-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-gen-meth-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-gen-meth-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-gen-meth-static-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-gen-meth-static-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-gen-meth-static-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-private-gen-meth-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-private-gen-meth-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-private-gen-meth-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-private-gen-meth-static-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-private-gen-meth-static-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-async-private-gen-meth-static-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-gen-meth-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-gen-meth-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-gen-meth-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-gen-meth-static-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-gen-meth-static-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-gen-meth-static-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-private-gen-meth-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-private-gen-meth-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-private-gen-meth-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-private-gen-meth-static-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-private-gen-meth-static-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-decl-private-gen-meth-static-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-gen-func-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-gen-func-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-gen-func-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-gen-meth-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-gen-meth-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-gen-meth-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-gen-meth-static-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-gen-meth-static-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-gen-meth-static-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-private-gen-meth-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-private-gen-meth-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-private-gen-meth-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-private-gen-meth-static-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-private-gen-meth-static-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-async-private-gen-meth-static-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-gen-meth-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-gen-meth-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-gen-meth-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-gen-meth-static-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-gen-meth-static-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-gen-meth-static-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-private-gen-meth-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-private-gen-meth-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-private-gen-meth-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-private-gen-meth-static-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-private-gen-meth-static-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/cls-expr-private-gen-meth-static-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/gen-func-decl-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/gen-func-decl-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/gen-func-decl-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/gen-func-expr-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/gen-func-expr-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/gen-func-expr-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/gen-meth-args-trailing-comma-multiple.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/gen-meth-args-trailing-comma-null.js: CRASH: SIGABRT vs PASS
+test/language/arguments-object/gen-meth-args-trailing-comma-single-args.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-decl-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-decl-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-decl-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-decl-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-expr-named-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-expr-named-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-expr-named-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-expr-named-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-expr-nameless-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-expr-nameless-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-expr-nameless-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-func-expr-nameless-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-func-decl-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-func-decl-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-func-decl-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-func-decl-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-func-expr-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-func-expr-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-func-expr-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-func-expr-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-meth-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-meth-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-meth-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-meth-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-named-func-expr-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-named-func-expr-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-named-func-expr-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-gen-named-func-expr-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-meth-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-meth-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-meth-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/async-meth-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-decl-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-decl-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-decl-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-decl-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-expr-named-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-expr-named-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-expr-named-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-expr-named-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-expr-nameless-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-expr-nameless-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-expr-nameless-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-func-expr-nameless-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-meth-fn-body-cntns-arguments-lex-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-meth-fn-body-cntns-arguments-lex-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-meth-fn-body-cntns-arguments-var-bind-declare-arguments-and-assign.js: CRASH: SIGABRT vs PASS
+test/language/eval-code/direct/gen-meth-fn-body-cntns-arguments-var-bind-declare-arguments.js: CRASH: SIGABRT vs PASS
+test/language/expressions/async-function/named-returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/async-function/named-returns-async-function-returns-arguments-from-own-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/class/async-method-static/returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/class/async-method-static/returns-async-function-returns-arguments-from-own-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/class/async-method/returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/class/async-method/returns-async-function-returns-arguments-from-own-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/class/elements/async-private-method-static/returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/class/elements/async-private-method-static/returns-async-function-returns-arguments-from-own-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/class/elements/async-private-method/returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/class/elements/async-private-method/returns-async-function-returns-arguments-from-own-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/class/params-dflt-gen-meth-args-unmapped.js: CRASH: SIGABRT vs PASS
+test/language/expressions/class/params-dflt-gen-meth-static-args-unmapped.js: CRASH: SIGABRT vs PASS
+test/language/expressions/dynamic-import/syntax/valid/nested-block-empty-str-is-valid-assign-expr.js: FAIL: Invalid Module Specifier in module 'nested-block-empty-str-is-valid-assign-expr.js': '' vs PASS
+test/language/expressions/dynamic-import/syntax/valid/nested-block-labeled-empty-str-is-valid-assign-expr.js: FAIL: Invalid Module Specifier in module 'nested-block-labeled-empty-str-is-valid-assign-expr.js': '' vs PASS
+test/language/expressions/dynamic-import/syntax/valid/nested-do-while-empty-str-is-valid-assign-expr.js: FAIL: Invalid Module Specifier in module 'nested-do-while-empty-str-is-valid-assign-expr.js': '' vs PASS
+test/language/expressions/dynamic-import/syntax/valid/nested-else-braceless-empty-str-is-valid-assign-expr.js: FAIL: Invalid Module Specifier in module 'nested-else-braceless-empty-str-is-valid-assign-expr.js': '' vs PASS
+test/language/expressions/dynamic-import/syntax/valid/nested-else-empty-str-is-valid-assign-expr.js: FAIL: Invalid Module Specifier in module 'nested-else-empty-str-is-valid-assign-expr.js': '' vs PASS
+test/language/expressions/dynamic-import/syntax/valid/nested-if-braceless-empty-str-is-valid-assign-expr.js: FAIL: Invalid Module Specifier in module 'nested-if-braceless-empty-str-is-valid-assign-expr.js': '' vs PASS
+test/language/expressions/dynamic-import/syntax/valid/nested-if-empty-str-is-valid-assign-expr.js: FAIL: Invalid Module Specifier in module 'nested-if-empty-str-is-valid-assign-expr.js': '' vs PASS
+test/language/expressions/dynamic-import/syntax/valid/nested-while-empty-str-is-valid-assign-expr.js: FAIL: Invalid Module Specifier in module 'nested-while-empty-str-is-valid-assign-expr.js': '' vs PASS
+test/language/expressions/dynamic-import/syntax/valid/nested-with-empty-str-is-valid-assign-expr.js: FAIL: Invalid Module Specifier in module 'nested-with-empty-str-is-valid-assign-expr.js': '' vs PASS
+test/language/expressions/dynamic-import/syntax/valid/nested-with-expression-empty-str-is-valid-assign-expr.js: FAIL: Invalid Module Specifier in module 'nested-with-expression-empty-str-is-valid-assign-expr.js': '' vs PASS
+test/language/expressions/dynamic-import/syntax/valid/new-covered-expression-is-valid.js: FAIL: Invalid Module Specifier in module 'new-covered-expression-is-valid.js': '' vs PASS
+test/language/expressions/dynamic-import/syntax/valid/top-level-empty-str-is-valid-assign-expr.js: FAIL: Invalid Module Specifier in module 'top-level-empty-str-is-valid-assign-expr.js': '' vs PASS
+test/language/expressions/generators/arguments-with-arguments-fn.js: CRASH: SIGABRT vs PASS
+test/language/expressions/generators/arguments-with-arguments-lex.js: CRASH: SIGABRT vs PASS
+test/language/expressions/generators/params-dflt-args-unmapped.js: CRASH: SIGABRT vs PASS
+test/language/expressions/object/method-definition/async-returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/object/method-definition/async-returns-async-function-returns-arguments-from-own-function.js: CRASH: SIGABRT vs PASS
+test/language/expressions/object/method-definition/params-dflt-gen-meth-args-unmapped.js: CRASH: SIGABRT vs PASS
+test/language/expressions/yield/arguments-object-attributes.js: CRASH: SIGABRT vs PASS
+test/language/expressions/yield/formal-parameters-after-reassignment-non-strict.js: CRASH: SIGABRT vs PASS
+test/language/expressions/yield/formal-parameters-after-reassignment-strict.js: CRASH: SIGABRT vs PASS
+test/language/global-code/return.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/import/import-bytes/bytes-from-png.js: Test262Error: Expected SameValue(«75», «67») to be true vs PASS
+test/language/module-code/ambiguous-export-bindings/namespace-unambiguous-if-export-star-as-from-and-import-star-as-and-export.js: ReferenceError: assert is not defined vs PASS
+test/language/statements/async-function/evaluation-mapped-arguments.js: CRASH: SIGABRT vs PASS
+test/language/statements/async-function/evaluation-unmapped-arguments.js: CRASH: SIGABRT vs PASS
+test/language/statements/async-function/returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS
+test/language/statements/async-function/returns-async-function-returns-arguments-from-own-function.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/async-method-static/returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/async-method-static/returns-async-function-returns-arguments-from-own-function.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/async-method/returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/async-method/returns-async-function-returns-arguments-from-own-function.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/elements/async-private-method-static/returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/elements/async-private-method-static/returns-async-function-returns-arguments-from-own-function.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/elements/async-private-method/returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/elements/async-private-method/returns-async-function-returns-arguments-from-own-function.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/params-dflt-gen-meth-args-unmapped.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/params-dflt-gen-meth-static-args-unmapped.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/static-init-arguments-functions.js: CRASH: SIGABRT vs PASS
+test/language/statements/class/static-init-arguments-methods.js: CRASH: SIGABRT vs PASS
+test/language/statements/for-await-of/async-func-decl-dstr-array-elem-init-simple-no-strict.js: CRASH: SIGABRT vs PASS
+test/language/statements/for-await-of/async-func-decl-dstr-obj-id-init-simple-no-strict.js: CRASH: SIGABRT vs PASS
+test/language/statements/for-await-of/async-gen-decl-dstr-array-elem-init-simple-no-strict.js: CRASH: SIGABRT vs PASS
+test/language/statements/for-await-of/async-gen-decl-dstr-array-elem-target-simple-no-strict.js: CRASH: SIGABRT vs PASS
+test/language/statements/for-await-of/async-gen-decl-dstr-obj-id-init-simple-no-strict.js: CRASH: SIGABRT vs PASS
+test/language/statements/for-of/continue-label-from-catch.js: FAIL: 0 vs PASS
+test/language/statements/for-of/continue-label-from-finally.js: FAIL: 0 vs PASS
+test/language/statements/for-of/continue-label-from-try.js: FAIL: 0 vs PASS
+test/language/statements/for-of/continue-label.js: FAIL: 0 vs PASS
+test/language/statements/for-of/generator-close-via-continue.js: FAIL: 1 vs PASS
+test/language/statements/for-of/iterator-close-via-continue.js: FAIL: 1 vs PASS
+test/language/statements/generators/arguments-with-arguments-fn.js: CRASH: SIGABRT vs PASS
+test/language/statements/generators/arguments-with-arguments-lex.js: CRASH: SIGABRT vs PASS
+test/language/statements/generators/params-dflt-args-unmapped.js: CRASH: SIGABRT vs PASS
+test/language/statements/return/S12.9_A1_T1.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/statements/return/S12.9_A1_T2.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/statements/return/S12.9_A1_T3.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/statements/return/S12.9_A1_T4.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/statements/return/S12.9_A1_T5.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/statements/return/S12.9_A1_T6.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/statements/return/S12.9_A1_T7.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/statements/return/S12.9_A1_T8.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/statements/return/S12.9_A1_T9.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/statements/return/S12.9_A1_T10.js: NOT(SyntaxError): DONOTEVALUATE vs PASS

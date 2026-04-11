@@ -1,0 +1,191 @@
+Comparing: ../test262/nova.json ../../dist/arm64/nova.test262
+Binary revision: MATCH (ours: a82b0408533b, theirs: a82b0408533b)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: e0d8f66a2b43)
+Tests: MISMATCH (ours: 53164, theirs: 50733, shared: 50570)
+Skipped tests: 3312 (ours: 0, theirs: 3326)
+Diffs: 183
+
+test/built-ins/Object/defineProperty/15.2.3.6-4-116.js: Test262Error: Expected TypeError, got RangeError: memory allocation failed because the memory allocator returned an error vs PASS
+test/built-ins/RegExp/prototype/exec/S15.10.6.2_A1_T9.js: PASS vs FAIL
+test/built-ins/RegExp/prototype/test/S15.10.6.3_A1_T9.js: PASS vs FAIL
+test/built-ins/ThrowTypeError/distinct-cross-realm.js: Test262Error: Expected a TypeError but got a different error constructor with the same name vs PASS
+test/language/block-scope/leave/x-after-break-to-label.js: FAIL vs PASS
+test/language/block-scope/syntax/redeclaration-global/allowed-to-redeclare-function-declaration-with-var.js: PASS vs FAIL
+test/language/block-scope/syntax/redeclaration-global/allowed-to-redeclare-var-with-function-declaration.js: PASS vs FAIL
+test/language/comments/hashbang/escaped-bang-041.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/comments/hashbang/escaped-bang-u21.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/comments/hashbang/escaped-bang-u0021.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/comments/hashbang/escaped-bang-x21.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/comments/hashbang/multi-line-comment.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/destructuring/binding/syntax/recursive-array-and-object-patterns.js: PASS vs FAIL
+test/language/directive-prologue/10.1.1-2gs.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/directive-prologue/10.1.1-5gs.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/directive-prologue/10.1.1-8gs.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/directive-prologue/14.1-4gs.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/directive-prologue/14.1-5gs.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/expressions/assignmenttargettype/simple-basic-identifierreference-await.js: PASS vs FAIL
+test/language/expressions/await/await-BindingIdentifier-in-global.js: PASS vs FAIL
+test/language/expressions/await/await-in-function.js: PASS vs FAIL
+test/language/expressions/await/await-in-generator.js: PASS vs FAIL
+test/language/expressions/await/await-in-global.js: PASS vs FAIL
+test/language/expressions/await/await-in-nested-function.js: PASS vs FAIL
+test/language/expressions/await/await-in-nested-generator.js: PASS vs FAIL
+test/language/expressions/class/class-name-ident-await-escaped.js: PASS vs FAIL
+test/language/expressions/class/class-name-ident-await.js: PASS vs FAIL
+test/language/expressions/class/decorator/syntax/valid/decorator-call-expr-identifier-reference.js: PASS vs FAIL
+test/language/expressions/class/decorator/syntax/valid/decorator-member-expr-identifier-reference.js: PASS vs FAIL
+test/language/expressions/class/decorator/syntax/valid/decorator-parenthesized-expr-identifier-reference.js: PASS vs FAIL
+test/language/expressions/class/static-init-await-reference.js: PASS vs FAIL
+test/language/expressions/dynamic-import/assignment-expression/await-identifier.js: PASS vs FAIL
+test/language/expressions/dynamic-import/eval-self-once-script.js: CRASH: thread 'main' panicked at nova_vm/src/ecmascript/scripts_and_modules/module/module_semantics/source_text_module_records.rs:975:51 vs PASS
+test/language/expressions/dynamic-import/import-attributes/2nd-param-await-ident.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-arrow-assignment-expression-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-arrow-assignment-expression-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-arrow-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-arrow-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-arrow-function-await-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-arrow-function-await-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-arrow-function-return-await-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-arrow-function-return-await-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-function-await-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-function-await-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-function-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-function-return-await-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-function-return-await-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-function-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-gen-await-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-async-gen-await-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-block-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-block-labeled-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-block-labeled-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-block-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-do-while-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-do-while-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-else-braceless-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-else-braceless-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-else-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-else-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-function-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-function-return-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-function-return-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-function-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-if-braceless-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-if-braceless-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-if-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-if-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-while-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/nested-while-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/top-level-import-source-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/syntax/valid/top-level-script-code-valid.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-arrow-assignment-expression-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-arrow-import-then-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-async-arrow-function-await-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-async-arrow-function-return-await-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-async-function-await-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-async-function-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-async-function-return-await-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-async-gen-await-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-async-gen-return-await-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-block-import-then-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-do-while-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-else-import-then-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-function-import-then-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-if-braceless-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-if-import-then-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/nested-while-import-then-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/syntax-nested-block-labeled-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/dynamic-import/usage/top-level-import-then-eval-script-code-host-resolves-module-code.js: PASS vs FAIL
+test/language/expressions/function/static-init-await-binding.js: PASS vs FAIL
+test/language/expressions/function/static-init-await-reference.js: PASS vs FAIL
+test/language/expressions/generators/static-init-await-binding.js: PASS vs FAIL
+test/language/expressions/generators/static-init-await-reference.js: PASS vs FAIL
+test/language/expressions/in/private-field-rhs-await-absent.js: PASS vs FAIL
+test/language/expressions/object/identifier-shorthand-static-init-await-valid.js: PASS vs FAIL
+test/language/expressions/object/method-definition/static-init-await-binding-accessor.js: PASS vs FAIL
+test/language/expressions/object/method-definition/static-init-await-binding-generator.js: PASS vs FAIL
+test/language/expressions/object/method-definition/static-init-await-binding-normal.js: PASS vs FAIL
+test/language/expressions/object/method-definition/static-init-await-reference-accessor.js: PASS vs FAIL
+test/language/expressions/object/method-definition/static-init-await-reference-generator.js: PASS vs FAIL
+test/language/expressions/object/method-definition/static-init-await-reference-normal.js: PASS vs FAIL
+test/language/global-code/decl-func-dup.js: PASS vs FAIL
+test/language/import/import-attributes/json-invalid.js: PASS vs FAIL
+test/language/import/import-attributes/json-named-bindings.js: PASS vs FAIL
+test/language/import/import-defer/deferred-namespace-object/identity.js: FAIL vs PASS
+test/language/import/import-defer/errors/syntax-error/import-defer-of-syntax-error-fails.js: PASS vs FAIL
+test/language/module-code/import-attributes/allow-nlt-before-with.js: PASS vs FAIL
+test/language/module-code/import-attributes/import-attribute-key-identifiername.js: PASS vs FAIL
+test/language/module-code/import-attributes/import-attribute-key-string-double.js: PASS vs FAIL
+test/language/module-code/import-attributes/import-attribute-key-string-single.js: PASS vs FAIL
+test/language/module-code/import-attributes/import-attribute-many.js: PASS vs FAIL
+test/language/module-code/import-attributes/import-attribute-newlines.js: PASS vs FAIL
+test/language/module-code/import-attributes/import-attribute-trlng-comma.js: PASS vs FAIL
+test/language/module-code/import-attributes/import-attribute-value-string-double.js: PASS vs FAIL
+test/language/module-code/import-attributes/import-attribute-value-string-single.js: PASS vs FAIL
+test/language/module-code/instn-iee-err-circular-as.js: PASS vs FAIL
+test/language/module-code/instn-iee-err-circular.js: PASS vs FAIL
+test/language/module-code/instn-iee-err-dflt-thru-star-as.js: PASS vs FAIL
+test/language/module-code/instn-iee-err-dflt-thru-star.js: PASS vs FAIL
+test/language/module-code/instn-iee-err-not-found-as.js: PASS vs FAIL
+test/language/module-code/instn-iee-err-not-found.js: PASS vs FAIL
+test/language/module-code/instn-named-err-dflt-thru-star-as.js: PASS vs FAIL
+test/language/module-code/instn-named-err-dflt-thru-star-dflt.js: PASS vs FAIL
+test/language/module-code/instn-named-err-not-found-as.js: PASS vs FAIL
+test/language/module-code/instn-named-err-not-found-dflt.js: PASS vs FAIL
+test/language/module-code/instn-named-err-not-found.js: PASS vs FAIL
+test/language/module-code/instn-resolve-empty-export.js: PASS vs FAIL
+test/language/module-code/instn-resolve-empty-import.js: PASS vs FAIL
+test/language/module-code/instn-resolve-err-syntax-1.js: PASS vs FAIL
+test/language/module-code/instn-resolve-err-syntax-2.js: PASS vs FAIL
+test/language/module-code/instn-resolve-order-depth.js: PASS vs FAIL
+test/language/module-code/instn-resolve-order-src.js: PASS vs FAIL
+test/language/module-code/instn-star-err-not-found.js: PASS vs FAIL
+test/language/module-code/top-level-await/new-await-script-code.js: PASS vs FAIL
+test/language/reserved-words/await-script.js: PASS vs FAIL
+test/language/statements/class/class-name-ident-await-escaped.js: PASS vs FAIL
+test/language/statements/class/class-name-ident-await.js: PASS vs FAIL
+test/language/statements/class/decorator/syntax/valid/class-element-decorator-call-expr-identifier-reference.js: PASS vs FAIL
+test/language/statements/class/decorator/syntax/valid/class-element-decorator-member-expr-identifier-reference.js: PASS vs FAIL
+test/language/statements/class/decorator/syntax/valid/class-element-decorator-parenthesized-expr-identifier-reference.js: PASS vs FAIL
+test/language/statements/class/decorator/syntax/valid/decorator-call-expr-identifier-reference.js: PASS vs FAIL
+test/language/statements/class/decorator/syntax/valid/decorator-member-expr-identifier-reference.js: PASS vs FAIL
+test/language/statements/class/decorator/syntax/valid/decorator-parenthesized-expr-identifier-reference.js: PASS vs FAIL
+test/language/statements/class/static-init-await-binding-valid.js: PASS vs FAIL
+test/language/statements/const/static-init-await-binding-valid.js: PASS vs FAIL
+test/language/statements/do-while/S12.6.1_A4_T5.js: FAIL vs PASS
+test/language/statements/function/S13.2.1_A6_T3.js: PASS vs FAIL
+test/language/statements/function/S13_A6_T1.js: PASS vs FAIL
+test/language/statements/function/S13_A6_T2.js: PASS vs FAIL
+test/language/statements/function/S13_A19_T1.js: PASS vs FAIL
+test/language/statements/function/S14_A5_T1.js: PASS vs FAIL
+test/language/statements/function/S14_A5_T2.js: PASS vs FAIL
+test/language/statements/function/static-init-await-binding-valid.js: PASS vs FAIL
+test/language/statements/labeled/value-await-non-module-escaped.js: PASS vs FAIL
+test/language/statements/labeled/value-await-non-module.js: PASS vs FAIL
+test/language/statements/let/static-init-await-binding-valid.js: PASS vs FAIL
+test/language/statements/try/static-init-await-binding-valid.js: PASS vs FAIL
+test/language/statements/variable/dstr/ary-ptrn-elem-id-static-init-await-valid.js: PASS vs FAIL
+test/language/statements/variable/dstr/obj-ptrn-elem-id-static-init-await-valid.js: PASS vs FAIL
+test/language/statements/variable/static-init-await-binding-valid.js: PASS vs FAIL
+test/language/statements/while/S12.6.2_A4_T5.js: FAIL vs PASS
+test/staging/sm/expressions/destructuring-array-default-call.js: PASS vs FAIL
+test/staging/sm/expressions/destructuring-array-default-function-nested.js: PASS vs FAIL
+test/staging/sm/expressions/destructuring-array-default-function.js: PASS vs FAIL
+test/staging/sm/expressions/destructuring-array-default-simple.js: PASS vs FAIL
+test/staging/sm/expressions/destructuring-array-default-yield.js: PASS vs FAIL
+test/staging/sm/extensions/recursion.js: PASS vs CRASH
+test/staging/sm/fields/await-identifier-script.js: PASS vs FAIL
+test/staging/sm/regress/regress-1507322-deep-weakmap.js: PASS vs TIMEOUT
+test/staging/sm/strict/8.12.5.js: PASS vs FAIL
+test/staging/sm/strict/8.12.7-2.js: PASS vs FAIL
+test/staging/sm/strict/8.12.7.js: PASS vs FAIL
+test/staging/sm/strict/10.4.2.js: PASS vs FAIL
+test/staging/sm/strict/10.6.js: PASS vs FAIL
+test/staging/sm/strict/12.10.1.js: PASS vs FAIL
+test/staging/sm/strict/15.3.5.1.js: PASS vs FAIL
+test/staging/sm/strict/15.3.5.2.js: PASS vs FAIL
+test/staging/sm/strict/15.5.5.1.js: PASS vs FAIL
+test/staging/sm/strict/15.5.5.2.js: PASS vs FAIL
+test/staging/sm/strict/eval-variable-environment.js: PASS vs FAIL
+test/staging/sm/TypedArray/toLocaleString-detached.js: PASS vs FAIL
+test/staging/top-level-await/tla-hang-entry.js: PASS vs FAIL

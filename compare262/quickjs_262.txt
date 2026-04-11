@@ -1,0 +1,11 @@
+Comparing: ../test262/quickjs_262.json ../../dist/arm64/quickjs_262.test262
+Binary revision: MATCH (ours: d7ae12ae71df, theirs: d7ae12ae71df)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 5c8206929d81)
+Tests: MISMATCH (ours: 53164, theirs: 49774, shared: 49772)
+Skipped tests: 6067 (ours: 0, theirs: 6069)
+Diffs: 3
+
+test/built-ins/Atomics/wait/bigint/cannot-suspend-throws.js: Test262Error: Expected a TypeError to be thrown but no exception was thrown at all vs PASS
+test/built-ins/Atomics/wait/cannot-suspend-throws.js: Test262Error: Expected a TypeError to be thrown but no exception was thrown at all vs PASS
+test/language/identifier-resolution/assign-to-global-undefined.js: NOT(ReferenceError): OK vs PASS

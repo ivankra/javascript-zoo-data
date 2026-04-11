@@ -1,0 +1,32 @@
+Comparing: ../test262/v8_exp.json ../../dist/arm64/v8_full.test262
+Binary revision: MISMATCH (ours: db245183b195, theirs: b1410b3d2583)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: ff0d1611d3d5)
+Tests: MISMATCH (ours: 53164, theirs: 52422, shared: 52412)
+Skipped tests: 0 (ours: 0, theirs: 0)
+Diffs: 24
+
+test/built-ins/Array/prototype/sort/bug_596_1.js: PASS vs FAIL: may PASS or FAIL
+test/built-ins/Date/prototype/setFullYear/new-value-time-clip.js: PASS vs FAIL: may PASS or FAIL
+test/built-ins/Date/prototype/setMonth/new-value-time-clip.js: PASS vs FAIL: may PASS or FAIL
+test/built-ins/TypedArray/prototype/fill/fill-values-conversion-operations-consistent-nan.js: PASS vs FAIL: may PASS or FAIL
+test/language/module-code/ambiguous-export-bindings/namespace-unambiguous-if-export-star-as-from-and-import-star-as-and-export.js: ReferenceError: assert is not defined vs PASS
+test/staging/sm/DataView/detach-after-construction.js: PASS vs FAIL
+test/staging/sm/extensions/ArrayBuffer-slice-arguments-detaching.js: PASS vs FAIL
+test/staging/sm/extensions/DataView-construct-arguments-detaching.js: PASS vs FAIL
+test/staging/sm/extensions/DataView-set-arguments-detaching.js: PASS vs FAIL
+test/staging/sm/extensions/element-setting-ToNumber-detaches.js: PASS vs FAIL
+test/staging/sm/extensions/typedarray-copyWithin-arguments-detaching.js: PASS vs FAIL
+test/staging/sm/extensions/typedarray-set-detach.js: PASS vs FAIL
+test/staging/sm/extensions/TypedArray-set-object-funky-length-detaches.js: PASS vs FAIL
+test/staging/sm/extensions/TypedArray-subarray-arguments-detaching.js: PASS vs FAIL
+test/staging/sm/object/values-entries-typedarray.js: PASS vs FAIL
+test/staging/sm/TypedArray/constructor-buffer-sequence.js: PASS vs FAIL
+test/staging/sm/TypedArray/constructor-non-detached.js: PASS vs FAIL
+test/staging/sm/TypedArray/detached-array-buffer-checks.js: PASS vs FAIL
+test/staging/sm/TypedArray/from_typedarray_fastpath_detached.js: PASS vs FAIL
+test/staging/sm/TypedArray/set-detached-bigint.js: PASS vs FAIL
+test/staging/sm/TypedArray/toReversed-detached.js: PASS vs FAIL
+test/staging/sm/TypedArray/toSorted-detached.js: PASS vs FAIL
+test/staging/sm/TypedArray/with-detached.js: PASS vs FAIL
+test/staging/sm/TypedArray/with.js: PASS vs FAIL

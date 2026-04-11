@@ -1,0 +1,16 @@
+Comparing: ../test262/jsc_exp.json ../../dist/arm64/jsc.test262
+Binary revision: MISMATCH (ours: 8153a3994db5, theirs: fbb54a1cb661)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: ab1590d83d0c)
+Tests: MISMATCH (ours: 53164, theirs: 52925, shared: 52917)
+Skipped tests: 4105 (ours: 0, theirs: 4110)
+Diffs: 8
+
+test/built-ins/Promise/resolve/arg-uniq-ctor.js: PASS vs TypeError: |this|.constructor is not an Object or undefined
+test/built-ins/Temporal/PlainMonthDay/from/order-of-operations.js: Test262Error: Actual [] and expected [get fields.calendar, get fields.day, get fields.day.valueOf, call fields.day.valueOf, get fields.month, get fields.month.valueOf, call fields.month.valueOf, get fields.monthCod... vs PASS
+test/built-ins/Temporal/PlainYearMonth/from/order-of-operations.js: Test262Error: Actual [] and expected [get fields.calendar, get fields.month, get fields.month.valueOf, call fields.month.valueOf, get fields.monthCode, get fields.monthCode.toString, call fields.monthCode.toString,... vs PASS
+test/language/module-code/ambiguous-export-bindings/namespace-unambiguous-if-export-star-as-from-and-import-star-as-and-export.js: ReferenceError: Can't find variable: assert vs PASS
+test/language/module-code/top-level-await/fulfillment-order.js: NoAsyncTestComplete vs PASS
+test/language/module-code/top-level-await/rejection-order.js: NoAsyncTestComplete vs PASS
+test/staging/sm/module/module-export-name-star.js: ReferenceError: Can't find variable: y vs PASS
+test/staging/sm/regress/regress-1507322-deep-weakmap.js: TIMEOUT: >60s vs PASS
