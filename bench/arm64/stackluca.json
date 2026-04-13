@@ -2,135 +2,136 @@
   "binary": "stackluca",
   "metadata": {
     "arch": "arm64",
-    "binary_sha256": "aba513f752ee1c0f2c053216d5567a1477415fe4f5df2d829ddbc573fa8d8a35",
+    "binary_name": "stackluca",
+    "binary_sha256": "17cc1d00ef6b385dedc56f19a08b913621c73263b4eab46ff9067801e30bedbf",
     "binary_size": 134568,
-    "cc": "gcc 16.0.1 20260226 (experimental) [trunk r16-7708-gf8380ded1f6] (Debian 16-20260226-1)",
+    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "console_log": "print",
     "engine": "stackluca",
     "repository": "https://github.com/stackluca/v3.git",
     "revision": "487412fbb8d2c11b3a6faf2047c0c677689c6751",
     "revision_date": "2016-05-21"
   },
-  "time": "2026-03-03 21:31:29.189681 UTC",
+  "time": "2026-04-10 06:40:29.425046 UTC",
   "benchmarks": {
-    "RayTrace": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.54, 1.54, 1.54, 1.54]
-    },
-    "Typescript": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [3.77]
-    },
-    "Mandreel": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [6.09, 6.15]
-    },
-    "MandreelLatency": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [6.09, 6.15]
-    },
-    "zlib": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [1.66, 1.66, 1.55]
-    },
-    "Richards": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.54, 1.54, 1.54, 1.57]
-    },
-    "Gameboy": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [1.91, 1.91]
-    },
-    "EarleyBoyer": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [1.66, 1.7, 1.66]
-    },
-    "PdfJS": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [2.79, 2.79, 2.79, 2.79]
-    },
-    "RegExp": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.66, 1.65, 1.66, 1.66]
-    },
-    "Crypto": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [1.54, 1.54]
-    },
-    "Box2D": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [1.64, 1.66]
-    },
-    "NavierStokes": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [1.54, 1.52, 1.54]
-    },
-    "CodeLoad": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [1.65]
-    },
     "Splay": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [1.52, 1.54, 1.52]
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0016],
+      "rss_mb": [22.41]
     },
     "SplayLatency": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [1.52, 1.54, 1.52]
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0016],
+      "rss_mb": [22.41]
     },
     "DeltaBlue": {
-      "error": " error_code:-3(unexpected token) index:0, token:if ",
-      "user": [0.0],
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0007],
       "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [1.54]
+      "real": [0.001],
+      "rss_mb": [22.19]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.001],
+      "real": [0.0012],
+      "rss_mb": [24.25]
+    },
+    "zlib": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0008],
+      "real": [0.001],
+      "rss_mb": [22.79]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0013],
+      "real": [0.0016],
+      "rss_mb": [29.02]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0029],
+      "real": [0.0033],
+      "rss_mb": [52.43]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0029],
+      "real": [0.0033],
+      "rss_mb": [52.43]
+    },
+    "Typescript": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0017],
+      "real": [0.0019],
+      "rss_mb": [32.38]
+    },
+    "Box2D": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0008],
+      "real": [0.001],
+      "rss_mb": [22.66]
+    },
+    "RegExp": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0009],
+      "rss_mb": [22.66]
+    },
+    "Crypto": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0006],
+      "sys": [0.0],
+      "real": [0.0009],
+      "rss_mb": [22.52]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0006],
+      "real": [0.001],
+      "rss_mb": [22.47]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0009],
+      "real": [0.0011],
+      "rss_mb": [22.41]
+    },
+    "RayTrace": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0012],
+      "rss_mb": [22.19]
+    },
+    "Richards": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0006],
+      "sys": [0.0],
+      "real": [0.001],
+      "rss_mb": [22.19]
+    },
+    "NavierStokes": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0008],
+      "real": [0.0013],
+      "rss_mb": [22.21]
     }
   }
 }

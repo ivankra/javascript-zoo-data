@@ -1,0 +1,137 @@
+{
+  "binary": "stator",
+  "metadata": {
+    "arch": "arm64",
+    "binary_name": "stator",
+    "binary_sha256": "1cd1a53c011c3b103aafa796e5f3336cfab0755b02ab38323767867012344e20",
+    "binary_size": 17045040,
+    "console_log": ["console.log", "print"],
+    "engine": "stator",
+    "repository": "https://github.com/telecos/stator.git",
+    "revision": "455b1eb10f919ef9f26533a8b741d61e2b3e98c9",
+    "revision_date": "2026-04-02",
+    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
+  },
+  "time": "2026-04-10 07:02:16.496048 UTC",
+  "benchmarks": {
+    "Box2D": {
+      "error": "TypeError: Cannot set properties of undefined (setting 'prototype')",
+      "user": [0.0408],
+      "sys": [0.0149],
+      "real": [0.0559],
+      "rss_mb": [43.09]
+    },
+    "DeltaBlue": {
+      "error": "TypeError: CallProperty: callee is not a function (got Undefined)",
+      "user": [0.0045],
+      "sys": [0.0011],
+      "real": [0.0059],
+      "rss_mb": [21.99]
+    },
+    "Mandreel": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.6577],
+      "sys": [0.1839],
+      "real": [0.8421],
+      "rss_mb": [680.67]
+    },
+    "MandreelLatency": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.6577],
+      "sys": [0.1839],
+      "real": [0.8421],
+      "rss_mb": [680.67]
+    },
+    "RegExp": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0093],
+      "sys": [0.0041],
+      "real": [0.0136],
+      "rss_mb": [22.64]
+    },
+    "CodeLoad": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0033],
+      "sys": [0.0017],
+      "real": [0.0057],
+      "rss_mb": [22.24]
+    },
+    "Crypto": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0116],
+      "sys": [0.0],
+      "real": [0.0118],
+      "rss_mb": [22.53]
+    },
+    "zlib": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0009],
+      "sys": [0.0037],
+      "real": [0.0049],
+      "rss_mb": [22.77]
+    },
+    "Splay": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0018],
+      "sys": [0.0028],
+      "real": [0.0049],
+      "rss_mb": [22.53]
+    },
+    "SplayLatency": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0018],
+      "sys": [0.0028],
+      "real": [0.0049],
+      "rss_mb": [22.53]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: unterminated regular expression literal",
+      "user": [0.0415],
+      "sys": [0.0111],
+      "real": [0.053],
+      "rss_mb": [30.78]
+    },
+    "EarleyBoyer": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0229],
+      "sys": [0.009],
+      "real": [0.0321],
+      "rss_mb": [22.65]
+    },
+    "NavierStokes": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0031],
+      "sys": [0.002],
+      "real": [0.0053],
+      "rss_mb": [22.53]
+    },
+    "Gameboy": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0438],
+      "sys": [0.009],
+      "real": [0.0531],
+      "rss_mb": [38.22]
+    },
+    "Richards": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0038],
+      "sys": [0.001],
+      "real": [0.0051],
+      "rss_mb": [22.0]
+    },
+    "RayTrace": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0056],
+      "sys": [0.0011],
+      "real": [0.007],
+      "rss_mb": [21.97]
+    },
+    "Typescript": {
+      "error": "InternalError: release_temporary: expected r12, got r8",
+      "user": [0.0723],
+      "sys": [0.0241],
+      "real": [0.0968],
+      "rss_mb": [78.5]
+    }
+  }
+}

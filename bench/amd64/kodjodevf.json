@@ -2,110 +2,135 @@
   "binary": "kodjodevf",
   "metadata": {
     "arch": "amd64",
-    "binary_sha256": "a59f9a6ba85e4d60545fdde8cc2e7d46322bd114ada8709988a5e16838a65ba2",
-    "binary_size": 9482208,
+    "binary_name": "kodjodevf",
+    "binary_sha256": "24c3f25c0399e193c413e4aeb2dcfeddc5a14ae04f36c4127bb15db409b39d19",
+    "binary_size": 9484680,
     "console_log": "console.log",
     "engine": "kodjodevf",
     "repository": "https://github.com/kodjodevf/js_interpreter.git",
-    "revision": "71ce0bbcf53b4b86956aa8144b0ba8df35304aa8",
-    "revision_date": "2026-03-02"
+    "revision": "ab43292f098c1383ac8e6b4d8cabb29e430b524b",
+    "revision_date": "2026-03-27"
   },
-  "time": "2026-03-03 20:41:47.753154 UTC",
+  "time": "2026-04-10 05:14:04.598253 UTC",
   "benchmarks": {
-    "Box2D": {
-      "score": [58.6, 61.9, 61],
-      "user": [74.22, 70.24, 71.32],
-      "sys": [0.09, 0.11, 0.08],
-      "real": [74.25, 70.3, 71.35],
-      "rss_mb": [74.9, 75.36, 75.5]
-    },
     "Mandreel": {
-      "error": "Mandreel: Alert called with argument: Check sum mismatch: expected ???, actual 2135193",
-      "user": [15.17, 15.13, 14.88, 15.16],
-      "sys": [0.23, 0.25, 0.23, 0.21],
-      "real": [14.51, 14.5, 14.33, 14.48],
-      "rss_mb": [349.28, 349.75, 337.81, 311.41]
+      "error": "FAIL: No scores in the output",
+      "user": [15.2536],
+      "sys": [0.2003],
+      "real": [14.6299],
+      "rss_mb": [336.99]
     },
     "MandreelLatency": {
-      "error": "Mandreel: Alert called with argument: Check sum mismatch: expected ???, actual 2135193",
-      "user": [15.17, 15.13, 14.88, 15.16],
-      "sys": [0.23, 0.25, 0.23, 0.21],
-      "real": [14.51, 14.5, 14.33, 14.48],
-      "rss_mb": [349.28, 349.75, 337.81, 311.41]
-    },
-    "PdfJS": {
-      "error": "pdfjs.js: SyntaxError: SyntaxError: Unexpected token at 2394:7: Identifier 'imageData' has already been declared",
-      "user": [0.15, 0.16, 0.15],
-      "sys": [0.04, 0.03, 0.04],
-      "real": [0.17, 0.17, 0.17],
-      "rss_mb": [80.75, 80.21, 80.26]
+      "error": "FAIL: No scores in the output",
+      "user": [15.2536],
+      "sys": [0.2003],
+      "real": [14.6299],
+      "rss_mb": [336.99]
     },
     "Typescript": {
-      "error": "typescript.js: TypeError: Cannot read properties of undefined (reading 'None')",
-      "user": [0.32, 0.29],
-      "sys": [0.04, 0.04],
-      "real": [0.31, 0.29],
-      "rss_mb": [78.8, 78.06]
-    },
-    "DeltaBlue": {
-      "score": [0.548, 0.531],
-      "user": [391.78, 404.48],
-      "sys": [0.26, 0.26],
-      "real": [391.92, 404.63],
-      "rss_mb": [75.77, 75.77]
-    },
-    "RayTrace": {
-      "error": "Timeout (>900s)",
-      "score": [2.81],
-      "user": [857.45],
-      "sys": [0.64],
-      "real": [857.75],
-      "rss_mb": [69.72]
-    },
-    "Splay": {
-      "score": [18.7, 18.3, 19.5],
-      "user": [40.86, 41.77, 40.3],
-      "sys": [0.51, 0.57, 0.4],
-      "real": [38.63, 39.74, 37.9],
-      "rss_mb": [845.25, 845.11, 843.92]
-    },
-    "SplayLatency": {
-      "score": [203, 198, 208],
-      "user": [40.86, 41.77, 40.3],
-      "sys": [0.51, 0.57, 0.4],
-      "real": [38.63, 39.74, 37.9],
-      "rss_mb": [845.25, 845.11, 843.92]
+      "error": "TypeError: Cannot read properties of undefined (reading 'None')",
+      "user": [0.2999, 0.3109],
+      "sys": [0.0409, 0.049],
+      "real": [0.292, 0.3053],
+      "rss_mb": [78.55, 78.75]
     },
     "Gameboy": {
-      "error": "gbemu.js: SyntaxError: SyntaxError: Unexpected token at 7927:15: Expected ';' after expression",
-      "user": [0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.07, 0.06],
-      "sys": [0.02, 0.03, 0.02, 0.02, 0.03, 0.03, 0.02, 0.03],
-      "real": [0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09, 0.09],
-      "rss_mb": [55.07, 55.36, 55.04, 55.11, 55.25, 55.11, 55.01, 55.04]
-    },
-    "NavierStokes": {
-      "error": "Timeout (>900s)"
-    },
-    "Richards": {
-      "score": [0.391, 0.432, 0.401, 0.41],
-      "user": [293.4, 265.59, 286.0, 279.54],
-      "sys": [0.12, 0.25, 0.15, 0.13],
-      "real": [293.46, 265.77, 286.12, 279.62],
-      "rss_mb": [46.93, 47.09, 46.82, 47.34]
-    },
-    "Crypto": {
-      "user": [36.13, 36.63, 709.29, 712.29, 35.71],
-      "sys": [0.06, 0.05, 0.37, 0.44, 0.05],
-      "real": [36.18, 36.67, 709.48, 712.55, 35.75],
-      "rss_mb": [49.12, 48.26, 56.15, 54.99, 48.56],
-      "score": [6.89, 6.89]
+      "error": "SyntaxError: Unexpected token at 7914:15: Expected ';' after expression",
+      "user": [0.063, 0.0683],
+      "sys": [0.043, 0.0275],
+      "real": [0.0974, 0.089],
+      "rss_mb": [54.93, 54.93]
     },
     "RegExp": {
-      "score": [21.5, 21.8],
-      "user": [75.08, 74.07],
-      "sys": [0.1, 0.09],
-      "real": [75.15, 74.13],
-      "rss_mb": [55.86, 55.53]
+      "score": [21.6],
+      "user": [74.7627],
+      "sys": [0.106],
+      "real": [74.8346],
+      "rss_mb": [55.71]
+    },
+    "Richards": {
+      "score": [0.396, 0.393, 0.407, 0.388],
+      "user": [289.5498, 291.6311, 282.1136, 295.7366],
+      "sys": [0.0671, 0.0671, 0.0591, 0.0771],
+      "real": [289.5463, 291.6258, 282.1324, 295.7547],
+      "rss_mb": [47.57, 47.46, 46.99, 47.57]
+    },
+    "Splay": {
+      "score": [18.9, 18.3],
+      "user": [40.2831, 41.4079],
+      "sys": [0.5291, 0.5212],
+      "real": [38.3465, 39.4345],
+      "rss_mb": [828.46, 829.48]
+    },
+    "SplayLatency": {
+      "score": [205, 198],
+      "user": [40.2831, 41.4079],
+      "sys": [0.5291, 0.5212],
+      "real": [38.3465, 39.4345],
+      "rss_mb": [828.46, 829.48]
+    },
+    "RayTrace": {
+      "score": [2.41],
+      "user": [1000.1091],
+      "sys": [0.5561],
+      "real": [1000.334],
+      "rss_mb": [70.39]
+    },
+    "Crypto": {
+      "score": [6.66],
+      "user": [740.7806],
+      "sys": [0.4771],
+      "real": [741.0812],
+      "rss_mb": [54.79]
+    },
+    "EarleyBoyer": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.1242],
+      "sys": [0.0185],
+      "real": [0.1381],
+      "rss_mb": [51.12]
+    },
+    "NavierStokes": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8763, 1799.8937, 1799.9277],
+      "sys": [0.157, 0.15, 0.124],
+      "real": [1800.0473, 1800.0989, 1800.0656],
+      "rss_mb": [75.93, 75.71, 75.85]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: Unexpected token at 2381:7: Identifier 'imageData' has already been declared",
+      "user": [0.1514, 0.1399],
+      "sys": [0.0341, 0.049],
+      "real": [0.1666, 0.1683],
+      "rss_mb": [80.2, 80.97]
+    },
+    "Box2D": {
+      "score": [59.3, 59, 59.5],
+      "user": [73.4009, 73.8394, 73.2185],
+      "sys": [0.106, 0.0951, 0.0661],
+      "real": [73.425, 73.8621, 73.2343],
+      "rss_mb": [75.33, 75.35, 75.56]
+    },
+    "CodeLoad": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0125, 0.0136],
+      "sys": [0.0062, 0.0049],
+      "real": [0.0187, 0.0183],
+      "rss_mb": [23.64, 23.56]
+    },
+    "zlib": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0213, 0.0242, 0.025],
+      "sys": [0.0122, 0.0087, 0.0073],
+      "real": [0.0329, 0.0324, 0.0319],
+      "rss_mb": [23.84, 23.83, 23.58]
+    },
+    "DeltaBlue": {
+      "score": [0.53],
+      "user": [405.1675],
+      "sys": [0.1772],
+      "real": [405.1747],
+      "rss_mb": [75.83]
     }
   }
 }

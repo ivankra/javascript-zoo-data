@@ -2,75 +2,136 @@
   "binary": "epimetheus",
   "metadata": {
     "arch": "arm64",
-    "binary_sha256": "3708d00f14cf6839a2cfb6dcae5796ec9c6416e52bd022d20be8c796be0d149d",
+    "binary_name": "epimetheus",
+    "binary_sha256": "31c875e94eda9b192076052cc1fd5af1c6ca08cfaed73fa7d870bb7ab3a3c606",
     "binary_size": 592936,
-    "cc": "gcc 16.0.1 20260226 (experimental) [trunk r16-7708-gf8380ded1f6] (Debian 16-20260226-1)",
-    "console_log": "console.log",
+    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "console_log": ["console.log", "print"],
     "engine": "epimetheus",
     "repository": "https://github.com/jrmuizel/mozilla-cvs-history.git",
     "revision": "3229d5d8b7f8376cfb7936e7be810635a14a486b",
     "revision_date": "2008-08-12"
   },
-  "time": "2026-03-03 22:18:23.845704 UTC",
+  "time": "2026-04-10 06:36:44.654672 UTC",
   "benchmarks": {
-    "Richards": {
-      "error": "Timeout (>900s)"
-    },
-    "RayTrace": {
-      "error": "Timeout (>900s)"
-    },
-    "RegExp": {
-      "error": "Timeout (>900s)"
-    },
-    "zlib": {
-      "error": "Timeout (>900s)"
-    },
-    "Typescript": {
-      "error": "Timeout (>900s)"
-    },
-    "NavierStokes": {
-      "error": "Timeout (>900s)"
-    },
     "EarleyBoyer": {
-      "error": "Timeout (>900s)"
-    },
-    "CodeLoad": {
-      "error": "Timeout (>900s)"
-    },
-    "Mandreel": {
-      "error": "Timeout (>900s)"
-    },
-    "MandreelLatency": {
-      "error": "Timeout (>900s)"
-    },
-    "DeltaBlue": {
-      "error": "Timeout (>900s)"
-    },
-    "Crypto": {
-      "error": "Timeout (>900s)"
-    },
-    "Splay": {
-      "error": "Timeout (>900s)"
-    },
-    "SplayLatency": {
-      "error": "Timeout (>900s)"
-    },
-    "Box2D": {
-      "error": "F.NVector=function(y){if(y===G)y=0;for(var w=Array(y||0),A=0;A<y;++A)w[A]=0;return w};F.[ERROR]is=function(y,w){if(y===null)return false;if(w instanceof Function&&y instanceof w)return true;if(y.constructor.__implements!=G&&y.constructor.__implements[w])return true;return false};F.parseUInt=function(y){return Math.abs(parseInt(y))}})(Box2D);var Vector=Array,Vector_a2j_Number=Box2D.NVector;if(typeof Box2D===\"undefined\")Box2D={};if(typeof Box2D.Collision===\"undefined\")Box2D.Collision={};",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [4.91, 4.91, 4.91]
-    },
-    "Gameboy": {
-      "error": "Timeout (>900s)"
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.7509],
+      "sys": [0.108],
+      "real": [1800.0935],
+      "rss_mb": [70.88]
     },
     "PdfJS": {
-      "error": "    get [ERROR]content() {",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [10.25]
+      "error": "SyntaxError: : expected",
+      "user": [0.001],
+      "sys": [0.0049],
+      "real": [0.0062],
+      "rss_mb": [29.04]
+    },
+    "CodeLoad": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8211],
+      "sys": [0.06],
+      "real": [1800.0753],
+      "rss_mb": [68.92]
+    },
+    "zlib": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.7446],
+      "sys": [0.123],
+      "real": [1800.1076],
+      "rss_mb": [69.02]
+    },
+    "Splay": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8427],
+      "sys": [0.053],
+      "real": [1800.1068],
+      "rss_mb": [67.12]
+    },
+    "SplayLatency": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8427],
+      "sys": [0.053],
+      "real": [1800.1068],
+      "rss_mb": [67.12]
+    },
+    "RegExp": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8696],
+      "sys": [0.043],
+      "real": [1800.1067],
+      "rss_mb": [69.58]
+    },
+    "Box2D": {
+      "error": "SyntaxError: Qualified identifier expected",
+      "user": [0.0009],
+      "sys": [0.0018],
+      "real": [0.0029],
+      "rss_mb": [22.66]
+    },
+    "Crypto": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8321],
+      "sys": [0.058],
+      "real": [1800.0872],
+      "rss_mb": [68.04]
+    },
+    "Typescript": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.7631],
+      "sys": [0.079],
+      "real": [1800.0415],
+      "rss_mb": [112.19]
+    },
+    "Mandreel": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8591],
+      "sys": [0.103],
+      "real": [1800.0454],
+      "rss_mb": [189.41]
+    },
+    "MandreelLatency": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8591],
+      "sys": [0.103],
+      "real": [1800.0454],
+      "rss_mb": [189.41]
+    },
+    "Gameboy": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.611],
+      "sys": [0.154],
+      "real": [1800.0741],
+      "rss_mb": [76.98]
+    },
+    "NavierStokes": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8042],
+      "sys": [0.06],
+      "real": [1800.0511],
+      "rss_mb": [67.2]
+    },
+    "DeltaBlue": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8356],
+      "sys": [0.072],
+      "real": [1800.1044],
+      "rss_mb": [67.41]
+    },
+    "RayTrace": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.687],
+      "sys": [0.101],
+      "real": [1800.0686],
+      "rss_mb": [67.48]
+    },
+    "Richards": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.9079],
+      "sys": [0.086],
+      "real": [1800.0111],
+      "rss_mb": [67.23]
     }
   }
 }

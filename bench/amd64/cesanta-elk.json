@@ -2,136 +2,137 @@
   "binary": "cesanta-elk",
   "metadata": {
     "arch": "amd64",
-    "binary_sha256": "8671cb5c331a9644e3b729be5e040ed09763a9c233dec1d0d90c1db79dc77804",
+    "binary_name": "cesanta-elk",
+    "binary_sha256": "55c74aee82b9da999895274b8ad2ac3d9aa0dfe90879b007e539c4da105f6314",
     "binary_size": 47544,
-    "cc": "gcc 16.0.1 20260226 (experimental) [trunk r16-7708-gf8380ded1f6] (Debian 16-20260226-1)",
-    "console_log": "console.log",
+    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "console_log": ["console.log", "print"],
     "engine": "cesanta-elk",
     "repository": "https://github.com/cesanta/elk.git",
-    "revision": "a9bb85619c5cddf49dfa8bdf529770fc9943a7fd",
-    "revision_date": "2025-06-05",
-    "version": "2.2.0-30-ga9bb856"
+    "revision": "71a86fa2fef146696be9ae66715bf3f91d0a5f2c",
+    "revision_date": "2026-03-18",
+    "version": "2.2.0-32-g71a86fa"
   },
-  "time": "2026-03-03 20:41:22.271188 UTC, 2026-03-03 21:16:19.787940 UTC",
+  "time": "2026-04-10 05:10:35.153584 UTC",
   "benchmarks": {
-    "Mandreel": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [6.53, 6.41]
-    },
-    "MandreelLatency": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [6.53, 6.41]
-    },
-    "Typescript": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [4.15, 3.98, 3.88, 4.04]
-    },
     "NavierStokes": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.6, 1.51, 1.61, 1.51]
-    },
-    "Crypto": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0],
+      "error": "SyntaxError",
+      "user": [0.0008],
       "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [1.64]
-    },
-    "Splay": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.6, 1.5, 1.5, 1.51]
-    },
-    "SplayLatency": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.6, 1.5, 1.5, 1.51]
-    },
-    "RayTrace": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.6, 1.54, 1.54, 1.5]
-    },
-    "EarleyBoyer": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [1.75]
-    },
-    "Box2D": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [1.75, 1.77, 1.63]
-    },
-    "DeltaBlue": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [1.51, 1.66, 1.5]
-    },
-    "zlib": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.73, 1.62, 1.62, 1.78]
+      "real": [0.0012],
+      "rss_mb": [23.31]
     },
     "CodeLoad": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.77, 1.62, 1.77, 1.61]
-    },
-    "Gameboy": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [2.1, 2.1, 2.16, 2.12]
-    },
-    "RegExp": {
-      "error": "Error: ERROR: parse error",
+      "error": "SyntaxError",
       "user": [0.0],
-      "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [1.76]
+      "sys": [0.0009],
+      "real": [0.0011],
+      "rss_mb": [23.54]
     },
-    "Richards": {
-      "error": "Error: ERROR: parse error",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [1.48, 1.65, 1.5]
+    "Splay": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.001],
+      "real": [0.0012],
+      "rss_mb": [23.38]
+    },
+    "SplayLatency": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.001],
+      "real": [0.0012],
+      "rss_mb": [23.38]
+    },
+    "Crypto": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.0009],
+      "real": [0.0012],
+      "rss_mb": [23.41]
+    },
+    "Box2D": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.0012],
+      "real": [0.0014],
+      "rss_mb": [23.61]
     },
     "PdfJS": {
-      "error": "Error: ERROR: parse error",
+      "error": "SyntaxError",
       "user": [0.0],
+      "sys": [0.002],
+      "real": [0.0023],
+      "rss_mb": [29.57]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.001],
+      "real": [0.0012],
+      "rss_mb": [23.82]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError",
+      "user": [0.0007],
       "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [3.0]
+      "real": [0.001],
+      "rss_mb": [23.38]
+    },
+    "Mandreel": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.0052],
+      "real": [0.0055],
+      "rss_mb": [53.45]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.0052],
+      "real": [0.0055],
+      "rss_mb": [53.45]
+    },
+    "Typescript": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.0031],
+      "real": [0.0033],
+      "rss_mb": [33.62]
+    },
+    "Gameboy": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.0014],
+      "real": [0.0017],
+      "rss_mb": [24.95]
+    },
+    "RegExp": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.001],
+      "real": [0.0013],
+      "rss_mb": [23.41]
+    },
+    "zlib": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.0011],
+      "real": [0.0013],
+      "rss_mb": [23.82]
+    },
+    "RayTrace": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.001],
+      "rss_mb": [23.45]
+    },
+    "Richards": {
+      "error": "SyntaxError",
+      "user": [0.0],
+      "sys": [0.0008],
+      "real": [0.001],
+      "rss_mb": [23.28]
     }
   }
 }

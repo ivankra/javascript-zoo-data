@@ -2,21 +2,22 @@
   "binary": "narcissus",
   "metadata": {
     "arch": "amd64",
-    "console_log": "console.log",
+    "binary_name": "narcissus",
+    "console_log": ["console.log", "print"],
     "dist_size": 208475,
     "engine": "narcissus",
     "repository": "https://github.com/ivankra/narcissus.git",
     "revision": "a1eae5c735c3932cc435d869e68933d469d419f6",
     "revision_date": "2025-10-08"
   },
-  "time": "2026-03-03 20:49:13.133175 UTC",
+  "time": "2026-04-10 06:59:49.486265 UTC",
   "benchmarks": {
     "Richards": {
-      "score": [15.203],
-      "user": [2.37],
-      "sys": [0.02],
-      "real": [2.35],
-      "rss_mb": [30.83]
+      "score": [14.235, 14.444],
+      "user": [2.4741, 2.4504],
+      "sys": [0.0221, 0.0351],
+      "real": [2.4678, 2.4489],
+      "rss_mb": [30.07, 30.96]
     }
   }
 }

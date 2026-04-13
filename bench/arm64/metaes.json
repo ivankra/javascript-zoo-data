@@ -2,133 +2,134 @@
   "binary": "metaes",
   "metadata": {
     "arch": "arm64",
-    "console_log": "console.log",
-    "dist_size": 344096,
+    "binary_name": "metaes",
+    "console_log": ["console.log", "print"],
+    "dist_size": 344862,
     "engine": "metaes",
     "repository": "https://github.com/metaes/metaes.git",
     "revision": "3d328305436e3d592a3e584c8329b33012c77c96",
     "revision_date": "2022-06-06"
   },
-  "time": "2026-03-03 21:31:48.345960 UTC",
+  "time": "2026-04-10 07:10:55.257410 UTC",
   "benchmarks": {
-    "DeltaBlue": {
-      "error": "Exit code: 1",
-      "user": [0.04, 0.04, 0.04],
-      "sys": [0.01, 0.0, 0.02],
-      "real": [0.04, 0.04, 0.04],
-      "rss_mb": [49.6, 49.85, 49.97]
-    },
-    "Crypto": {
-      "error": "Exit code: 1",
-      "user": [0.05, 0.06, 0.06, 0.05, 0.06],
-      "sys": [0.01, 0.01, 0.01, 0.01, 0.01],
-      "real": [0.05, 0.05, 0.05, 0.05, 0.05],
-      "rss_mb": [59.66, 59.42, 59.48, 59.83, 59.66]
-    },
-    "Mandreel": {
-      "error": "Exit code: 1",
-      "user": [1.21, 1.11, 1.18, 1.2],
-      "sys": [0.22, 0.2, 0.21, 0.2],
-      "real": [0.77, 0.75, 0.77, 0.67],
-      "rss_mb": [572.15, 579.22, 589.22, 577.55]
-    },
-    "MandreelLatency": {
-      "error": "Exit code: 1",
-      "user": [1.21, 1.11, 1.18, 1.2],
-      "sys": [0.22, 0.2, 0.21, 0.2],
-      "real": [0.77, 0.75, 0.77, 0.67],
-      "rss_mb": [572.15, 579.22, 589.22, 577.55]
-    },
-    "PdfJS": {
-      "error": "Exit code: 1",
-      "user": [0.29, 0.3, 0.29, 0.29],
-      "sys": [0.05, 0.05, 0.05, 0.05],
-      "real": [0.16, 0.17, 0.16, 0.17],
-      "rss_mb": [150.56, 151.82, 150.33, 151.7]
-    },
-    "Splay": {
-      "error": "Exit code: 1",
-      "user": [0.03],
-      "sys": [0.01],
-      "real": [0.04],
-      "rss_mb": [49.47]
-    },
-    "SplayLatency": {
-      "error": "Exit code: 1",
-      "user": [0.03],
-      "sys": [0.01],
-      "real": [0.04],
-      "rss_mb": [49.47]
-    },
-    "RayTrace": {
-      "error": "Exit code: 1",
-      "user": [0.04, 0.04, 0.04, 0.04],
-      "sys": [0.01, 0.01, 0.01, 0.0],
-      "real": [0.04, 0.04, 0.04, 0.04],
-      "rss_mb": [56.45, 56.34, 55.45, 55.23]
-    },
-    "EarleyBoyer": {
-      "error": "Exit code: 1",
-      "user": [0.09, 0.08, 0.09, 0.08],
-      "sys": [0.01, 0.02, 0.02, 0.02],
-      "real": [0.06, 0.06, 0.06, 0.06],
-      "rss_mb": [69.48, 68.85, 68.72, 67.51]
-    },
-    "Richards": {
-      "error": "Exit code: 1",
-      "user": [0.04, 0.03, 0.04, 0.03, 0.03, 0.03],
-      "sys": [0.01, 0.01, 0.01, 0.02, 0.01, 0.01],
-      "real": [0.04, 0.04, 0.04, 0.04, 0.04, 0.04],
-      "rss_mb": [49.58, 48.91, 50.1, 49.03, 48.72, 49.1]
-    },
     "CodeLoad": {
-      "error": "Exit code: 1",
-      "user": [0.05, 0.04],
-      "sys": [0.01, 0.01],
-      "real": [0.04, 0.04],
-      "rss_mb": [54.15, 55.23]
-    },
-    "NavierStokes": {
-      "error": "Exit code: 1",
-      "user": [0.04, 0.04],
-      "sys": [0.01, 0.01],
-      "real": [0.04, 0.04],
-      "rss_mb": [49.67, 49.39]
-    },
-    "Typescript": {
-      "error": "Exit code: 1",
-      "user": [0.25, 0.25, 0.23, 0.24],
-      "sys": [0.06, 0.05, 0.05, 0.04],
-      "real": [0.17, 0.15, 0.14, 0.15],
-      "rss_mb": [138.01, 139.7, 135.27, 137.31]
-    },
-    "zlib": {
-      "error": "Exit code: 1",
-      "user": [0.04, 0.04, 0.04],
-      "sys": [0.01, 0.01, 0.01],
-      "real": [0.04, 0.04, 0.04],
-      "rss_mb": [54.41, 54.36, 54.79]
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0519],
+      "sys": [0.015],
+      "real": [0.0473],
+      "rss_mb": [56.51]
     },
     "RegExp": {
-      "error": "Exit code: 1",
-      "user": [0.07, 0.08, 0.07],
-      "sys": [0.01, 0.02, 0.02],
-      "real": [0.05, 0.06, 0.06],
-      "rss_mb": [63.6, 64.22, 64.98]
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0949],
+      "sys": [0.025],
+      "real": [0.0813],
+      "rss_mb": [77.55]
+    },
+    "PdfJS": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":11,\"column\":11},\"end\":{\"line\":11,\"column\":17}},\"range\":[473,479],\"type\":\"GetValue\",\"name\":\"String\"},\"script\":{\"source\":\"// Single self-con...",
+      "user": [0.4543],
+      "sys": [0.1133],
+      "real": [0.3508],
+      "rss_mb": [264.72]
+    },
+    "Crypto": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0604],
+      "sys": [0.0208],
+      "real": [0.059],
+      "rss_mb": [64.3]
+    },
+    "Splay": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0402],
+      "sys": [0.0163],
+      "real": [0.0449],
+      "rss_mb": [50.64]
+    },
+    "SplayLatency": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0402],
+      "sys": [0.0163],
+      "real": [0.0449],
+      "rss_mb": [50.64]
     },
     "Box2D": {
-      "error": "Exit code: 1",
-      "user": [0.14, 0.13, 0.14, 0.13],
-      "sys": [0.02, 0.03, 0.03, 0.03],
-      "real": [0.09, 0.08, 0.09, 0.08],
-      "rss_mb": [90.11, 90.41, 90.04, 90.22]
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.2047],
+      "sys": [0.0573],
+      "real": [0.1688],
+      "rss_mb": [133.36]
+    },
+    "NavierStokes": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0442],
+      "sys": [0.0151],
+      "real": [0.0467],
+      "rss_mb": [51.93]
+    },
+    "Typescript": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.3704],
+      "sys": [0.1091],
+      "real": [0.314],
+      "rss_mb": [231.16]
+    },
+    "Richards": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0425],
+      "sys": [0.0114],
+      "real": [0.0439],
+      "rss_mb": [50.21]
+    },
+    "RayTrace": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0506],
+      "sys": [0.0137],
+      "real": [0.0498],
+      "rss_mb": [58.54]
     },
     "Gameboy": {
-      "error": "Exit code: 1",
-      "user": [0.14],
-      "sys": [0.03],
-      "real": [0.08],
-      "rss_mb": [87.47]
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.1991],
+      "sys": [0.0412],
+      "real": [0.1458],
+      "rss_mb": [120.06]
+    },
+    "DeltaBlue": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0495],
+      "sys": [0.0091],
+      "real": [0.0468],
+      "rss_mb": [51.84]
+    },
+    "zlib": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":18,\"column\":18},\"end\":{\"line\":18,\"column\":22}},\"range\":[782,786],\"type\":\"GetValue\",\"name\":\"this\"},\"script\":{\"source\":\"// Single self-conta...",
+      "user": [0.0424],
+      "sys": [0.0182],
+      "real": [0.0458],
+      "rss_mb": [56.92]
+    },
+    "EarleyBoyer": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.11],
+      "sys": [0.0404],
+      "real": [0.1033],
+      "rss_mb": [88.8]
+    },
+    "Mandreel": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [2.0386],
+      "sys": [0.4855],
+      "real": [1.7758],
+      "rss_mb": [1236.65]
+    },
+    "MandreelLatency": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [2.0386],
+      "sys": [0.4855],
+      "real": [1.7758],
+      "rss_mb": [1236.65]
     }
   }
 }

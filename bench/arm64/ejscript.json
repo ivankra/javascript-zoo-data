@@ -2,135 +2,136 @@
   "binary": "ejscript",
   "metadata": {
     "arch": "arm64",
-    "cc": "gcc 16.0.1 20260226 (experimental) [trunk r16-7708-gf8380ded1f6] (Debian 16-20260226-1)",
+    "binary_name": "ejscript",
+    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "console_log": "print",
-    "dist_size": 2188496,
+    "dist_size": 2188482,
     "engine": "ejscript",
     "repository": "https://github.com/embedthis/ejscript.git",
     "revision": "bb38d46e96ad20e923821d31d4a37e64de926d5a",
     "revision_date": "2025-03-09",
     "version": "2.7.7-22-gbb38d46e9"
   },
-  "time": "2026-03-03 22:20:59.575105 UTC",
+  "time": "2026-04-10 06:24:14.829773 UTC",
   "benchmarks": {
-    "RegExp": {
-      "error": "ejs: Error: Cannot open regexp.js",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [4.9, 4.98, 4.98, 4.91]
-    },
-    "Typescript": {
-      "error": "ejs: Error: Cannot open typescript.js",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.01, 0.01],
-      "rss_mb": [4.98, 4.98]
-    },
-    "Richards": {
-      "error": "ejs: Error: Cannot open richards.js",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [4.9, 4.98, 4.9, 4.91]
-    },
-    "Mandreel": {
-      "error": "ejs: Error: Cannot open mandreel.js",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [4.98, 4.91, 4.9, 4.98]
-    },
-    "MandreelLatency": {
-      "error": "ejs: Error: Cannot open mandreel.js",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [4.98, 4.91, 4.9, 4.98]
-    },
-    "CodeLoad": {
-      "error": "ejs: Error: Cannot open code-load.js",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [4.91, 4.98, 4.84, 4.89]
-    },
-    "Gameboy": {
-      "error": "ejs: Error: Cannot open gbemu.js",
-      "user": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [4.91, 4.82, 4.91, 4.98, 4.91]
-    },
-    "RayTrace": {
-      "error": "ejs: Error: Cannot open raytrace.js",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [4.91, 4.91]
-    },
-    "Crypto": {
-      "error": "ejs: Error: Cannot open crypto.js",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [4.89, 4.91]
-    },
-    "DeltaBlue": {
-      "error": "ejs: Error: Cannot open deltablue.js",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [4.9]
-    },
-    "Splay": {
-      "error": "ejs: Error: Cannot open splay.js",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.01, 0.0, 0.0, 0.0],
-      "rss_mb": [4.7, 4.91, 4.98, 4.98]
-    },
-    "SplayLatency": {
-      "error": "ejs: Error: Cannot open splay.js",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.01, 0.0, 0.0, 0.0],
-      "rss_mb": [4.7, 4.91, 4.98, 4.98]
-    },
-    "EarleyBoyer": {
-      "error": "ejs: Error: Cannot open earley-boyer.js",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.01, 0.0, 0.0],
-      "rss_mb": [4.86, 4.91, 4.91]
+    "NavierStokes": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0084],
+      "sys": [0.0123],
+      "real": [0.0221],
+      "rss_mb": [19.14]
     },
     "PdfJS": {
-      "error": "ejs: Error: Cannot open pdfjs.js",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [4.91, 4.91, 4.9, 4.91]
-    },
-    "Box2D": {
-      "error": "ejs: Error: Cannot open box2d.js",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [4.91]
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Unexpected input \")\"; Attribute \"override\" not supported on local variables; Labeled statements are not yet implemented; Expected input \")\"; Unexpected input \"in\"; U...",
+      "user": [0.8169],
+      "sys": [0.2125],
+      "real": [1.0311],
+      "rss_mb": [593.52]
     },
     "zlib": {
-      "error": "ejs: Error: Cannot open zlib.js",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.01, 0.0],
-      "rss_mb": [4.98, 4.86, 4.91]
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0135],
+      "sys": [0.0098],
+      "real": [0.0247],
+      "rss_mb": [19.52]
     },
-    "NavierStokes": {
-      "error": "ejs: Error: Cannot open navier-stokes.js",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [4.98, 4.98]
+    "Richards": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.01],
+      "sys": [0.0077],
+      "real": [0.019],
+      "rss_mb": [18.95]
+    },
+    "RayTrace": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0131],
+      "sys": [0.0114],
+      "real": [0.0261],
+      "rss_mb": [19.13]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented; Unexpected input \")\"; Unexpected input \"}\"",
+      "user": [1.0881],
+      "sys": [0.0385],
+      "real": [1.1275],
+      "rss_mb": [107.52]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented; Unexpected input \")\"; Unexpected input \"}\"",
+      "user": [1.0881],
+      "sys": [0.0385],
+      "real": [1.1275],
+      "rss_mb": [107.52]
+    },
+    "CodeLoad": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.012],
+      "sys": [0.008],
+      "real": [0.0215],
+      "rss_mb": [19.07]
+    },
+    "Crypto": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0223],
+      "sys": [0.0223],
+      "real": [0.0453],
+      "rss_mb": [34.54]
+    },
+    "EarleyBoyer": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0752],
+      "sys": [0.0369],
+      "real": [0.1138],
+      "rss_mb": [89.15]
+    },
+    "DeltaBlue": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0123],
+      "sys": [0.009],
+      "real": [0.0228],
+      "rss_mb": [19.09]
+    },
+    "RegExp": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Unexpected input \"/=\"",
+      "user": [0.0373],
+      "sys": [0.0189],
+      "real": [0.0577],
+      "rss_mb": [50.03]
+    },
+    "Splay": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0105],
+      "sys": [0.0063],
+      "real": [0.0184],
+      "rss_mb": [19.3]
+    },
+    "SplayLatency": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0105],
+      "sys": [0.0063],
+      "real": [0.0184],
+      "rss_mb": [19.3]
+    },
+    "Box2D": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Too many iteration variables; Unexpected input \")\"; Unexpected input \"]\"; Expected input \")\"; Unexpected input \"]\"",
+      "user": [0.0193],
+      "sys": [0.0076],
+      "real": [0.0282],
+      "rss_mb": [19.22]
+    },
+    "Typescript": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented",
+      "user": [0.7178],
+      "sys": [0.1524],
+      "real": [0.8922],
+      "rss_mb": [373.51]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Expected input \"[\"; Expecting \":\"; Unexpected input \"]\"; Unexpected input \"}\"",
+      "user": [0.0255],
+      "sys": [0.0086],
+      "real": [0.0356],
+      "rss_mb": [21.06]
     }
   }
 }

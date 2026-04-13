@@ -2,6 +2,7 @@
   "binary": "lebjs",
   "metadata": {
     "arch": "arm64",
+    "binary_name": "lebjs",
     "console_log": "console.log",
     "dist_size": 410699,
     "engine": "lebjs",
@@ -10,6 +11,14 @@
     "revision": "7b5db4a32e9d97b6881452da59f363f514e61b76",
     "revision_date": "2025-08-14"
   },
-  "time": "2026-03-04 02:09:07.670603 UTC",
-  "benchmarks": {}
+  "time": "2026-04-10 08:12:35.096512 UTC",
+  "benchmarks": {
+    "Richards": {
+      "error": "FAIL: No scores in the output",
+      "user": [10.2832],
+      "sys": [0.118],
+      "real": [9.6207],
+      "rss_mb": [216.0]
+    }
+  }
 }

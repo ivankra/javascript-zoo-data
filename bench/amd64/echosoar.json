@@ -2,135 +2,136 @@
   "binary": "echosoar",
   "metadata": {
     "arch": "amd64",
-    "binary_sha256": "65040b90781acce45115dd1ed53807d2d0224c535368d725ab59a7ca7e1b52d6",
-    "binary_size": 1081000,
+    "binary_name": "echosoar",
+    "binary_sha256": "c67f002b71ccf003b23c183617c50a54140cd4dbff73326c351d4b9535c230d3",
+    "binary_size": 1355312,
     "console_log": "console.log",
     "engine": "echosoar",
     "repository": "https://github.com/echosoar/jsi.git",
-    "revision": "b164beb25bcb74c33d8541e8097c918d5271f698",
-    "revision_date": "2026-01-06",
-    "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11)"
+    "revision": "3d51b5241aefe6fdd8323fc6b5e58c727c228385",
+    "revision_date": "2026-04-06",
+    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
-  "time": "2026-03-03 20:53:38.538427 UTC",
+  "time": "2026-04-10 05:10:51.609403 UTC",
   "benchmarks": {
-    "Crypto": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [3.04, 3.04]
-    },
     "EarleyBoyer": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [3.65, 3.75, 3.62, 3.65, 3.5, 3.71, 3.66]
-    },
-    "Box2D": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [3.67, 3.82, 3.72]
-    },
-    "Gameboy": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [5.03, 5.09]
-    },
-    "zlib": {
-      "error": "zlib.js: JSIError { error_type: SyntaxError, message: \"Unexpected token Slash\", line: 0, column: 0, value: None }",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [3.61, 3.58]
-    },
-    "RegExp": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [3.55, 3.49, 3.46]
-    },
-    "RayTrace": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [3.11, 2.95, 3.12, 3.17, 3.05]
+      "error": "SyntaxError: Unexpected token If",
+      "user": [0.0029],
+      "sys": [0.0019],
+      "real": [0.005],
+      "rss_mb": [24.25]
     },
     "Splay": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [3.07, 3.0]
+      "error": "ReferenceError: performance is not defined",
+      "user": [0.0048],
+      "sys": [0.001],
+      "real": [0.006],
+      "rss_mb": [23.59]
     },
     "SplayLatency": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [3.07, 3.0]
+      "error": "ReferenceError: performance is not defined",
+      "user": [0.0048],
+      "sys": [0.001],
+      "real": [0.006],
+      "rss_mb": [23.59]
     },
-    "DeltaBlue": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [3.11, 3.16]
+    "Crypto": {
+      "error": "SyntaxError: Unexpected identifier 'BI_RC'",
+      "user": [0.0032],
+      "sys": [0.001],
+      "real": [0.0045],
+      "rss_mb": [23.45]
     },
-    "PdfJS": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [9.57, 9.59]
+    "Box2D": {
+      "error": "SyntaxError: Unexpected token RightBrace",
+      "user": [0.002],
+      "sys": [0.002],
+      "real": [0.0043],
+      "rss_mb": [24.02]
+    },
+    "RegExp": {
+      "error": "SyntaxError: Unexpected token Slash",
+      "user": [0.0031],
+      "sys": [0.001],
+      "real": [0.0044],
+      "rss_mb": [24.59]
+    },
+    "RayTrace": {
+      "error": "ReferenceError: performance is not defined",
+      "user": [0.0052],
+      "sys": [0.0031],
+      "real": [0.0085],
+      "rss_mb": [23.23]
     },
     "Richards": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [2.97, 3.27, 2.8, 3.04]
+      "error": "SyntaxError: Unexpected identifier 'next'",
+      "user": [0.0039],
+      "sys": [0.001],
+      "real": [0.0051],
+      "rss_mb": [23.1]
     },
-    "CodeLoad": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0],
+    "zlib": {
+      "error": "SyntaxError: Unexpected token Slash",
+      "user": [0.0022],
       "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [3.44]
-    },
-    "Mandreel": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.01],
-      "rss_mb": [26.3]
-    },
-    "MandreelLatency": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.01],
-      "rss_mb": [26.3]
+      "real": [0.0025],
+      "rss_mb": [23.82]
     },
     "NavierStokes": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [2.88]
+      "error": "SyntaxError: Unexpected token BitwiseNot",
+      "user": [0.0022],
+      "sys": [0.0011],
+      "real": [0.0035],
+      "rss_mb": [23.12]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: Unexpected token RightParenthesis",
+      "user": [0.0059],
+      "sys": [0.0029],
+      "real": [0.0091],
+      "rss_mb": [37.89]
     },
     "Typescript": {
-      "error": "Error: \"Illegal hex characters\"",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [14.6]
+      "error": "SyntaxError: Unexpected identifier 'License'",
+      "user": [0.0074],
+      "sys": [0.0032],
+      "real": [0.011],
+      "rss_mb": [196.84]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: Unexpected token This",
+      "user": [0.0021],
+      "sys": [0.0011],
+      "real": [0.0034],
+      "rss_mb": [23.38]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: Unexpected identifier 'en'",
+      "user": [0.001],
+      "sys": [0.0029],
+      "real": [0.0042],
+      "rss_mb": [23.79]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: Unexpected token Slash",
+      "user": [0.0158],
+      "sys": [0.0079],
+      "real": [0.0249],
+      "rss_mb": [54.54]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: Unexpected token Slash",
+      "user": [0.0158],
+      "sys": [0.0079],
+      "real": [0.0249],
+      "rss_mb": [54.54]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: Unexpected identifier 'a'",
+      "user": [0.0043],
+      "sys": [0.0043],
+      "real": [0.0089],
+      "rss_mb": [48.92]
     }
   }
 }

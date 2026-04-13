@@ -2,21 +2,22 @@
   "binary": "twostroke",
   "metadata": {
     "arch": "arm64",
+    "binary_name": "twostroke",
     "console_log": "console.log",
-    "dist_size": 2884676,
+    "dist_size": 2884677,
     "engine": "twostroke",
     "repository": "https://github.com/charliesome/twostroke.git",
     "revision": "3e6d5366bad603e987f78027d472255707ec26fa",
     "revision_date": "2012-05-30"
   },
-  "time": "2026-03-04 00:54:55.002287 UTC",
+  "time": "2026-04-10 08:36:27.846045 UTC",
   "benchmarks": {
     "Richards": {
-      "score": [3.257, 3.287, 3.278, 3.278],
-      "user": [2.48, 2.44, 2.45, 2.45],
-      "sys": [0.03, 0.03, 0.03, 0.03],
-      "real": [2.52, 2.48, 2.48, 2.49],
-      "rss_mb": [22.16, 22.21, 22.25, 22.11]
+      "score": [3.281],
+      "user": [2.4444],
+      "sys": [0.0347],
+      "real": [2.4798],
+      "rss_mb": [22.22]
     }
   }
 }

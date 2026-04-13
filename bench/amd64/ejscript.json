@@ -2,135 +2,136 @@
   "binary": "ejscript",
   "metadata": {
     "arch": "amd64",
-    "cc": "gcc 16.0.1 20260226 (experimental) [trunk r16-7708-gf8380ded1f6] (Debian 16-20260226-1)",
+    "binary_name": "ejscript",
+    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "console_log": "print",
-    "dist_size": 1967048,
+    "dist_size": 1971130,
     "engine": "ejscript",
     "repository": "https://github.com/embedthis/ejscript.git",
     "revision": "bb38d46e96ad20e923821d31d4a37e64de926d5a",
     "revision_date": "2025-03-09",
     "version": "2.7.7-22-gbb38d46e9"
   },
-  "time": "2026-03-03 20:50:45.409894 UTC",
+  "time": "2026-04-10 05:11:09.245120 UTC",
   "benchmarks": {
-    "DeltaBlue": {
-      "error": "ejs: Error: Cannot open deltablue.js",
-      "user": [0.01, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "real": [0.01, 0.01, 0.01, 0.01, 0.01],
-      "rss_mb": [5.57, 5.35, 5.34, 5.38, 5.36]
-    },
-    "Richards": {
-      "error": "ejs: Error: Cannot open richards.js",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.01, 0.01],
-      "rss_mb": [5.45, 5.4]
-    },
-    "NavierStokes": {
-      "error": "ejs: Error: Cannot open navier-stokes.js",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.01],
-      "real": [0.01, 0.01, 0.01],
-      "rss_mb": [5.18, 5.48, 5.3]
-    },
-    "Crypto": {
-      "error": "ejs: Error: Cannot open crypto.js",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.01, 0.01, 0.01],
-      "rss_mb": [5.35, 5.45, 5.42]
-    },
-    "EarleyBoyer": {
-      "error": "ejs: Error: Cannot open earley-boyer.js",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.01, 0.01, 0.01, 0.01],
-      "rss_mb": [5.5, 5.48, 5.45, 5.45]
-    },
-    "Splay": {
-      "error": "ejs: Error: Cannot open splay.js",
-      "user": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.01, 0.0, 0.01, 0.0, 0.0],
-      "real": [0.01, 0.01, 0.02, 0.01, 0.01],
-      "rss_mb": [5.38, 5.45, 5.46, 5.22, 5.57]
-    },
-    "SplayLatency": {
-      "error": "ejs: Error: Cannot open splay.js",
-      "user": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.01, 0.0, 0.01, 0.0, 0.0],
-      "real": [0.01, 0.01, 0.02, 0.01, 0.01],
-      "rss_mb": [5.38, 5.45, 5.46, 5.22, 5.57]
-    },
-    "RegExp": {
-      "error": "ejs: Error: Cannot open regexp.js",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.01, 0.0, 0.01, 0.0],
-      "real": [0.01, 0.01, 0.01, 0.01],
-      "rss_mb": [5.38, 5.22, 5.57, 5.5]
-    },
     "Box2D": {
-      "error": "ejs: Error: Cannot open box2d.js",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.01, 0.0, 0.01],
-      "real": [0.01, 0.01, 0.02],
-      "rss_mb": [5.35, 5.45, 5.16]
-    },
-    "RayTrace": {
-      "error": "ejs: Error: Cannot open raytrace.js",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.01, 0.01],
-      "rss_mb": [5.49, 5.17]
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Too many iteration variables; Unexpected input \")\"; Unexpected input \"]\"; Expected input \")\"; Unexpected input \"]\"",
+      "user": [0.0176],
+      "sys": [0.0167],
+      "real": [0.0371],
+      "rss_mb": [19.41]
     },
     "CodeLoad": {
-      "error": "ejs: Error: Cannot open code-load.js",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.01],
-      "rss_mb": [5.45]
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0092],
+      "sys": [0.0133],
+      "real": [0.0258],
+      "rss_mb": [18.96]
     },
-    "Gameboy": {
-      "error": "ejs: Error: Cannot open gbemu.js",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.01, 0.01],
-      "rss_mb": [5.26, 5.38]
+    "DeltaBlue": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0158],
+      "sys": [0.0086],
+      "real": [0.0295],
+      "rss_mb": [18.9]
     },
-    "zlib": {
-      "error": "ejs: Error: Cannot open zlib.js",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.01],
-      "real": [0.01, 0.01],
-      "rss_mb": [5.37, 5.45]
+    "Crypto": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0214],
+      "sys": [0.0274],
+      "real": [0.0703],
+      "rss_mb": [35.06]
+    },
+    "Richards": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0101],
+      "sys": [0.0113],
+      "real": [0.0227],
+      "rss_mb": [19.08]
     },
     "Mandreel": {
-      "error": "ejs: Error: Cannot open mandreel.js",
-      "user": [0.0, 0.0],
-      "sys": [0.01, 0.0],
-      "real": [0.01, 0.01],
-      "rss_mb": [5.48, 5.25]
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented; Unexpected input \")\"; Unexpected input \"}\"",
+      "user": [0.9185],
+      "sys": [0.0711],
+      "real": [1.0101],
+      "rss_mb": [107.64]
     },
     "MandreelLatency": {
-      "error": "ejs: Error: Cannot open mandreel.js",
-      "user": [0.0, 0.0],
-      "sys": [0.01, 0.0],
-      "real": [0.01, 0.01],
-      "rss_mb": [5.48, 5.25]
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented; Unexpected input \")\"; Unexpected input \"}\"",
+      "user": [0.9185],
+      "sys": [0.0711],
+      "real": [1.0101],
+      "rss_mb": [107.64]
+    },
+    "zlib": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0134],
+      "sys": [0.0126],
+      "real": [0.0276],
+      "rss_mb": [19.4]
+    },
+    "NavierStokes": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0089],
+      "sys": [0.0156],
+      "real": [0.0268],
+      "rss_mb": [18.85]
     },
     "Typescript": {
-      "error": "ejs: Error: Cannot open typescript.js",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.01],
-      "rss_mb": [5.22]
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented",
+      "user": [0.5064],
+      "sys": [0.2145],
+      "real": [0.7423],
+      "rss_mb": [372.54]
+    },
+    "Splay": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0107],
+      "sys": [0.011],
+      "real": [0.0232],
+      "rss_mb": [18.86]
+    },
+    "SplayLatency": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0107],
+      "sys": [0.011],
+      "real": [0.0232],
+      "rss_mb": [18.86]
+    },
+    "EarleyBoyer": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0564],
+      "sys": [0.0612],
+      "real": [0.1192],
+      "rss_mb": [89.34]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Expected input \"[\"; Expecting \":\"; Unexpected input \"]\"; Unexpected input \"}\"",
+      "user": [0.0193],
+      "sys": [0.0154],
+      "real": [0.0364],
+      "rss_mb": [20.52]
     },
     "PdfJS": {
-      "error": "ejs: Error: Cannot open pdfjs.js",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.01],
-      "rss_mb": [5.58]
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Unexpected input \")\"; Attribute \"override\" not supported on local variables; Labeled statements are not yet implemented; Expected input \")\"; Unexpected input \"in\"; U...",
+      "user": [0.8208],
+      "sys": [0.2324],
+      "real": [1.0745],
+      "rss_mb": [592.07]
+    },
+    "RegExp": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Unexpected input \"/=\"",
+      "user": [0.0442],
+      "sys": [0.0313],
+      "real": [0.0771],
+      "rss_mb": [50.48]
+    },
+    "RayTrace": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.017],
+      "sys": [0.0158],
+      "real": [0.0343],
+      "rss_mb": [18.96]
     }
   }
 }

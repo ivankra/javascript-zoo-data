@@ -2,23 +2,24 @@
   "binary": "tiny-js",
   "metadata": {
     "arch": "arm64",
-    "binary_sha256": "b7614bf9fcf3162f615502d5031c691d4f6da8724c79404f2412aab2bd77d4f3",
+    "binary_name": "tiny-js",
+    "binary_sha256": "f10a9ce29db69c6eb3698e7e5679e401baed17ec29a68934555832cff7ebecbb",
     "binary_size": 199560,
-    "cc": "gcc 15.2.0 (Debian 15.2.0-14)",
-    "console_log": "console.log",
+    "cc": "gcc 15.2.0 (Debian 15.2.0-16)",
+    "console_log": ["console.log", "print"],
     "engine": "tiny-js",
     "repository": "https://github.com/gfwilliams/tiny-js.git",
     "revision": "821447737f3d2f79139cef97be16f4513dd75099",
     "revision_date": "2026-02-24"
   },
-  "time": "2026-03-04 03:09:43.101749 UTC",
+  "time": "2026-04-10 08:30:45.929254 UTC",
   "benchmarks": {
     "Richards": {
-      "error": "14.073990 ERROR: Error Expecting 'quit' to be a function at (line: 414, col: 3)",
-      "user": [14.08, 14.05, 14.08],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [14.08, 14.06, 14.08],
-      "rss_mb": [6.22, 6.07, 6.16]
+      "error": "FAIL: Expecting 'quit' to be a function",
+      "user": [14.0546],
+      "sys": [0.003],
+      "real": [14.059],
+      "rss_mb": [21.99]
     }
   }
 }

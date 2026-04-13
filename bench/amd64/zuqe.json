@@ -1,0 +1,138 @@
+{
+  "binary": "zuqe",
+  "metadata": {
+    "arch": "amd64",
+    "binary_name": "zuqe",
+    "binary_sha256": "0522d0cfa82d3346addf5dd1494d5737a891a63e4f108d0a5dacadfa339bacaa",
+    "binary_size": 2614512,
+    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "console_log": ["console.log", "print"],
+    "engine": "zuqe",
+    "repository": "https://github.com/nupha/zuqe.git",
+    "revision": "3d05a00633375b3aa139db116f0763e829957745",
+    "revision_date": "2026-03-11",
+    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
+  },
+  "time": "2026-04-10 05:47:58.377837 UTC",
+  "benchmarks": {
+    "PdfJS": {
+      "error": "EXIT: 1",
+      "user": [0.8871],
+      "sys": [0.004],
+      "real": [0.8914],
+      "rss_mb": [30.28]
+    },
+    "Typescript": {
+      "error": "EXIT: 1",
+      "user": [0.5333, 0.5302],
+      "sys": [0.004, 0.006],
+      "real": [0.5378, 0.5366],
+      "rss_mb": [33.39, 33.27]
+    },
+    "DeltaBlue": {
+      "score": [336],
+      "user": [2.0174],
+      "sys": [0.0],
+      "real": [2.0179],
+      "rss_mb": [23.47]
+    },
+    "EarleyBoyer": {
+      "error": "EXIT: 1",
+      "user": [0.0511, 0.0488],
+      "sys": [0.001, 0.003],
+      "real": [0.0523, 0.0521],
+      "rss_mb": [23.7, 23.65]
+    },
+    "RayTrace": {
+      "error": "FAIL: No scores in the output",
+      "user": [4.6194],
+      "sys": [0.003],
+      "real": [4.6237],
+      "rss_mb": [23.23]
+    },
+    "Richards": {
+      "score": [330],
+      "user": [2.0152],
+      "sys": [0.001],
+      "real": [2.0167],
+      "rss_mb": [23.14]
+    },
+    "Box2D": {
+      "error": "EXIT: 1",
+      "user": [0.0731, 0.0738],
+      "sys": [0.003, 0.003],
+      "real": [0.0764, 0.077],
+      "rss_mb": [23.71, 23.71]
+    },
+    "Splay": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.9263, 1799.8869],
+      "sys": [0.046, 0.05],
+      "real": [1800.101, 1800.101],
+      "rss_mb": [23.3, 23.59]
+    },
+    "SplayLatency": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.9263, 1799.8869],
+      "sys": [0.046, 0.05],
+      "real": [1800.101, 1800.101],
+      "rss_mb": [23.3, 23.59]
+    },
+    "Crypto": {
+      "score": [281],
+      "user": [16.591],
+      "sys": [0.002],
+      "real": [16.5944],
+      "rss_mb": [23.72]
+    },
+    "zlib": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.1687],
+      "sys": [0.005],
+      "real": [0.174],
+      "rss_mb": [24.0]
+    },
+    "Mandreel": {
+      "error": "EXIT: 1",
+      "user": [1.8483, 1.6524],
+      "sys": [0.009, 0.004],
+      "real": [1.8578, 1.6569],
+      "rss_mb": [53.39, 53.42]
+    },
+    "MandreelLatency": {
+      "error": "EXIT: 1",
+      "user": [1.8483, 1.6524],
+      "sys": [0.009, 0.004],
+      "real": [1.8578, 1.6569],
+      "rss_mb": [53.39, 53.42]
+    },
+    "Gameboy": {
+      "error": "EXIT: 1",
+      "user": [0.1794],
+      "sys": [0.004],
+      "real": [0.1837],
+      "rss_mb": [25.5]
+    },
+    "CodeLoad": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.5384, 0.5499],
+      "sys": [0.001, 0.001],
+      "real": [0.5397, 0.5513],
+      "rss_mb": [23.57, 23.43]
+    },
+    "NavierStokes": {
+      "score": [443, 471, 471, 469],
+      "user": [7.0485, 6.3292, 6.3112, 6.3262],
+      "sys": [0.006, 0.001, 0.003, 0.003],
+      "real": [7.0556, 6.3312, 6.3155, 6.3311],
+      "rss_mb": [23.35, 23.2, 23.48, 23.2]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [12.6312, 12.7339],
+      "sys": [0.009, 0.005],
+      "real": [12.6438, 12.7415],
+      "rss_mb": [23.77, 23.73]
+    }
+  }
+}

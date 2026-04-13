@@ -2,131 +2,131 @@
   "binary": "mujs_babel",
   "metadata": {
     "arch": "arm64",
+    "binary_name": "mujs_babel",
     "console_log": "console.log",
-    "dist_size": 24131824,
-    "engine": "mujs",
-    "variant": "babel"
+    "dist_size": 24288678,
+    "engine": "mujs"
   },
-  "time": "2026-03-03 21:39:40.323674 UTC",
+  "time": "2026-04-10 06:44:00.550056 UTC",
   "benchmarks": {
-    "NavierStokes": {
-      "score": [644, 644, 644, 644],
-      "user": [6.91, 6.93, 7.0, 6.9],
-      "sys": [0.22, 0.23, 0.28, 0.2],
-      "real": [6.68, 6.7, 7.05, 6.67],
-      "rss_mb": [217.4, 217.44, 216.73, 219.15]
-    },
-    "Gameboy": {
-      "error": "Exit code: 137",
-      "user": [68.74, 68.74, 67.53, 67.93, 68.1],
-      "sys": [7.39, 6.59, 6.5, 5.97, 6.5],
-      "real": [167.12, 104.09, 133.47, 92.75999999999999, 136.49],
-      "rss_mb": [15441.72, 15429.73, 15421.09, 15388.26, 15401.82]
-    },
-    "DeltaBlue": {
-      "score": [479, 479],
-      "user": [3.21, 3.19],
-      "sys": [0.23, 0.25],
-      "real": [2.96, 2.97],
-      "rss_mb": [233.16, 225.39]
-    },
-    "RegExp": {
-      "error": "RegExp: Error: Wrong checksum.",
-      "user": [2.07, 2.25, 2.17, 2.11, 2.08],
-      "sys": [0.31, 0.3, 0.31, 0.29, 0.26],
-      "real": [1.67, 1.79, 1.73, 1.67, 1.66],
-      "rss_mb": [297.81, 300.17, 301.28, 304.12, 298.16]
-    },
-    "Crypto": {
-      "score": [259, 259, 258, 259],
-      "user": [18.99, 18.97, 19.14, 19.07],
-      "sys": [0.24, 0.26, 0.24, 0.3],
-      "real": [18.64, 18.63, 18.73, 18.73],
-      "rss_mb": [270.32, 271.56, 272.88, 269.16]
-    },
-    "EarleyBoyer": {
-      "error": "\u001b[1m\u001b[31m[!] \u001b[1m(plugin commonjs--resolver) SyntaxError: /tmp/mujs_babel-earley-boyer-40pm7we5/earley-boyer.js: The only valid numeric escape in strict mode is '\\0'. (1497:6)",
-      "user": [15.69, 16.99, 17.19, 15.8],
-      "sys": [0.13, 0.13, 0.15, 0.14],
-      "real": [15.74, 17.04, 17.26, 15.87],
-      "rss_mb": [117.08, 115.7, 116.7, 115.52]
+    "zlib": {
+      "error": "EvalError: <script>:449: invalid use of 'eval'undefined",
+      "user": [0.3642],
+      "sys": [0.1026],
+      "real": [0.3968],
+      "rss_mb": [113.92]
     },
     "RayTrace": {
-      "score": [555, 558],
-      "user": [6.5, 6.51],
-      "sys": [0.23, 0.22],
-      "real": [6.25, 6.23],
-      "rss_mb": [236.85, 232.07]
+      "score": [577, 583, 565],
+      "user": [6.4685, 6.3612, 6.5588],
+      "sys": [0.2365, 0.2087, 0.2401],
+      "real": [6.2071, 6.0959, 6.3123],
+      "rss_mb": [236.17, 236.84, 235.32]
     },
-    "Splay": {
-      "score": [1472, 1521, 1467, 1395],
-      "user": [4.11, 4.05, 4.14, 4.23],
-      "sys": [0.44, 0.42, 0.42, 0.44],
-      "real": [4.08, 4.02, 4.08, 4.17],
-      "rss_mb": [757.15, 782.78, 754.64, 734.53]
+    "CodeLoad": {
+      "error": "EvalError: <script>:4386: invalid use of 'eval'undefined",
+      "user": [1.3011, 1.203],
+      "sys": [0.2755, 0.267],
+      "real": [1.0597, 0.9885],
+      "rss_mb": [244.03, 247.39]
     },
-    "SplayLatency": {
-      "score": [3240, 3361, 3229, 3029],
-      "user": [4.11, 4.05, 4.14, 4.23],
-      "sys": [0.44, 0.42, 0.42, 0.44],
-      "real": [4.08, 4.02, 4.08, 4.17],
-      "rss_mb": [757.15, 782.78, 754.64, 734.53]
-    },
-    "Typescript": {
-      "error": "\u001b[1m\u001b[31m[!] \u001b[1m(plugin commonjs--resolver) SyntaxError: /tmp/mujs_babel-typescript-1v3kbo51/typescript.js: Binding 'arguments' in strict mode. (1930:50)",
-      "user": [0.49, 0.5],
-      "sys": [0.1, 0.11],
-      "real": [0.47, 0.49],
-      "rss_mb": [123.66, 120.05]
-    },
-    "Box2D": {
-      "score": [491, 496],
-      "user": [11.61, 11.61],
-      "sys": [0.33, 0.27],
-      "real": [10.8, 10.74],
-      "rss_mb": [332.23, 326.31]
-    },
-    "Richards": {
-      "score": [324, 325],
-      "user": [3.21, 3.19],
-      "sys": [0.28, 0.22],
-      "real": [3.27, 2.95],
-      "rss_mb": [215.37, 215.5]
+    "NavierStokes": {
+      "score": [648],
+      "user": [6.8839],
+      "sys": [0.2014],
+      "real": [6.6448],
+      "rss_mb": [213.08]
     },
     "PdfJS": {
       "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [5.4, 5.41, 5.33],
-      "sys": [0.62, 0.6, 0.57],
-      "real": [3.93, 3.91, 3.85],
-      "rss_mb": [755.77, 779.35, 757.24]
+      "user": [5.4409, 5.265, 5.2661, 5.153],
+      "sys": [0.5727, 0.631, 0.6163, 0.6034],
+      "real": [3.8907, 3.8428, 3.882, 3.7593],
+      "rss_mb": [760.5, 773.07, 750.05, 781.41]
+    },
+    "Gameboy": {
+      "error": "OOM: >4096MB",
+      "user": [3.0362, 3.0025],
+      "sys": [0.3866, 0.3632],
+      "real": [8.941, 8.896],
+      "rss_mb": [4129.98, 4103.71]
+    },
+    "DeltaBlue": {
+      "score": [485, 487, 485, 484, 487],
+      "user": [3.204, 3.2072, 3.2874, 3.3017, 3.1826],
+      "sys": [0.2425, 0.2378, 0.2218, 0.2207, 0.2373],
+      "real": [2.9773, 2.9855, 3.0053, 3.0254, 2.9612],
+      "rss_mb": [230.26, 230.86, 233.24, 238.27, 232.14]
     },
     "Mandreel": {
-      "error": "\u001b[1m\u001b[31m[!] \u001b[1m(plugin commonjs--resolver) SyntaxError: /tmp/mujs_babel-mandreel-oxosy39l/mandreel.js: Identifier 'assert' has already been declared. (3804:9)",
-      "user": [0.65, 0.68],
-      "sys": [0.15, 0.14],
-      "real": [0.68, 0.69],
-      "rss_mb": [144.01, 148.69]
+      "error": "SyntaxError: jump address integer overflowundefined",
+      "user": [0.6532, 0.6307],
+      "sys": [0.1642, 0.1616],
+      "real": [0.6886, 0.67],
+      "rss_mb": [144.2, 144.79]
     },
     "MandreelLatency": {
-      "error": "\u001b[1m\u001b[31m[!] \u001b[1m(plugin commonjs--resolver) SyntaxError: /tmp/mujs_babel-mandreel-oxosy39l/mandreel.js: Identifier 'assert' has already been declared. (3804:9)",
-      "user": [0.65, 0.68],
-      "sys": [0.15, 0.14],
-      "real": [0.68, 0.69],
-      "rss_mb": [144.01, 148.69]
+      "error": "SyntaxError: jump address integer overflowundefined",
+      "user": [0.6532, 0.6307],
+      "sys": [0.1642, 0.1616],
+      "real": [0.6886, 0.67],
+      "rss_mb": [144.2, 144.79]
     },
-    "CodeLoad": {
-      "error": "EvalError: /tmp/tmp.bHVbyTLkZL.js:4377: invalid use of 'eval'undefined",
-      "user": [1.34],
-      "sys": [0.26],
-      "real": [1.07],
-      "rss_mb": [244.64]
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [2.2284],
+      "sys": [0.2938],
+      "real": [1.7867],
+      "rss_mb": [299.07]
     },
-    "zlib": {
-      "error": "\u001b[1m\u001b[31m[!] \u001b[1m(plugin commonjs--resolver) SyntaxError: /tmp/mujs_babel-zlib-twfmp4zs/zlib.js: Deleting local variable in strict mode. (471:2)",
-      "user": [0.39],
-      "sys": [0.11],
-      "real": [0.43],
-      "rss_mb": [113.88]
+    "Richards": {
+      "score": [328, 328],
+      "user": [3.159, 3.2353],
+      "sys": [0.2192, 0.2125],
+      "real": [2.9205, 2.9606],
+      "rss_mb": [209.5, 212.86]
+    },
+    "Typescript": {
+      "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: Binding 'arguments' in strict mode. (1917:50)",
+      "user": [0.4889],
+      "sys": [0.1185],
+      "real": [0.482],
+      "rss_mb": [120.94]
+    },
+    "Splay": {
+      "score": [1461, 1589, 1371],
+      "user": [4.1393, 3.9381, 4.3211],
+      "sys": [0.412, 0.4339, 0.447],
+      "real": [4.0756, 3.9427, 4.2691],
+      "rss_mb": [764.98, 816.04, 737.77]
+    },
+    "SplayLatency": {
+      "score": [3383, 3560, 3041],
+      "user": [4.1393, 3.9381, 4.3211],
+      "sys": [0.412, 0.4339, 0.447],
+      "real": [4.0756, 3.9427, 4.2691],
+      "rss_mb": [764.98, 816.04, 737.77]
+    },
+    "Crypto": {
+      "score": [262],
+      "user": [18.9528],
+      "sys": [0.267],
+      "real": [18.5805],
+      "rss_mb": [266.97]
+    },
+    "Box2D": {
+      "score": [396],
+      "user": [13.8912],
+      "sys": [0.3279],
+      "real": [13.0353],
+      "rss_mb": [325.5]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: The only valid numeric escape in strict mode is '\\0'. (1484:6)",
+      "user": [16.5465, 14.9187],
+      "sys": [0.1526, 0.1256],
+      "real": [16.615, 14.9737],
+      "rss_mb": [117.27, 115.27]
     }
   }
 }

@@ -1,0 +1,138 @@
+{
+  "binary": "chakracore_full",
+  "metadata": {
+    "arch": "amd64",
+    "binary_name": "chakracore_full",
+    "binary_sha256": "6ed45cdf74d88514faeddede40e9c3f3d8c490c21bbbf5ef246ad392e3145f2b",
+    "binary_size": 40154392,
+    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "console_log": ["console.log", "print"],
+    "engine": "chakracore",
+    "jit": "",
+    "repository": "https://github.com/chakra-core/ChakraCore.git",
+    "revision": "97e68c9174209413f621deb2f963941550ef6f22",
+    "revision_date": "2026-02-19"
+  },
+  "time": "2026-04-10 05:10:35.721537 UTC",
+  "benchmarks": {
+    "Richards": {
+      "score": [230],
+      "user": [2.0243],
+      "sys": [0.005],
+      "real": [2.0317],
+      "rss_mb": [23.78]
+    },
+    "Gameboy": {
+      "score": [2112, 2146],
+      "user": [5.039, 4.9646],
+      "sys": [0.031, 0.022],
+      "real": [5.0608, 4.9805],
+      "rss_mb": [48.59, 49.54]
+    },
+    "Mandreel": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.1746, 1.1529],
+      "sys": [0.049, 0.046],
+      "real": [1.2262, 1.2011],
+      "rss_mb": [97.8, 97.7]
+    },
+    "MandreelLatency": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.1746, 1.1529],
+      "sys": [0.049, 0.046],
+      "real": [1.2262, 1.2011],
+      "rss_mb": [97.8, 97.7]
+    },
+    "EarleyBoyer": {
+      "score": [744],
+      "user": [14.8843],
+      "sys": [0.09],
+      "real": [14.9035],
+      "rss_mb": [135.15]
+    },
+    "Splay": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1803.9356],
+      "sys": [0.232],
+      "real": [1800.1016],
+      "rss_mb": [60.93]
+    },
+    "SplayLatency": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1803.9356],
+      "sys": [0.232],
+      "real": [1800.1016],
+      "rss_mb": [60.93]
+    },
+    "PdfJS": {
+      "score": [2264],
+      "user": [2.84],
+      "sys": [0.112],
+      "real": [2.9201],
+      "rss_mb": [185.21]
+    },
+    "CodeLoad": {
+      "score": [20076, 19189],
+      "user": [1.9187, 1.9402],
+      "sys": [0.231, 0.2012],
+      "real": [2.099, 2.0979],
+      "rss_mb": [307.02, 296.21]
+    },
+    "NavierStokes": {
+      "score": [480],
+      "user": [6.2499],
+      "sys": [0.008],
+      "real": [6.2602],
+      "rss_mb": [23.8]
+    },
+    "DeltaBlue": {
+      "score": [199, 199],
+      "user": [3.1013, 3.0774],
+      "sys": [0.011, 0.013],
+      "real": [3.1122, 3.0907],
+      "rss_mb": [30.5, 30.3]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.077, 0.0645],
+      "sys": [0.009, 0.0131],
+      "real": [0.0882, 0.0797],
+      "rss_mb": [32.84, 32.95]
+    },
+    "Box2D": {
+      "score": [1270],
+      "user": [3.8774],
+      "sys": [0.024],
+      "real": [3.8882],
+      "rss_mb": [50.99]
+    },
+    "RayTrace": {
+      "score": [466],
+      "user": [6.6624],
+      "sys": [0.1181],
+      "real": [6.681],
+      "rss_mb": [181.79]
+    },
+    "zlib": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0676],
+      "sys": [0.0242],
+      "real": [0.094],
+      "rss_mb": [160.18]
+    },
+    "Crypto": {
+      "error": "FAIL: No scores in the output",
+      "user": [2.31],
+      "sys": [0.011],
+      "real": [2.3216],
+      "rss_mb": [35.59]
+    },
+    "Typescript": {
+      "score": [4099],
+      "user": [31.263],
+      "sys": [0.183],
+      "real": [31.1841],
+      "rss_mb": [166.58]
+    }
+  }
+}

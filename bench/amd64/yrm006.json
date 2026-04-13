@@ -2,135 +2,136 @@
   "binary": "yrm006",
   "metadata": {
     "arch": "amd64",
-    "binary_sha256": "5bbb067491ec3c9ab3ce3c341b166c340609e97c19a5b4d5822338260cf26ced",
+    "binary_name": "yrm006",
+    "binary_sha256": "d462149fe68d2f79ec16fc5bb37f8590a2d97b45c7d057b7f48336498592b961",
     "binary_size": 51576,
-    "cc": "gcc 16.0.1 20260226 (experimental) [trunk r16-7708-gf8380ded1f6] (Debian 16-20260226-1)",
+    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "console_log": "print",
     "engine": "yrm006",
     "repository": "https://github.com/yrm006/miniscript.git",
     "revision": "a4730b54e8cb519d6b62f9ef3fe3a51e2072f94d",
     "revision_date": "2018-08-29"
   },
-  "time": "2026-03-03 20:43:12.437729 UTC",
+  "time": "2026-04-10 05:19:39.255475 UTC",
   "benchmarks": {
-    "Typescript": {
-      "error": "Killed by signal 11 (SIGSEGV)",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.09, 0.08, 0.07, 0.07],
-      "rss_mb": [3.96, 4.02, 3.96, 4.02]
-    },
-    "Gameboy": {
-      "error": "Killed by signal 11 (SIGSEGV)",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.12, 0.1],
-      "rss_mb": [1.95, 2.02]
-    },
-    "DeltaBlue": {
-      "error": "Error: not found.('typeof')",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [1.73]
-    },
-    "PdfJS": {
-      "error": "Killed by signal 11 (SIGSEGV)",
-      "user": [0.0],
-      "sys": [0.0],
-      "real": [0.13],
-      "rss_mb": [3.16]
-    },
-    "NavierStokes": {
-      "error": "Error: not found.('typeof')",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [1.79, 1.61]
-    },
-    "Crypto": {
-      "error": "Error: not found.('typeof')",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.74, 1.74, 1.61, 1.61]
-    },
     "EarleyBoyer": {
-      "error": "Killed by signal 11 (SIGSEGV)",
+      "error": "CRASH: SIGSEGV",
       "user": [0.0],
-      "sys": [0.0],
-      "real": [0.07],
-      "rss_mb": [1.58]
-    },
-    "RegExp": {
-      "error": "Killed by signal 11 (SIGSEGV)",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.11, 0.08],
-      "rss_mb": [1.59, 1.73]
-    },
-    "Box2D": {
-      "error": "Killed by signal 11 (SIGSEGV)",
-      "user": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "real": [0.07, 0.07, 0.05, 0.11, 0.08],
-      "rss_mb": [1.75, 1.71, 1.71, 1.75, 1.72]
-    },
-    "RayTrace": {
-      "error": "Error: not found.('typeof')",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.64, 1.63, 1.79, 1.77]
+      "sys": [0.0028],
+      "real": [0.0866],
+      "rss_mb": [19.14]
     },
     "Richards": {
-      "error": "Error: not found.('typeof')",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [1.62, 1.69]
-    },
-    "Mandreel": {
-      "error": "Killed by signal 11 (SIGSEGV)",
+      "error": "EXIT: 1",
       "user": [0.0],
-      "sys": [0.0],
-      "real": [0.08],
-      "rss_mb": [8.26]
+      "sys": [0.0016],
+      "real": [0.0029],
+      "rss_mb": [18.95]
     },
-    "MandreelLatency": {
-      "error": "Killed by signal 11 (SIGSEGV)",
+    "DeltaBlue": {
+      "error": "EXIT: 1",
       "user": [0.0],
-      "sys": [0.0],
-      "real": [0.08],
-      "rss_mb": [8.26]
+      "sys": [0.002],
+      "real": [0.0031],
+      "rss_mb": [18.91]
     },
-    "Splay": {
-      "error": "Error: not found.('typeof')",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [1.63, 1.77]
+    "PdfJS": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0],
+      "sys": [0.0037],
+      "real": [0.0924],
+      "rss_mb": [24.59]
     },
-    "SplayLatency": {
-      "error": "Error: not found.('typeof')",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [1.63, 1.77]
+    "RegExp": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0],
+      "sys": [0.0025],
+      "real": [0.1028],
+      "rss_mb": [19.25]
     },
     "zlib": {
-      "error": "Killed by signal 11 (SIGSEGV)",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.07, 0.09],
-      "rss_mb": [1.91, 1.86]
+      "error": "CRASH: SIGSEGV",
+      "user": [0.001],
+      "sys": [0.0016],
+      "real": [0.0753],
+      "rss_mb": [19.38]
+    },
+    "RayTrace": {
+      "error": "EXIT: 1",
+      "user": [0.0],
+      "sys": [0.002],
+      "real": [0.0031],
+      "rss_mb": [18.98]
+    },
+    "NavierStokes": {
+      "error": "EXIT: 1",
+      "user": [0.0],
+      "sys": [0.0022],
+      "real": [0.0034],
+      "rss_mb": [18.96]
+    },
+    "Crypto": {
+      "error": "EXIT: 1",
+      "user": [0.0019],
+      "sys": [0.0],
+      "real": [0.0027],
+      "rss_mb": [19.14]
+    },
+    "Box2D": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0016],
+      "sys": [0.0016],
+      "real": [0.0913],
+      "rss_mb": [19.32]
+    },
+    "Gameboy": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0],
+      "sys": [0.0031],
+      "real": [0.0724],
+      "rss_mb": [20.98]
+    },
+    "Mandreel": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0],
+      "sys": [0.0069],
+      "real": [0.0757],
+      "rss_mb": [39.19]
+    },
+    "MandreelLatency": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0],
+      "sys": [0.0069],
+      "real": [0.0757],
+      "rss_mb": [39.19]
+    },
+    "Splay": {
+      "error": "EXIT: 1",
+      "user": [0.0],
+      "sys": [0.0019],
+      "real": [0.0029],
+      "rss_mb": [19.16]
+    },
+    "SplayLatency": {
+      "error": "EXIT: 1",
+      "user": [0.0],
+      "sys": [0.0019],
+      "real": [0.0029],
+      "rss_mb": [19.16]
+    },
+    "Typescript": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0],
+      "sys": [0.0049],
+      "real": [0.0908],
+      "rss_mb": [28.96]
     },
     "CodeLoad": {
-      "error": "Killed by signal 11 (SIGSEGV)",
+      "error": "CRASH: SIGSEGV",
       "user": [0.0],
-      "sys": [0.0],
-      "real": [0.13],
-      "rss_mb": [1.57]
+      "sys": [0.0025],
+      "real": [0.0719],
+      "rss_mb": [18.98]
     }
   }
 }

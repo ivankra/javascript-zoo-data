@@ -2,136 +2,137 @@
   "binary": "cesanta-mjs",
   "metadata": {
     "arch": "arm64",
-    "binary_sha256": "11cc2433b9f13a1095d1f3cd8c17c3b85e8b6e6c8b5b921f13a4762627c8bc52",
+    "binary_name": "cesanta-mjs",
+    "binary_sha256": "441c620c056adcbaf7dac4d3d25c3eb4403e90378680e7080eef8f8dd8d93b4d",
     "binary_size": 199688,
-    "cc": "gcc 16.0.1 20260226 (experimental) [trunk r16-7708-gf8380ded1f6] (Debian 16-20260226-1)",
+    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "console_log": "print",
     "engine": "cesanta-mjs",
     "repository": "https://github.com/cesanta/mjs.git",
-    "revision": "a333d3336e4c4ddb9d9345b0a0cca77dac86f039",
-    "revision_date": "2026-02-11",
-    "version": "2.20.0-30-ga333d33"
+    "revision": "cf375c40f6f15447af4925c33cd7c549b54deb2c",
+    "revision_date": "2026-03-16",
+    "version": "2.20.0-32-gcf375c4"
   },
-  "time": "2026-03-03 21:30:12.212042 UTC, 2026-03-03 21:39:35.324869 UTC",
+  "time": "2026-04-10 06:24:05.437486 UTC",
   "benchmarks": {
-    "Typescript": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [3.83, 3.82, 3.83, 3.81, 3.81, 3.83]
-    },
     "PdfJS": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [2.83, 2.83, 2.81, 2.82]
-    },
-    "Splay": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.42, 1.45, 1.45, 1.45, 1.45, 1.44, 1.45]
-    },
-    "SplayLatency": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.42, 1.45, 1.45, 1.45, 1.45, 1.44, 1.45]
-    },
-    "Box2D": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.48, 1.48, 1.56, 1.56]
-    },
-    "EarleyBoyer": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.58, 1.57, 1.58, 1.56]
-    },
-    "CodeLoad": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.45, 1.45, 1.44, 1.45, 1.44, 1.44]
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0011],
+      "real": [0.0013],
+      "rss_mb": [29.02]
     },
     "RayTrace": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.45, 1.44, 1.45, 1.45]
-    },
-    "zlib": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0, 0.0, 0.0],
-      "rss_mb": [1.58, 1.58, 1.58, 1.57, 1.57]
-    },
-    "Mandreel": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [6.2, 6.2, 6.11]
-    },
-    "MandreelLatency": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [6.2, 6.2, 6.11]
-    },
-    "Gameboy": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0],
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0006],
       "sys": [0.0],
-      "real": [0.0],
-      "rss_mb": [1.83]
+      "real": [0.001],
+      "rss_mb": [22.19]
     },
-    "Richards": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [1.45, 1.45, 1.44]
+    "Box2D": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0007],
+      "sys": [0.0],
+      "real": [0.001],
+      "rss_mb": [22.66]
+    },
+    "Splay": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0006],
+      "real": [0.001],
+      "rss_mb": [22.39]
+    },
+    "SplayLatency": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0006],
+      "real": [0.001],
+      "rss_mb": [22.39]
     },
     "RegExp": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [1.45, 1.45, 1.41]
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0007],
+      "sys": [0.0],
+      "real": [0.001],
+      "rss_mb": [22.65]
     },
     "NavierStokes": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [1.45, 1.45, 1.45]
-    },
-    "DeltaBlue": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [1.45, 1.45]
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0006],
+      "real": [0.0009],
+      "rss_mb": [22.21]
     },
     "Crypto": {
-      "error": "MJS error: parse error at line 3: [else if (t]",
-      "user": [0.0, 0.0],
-      "sys": [0.0, 0.0],
-      "real": [0.0, 0.0],
-      "rss_mb": [1.45, 1.45]
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0006],
+      "sys": [0.0],
+      "real": [0.0015],
+      "rss_mb": [22.53]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0005],
+      "real": [0.0009],
+      "rss_mb": [22.25]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0009],
+      "rss_mb": [24.29]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.001],
+      "rss_mb": [22.47]
+    },
+    "Richards": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0005],
+      "real": [0.0009],
+      "rss_mb": [22.19]
+    },
+    "Typescript": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0015],
+      "real": [0.0017],
+      "rss_mb": [32.38]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0011],
+      "rss_mb": [22.44]
+    },
+    "zlib": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0016],
+      "rss_mb": [22.78]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0023],
+      "real": [0.0025],
+      "rss_mb": [52.44]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0023],
+      "real": [0.0025],
+      "rss_mb": [52.44]
     }
   }
 }

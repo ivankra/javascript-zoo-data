@@ -2,6 +2,7 @@
   "binary": "continuum",
   "metadata": {
     "arch": "amd64",
+    "binary_name": "continuum",
     "console_log": "console.log",
     "dist_size": 882640,
     "engine": "continuum",
@@ -9,126 +10,126 @@
     "revision": "9647c7d9c4c7b1ce770ccdd1683597b4319a9e1c",
     "revision_date": "2014-06-25"
   },
-  "time": "2026-03-03 20:49:15.007950 UTC",
+  "time": "2026-04-10 05:10:38.927492 UTC",
   "benchmarks": {
+    "RayTrace": {
+      "error": "TypeError: Cannot convert undefined to object",
+      "user": [355.0771],
+      "sys": [0.3481],
+      "real": [354.5606],
+      "rss_mb": [270.97]
+    },
+    "Crypto": {
+      "error": "TypeError: Cannot convert undefined to object",
+      "user": [91.2746],
+      "sys": [0.2192],
+      "real": [90.6815],
+      "rss_mb": [276.21]
+    },
     "Gameboy": {
-      "error": "Uncaught Exception in base64_decode at line 706",
-      "user": [230.06, 228.25],
-      "sys": [0.36, 0.3],
-      "real": [229.13, 227.3],
-      "rss_mb": [451.66, 451.69]
+      "error": "TypeError: Cannot convert undefined to object; decode64 is not defined; Cannot convert undefined to object",
+      "user": [217.4153],
+      "sys": [0.3831],
+      "real": [216.4791],
+      "rss_mb": [460.2]
     },
     "Mandreel": {
       "error": "ReferenceError: label is not defined",
-      "user": [9.84, 10.5, 10.76],
-      "sys": [0.92, 0.82, 0.94],
-      "real": [7.23, 7.39, 7.73],
-      "rss_mb": [1493.21, 1495.63, 1486.79]
+      "user": [10.2253],
+      "sys": [1.188],
+      "real": [7.5264],
+      "rss_mb": [1491.07]
     },
     "MandreelLatency": {
       "error": "ReferenceError: label is not defined",
-      "user": [9.84, 10.5, 10.76],
-      "sys": [0.92, 0.82, 0.94],
-      "real": [7.23, 7.39, 7.73],
-      "rss_mb": [1493.21, 1495.63, 1486.79]
-    },
-    "zlib": {
-      "error": "ReferenceError: label is not defined",
-      "user": [1.68, 1.72],
-      "sys": [0.18, 0.17],
-      "real": [1.05, 1.07],
-      "rss_mb": [306.06, 303.3]
-    },
-    "Typescript": {
-      "error": "ReferenceError: label is not defined",
-      "user": [2.05, 2.08, 2.15, 2.06],
-      "sys": [0.24, 0.23, 0.23, 0.25],
-      "real": [1.37, 1.37, 1.53, 1.37],
-      "rss_mb": [377.79, 379.98, 379.32, 379.62]
-    },
-    "Crypto": {
-      "error": "Uncaught Exception in decrypt at line 2112",
-      "user": [92.37, 92.04],
-      "sys": [0.23, 0.25],
-      "real": [91.73, 91.43],
-      "rss_mb": [278.38, 277.61]
-    },
-    "PdfJS": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'Get')",
-      "user": [2.83, 2.82, 2.86],
-      "sys": [0.33, 0.29, 0.27],
-      "real": [1.92, 1.89, 1.9],
-      "rss_mb": [461.3, 465.13, 461.13]
-    },
-    "Splay": {
-      "error": "Uncaught Exception at line 755",
-      "user": [0.77, 0.76, 0.75, 0.78],
-      "sys": [0.08, 0.09, 0.06, 0.09],
-      "real": [0.52, 0.52, 0.49, 0.53],
-      "rss_mb": [155.56, 154.29, 155.39, 151.25]
-    },
-    "SplayLatency": {
-      "error": "Uncaught Exception at line 755",
-      "user": [0.77, 0.76, 0.75, 0.78],
-      "sys": [0.08, 0.09, 0.06, 0.09],
-      "real": [0.52, 0.52, 0.49, 0.53],
-      "rss_mb": [155.56, 154.29, 155.39, 151.25]
-    },
-    "CodeLoad": {
-      "error": "Uncaught Exception at line 1",
-      "user": [0.85, 0.8, 0.76],
-      "sys": [0.09, 0.09, 0.11],
-      "real": [0.58, 0.54, 0.53],
-      "rss_mb": [154.81, 154.25, 154.07]
-    },
-    "RayTrace": {
-      "error": "Uncaught Exception in Console#log at line 99",
-      "user": [386.67, 390.92, 387.43],
-      "sys": [0.34, 0.32, 0.3],
-      "real": [386.19, 390.41, 386.95],
-      "rss_mb": [270.4, 270.4, 271.14]
-    },
-    "EarleyBoyer": {
-      "error": "Uncaught Exception in sc_length at line 1231",
-      "user": [1.63, 1.58],
-      "sys": [0.1, 0.18],
-      "real": [1.0, 1.05],
-      "rss_mb": [254.01, 252.5]
+      "user": [10.2253],
+      "sys": [1.188],
+      "real": [7.5264],
+      "rss_mb": [1491.07]
     },
     "DeltaBlue": {
       "error": "TypeError: Cannot read properties of undefined (reading 'Get')",
-      "user": [0.75, 0.78, 0.77],
-      "sys": [0.1, 0.08, 0.09],
-      "real": [0.52, 0.53, 0.52],
-      "rss_mb": [149.94, 152.11, 155.41]
+      "user": [0.7387],
+      "sys": [0.0964],
+      "real": [0.5094],
+      "rss_mb": [154.6]
+    },
+    "CodeLoad": {
+      "error": "TypeError: Cannot convert undefined to object; goog is not defined; Cannot convert undefined to object",
+      "user": [0.7898],
+      "sys": [0.1136],
+      "real": [0.5435],
+      "rss_mb": [158.32]
+    },
+    "NavierStokes": {
+      "error": "TypeError: Cannot convert undefined to object",
+      "user": [138.1923],
+      "sys": [4.9358],
+      "real": [136.2567],
+      "rss_mb": [1686.02]
     },
     "Box2D": {
       "error": "TypeError: Cannot read properties of undefined (reading 'Get')",
-      "user": [1.65],
-      "sys": [0.18],
-      "real": [1.06],
-      "rss_mb": [285.09]
+      "user": [1.5799],
+      "sys": [0.1718],
+      "real": [0.9942],
+      "rss_mb": [287.25]
     },
-    "NavierStokes": {
-      "error": "Uncaught Exception in Console#log at line 99",
-      "user": [138.2, 137.54],
-      "sys": [3.85, 4.24],
-      "real": [134.48, 135.29],
-      "rss_mb": [1684.61, 1900.69]
+    "PdfJS": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'Get')",
+      "user": [2.8102],
+      "sys": [0.3157],
+      "real": [1.8973],
+      "rss_mb": [474.98]
+    },
+    "Splay": {
+      "error": "TypeError: Cannot convert undefined to object; Cannot convert null to object; Cannot convert undefined to object",
+      "user": [0.7818],
+      "sys": [0.0906],
+      "real": [0.5303],
+      "rss_mb": [154.13]
+    },
+    "SplayLatency": {
+      "error": "TypeError: Cannot convert undefined to object; Cannot convert null to object; Cannot convert undefined to object",
+      "user": [0.7818],
+      "sys": [0.0906],
+      "real": [0.5303],
+      "rss_mb": [154.13]
+    },
+    "EarleyBoyer": {
+      "error": "TypeError: Cannot convert undefined to object",
+      "user": [1.645],
+      "sys": [0.1599],
+      "real": [1.0751],
+      "rss_mb": [254.48]
+    },
+    "Typescript": {
+      "error": "ReferenceError: label is not defined",
+      "user": [2.2744],
+      "sys": [0.216],
+      "real": [1.5409],
+      "rss_mb": [376.48]
     },
     "RegExp": {
-      "error": "Uncaught Exception in Exec at line 493",
-      "user": [73.08, 74.3],
-      "sys": [0.22, 0.25],
-      "real": [72.53999999999999, 73.69],
-      "rss_mb": [277.15, 277.75]
+      "error": "TypeError: Cannot convert undefined to object; exec is not a function; Cannot convert undefined to object",
+      "user": [73.4065],
+      "sys": [0.2162],
+      "real": [72.7657],
+      "rss_mb": [275.79]
     },
     "Richards": {
-      "error": "Uncaught Exception in Console#log at line 99",
-      "user": [18.19, 18.35],
-      "sys": [0.32, 0.34],
-      "real": [17.83, 18.02],
-      "rss_mb": [416.39, 417.07]
+      "error": "TypeError: Cannot convert undefined to object",
+      "user": [18.388],
+      "sys": [0.3324],
+      "real": [18.0222],
+      "rss_mb": [420.89]
+    },
+    "zlib": {
+      "error": "ReferenceError: label is not defined",
+      "user": [1.683],
+      "sys": [0.1554],
+      "real": [1.0259],
+      "rss_mb": [308.75]
     }
   }
 }

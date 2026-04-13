@@ -2,6 +2,7 @@
   "binary": "rapidus",
   "metadata": {
     "arch": "amd64",
+    "binary_name": "rapidus",
     "binary_sha256": "c02b14836d420be0c927cb142008b00374292cac537182db1490687e245a8bc8",
     "binary_size": 1673616,
     "console_log": "console.log",
@@ -9,8 +10,16 @@
     "repository": "https://github.com/maekawatoshiki/rapidus.git",
     "revision": "e2cbce0e2ee7bb640df056d790e7d5e61fde94e0",
     "revision_date": "2023-02-25",
-    "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11)"
+    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
-  "time": "2026-03-03 20:55:52.319187 UTC",
-  "benchmarks": {}
+  "time": "2026-04-10 06:49:34.928400 UTC",
+  "benchmarks": {
+    "Richards": {
+      "error": "FAIL: No scores in the output",
+      "user": [2.9008],
+      "sys": [0.9046],
+      "real": [3.8064],
+      "rss_mb": [1459.88]
+    }
+  }
 }

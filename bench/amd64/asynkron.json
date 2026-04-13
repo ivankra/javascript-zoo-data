@@ -1,0 +1,136 @@
+{
+  "binary": "asynkron",
+  "metadata": {
+    "arch": "amd64",
+    "binary_name": "asynkron",
+    "console_log": ["console.log", "print"],
+    "dist_size": 4336222,
+    "dotnet": "10.0.201",
+    "engine": "asynkron",
+    "repository": "https://github.com/asynkron/Asynkron.JsEngine.git",
+    "revision": "00fecd1de76491afe557d7a07b4f373ed40c93eb",
+    "revision_date": "2026-04-06"
+  },
+  "time": "2026-04-10 05:10:33.463368 UTC",
+  "benchmarks": {
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: Unexpected token '}'. at line 1, column 1606",
+      "user": [0.4403],
+      "sys": [0.0371],
+      "real": [0.4801],
+      "rss_mb": [64.98]
+    },
+    "Mandreel": {
+      "error": "CRASH: SIGABRT",
+      "user": [4.2269, 4.2023, 4.4128, 4.278],
+      "sys": [0.7003, 0.7027, 0.7556, 0.7068],
+      "real": [5.6706, 5.6275, 5.7171, 5.7216],
+      "rss_mb": [368.7, 370.82, 373.37, 370.42]
+    },
+    "MandreelLatency": {
+      "error": "CRASH: SIGABRT",
+      "user": [4.2269, 4.2023, 4.4128, 4.278],
+      "sys": [0.7003, 0.7027, 0.7556, 0.7068],
+      "real": [5.6706, 5.6275, 5.7171, 5.7216],
+      "rss_mb": [368.7, 370.82, 373.37, 370.42]
+    },
+    "Richards": {
+      "score": [12.7],
+      "user": [11.6077],
+      "sys": [0.1339],
+      "real": [10.6543],
+      "rss_mb": [92.76]
+    },
+    "Typescript": {
+      "error": "TypeError: Typescript: TypeError: Attempted to call a non-callable value.",
+      "user": [7.8483],
+      "sys": [0.1672],
+      "real": [6.0661],
+      "rss_mb": [176.98]
+    },
+    "Crypto": {
+      "score": [23.9],
+      "user": [170.4345],
+      "sys": [0.2935],
+      "real": [169.206],
+      "rss_mb": [122.82]
+    },
+    "RayTrace": {
+      "score": [39.1],
+      "user": [64.923],
+      "sys": [0.2889],
+      "real": [63.6803],
+      "rss_mb": [97.41]
+    },
+    "Box2D": {
+      "error": "SyntaxError: Unexpected token '}'. at line 616, column 340",
+      "user": [0.3407],
+      "sys": [0.0492],
+      "real": [0.3918],
+      "rss_mb": [76.41]
+    },
+    "RegExp": {
+      "error": "SyntaxError: RegExp: SyntaxError: Invalid pattern '\\A[",
+      "user": [2.2953],
+      "sys": [0.0849],
+      "real": [1.9095],
+      "rss_mb": [98.7]
+    },
+    "NavierStokes": {
+      "score": [75.4, 73.1],
+      "user": [35.8104, 36.8247],
+      "sys": [0.1125, 0.1127],
+      "real": [34.8427, 35.8441],
+      "rss_mb": [105.19, 104.74]
+    },
+    "zlib": {
+      "error": "SyntaxError: zlib: SyntaxError: Unexpected token '}'. at line 1, column 116377",
+      "user": [0.6053],
+      "sys": [0.073],
+      "real": [0.6721],
+      "rss_mb": [96.79]
+    },
+    "Splay": {
+      "score": [79.2, 79.6],
+      "user": [16.3635, 16.3426],
+      "sys": [1.2505, 1.306],
+      "real": [15.7204, 15.7324],
+      "rss_mb": [1769.46, 1769.83]
+    },
+    "SplayLatency": {
+      "score": [645, 644],
+      "user": [16.3635, 16.3426],
+      "sys": [1.2505, 1.306],
+      "real": [15.7204, 15.7324],
+      "rss_mb": [1769.46, 1769.83]
+    },
+    "EarleyBoyer": {
+      "error": "OOM: >4096MB",
+      "user": [46.1366, 45.8426],
+      "sys": [2.8368, 2.4466],
+      "real": [44.5667, 44.2775],
+      "rss_mb": [4098.57, 4102.26]
+    },
+    "PdfJS": {
+      "error": "TypeError: PdfJS: TypeError: Cannot read properties of null or undefined",
+      "user": [5.131, 4.5772],
+      "sys": [0.3241, 0.3484],
+      "real": [3.977, 3.5493],
+      "rss_mb": [286.94, 286.19]
+    },
+    "DeltaBlue": {
+      "score": [10.6],
+      "user": [23.1394],
+      "sys": [0.153],
+      "real": [22.0591],
+      "rss_mb": [124.93]
+    },
+    "Gameboy": {
+      "score": [118, 120, 114],
+      "user": [92.1347, 90.5305, 94.972],
+      "sys": [0.551, 0.5389, 0.413],
+      "real": [90.9203, 89.3524, 93.7456],
+      "rss_mb": [443.5, 444.01, 443.46]
+    }
+  }
+}

@@ -1,135 +1,139 @@
 {
   "binary": "nova",
-  "flags": ["eval", "--no-strict"],
   "metadata": {
     "arch": "amd64",
-    "binary_sha256": "b9520c1a48820cf9881128ac642e8fb0c538980d8e23bc01b2400fcc1d99ac11",
-    "binary_size": 10318768,
+    "binary_name": "nova",
+    "binary_sha256": "ba5d66609a262faca5f3b1785f563c608d9df911de9f122a35d7ccd682d111f7",
+    "binary_size": 10637000,
     "console_log": "print",
     "engine": "nova",
     "repository": "https://github.com/trynova/nova.git",
-    "revision": "d85a2f8d243441f4917f80b38e683d501aa62e72",
-    "revision_date": "2026-03-03",
-    "run_script_cmd": "$BINARY eval ${MODULE:+--module} $FILE",
-    "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11)",
-    "version": "latest-93-gd85a2f8d"
+    "revision": "a82b0408533bc93f857aa2ee5daee4f39f62dc6f",
+    "revision_date": "2026-03-23",
+    "run_script_cmd": "$BINARY eval ${MODULE:+--module}",
+    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)",
+    "version": "latest-106-ga82b0408"
   },
-  "time": "2026-03-03 21:04:35.598232 UTC",
+  "time": "2026-04-10 05:14:45.985916 UTC",
   "benchmarks": {
-    "DeltaBlue": {
-      "score": [67.6, 66.1, 66.4, 64.8],
-      "user": [3.92, 4.14, 4.1, 4.91],
-      "sys": [1.08, 1.08, 1.07, 1.35],
-      "real": [4.13, 4.3, 4.28, 5.12],
-      "rss_mb": [12.31, 12.35, 12.15, 12.39]
-    },
-    "NavierStokes": {
-      "score": [95.4, 93.3, 92.2, 93.4, 95.7, 93.2],
-      "user": [26.72, 27.4, 27.65, 27.31, 26.7, 27.37],
-      "sys": [2.06, 1.94, 2.08, 1.93, 1.85, 2.04],
-      "real": [26.47, 27.07, 27.4, 27.04, 26.48, 27.11],
-      "rss_mb": [23.03, 21.93, 22.69, 21.62, 22.81, 23.16]
-    },
     "Splay": {
-      "score": [149, 152, 148, 143],
-      "user": [7.85, 7.97, 7.85, 8.23],
-      "sys": [0.27, 0.3, 0.27, 0.32],
-      "real": [5.9, 6.02, 5.92, 6.3],
-      "rss_mb": [64.79, 64.77, 64.86, 65.01]
+      "score": [150],
+      "user": [7.9629],
+      "sys": [0.3254],
+      "real": [5.9682],
+      "rss_mb": [64.94]
     },
     "SplayLatency": {
-      "score": [1139, 1139, 1134, 1072],
-      "user": [7.85, 7.97, 7.85, 8.23],
-      "sys": [0.27, 0.3, 0.27, 0.32],
-      "real": [5.9, 6.02, 5.92, 6.3],
-      "rss_mb": [64.79, 64.77, 64.86, 65.01]
-    },
-    "Gameboy": {
-      "score": [422, 426, 426, 423],
-      "user": [25.49, 25.19, 25.23, 25.48],
-      "sys": [1.69, 1.65, 1.65, 1.67],
-      "real": [25.67, 25.43, 25.43, 25.59],
-      "rss_mb": [736.55, 736.95, 737.22, 737.06]
-    },
-    "PdfJS": {
-      "score": [368, 359, 352, 353],
-      "user": [15.66, 18.43, 18.56, 18.73],
-      "sys": [1.82, 2.15, 2.12, 2.12],
-      "real": [16.59, 19.61, 19.72, 19.92],
-      "rss_mb": [3738.04, 3737.16, 3738.43, 3737.47]
-    },
-    "zlib": {
-      "error": "Timeout (>900s)"
-    },
-    "EarleyBoyer": {
-      "score": [123, 128, 126, 127],
-      "user": [75.99, 72.93, 73.98, 73.74],
-      "sys": [6.21, 5.85, 5.76, 5.89],
-      "real": [73.6, 70.91, 71.91, 71.64],
-      "rss_mb": [25.5, 25.13, 27.14, 25.3]
-    },
-    "Mandreel": {
-      "score": [9.44],
-      "user": [864.4],
-      "sys": [9.11],
-      "real": [865.24],
-      "rss_mb": [172.22]
-    },
-    "MandreelLatency": {
-      "score": [36.1],
-      "user": [864.4],
-      "sys": [9.11],
-      "real": [865.24],
-      "rss_mb": [172.22]
-    },
-    "CodeLoad": {
-      "error": "CodeLoad: SyntaxError: Invalid eval source text: Expected `,` or `}` but found `string`",
-      "user": [0.97],
-      "sys": [0.08],
-      "real": [1.02],
-      "rss_mb": [135.58]
-    },
-    "RayTrace": {
-      "score": [160, 164, 176],
-      "user": [16.67, 16.25, 15.06],
-      "sys": [2.1, 1.98, 1.83],
-      "real": [16.64, 16.25, 15.11],
-      "rss_mb": [14.77, 14.24, 14.44]
-    },
-    "Box2D": {
-      "score": [304],
-      "user": [14.53],
-      "sys": [0.86],
-      "real": [14.32],
-      "rss_mb": [23.79]
+      "score": [1148],
+      "user": [7.9629],
+      "sys": [0.3254],
+      "real": [5.9682],
+      "rss_mb": [64.94]
     },
     "Richards": {
-      "score": [51.9],
-      "user": [3.97],
-      "sys": [0.61],
-      "real": [4.08],
-      "rss_mb": [11.96]
+      "score": [57.7, 57.9],
+      "user": [3.031, 3.0358],
+      "sys": [0.5102, 0.3836],
+      "real": [3.1232, 3.1116],
+      "rss_mb": [23.33, 23.51]
+    },
+    "Gameboy": {
+      "score": [412],
+      "user": [25.947],
+      "sys": [1.9632],
+      "real": [26.2494],
+      "rss_mb": [735.85]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: Invalid eval source text: Expected `,` or `}` but found `string`",
+      "user": [0.9389, 0.9691],
+      "sys": [0.1085, 0.0849],
+      "real": [1.021, 1.0226],
+      "rss_mb": [133.31, 140.26]
+    },
+    "DeltaBlue": {
+      "score": [66.2],
+      "user": [4.0424],
+      "sys": [1.2331],
+      "real": [4.2826],
+      "rss_mb": [23.53]
     },
     "RegExp": {
-      "error": "RegExp: SyntaxError: regex parse error:",
-      "user": [0.33],
-      "sys": [0.03],
-      "real": [0.35],
-      "rss_mb": [29.82]
+      "error": "SyntaxError: RegExp: SyntaxError: regex parse error:",
+      "user": [0.3316],
+      "sys": [0.0268],
+      "real": [0.3428],
+      "rss_mb": [29.79]
     },
-    "Crypto": {
-      "score": [96.2, 97.3],
-      "user": [41.75, 41.57],
-      "sys": [0.62, 0.65],
-      "real": [41.86, 41.67],
-      "rss_mb": [13.2, 13.32]
+    "PdfJS": {
+      "score": [346, 358, 353, 349],
+      "user": [18.7079, 17.5117, 17.8971, 18.6586],
+      "sys": [2.4912, 2.1431, 2.23, 2.4427],
+      "real": [20.143, 18.6385, 19.0572, 20.0741],
+      "rss_mb": [3735.98, 3736.0, 3736.09, 3735.16]
+    },
+    "zlib": {
+      "score": [136],
+      "user": [1125.4762],
+      "sys": [1.4679],
+      "real": [1125.8572],
+      "rss_mb": [31.05]
     },
     "Typescript": {
-      "error": "Typescript: SyntaxError: regex parse error:",
-      "user": [0.51],
-      "sys": [0.02],
-      "real": [0.52],
-      "rss_mb": [35.73]
+      "error": "SyntaxError: Typescript: SyntaxError: regex parse error:",
+      "user": [0.5723],
+      "sys": [0.0191],
+      "real": [0.5836],
+      "rss_mb": [35.78]
+    },
+    "Box2D": {
+      "score": [273],
+      "user": [16.0866],
+      "sys": [1.5246],
+      "real": [15.9355],
+      "rss_mb": [24.45]
+    },
+    "Mandreel": {
+      "score": [9.94],
+      "user": [827.6188],
+      "sys": [10.2367],
+      "real": [829.1688],
+      "rss_mb": [173.72]
+    },
+    "MandreelLatency": {
+      "score": [32.5],
+      "user": [827.6188],
+      "sys": [10.2367],
+      "real": [829.1688],
+      "rss_mb": [173.72]
+    },
+    "EarleyBoyer": {
+      "score": [122, 124],
+      "user": [75.3235, 74.8331],
+      "sys": [7.1312, 6.992],
+      "real": [73.5258, 73.2353],
+      "rss_mb": [25.5, 25.87]
+    },
+    "NavierStokes": {
+      "score": [94.2],
+      "user": [27.1564],
+      "sys": [2.3473],
+      "real": [26.8356],
+      "rss_mb": [23.41]
+    },
+    "Crypto": {
+      "score": [97.8],
+      "user": [40.8758],
+      "sys": [0.7429],
+      "real": [41.0217],
+      "rss_mb": [23.74]
+    },
+    "RayTrace": {
+      "score": [160],
+      "user": [16.5602],
+      "sys": [2.358],
+      "real": [16.6934],
+      "rss_mb": [23.45]
     }
   }
 }

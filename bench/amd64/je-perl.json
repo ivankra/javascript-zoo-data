@@ -2,117 +2,132 @@
   "binary": "je-perl",
   "metadata": {
     "arch": "amd64",
-    "console_log": "console.log",
+    "binary_name": "je-perl",
+    "console_log": ["console.log", "print"],
     "dist_size": 577372,
     "engine": "je-perl",
     "version": "0.066"
   },
-  "time": "2026-03-03 20:46:45.607464 UTC",
+  "time": "2026-04-10 05:24:33.372538 UTC",
   "benchmarks": {
-    "RayTrace": {
-      "error": "No output",
-      "user": [0.12, 0.13],
-      "sys": [0.01, 0.0],
-      "real": [0.14, 0.13],
-      "rss_mb": [18.28, 18.38]
-    },
-    "Richards": {
-      "error": "No output",
-      "user": [0.08, 0.09, 0.09, 0.09],
-      "sys": [0.01, 0.01, 0.01, 0.0],
-      "real": [0.09, 0.12, 0.11, 0.1],
-      "rss_mb": [17.32, 17.02, 17.32, 17.06]
-    },
-    "Splay": {
-      "error": "No output",
-      "user": [0.07, 0.08, 0.08],
-      "sys": [0.01, 0.01, 0.01],
-      "real": [0.09, 0.1, 0.09],
-      "rss_mb": [17.15, 16.88, 17.2]
-    },
-    "SplayLatency": {
-      "error": "No output",
-      "user": [0.07, 0.08, 0.08],
-      "sys": [0.01, 0.01, 0.01],
-      "real": [0.09, 0.1, 0.09],
-      "rss_mb": [17.15, 16.88, 17.2]
-    },
-    "RegExp": {
-      "error": "No output",
-      "user": [0.31, 0.31, 0.31, 0.32],
-      "sys": [0.01, 0.01, 0.01, 0.01],
-      "real": [0.33, 0.32, 0.33, 0.35],
-      "rss_mb": [22.56, 22.38, 22.52, 22.49]
-    },
-    "Mandreel": {
-      "error": "No output",
-      "user": [121.86],
-      "sys": [0.29],
-      "real": [122.17],
-      "rss_mb": [416.54]
-    },
-    "MandreelLatency": {
-      "error": "No output",
-      "user": [121.86],
-      "sys": [0.29],
-      "real": [122.17],
-      "rss_mb": [416.54]
-    },
-    "PdfJS": {
-      "error": "No output",
-      "user": [0.11, 0.12, 0.11],
-      "sys": [0.01, 0.01, 0.01],
-      "real": [0.13, 0.14, 0.12],
-      "rss_mb": [18.84, 18.63, 19.21]
-    },
     "Typescript": {
-      "error": "No output",
-      "user": [2.34, 2.35],
-      "sys": [0.05, 0.05],
-      "real": [2.39, 2.42],
-      "rss_mb": [80.91, 80.88]
-    },
-    "Gameboy": {
-      "error": "No output",
-      "user": [0.83, 0.93],
-      "sys": [0.03, 0.03],
-      "real": [0.87, 0.98],
-      "rss_mb": [40.6, 40.05]
-    },
-    "DeltaBlue": {
-      "error": "No output",
-      "user": [0.1],
-      "sys": [0.01],
-      "real": [0.11],
-      "rss_mb": [17.41]
-    },
-    "Box2D": {
-      "error": "No output",
-      "user": [0.91, 0.9, 0.9, 0.91],
-      "sys": [0.03, 0.03, 0.03, 0.03],
-      "real": [0.96, 0.93, 0.93, 0.95],
-      "rss_mb": [39.8, 39.93, 39.86, 39.94]
-    },
-    "NavierStokes": {
-      "error": "No output",
-      "user": [0.1, 0.1],
-      "sys": [0.01, 0.01],
-      "real": [0.11, 0.13],
-      "rss_mb": [17.27, 17.12]
-    },
-    "EarleyBoyer": {
-      "error": "No output",
-      "user": [0.78],
-      "sys": [0.02],
-      "real": [0.8],
-      "rss_mb": [34.42]
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at typescript.js, line 167.",
+      "user": [2.4152],
+      "sys": [0.072],
+      "real": [2.4915],
+      "rss_mb": [81.04]
     },
     "CodeLoad": {
-      "error": "No output",
-      "user": [0.08],
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at code-load.js, line 167.",
+      "user": [0.0823],
       "sys": [0.01],
-      "real": [0.09],
-      "rss_mb": [17.61]
+      "real": [0.0926],
+      "rss_mb": [23.64]
+    },
+    "Mandreel": {
+      "error": "ReferenceError: The variable Float64Array has not been declared at mandreel.js, line 588.",
+      "user": [106.5343],
+      "sys": [0.294],
+      "real": [106.8489],
+      "rss_mb": [416.62]
+    },
+    "MandreelLatency": {
+      "error": "ReferenceError: The variable Float64Array has not been declared at mandreel.js, line 588.",
+      "user": [106.5343],
+      "sys": [0.294],
+      "real": [106.8489],
+      "rss_mb": [416.62]
+    },
+    "RegExp": {
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at regexp.js, line 167.",
+      "user": [0.2808],
+      "sys": [0.017],
+      "real": [0.2982],
+      "rss_mb": [23.83]
+    },
+    "zlib": {
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at zlib.js, line 179.",
+      "user": [0.079],
+      "sys": [0.021],
+      "real": [0.1003],
+      "rss_mb": [23.84]
+    },
+    "Splay": {
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at splay.js, line 167.",
+      "user": [0.0853],
+      "sys": [0.0137],
+      "real": [0.1084],
+      "rss_mb": [23.52]
+    },
+    "SplayLatency": {
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at splay.js, line 167.",
+      "user": [0.0853],
+      "sys": [0.0137],
+      "real": [0.1084],
+      "rss_mb": [23.52]
+    },
+    "RayTrace": {
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at raytrace.js, line 167.",
+      "user": [0.1259],
+      "sys": [0.0133],
+      "real": [0.1459],
+      "rss_mb": [23.32]
+    },
+    "Crypto": {
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at crypto.js, line 167.",
+      "user": [0.247],
+      "sys": [0.0171],
+      "real": [0.2744],
+      "rss_mb": [23.61]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: Expected colon but found 'content() ' at pdfjs.js, line 906.",
+      "user": [0.1061],
+      "sys": [0.0173],
+      "real": [0.1287],
+      "rss_mb": [31.52]
+    },
+    "Richards": {
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at richards.js, line 167.",
+      "user": [0.0921],
+      "sys": [0.0142],
+      "real": [0.1141],
+      "rss_mb": [23.45]
+    },
+    "NavierStokes": {
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at navier-stokes.js, line 167.",
+      "user": [0.0938],
+      "sys": [0.018],
+      "real": [0.1121],
+      "rss_mb": [23.22]
+    },
+    "Gameboy": {
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at gbemu.js, line 167.",
+      "user": [0.8241],
+      "sys": [0.046],
+      "real": [0.8723],
+      "rss_mb": [40.38]
+    },
+    "Box2D": {
+      "error": "TypeError: The object's 'defineProperty' property (undefined) is not a function at box2d.js, line 475.",
+      "user": [0.9222],
+      "sys": [0.0369],
+      "real": [0.9672],
+      "rss_mb": [40.27]
+    },
+    "DeltaBlue": {
+      "error": "TypeError: The object's 'defineProperty' property (undefined) is not a function at deltablue.js, line 454.",
+      "user": [0.0867],
+      "sys": [0.0125],
+      "real": [0.1074],
+      "rss_mb": [23.47]
+    },
+    "EarleyBoyer": {
+      "error": "TypeError: The object's 'indexOf' property (undefined) is not a function at earley-boyer.js, line 167.",
+      "user": [0.6273],
+      "sys": [0.043],
+      "real": [0.6765],
+      "rss_mb": [34.49]
     }
   }
 }

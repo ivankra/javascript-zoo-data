@@ -2,6 +2,7 @@
   "binary": "rust-js",
   "metadata": {
     "arch": "arm64",
+    "binary_name": "rust-js",
     "binary_sha256": "78ad7eb10e266d4db491dac0387a6b5efa07151d80cdbc44be327f61754d2138",
     "binary_size": 1772928,
     "console_log": "console.log",
@@ -9,128 +10,128 @@
     "repository": "https://github.com/rust-js/rjs.git",
     "revision": "61391286b0f0d6ce23720ee13501f62751c26b29",
     "revision_date": "2015-07-19",
-    "rustc": "rustc 1.93.1 (01f6ddf75 2026-02-11)"
+    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
-  "time": "2026-03-03 22:34:27.175799 UTC, 2026-03-03 23:09:33.066497 UTC",
+  "time": "2026-04-10 06:46:51.952664 UTC",
   "benchmarks": {
     "Typescript": {
-      "error": "typescript.js: SyntaxError: 5405:1: Cannot parse expression, got Divide",
-      "user": [0.03, 0.03, 0.03],
-      "sys": [0.0, 0.0, 0.01],
-      "real": [0.04, 0.04, 0.04],
-      "rss_mb": [22.11, 22.12, 22.18]
-    },
-    "Splay": {
-      "score": [87.6, 86.8, 86.3, 85],
-      "user": [10.75, 10.72, 10.73, 10.96],
-      "sys": [2.49, 2.58, 2.64, 2.59],
-      "real": [13.25, 13.31, 13.38, 13.55],
-      "rss_mb": [4313.56, 4313.57, 4313.57, 4313.54]
-    },
-    "SplayLatency": {
-      "score": [301, 296, 292, 286],
-      "user": [10.75, 10.72, 10.73, 10.96],
-      "sys": [2.49, 2.58, 2.64, 2.59],
-      "real": [13.25, 13.31, 13.38, 13.55],
-      "rss_mb": [4313.56, 4313.57, 4313.57, 4313.54]
-    },
-    "EarleyBoyer": {
-      "error": "EarleyBoyer: TypeError: Value is not a function",
-      "user": [0.02, 0.03, 0.03, 0.02],
-      "sys": [0.0, 0.0, 0.0, 0.01],
-      "real": [0.03, 0.03, 0.03, 0.03],
-      "rss_mb": [16.1, 16.09, 16.16, 16.1]
-    },
-    "NavierStokes": {
-      "error": "thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
-      "user": [0.47, 0.47, 0.48, 0.48],
-      "sys": [0.01, 0.0, 0.01, 0.01],
-      "real": [0.48, 0.48, 0.49, 0.49],
-      "rss_mb": [36.61, 36.61, 36.61, 36.61]
-    },
-    "RegExp": {
-      "error": "regexp.js: SyntaxError: 611:2: Cannot parse '\\'",
-      "user": [0.0, 0.0, 0.0],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.0, 0.0, 0.0],
-      "rss_mb": [4.54, 4.41, 4.54]
-    },
-    "CodeLoad": {
-      "error": "CodeLoad: SyntaxError: 1:1924: Unexpected token; expected Comma, got Literal(String(Name(-432), true))",
-      "user": [0.01, 0.01, 0.01],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.01, 0.01, 0.01],
-      "rss_mb": [7.29, 7.23, 7.22]
-    },
-    "Gameboy": {
-      "error": "Gameboy: TypedArrayUnsupported",
-      "user": [0.05, 0.05],
-      "sys": [0.0, 0.0],
-      "real": [0.06, 0.06],
-      "rss_mb": [21.64, 21.69]
-    },
-    "Mandreel": {
-      "error": "mandreel.js: SyntaxError: 1413:1: Newline cannot appear in string constant",
-      "user": [0.01],
-      "sys": [0.01],
-      "real": [0.02],
-      "rss_mb": [27.74]
-    },
-    "MandreelLatency": {
-      "error": "mandreel.js: SyntaxError: 1413:1: Newline cannot appear in string constant",
-      "user": [0.01],
-      "sys": [0.01],
-      "real": [0.02],
-      "rss_mb": [27.74]
-    },
-    "PdfJS": {
-      "error": "pdfjs.js: ReferenceError",
-      "user": [0.3, 0.29, 0.3],
-      "sys": [0.05, 0.06, 0.06],
-      "real": [0.36, 0.35, 0.36],
-      "rss_mb": [102.63, 102.59, 102.58]
-    },
-    "Richards": {
-      "score": [22, 21.9],
-      "user": [6.74, 6.76],
-      "sys": [0.0, 0.01],
-      "real": [6.75, 6.77],
-      "rss_mb": [36.34, 36.28]
-    },
-    "RayTrace": {
-      "score": [80.3, 80.3],
-      "user": [31.32, 31.31],
-      "sys": [0.01, 0.01],
-      "real": [31.34, 31.33],
-      "rss_mb": [37.34, 37.28]
-    },
-    "Crypto": {
-      "error": "thread '<main>' panicked at 'unexpected getrandom error: Operation not permitted (os error 1)', /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.8/src/os.rs:71",
-      "user": [0.0, 0.01, 0.01],
-      "sys": [0.0, 0.0, 0.0],
-      "real": [0.01, 0.01, 0.01],
-      "rss_mb": [7.24, 7.23, 7.24]
+      "error": "SyntaxError: 5392:1: Cannot parse expression, got Divide",
+      "user": [0.0402, 0.0415],
+      "sys": [0.005, 0.0041],
+      "real": [0.0454, 0.0459],
+      "rss_mb": [32.19, 32.17]
     },
     "Box2D": {
-      "error": "thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
-      "user": [0.1, 0.11],
-      "sys": [0.01, 0.01],
-      "real": [0.12, 0.12],
-      "rss_mb": [40.86, 40.84]
+      "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
+      "user": [0.1045, 0.1068],
+      "sys": [0.0189, 0.017],
+      "real": [0.1238, 0.1241],
+      "rss_mb": [40.81, 40.83]
+    },
+    "PdfJS": {
+      "error": "ReferenceError",
+      "user": [0.2957, 0.2959, 0.2992],
+      "sys": [0.0609, 0.062, 0.0568],
+      "real": [0.3569, 0.3581, 0.3564],
+      "rss_mb": [102.58, 102.57, 102.48]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: 1400:1: Newline cannot appear in string constant",
+      "user": [0.0099],
+      "sys": [0.0158],
+      "real": [0.026],
+      "rss_mb": [52.23]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: 1400:1: Newline cannot appear in string constant",
+      "user": [0.0099],
+      "sys": [0.0158],
+      "real": [0.026],
+      "rss_mb": [52.23]
+    },
+    "NavierStokes": {
+      "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
+      "user": [0.4731],
+      "sys": [0.015],
+      "real": [0.4886],
+      "rss_mb": [36.6]
+    },
+    "EarleyBoyer": {
+      "error": "TypeError: EarleyBoyer: TypeError: Value is not a function",
+      "user": [0.0316, 0.0295],
+      "sys": [0.0059, 0.0088],
+      "real": [0.0378, 0.0391],
+      "rss_mb": [22.65, 22.66]
+    },
+    "Crypto": {
+      "error": "CRASH: thread '<main>' panicked at 'unexpected getrandom error: Operation not permitted (os error 1)', /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.8/src/os.rs:71",
+      "user": [0.0107, 0.0104],
+      "sys": [0.0019, 0.0021],
+      "real": [0.0129, 0.0127],
+      "rss_mb": [22.53, 22.53]
+    },
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0573, 0.0556],
+      "sys": [0.007, 0.0081],
+      "real": [0.0646, 0.0639],
+      "rss_mb": [24.28, 24.28]
+    },
+    "RayTrace": {
+      "score": [79.8, 79.9],
+      "user": [31.5271, 31.4631],
+      "sys": [0.013, 0.011],
+      "real": [31.5447, 31.48],
+      "rss_mb": [36.97, 37.0]
+    },
+    "RegExp": {
+      "error": "SyntaxError: 598:2: Cannot parse '\\'",
+      "user": [0.0023, 0.0024, 0.0023],
+      "sys": [0.0012, 0.0012, 0.0012],
+      "real": [0.0037, 0.0039, 0.0039],
+      "rss_mb": [22.65, 22.66, 22.66]
+    },
+    "Splay": {
+      "error": "OOM: >4096MB",
+      "user": [10.2936, 10.2733],
+      "sys": [2.4117, 2.3896],
+      "real": [12.7079, 12.6648],
+      "rss_mb": [4111.74, 4101.47]
+    },
+    "SplayLatency": {
+      "error": "OOM: >4096MB",
+      "user": [10.2936, 10.2733],
+      "sys": [2.4117, 2.3896],
+      "real": [12.7079, 12.6648],
+      "rss_mb": [4111.74, 4101.47]
     },
     "zlib": {
-      "error": "zlib: ReferenceError",
-      "user": [0.07],
-      "sys": [0.02],
-      "real": [0.09],
-      "rss_mb": [32.91]
+      "error": "ReferenceError: zlib: ReferenceError",
+      "user": [0.0785, 0.0789],
+      "sys": [0.0129, 0.0118],
+      "real": [0.0917, 0.0915],
+      "rss_mb": [33.13, 33.1]
+    },
+    "Richards": {
+      "score": [21.7, 21.8],
+      "user": [6.8185, 6.7967],
+      "sys": [0.011, 0.009],
+      "real": [6.8305, 6.807],
+      "rss_mb": [36.28, 36.28]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: 1:1924: Unexpected token; expected Comma, got Literal(String(Name(-432), true))",
+      "user": [0.0153],
+      "sys": [0.0029],
+      "real": [0.0184],
+      "rss_mb": [22.24]
     },
     "DeltaBlue": {
-      "score": [25.4, 25.4],
-      "user": [9.36, 9.35],
-      "sys": [0.01, 0.0],
-      "real": [9.37, 9.37],
-      "rss_mb": [36.85, 36.83]
+      "score": [25, 25, 25.1, 25],
+      "user": [9.5334, 9.5166, 9.4646, 9.5039],
+      "sys": [0.013, 0.019, 0.012, 0.017],
+      "real": [9.5473, 9.5372, 9.4805, 9.5231],
+      "rss_mb": [36.78, 36.77, 36.75, 36.76]
     }
   }
 }
