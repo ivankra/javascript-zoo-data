@@ -1,29 +1,18 @@
-Comparing: ../test262/nova.json ../../dist/arm64/nova.test262
+Comparing: ../test262/nova.json ../../dist/arm64/nova.ci-test262
 Binary revision: MATCH (ours: a82b0408533b, theirs: a82b0408533b)
-Binary arch: MISMATCH (ours: amd64, theirs: arm64)
+Binary arch: MATCH (ours: arm64, theirs: arm64)
 Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: e0d8f66a2b43)
 Tests: MISMATCH (ours: 53164, theirs: 50733, shared: 50570)
 Skipped tests: 3312 (ours: 0, theirs: 3326)
-Diffs: 183
+Diffs: 171
 
-test/built-ins/Object/defineProperty/15.2.3.6-4-116.js: Test262Error: Expected TypeError, got RangeError: memory allocation failed because the memory allocator returned an error vs PASS
 test/built-ins/RegExp/prototype/exec/S15.10.6.2_A1_T9.js: PASS vs FAIL
 test/built-ins/RegExp/prototype/test/S15.10.6.3_A1_T9.js: PASS vs FAIL
 test/built-ins/ThrowTypeError/distinct-cross-realm.js: Test262Error: Expected a TypeError but got a different error constructor with the same name vs PASS
 test/language/block-scope/leave/x-after-break-to-label.js: FAIL vs PASS
 test/language/block-scope/syntax/redeclaration-global/allowed-to-redeclare-function-declaration-with-var.js: PASS vs FAIL
 test/language/block-scope/syntax/redeclaration-global/allowed-to-redeclare-var-with-function-declaration.js: PASS vs FAIL
-test/language/comments/hashbang/escaped-bang-041.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
-test/language/comments/hashbang/escaped-bang-u21.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
-test/language/comments/hashbang/escaped-bang-u0021.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
-test/language/comments/hashbang/escaped-bang-x21.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
-test/language/comments/hashbang/multi-line-comment.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
 test/language/destructuring/binding/syntax/recursive-array-and-object-patterns.js: PASS vs FAIL
-test/language/directive-prologue/10.1.1-2gs.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
-test/language/directive-prologue/10.1.1-5gs.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
-test/language/directive-prologue/10.1.1-8gs.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
-test/language/directive-prologue/14.1-4gs.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
-test/language/directive-prologue/14.1-5gs.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
 test/language/expressions/assignmenttargettype/simple-basic-identifierreference-await.js: PASS vs FAIL
 test/language/expressions/await/await-BindingIdentifier-in-global.js: PASS vs FAIL
 test/language/expressions/await/await-in-function.js: PASS vs FAIL
@@ -173,7 +162,6 @@ test/staging/sm/expressions/destructuring-array-default-function-nested.js: PASS
 test/staging/sm/expressions/destructuring-array-default-function.js: PASS vs FAIL
 test/staging/sm/expressions/destructuring-array-default-simple.js: PASS vs FAIL
 test/staging/sm/expressions/destructuring-array-default-yield.js: PASS vs FAIL
-test/staging/sm/extensions/recursion.js: PASS vs CRASH
 test/staging/sm/fields/await-identifier-script.js: PASS vs FAIL
 test/staging/sm/regress/regress-1507322-deep-weakmap.js: PASS vs TIMEOUT
 test/staging/sm/strict/8.12.5.js: PASS vs FAIL

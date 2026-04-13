@@ -1,4 +1,4 @@
-Comparing: ../test262/kiesel.json ../../dist/arm64/kiesel.test262.log
+Comparing: ../test262/kiesel.json ../../dist/arm64/kiesel.ci-test262
 Binary revision: ours=96670ab5f18ede0f3a719b74d036fdafb46c589d, theirs=N/A
 Test262 revision: ours=fb4471649cd29c0e08c42eadfbbd59846f8fd333, theirs=N/A
 Tests: MISMATCH (ours: 53164, theirs: 53125, shared: 53123)
@@ -7,7 +7,6 @@ Diffs: 70
 
 test/built-ins/AsyncGeneratorPrototype/return/return-state-completed-broken-promise.js: PASS vs FAIL
 test/built-ins/AsyncGeneratorPrototype/return/return-suspendedStart-broken-promise.js: PASS vs FAIL
-test/language/comments/hashbang/multi-line-comment.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
 test/language/expressions/dynamic-import/assignment-expression/arrow-function.js: PASS vs FAIL
 test/language/expressions/dynamic-import/catch/nested-arrow-import-catch-eval-rqstd-abrupt-urierror.js: PASS vs FAIL
 test/language/expressions/dynamic-import/catch/nested-async-arrow-function-await-eval-rqstd-abrupt-urierror.js: PASS vs FAIL
@@ -70,6 +69,7 @@ test/language/line-terminators/comment-single-cr.js: PASS vs FAIL
 test/language/line-terminators/comment-single-lf.js: PASS vs FAIL
 test/language/line-terminators/comment-single-ls.js: PASS vs FAIL
 test/language/line-terminators/comment-single-ps.js: PASS vs FAIL
+test/language/module-code/ambiguous-export-bindings/namespace-unambiguous-if-export-star-as-from-and-import-star-as-and-export.js: PASS vs FAIL
 test/language/module-code/eval-export-dflt-expr-err-eval.js: PASS vs FAIL
 test/language/module-code/eval-self-abrupt.js: PASS vs FAIL
 test/language/module-code/export-expname-from-unpaired-surrogate.js: PASS vs FAIL

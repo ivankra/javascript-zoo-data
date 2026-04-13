@@ -1,9 +1,0 @@
-Comparing: ../test262/quickjs-ng_262.json ../../dist/arm64/quickjs-ng_262.test262
-Binary revision: MISMATCH (ours: c2cd7439e0a7, theirs: a9e4b274bceb)
-Binary arch: MISMATCH (ours: amd64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: a6f387de323e)
-Tests: MISMATCH (ours: 53164, theirs: 48164, shared: 48161)
-Skipped tests: 6311 (ours: 0, theirs: 6314)
-Diffs: 1
-
-test/language/import/import-bytes/bytes-from-png.js: Test262Error: Expected SameValue(«75», «67») to be true vs PASS

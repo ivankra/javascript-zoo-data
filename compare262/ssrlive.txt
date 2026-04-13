@@ -1,4 +1,4 @@
-Comparing: ../test262/ssrlive.json ../../dist/arm64/ssrlive.test262
+Comparing: ../test262/ssrlive.json ../../dist/arm64/ssrlive.ci-test262
 Binary revision: MISMATCH (ours: c503daee2536, theirs: a5e8d850130a)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
 Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 2b2ecead6e82)

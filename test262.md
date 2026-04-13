@@ -1,7 +1,7 @@
 # Test262 rankings
 ## all
 * 99.705 jsse
-* 99.031 v8_exp
+* 99.033 v8_exp
 * 98.95 spidermonkey_exp
 * 98.839 spidermonkey_full
 * 98.317 v8_full
@@ -9,10 +9,10 @@
 * 97.468 libjs_gcc
 * 97.376 escargot_full
 * 96.962 jint
-* 96.753 boa
+* 96.774 boa
 * 95.856 graaljs_exp
-* 93.687 kiesel
-* 92.113 jsc_exp
+* 93.693 kiesel
+* 92.117 jsc_exp
 * 89.009 asynkron
 * 87.92 engine262
 * 85.943 engine262_d8
@@ -25,8 +25,8 @@
 * 83.953 escargot
 * 83.075 spidermonkey_jitless
 * 83.075 spidermonkey
-* 82.753 quickjs_262
-* 82.545 quickjs-ng_262
+* 82.757 quickjs_262
+* 82.546 quickjs-ng_262
 * 82.451 v8_jitless
 * 82.451 v8
 * 82.078 xs_clang
@@ -37,7 +37,7 @@
 * 81.235 quickjs-ng
 * 80.018 brimstone
 * 79.529 starlingmonkey
-* 77.663 nova
+* 77.68 nova
 * 75.542 primjs_262
 * 74.93 zuqe
 * 74.759 yavashark
@@ -140,7 +140,7 @@
 
 ## ex-staging
 * 99.743 jsse
-* 99.023 v8_exp
+* 99.025 v8_exp
 * 98.928 spidermonkey_exp
 * 98.814 spidermonkey_full
 * 98.295 v8_full
@@ -148,10 +148,10 @@
 * 97.608 libjs_gcc
 * 97.552 escargot_full
 * 97.268 jint
-* 96.976 boa
+* 96.995 boa
 * 95.896 graaljs_exp
-* 93.874 kiesel
-* 91.974 jsc_exp
+* 93.878 kiesel
+* 91.976 jsc_exp
 * 89.418 asynkron
 * 87.86 engine262
 * 85.944 engine262_d8
@@ -164,8 +164,8 @@
 * 83.974 escargot
 * 82.614 spidermonkey_jitless
 * 82.614 spidermonkey
-* 82.454 quickjs_262
-* 82.401 quickjs-ng_262
+* 82.457 quickjs_262
+* 82.403 quickjs-ng_262
 * 81.999 v8_jitless
 * 81.999 v8
 * 81.931 xs_clang
@@ -176,7 +176,7 @@
 * 81.242 quickjs-ng
 * 79.748 brimstone
 * 79.211 starlingmonkey
-* 77.812 nova
+* 77.831 nova
 * 75.735 primjs_262
 * 75.722 yavashark
 * 75.215 zuqe
@@ -279,18 +279,18 @@
 
 ## ex-staging-intl
 * 99.725 jsse
-* 99.03 v8_exp
+* 99.032 v8_exp
 * 98.952 spidermonkey_exp
 * 98.83 spidermonkey_full
 * 98.526 graaljs_exp
 * 98.271 v8_full
-* 98.219 boa
+* 98.24 boa
 * 98.18 escargot_full
 * 97.94 libjs
 * 97.651 jint
 * 97.444 libjs_gcc
-* 95.62 jsc_exp
-* 94.789 kiesel
+* 95.622 jsc_exp
+* 94.793 kiesel
 * 93.744 engine262
 * 91.778 asynkron
 * 91.697 engine262_d8
@@ -300,8 +300,8 @@
 * 88.626 jsc_jitless
 * 88.242 spidermonkey_jitless
 * 88.242 spidermonkey
-* 88.072 quickjs_262
-* 88.016 quickjs-ng_262
+* 88.076 quickjs_262
+* 88.018 quickjs-ng_262
 * 87.863 graaljs
 * 87.582 v8_jitless
 * 87.582 v8
@@ -315,7 +315,7 @@
 * 86.778 quickjs-ng
 * 85.181 brimstone
 * 84.604 starlingmonkey
-* 83.105 nova
+* 83.126 nova
 * 80.892 primjs_262
 * 80.342 zuqe
 * 79.786 jerryscript_o3
@@ -418,19 +418,19 @@
 
 ## ex-staging-intl-annexb
 * 99.719 jsse
-* 99.065 v8_exp
+* 99.067 v8_exp
 * 98.932 spidermonkey_exp
 * 98.807 spidermonkey_full
 * 98.561 graaljs_exp
+* 98.295 boa
 * 98.289 v8_full
-* 98.274 boa
 * 98.155 escargot_full
 * 97.895 libjs
 * 97.599 jint
 * 97.387 libjs_gcc
-* 95.619 kiesel
+* 95.623 kiesel
 * 95.536 engine262
-* 95.522 jsc_exp
+* 95.524 jsc_exp
 * 93.442 engine262_d8
 * 93.398 engine262_jsc
 * 91.638 asynkron
@@ -441,8 +441,8 @@
 * 88.367 jsc_jitless
 * 87.976 spidermonkey_jitless
 * 87.976 spidermonkey
-* 87.868 quickjs_262
-* 87.813 quickjs-ng_262
+* 87.872 quickjs_262
+* 87.815 quickjs-ng_262
 * 87.654 graaljs
 * 87.354 v8_jitless
 * 87.354 v8
@@ -454,7 +454,7 @@
 * 86.658 quickjs-ng
 * 86.334 brimstone
 * 84.401 starlingmonkey
-* 83.817 nova
+* 83.838 nova
 * 80.589 primjs_262
 * 80.345 zuqe
 * 79.679 jerryscript_o3
@@ -557,20 +557,20 @@
 
 ## ex-staging-intl-annexb-esnext
 * 99.835 jsc_gcc
-* 99.816 jsc_exp
+* 99.818 jsc_exp
 * 99.816 jsc
 * 99.813 jsc_jitless
 * 99.741 jsse
-* 99.716 boa
+* 99.741 boa
 * 99.673 graaljs
 * 99.67 graaljs_exp
 * 99.639 xs_clang
 * 99.639 xs
 * 99.624 spidermonkey_full
 * 99.624 spidermonkey_exp
-* 99.612 quickjs_262
+* 99.617 quickjs_262
+* 99.195 v8_exp
 * 99.192 v8_full
-* 99.192 v8_exp
 * 99.125 quickjs-ng_262
 * 99.125 escargot_full
 * 98.884 libjs
@@ -587,10 +587,10 @@
 * 97.793 v8
 * 97.653 escargot_clang
 * 97.653 escargot
-* 96.831 kiesel
+* 96.835 kiesel
 * 96.115 engine262
 * 94.456 starlingmonkey
-* 93.765 nova
+* 93.79 nova
 * 93.717 engine262_jsc
 * 93.717 engine262_d8
 * 91.697 asynkron

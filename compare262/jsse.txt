@@ -1,4 +1,4 @@
-Comparing: ../test262/jsse.json ../../dist/arm64/jsse.test262
+Comparing: ../test262/jsse.json ../../dist/arm64/jsse.ci-test262
 Binary revision: MATCH (ours: 88a685a7558e, theirs: 88a685a7558e)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
 Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 5c8206929d81)

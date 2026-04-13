@@ -1,10 +1,10 @@
-Comparing: ../test262/jint.json ../../dist/arm64/jint.test262
+Comparing: ../test262/jint.json ../../dist/arm64/jint.ci-test262
 Binary revision: MISMATCH (ours: d4d231b3dd47, theirs: 7b41ac049d31)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
 Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 5c8206929d81)
 Tests: MISMATCH (ours: 53164, theirs: 50622, shared: 50622)
 Skipped tests: 688 (ours: 0, theirs: 688)
-Diffs: 255
+Diffs: 253
 
 test/built-ins/Array/prototype/concat/Array.prototype.concat_spreadable-boolean-wrapper.js: CRASH: SIGABRT vs PASS
 test/built-ins/Array/prototype/concat/Array.prototype.concat_spreadable-number-wrapper.js: CRASH: SIGABRT vs PASS
@@ -30,8 +30,6 @@ test/built-ins/Array/prototype/concat/S15.4.4.4_A3_T2.js: CRASH: SIGABRT vs PASS
 test/built-ins/Array/prototype/concat/S15.4.4.4_A3_T3.js: CRASH: SIGABRT vs PASS
 test/built-ins/Atomics/wait/bigint/cannot-suspend-throws.js: Test262Error: Expected a TypeError to be thrown but no exception was thrown at all vs PASS
 test/built-ins/Atomics/wait/cannot-suspend-throws.js: Test262Error: Expected a TypeError to be thrown but no exception was thrown at all vs PASS
-test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-exchange.js: PASS vs {"sloppy": "FAIL", "strict": "PASS"}
-test/built-ins/Atomics/waitAsync/no-spurious-wakeup-on-compareExchange.js: PASS vs {"sloppy": "PASS", "strict": "FAIL"}
 test/intl402/Temporal/Duration/compare/relativeto-sub-minute-offset.js: RangeError: Offset does not match any possible instant for the given date-time in the time zone vs PASS
 test/intl402/Temporal/Duration/prototype/round/relativeto-sub-minute-offset.js: RangeError: Offset does not match any possible instant for the given date-time in the time zone vs PASS
 test/intl402/Temporal/Duration/prototype/total/relativeto-sub-minute-offset.js: RangeError: Offset does not match any possible instant for the given date-time in the time zone vs PASS

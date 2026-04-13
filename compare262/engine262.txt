@@ -1,4 +1,4 @@
-Comparing: ../test262/engine262.json ../../dist/arm64/engine262.test262
+Comparing: ../test262/engine262.json ../../dist/arm64/engine262.ci-test262
 Binary revision: MATCH (ours: 9feb5f644635, theirs: 9feb5f644635)
 Binary arch: MATCH (ours: arm64, theirs: arm64)
 Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 2b2ecead6e82)

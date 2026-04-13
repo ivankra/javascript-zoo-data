@@ -1,25 +1,14 @@
-Comparing: ../test262/boa.json ../../dist/arm64/boa.test262
-Binary revision: MISMATCH (ours: 3f8a99641ea5, theirs: 352ec3dd2e81)
-Binary arch: MISMATCH (ours: amd64, theirs: arm64)
+Comparing: ../test262/boa.json ../../dist/arm64/boa.ci-test262
+Binary revision: MATCH (ours: 352ec3dd2e81, theirs: 352ec3dd2e81)
+Binary arch: MATCH (ours: arm64, theirs: arm64)
 Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 5c8206929d81)
 Tests: MISMATCH (ours: 53164, theirs: 53125, shared: 53123)
 Skipped tests: 1480 (ours: 0, theirs: 1482)
-Diffs: 24
+Diffs: 13
 
 test/built-ins/Atomics/waitAsync/bigint/true-for-timeout.js: AsyncTestFailure: Test timed out vs PASS
 test/built-ins/Atomics/waitAsync/returns-result-object-value-is-promise-resolves-to-timed-out.js: AsyncTestFailure: Test timed out vs PASS
 test/built-ins/Atomics/waitAsync/true-for-timeout.js: AsyncTestFailure: Test timed out vs PASS
-test/built-ins/DataView/prototype/setFloat16/set-values-return-undefined.js: Test262Error: value: 2.980232238769532e-8 Expected SameValue(«0», «5.960464477539063e-8») to be true vs PASS
-test/built-ins/Math/f16round/value-conversion.js: Test262Error: value: 2.980232238769532e-8 Expected SameValue(«0», «5.960464477539063e-8») to be true vs PASS
-test/built-ins/TypedArray/prototype/fill/fill-values-conversion-operations.js: Test262Error: 2.980232238769532e-8 converts to 5.960464477539063e-8 Expected SameValue(«0», «5.960464477539063e-8») to be true (Testing with Float16Array and makePassthrough.) vs PASS
-test/built-ins/TypedArray/prototype/map/return-new-typedarray-conversion-operation.js: Test262Error: 2.980232238769532e-8 converts to 5.960464477539063e-8 Expected SameValue(«0», «5.960464477539063e-8») to be true (Testing with Float16Array and makePassthrough.) vs PASS
-test/built-ins/TypedArray/prototype/set/array-arg-src-tonumber-value-conversions.js: Test262Error: [2.980232238769532e-8] => [5.960464477539063e-8] Expected SameValue(«0», «5.960464477539063e-8») to be true (Testing with Float16Array and makePassthrough.) vs PASS
-test/built-ins/TypedArray/prototype/set/typedarray-arg-set-values-diff-buffer-other-type-conversions.js: Test262Error: Expected SameValue(«0», «5.960464477539063e-8») to be true (Testing with Float16Array and makePassthrough.) vs PASS
-test/built-ins/TypedArrayConstructors/ctors/object-arg/conversion-operation.js: Test262Error: 2.980232238769532e-8 converts to 5.960464477539063e-8 Expected SameValue(«0», «5.960464477539063e-8») to be true (Testing with Float16Array and makePassthrough.) vs PASS
-test/built-ins/TypedArrayConstructors/internals/DefineOwnProperty/conversion-operation.js: Test262Error: 2.980232238769532e-8 converts to 5.960464477539063e-8 Expected SameValue(«0», «5.960464477539063e-8») to be true (Testing with Float16Array and makePassthrough.) vs PASS
-test/built-ins/TypedArrayConstructors/internals/Set/conversion-operation.js: Test262Error: The value of sample[0] is expected to equal the value of expected Expected SameValue(«0», «5.960464477539063e-8») to be true (Testing with Float16Array and makePassthrough.) vs PASS
-test/language/module-code/ambiguous-export-bindings/namespace-unambiguous-if-export-star-as-from-and-import-star-as-and-export.js: ReferenceError: assert is not defined vs PASS
-test/staging/sm/Math/f16round.js: Test262Error: Expected SameValue(«0», «5.960464477539063e-8») to be true vs PASS
 test/staging/sm/strict/8.12.5.js: PASS vs FAIL
 test/staging/sm/strict/8.12.7.js: PASS vs FAIL
 test/staging/sm/strict/15.4.4.8.js: PASS vs FAIL
