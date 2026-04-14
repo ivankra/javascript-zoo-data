@@ -4,13 +4,13 @@
 * 99.033 v8_exp
 * 98.95 spidermonkey_exp
 * 98.839 spidermonkey_full
+* 98.606 graaljs_exp
 * 98.317 v8_full
 * 97.92 libjs
 * 97.468 libjs_gcc
 * 97.376 escargot_full
 * 96.962 jint
 * 96.774 boa
-* 95.856 graaljs_exp
 * 93.693 kiesel
 * 92.117 jsc_exp
 * 89.009 asynkron
@@ -145,13 +145,13 @@
 * 99.025 v8_exp
 * 98.928 spidermonkey_exp
 * 98.814 spidermonkey_full
+* 98.63 graaljs_exp
 * 98.295 v8_full
 * 98.073 libjs
 * 97.608 libjs_gcc
 * 97.552 escargot_full
 * 97.268 jint
 * 96.995 boa
-* 95.896 graaljs_exp
 * 93.878 kiesel
 * 91.976 jsc_exp
 * 89.418 asynkron
@@ -283,10 +283,10 @@
 
 ## ex-staging-intl
 * 99.725 jsse
+* 99.599 graaljs_exp
 * 99.032 v8_exp
 * 98.952 spidermonkey_exp
 * 98.83 spidermonkey_full
-* 98.526 graaljs_exp
 * 98.271 v8_full
 * 98.24 boa
 * 98.18 escargot_full
@@ -424,10 +424,10 @@
 
 ## ex-staging-intl-annexb
 * 99.719 jsse
+* 99.645 graaljs_exp
 * 99.067 v8_exp
 * 98.932 spidermonkey_exp
 * 98.807 spidermonkey_full
-* 98.561 graaljs_exp
 * 98.295 boa
 * 98.289 v8_full
 * 98.155 escargot_full
@@ -564,6 +564,7 @@
 * 0.002 mocha
 
 ## ex-staging-intl-annexb-esnext
+* 99.913 graaljs_exp
 * 99.835 jsc_gcc
 * 99.818 jsc_exp
 * 99.816 jsc
@@ -571,7 +572,6 @@
 * 99.741 jsse
 * 99.741 boa
 * 99.673 graaljs
-* 99.67 graaljs_exp
 * 99.639 xs_clang
 * 99.639 xs
 * 99.624 spidermonkey_full
@@ -716,8 +716,8 @@
 * 97.466 boa
 * 96.132 jint
 * 93.973 escargot_full
+* 92.009 graaljs_exp
 * 85.877 yavashark
-* 78.366 graaljs_exp
 * 76.432 asynkron
 * 69.37 engine262_d8
 * 69.325 engine262
