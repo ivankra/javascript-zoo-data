@@ -50,6 +50,7 @@
 * 74.078 hermes-v1_clang
 * 74.078 hermes-v1
 * 73.379 nocturnejs
+* 72.886 okojo
 * 68.482 sval
 * 68.351 modernc-quickjs
 * 67.03 sobek
@@ -81,6 +82,7 @@
 * 31.788 jscript9
 * 31.568 ant
 * 31.258 narcissus
+* 30.887 carakan
 * 29.904 spidermonkey_1.8.5
 * 28.993 sablejs
 * 28.845 otto
@@ -188,6 +190,7 @@
 * 74.652 hermes-v1_full
 * 74.1 hermes-v1_clang
 * 74.1 hermes-v1
+* 73.278 okojo
 * 72.866 nocturnejs
 * 68.568 sval
 * 68.247 modernc-quickjs
@@ -220,6 +223,7 @@
 * 32.036 jscript9
 * 31.709 ant
 * 31.451 narcissus
+* 31.18 carakan
 * 30.221 spidermonkey_1.8.5
 * 29.431 sablejs
 * 29.185 otto
@@ -328,6 +332,7 @@
 * 79.076 hermes-v1_full
 * 77.825 nocturnejs
 * 75.894 yavashark
+* 75.753 okojo
 * 72.889 modernc-quickjs
 * 71.708 ssrlive
 * 71.605 sobek
@@ -359,6 +364,7 @@
 * 34.202 jscript9
 * 33.875 ant
 * 33.596 narcissus
+* 33.298 carakan
 * 32.272 spidermonkey_1.8.5
 * 31.427 sablejs
 * 31.168 otto
@@ -466,6 +472,7 @@
 * 79.167 hermes-v1
 * 79.099 hermes-v1_full
 * 77.39 nocturnejs
+* 76.867 okojo
 * 76.038 yavashark
 * 72.45 modernc-quickjs
 * 72.323 ssrlive
@@ -498,6 +505,7 @@
 * 34.05 jscript9
 * 33.947 ant
 * 33.458 narcissus
+* 33.314 carakan
 * 32.108 spidermonkey_1.8.5
 * 31.556 sablejs
 * 31.214 otto
@@ -605,6 +613,7 @@
 * 89.735 hermes-v1
 * 89.657 hermes-v1_full
 * 88.287 nocturnejs
+* 86.837 okojo
 * 82.3 modernc-quickjs
 * 82.147 ssrlive
 * 81.735 sobek
@@ -636,6 +645,7 @@
 * 38.902 iv-lv5_jitless
 * 38.56 ant
 * 38.359 jscript9
+* 37.537 carakan
 * 37.372 narcissus
 * 36.421 spidermonkey_1.8.5
 * 35.536 sablejs
@@ -718,6 +728,7 @@
 * 2.084 kodjodevf
 * 0.66 echosoar
 * 0.12 syoyo
+* 0.03 okojo
 * 0.03 jsc_jitless
 * 0.03 jsc_gcc
 * 0.03 jsc
