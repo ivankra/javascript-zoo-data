@@ -1,0 +1,17 @@
+Comparing: ../../conformance/spidermonkey_exp.json ../../dist/arm64/spidermonkey_full.ci-test262
+Binary revision: MATCH (ours: 793b60f0f65c, theirs: 793b60f0f65c)
+Binary arch: MATCH (ours: arm64, theirs: arm64)
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: a6f387de323e)
+Tests: MISMATCH (ours: 53164, theirs: 53391, shared: 52442)
+Skipped tests: 0 (ours: 0, theirs: 0)
+Diffs: 9
+
+test/harness/asyncHelpers-asyncTest-without-async-flag.js: PASS vs FAIL
+test/harness/detachArrayBuffer.js: PASS vs FAIL
+test/language/expressions/dynamic-import/import-attributes/2nd-param-with-type-text.js: PASS vs FAIL
+test/language/import/import-attributes/text-empty.js: PASS vs FAIL
+test/language/import/import-attributes/text-javascript.js: PASS vs FAIL
+test/language/import/import-attributes/text-self.js: PASS vs FAIL
+test/language/import/import-attributes/text-string.js: PASS vs FAIL
+test/language/import/import-attributes/text-via-namespace.js: PASS vs FAIL
+test/staging/sm/TypedArray/getter-name.js: PASS vs FAIL
