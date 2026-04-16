@@ -2,27 +2,26 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "xs_clang",
-    "binary_sha256": "8bd6b1c3cdaa8171c2d535e1bd2ce760f635816060b9fee8aa8765e7f93741bd",
-    "binary_size": 2051224,
+    "binary_sha256": "c226d4f71ef7bc7de3942046701cd13b68b218c4d4cbc55e25f1e4aefeb1854a",
+    "binary_size": 2043032,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": "print",
     "engine": "xs",
     "repository": "https://github.com/Moddable-OpenSource/moddable.git",
-    "revision": "fefb4aabee9a9cfe159efad220cd1909c11f6d5d",
-    "revision_date": "2026-03-17",
+    "revision": "b0411457e4577ea5560c780cb7824f3b00c2b2af",
+    "revision_date": "2026-04-13",
     "version": "17.9.1"
   },
   "flags": [
     {"if": "flags:module", "then": "-m", "else": "-s"}
   ],
   "summary": {
-    "all": {"pass": 418, "fail": 2, "pass_percent": 99.524},
-    "es1-5": {"pass": 418, "fail": 2, "pass_percent": 99.524}
+    "all": {"passed": 418, "failed": 2, "pass_percent": 99.524},
+    "es1-5": {"passed": 418, "failed": 2, "pass_percent": 99.524}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 147, "fail": 1, "pass_percent": 99.324},
-    "es5": {"pass": 73, "fail": 1, "pass_percent": 98.649}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 147, "failed": 1, "pass_percent": 99.324},
+    "es5": {"passed": 73, "failed": 1, "pass_percent": 98.649}
   },
   "tests": {
     "es1/Array.js": "PASS",

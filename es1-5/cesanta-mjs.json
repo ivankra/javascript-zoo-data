@@ -2,10 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "cesanta-mjs",
-    "binary_sha256": "6a18406b732dfa4ebab5d32f9474988a5e849a5a488bceadd98cbb5a6dd75ebe",
+    "binary_sha256": "2d7c3b40eb0b36f35df23a818b88ef55f4270f57729ca8e22eef1388b52327ad",
     "binary_size": 203576,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
     "engine": "cesanta-mjs",
     "repository": "https://github.com/cesanta/mjs.git",
     "revision": "cf375c40f6f15447af4925c33cd7c549b54deb2c",
@@ -13,13 +12,13 @@
     "version": "2.20.0-32-gcf375c4"
   },
   "summary": {
-    "all": {"pass": 2, "fail": 418, "pass_percent": 0.476},
-    "es1-5": {"pass": 2, "fail": 418, "pass_percent": 0.476}
+    "all": {"passed": 2, "failed": 418, "pass_percent": 0.476},
+    "es1-5": {"passed": 2, "failed": 418, "pass_percent": 0.476}
   },
   "dirs": {
-    "es1": {"pass": 1, "fail": 197, "pass_percent": 0.505},
-    "es3": {"fail": 148, "pass_percent": 0.0},
-    "es5": {"pass": 1, "fail": 73, "pass_percent": 1.351}
+    "es1": {"passed": 1, "failed": 197, "pass_percent": 0.505},
+    "es3": {"failed": 148},
+    "es5": {"passed": 1, "failed": 73, "pass_percent": 1.351}
   },
   "tests": {
     "es1/Array.js": "FAIL: [var] is not implemented",
@@ -419,7 +418,7 @@
     "es5/literals.object.trailing-comma.js": "FAIL: [var] is not implemented",
     "es5/source.keyword-properties.js": "FAIL: [var] is not implemented",
     "es5/source.unreserved-words.js": "FAIL: [var] is not implemented",
-    "es5/source.whitespace.bom.js": "SyntaxError: [\ufeff// ES5:]",
+    "es5/source.whitespace.bom.js": "SyntaxError: [﻿// ES5:]",
     "es5/source.zero-width-chars.js": "FAIL: [var] is not implemented",
     "es5/strict.eval-cannot-create-bindings.js": "FAIL: [var] is not implemented",
     "es5/strict.function-expr-with-matching-name.js": "FAIL: [var] is not implemented",

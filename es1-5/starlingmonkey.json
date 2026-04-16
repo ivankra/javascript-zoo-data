@@ -2,7 +2,6 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "starlingmonkey",
-    "console_log": "console.log",
     "dist_size": 74483350,
     "engine": "starlingmonkey",
     "repository": "https://github.com/bytecodealliance/StarlingMonkey.git",
@@ -12,13 +11,13 @@
     "version": "0.3.0"
   },
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

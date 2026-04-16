@@ -1,6 +1,6 @@
 Comparing: ../test262/nova.json ../../dist/arm64/nova.ci-test262
-Binary revision: MATCH (ours: a82b0408533b, theirs: a82b0408533b)
-Binary arch: MATCH (ours: arm64, theirs: arm64)
+Binary revision: MATCH (ours: 11ce9da5a4e2, theirs: 11ce9da5a4e2)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
 Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: e0d8f66a2b43)
 Tests: MISMATCH (ours: 53164, theirs: 50733, shared: 50570)
 Skipped tests: 3312 (ours: 0, theirs: 3326)

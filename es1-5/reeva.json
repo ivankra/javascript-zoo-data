@@ -2,7 +2,6 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "reeva",
-    "console_log": ["console.log", "print"],
     "dist_size": 26070597,
     "engine": "reeva",
     "jdk": "openjdk version \"21.0.10\" 2026-01-20",
@@ -12,13 +11,13 @@
     "version": "before-rewrite-306-gf7151633"
   },
   "summary": {
-    "all": {"pass": 323, "fail": 97, "pass_percent": 76.905},
-    "es1-5": {"pass": 323, "fail": 97, "pass_percent": 76.905}
+    "all": {"passed": 323, "failed": 97, "pass_percent": 76.905},
+    "es1-5": {"passed": 323, "failed": 97, "pass_percent": 76.905}
   },
   "dirs": {
-    "es1": {"pass": 163, "fail": 35, "pass_percent": 82.323},
-    "es3": {"pass": 105, "fail": 43, "pass_percent": 70.946},
-    "es5": {"pass": 55, "fail": 19, "pass_percent": 74.324}
+    "es1": {"passed": 163, "failed": 35, "pass_percent": 82.323},
+    "es3": {"passed": 105, "failed": 43, "pass_percent": 70.946},
+    "es5": {"passed": 55, "failed": 19, "pass_percent": 74.324}
   },
   "tests": {
     "es1/Array.js": "PASS",

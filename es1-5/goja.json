@@ -4,7 +4,6 @@
     "binary_name": "goja",
     "binary_sha256": "e02fc6e2ba4e89f26f8cd63f293790af33b4c541ca45af0f2451ded816fdc6b6",
     "binary_size": 10050264,
-    "console_log": ["console.log", "print"],
     "engine": "goja",
     "go": "1.26.2",
     "repository": "https://github.com/dop251/goja.git",
@@ -12,13 +11,13 @@
     "revision_date": "2026-03-11"
   },
   "summary": {
-    "all": {"pass": 416, "fail": 4, "pass_percent": 99.048},
-    "es1-5": {"pass": 416, "fail": 4, "pass_percent": 99.048}
+    "all": {"passed": 416, "failed": 4, "pass_percent": 99.048},
+    "es1-5": {"passed": 416, "failed": 4, "pass_percent": 99.048}
   },
   "dirs": {
-    "es1": {"pass": 195, "fail": 3, "pass_percent": 98.485},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 73, "fail": 1, "pass_percent": 98.649}
+    "es1": {"passed": 195, "failed": 3, "pass_percent": 98.485},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 73, "failed": 1, "pass_percent": 98.649}
   },
   "tests": {
     "es1/Array.js": "PASS",

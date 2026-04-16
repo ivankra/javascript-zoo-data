@@ -4,7 +4,6 @@
     "binary_name": "starlight",
     "binary_sha256": "a01629ea336d2327c9a5b58787539b32e6108060d4f3003c9b7ff681b77afc68",
     "binary_size": 3096168,
-    "console_log": "print",
     "engine": "starlight",
     "repository": "https://github.com/Starlight-JS/starlight.git",
     "revision": "503e789b9ef53594aee30c45a621018e855dcc17",
@@ -13,13 +12,13 @@
     "version": "0.0.1-55-g503e789"
   },
   "summary": {
-    "all": {"pass": 291, "fail": 129, "pass_percent": 69.286},
-    "es1-5": {"pass": 291, "fail": 129, "pass_percent": 69.286}
+    "all": {"passed": 290, "failed": 130, "pass_percent": 69.048},
+    "es1-5": {"passed": 290, "failed": 130, "pass_percent": 69.048}
   },
   "dirs": {
-    "es1": {"pass": 159, "fail": 39, "pass_percent": 80.303},
-    "es3": {"pass": 95, "fail": 53, "pass_percent": 64.189},
-    "es5": {"pass": 37, "fail": 37, "pass_percent": 50.0}
+    "es1": {"passed": 159, "failed": 39, "pass_percent": 80.303},
+    "es3": {"passed": 95, "failed": 53, "pass_percent": 64.189},
+    "es5": {"passed": 36, "failed": 38, "pass_percent": 48.649}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -402,7 +401,7 @@
     "es5/Object.isExtensible.js": "PASS",
     "es5/Object.isFrozen.js": "PASS",
     "es5/Object.isSealed.js": "PASS",
-    "es5/Object.keys.js": "PASS",
+    "es5/Object.keys.js": "FAIL: basic keys failed",
     "es5/Object.preventExtensions.js": "PASS",
     "es5/Object.property-shadowing.js": "FAIL: non-enumerable did not shadow enumerable",
     "es5/Object.seal.js": "PASS",

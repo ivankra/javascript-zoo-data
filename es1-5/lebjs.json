@@ -2,7 +2,6 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "lebjs",
-    "console_log": "console.log",
     "dist_size": 410699,
     "engine": "lebjs",
     "jdk": "openjdk version \"25.0.2\" 2026-01-20",
@@ -11,13 +10,13 @@
     "revision_date": "2025-08-14"
   },
   "summary": {
-    "all": {"pass": 213, "fail": 207, "pass_percent": 50.714},
-    "es1-5": {"pass": 213, "fail": 207, "pass_percent": 50.714}
+    "all": {"passed": 213, "failed": 207, "pass_percent": 50.714},
+    "es1-5": {"passed": 213, "failed": 207, "pass_percent": 50.714}
   },
   "dirs": {
-    "es1": {"pass": 119, "fail": 79, "pass_percent": 60.101},
-    "es3": {"pass": 59, "fail": 89, "pass_percent": 39.865},
-    "es5": {"pass": 35, "fail": 39, "pass_percent": 47.297}
+    "es1": {"passed": 119, "failed": 79, "pass_percent": 60.101},
+    "es3": {"passed": 59, "failed": 89, "pass_percent": 39.865},
+    "es5": {"passed": 35, "failed": 39, "pass_percent": 47.297}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -360,8 +359,8 @@
     "es3/regex.quantifier.star.js": "FAIL: NotImplemented: RegExp.prototype.exec has not been implemented.",
     "es3/regex.word-boundary.js": "FAIL: NotImplemented: RegExp.prototype.test has not been implemented.",
     "es3/source.line-terminators.js": "PASS",
-    "es3/source.whitespace.js": "SyntaxError: Cannot tokenize character '\u00a0' (12:4)",
-    "es3/source.whitespace.unicode.js": "SyntaxError: Cannot tokenize character '\u2000' (8:4)",
+    "es3/source.whitespace.js": "SyntaxError: Cannot tokenize character ' ' (12:4)",
+    "es3/source.whitespace.unicode.js": "SyntaxError: Cannot tokenize character ' ' (8:4)",
     "es3/strict-equals.js": "PASS",
     "es3/switch.js": "PASS",
     "es3/try-catch-finally.js": "FAIL: NullPointerException: Cannot invoke \"xyz.lebster.core.node.statement.BlockStatement.executeWithoutNewContext(xyz.lebster.core.interpreter.Interpreter)\" because \"this.catchBody\" is null",
@@ -417,7 +416,7 @@
     "es5/literals.object.trailing-comma.js": "PASS",
     "es5/source.keyword-properties.js": "PASS",
     "es5/source.unreserved-words.js": "PASS",
-    "es5/source.whitespace.bom.js": "SyntaxError: Cannot tokenize character '\ufeff' (1:1)",
+    "es5/source.whitespace.bom.js": "SyntaxError: Cannot tokenize character '﻿' (1:1)",
     "es5/source.zero-width-chars.js": "SyntaxError: Unexpected token '\\' (11:6)",
     "es5/strict.eval-cannot-create-bindings.js": "PASS",
     "es5/strict.function-expr-with-matching-name.js": "PASS",

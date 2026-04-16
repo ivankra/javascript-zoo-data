@@ -5,21 +5,19 @@
     "binary_sha256": "2586771625d6023ed2487e7281e7137548a942e0cfea1f4380d218257f73f4d0",
     "binary_size": 2600944,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": "console.log",
     "engine": "quanta",
     "repository": "https://github.com/solarbrowser/quanta.git",
-    "revision": "3daa0c449d28fc58007e7dc8b35cb3ccbe3aa728",
-    "revision_date": "2026-03-28",
-    "version": "0.4.1.3683426-5-g3daa0c4"
+    "revision": "04bcf711ebf69bdcc31a4ae6b66411af471b7a7a",
+    "revision_date": "2026-04-10"
   },
   "summary": {
-    "all": {"pass": 418, "fail": 2, "pass_percent": 99.524},
-    "es1-5": {"pass": 418, "fail": 2, "pass_percent": 99.524}
+    "all": {"passed": 418, "failed": 2, "pass_percent": 99.524},
+    "es1-5": {"passed": 418, "failed": 2, "pass_percent": 99.524}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 146, "fail": 2, "pass_percent": 98.649},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 146, "failed": 2, "pass_percent": 98.649},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

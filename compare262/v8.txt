@@ -1,8 +1,8 @@
 Comparing: ../test262/v8_exp.json ../../dist/arm64/v8_full.ci-test262
-Binary revision: MATCH (ours: b1410b3d2583, theirs: b1410b3d2583)
-Binary arch: MATCH (ours: arm64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: ff0d1611d3d5)
-Tests: MISMATCH (ours: 53164, theirs: 52422, shared: 52412)
+Binary revision: MATCH (ours: f35dc49101d9, theirs: f35dc49101d9)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 2b2ecead6e82)
+Tests: MISMATCH (ours: 53164, theirs: 52432, shared: 52422)
 Skipped tests: 4 (ours: 0, theirs: 4)
 Diffs: 19
 

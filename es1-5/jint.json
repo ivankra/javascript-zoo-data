@@ -2,25 +2,25 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jint",
-    "console_log": ["console.log", "print"],
-    "dist_size": 33241275,
-    "dotnet": "10.0.201",
+    "binary_sha256": "5d4252eb537f145a23abda920fa21fcb7a891dd4c3229820d8674bc026ba29e9",
+    "binary_size": 11315368,
+    "dotnet": "10.0.202",
     "engine": "jint",
     "repository": "https://github.com/sebastienros/jint.git",
-    "revision": "d4d231b3dd476ed86294d0b0624b7b4579f40df6",
-    "revision_date": "2026-04-07"
+    "revision": "2d888388821e093aa16889cb85aead0a19cc667e",
+    "revision_date": "2026-04-14"
   },
   "flags": [
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 418, "fail": 2, "pass_percent": 99.524},
-    "es1-5": {"pass": 418, "fail": 2, "pass_percent": 99.524}
+    "all": {"passed": 418, "failed": 2, "pass_percent": 99.524},
+    "es1-5": {"passed": 418, "failed": 2, "pass_percent": 99.524}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 147, "fail": 1, "pass_percent": 99.324},
-    "es5": {"pass": 73, "fail": 1, "pass_percent": 98.649}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 147, "failed": 1, "pass_percent": 99.324},
+    "es5": {"passed": 73, "failed": 1, "pass_percent": 98.649}
   },
   "tests": {
     "es1/Array.js": "PASS",

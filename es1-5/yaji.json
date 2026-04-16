@@ -2,19 +2,18 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "yaji",
-    "console_log": "writeln",
     "dist_size": 937830,
     "engine": "yaji",
     "jdk": "openjdk version \"25.0.2\" 2026-01-20"
   },
   "summary": {
-    "all": {"pass": 392, "fail": 28, "pass_percent": 93.333},
-    "es1-5": {"pass": 392, "fail": 28, "pass_percent": 93.333}
+    "all": {"passed": 392, "failed": 28, "pass_percent": 93.333},
+    "es1-5": {"passed": 392, "failed": 28, "pass_percent": 93.333}
   },
   "dirs": {
-    "es1": {"pass": 195, "fail": 3, "pass_percent": 98.485},
-    "es3": {"pass": 135, "fail": 13, "pass_percent": 91.216},
-    "es5": {"pass": 62, "fail": 12, "pass_percent": 83.784}
+    "es1": {"passed": 195, "failed": 3, "pass_percent": 98.485},
+    "es3": {"passed": 135, "failed": 13, "pass_percent": 91.216},
+    "es5": {"passed": 62, "failed": 12, "pass_percent": 83.784}
   },
   "tests": {
     "es1/Array.js": "PASS",

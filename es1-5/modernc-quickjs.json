@@ -2,27 +2,26 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "modernc-quickjs",
-    "binary_sha256": "1fe2f28b2cb26b12b75b9701d5280bdf5036aac36935bd41a100291e0003ee54",
-    "binary_size": 4998272,
-    "console_log": ["console.log", "print"],
+    "binary_sha256": "b8c7712de068800b6864b54221c15ed9f58811af5e8587a0d281625ab6e7ce41",
+    "binary_size": 4994080,
     "engine": "modernc-quickjs",
     "go": "1.26.2",
     "repository": "https://gitlab.com/cznic/quickjs.git",
-    "revision": "20baec7b1c5cc393599fec1f3f417f723d0d8ef8",
-    "revision_date": "2026-04-07",
-    "version": "0.17.2-1-g20baec7"
+    "revision": "0d9935b5f36c42824ff1640cd124ad4ee8d38f5b",
+    "revision_date": "2026-04-13",
+    "version": "0.18.0"
   },
   "flags": [
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

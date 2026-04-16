@@ -5,24 +5,20 @@
     "binary_sha256": "794aff1ac75fae31cec5eaee8e37a297c464528e9d93407ca094ff5c82dc7d04",
     "binary_size": 2123040,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": "console.log",
     "engine": "derkjs",
     "repository": "https://github.com/DrkWithT/DerkJS-Redux.git",
     "revision": "a0e388cd9bff0ee0eb5c393f5300216259c71bf5",
-    "revision_date": "2026-03-22",
-    "run_script_cmd": "$BINARY -r $FILE"
+    "revision_date": "2026-03-22"
   },
-  "flags": [
-    "-r"
-  ],
+  "flags": ["-r"],
   "summary": {
-    "all": {"pass": 70, "fail": 350, "pass_percent": 16.667},
-    "es1-5": {"pass": 70, "fail": 350, "pass_percent": 16.667}
+    "all": {"passed": 70, "failed": 350, "pass_percent": 16.667},
+    "es1-5": {"passed": 70, "failed": 350, "pass_percent": 16.667}
   },
   "dirs": {
-    "es1": {"pass": 47, "fail": 151, "pass_percent": 23.737},
-    "es3": {"pass": 15, "fail": 133, "pass_percent": 10.135},
-    "es5": {"pass": 8, "fail": 66, "pass_percent": 10.811}
+    "es1": {"passed": 47, "failed": 151, "pass_percent": 23.737},
+    "es3": {"passed": 15, "failed": 133, "pass_percent": 10.135},
+    "es5": {"passed": 8, "failed": 66, "pass_percent": 10.811}
   },
   "tests": {
     "es1/Array.js": "FAIL: Array() + array index length update failed; sparse array length failed",

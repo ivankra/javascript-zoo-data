@@ -1,14 +1,13 @@
 {
   "binary": {
-    "arch": "arm64",
+    "arch": "amd64",
     "binary_name": "okojo",
-    "console_log": "console.log",
-    "dist_size": 24578703,
-    "dotnet": "10.0.201",
+    "dist_size": 26808009,
+    "dotnet": "10.0.202",
     "engine": "okojo",
     "repository": "https://github.com/akeit0/okojo.git",
-    "revision": "12f7688dc58689b44673638b1c74a8ffca9a621d",
-    "revision_date": "2026-04-14"
+    "revision": "4ceb96a57a4b590faff69620412ea27f47486690",
+    "revision_date": "2026-04-15"
   },
   "summary": {
     "all": {"passed": 933, "failed": 161, "pass_percent": 85.283, "weight": 469.0, "weighted_pass_percent": 86.727},

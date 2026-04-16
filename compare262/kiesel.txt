@@ -1,5 +1,5 @@
 Comparing: ../test262/kiesel.json ../../dist/arm64/kiesel.ci-test262
-Binary revision: ours=96670ab5f18ede0f3a719b74d036fdafb46c589d, theirs=N/A
+Binary revision: ours=fb85ead12dfa833145b287b3aaf2884d94b5f146, theirs=N/A
 Test262 revision: ours=fb4471649cd29c0e08c42eadfbbd59846f8fd333, theirs=N/A
 Tests: MISMATCH (ours: 53164, theirs: 53125, shared: 53123)
 Skipped tests: 1411 (ours: 0, theirs: 1411)

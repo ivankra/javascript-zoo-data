@@ -2,10 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "iv-lv5",
-    "binary_sha256": "5c7478e04e1499dc362568762a79e946a6ac1b86a786457b016dc4df1842efcf",
+    "binary_sha256": "1d2aad5e245259019a44be04fe410c30dc85c5b04a029c6f8938a5a9692a7a3e",
     "binary_size": 7331280,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
     "engine": "iv-lv5",
     "jit": "true",
     "repository": "https://github.com/Constellation/iv.git",
@@ -13,13 +12,13 @@
     "revision_date": "2015-03-24"
   },
   "summary": {
-    "all": {"pass": 414, "fail": 6, "pass_percent": 98.571},
-    "es1-5": {"pass": 414, "fail": 6, "pass_percent": 98.571}
+    "all": {"passed": 414, "failed": 6, "pass_percent": 98.571},
+    "es1-5": {"passed": 414, "failed": 6, "pass_percent": 98.571}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 146, "fail": 2, "pass_percent": 98.649},
-    "es5": {"pass": 70, "fail": 4, "pass_percent": 94.595}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 146, "failed": 2, "pass_percent": 98.649},
+    "es5": {"passed": 70, "failed": 4, "pass_percent": 94.595}
   },
   "tests": {
     "es1/Array.js": "PASS",

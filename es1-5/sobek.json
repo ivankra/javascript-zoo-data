@@ -2,9 +2,8 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "sobek",
-    "binary_sha256": "face304618289b24b6c2a258542a2aba16dc7f413fb3de24ee2bf160f1656c84",
+    "binary_sha256": "724f01a575f2f555ce2dd69fd6e024db4327d15862b8a3dbf394d66b090ee4b7",
     "binary_size": 10202648,
-    "console_log": ["console.log", "print"],
     "engine": "sobek",
     "go": "1.26.2",
     "repository": "https://github.com/grafana/sobek.git",
@@ -15,13 +14,13 @@
     {"if": "flags:module", "then": "-module"}
   ],
   "summary": {
-    "all": {"pass": 416, "fail": 4, "pass_percent": 99.048},
-    "es1-5": {"pass": 416, "fail": 4, "pass_percent": 99.048}
+    "all": {"passed": 416, "failed": 4, "pass_percent": 99.048},
+    "es1-5": {"passed": 416, "failed": 4, "pass_percent": 99.048}
   },
   "dirs": {
-    "es1": {"pass": 195, "fail": 3, "pass_percent": 98.485},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 73, "fail": 1, "pass_percent": 98.649}
+    "es1": {"passed": 195, "failed": 3, "pass_percent": 98.485},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 73, "failed": 1, "pass_percent": 98.649}
   },
   "tests": {
     "es1/Array.js": "PASS",

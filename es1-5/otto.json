@@ -4,7 +4,6 @@
     "binary_name": "otto",
     "binary_sha256": "541195ab932e8f44d37eb50585adbe24aadfcefff5774a5a300f551cdcb796ee",
     "binary_size": 5200536,
-    "console_log": "console.log",
     "engine": "otto",
     "go": "1.26.2",
     "repository": "https://github.com/robertkrimen/otto.git",
@@ -13,13 +12,13 @@
     "version": "0.5.1-2-g3ca7298"
   },
   "summary": {
-    "all": {"pass": 384, "fail": 36, "pass_percent": 91.429},
-    "es1-5": {"pass": 384, "fail": 36, "pass_percent": 91.429}
+    "all": {"passed": 384, "failed": 36, "pass_percent": 91.429},
+    "es1-5": {"passed": 384, "failed": 36, "pass_percent": 91.429}
   },
   "dirs": {
-    "es1": {"pass": 196, "fail": 2, "pass_percent": 98.99},
-    "es3": {"pass": 135, "fail": 13, "pass_percent": 91.216},
-    "es5": {"pass": 53, "fail": 21, "pass_percent": 71.622}
+    "es1": {"passed": 196, "failed": 2, "pass_percent": 98.99},
+    "es3": {"passed": 135, "failed": 13, "pass_percent": 91.216},
+    "es5": {"passed": 53, "failed": 21, "pass_percent": 71.622}
   },
   "tests": {
     "es1/Array.js": "PASS",

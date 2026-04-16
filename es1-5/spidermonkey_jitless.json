@@ -2,28 +2,27 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "spidermonkey_jitless",
-    "binary_sha256": "3458e4fecdb60c449319f116ec924c8f7a0e6d8dcac60fad2f5ca6d8d1c63a12",
-    "binary_size": 15025032,
+    "binary_sha256": "322028c7a15d40310339b935ef8e6270b3fedb9b1722439846f350715fa6fb35",
+    "binary_size": 15010504,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "spidermonkey",
     "jit": "",
     "repository": "https://github.com/mozilla-firefox/firefox.git",
-    "revision": "07e27bfce5acf193bdb89c7ba2aa73451a3e43b4",
-    "revision_date": "2026-04-07",
+    "revision": "793b60f0f65c2f93c356ee87124bfe4c31a92bac",
+    "revision_date": "2026-04-14",
     "version": "151.0"
   },
   "flags": [
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

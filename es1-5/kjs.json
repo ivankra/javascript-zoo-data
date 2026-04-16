@@ -5,7 +5,6 @@
     "binary_sha256": "dbebf7e32965f7a20389c0d80addd9b88ac1408a94d486702571325980603c77",
     "binary_size": 1116208,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
     "engine": "kjs",
     "repository": "https://github.com/KDE/kjs.git",
     "revision": "5824588da24f797b4255929918efbc8b484baa09",
@@ -13,13 +12,13 @@
     "version": "5.117.0"
   },
   "summary": {
-    "all": {"pass": 361, "fail": 59, "pass_percent": 85.952},
-    "es1-5": {"pass": 361, "fail": 59, "pass_percent": 85.952}
+    "all": {"passed": 361, "failed": 59, "pass_percent": 85.952},
+    "es1-5": {"passed": 361, "failed": 59, "pass_percent": 85.952}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 115, "fail": 33, "pass_percent": 77.703},
-    "es5": {"pass": 48, "fail": 26, "pass_percent": 64.865}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 115, "failed": 33, "pass_percent": 77.703},
+    "es5": {"passed": 48, "failed": 26, "pass_percent": 64.865}
   },
   "tests": {
     "es1/Array.js": "PASS",

@@ -4,7 +4,6 @@
     "binary_name": "rapidus",
     "binary_sha256": "c02b14836d420be0c927cb142008b00374292cac537182db1490687e245a8bc8",
     "binary_size": 1673616,
-    "console_log": "console.log",
     "engine": "rapidus",
     "repository": "https://github.com/maekawatoshiki/rapidus.git",
     "revision": "e2cbce0e2ee7bb640df056d790e7d5e61fde94e0",
@@ -12,13 +11,13 @@
     "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
   "summary": {
-    "all": {"pass": 87, "fail": 333, "pass_percent": 20.714},
-    "es1-5": {"pass": 87, "fail": 333, "pass_percent": 20.714}
+    "all": {"passed": 87, "failed": 333, "pass_percent": 20.714},
+    "es1-5": {"passed": 87, "failed": 333, "pass_percent": 20.714}
   },
   "dirs": {
-    "es1": {"pass": 59, "fail": 139, "pass_percent": 29.798},
-    "es3": {"pass": 20, "fail": 128, "pass_percent": 13.514},
-    "es5": {"pass": 8, "fail": 66, "pass_percent": 10.811}
+    "es1": {"passed": 59, "failed": 139, "pass_percent": 29.798},
+    "es3": {"passed": 20, "failed": 128, "pass_percent": 13.514},
+    "es5": {"passed": 8, "failed": 66, "pass_percent": 10.811}
   },
   "tests": {
     "es1/Array.js": "FAIL: Array.length failed",
@@ -309,7 +308,7 @@
     "es3/global.encodeURIComponent.js": "ReferenceError: encodeURIComponent is not defined",
     "es3/global.encodeURI.js": "ReferenceError: encodeURI is not defined",
     "es3/global.undefined.js": "PASS",
-    "es3/identifiers.unicode.js": "CRASH: thread 'main' panicked at 'byte index 127 is not a char boundary; it is inside '\u0436' (bytes 126..128) of `// ES3: 7.6 Identifiers",
+    "es3/identifiers.unicode.js": "CRASH: thread 'main' panicked at 'byte index 127 is not a char boundary; it is inside 'ж' (bytes 126..128) of `// ES3: 7.6 Identifiers",
     "es3/instanceof.js": "SyntaxError: instanceof.js:9:8: expect ')'",
     "es3/in.js": "SyntaxError: in.js:10:10: expect ')'",
     "es3/labelled.break.js": "CRASH: thread 'main' panicked at 'not implemented: Label(\"loop1\")', core/src/vm/codegen.rs:230:22",
@@ -418,7 +417,7 @@
     "es5/literals.object.trailing-comma.js": "PASS",
     "es5/source.keyword-properties.js": "CRASH: thread 'main' panicked at 'not implemented', parser/src/lib.rs:1095:22",
     "es5/source.unreserved-words.js": "SyntaxError: source.unreserved-words.js:13:4: Expect identifier.",
-    "es5/source.whitespace.bom.js": "CRASH: thread 'main' panicked at 'byte index 1 is not a char boundary; it is inside '\\u{feff}' (bytes 0..3) of `\ufeff// ES5: 7.2 White Space",
+    "es5/source.whitespace.bom.js": "CRASH: thread 'main' panicked at 'byte index 1 is not a char boundary; it is inside '\\u{feff}' (bytes 0..3) of `﻿// ES5: 7.2 White Space",
     "es5/source.zero-width-chars.js": "SyntaxError: source.zero-width-chars.js:11:5: expect ';' or line terminator",
     "es5/strict.eval-cannot-create-bindings.js": "SyntaxError: strict.eval-cannot-create-bindings.js:22:24: expect ')'",
     "es5/strict.function-expr-with-matching-name.js": "FAIL",

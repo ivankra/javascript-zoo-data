@@ -52995,7 +52995,7 @@
     "test/staging/sm/class/parenExprToString.js": "PASS",
     "test/staging/sm/class/staticConstructor.js": "PASS",
     "test/staging/sm/class/staticMethods.js": "PASS",
-    "test/staging/sm/class/strictExecution.js": {"strict": "PASS", "sloppy": "Test262Error: Expected a TypeError to be thrown but no exception was thrown at all"},
+    "test/staging/sm/class/strictExecution.js": {"sloppy": "Test262Error: Expected a TypeError to be thrown but no exception was thrown at all", "strict": "PASS"},
     "test/staging/sm/class/stringConstructor.js": "PASS",
     "test/staging/sm/class/subclassedArrayUnboxed.js": "PASS",
     "test/staging/sm/class/superCallBadDynamicSuperClass.js": "PASS",

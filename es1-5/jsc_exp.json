@@ -2,15 +2,14 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jsc",
-    "binary_sha256": "60584e6f6e4200042ec38e710ab9ac389847511a5f60e4d53803c296292411b2",
-    "binary_size": 30762480,
+    "binary_sha256": "f92587ba18ea0a0db73862d0a8c754bb00f1cb3860f0b3beb6d2b6a0420da536",
+    "binary_size": 32151024,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": "print",
     "engine": "jsc",
     "repository": "https://github.com/WebKit/WebKit.git",
-    "revision": "8153a3994db56a92417e0f2048fdcb26a92a1710",
-    "revision_date": "2026-04-08",
-    "version": "310766"
+    "revision": "a085c62693cdc4542e80a8006a55e588acbca5dc",
+    "revision_date": "2026-04-14",
+    "version": "311258"
   },
   "flags": [
     {"if": "flags:CanBlockIsFalse", "then": "--can-block-is-false"},
@@ -18,18 +17,20 @@
     "--useExplicitResourceManagement=true",
     "--useImportDefer=true",
     "--useIteratorChunking=true",
+    "--useIteratorIncludes=true",
+    "--useIteratorJoin=true",
     "--useMoreCurrencyDisplayChoices=true",
     "--useShadowRealm=true",
     "--useTemporal=true"
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

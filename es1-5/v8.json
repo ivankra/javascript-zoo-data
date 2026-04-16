@@ -2,15 +2,14 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "v8",
-    "binary_sha256": "28cacea1def8e3b598185112ee494b3d4334c7780b824857e7ce794374d6d450",
-    "binary_size": 22102792,
+    "binary_sha256": "1dbac2e3e9f686e89cf21278e8b0561996242e3c5def593c8b142fc0793f5ab2",
+    "binary_size": 22143688,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "v8",
     "repository": "https://chromium.googlesource.com/v8/v8.git",
-    "revision": "db245183b19589c142ec520defa6a9bb637dd883",
-    "revision_date": "2026-04-07",
-    "rustc": "rustc 1.96.0-nightly (c75612477 2026-04-07)",
+    "revision": "f35dc49101d9be6e21b7c84d4409b58f9c7b5e22",
+    "revision_date": "2026-04-14",
+    "rustc": "rustc 1.97.0-nightly (a5c825cd8 2026-04-14)",
     "v8_build_config": {
       "DEBUG_defined": false,
       "arch": "x64",
@@ -73,7 +72,7 @@
       "verify_predictable": false,
       "wasm_random_fuzzers": false
     },
-    "version": "14.9.23"
+    "version": "14.9.102"
   },
   "flags": [
     "--ignore-unhandled-promises",
@@ -84,13 +83,13 @@
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

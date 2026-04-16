@@ -1,7 +1,7 @@
 Comparing: ../test262/quickjs-ng_262.json ../../dist/arm64/quickjs-ng_262.ci-test262
-Binary revision: MISMATCH (ours: a9e4b274bceb, theirs: b1a04105245b)
+Binary revision: MISMATCH (ours: a9e4b274bceb, theirs: c52d19852079)
 Binary arch: MATCH (ours: arm64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: b1a04105245b)
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: c52d19852079)
 Tests: MISMATCH (ours: 53164, theirs: 59, shared: 59)
 Skipped tests: 0 (ours: 0, theirs: 0)
 Diffs: 0

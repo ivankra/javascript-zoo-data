@@ -2,7 +2,6 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "rhino",
-    "console_log": "console.log",
     "dist_size": 2799427,
     "engine": "rhino",
     "jdk": "openjdk version \"21.0.10\" 2026-01-20",
@@ -12,13 +11,13 @@
     "version": ""
   },
   "summary": {
-    "all": {"pass": 410, "fail": 10, "pass_percent": 97.619},
-    "es1-5": {"pass": 410, "fail": 10, "pass_percent": 97.619}
+    "all": {"passed": 410, "failed": 10, "pass_percent": 97.619},
+    "es1-5": {"passed": 410, "failed": 10, "pass_percent": 97.619}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 64, "fail": 10, "pass_percent": 86.486}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 64, "failed": 10, "pass_percent": 86.486}
   },
   "tests": {
     "es1/Array.js": "PASS",

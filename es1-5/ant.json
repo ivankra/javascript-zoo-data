@@ -2,9 +2,8 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "ant",
-    "binary_sha256": "51708b3f1c6be72feec53a4bfd432106eab69664015992176a3b4c10abe37060",
+    "binary_sha256": "6c6df25b0636eb230e5b0fe4a1ea991f8072f44d66572d4bdfe51e6557d5b3d8",
     "binary_size": 8637544,
-    "console_log": "console.log",
     "engine": "ant",
     "repository": "https://github.com/theMackabu/ant.git",
     "revision": "291637d5a34087fd7237ec0a2bf91daaac17e4d5",
@@ -13,13 +12,13 @@
     "zig": "0.15.2"
   },
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

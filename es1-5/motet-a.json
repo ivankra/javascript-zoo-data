@@ -4,20 +4,19 @@
     "binary_name": "motet-a",
     "binary_sha256": "5f0717c3dde68da627c278001529e823daef2b0991ce286fceeed5b66c4a82c1",
     "binary_size": 105480,
-    "console_log": "print",
     "engine": "motet-a",
     "repository": "https://github.com/motet-a/toy.git",
     "revision": "c842ba34240e4b79922b60e970c6f084af8d1ba9",
     "revision_date": "2019-04-12"
   },
   "summary": {
-    "all": {"fail": 420, "pass_percent": 0.0},
-    "es1-5": {"fail": 420, "pass_percent": 0.0}
+    "all": {"failed": 420},
+    "es1-5": {"failed": 420}
   },
   "dirs": {
-    "es1": {"fail": 198, "pass_percent": 0.0},
-    "es3": {"fail": 148, "pass_percent": 0.0},
-    "es5": {"fail": 74, "pass_percent": 0.0}
+    "es1": {"failed": 198},
+    "es3": {"failed": 148},
+    "es5": {"failed": 74}
   },
   "tests": {
     "es1/Array.js": "SyntaxError",

@@ -2,13 +2,12 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "boa",
-    "binary_sha256": "0eddbf08473b4116eb5f21597e6d04e712f9725f7595694cd6c9410b88c12637",
-    "binary_size": 28323632,
-    "console_log": "console.log",
+    "binary_sha256": "ef45784b2823899cfa76f95d92b33ffab3fb7caac5a60f86cf84388af40b768a",
+    "binary_size": 28329008,
     "engine": "boa",
     "repository": "https://github.com/boa-dev/boa.git",
-    "revision": "3f8a99641ea51f02dc0ede7fcb75468eb6531bfe",
-    "revision_date": "2026-04-07",
+    "revision": "da570fd74bb6cd5b0fc01363451eb710b7ab5a0c",
+    "revision_date": "2026-04-14",
     "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
   "flags": [
@@ -17,13 +16,13 @@
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 418, "fail": 2, "pass_percent": 99.524},
-    "es1-5": {"pass": 418, "fail": 2, "pass_percent": 99.524}
+    "all": {"passed": 418, "failed": 2, "pass_percent": 99.524},
+    "es1-5": {"passed": 418, "failed": 2, "pass_percent": 99.524}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 147, "fail": 1, "pass_percent": 99.324},
-    "es5": {"pass": 73, "fail": 1, "pass_percent": 98.649}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 147, "failed": 1, "pass_percent": 99.324},
+    "es5": {"passed": 73, "failed": 1, "pass_percent": 98.649}
   },
   "tests": {
     "es1/Array.js": "PASS",

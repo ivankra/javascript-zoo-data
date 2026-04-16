@@ -4,7 +4,6 @@
     "binary_name": "stator",
     "binary_sha256": "7eba53bbcb9a20aeefa8b65f72c5f8c18aba675df96a45e716bc44f0ff509be1",
     "binary_size": 22136864,
-    "console_log": ["console.log", "print"],
     "engine": "stator",
     "repository": "https://github.com/telecos/stator.git",
     "revision": "455b1eb10f919ef9f26533a8b741d61e2b3e98c9",
@@ -12,13 +11,13 @@
     "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
   "summary": {
-    "all": {"pass": 349, "fail": 71, "pass_percent": 83.095},
-    "es1-5": {"pass": 349, "fail": 71, "pass_percent": 83.095}
+    "all": {"passed": 350, "failed": 70, "pass_percent": 83.333},
+    "es1-5": {"passed": 350, "failed": 70, "pass_percent": 83.333}
   },
   "dirs": {
-    "es1": {"pass": 185, "fail": 13, "pass_percent": 93.434},
-    "es3": {"pass": 121, "fail": 27, "pass_percent": 81.757},
-    "es5": {"pass": 43, "fail": 31, "pass_percent": 58.108}
+    "es1": {"passed": 185, "failed": 13, "pass_percent": 93.434},
+    "es3": {"passed": 121, "failed": 27, "pass_percent": 81.757},
+    "es5": {"passed": 44, "failed": 30, "pass_percent": 59.459}
   },
   "tests": {
     "es1/Array.js": "FAIL: Array.length failed",
@@ -389,7 +388,7 @@
     "es5/JSON.parse.js": "PASS",
     "es5/JSON.parse.reviver.js": "CRASH: thread '<unnamed>' panicked at crates/stator_core/src/compiler/maglev/range_analysis.rs:408:37:",
     "es5/JSON.stringify.js": "PASS",
-    "es5/JSON.stringify.replacer.js": "CRASH: thread '<unnamed>' panicked at crates/stator_core/src/compiler/maglev/range_analysis.rs:408:37:",
+    "es5/JSON.stringify.replacer.js": "PASS",
     "es5/JSON.stringify.space.js": "CRASH: thread '<unnamed>' panicked at crates/stator_core/src/compiler/maglev/range_analysis.rs:408:37:",
     "es5/Object.create.js": "PASS",
     "es5/Object.defineProperties.js": "PASS",

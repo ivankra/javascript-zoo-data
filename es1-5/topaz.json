@@ -2,9 +2,8 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "topaz",
-    "console_log": ["console.log", "print"],
     "dist_size": 665785,
-    "dotnet": "10.0.201",
+    "dotnet": "10.0.202",
     "engine": "topaz",
     "repository": "https://github.com/koculu/Topaz.git",
     "revision": "03ef33706098e87e6272a43037fe44b78060f63d",
@@ -12,13 +11,13 @@
     "version": "1.4.1"
   },
   "summary": {
-    "all": {"pass": 71, "fail": 349, "pass_percent": 16.905},
-    "es1-5": {"pass": 71, "fail": 349, "pass_percent": 16.905}
+    "all": {"passed": 71, "failed": 349, "pass_percent": 16.905},
+    "es1-5": {"passed": 71, "failed": 349, "pass_percent": 16.905}
   },
   "dirs": {
-    "es1": {"pass": 43, "fail": 155, "pass_percent": 21.717},
-    "es3": {"pass": 21, "fail": 127, "pass_percent": 14.189},
-    "es5": {"pass": 7, "fail": 67, "pass_percent": 9.459}
+    "es1": {"passed": 43, "failed": 155, "pass_percent": 21.717},
+    "es3": {"passed": 21, "failed": 127, "pass_percent": 14.189},
+    "es5": {"passed": 7, "failed": 67, "pass_percent": 9.459}
   },
   "tests": {
     "es1/Array.js": "FAIL: Constructor call on null is not defined.",

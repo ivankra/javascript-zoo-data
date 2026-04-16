@@ -3,8 +3,7 @@
     "arch": "amd64",
     "binary_name": "ejscript",
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
-    "dist_size": 1971130,
+    "dist_size": 1971144,
     "engine": "ejscript",
     "repository": "https://github.com/embedthis/ejscript.git",
     "revision": "bb38d46e96ad20e923821d31d4a37e64de926d5a",
@@ -12,13 +11,13 @@
     "version": "2.7.7-22-gbb38d46e9"
   },
   "summary": {
-    "all": {"pass": 244, "fail": 176, "pass_percent": 58.095},
-    "es1-5": {"pass": 244, "fail": 176, "pass_percent": 58.095}
+    "all": {"passed": 244, "failed": 176, "pass_percent": 58.095},
+    "es1-5": {"passed": 244, "failed": 176, "pass_percent": 58.095}
   },
   "dirs": {
-    "es1": {"pass": 146, "fail": 52, "pass_percent": 73.737},
-    "es3": {"pass": 74, "fail": 74, "pass_percent": 50.0},
-    "es5": {"pass": 24, "fail": 50, "pass_percent": 32.432}
+    "es1": {"passed": 146, "failed": 52, "pass_percent": 73.737},
+    "es3": {"passed": 74, "failed": 74, "pass_percent": 50.0},
+    "es5": {"passed": 24, "failed": 50, "pass_percent": 32.432}
   },
   "tests": {
     "es1/Array.js": "FAIL: Array.length failed",
@@ -27,9 +26,9 @@
     "es1/Array.prototype.constructor.js": "FAIL: Array.prototype.constructor failed",
     "es1/Array.prototype.join.generic.js": "FAIL",
     "es1/Array.prototype.join.js": "FAIL: join() without separator failed",
-    "es1/Array.prototype.reverse.generic.js": "FAIL",
+    "es1/Array.prototype.reverse.generic.js": "CRASH: SIGSEGV",
     "es1/Array.prototype.reverse.js": "PASS",
-    "es1/Array.prototype.sort.generic.js": "FAIL",
+    "es1/Array.prototype.sort.generic.js": "CRASH: SIGSEGV",
     "es1/Array.prototype.sort.js": "FAIL: sort with comparefn failed; reverse comparefn failed",
     "es1/Array.prototype.toString.js": "PASS",
     "es1/Boolean.js": "FAIL: new Boolean(true) failed; new Boolean() failed",

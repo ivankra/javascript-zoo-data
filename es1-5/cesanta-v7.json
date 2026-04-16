@@ -2,23 +2,23 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "cesanta-v7",
-    "binary_sha256": "c7da0a858d979d1926f188bf8b957ee1b46acc9b1f4cbb50ea78e2cf98a12119",
+    "binary_sha256": "a3b3fe3992970b11c588709dd9c148d0fd3a82249307acf160d5959dabd1ebab",
     "binary_size": 428848,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
     "engine": "cesanta-v7",
     "repository": "https://github.com/cesanta/v7.git",
     "revision": "ce5212ae42dfd93247c56fbc233f65367e9def27",
-    "revision_date": "2017-08-26"
+    "revision_date": "2017-08-26",
+    "version": "3.0-151-gce5212a"
   },
   "summary": {
-    "all": {"pass": 293, "fail": 127, "pass_percent": 69.762},
-    "es1-5": {"pass": 293, "fail": 127, "pass_percent": 69.762}
+    "all": {"passed": 293, "failed": 127, "pass_percent": 69.762},
+    "es1-5": {"passed": 293, "failed": 127, "pass_percent": 69.762}
   },
   "dirs": {
-    "es1": {"pass": 162, "fail": 36, "pass_percent": 81.818},
-    "es3": {"pass": 97, "fail": 51, "pass_percent": 65.541},
-    "es5": {"pass": 34, "fail": 40, "pass_percent": 45.946}
+    "es1": {"passed": 162, "failed": 36, "pass_percent": 81.818},
+    "es3": {"passed": 97, "failed": 51, "pass_percent": 65.541},
+    "es5": {"passed": 34, "failed": 40, "pass_percent": 45.946}
   },
   "tests": {
     "es1/Array.js": "FAIL: new Array(len) failed; Array(len) failed",

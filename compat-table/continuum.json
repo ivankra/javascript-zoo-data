@@ -2,7 +2,6 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "continuum",
-    "console_log": "console.log",
     "dist_size": 882640,
     "engine": "continuum",
     "repository": "https://github.com/ivankra/continuum.git",
@@ -10,28 +9,28 @@
     "revision_date": "2014-06-25"
   },
   "summary": {
-    "all": {"pass": 305, "fail": 789, "pass_percent": 27.879, "weight": 469.0, "weighted_pass_percent": 24.02},
-    "es6": {"pass": 238, "fail": 462, "pass_percent": 34.0, "weight": 211.0, "weighted_pass_percent": 33.179},
-    "es2016+": {"pass": 8, "fail": 242, "pass_percent": 3.2, "weight": 151.0, "weighted_pass_percent": 1.242},
-    "esnext": {"fail": 43, "pass_percent": 0.0, "weight": 33.0, "weighted_pass_percent": 0.0},
-    "intl": {"pass": 7, "fail": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0}
+    "all": {"passed": 305, "failed": 789, "pass_percent": 27.879, "weight": 469.0, "weighted_pass_percent": 24.02},
+    "es6": {"passed": 238, "failed": 462, "pass_percent": 34.0, "weight": 211.0, "weighted_pass_percent": 33.179},
+    "es2016+": {"passed": 8, "failed": 242, "pass_percent": 3.2, "weight": 151.0, "weighted_pass_percent": 1.242},
+    "esnext": {"failed": 43, "weight": 33.0},
+    "intl": {"passed": 7, "failed": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0}
   },
   "dirs": {
-    "compat-table": {"pass": 305, "fail": 789, "pass_percent": 27.879, "weight": 469.0, "weighted_pass_percent": 24.02},
-    "compat-table/es5": {"pass": 52, "fail": 21, "pass_percent": 71.233, "weight": 46.0, "weighted_pass_percent": 73.415},
-    "compat-table/es6": {"pass": 238, "fail": 462, "pass_percent": 34.0, "weight": 211.0, "weighted_pass_percent": 33.179},
-    "compat-table/es2016": {"fail": 14, "pass_percent": 0.0, "weight": 11.0, "weighted_pass_percent": 0.0},
-    "compat-table/es2017": {"pass": 1, "fail": 63, "pass_percent": 1.562, "weight": 25.0, "weighted_pass_percent": 4.0},
-    "compat-table/es2018": {"fail": 22, "pass_percent": 0.0, "weight": 19.0, "weighted_pass_percent": 0.0},
-    "compat-table/es2019": {"fail": 24, "pass_percent": 0.0, "weight": 16.0, "weighted_pass_percent": 0.0},
-    "compat-table/es2020": {"fail": 19, "pass_percent": 0.0, "weight": 14.0, "weighted_pass_percent": 0.0},
-    "compat-table/es2021": {"fail": 15, "pass_percent": 0.0, "weight": 14.0, "weighted_pass_percent": 0.0},
-    "compat-table/es2022": {"pass": 7, "fail": 33, "pass_percent": 17.5, "weight": 21.0, "weighted_pass_percent": 4.167},
-    "compat-table/es2023": {"fail": 10, "pass_percent": 0.0, "weight": 5.0, "weighted_pass_percent": 0.0},
-    "compat-table/es2024": {"fail": 13, "pass_percent": 0.0, "weight": 7.0, "weighted_pass_percent": 0.0},
-    "compat-table/es2025": {"fail": 29, "pass_percent": 0.0, "weight": 19.0, "weighted_pass_percent": 0.0},
-    "compat-table/intl": {"pass": 7, "fail": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0},
-    "compat-table/next": {"fail": 43, "pass_percent": 0.0, "weight": 33.0, "weighted_pass_percent": 0.0}
+    "compat-table": {"passed": 305, "failed": 789, "pass_percent": 27.879, "weight": 469.0, "weighted_pass_percent": 24.02},
+    "compat-table/es5": {"passed": 52, "failed": 21, "pass_percent": 71.233, "weight": 46.0, "weighted_pass_percent": 73.415},
+    "compat-table/es6": {"passed": 238, "failed": 462, "pass_percent": 34.0, "weight": 211.0, "weighted_pass_percent": 33.179},
+    "compat-table/es2016": {"failed": 14, "weight": 11.0},
+    "compat-table/es2017": {"passed": 1, "failed": 63, "pass_percent": 1.562, "weight": 25.0, "weighted_pass_percent": 4.0},
+    "compat-table/es2018": {"failed": 22, "weight": 19.0},
+    "compat-table/es2019": {"failed": 24, "weight": 16.0},
+    "compat-table/es2020": {"failed": 19, "weight": 14.0},
+    "compat-table/es2021": {"failed": 15, "weight": 14.0},
+    "compat-table/es2022": {"passed": 7, "failed": 33, "pass_percent": 17.5, "weight": 21.0, "weighted_pass_percent": 4.167},
+    "compat-table/es2023": {"failed": 10, "weight": 5.0},
+    "compat-table/es2024": {"failed": 13, "weight": 7.0},
+    "compat-table/es2025": {"failed": 29, "weight": 19.0},
+    "compat-table/intl": {"passed": 7, "failed": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0},
+    "compat-table/next": {"failed": 43, "weight": 33.0}
   },
   "tests": {
     "compat-table/es5/Array.isArray.js": "PASS",

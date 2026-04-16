@@ -5,20 +5,19 @@
     "binary_sha256": "efdc7b44b05ffa4e2ddd65309839ecc3e32f193f9ec4b78077de66be4c0fb1dd",
     "binary_size": 670616,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
     "engine": "epimetheus",
     "repository": "https://github.com/jrmuizel/mozilla-cvs-history.git",
     "revision": "3229d5d8b7f8376cfb7936e7be810635a14a486b",
     "revision_date": "2008-08-12"
   },
   "summary": {
-    "all": {"pass": 264, "fail": 156, "pass_percent": 62.857},
-    "es1-5": {"pass": 264, "fail": 156, "pass_percent": 62.857}
+    "all": {"passed": 264, "failed": 156, "pass_percent": 62.857},
+    "es1-5": {"passed": 264, "failed": 156, "pass_percent": 62.857}
   },
   "dirs": {
-    "es1": {"pass": 162, "fail": 36, "pass_percent": 81.818},
-    "es3": {"pass": 94, "fail": 54, "pass_percent": 63.514},
-    "es5": {"pass": 8, "fail": 66, "pass_percent": 10.811}
+    "es1": {"passed": 162, "failed": 36, "pass_percent": 81.818},
+    "es3": {"passed": 94, "failed": 54, "pass_percent": 63.514},
+    "es5": {"passed": 8, "failed": 66, "pass_percent": 10.811}
   },
   "tests": {
     "es1/Array.js": "PASS",

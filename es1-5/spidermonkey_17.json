@@ -2,10 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "spidermonkey_17",
-    "binary_sha256": "a36c5c62422007c35af627ae07ee215b94a260f8cba83d149dce2428190e4549",
+    "binary_sha256": "ce1cfb3f2d6273035c3fd1807db879728add7f0e92b3d479aee6ac2385936b56",
     "binary_size": 4446936,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
     "engine": "spidermonkey",
     "loc": 203542,
     "regex": "YARR",
@@ -14,17 +13,15 @@
     "standard": "ES5",
     "version": "17.0.0"
   },
-  "flags": [
-    "-m"
-  ],
+  "flags": ["-m"],
   "summary": {
-    "all": {"pass": 416, "fail": 4, "pass_percent": 99.048},
-    "es1-5": {"pass": 416, "fail": 4, "pass_percent": 99.048}
+    "all": {"passed": 416, "failed": 4, "pass_percent": 99.048},
+    "es1-5": {"passed": 416, "failed": 4, "pass_percent": 99.048}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 146, "fail": 2, "pass_percent": 98.649},
-    "es5": {"pass": 72, "fail": 2, "pass_percent": 97.297}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 146, "failed": 2, "pass_percent": 98.649},
+    "es5": {"passed": 72, "failed": 2, "pass_percent": 97.297}
   },
   "tests": {
     "es1/Array.js": "PASS",

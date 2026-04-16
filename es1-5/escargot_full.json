@@ -2,27 +2,26 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "escargot_full",
-    "binary_sha256": "ee604ebb545048279edba5dd564d510af1bc97341d11dfa8a1af90d423a6569e",
+    "binary_sha256": "2f7de00d13da6a9e17a39c32b82f2118253e0d3a5d2cb51509f8ce5b5ca99c8a",
     "binary_size": 6083616,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
     "engine": "escargot",
     "repository": "https://github.com/Samsung/escargot.git",
-    "revision": "f25f05faca6a9f80a2c59f80ce89092b3110831c",
-    "revision_date": "2026-04-08"
+    "revision": "0ac274d1fcbb80e8d58a027789532ccdcb751428",
+    "revision_date": "2026-04-14"
   },
   "flags": [
     {"if": "flags:CanBlockIsFalse", "then": "--canblock-is-false"},
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

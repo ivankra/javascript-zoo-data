@@ -2,9 +2,8 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "hako_wasmtime_go",
-    "binary_sha256": "4880772371ea685c8b0b4a4a109483f633d025eb9ad9120ca6eb1d43199302b4",
+    "binary_sha256": "861d94095556b2fa2812d5da866dd2ddaae5b0e1f9266c4ce3c3c0eda52bdccf",
     "binary_size": 28375792,
-    "console_log": ["console.log", "print"],
     "engine": "hako",
     "go": "1.26.2"
   },
@@ -12,13 +11,13 @@
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

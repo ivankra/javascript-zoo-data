@@ -5,7 +5,6 @@
     "binary_sha256": "da426d11f2b0beabf64f2217d48ca8948b0c75deb31198a66a2c4f70e9de1b4d",
     "binary_size": 502568,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": "print",
     "engine": "jerryscript",
     "repository": "https://github.com/jerryscript-project/jerryscript.git",
     "revision": "b7069350c2e52e7dc721dfb75f067147bd79b39b",
@@ -16,13 +15,13 @@
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 417, "fail": 3, "pass_percent": 99.286},
-    "es1-5": {"pass": 417, "fail": 3, "pass_percent": 99.286}
+    "all": {"passed": 417, "failed": 3, "pass_percent": 99.286},
+    "es1-5": {"passed": 417, "failed": 3, "pass_percent": 99.286}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 145, "fail": 3, "pass_percent": 97.973},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 145, "failed": 3, "pass_percent": 97.973},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

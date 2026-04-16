@@ -4,7 +4,6 @@
     "binary_name": "bali",
     "binary_sha256": "66cabb64abad5a6bc7d6e44a091079fd5623ceb1ec4b53f1bc2a78665089e85c",
     "binary_size": 4756032,
-    "console_log": "console.log",
     "engine": "bali",
     "repository": "https://github.com/ferus-web/bali.git",
     "revision": "99f0aa14155d0b0c9e39f6273a51c35b497207de",
@@ -12,13 +11,13 @@
     "version": "0.8.2"
   },
   "summary": {
-    "all": {"pass": 14, "fail": 406, "pass_percent": 3.333},
-    "es1-5": {"pass": 14, "fail": 406, "pass_percent": 3.333}
+    "all": {"passed": 14, "failed": 406, "pass_percent": 3.333},
+    "es1-5": {"passed": 14, "failed": 406, "pass_percent": 3.333}
   },
   "dirs": {
-    "es1": {"pass": 8, "fail": 190, "pass_percent": 4.04},
-    "es3": {"pass": 1, "fail": 147, "pass_percent": 0.676},
-    "es5": {"pass": 5, "fail": 69, "pass_percent": 6.757}
+    "es1": {"passed": 8, "failed": 190, "pass_percent": 4.04},
+    "es3": {"passed": 1, "failed": 147, "pass_percent": 0.676},
+    "es5": {"passed": 5, "failed": 69, "pass_percent": 6.757}
   },
   "tests": {
     "es1/Array.js": "SyntaxError: parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got Equal; parsing error (UnexpectedTok...",
@@ -309,7 +308,7 @@
     "es3/global.encodeURIComponent.js": "SyntaxError: malformed Unicode character escape sequence (line 14, column 47); parsing error (Other): malformed Unicode character escape sequence; parsing error (Other): expected atom, got malformed data instead.;...",
     "es3/global.encodeURI.js": "SyntaxError: malformed Unicode character escape sequence (line 21, column 38); parsing error (Other): malformed Unicode character escape sequence; parsing error (Other): expected atom, got malformed data instead.;...",
     "es3/global.undefined.js": "SyntaxError: parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got Equal; parsing error (UnexpectedTok...",
-    "es3/identifiers.unicode.js": "FAIL: found both ok and fail markers",
+    "es3/identifiers.unicode.js": "FAIL: found both pass and fail markers",
     "es3/instanceof.js": "SyntaxError: parsing error (Other): expected right parenthesis after expression, got Identifier; parsing error (UnexpectedToken): RParen; parsing error (UnexpectedToken): RCurly; parsing error (UnexpectedToken): E...",
     "es3/in.js": "SyntaxError: parsing error (Other): expected right parenthesis after expression, got Identifier; parsing error (UnexpectedToken): RParen; parsing error (UnexpectedToken): RCurly; parsing error (UnexpectedToken): E...",
     "es3/labelled.break.js": "SyntaxError: parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got Colon; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sig...",
@@ -323,7 +322,7 @@
     "es3/literals.object.int.js": "SyntaxError: parsing error (UnexpectedToken): LCurly; parsing error (UnexpectedToken): Colon; parsing error (UnexpectedToken): RCurly; parsing error (Other): expected expression, got nothing instead; parsing error...",
     "es3/literals.object.js": "SyntaxError: parsing error (UnexpectedToken): LCurly; parsing error (UnexpectedToken): RCurly; parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parent...",
     "es3/literals.object.str.js": "SyntaxError: parsing error (UnexpectedToken): LCurly; parsing error (UnexpectedToken): Colon; parsing error (UnexpectedToken): RCurly; parsing error (UnexpectedToken): LCurly; parsing error (UnexpectedToken): Colo...",
-    "es3/literals.object.unicode.js": "FAIL: found both ok and fail markers",
+    "es3/literals.object.unicode.js": "FAIL: found both pass and fail markers",
     "es3/literals.regex.ambiguous.js": "SyntaxError: parsing error (Other): expected valid expression after Div; parsing error (UnexpectedToken): Div; parsing error (Other): expected valid expression after Div; parsing error (Other): expected equal-sign...",
     "es3/literals.regex.empty.js": "SyntaxError: parsing error (UnexpectedToken): Div; parsing error (UnexpectedToken): LParen; parsing error (UnexpectedToken): Question; parsing error (UnexpectedToken): Colon; parsing error (UnexpectedToken): RPare...",
     "es3/literals.regex.js": "SyntaxError: parsing error (UnexpectedToken): Div; parsing error (Other): expected equal-sign to start compound assignment, got Semicolon instead.; parsing error (Other): expected expression, got nothing instead; ...",
@@ -345,7 +344,7 @@
     "es3/regex.escape.hex.js": "SyntaxError: parsing error (UnexpectedToken): Div; parsing error (Other): expected equal-sign to start compound assignment, got Dot instead.; parsing error (Other): expected expression, got nothing instead; parsin...",
     "es3/regex.escape.js": "SyntaxError: parsing error (UnexpectedToken): Div; parsing error (Other): expected equal-sign to start compound assignment, got Dot instead.; parsing error (Other): expected expression, got nothing instead; parsin...",
     "es3/regex.escape.nul.js": "SyntaxError: unexpected token: Div (line 6, column 10); parsing error (UnexpectedToken): Div; parsing error (Other): expected equal-sign to start compound assignment, got Dot instead.; parsing error (Other): missi...",
-    "es3/regex.escape.unicode.js": "FAIL: found both ok and fail markers",
+    "es3/regex.escape.unicode.js": "FAIL: found both pass and fail markers",
     "es3/regex.flag.global.js": "SyntaxError: parsing error (UnexpectedToken): Dot; parsing error (UnexpectedToken): Div; parsing error (Other): expected equal-sign to start compound assignment, got RParen instead.; parsing error (Other): expecte...",
     "es3/regex.flag.ignorecase.js": "SyntaxError: parsing error (UnexpectedToken): LParen; parsing error (UnexpectedToken): RParen; parsing error (Other): expected right parenthesis after expression, got And; parsing error (UnexpectedToken): expected...",
     "es3/regex.flag.multiline.js": "SyntaxError: parsing error (UnexpectedToken): Div; parsing error (UnexpectedToken): Invalid; parsing error (Other): expected equal-sign to start compound assignment, got Identifier instead.; parsing error (Unexpec...",
@@ -386,7 +385,7 @@
     "es5/Function.prototype.apply.array-like.js": "SyntaxError: parsing error (UnexpectedToken): LParen; parsing error (Other): expected identifier for parameter name, got comma instead.; parsing error (Other): unexpected end of input; parsing error (UnexpectedTok...",
     "es5/Function.prototype.bind.js": "SyntaxError: parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got TrueEqual; parsing error (Unexpecte...",
     "es5/JSON.js": "SyntaxError: parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got TrueEqual; parsing error (Unexpecte...",
-    "es5/JSON.parse.js": "FAIL: found both ok and fail markers",
+    "es5/JSON.parse.js": "FAIL: found both pass and fail markers",
     "es5/JSON.parse.reviver.js": "SyntaxError: parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got NotTrueEqual; parsing error (Unexpe...",
     "es5/JSON.stringify.js": "SyntaxError: parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got NotTrueEqual; parsing error (Unexpe...",
     "es5/JSON.stringify.replacer.js": "SyntaxError: parsing error (Other): expected expression, got nothing instead; parsing error (UnexpectedToken): expected left parenthesis, increment, decrement or equal sign, got NotTrueEqual; parsing error (Unexpe...",

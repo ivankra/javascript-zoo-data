@@ -5,7 +5,6 @@
     "binary_sha256": "65ae312231fc7d5e650b9e6a6a139c401bb59e080c88e5fc9be59f845db89b45",
     "binary_size": 534416,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
     "engine": "see",
     "repository": "https://github.com/ivankra/SEE.git",
     "revision": "4517d907d319365898929a868a5051d645f3d874",
@@ -13,13 +12,13 @@
     "version": "3.1.1424"
   },
   "summary": {
-    "all": {"pass": 337, "fail": 83, "pass_percent": 80.238},
-    "es1-5": {"pass": 337, "fail": 83, "pass_percent": 80.238}
+    "all": {"passed": 337, "failed": 83, "pass_percent": 80.238},
+    "es1-5": {"passed": 337, "failed": 83, "pass_percent": 80.238}
   },
   "dirs": {
-    "es1": {"pass": 196, "fail": 2, "pass_percent": 98.99},
-    "es3": {"pass": 132, "fail": 16, "pass_percent": 89.189},
-    "es5": {"pass": 9, "fail": 65, "pass_percent": 12.162}
+    "es1": {"passed": 196, "failed": 2, "pass_percent": 98.99},
+    "es3": {"passed": 132, "failed": 16, "pass_percent": 89.189},
+    "es5": {"passed": 9, "failed": 65, "pass_percent": 12.162}
   },
   "tests": {
     "es1/Array.js": "PASS",

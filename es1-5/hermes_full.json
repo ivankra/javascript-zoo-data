@@ -1,30 +1,25 @@
 {
   "binary": {
     "arch": "amd64",
-    "binary_name": "hermes-v1_full",
-    "binary_sha256": "244f75a1c764c3aac6706b717d693af7fa890e727c4fc2629f83046a0a72d179",
+    "binary_name": "hermes_full",
+    "binary_sha256": "ace85efb378c8b2cfc20a5eb6eb40ad28319d48fef7a54be3a84a944365049be",
     "binary_size": 6906984,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
-    "engine": "hermes-v1",
+    "engine": "hermes",
     "repository": "https://github.com/facebook/hermes.git",
-    "revision": "eac48c4e47db5925640aa7dfdf639986ea791374",
-    "revision_date": "2026-04-07",
+    "revision": "6ebff4359838dbece052a0619cee1fd00e1415d7",
+    "revision_date": "2026-04-14",
     "version": ""
   },
-  "flags": [
-    "-O",
-    "-w",
-    {"if": "test262", "then": "-test262"}
-  ],
+  "flags": ["-O", "-w", "-Xasync-generators", "-Xenable-tdz", "-Xes6-block-scoping", "-Xes6-proxy", "-Xhermes-internal-test-methods", "-test262"],
   "summary": {
-    "all": {"pass": 414, "fail": 6, "pass_percent": 98.571},
-    "es1-5": {"pass": 414, "fail": 6, "pass_percent": 98.571}
+    "all": {"passed": 415, "failed": 5, "pass_percent": 98.81},
+    "es1-5": {"passed": 415, "failed": 5, "pass_percent": 98.81}
   },
   "dirs": {
-    "es1": {"pass": 197, "fail": 1, "pass_percent": 99.495},
-    "es3": {"pass": 146, "fail": 2, "pass_percent": 98.649},
-    "es5": {"pass": 71, "fail": 3, "pass_percent": 95.946}
+    "es1": {"passed": 197, "failed": 1, "pass_percent": 99.495},
+    "es3": {"passed": 146, "failed": 2, "pass_percent": 98.649},
+    "es5": {"passed": 72, "failed": 2, "pass_percent": 97.297}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -431,7 +426,7 @@
     "es5/strict.js": "PASS",
     "es5/strict.no-arguments-callee.js": "PASS",
     "es5/strict.no-arguments-caller.js": "PASS",
-    "es5/strict.no-assignment-to-non-writable.js": "SyntaxError: invalid assignment left-hand side",
+    "es5/strict.no-assignment-to-non-writable.js": "PASS",
     "es5/strict.no-assignment-to-unresolvable.js": "PASS",
     "es5/strict.no-delete-bindings.js": "PASS",
     "es5/strict.no-delete-non-configurable.js": "PASS",

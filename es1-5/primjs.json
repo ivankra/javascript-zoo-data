@@ -2,26 +2,25 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "primjs",
-    "binary_sha256": "498eaebbd5de3fa42eadccb126d34796bcef49a64c2531269e355e6addbe9a3b",
-    "binary_size": 1036408,
+    "binary_sha256": "d0179fce4caa15a99ad3c9d0ef63e4bf32b57e8ced7e00933535aa0b5d28c747",
+    "binary_size": 1028216,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "primjs",
     "repository": "https://github.com/lynx-family/primjs.git",
-    "revision": "ec9995891cbebb42ee8bad8bd2e848eeaeb526fb",
-    "revision_date": "2026-04-08"
+    "revision": "72dc4b2a1c38415d5e536b30b05f5c7d6c75e567",
+    "revision_date": "2026-04-15"
   },
   "flags": [
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

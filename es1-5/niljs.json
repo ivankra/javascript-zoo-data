@@ -2,9 +2,8 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "niljs",
-    "console_log": ["console.log", "print"],
     "dist_size": 917096,
-    "dotnet": "10.0.201",
+    "dotnet": "10.0.202",
     "engine": "niljs",
     "repository": "https://github.com/nilproject/NiL.JS.git",
     "revision": "027efd6b753851c8ef206bc26cbe899e646b5f1f",
@@ -15,13 +14,13 @@
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 404, "fail": 16, "pass_percent": 96.19},
-    "es1-5": {"pass": 404, "fail": 16, "pass_percent": 96.19}
+    "all": {"passed": 404, "failed": 16, "pass_percent": 96.19},
+    "es1-5": {"passed": 404, "failed": 16, "pass_percent": 96.19}
   },
   "dirs": {
-    "es1": {"pass": 195, "fail": 3, "pass_percent": 98.485},
-    "es3": {"pass": 139, "fail": 9, "pass_percent": 93.919},
-    "es5": {"pass": 70, "fail": 4, "pass_percent": 94.595}
+    "es1": {"passed": 195, "failed": 3, "pass_percent": 98.485},
+    "es3": {"passed": 139, "failed": 9, "pass_percent": 93.919},
+    "es5": {"passed": 70, "failed": 4, "pass_percent": 94.595}
   },
   "tests": {
     "es1/Array.js": "PASS",

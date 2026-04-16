@@ -2,7 +2,6 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "continuum",
-    "console_log": "console.log",
     "dist_size": 882640,
     "engine": "continuum",
     "repository": "https://github.com/ivankra/continuum.git",
@@ -10,13 +9,13 @@
     "revision_date": "2014-06-25"
   },
   "summary": {
-    "all": {"pass": 284, "fail": 136, "pass_percent": 67.619},
-    "es1-5": {"pass": 284, "fail": 136, "pass_percent": 67.619}
+    "all": {"passed": 284, "failed": 136, "pass_percent": 67.619},
+    "es1-5": {"passed": 284, "failed": 136, "pass_percent": 67.619}
   },
   "dirs": {
-    "es1": {"pass": 166, "fail": 32, "pass_percent": 83.838},
-    "es3": {"pass": 77, "fail": 71, "pass_percent": 52.027},
-    "es5": {"pass": 41, "fail": 33, "pass_percent": 55.405}
+    "es1": {"passed": 166, "failed": 32, "pass_percent": 83.838},
+    "es3": {"passed": 77, "failed": 71, "pass_percent": 52.027},
+    "es5": {"passed": 41, "failed": 33, "pass_percent": 55.405}
   },
   "tests": {
     "es1/Array.js": "PASS",

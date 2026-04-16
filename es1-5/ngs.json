@@ -5,7 +5,6 @@
     "binary_sha256": "fda0c7f956f03338ad9a5f6cf628152014b7215f8f850e3b067131a7aa9393c9",
     "binary_size": 428488,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
     "engine": "ngs",
     "repository": "https://github.com/markkurossi/js.git",
     "revision": "fa7bf821e350ebc5ef3c12e9809db3fd8cba3713",
@@ -13,13 +12,13 @@
     "version": "0.2.5"
   },
   "summary": {
-    "all": {"pass": 153, "fail": 267, "pass_percent": 36.429},
-    "es1-5": {"pass": 153, "fail": 267, "pass_percent": 36.429}
+    "all": {"passed": 153, "failed": 267, "pass_percent": 36.429},
+    "es1-5": {"passed": 153, "failed": 267, "pass_percent": 36.429}
   },
   "dirs": {
-    "es1": {"pass": 115, "fail": 83, "pass_percent": 58.081},
-    "es3": {"pass": 37, "fail": 111, "pass_percent": 25.0},
-    "es5": {"pass": 1, "fail": 73, "pass_percent": 1.351}
+    "es1": {"passed": 115, "failed": 83, "pass_percent": 58.081},
+    "es3": {"passed": 37, "failed": 111, "pass_percent": 25.0},
+    "es5": {"passed": 1, "failed": 73, "pass_percent": 1.351}
   },
   "tests": {
     "es1/Array.js": "CRASH: SIGSEGV",

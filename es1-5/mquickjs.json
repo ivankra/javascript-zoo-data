@@ -5,20 +5,19 @@
     "binary_sha256": "513ef1a783cfbaee5879c181bc546461ca7c44ba0ab2043caa4b5cd6049e25ef",
     "binary_size": 215768,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
     "engine": "mquickjs",
     "repository": "https://github.com/bellard/mquickjs.git",
     "revision": "ee50431eac9b14b99f722b537ec4cac0c8dd75ab",
     "revision_date": "2026-01-15"
   },
   "summary": {
-    "all": {"pass": 236, "fail": 184, "pass_percent": 56.19},
-    "es1-5": {"pass": 236, "fail": 184, "pass_percent": 56.19}
+    "all": {"passed": 236, "failed": 184, "pass_percent": 56.19},
+    "es1-5": {"passed": 236, "failed": 184, "pass_percent": 56.19}
   },
   "dirs": {
-    "es1": {"pass": 124, "fail": 74, "pass_percent": 62.626},
-    "es3": {"pass": 90, "fail": 58, "pass_percent": 60.811},
-    "es5": {"pass": 22, "fail": 52, "pass_percent": 29.73}
+    "es1": {"passed": 124, "failed": 74, "pass_percent": 62.626},
+    "es3": {"passed": 90, "failed": 58, "pass_percent": 60.811},
+    "es5": {"passed": 22, "failed": 52, "pass_percent": 29.73}
   },
   "tests": {
     "es1/Array.js": "TypeError: invalid array subscript",

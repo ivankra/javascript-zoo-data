@@ -1,13 +1,12 @@
 Comparing: ../test262/jsc_exp.json ../../dist/arm64/jsc.ci-test262
-Binary revision: MATCH (ours: eb466700acaf, theirs: eb466700acaf)
-Binary arch: MATCH (ours: arm64, theirs: arm64)
+Binary revision: MATCH (ours: a085c62693cd, theirs: a085c62693cd)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
 Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: ab1590d83d0c)
 Tests: MISMATCH (ours: 53164, theirs: 52925, shared: 52917)
 Skipped tests: 4105 (ours: 0, theirs: 4110)
-Diffs: 5
+Diffs: 4
 
 test/built-ins/Promise/resolve/arg-uniq-ctor.js: PASS vs TypeError: |this|.constructor is not an Object or undefined
 test/built-ins/Temporal/PlainMonthDay/from/order-of-operations.js: Test262Error: Actual [] and expected [get fields.calendar, get fields.day, get fields.day.valueOf, call fields.day.valueOf, get fields.month, get fields.month.valueOf, call fields.month.valueOf, get fields.monthCod... vs PASS
 test/built-ins/Temporal/PlainYearMonth/from/order-of-operations.js: Test262Error: Actual [] and expected [get fields.calendar, get fields.month, get fields.month.valueOf, call fields.month.valueOf, get fields.monthCode, get fields.monthCode.toString, call fields.monthCode.toString,... vs PASS
-test/language/module-code/top-level-await/fulfillment-order.js: NoAsyncTestComplete vs PASS
-test/language/module-code/top-level-await/rejection-order.js: NoAsyncTestComplete vs PASS
+test/staging/sm/regress/regress-1507322-deep-weakmap.js: TIMEOUT: >60s vs PASS

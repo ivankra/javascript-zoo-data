@@ -2,28 +2,27 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jsc_jitless",
-    "binary_sha256": "36c489ef0248e72c7fe356df025baa7890f038fed8ace62c15224ece6fc3942d",
-    "binary_size": 14493088,
+    "binary_sha256": "e19afa4c36afe107cea04127f8406354b20836d6bd4c62d626b8bb8de2b0dacc",
+    "binary_size": 15779232,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": "print",
     "engine": "jsc",
     "repository": "https://github.com/WebKit/WebKit.git",
-    "revision": "9971986dcebbc9ad5713a058e7951288c455bbee",
-    "revision_date": "2026-04-08",
-    "version": "310768"
+    "revision": "114ad783c3f1c5de848c0832c09d7f698c3257c9",
+    "revision_date": "2026-04-14",
+    "version": "311263"
   },
   "flags": [
     {"if": "flags:CanBlockIsFalse", "then": "--can-block-is-false"},
     {"if": "flags:module", "then": "-m"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

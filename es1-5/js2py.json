@@ -2,21 +2,20 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "js2py",
-    "console_log": "console.log",
-    "dist_size": 323469332,
+    "dist_size": 323481564,
     "engine": "js2py",
     "repository": "https://github.com/PiotrDabkowski/Js2Py.git",
     "revision": "2e017b86e2f18a6c8a842293b1687f2ce7baa12e",
     "revision_date": "2022-11-06"
   },
   "summary": {
-    "all": {"pass": 371, "fail": 49, "pass_percent": 88.333},
-    "es1-5": {"pass": 371, "fail": 49, "pass_percent": 88.333}
+    "all": {"passed": 371, "failed": 49, "pass_percent": 88.333},
+    "es1-5": {"passed": 371, "failed": 49, "pass_percent": 88.333}
   },
   "dirs": {
-    "es1": {"pass": 190, "fail": 8, "pass_percent": 95.96},
-    "es3": {"pass": 135, "fail": 13, "pass_percent": 91.216},
-    "es5": {"pass": 46, "fail": 28, "pass_percent": 62.162}
+    "es1": {"passed": 190, "failed": 8, "pass_percent": 95.96},
+    "es3": {"passed": 135, "failed": 13, "pass_percent": 91.216},
+    "es5": {"passed": 46, "failed": 28, "pass_percent": 62.162}
   },
   "tests": {
     "es1/Array.js": "PASS",

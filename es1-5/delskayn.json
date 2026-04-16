@@ -4,7 +4,6 @@
     "binary_name": "delskayn",
     "binary_sha256": "404d7d6a0dbf05d74a019b18205c29a1c095ab19cc88ae7a0b211a1956b7d9ce",
     "binary_size": 1284488,
-    "console_log": "console.log",
     "engine": "delskayn",
     "repository": "https://github.com/DelSkayn/toyjs.git",
     "revision": "11f084fc09723785b4bdb0575509664ca8b05f49",
@@ -12,13 +11,13 @@
     "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
   "summary": {
-    "all": {"pass": 103, "fail": 317, "pass_percent": 24.524},
-    "es1-5": {"pass": 103, "fail": 317, "pass_percent": 24.524}
+    "all": {"passed": 103, "failed": 317, "pass_percent": 24.524},
+    "es1-5": {"passed": 103, "failed": 317, "pass_percent": 24.524}
   },
   "dirs": {
-    "es1": {"pass": 75, "fail": 123, "pass_percent": 37.879},
-    "es3": {"pass": 15, "fail": 133, "pass_percent": 10.135},
-    "es5": {"pass": 13, "fail": 61, "pass_percent": 17.568}
+    "es1": {"passed": 75, "failed": 123, "pass_percent": 37.879},
+    "es3": {"passed": 15, "failed": 133, "pass_percent": 10.135},
+    "es5": {"passed": 13, "failed": 61, "pass_percent": 17.568}
   },
   "tests": {
     "es1/Array.js": "FAIL: Array.length failed",
@@ -309,7 +308,7 @@
     "es3/global.encodeURIComponent.js": "TypeError: tried to call non function value",
     "es3/global.encodeURI.js": "TypeError: tried to call non function value",
     "es3/global.undefined.js": "PASS",
-    "es3/identifiers.unicode.js": "CRASH: thread 'main' panicked at 'byte index 127 is not a char boundary; it is inside '\u0436' (bytes 126..128) of `// ES3: 7.6 Identifiers",
+    "es3/identifiers.unicode.js": "CRASH: thread 'main' panicked at 'byte index 127 is not a char boundary; it is inside 'ж' (bytes 126..128) of `// ES3: 7.6 Identifiers",
     "es3/instanceof.js": "TypeError: right hand instanceof operand is not a function",
     "es3/in.js": "FAIL: RuntimeError: invalid instruction",
     "es3/labelled.break.js": "SyntaxError: unexpected token: found ':' expected one of: [\\n,;]",

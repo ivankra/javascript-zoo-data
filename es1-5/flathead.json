@@ -5,20 +5,19 @@
     "binary_sha256": "9bcaded0080de3b073c6422ac64e7df72af694ae47a4e0d9766df1cb0a77ea79",
     "binary_size": 212024,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
     "engine": "flathead",
     "repository": "https://github.com/ndreynolds/flathead.git",
     "revision": "0dcc9cbd0eafa93b4339c487e1b77f7134a2da65",
     "revision_date": "2017-04-21"
   },
   "summary": {
-    "all": {"pass": 223, "fail": 197, "pass_percent": 53.095},
-    "es1-5": {"pass": 223, "fail": 197, "pass_percent": 53.095}
+    "all": {"passed": 223, "failed": 197, "pass_percent": 53.095},
+    "es1-5": {"passed": 223, "failed": 197, "pass_percent": 53.095}
   },
   "dirs": {
-    "es1": {"pass": 153, "fail": 45, "pass_percent": 77.273},
-    "es3": {"pass": 41, "fail": 107, "pass_percent": 27.703},
-    "es5": {"pass": 29, "fail": 45, "pass_percent": 39.189}
+    "es1": {"passed": 153, "failed": 45, "pass_percent": 77.273},
+    "es3": {"passed": 41, "failed": 107, "pass_percent": 27.703},
+    "es5": {"passed": 29, "failed": 45, "pass_percent": 39.189}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -309,7 +308,7 @@
     "es3/global.encodeURIComponent.js": "ReferenceError: encodeURIComponent is not defined",
     "es3/global.encodeURI.js": "ReferenceError: encodeURI is not defined",
     "es3/global.undefined.js": "PASS",
-    "es3/identifiers.unicode.js": "SyntaxError: unexpected '\ufffd'",
+    "es3/identifiers.unicode.js": "SyntaxError: unexpected '�'",
     "es3/instanceof.js": "PASS",
     "es3/in.js": "PASS",
     "es3/labelled.break.js": "SyntaxError: unexpected ':', expecting ';' or ','",
@@ -323,7 +322,7 @@
     "es3/literals.object.int.js": "CRASH: SIGSEGV",
     "es3/literals.object.js": "PASS",
     "es3/literals.object.str.js": "PASS",
-    "es3/literals.object.unicode.js": "SyntaxError: unexpected '\ufffd'",
+    "es3/literals.object.unicode.js": "SyntaxError: unexpected '�'",
     "es3/literals.regex.ambiguous.js": "SyntaxError: unexpected REGEXP, expecting ';' or ','",
     "es3/literals.regex.empty.js": "FAIL: Regular expressions are not available",
     "es3/literals.regex.js": "PASS",
@@ -360,9 +359,9 @@
     "es3/regex.quantifier.range.js": "FAIL: Regular expressions are not available",
     "es3/regex.quantifier.star.js": "FAIL: Regular expressions are not available",
     "es3/regex.word-boundary.js": "FAIL: Regular expressions are not available",
-    "es3/source.line-terminators.js": "SyntaxError: unexpected '\ufffd'",
-    "es3/source.whitespace.js": "SyntaxError: unexpected '\ufffd'",
-    "es3/source.whitespace.unicode.js": "SyntaxError: unexpected '\ufffd'",
+    "es3/source.line-terminators.js": "SyntaxError: unexpected '�'",
+    "es3/source.whitespace.js": "SyntaxError: unexpected '�'",
+    "es3/source.whitespace.unicode.js": "SyntaxError: unexpected '�'",
     "es3/strict-equals.js": "PASS",
     "es3/switch.js": "PASS",
     "es3/try-catch-finally.js": "CRASH: SIGSEGV",
@@ -418,7 +417,7 @@
     "es5/literals.object.trailing-comma.js": "PASS",
     "es5/source.keyword-properties.js": "SyntaxError: unexpected IF, expecting NUMBER or IDENT or STRING or '}'",
     "es5/source.unreserved-words.js": "PASS",
-    "es5/source.whitespace.bom.js": "SyntaxError: unexpected '\ufffd'",
+    "es5/source.whitespace.bom.js": "SyntaxError: unexpected '�'",
     "es5/source.zero-width-chars.js": "SyntaxError: unexpected '\\'",
     "es5/strict.eval-cannot-create-bindings.js": "FAIL",
     "es5/strict.function-expr-with-matching-name.js": "SyntaxError: unexpected '}', expecting ';' or ','",

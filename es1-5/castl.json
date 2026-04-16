@@ -2,7 +2,6 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "castl",
-    "console_log": "console.log",
     "dist_size": 1535974,
     "engine": "castl",
     "repository": "https://github.com/PaulBernier/castl.git",
@@ -11,13 +10,13 @@
     "version": "1.2.4"
   },
   "summary": {
-    "all": {"pass": 328, "fail": 92, "pass_percent": 78.095},
-    "es1-5": {"pass": 328, "fail": 92, "pass_percent": 78.095}
+    "all": {"passed": 328, "failed": 92, "pass_percent": 78.095},
+    "es1-5": {"passed": 328, "failed": 92, "pass_percent": 78.095}
   },
   "dirs": {
-    "es1": {"pass": 171, "fail": 27, "pass_percent": 86.364},
-    "es3": {"pass": 124, "fail": 24, "pass_percent": 83.784},
-    "es5": {"pass": 33, "fail": 41, "pass_percent": 44.595}
+    "es1": {"passed": 171, "failed": 27, "pass_percent": 86.364},
+    "es3": {"passed": 124, "failed": 24, "pass_percent": 83.784},
+    "es5": {"passed": 33, "failed": 41, "pass_percent": 44.595}
   },
   "tests": {
     "es1/Array.js": "PASS",

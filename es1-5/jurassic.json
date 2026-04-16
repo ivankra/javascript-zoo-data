@@ -2,22 +2,21 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jurassic",
-    "console_log": ["console.log", "print"],
     "dist_size": 1914640,
-    "dotnet": "10.0.201",
+    "dotnet": "10.0.202",
     "engine": "jurassic",
     "repository": "https://github.com/paulbartrum/jurassic.git",
     "revision": "17f72827150166c79dd7789bfe01a4a2f7bfe4aa",
     "revision_date": "2025-02-04"
   },
   "summary": {
-    "all": {"pass": 413, "fail": 7, "pass_percent": 98.333},
-    "es1-5": {"pass": 413, "fail": 7, "pass_percent": 98.333}
+    "all": {"passed": 413, "failed": 7, "pass_percent": 98.333},
+    "es1-5": {"passed": 413, "failed": 7, "pass_percent": 98.333}
   },
   "dirs": {
-    "es1": {"pass": 197, "fail": 1, "pass_percent": 99.495},
-    "es3": {"pass": 146, "fail": 2, "pass_percent": 98.649},
-    "es5": {"pass": 70, "fail": 4, "pass_percent": 94.595}
+    "es1": {"passed": 197, "failed": 1, "pass_percent": 99.495},
+    "es3": {"passed": 146, "failed": 2, "pass_percent": 98.649},
+    "es5": {"passed": 70, "failed": 4, "pass_percent": 94.595}
   },
   "tests": {
     "es1/Array.js": "PASS",

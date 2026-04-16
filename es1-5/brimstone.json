@@ -2,9 +2,8 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "brimstone",
-    "binary_sha256": "fdd2818aa485e6c531176b4414b1a41679f27b55b42fcd059e2af929bb71b296",
+    "binary_sha256": "195d736a98c3156a73919159b21b10eca528a427730f4a159d80ce2eda99be4e",
     "binary_size": 6522152,
-    "console_log": "console.log",
     "engine": "brimstone",
     "repository": "https://github.com/Hans-Halverson/brimstone.git",
     "revision": "6a04fef645608b7995fa119b445e3f18e2281473",
@@ -19,13 +18,13 @@
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

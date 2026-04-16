@@ -5,20 +5,19 @@
     "binary_sha256": "e7e01581d66dd65c792c21ca800735d6694a89292068ea526669c20ead70c485",
     "binary_size": 808344,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
     "engine": "42tiny-js",
     "repository": "https://github.com/gfwilliams/tiny-js.git",
     "revision": "d61b911e56801489e2f72bd27304dcd15eeb60c1",
     "revision_date": "2014-10-19"
   },
   "summary": {
-    "all": {"pass": 233, "fail": 187, "pass_percent": 55.476},
-    "es1-5": {"pass": 233, "fail": 187, "pass_percent": 55.476}
+    "all": {"passed": 233, "failed": 187, "pass_percent": 55.476},
+    "es1-5": {"passed": 233, "failed": 187, "pass_percent": 55.476}
   },
   "dirs": {
-    "es1": {"pass": 123, "fail": 75, "pass_percent": 62.121},
-    "es3": {"pass": 87, "fail": 61, "pass_percent": 58.784},
-    "es5": {"pass": 23, "fail": 51, "pass_percent": 31.081}
+    "es1": {"passed": 123, "failed": 75, "pass_percent": 62.121},
+    "es3": {"passed": 87, "failed": 61, "pass_percent": 58.784},
+    "es5": {"passed": 23, "failed": 51, "pass_percent": 31.081}
   },
   "tests": {
     "es1/Array.js": "FAIL: Array.length failed; Array(len) failed",

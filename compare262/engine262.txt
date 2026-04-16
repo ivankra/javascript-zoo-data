@@ -1,28 +1,35 @@
 Comparing: ../test262/engine262.json ../../dist/arm64/engine262.ci-test262
-Binary revision: MATCH (ours: 9feb5f644635, theirs: 9feb5f644635)
-Binary arch: MATCH (ours: arm64, theirs: arm64)
+Binary revision: MATCH (ours: 6251716a3fdc, theirs: 6251716a3fdc)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
 Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 2b2ecead6e82)
 Tests: MISMATCH (ours: 53164, theirs: 50454, shared: 50453)
 Skipped tests: 6275 (ours: 0, theirs: 6276)
-Diffs: 39
+Diffs: 46
 
 test/built-ins/Iterator/zip/basic-longest.js: TIMEOUT: >10s vs PASS
-test/built-ins/Iterator/zip/basic-shortest.js: {"sloppy": "TIMEOUT: >10s", "strict": "PASS"} vs PASS
+test/built-ins/Iterator/zip/basic-shortest.js: TIMEOUT: >10s vs PASS
+test/built-ins/Iterator/zip/basic-strict.js: TIMEOUT: >10s vs PASS
 test/built-ins/Iterator/zipKeyed/basic-longest.js: TIMEOUT: >10s vs PASS
+test/built-ins/Iterator/zipKeyed/basic-shortest.js: TIMEOUT: >10s vs PASS
+test/built-ins/Iterator/zipKeyed/basic-strict.js: TIMEOUT: >10s vs PASS
+test/built-ins/parseFloat/S15.1.2.3_A6.js: TIMEOUT: >10s vs PASS
 test/built-ins/RegExp/character-class-escape-non-whitespace.js: TIMEOUT: >10s vs PASS
 test/built-ins/RegExp/unicode_restricted_identity_escape_alpha.js: Test262Error: IdentityEscape in AtomEscape: 'A' Expected a SyntaxError to be thrown but no exception was thrown at all vs PASS
 test/built-ins/ShadowRealm/prototype/importValue/import-value.js: AsyncTestFailure: TypeError: An error occurred in a ShadowRealm. vs PASS
+test/built-ins/Temporal/PlainDate/prototype/since/basic-arithmetic.js: TIMEOUT: >10s vs PASS
+test/built-ins/Temporal/PlainDate/prototype/since/basic.js: TIMEOUT: >10s vs PASS
+test/built-ins/Temporal/PlainDate/prototype/until/basic-arithmetic.js: TIMEOUT: >10s vs PASS
+test/built-ins/Temporal/PlainDate/prototype/until/basic.js: TIMEOUT: >10s vs PASS
 test/built-ins/Temporal/PlainDateTime/datetime-math.js: TIMEOUT: >10s vs PASS
+test/built-ins/Temporal/PlainDateTime/prototype/until/basic.js: TIMEOUT: >10s vs PASS
 test/language/expressions/dynamic-import/eval-rqstd-once.js: FAIL: AssertError: record.Module === result.Value vs PASS
 test/language/expressions/dynamic-import/eval-self-once-script.js: FAIL: AssertError: record.Module === result.Value vs PASS
 test/language/expressions/dynamic-import/for-await-resolution-and-error-agen-yield.js: FAIL: AssertError: record.Module === result.Value vs PASS
-test/language/expressions/dynamic-import/for-await-resolution-and-error.js: {"sloppy": "FAIL: AssertError: record.Module === result.Value", "strict": "PASS"} vs PASS
 test/language/expressions/dynamic-import/import-attributes/2nd-param-with-undefined.js: FAIL: AssertError: record.Module === result.Value vs PASS
 test/language/expressions/dynamic-import/reuse-namespace-object-from-script.js: FAIL: AssertError: record.Module === result.Value vs PASS
 test/language/expressions/dynamic-import/reuse-namespace-object.js: FAIL: AssertError: record.Module === result.Value vs PASS
 test/language/import/import-attributes/json-named-bindings.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
 test/language/import/import-defer/evaluation-sync/module-imported-defer-and-eager.js: FAIL: AssertError: record.Module === result.Value vs PASS
-test/language/import/import-defer/evaluation-top-level-await/flattening-order/main.js: Test262Error: Actual [1, 2.1.1 start, 2.2.1, 2.2 start, 3, 2.2.1, 2.2 start, 5, 2.1.1 end, 2.2 end, 2.2 end, 4.1 start, 4.1 end] and expected [1, 2.1.1 start, 2.2.1, 2.2 start, 3, 5, 2.1.1 end, 2.2 end, 4.1 start, ... vs PASS
 test/language/module-code/ambiguous-export-bindings/error-export-from-named-as.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
 test/language/module-code/ambiguous-export-bindings/error-export-from-named.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
 test/language/module-code/ambiguous-export-bindings/error-import-named-as.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS

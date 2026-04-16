@@ -1,10 +1,10 @@
 Comparing: ../test262/jint.json ../../dist/arm64/jint.ci-test262
-Binary revision: MISMATCH (ours: d4d231b3dd47, theirs: 7b41ac049d31)
+Binary revision: MATCH (ours: 2d888388821e, theirs: 2d888388821e)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 5c8206929d81)
-Tests: MISMATCH (ours: 53164, theirs: 50622, shared: 50622)
-Skipped tests: 688 (ours: 0, theirs: 688)
-Diffs: 253
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 2b2ecead6e82)
+Tests: MISMATCH (ours: 53164, theirs: 51434, shared: 51434)
+Skipped tests: 621 (ours: 0, theirs: 621)
+Diffs: 251
 
 test/built-ins/Array/prototype/concat/Array.prototype.concat_spreadable-boolean-wrapper.js: CRASH: SIGABRT vs PASS
 test/built-ins/Array/prototype/concat/Array.prototype.concat_spreadable-number-wrapper.js: CRASH: SIGABRT vs PASS
@@ -217,8 +217,6 @@ test/language/expressions/yield/arguments-object-attributes.js: CRASH: SIGABRT v
 test/language/expressions/yield/formal-parameters-after-reassignment-non-strict.js: CRASH: SIGABRT vs PASS
 test/language/expressions/yield/formal-parameters-after-reassignment-strict.js: CRASH: SIGABRT vs PASS
 test/language/global-code/return.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
-test/language/import/import-bytes/bytes-from-png.js: Test262Error: Expected SameValue(«75», «67») to be true vs PASS
-test/language/module-code/ambiguous-export-bindings/namespace-unambiguous-if-export-star-as-from-and-import-star-as-and-export.js: ReferenceError: assert is not defined vs PASS
 test/language/statements/async-function/evaluation-mapped-arguments.js: CRASH: SIGABRT vs PASS
 test/language/statements/async-function/evaluation-unmapped-arguments.js: CRASH: SIGABRT vs PASS
 test/language/statements/async-function/returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS

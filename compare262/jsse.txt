@@ -1,15 +1,15 @@
 Comparing: ../test262/jsse.json ../../dist/arm64/jsse.ci-test262
-Binary revision: MATCH (ours: 88a685a7558e, theirs: 88a685a7558e)
+Binary revision: MATCH (ours: 80091b597a30, theirs: 80091b597a30)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
 Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 5c8206929d81)
 Tests: MISMATCH (ours: 53164, theirs: 51525, shared: 51523)
 Skipped tests: 0 (ours: 0, theirs: 0)
-Diffs: 104
+Diffs: 102
 
 test/built-ins/AsyncFromSyncIteratorPrototype/next/iterator-result-prototype.js: NoAsyncTestComplete vs PASS
 test/built-ins/AsyncFromSyncIteratorPrototype/throw/iterator-result-unwrap-promise.js: NoAsyncTestComplete vs PASS
 test/built-ins/Atomics/waitAsync/bigint/good-views.js: NoAsyncTestComplete vs PASS
-test/built-ins/Atomics/waitAsync/bigint/nan-for-timeout-agent.js: {"sloppy": "PASS", "strict": "NoAsyncTestComplete"} vs PASS
+test/built-ins/Atomics/waitAsync/bigint/nan-for-timeout-agent.js: NoAsyncTestComplete vs PASS
 test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-no-operation.js: NoAsyncTestComplete vs PASS
 test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-add.js: NoAsyncTestComplete vs PASS
 test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-and.js: NoAsyncTestComplete vs PASS
@@ -20,7 +20,7 @@ test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-store.js: NoAsyncT
 test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-sub.js: NoAsyncTestComplete vs PASS
 test/built-ins/Atomics/waitAsync/bigint/no-spurious-wakeup-on-xor.js: NoAsyncTestComplete vs PASS
 test/built-ins/Atomics/waitAsync/bigint/undefined-for-timeout-agent.js: NoAsyncTestComplete vs PASS
-test/built-ins/Atomics/waitAsync/bigint/undefined-index-defaults-to-zero-agent.js: NoAsyncTestComplete vs PASS
+test/built-ins/Atomics/waitAsync/bigint/undefined-index-defaults-to-zero-agent.js: {"sloppy": "NoAsyncTestComplete", "strict": "PASS"} vs PASS
 test/built-ins/Atomics/waitAsync/bigint/waiterlist-block-indexedposition-wake.js: NoAsyncTestComplete vs PASS
 test/built-ins/Atomics/waitAsync/bigint/was-woken-before-timeout.js: {"sloppy": "PASS", "strict": "NoAsyncTestComplete"} vs PASS
 test/built-ins/Atomics/waitAsync/good-views.js: NoAsyncTestComplete vs PASS
@@ -34,10 +34,10 @@ test/built-ins/Atomics/waitAsync/no-spurious-wakeup-on-or.js: NoAsyncTestComplet
 test/built-ins/Atomics/waitAsync/no-spurious-wakeup-on-store.js: NoAsyncTestComplete vs PASS
 test/built-ins/Atomics/waitAsync/no-spurious-wakeup-on-sub.js: NoAsyncTestComplete vs PASS
 test/built-ins/Atomics/waitAsync/no-spurious-wakeup-on-xor.js: NoAsyncTestComplete vs PASS
-test/built-ins/Atomics/waitAsync/undefined-for-timeout-agent.js: NoAsyncTestComplete vs PASS
-test/built-ins/Atomics/waitAsync/undefined-index-defaults-to-zero-agent.js: NoAsyncTestComplete vs PASS
-test/built-ins/Atomics/waitAsync/waiterlist-block-indexedposition-wake.js: NoAsyncTestComplete vs PASS
-test/built-ins/Atomics/waitAsync/was-woken-before-timeout.js: NoAsyncTestComplete vs PASS
+test/built-ins/Atomics/waitAsync/undefined-for-timeout-agent.js: {"sloppy": "PASS", "strict": "NoAsyncTestComplete"} vs PASS
+test/built-ins/Atomics/waitAsync/undefined-index-defaults-to-zero-agent.js: {"sloppy": "PASS", "strict": "NoAsyncTestComplete"} vs PASS
+test/built-ins/Atomics/waitAsync/waiterlist-block-indexedposition-wake.js: {"sloppy": "PASS", "strict": "NoAsyncTestComplete"} vs PASS
+test/built-ins/Atomics/waitAsync/was-woken-before-timeout.js: {"sloppy": "NoAsyncTestComplete", "strict": "PASS"} vs PASS
 test/built-ins/Function/prototype/toString/built-in-function-object.js: TIMEOUT: >60s vs PASS
 test/language/expressions/async-generator/expression-await-as-yield-operand.js: NoAsyncTestComplete vs PASS
 test/language/expressions/async-generator/expression-await-promise-as-yield-operand.js: NoAsyncTestComplete vs PASS
@@ -72,8 +72,6 @@ test/language/expressions/object/method-definition/async-gen-yield-promise-rejec
 test/language/expressions/object/method-definition/async-gen-yield-promise-reject-next.js: NoAsyncTestComplete vs PASS
 test/language/expressions/object/method-definition/async-gen-yield-star-async-throw.js: NoAsyncTestComplete vs PASS
 test/language/expressions/object/method-definition/async-gen-yield-star-sync-throw.js: NoAsyncTestComplete vs PASS
-test/language/import/import-bytes/bytes-from-png.js: FAIL: Expected SameValue(«75», «67») to be true vs PASS
-test/language/module-code/ambiguous-export-bindings/namespace-unambiguous-if-export-star-as-from-and-import-star-as-and-export.js: ReferenceError: assert is not defined vs PASS
 test/language/module-code/import-attributes/import-attribute-key-identifiername.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
 test/language/module-code/import-attributes/import-attribute-key-string-double.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
 test/language/module-code/import-attributes/import-attribute-key-string-single.js: NOT(SyntaxError): DONOTEVALUATE vs PASS

@@ -2,7 +2,6 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "nashorn_ot",
-    "console_log": "print",
     "dist_size": 2565650,
     "engine": "nashorn",
     "jdk": "openjdk version \"25.0.2\" 2026-01-20",
@@ -11,17 +10,15 @@
     "revision_date": "2025-08-21",
     "version": "15.7"
   },
-  "flags": [
-    "--language=es6"
-  ],
+  "flags": ["--language=es6"],
   "summary": {
-    "all": {"pass": 414, "fail": 6, "pass_percent": 98.571},
-    "es1-5": {"pass": 414, "fail": 6, "pass_percent": 98.571}
+    "all": {"passed": 414, "failed": 6, "pass_percent": 98.571},
+    "es1-5": {"passed": 414, "failed": 6, "pass_percent": 98.571}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 145, "fail": 3, "pass_percent": 97.973},
-    "es5": {"pass": 71, "fail": 3, "pass_percent": 95.946}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 145, "failed": 3, "pass_percent": 97.973},
+    "es5": {"passed": 71, "failed": 3, "pass_percent": 95.946}
   },
   "tests": {
     "es1/Array.js": "PASS",

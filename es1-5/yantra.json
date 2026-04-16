@@ -2,23 +2,22 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "yantra",
-    "console_log": "console.log",
-    "dist_size": 23009960,
-    "dotnet": "10.0.201",
+    "dist_size": 23010472,
+    "dotnet": "10.0.202",
     "engine": "yantra",
     "repository": "https://github.com/yantrajs/yantra.git",
-    "revision": "32f185d0c1dc416bbb7c80ac0483ba841b6d7f55",
-    "revision_date": "2026-03-31",
-    "version": "1.2.324-4-g32f185d0"
+    "revision": "e768962efc71102929e67327122cb17007c5e8e5",
+    "revision_date": "2026-04-12",
+    "version": "1.2.332"
   },
   "summary": {
-    "all": {"pass": 329, "fail": 91, "pass_percent": 78.333},
-    "es1-5": {"pass": 329, "fail": 91, "pass_percent": 78.333}
+    "all": {"passed": 329, "failed": 91, "pass_percent": 78.333},
+    "es1-5": {"passed": 329, "failed": 91, "pass_percent": 78.333}
   },
   "dirs": {
-    "es1": {"pass": 174, "fail": 24, "pass_percent": 87.879},
-    "es3": {"pass": 114, "fail": 34, "pass_percent": 77.027},
-    "es5": {"pass": 41, "fail": 33, "pass_percent": 55.405}
+    "es1": {"passed": 174, "failed": 24, "pass_percent": 87.879},
+    "es3": {"passed": 114, "failed": 34, "pass_percent": 77.027},
+    "es5": {"passed": 41, "failed": 33, "pass_percent": 55.405}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -137,7 +136,7 @@
     "es1/String.prototype.valueOf.js": "PASS",
     "es1/annex-b.Date.prototype.getYear.js": "TypeError: Method 427 not found in Sat Jan 01 2000 00:00:00 GMT+0000 (Coordinated Universal Time)",
     "es1/annex-b.Date.prototype.setYear.js": "TypeError: Method 427 not found in Sat Jan 01 2000 00:00:00 GMT+0000 (Coordinated Universal Time)",
-    "es1/annex-b.Date.prototype.toGMTString.js": "TypeError: Method 427 not found in Thu Apr 09 2026 07:56:53 GMT+0000 (Coordinated Universal Time)",
+    "es1/annex-b.Date.prototype.toGMTString.js": "TypeError: Method 427 not found in Wed Apr 15 2026 17:10:39 GMT+0000 (Coordinated Universal Time)",
     "es1/annex-b.global.escape.js": "TypeError: undefined is not a function",
     "es1/annex-b.global.unescape.js": "TypeError: undefined is not a function",
     "es1/annex-b.literals.octal.js": "FAIL: 0755 failed; max safe integer failed",
@@ -388,7 +387,7 @@
     "es5/JSON.js": "PASS",
     "es5/JSON.parse.js": "FAIL: invalid JSON does not throw SyntaxError; trailing comma does not throw SyntaxError",
     "es5/JSON.parse.reviver.js": "PASS",
-    "es5/JSON.stringify.js": "FAIL: Stack overflow.; at YantraJS.Core.Core.Storage.VirtualMemory`1[[YantraJS.Core.SAUint32Map`1+Node[[System.ValueTuple`2[[YantraJS.Core.JSProperty, YantraJS.Core, Version=1.2.0.0, Culture=neutral, Public...",
+    "es5/JSON.stringify.js": "FAIL: Stack overflow.; at YantraJS.Core.JSArray+ElementEnumerator.MoveNext(Boolean ByRef, YantraJS.Core.JSValue ByRef, UInt32 ByRef); at YantraJS.Core.JSJSON.Stringify(System.IO.TextWriter, YantraJS.Core.JS...",
     "es5/JSON.stringify.replacer.js": "PASS",
     "es5/JSON.stringify.space.js": "PASS",
     "es5/Object.create.js": "FAIL: null prototype failed; Properties argument failed",

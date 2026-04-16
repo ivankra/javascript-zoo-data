@@ -4,7 +4,6 @@
     "binary_name": "fastschema-qjs",
     "binary_sha256": "facc3bd728000f6f36519555f82888e44e3c0b890673e5c4d8e8e9cf3c2983cd",
     "binary_size": 6305600,
-    "console_log": ["console.log", "print"],
     "engine": "fastschema-qjs",
     "go": "1.26.2",
     "repository": "https://github.com/fastschema/qjs.git",
@@ -16,13 +15,13 @@
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

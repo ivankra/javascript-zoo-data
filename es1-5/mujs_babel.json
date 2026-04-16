@@ -2,18 +2,17 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "mujs_babel",
-    "console_log": "console.log",
-    "dist_size": 24510179,
+    "dist_size": 24535745,
     "engine": "mujs"
   },
   "summary": {
-    "all": {"pass": 379, "fail": 41, "pass_percent": 90.238},
-    "es1-5": {"pass": 379, "fail": 41, "pass_percent": 90.238}
+    "all": {"passed": 379, "failed": 41, "pass_percent": 90.238},
+    "es1-5": {"passed": 379, "failed": 41, "pass_percent": 90.238}
   },
   "dirs": {
-    "es1": {"pass": 189, "fail": 9, "pass_percent": 95.455},
-    "es3": {"pass": 136, "fail": 12, "pass_percent": 91.892},
-    "es5": {"pass": 54, "fail": 20, "pass_percent": 72.973}
+    "es1": {"passed": 189, "failed": 9, "pass_percent": 95.455},
+    "es3": {"passed": 136, "failed": 12, "pass_percent": 91.892},
+    "es5": {"passed": 54, "failed": 20, "pass_percent": 72.973}
   },
   "tests": {
     "es1/Array.js": "FAIL: Array.length failed",
@@ -136,7 +135,7 @@
     "es1/annex-b.global.escape.js": "ReferenceError: 'escape' is not defined",
     "es1/annex-b.global.unescape.js": "ReferenceError: 'unescape' is not defined",
     "es1/annex-b.literals.octal.js": "SyntaxError: number with leading zeroundefined",
-    "es1/annex-b.literals.string.octal.js": "FAIL: found both ok and fail markers",
+    "es1/annex-b.literals.string.octal.js": "FAIL: found both pass and fail markers",
     "es1/arguments.callee.js": "PASS",
     "es1/arguments.js": "PASS",
     "es1/asi.eval.js": "PASS",

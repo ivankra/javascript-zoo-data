@@ -2,10 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "iv-lv5_clang",
-    "binary_sha256": "e9acaae7ca3a3ff89befde4e951d0a9091a88a19156be03cf1f3de79fb09ddc6",
+    "binary_sha256": "1a5d8585135f948735be4400a00c8da6fcfe9686a6055fbde9788b9751b7bf80",
     "binary_size": 5959464,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "iv-lv5",
     "jit": "true",
     "repository": "https://github.com/Constellation/iv.git",
@@ -13,13 +12,13 @@
     "revision_date": "2015-03-24"
   },
   "summary": {
-    "all": {"pass": 413, "fail": 7, "pass_percent": 98.333},
-    "es1-5": {"pass": 413, "fail": 7, "pass_percent": 98.333}
+    "all": {"passed": 413, "failed": 7, "pass_percent": 98.333},
+    "es1-5": {"passed": 413, "failed": 7, "pass_percent": 98.333}
   },
   "dirs": {
-    "es1": {"pass": 197, "fail": 1, "pass_percent": 99.495},
-    "es3": {"pass": 146, "fail": 2, "pass_percent": 98.649},
-    "es5": {"pass": 70, "fail": 4, "pass_percent": 94.595}
+    "es1": {"passed": 197, "failed": 1, "pass_percent": 99.495},
+    "es3": {"passed": 146, "failed": 2, "pass_percent": 98.649},
+    "es5": {"passed": 70, "failed": 4, "pass_percent": 94.595}
   },
   "tests": {
     "es1/Array.js": "PASS",

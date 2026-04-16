@@ -4,7 +4,6 @@
     "binary_name": "rust-js",
     "binary_sha256": "2a0acce1a745bc4f6c7de89f6c1c5bb4b0cdf071aaed5fc6b24dac6187cc8f0d",
     "binary_size": 2141736,
-    "console_log": "console.log",
     "engine": "rust-js",
     "repository": "https://github.com/rust-js/rjs.git",
     "revision": "61391286b0f0d6ce23720ee13501f62751c26b29",
@@ -12,13 +11,13 @@
     "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
   "summary": {
-    "all": {"pass": 392, "fail": 28, "pass_percent": 93.333},
-    "es1-5": {"pass": 392, "fail": 28, "pass_percent": 93.333}
+    "all": {"passed": 392, "failed": 28, "pass_percent": 93.333},
+    "es1-5": {"passed": 392, "failed": 28, "pass_percent": 93.333}
   },
   "dirs": {
-    "es1": {"pass": 196, "fail": 2, "pass_percent": 98.99},
-    "es3": {"pass": 132, "fail": 16, "pass_percent": 89.189},
-    "es5": {"pass": 64, "fail": 10, "pass_percent": 86.486}
+    "es1": {"passed": 196, "failed": 2, "pass_percent": 98.99},
+    "es3": {"passed": 132, "failed": 16, "pass_percent": 89.189},
+    "es5": {"passed": 64, "failed": 10, "pass_percent": 86.486}
   },
   "tests": {
     "es1/Array.js": "PASS",

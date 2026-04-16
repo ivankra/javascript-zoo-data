@@ -5,20 +5,19 @@
     "binary_sha256": "9c1b1685776e197ef9fc27abc4e13ac2d3638cd35456ac9363d036a040075919",
     "binary_size": 707680,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
     "engine": "duktape",
     "repository": "https://github.com/svaarala/duktape.git",
     "revision": "50af773b1b32067170786c2b7c661705ec7425d4",
     "revision_date": "2024-01-29"
   },
   "summary": {
-    "all": {"pass": 419, "fail": 1, "pass_percent": 99.762},
-    "es1-5": {"pass": 419, "fail": 1, "pass_percent": 99.762}
+    "all": {"passed": 419, "failed": 1, "pass_percent": 99.762},
+    "es1-5": {"passed": 419, "failed": 1, "pass_percent": 99.762}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 73, "fail": 1, "pass_percent": 98.649}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 73, "failed": 1, "pass_percent": 98.649}
   },
   "tests": {
     "es1/Array.js": "PASS",

@@ -5,20 +5,19 @@
     "binary_sha256": "36c332b340d1470bea1430d65cdbdca6c00bc5168e4b842a61966a7d95c36f8a",
     "binary_size": 73184,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
     "engine": "stackluca",
     "repository": "https://github.com/stackluca/v3.git",
     "revision": "487412fbb8d2c11b3a6faf2047c0c677689c6751",
     "revision_date": "2016-05-21"
   },
   "summary": {
-    "all": {"fail": 420, "pass_percent": 0.0},
-    "es1-5": {"fail": 420, "pass_percent": 0.0}
+    "all": {"failed": 420},
+    "es1-5": {"failed": 420}
   },
   "dirs": {
-    "es1": {"fail": 198, "pass_percent": 0.0},
-    "es3": {"fail": 148, "pass_percent": 0.0},
-    "es5": {"fail": 74, "pass_percent": 0.0}
+    "es1": {"failed": 198},
+    "es3": {"failed": 148},
+    "es5": {"failed": 74}
   },
   "tests": {
     "es1/Array.js": "SyntaxError: unexpected token",

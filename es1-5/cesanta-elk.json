@@ -5,7 +5,6 @@
     "binary_sha256": "55c74aee82b9da999895274b8ad2ac3d9aa0dfe90879b007e539c4da105f6314",
     "binary_size": 47544,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
     "engine": "cesanta-elk",
     "repository": "https://github.com/cesanta/elk.git",
     "revision": "71a86fa2fef146696be9ae66715bf3f91d0a5f2c",
@@ -13,13 +12,13 @@
     "version": "2.2.0-32-g71a86fa"
   },
   "summary": {
-    "all": {"pass": 1, "fail": 419, "pass_percent": 0.238},
-    "es1-5": {"pass": 1, "fail": 419, "pass_percent": 0.238}
+    "all": {"passed": 1, "failed": 419, "pass_percent": 0.238},
+    "es1-5": {"passed": 1, "failed": 419, "pass_percent": 0.238}
   },
   "dirs": {
-    "es1": {"pass": 1, "fail": 197, "pass_percent": 0.505},
-    "es3": {"fail": 148, "pass_percent": 0.0},
-    "es5": {"fail": 74, "pass_percent": 0.0}
+    "es1": {"passed": 1, "failed": 197, "pass_percent": 0.505},
+    "es3": {"failed": 148},
+    "es5": {"failed": 74}
   },
   "tests": {
     "es1/Array.js": "FAIL: 'var' not implemented",

@@ -2,24 +2,23 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "espruino",
-    "binary_sha256": "c822f331096b35ecad82b92c73f17898149363e6a6b819060826ef7e130b7f25",
+    "binary_sha256": "4c825efb653d971cbd95b822bc67850c2eee6775442d86177ef97437b12f4e6f",
     "binary_size": 1109304,
     "cc": "gcc 14.2.0 (Debian 14.2.0-19)",
-    "console_log": ["console.log", "print"],
     "engine": "espruino",
     "repository": "https://github.com/espruino/Espruino.git",
-    "revision": "b24e0dc1cefd83ac528efea06bbec46def7169c2",
-    "revision_date": "2026-03-23",
+    "revision": "a9c57e82dbec829d91e2bb56a85ef4ede05ad703",
+    "revision_date": "2026-04-13",
     "version": "2v29"
   },
   "summary": {
-    "all": {"pass": 233, "fail": 187, "pass_percent": 55.476},
-    "es1-5": {"pass": 233, "fail": 187, "pass_percent": 55.476}
+    "all": {"passed": 233, "failed": 187, "pass_percent": 55.476},
+    "es1-5": {"passed": 233, "failed": 187, "pass_percent": 55.476}
   },
   "dirs": {
-    "es1": {"pass": 146, "fail": 52, "pass_percent": 73.737},
-    "es3": {"pass": 65, "fail": 83, "pass_percent": 43.919},
-    "es5": {"pass": 22, "fail": 52, "pass_percent": 29.73}
+    "es1": {"passed": 146, "failed": 52, "pass_percent": 73.737},
+    "es3": {"passed": 65, "failed": 83, "pass_percent": 43.919},
+    "es5": {"passed": 22, "failed": 52, "pass_percent": 29.73}
   },
   "tests": {
     "es1/Array.js": "FAIL: Array.length failed",
@@ -55,7 +54,7 @@
     "es1/Date.prototype.getUTCFullYear.js": "FAIL: Function \"UTC\" not found!",
     "es1/Date.prototype.getUTCHours.js": "FAIL: Function \"UTC\" not found!",
     "es1/Date.prototype.getUTCMilliseconds.js": "FAIL: Function \"UTC\" not found!",
-    "es1/Date.prototype.getUTCMinutes.js": "FAIL",
+    "es1/Date.prototype.getUTCMinutes.js": "FAIL: Function \"UTC\" not found!",
     "es1/Date.prototype.getUTCMonth.js": "FAIL: Function \"UTC\" not found!",
     "es1/Date.prototype.getUTCSeconds.js": "FAIL: Function \"UTC\" not found!",
     "es1/Date.prototype.setDate.js": "PASS",
@@ -352,7 +351,7 @@
     "es3/regex.flag.multiline.js": "FAIL: ^ after LF failed; $ before LF failed",
     "es3/regex.group.js": "PASS",
     "es3/regex.lookahead.js": "FAIL: Field or method \"0\" does not already exist, and can't create it on null",
-    "es3/regex.negative-lookahead.js": "FAIL: Field or method \"0\" does not already exist, and can't create it on null",
+    "es3/regex.negative-lookahead.js": "FAIL",
     "es3/regex.non-capturing-group.js": "FAIL: Field or method \"0\" does not already exist, and can't create it on null",
     "es3/regex.quantifier.exact.js": "FAIL: Field or method \"0\" does not already exist, and can't create it on null",
     "es3/regex.quantifier.maybe.js": "FAIL: Field or method \"0\" does not already exist, and can't create it on null",

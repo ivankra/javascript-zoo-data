@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "quickjs_262",
-    "binary_sha256": "8b5bab3ccb05c23608d1028b3612801f824ed003ab8a8dc552efe54d8f0bb9ff",
+    "binary_sha256": "432a8cd56779edf5c1ad23f856a0437c8d7ac1062def2593dbe9db714aadad52",
     "binary_size": 1121752,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
     "engine": "quickjs",
@@ -12,16 +12,17 @@
   },
   "flags": [
     "-N",
+    {"if": "flags:CanBlockIsFalse", "then": "--no-can-block"},
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

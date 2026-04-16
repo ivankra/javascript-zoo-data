@@ -5,20 +5,19 @@
     "binary_sha256": "65db9035606fc1728709d084947c58b17c3bb6022875ad41f39ab4eaf3fa8d4e",
     "binary_size": 158576,
     "cc": "gcc 15.2.0 (Debian 15.2.0-16)",
-    "console_log": ["console.log", "print"],
     "engine": "tiny-js",
     "repository": "https://github.com/gfwilliams/tiny-js.git",
     "revision": "821447737f3d2f79139cef97be16f4513dd75099",
     "revision_date": "2026-02-24"
   },
   "summary": {
-    "all": {"pass": 31, "fail": 389, "pass_percent": 7.381},
-    "es1-5": {"pass": 31, "fail": 389, "pass_percent": 7.381}
+    "all": {"passed": 31, "failed": 389, "pass_percent": 7.381},
+    "es1-5": {"passed": 31, "failed": 389, "pass_percent": 7.381}
   },
   "dirs": {
-    "es1": {"pass": 21, "fail": 177, "pass_percent": 10.606},
-    "es3": {"pass": 7, "fail": 141, "pass_percent": 4.73},
-    "es5": {"pass": 3, "fail": 71, "pass_percent": 4.054}
+    "es1": {"passed": 21, "failed": 177, "pass_percent": 10.606},
+    "es3": {"passed": 7, "failed": 141, "pass_percent": 4.73},
+    "es5": {"passed": 3, "failed": 71, "pass_percent": 4.054}
   },
   "tests": {
     "es1/Array.js": "SyntaxError: Got ID expected ')'",

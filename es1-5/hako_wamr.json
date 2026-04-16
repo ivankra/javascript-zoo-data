@@ -5,20 +5,19 @@
     "binary_sha256": "f6d6e1d8a6e0dfaf649c22287cd86166548ace2a2c33fd0246b319726840d3fb",
     "binary_size": 1202032,
     "cc": "gcc 15.2.0 (Debian 15.2.0-16)",
-    "console_log": "console.log",
     "engine": "hako",
     "repository": "https://github.com/andrewmd5/hako-cli.git",
     "revision": "243663f4fc03daa51b97b15882ebf815f2eb70ce",
     "revision_date": "2025-08-15"
   },
   "summary": {
-    "all": {"pass": 417, "fail": 3, "pass_percent": 99.286},
-    "es1-5": {"pass": 417, "fail": 3, "pass_percent": 99.286}
+    "all": {"passed": 417, "failed": 3, "pass_percent": 99.286},
+    "es1-5": {"passed": 417, "failed": 3, "pass_percent": 99.286}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 146, "fail": 2, "pass_percent": 98.649},
-    "es5": {"pass": 73, "fail": 1, "pass_percent": 98.649}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 146, "failed": 2, "pass_percent": 98.649},
+    "es5": {"passed": 73, "failed": 1, "pass_percent": 98.649}
   },
   "tests": {
     "es1/Array.js": "PASS",

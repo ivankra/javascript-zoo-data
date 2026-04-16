@@ -2,7 +2,6 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "twostroke",
-    "console_log": "console.log",
     "dist_size": 2814184,
     "engine": "twostroke",
     "repository": "https://github.com/charliesome/twostroke.git",
@@ -10,13 +9,13 @@
     "revision_date": "2012-05-30"
   },
   "summary": {
-    "all": {"pass": 239, "fail": 181, "pass_percent": 56.905},
-    "es1-5": {"pass": 239, "fail": 181, "pass_percent": 56.905}
+    "all": {"passed": 239, "failed": 181, "pass_percent": 56.905},
+    "es1-5": {"passed": 239, "failed": 181, "pass_percent": 56.905}
   },
   "dirs": {
-    "es1": {"pass": 138, "fail": 60, "pass_percent": 69.697},
-    "es3": {"pass": 86, "fail": 62, "pass_percent": 58.108},
-    "es5": {"pass": 15, "fail": 59, "pass_percent": 20.27}
+    "es1": {"passed": 138, "failed": 60, "pass_percent": 69.697},
+    "es3": {"passed": 86, "failed": 62, "pass_percent": 58.108},
+    "es5": {"passed": 15, "failed": 59, "pass_percent": 20.27}
   },
   "tests": {
     "es1/Array.js": "FAIL: Array.length failed",
@@ -416,7 +415,7 @@
     "es5/literals.object.trailing-comma.js": "PASS",
     "es5/source.keyword-properties.js": "SyntaxError: Found IF, expected BAREWORD, STRING, NUMBER; parser.rb:26:in `assert_type'; parser.rb:677:in `object_literal'; parser.rb:330:in `value_expression'; parser.rb:304:in `call_expression'; parser.rb:289:in...",
     "es5/source.unreserved-words.js": "PASS",
-    "es5/source.whitespace.bom.js": "FAIL: lexer.rb:63:in `read_token': Illegal character '\ufeff' at line 1, col 1. (Twostroke::LexError); parser.rb:47:in `try_peek_token'; parser.rb:15:in `parse'",
+    "es5/source.whitespace.bom.js": "FAIL: lexer.rb:63:in `read_token': Illegal character '﻿' at line 1, col 1. (Twostroke::LexError); parser.rb:47:in `try_peek_token'; parser.rb:15:in `parse'",
     "es5/source.zero-width-chars.js": "FAIL: lexer.rb:63:in `read_token': Illegal character '/' at line 11, col 7. (Twostroke::LexError); parser.rb:50:in `peek_token'; parser.rb:639:in `var_rest'; parser.rb:633:in `var'; parser.rb:62:in `stateme...",
     "es5/strict.eval-cannot-create-bindings.js": "FAIL",
     "es5/strict.function-expr-with-matching-name.js": "PASS",

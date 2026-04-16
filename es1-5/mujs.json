@@ -5,7 +5,6 @@
     "binary_sha256": "b0f2c664677dfb71225c2a440cfbc61dbbadbda9e2bd299171bc01e837ee5f37",
     "binary_size": 404416,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "mujs",
     "repository": "https://codeberg.org/ccxvii/mujs.git",
     "revision": "0b4ed7e4ba37030fdd00f6a17b6de75cd7d7954b",
@@ -13,13 +12,13 @@
     "version": "1.3.8-17-g0b4ed7e"
   },
   "summary": {
-    "all": {"pass": 387, "fail": 33, "pass_percent": 92.143},
-    "es1-5": {"pass": 387, "fail": 33, "pass_percent": 92.143}
+    "all": {"passed": 387, "failed": 33, "pass_percent": 92.143},
+    "es1-5": {"passed": 387, "failed": 33, "pass_percent": 92.143}
   },
   "dirs": {
-    "es1": {"pass": 190, "fail": 8, "pass_percent": 95.96},
-    "es3": {"pass": 133, "fail": 15, "pass_percent": 89.865},
-    "es5": {"pass": 64, "fail": 10, "pass_percent": 86.486}
+    "es1": {"passed": 190, "failed": 8, "pass_percent": 95.96},
+    "es3": {"passed": 133, "failed": 15, "pass_percent": 89.865},
+    "es5": {"passed": 64, "failed": 10, "pass_percent": 86.486}
   },
   "tests": {
     "es1/Array.js": "FAIL: Array.length failed",

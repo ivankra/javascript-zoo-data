@@ -4,20 +4,19 @@
     "binary_name": "besen",
     "binary_sha256": "5bcaf57d49b3b99f1ffc13f796ff84e390e9b52b343b7bd3a857684a02cb3e59",
     "binary_size": 2040192,
-    "console_log": ["console.log", "print"],
     "engine": "besen",
     "repository": "https://github.com/BeRo1985/besen.git",
     "revision": "1c271815cf13291d3e4b636999ff7ecd7aa0993b",
     "revision_date": "2020-10-21"
   },
   "summary": {
-    "all": {"pass": 372, "fail": 48, "pass_percent": 88.571},
-    "es1-5": {"pass": 372, "fail": 48, "pass_percent": 88.571}
+    "all": {"passed": 372, "failed": 48, "pass_percent": 88.571},
+    "es1-5": {"passed": 372, "failed": 48, "pass_percent": 88.571}
   },
   "dirs": {
-    "es1": {"pass": 178, "fail": 20, "pass_percent": 89.899},
-    "es3": {"pass": 130, "fail": 18, "pass_percent": 87.838},
-    "es5": {"pass": 64, "fail": 10, "pass_percent": 86.486}
+    "es1": {"passed": 178, "failed": 20, "pass_percent": 89.899},
+    "es3": {"passed": 130, "failed": 18, "pass_percent": 87.838},
+    "es5": {"passed": 64, "failed": 10, "pass_percent": 86.486}
   },
   "tests": {
     "es1/Array.js": "PASS",

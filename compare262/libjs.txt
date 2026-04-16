@@ -1,7 +1,7 @@
 Comparing: ../test262/libjs.json ../../dist/arm64/libjs.ci-test262
-Binary revision: MISMATCH (ours: 648ececa622a, theirs: 919dba87b953)
+Binary revision: MATCH (ours: 4b1ecbc9df6d, theirs: 4b1ecbc9df6d)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 2b2ecead6e82)
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: be10a7468937)
 Tests: MATCH (ours: 53164, theirs: 53164, shared: 53164)
 Skipped tests: 2 (ours: 0, theirs: 2)
 Diffs: 1

@@ -2,16 +2,14 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "nova",
-    "binary_sha256": "ba5d66609a262faca5f3b1785f563c608d9df911de9f122a35d7ccd682d111f7",
-    "binary_size": 10637000,
-    "console_log": "print",
+    "binary_sha256": "522dadc289899758bb2f5eb6fbf349d7d68df16a91c12a7d5492d51ac389401a",
+    "binary_size": 10675864,
     "engine": "nova",
     "repository": "https://github.com/trynova/nova.git",
-    "revision": "a82b0408533bc93f857aa2ee5daee4f39f62dc6f",
-    "revision_date": "2026-03-23",
-    "run_script_cmd": "$BINARY eval ${MODULE:+--module}",
+    "revision": "11ce9da5a4e222347e9db2621cac2279ef163f6f",
+    "revision_date": "2026-04-14",
     "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)",
-    "version": "latest-106-ga82b0408"
+    "version": "latest-111-g11ce9da5"
   },
   "flags": [
     "eval",
@@ -20,13 +18,13 @@
     {"if": "flags:module", "then": "--module", "else": "--no-strict"}
   ],
   "summary": {
-    "all": {"pass": 399, "fail": 21, "pass_percent": 95.0},
-    "es1-5": {"pass": 399, "fail": 21, "pass_percent": 95.0}
+    "all": {"passed": 399, "failed": 21, "pass_percent": 95.0},
+    "es1-5": {"passed": 399, "failed": 21, "pass_percent": 95.0}
   },
   "dirs": {
-    "es1": {"pass": 191, "fail": 7, "pass_percent": 96.465},
-    "es3": {"pass": 134, "fail": 14, "pass_percent": 90.541},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 191, "failed": 7, "pass_percent": 96.465},
+    "es3": {"passed": 134, "failed": 14, "pass_percent": 90.541},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

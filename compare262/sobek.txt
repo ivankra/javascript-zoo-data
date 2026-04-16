@@ -1,6 +1,6 @@
 Comparing: ../test262/sobek.json ../../dist/arm64/sobek.ci-test262
 Binary revision: MATCH (ours: 6d789dcdd177, theirs: 6d789dcdd177)
-Binary arch: MATCH (ours: arm64, theirs: arm64)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
 Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 3af36bec45bd)
 Tests: MISMATCH (ours: 53164, theirs: 52892, shared: 52829)
 Skipped tests: 20215 (ours: 0, theirs: 20278)

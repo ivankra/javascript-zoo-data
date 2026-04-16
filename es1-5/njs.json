@@ -5,23 +5,22 @@
     "binary_sha256": "e4bcfc6788229b83077932c976af4ef2b42cd19feb711e028cee1b9b460ec708",
     "binary_size": 874040,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
     "engine": "njs",
     "repository": "https://github.com/nginx/njs.git",
-    "revision": "79d5b1866738088c359681b62499d27b70f210ea",
-    "revision_date": "2026-04-06"
+    "revision": "c4389399571fe991632fd8da563a5e31ebb291e1",
+    "revision_date": "2026-04-13"
   },
   "flags": [
     {"if": "flags:module", "then": "-m"}
   ],
   "summary": {
-    "all": {"pass": 370, "fail": 50, "pass_percent": 88.095},
-    "es1-5": {"pass": 370, "fail": 50, "pass_percent": 88.095}
+    "all": {"passed": 370, "failed": 50, "pass_percent": 88.095},
+    "es1-5": {"passed": 370, "failed": 50, "pass_percent": 88.095}
   },
   "dirs": {
-    "es1": {"pass": 185, "fail": 13, "pass_percent": 93.434},
-    "es3": {"pass": 134, "fail": 14, "pass_percent": 90.541},
-    "es5": {"pass": 51, "fail": 23, "pass_percent": 68.919}
+    "es1": {"passed": 185, "failed": 13, "pass_percent": 93.434},
+    "es3": {"passed": 134, "failed": 14, "pass_percent": 90.541},
+    "es5": {"passed": 51, "failed": 23, "pass_percent": 68.919}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -312,7 +311,7 @@
     "es3/global.encodeURIComponent.js": "PASS",
     "es3/global.encodeURI.js": "PASS",
     "es3/global.undefined.js": "PASS",
-    "es3/identifiers.unicode.js": "SyntaxError: Unexpected token \"\ufffd\"",
+    "es3/identifiers.unicode.js": "SyntaxError: Unexpected token \"�\"",
     "es3/instanceof.js": "PASS",
     "es3/in.js": "PASS",
     "es3/labelled.break.js": "PASS",
@@ -326,7 +325,7 @@
     "es3/literals.object.int.js": "PASS",
     "es3/literals.object.js": "PASS",
     "es3/literals.object.str.js": "PASS",
-    "es3/literals.object.unicode.js": "SyntaxError: Unexpected token \"\ufffd\"",
+    "es3/literals.object.unicode.js": "SyntaxError: Unexpected token \"�\"",
     "es3/literals.regex.ambiguous.js": "PASS",
     "es3/literals.regex.empty.js": "PASS",
     "es3/literals.regex.js": "PASS",

@@ -2,10 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "zuqe",
-    "binary_sha256": "0522d0cfa82d3346addf5dd1494d5737a891a63e4f108d0a5dacadfa339bacaa",
+    "binary_sha256": "5af33db92a5124ef96c4213b29fe30cba3ed0230d39ccaa5284f206fcd2196e0",
     "binary_size": 2614512,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "zuqe",
     "repository": "https://github.com/nupha/zuqe.git",
     "revision": "3d05a00633375b3aa139db116f0763e829957745",
@@ -16,13 +15,13 @@
     {"if": "flags:module", "then": "-m"}
   ],
   "summary": {
-    "all": {"pass": 409, "fail": 11, "pass_percent": 97.381},
-    "es1-5": {"pass": 409, "fail": 11, "pass_percent": 97.381}
+    "all": {"passed": 410, "failed": 10, "pass_percent": 97.619},
+    "es1-5": {"passed": 410, "failed": 10, "pass_percent": 97.619}
   },
   "dirs": {
-    "es1": {"pass": 194, "fail": 4, "pass_percent": 97.98},
-    "es3": {"pass": 143, "fail": 5, "pass_percent": 96.622},
-    "es5": {"pass": 72, "fail": 2, "pass_percent": 97.297}
+    "es1": {"passed": 195, "failed": 3, "pass_percent": 98.485},
+    "es3": {"passed": 143, "failed": 5, "pass_percent": 96.622},
+    "es5": {"passed": 72, "failed": 2, "pass_percent": 97.297}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -215,7 +214,7 @@
     "es1/unary.minus.js": "PASS",
     "es1/unary.not.js": "PASS",
     "es1/unary.plus.js": "PASS",
-    "es1/unary.plus.str.js": "FAIL",
+    "es1/unary.plus.str.js": "PASS",
     "es1/unary.tilde.js": "PASS",
     "es1/var.js": "PASS",
     "es1/var.typeof.js": "PASS",

@@ -2,25 +2,24 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "engine262_jsc",
-    "console_log": "console.log",
-    "dist_size": 3285461,
+    "dist_size": 3386186,
     "engine": "engine262",
     "repository": "https://github.com/engine262/engine262.git",
-    "revision": "b249d351e89be2efdb59fecbc291d7aca6fd6e4c",
-    "revision_date": "2026-04-08"
+    "revision": "6251716a3fdcbcd73e682754db8bf445c8325ca4",
+    "revision_date": "2026-04-13"
   },
   "flags": [
     "--features=all",
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 414, "fail": 6, "pass_percent": 98.571},
-    "es1-5": {"pass": 414, "fail": 6, "pass_percent": 98.571}
+    "all": {"passed": 414, "failed": 6, "pass_percent": 98.571},
+    "es1-5": {"passed": 414, "failed": 6, "pass_percent": 98.571}
   },
   "dirs": {
-    "es1": {"pass": 193, "fail": 5, "pass_percent": 97.475},
-    "es3": {"pass": 147, "fail": 1, "pass_percent": 99.324},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 193, "failed": 5, "pass_percent": 97.475},
+    "es3": {"passed": 147, "failed": 1, "pass_percent": 99.324},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

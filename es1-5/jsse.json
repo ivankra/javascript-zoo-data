@@ -4,11 +4,10 @@
     "binary_name": "jsse",
     "binary_sha256": "5be51e553cc92948acb6e5972f0ab8c313d0833dfb4b96f3764758c9dca472f5",
     "binary_size": 22244344,
-    "console_log": ["console.log", "print"],
     "engine": "jsse",
     "repository": "https://github.com/pmatos/jsse.git",
-    "revision": "88a685a7558ed4a8958ac45c2e153d60cf03cd8c",
-    "revision_date": "2026-04-01",
+    "revision": "80091b597a3043aaa011f7bd0b972f14aa44804f",
+    "revision_date": "2026-04-14",
     "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
   "flags": [
@@ -16,13 +15,13 @@
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 419, "fail": 1, "pass_percent": 99.762},
-    "es1-5": {"pass": 419, "fail": 1, "pass_percent": 99.762}
+    "all": {"passed": 419, "failed": 1, "pass_percent": 99.762},
+    "es1-5": {"passed": 419, "failed": 1, "pass_percent": 99.762}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 147, "fail": 1, "pass_percent": 99.324},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 147, "failed": 1, "pass_percent": 99.324},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

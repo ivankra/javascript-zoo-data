@@ -5,20 +5,19 @@
     "binary_sha256": "6cd56c72ecf13820a97fd878b5406e254dc05cad155a4de1659f4fe32d66ba45",
     "binary_size": 155120,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "console.log",
     "engine": "quad-wheel",
     "repository": "https://github.com/radare/quad-wheel.git",
     "revision": "ef1747ceeb28fff309de830c3ef863d6cf0b41a1",
     "revision_date": "2012-03-26"
   },
   "summary": {
-    "all": {"pass": 67, "fail": 353, "pass_percent": 15.952},
-    "es1-5": {"pass": 67, "fail": 353, "pass_percent": 15.952}
+    "all": {"passed": 67, "failed": 353, "pass_percent": 15.952},
+    "es1-5": {"passed": 67, "failed": 353, "pass_percent": 15.952}
   },
   "dirs": {
-    "es1": {"pass": 47, "fail": 151, "pass_percent": 23.737},
-    "es3": {"pass": 17, "fail": 131, "pass_percent": 11.486},
-    "es5": {"pass": 3, "fail": 71, "pass_percent": 4.054}
+    "es1": {"passed": 47, "failed": 151, "pass_percent": 23.737},
+    "es3": {"passed": 17, "failed": 131, "pass_percent": 11.486},
+    "es5": {"passed": 3, "failed": 71, "pass_percent": 4.054}
   },
   "tests": {
     "es1/Array.js": "SyntaxError: unexpected IDENTIFIER",

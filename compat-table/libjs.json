@@ -2,14 +2,13 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "libjs",
-    "binary_sha256": "f81208e899618d5d560c6a06e850b2930bf388ff6233cdb54811edaa81a61197",
-    "binary_size": 46271112,
+    "binary_sha256": "42507864960fa5d487efebb663c9ac0e97c29121285d6eda689745c5b6ec233e",
+    "binary_size": 46677040,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "libjs",
     "repository": "https://github.com/LadybirdBrowser/ladybird.git",
-    "revision": "648ececa622ad04884c6199e79dd6c02a79e2260",
-    "revision_date": "2026-04-08"
+    "revision": "4b1ecbc9df6d862109a3e284d3a70c26b764459d",
+    "revision_date": "2026-04-14"
   },
   "flags": [
     "--raw-strings",
@@ -17,28 +16,28 @@
     {"if": "flags:module", "then": "--as-module"}
   ],
   "summary": {
-    "all": {"pass": 1053, "fail": 41, "pass_percent": 96.252, "weight": 469.0, "weighted_pass_percent": 93.07},
-    "es6": {"pass": 692, "fail": 8, "pass_percent": 98.857, "weight": 211.0, "weighted_pass_percent": 97.394},
-    "es2016+": {"pass": 250, "pass_percent": 100.0, "weight": 151.0, "weighted_pass_percent": 100.0},
-    "esnext": {"pass": 10, "fail": 33, "pass_percent": 23.256, "weight": 33.0, "weighted_pass_percent": 18.182},
-    "intl": {"pass": 28, "pass_percent": 100.0, "weight": 28.0, "weighted_pass_percent": 100.0}
+    "all": {"passed": 1053, "failed": 41, "pass_percent": 96.252, "weight": 469.0, "weighted_pass_percent": 93.07},
+    "es6": {"passed": 692, "failed": 8, "pass_percent": 98.857, "weight": 211.0, "weighted_pass_percent": 97.394},
+    "es2016+": {"passed": 250, "pass_percent": 100.0, "weight": 151.0, "weighted_pass_percent": 100.0},
+    "esnext": {"passed": 10, "failed": 33, "pass_percent": 23.256, "weight": 33.0, "weighted_pass_percent": 18.182},
+    "intl": {"passed": 28, "pass_percent": 100.0, "weight": 28.0, "weighted_pass_percent": 100.0}
   },
   "dirs": {
-    "compat-table": {"pass": 1053, "fail": 41, "pass_percent": 96.252, "weight": 469.0, "weighted_pass_percent": 93.07},
-    "compat-table/es5": {"pass": 73, "pass_percent": 100.0, "weight": 46.0, "weighted_pass_percent": 100.0},
-    "compat-table/es6": {"pass": 692, "fail": 8, "pass_percent": 98.857, "weight": 211.0, "weighted_pass_percent": 97.394},
-    "compat-table/es2016": {"pass": 14, "pass_percent": 100.0, "weight": 11.0, "weighted_pass_percent": 100.0},
-    "compat-table/es2017": {"pass": 64, "pass_percent": 100.0, "weight": 25.0, "weighted_pass_percent": 100.0},
-    "compat-table/es2018": {"pass": 22, "pass_percent": 100.0, "weight": 19.0, "weighted_pass_percent": 100.0},
-    "compat-table/es2019": {"pass": 24, "pass_percent": 100.0, "weight": 16.0, "weighted_pass_percent": 100.0},
-    "compat-table/es2020": {"pass": 19, "pass_percent": 100.0, "weight": 14.0, "weighted_pass_percent": 100.0},
-    "compat-table/es2021": {"pass": 15, "pass_percent": 100.0, "weight": 14.0, "weighted_pass_percent": 100.0},
-    "compat-table/es2022": {"pass": 40, "pass_percent": 100.0, "weight": 21.0, "weighted_pass_percent": 100.0},
-    "compat-table/es2023": {"pass": 10, "pass_percent": 100.0, "weight": 5.0, "weighted_pass_percent": 100.0},
-    "compat-table/es2024": {"pass": 13, "pass_percent": 100.0, "weight": 7.0, "weighted_pass_percent": 100.0},
-    "compat-table/es2025": {"pass": 29, "pass_percent": 100.0, "weight": 19.0, "weighted_pass_percent": 100.0},
-    "compat-table/intl": {"pass": 28, "pass_percent": 100.0, "weight": 28.0, "weighted_pass_percent": 100.0},
-    "compat-table/next": {"pass": 10, "fail": 33, "pass_percent": 23.256, "weight": 33.0, "weighted_pass_percent": 18.182}
+    "compat-table": {"passed": 1053, "failed": 41, "pass_percent": 96.252, "weight": 469.0, "weighted_pass_percent": 93.07},
+    "compat-table/es5": {"passed": 73, "pass_percent": 100.0, "weight": 46.0, "weighted_pass_percent": 100.0},
+    "compat-table/es6": {"passed": 692, "failed": 8, "pass_percent": 98.857, "weight": 211.0, "weighted_pass_percent": 97.394},
+    "compat-table/es2016": {"passed": 14, "pass_percent": 100.0, "weight": 11.0, "weighted_pass_percent": 100.0},
+    "compat-table/es2017": {"passed": 64, "pass_percent": 100.0, "weight": 25.0, "weighted_pass_percent": 100.0},
+    "compat-table/es2018": {"passed": 22, "pass_percent": 100.0, "weight": 19.0, "weighted_pass_percent": 100.0},
+    "compat-table/es2019": {"passed": 24, "pass_percent": 100.0, "weight": 16.0, "weighted_pass_percent": 100.0},
+    "compat-table/es2020": {"passed": 19, "pass_percent": 100.0, "weight": 14.0, "weighted_pass_percent": 100.0},
+    "compat-table/es2021": {"passed": 15, "pass_percent": 100.0, "weight": 14.0, "weighted_pass_percent": 100.0},
+    "compat-table/es2022": {"passed": 40, "pass_percent": 100.0, "weight": 21.0, "weighted_pass_percent": 100.0},
+    "compat-table/es2023": {"passed": 10, "pass_percent": 100.0, "weight": 5.0, "weighted_pass_percent": 100.0},
+    "compat-table/es2024": {"passed": 13, "pass_percent": 100.0, "weight": 7.0, "weighted_pass_percent": 100.0},
+    "compat-table/es2025": {"passed": 29, "pass_percent": 100.0, "weight": 19.0, "weighted_pass_percent": 100.0},
+    "compat-table/intl": {"passed": 28, "pass_percent": 100.0, "weight": 28.0, "weighted_pass_percent": 100.0},
+    "compat-table/next": {"passed": 10, "failed": 33, "pass_percent": 23.256, "weight": 33.0, "weighted_pass_percent": 18.182}
   },
   "tests": {
     "compat-table/es5/Array.isArray.js": "PASS",

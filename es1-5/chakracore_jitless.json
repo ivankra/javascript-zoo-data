@@ -2,10 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "chakracore_jitless",
-    "binary_sha256": "2eaea8f4d858f57bd28353d5e88a7a2370f9a0043c64d43e9a9bae771a53da70",
+    "binary_sha256": "acafb308103679db178f4a703b4bf7b9931719a6ab4cc299fb1d30baddcb57ba",
     "binary_size": 9188312,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "chakracore",
     "jit": "",
     "repository": "https://github.com/chakra-core/ChakraCore.git",
@@ -17,13 +16,13 @@
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 407, "fail": 13, "pass_percent": 96.905},
-    "es1-5": {"pass": 407, "fail": 13, "pass_percent": 96.905}
+    "all": {"passed": 407, "failed": 13, "pass_percent": 96.905},
+    "es1-5": {"passed": 407, "failed": 13, "pass_percent": 96.905}
   },
   "dirs": {
-    "es1": {"pass": 192, "fail": 6, "pass_percent": 96.97},
-    "es3": {"pass": 142, "fail": 6, "pass_percent": 95.946},
-    "es5": {"pass": 73, "fail": 1, "pass_percent": 98.649}
+    "es1": {"passed": 192, "failed": 6, "pass_percent": 96.97},
+    "es3": {"passed": 142, "failed": 6, "pass_percent": 95.946},
+    "es5": {"passed": 73, "failed": 1, "pass_percent": 98.649}
   },
   "tests": {
     "es1/Array.js": "PASS",

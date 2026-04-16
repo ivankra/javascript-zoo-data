@@ -2,14 +2,13 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "libjs",
-    "binary_sha256": "f81208e899618d5d560c6a06e850b2930bf388ff6233cdb54811edaa81a61197",
-    "binary_size": 46271112,
+    "binary_sha256": "42507864960fa5d487efebb663c9ac0e97c29121285d6eda689745c5b6ec233e",
+    "binary_size": 46677040,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "libjs",
     "repository": "https://github.com/LadybirdBrowser/ladybird.git",
-    "revision": "648ececa622ad04884c6199e79dd6c02a79e2260",
-    "revision_date": "2026-04-08"
+    "revision": "4b1ecbc9df6d862109a3e284d3a70c26b764459d",
+    "revision_date": "2026-04-14"
   },
   "flags": [
     "--raw-strings",
@@ -17,13 +16,13 @@
     {"if": "flags:module", "then": "--as-module"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

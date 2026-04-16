@@ -2,21 +2,20 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "sval",
-    "console_log": ["console.log", "print"],
-    "dist_size": 248305,
+    "dist_size": 250579,
     "engine": "sval",
     "repository": "https://github.com/Siubaak/sval.git",
-    "revision": "9a81d79929ddeff409ceae94e9b240c5e7b2ce9c",
-    "revision_date": "2026-04-03"
+    "revision": "58550fd3a5e4202fdbfda3eb652099667b4c976f",
+    "revision_date": "2026-04-12"
   },
   "summary": {
-    "all": {"pass": 394, "fail": 26, "pass_percent": 93.81},
-    "es1-5": {"pass": 394, "fail": 26, "pass_percent": 93.81}
+    "all": {"passed": 400, "failed": 20, "pass_percent": 95.238},
+    "es1-5": {"passed": 400, "failed": 20, "pass_percent": 95.238}
   },
   "dirs": {
-    "es1": {"pass": 194, "fail": 4, "pass_percent": 97.98},
-    "es3": {"pass": 146, "fail": 2, "pass_percent": 98.649},
-    "es5": {"pass": 54, "fail": 20, "pass_percent": 72.973}
+    "es1": {"passed": 194, "failed": 4, "pass_percent": 97.98},
+    "es3": {"passed": 147, "failed": 1, "pass_percent": 99.324},
+    "es5": {"passed": 59, "failed": 15, "pass_percent": 79.73}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -313,7 +312,7 @@
     "es3/labelled.break.js": "PASS",
     "es3/labelled.continue.js": "PASS",
     "es3/labelled.statements.js": "SyntaxError: ExpressionStatement cannot be labeled",
-    "es3/literals.array.elisions.js": "TypeError: Cannot read properties of null",
+    "es3/literals.array.elisions.js": "PASS",
     "es3/literals.array.js": "PASS",
     "es3/literals.array.trailing-comma.js": "PASS",
     "es3/literals.object.decimal.js": "PASS",
@@ -366,15 +365,15 @@
     "es3/try-catch-finally.js": "PASS",
     "es3/try-catch-throw.js": "PASS",
     "es5/Array.isArray.js": "PASS",
-    "es5/Array.prototype.every.js": "TypeError: Cannot read properties of null",
-    "es5/Array.prototype.filter.js": "TypeError: Cannot read properties of null",
-    "es5/Array.prototype.forEach.js": "TypeError: Cannot read properties of null",
+    "es5/Array.prototype.every.js": "PASS",
+    "es5/Array.prototype.filter.js": "PASS",
+    "es5/Array.prototype.forEach.js": "PASS",
     "es5/Array.prototype.indexOf.js": "PASS",
     "es5/Array.prototype.lastIndexOf.js": "PASS",
     "es5/Array.prototype.map.js": "PASS",
     "es5/Array.prototype.reduceRight.js": "PASS",
-    "es5/Array.prototype.reduce.js": "TypeError: Cannot read properties of null",
-    "es5/Array.prototype.some.js": "TypeError: Cannot read properties of null",
+    "es5/Array.prototype.reduce.js": "PASS",
+    "es5/Array.prototype.some.js": "PASS",
     "es5/Array.prototype.sort.TypeError.js": "PASS",
     "es5/Array.prototype.sort.undefined-comparefn.js": "PASS",
     "es5/Date.now.js": "PASS",

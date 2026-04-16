@@ -2,23 +2,22 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "syoyo",
-    "binary_sha256": "3d72579e0946e85ed7b64d1e0efbff6120a8e73ab275742b4935e5b339330d0a",
-    "binary_size": 10479272,
+    "binary_sha256": "ed6d740e2865f7e62d1b12a1d088c14af095bd857a8559ae830f0bb520b786c0",
+    "binary_size": 12671048,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
     "engine": "syoyo",
     "repository": "https://github.com/syoyo/lightjs.git",
-    "revision": "3bc9b9dbf9314976e5f529c3d06a2a0c02c850cc",
-    "revision_date": "2026-04-05"
+    "revision": "f7c09511aeb9282b3e36dd9d9e94a69b0b0f65e6",
+    "revision_date": "2026-04-13"
   },
   "summary": {
-    "all": {"pass": 400, "fail": 20, "pass_percent": 95.238},
-    "es1-5": {"pass": 400, "fail": 20, "pass_percent": 95.238}
+    "all": {"passed": 404, "failed": 16, "pass_percent": 96.19},
+    "es1-5": {"passed": 404, "failed": 16, "pass_percent": 96.19}
   },
   "dirs": {
-    "es1": {"pass": 192, "fail": 6, "pass_percent": 96.97},
-    "es3": {"pass": 136, "fail": 12, "pass_percent": 91.892},
-    "es5": {"pass": 72, "fail": 2, "pass_percent": 97.297}
+    "es1": {"passed": 193, "failed": 5, "pass_percent": 97.475},
+    "es3": {"passed": 139, "failed": 9, "pass_percent": 93.919},
+    "es5": {"passed": 72, "failed": 2, "pass_percent": 97.297}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -72,7 +71,7 @@
     "es1/Date.prototype.setUTCMinutes.js": "PASS",
     "es1/Date.prototype.setUTCMonth.js": "PASS",
     "es1/Date.prototype.setUTCSeconds.js": "PASS",
-    "es1/Date.prototype.toLocaleString.js": "FAIL",
+    "es1/Date.prototype.toLocaleString.js": "PASS",
     "es1/Date.prototype.toString.js": "PASS",
     "es1/Date.prototype.toUTCString.js": "PASS",
     "es1/Date.prototype.valueOf.js": "PASS",
@@ -235,9 +234,9 @@
     "es3/Array.prototype.unshift.js": "PASS",
     "es3/Array.prototype.unshift.returns-new-length.js": "PASS",
     "es3/Date.prototype.toDateString.js": "PASS",
-    "es3/Date.prototype.toLocaleDateString.js": "FAIL",
-    "es3/Date.prototype.toLocaleString.js": "FAIL",
-    "es3/Date.prototype.toLocaleTimeString.js": "FAIL",
+    "es3/Date.prototype.toLocaleDateString.js": "PASS",
+    "es3/Date.prototype.toLocaleString.js": "PASS",
+    "es3/Date.prototype.toLocaleTimeString.js": "PASS",
     "es3/Date.prototype.toTimeString.js": "PASS",
     "es3/Error.js": "PASS",
     "es3/Error.prototype.constructor.js": "PASS",
@@ -295,7 +294,7 @@
     "es3/function-expressions.js": "PASS",
     "es3/global.EvalError.js": "PASS",
     "es3/global.RangeError.js": "PASS",
-    "es3/global.RangeError.thrown.js": "FAIL: wrong exception for new Array with length >= 2^32",
+    "es3/global.RangeError.thrown.js": "FAIL: wrong exception for new Array with length >= 2^32; no exception for array length exceeding 2^32-1",
     "es3/global.ReferenceError.js": "PASS",
     "es3/global.ReferenceError.thrown.js": "PASS",
     "es3/global.SyntaxError.js": "PASS",

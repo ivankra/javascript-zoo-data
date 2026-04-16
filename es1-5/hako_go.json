@@ -2,9 +2,8 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "hako_go",
-    "binary_sha256": "8babda24e9a0b716b54ae4d2fee2afa646b937940f1a74bf5bd4bf4ec4bcac71",
+    "binary_sha256": "c311f2e5812aab72f6c5e14f700477b57b5e37a4e5c351978ebba371c4846a22",
     "binary_size": 10623227,
-    "console_log": ["console.log", "print"],
     "engine": "hako",
     "go": "1.26.2",
     "repository": "https://github.com/6over3/hako.git",
@@ -12,13 +11,13 @@
     "revision_date": "2025-12-13"
   },
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

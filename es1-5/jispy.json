@@ -2,7 +2,6 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jispy",
-    "console_log": ["console.log", "print"],
     "dist_size": 82861,
     "engine": "jispy",
     "repository": "https://github.com/polydojo/jispy.git",
@@ -11,13 +10,13 @@
     "version": "1.0.0"
   },
   "summary": {
-    "all": {"fail": 420, "pass_percent": 0.0},
-    "es1-5": {"fail": 420, "pass_percent": 0.0}
+    "all": {"failed": 420},
+    "es1-5": {"failed": 420}
   },
   "dirs": {
-    "es1": {"fail": 198, "pass_percent": 0.0},
-    "es3": {"fail": 148, "pass_percent": 0.0},
-    "es5": {"fail": 74, "pass_percent": 0.0}
+    "es1": {"failed": 198},
+    "es3": {"failed": 148},
+    "es5": {"failed": 74}
   },
   "tests": {
     "es1/Array.js": "SyntaxError: unexpected token Array",
@@ -308,7 +307,7 @@
     "es3/global.encodeURIComponent.js": "SyntaxError: unexpected token ==",
     "es3/global.encodeURI.js": "SyntaxError: unexpected token ==",
     "es3/global.undefined.js": "SyntaxError: unexpected keyword typeof",
-    "es3/identifiers.unicode.js": "SyntaxError: unexpected token \u0436",
+    "es3/identifiers.unicode.js": "SyntaxError: unexpected token ж",
     "es3/instanceof.js": "SyntaxError: unexpected keyword new",
     "es3/in.js": "SyntaxError: unexpected keyword new",
     "es3/labelled.break.js": "SyntaxError: unexpected token ++",
@@ -322,7 +321,7 @@
     "es3/literals.object.int.js": "SyntaxError: unexpected token ==",
     "es3/literals.object.js": "SyntaxError: unexpected keyword typeof",
     "es3/literals.object.str.js": "SyntaxError: unexpected token ==",
-    "es3/literals.object.unicode.js": "SyntaxError: unexpected token \u0436",
+    "es3/literals.object.unicode.js": "SyntaxError: unexpected token ж",
     "es3/literals.regex.ambiguous.js": "SyntaxError: unexpected token ==",
     "es3/literals.regex.empty.js": "SyntaxError: unexpected token ?",
     "es3/literals.regex.js": "SyntaxError: unexpected keyword typeof",
@@ -417,7 +416,7 @@
     "es5/literals.object.trailing-comma.js": "SyntaxError: unexpected token ++",
     "es5/source.keyword-properties.js": "SyntaxError: unexpected token ++",
     "es5/source.unreserved-words.js": "SyntaxError: unexpected token ++",
-    "es5/source.whitespace.bom.js": "SyntaxError: unexpected token \ufeff",
+    "es5/source.whitespace.bom.js": "SyntaxError: unexpected token ﻿",
     "es5/source.zero-width-chars.js": "SyntaxError: unexpected token _\\u200c\\u200d",
     "es5/strict.eval-cannot-create-bindings.js": "SyntaxError: unexpected keyword try",
     "es5/strict.function-expr-with-matching-name.js": "SyntaxError: unexpected keyword typeof",

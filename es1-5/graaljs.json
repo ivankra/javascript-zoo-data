@@ -2,11 +2,11 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "graaljs",
-    "console_log": ["console.log", "print"],
-    "dist_size": 196290303,
+    "dist_size": 188592989,
     "engine": "graaljs",
-    "revision": "f5e5bb68a1fc6946e21fea6bd136909871f67d8b",
-    "version": "25.0.2"
+    "revision": "12e9c1f2f908bc6e331b9d411484e1b59a3c33ae",
+    "revision_date": "2026-04-15",
+    "version": "25.1.0"
   },
   "flags": [
     "--experimental-options",
@@ -18,13 +18,13 @@
     {"if": "flags:module", "then": "--module"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

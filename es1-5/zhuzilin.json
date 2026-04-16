@@ -5,7 +5,6 @@
     "binary_sha256": "f3cd117e4f16bd41d8a56643b6e9b0af3b0b8034602646566dc905dcfba091d3",
     "binary_size": 822120,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "console.log",
     "engine": "zhuzilin",
     "repository": "https://github.com/zhuzilin/es.git",
     "revision": "943e5c09470813e26404bd3920b93601fcc5b46b",
@@ -13,13 +12,13 @@
     "version": "0.2.0"
   },
   "summary": {
-    "all": {"pass": 220, "fail": 200, "pass_percent": 52.381},
-    "es1-5": {"pass": 220, "fail": 200, "pass_percent": 52.381}
+    "all": {"passed": 220, "failed": 200, "pass_percent": 52.381},
+    "es1-5": {"passed": 220, "failed": 200, "pass_percent": 52.381}
   },
   "dirs": {
-    "es1": {"pass": 135, "fail": 63, "pass_percent": 68.182},
-    "es3": {"pass": 50, "fail": 98, "pass_percent": 33.784},
-    "es5": {"pass": 35, "fail": 39, "pass_percent": 47.297}
+    "es1": {"passed": 135, "failed": 63, "pass_percent": 68.182},
+    "es3": {"passed": 50, "failed": 98, "pass_percent": 33.784},
+    "es5": {"passed": 35, "failed": 39, "pass_percent": 47.297}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -40,7 +39,7 @@
     "es1/Date.diff.js": "CRASH: SIGABRT",
     "es1/Date.js": "CRASH: SIGABRT",
     "es1/Date.prototype.constructor.js": "PASS",
-    "es1/Date.prototype.getDate.js": "TIMEOUT: >10s",
+    "es1/Date.prototype.getDate.js": "CRASH: SIGABRT",
     "es1/Date.prototype.getDay.js": "CRASH: SIGABRT",
     "es1/Date.prototype.getFullYear.js": "CRASH: SIGABRT",
     "es1/Date.prototype.getHours.js": "CRASH: SIGABRT",
@@ -56,7 +55,7 @@
     "es1/Date.prototype.getUTCHours.js": "CRASH: SIGABRT",
     "es1/Date.prototype.getUTCMilliseconds.js": "CRASH: SIGABRT",
     "es1/Date.prototype.getUTCMinutes.js": "CRASH: SIGABRT",
-    "es1/Date.prototype.getUTCMonth.js": "TIMEOUT: >10s",
+    "es1/Date.prototype.getUTCMonth.js": "CRASH: SIGABRT",
     "es1/Date.prototype.getUTCSeconds.js": "CRASH: SIGABRT",
     "es1/Date.prototype.setDate.js": "CRASH: SIGABRT",
     "es1/Date.prototype.setFullYear.js": "CRASH: SIGABRT",
@@ -419,7 +418,7 @@
     "es5/literals.object.trailing-comma.js": "PASS",
     "es5/source.keyword-properties.js": "SyntaxError: var o4 = { var: 8, function: 9, new: 10, this: 11 };",
     "es5/source.unreserved-words.js": "PASS",
-    "es5/source.whitespace.bom.js": "SyntaxError: \ufeff// ES5: 7.",
+    "es5/source.whitespace.bom.js": "SyntaxError: ﻿// ES5: 7.",
     "es5/source.zero-width-chars.js": "PASS",
     "es5/strict.eval-cannot-create-bindings.js": "PASS",
     "es5/strict.function-expr-with-matching-name.js": "PASS",

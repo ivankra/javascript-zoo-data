@@ -2,28 +2,27 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jsc_gcc",
-    "binary_sha256": "c807e6a93bfae9dee393410c1d02225aecb819bdeb36858a5d243f93c3314bba",
-    "binary_size": 35816672,
+    "binary_sha256": "5f8d0a47d2fa0a25141b7bdc27afa4082da873dd48e43839abae35f72c351e7f",
+    "binary_size": 37617888,
     "cc": "gcc 15.2.0 (Debian 15.2.0-16)",
-    "console_log": "print",
     "engine": "jsc",
     "repository": "https://github.com/WebKit/WebKit.git",
-    "revision": "9971986dcebbc9ad5713a058e7951288c455bbee",
-    "revision_date": "2026-04-08",
-    "version": "310768"
+    "revision": "8c1776bc8803ab907dd89b22830c3e14f560b65f",
+    "revision_date": "2026-04-14",
+    "version": "311264"
   },
   "flags": [
     {"if": "flags:CanBlockIsFalse", "then": "--can-block-is-false"},
     {"if": "flags:module", "then": "-m"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

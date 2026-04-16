@@ -2,27 +2,26 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "quickjs-ng",
-    "binary_sha256": "de11d685ed29ddeb0cb1f4c47f5df493c75df0ce9b3d2be4ab540966f23a964f",
-    "binary_size": 1179216,
+    "binary_sha256": "ec38a5b74e9f34253cf3a72e2ec71430a3636b92ca8737202acae3e1b40b64af",
+    "binary_size": 1183312,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "quickjs-ng",
     "repository": "https://github.com/quickjs-ng/quickjs.git",
-    "revision": "c2cd7439e0a71f6c1bd506ee239eba82a4fae286",
-    "revision_date": "2026-04-07",
-    "version": "0.13.0-22-gc2cd743"
+    "revision": "c52d198520791db517202bd2b1bd2717bfa28577",
+    "revision_date": "2026-04-13",
+    "version": "0.14.0-5-gc52d198"
   },
   "flags": [
     {"if": "flags:module", "then": "--module", "else": "--script"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

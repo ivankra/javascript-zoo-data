@@ -5,7 +5,6 @@
     "binary_sha256": "a7ed97e9c229fee4b33b4c316d99dca608c37ff11d084f16ac6a0d0c8aaa8076",
     "binary_size": 1117520,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "quickjs",
     "repository": "https://github.com/bellard/quickjs.git",
     "revision": "d7ae12ae71dfd6ab2997527d295014a8996fa0f9",
@@ -16,13 +15,13 @@
     {"if": "flags:module", "then": "--module", "else": "--script"}
   ],
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

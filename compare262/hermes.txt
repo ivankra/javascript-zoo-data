@@ -1,7 +1,7 @@
-Comparing: ../test262/hermes-v1_full.json ../../dist/arm64/hermes-v1_full.ci-test262
-Binary revision: MATCH (ours: eb9108fab1e0, theirs: eb9108fab1e0)
-Binary arch: MATCH (ours: arm64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 2b2ecead6e82)
+Comparing: ../test262/hermes_full.json ../../dist/arm64/hermes_full.ci-test262
+Binary revision: MATCH (ours: 6ebff4359838, theirs: 6ebff4359838)
+Binary arch: MISMATCH (ours: amd64, theirs: arm64)
+Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: be10a7468937)
 Tests: MISMATCH (ours: 53164, theirs: 53150, shared: 53150)
 Skipped tests: 14836 (ours: 0, theirs: 14836)
 Diffs: 347

@@ -2,7 +2,6 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "js-interpreter_jsc",
-    "console_log": "console.log",
     "dist_size": 206629,
     "engine": "js-interpreter",
     "repository": "https://github.com/NeilFraser/JS-Interpreter.git",
@@ -10,13 +9,13 @@
     "revision_date": "2025-02-27"
   },
   "summary": {
-    "all": {"pass": 344, "fail": 76, "pass_percent": 81.905},
-    "es1-5": {"pass": 344, "fail": 76, "pass_percent": 81.905}
+    "all": {"passed": 344, "failed": 76, "pass_percent": 81.905},
+    "es1-5": {"passed": 344, "failed": 76, "pass_percent": 81.905}
   },
   "dirs": {
-    "es1": {"pass": 195, "fail": 3, "pass_percent": 98.485},
-    "es3": {"pass": 98, "fail": 50, "pass_percent": 66.216},
-    "es5": {"pass": 51, "fail": 23, "pass_percent": 68.919}
+    "es1": {"passed": 195, "failed": 3, "pass_percent": 98.485},
+    "es3": {"passed": 98, "failed": 50, "pass_percent": 66.216},
+    "es5": {"passed": 51, "failed": 23, "pass_percent": 68.919}
   },
   "tests": {
     "es1/Array.js": "PASS",

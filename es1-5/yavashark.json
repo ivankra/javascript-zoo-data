@@ -2,27 +2,23 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "yavashark",
-    "binary_sha256": "481924694c067349cbba31a345ec866a5a55e759362c7f2623dbfdf751812adb",
-    "binary_size": 18274968,
-    "console_log": "console.log",
+    "binary_sha256": "ddaf1a7ae4ba2c6f01a3f0f095cd73217599e8f580dbc6d5b10106382c733a9f",
+    "binary_size": 18275776,
     "engine": "yavashark",
     "repository": "https://github.com/Sharktheone/yavashark.git",
-    "revision": "106009454068c5ca4f42632d38d48ddafdf2b1e8",
-    "revision_date": "2026-04-07",
-    "run_script_cmd": "$BINARY -i",
+    "revision": "6ac7c23a027577b1dcaa1bff2a78a95fc5eb7e92",
+    "revision_date": "2026-04-14",
     "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
-  "flags": [
-    "-i"
-  ],
+  "flags": ["-i"],
   "summary": {
-    "all": {"pass": 368, "fail": 52, "pass_percent": 87.619},
-    "es1-5": {"pass": 368, "fail": 52, "pass_percent": 87.619}
+    "all": {"passed": 370, "failed": 50, "pass_percent": 88.095},
+    "es1-5": {"passed": 370, "failed": 50, "pass_percent": 88.095}
   },
   "dirs": {
-    "es1": {"pass": 181, "fail": 17, "pass_percent": 91.414},
-    "es3": {"pass": 136, "fail": 12, "pass_percent": 91.892},
-    "es5": {"pass": 51, "fail": 23, "pass_percent": 68.919}
+    "es1": {"passed": 182, "failed": 16, "pass_percent": 91.919},
+    "es3": {"passed": 137, "failed": 11, "pass_percent": 92.568},
+    "es5": {"passed": 51, "failed": 23, "pass_percent": 68.919}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -181,7 +177,7 @@
     "es1/global.isFinite.js": "PASS",
     "es1/global.isNaN.js": "PASS",
     "es1/global.parseFloat.js": "PASS",
-    "es1/global.parseInt.hex.js": "FAIL",
+    "es1/global.parseInt.hex.js": "PASS",
     "es1/global.parseInt.js": "PASS",
     "es1/global.parseInt.radix.js": "PASS",
     "es1/literals.decimal.js": "PASS",
@@ -275,7 +271,7 @@
     "es3/RegExp.source.js": "PASS",
     "es3/String.prototype.concat.generic.js": "PASS",
     "es3/String.prototype.concat.js": "PASS",
-    "es3/String.prototype.localeCompare.js": "TypeError: undefined is not a function",
+    "es3/String.prototype.localeCompare.js": "PASS",
     "es3/String.prototype.match.generic.js": "PASS",
     "es3/String.prototype.match.js": "PASS",
     "es3/String.prototype.replace.capture.js": "PASS",

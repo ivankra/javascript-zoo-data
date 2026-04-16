@@ -2,9 +2,8 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "hako",
-    "console_log": "console.log",
-    "dist_size": 80664440,
-    "dotnet": "10.0.201",
+    "dist_size": 80664432,
+    "dotnet": "10.0.202",
     "engine": "hako",
     "repository": "https://github.com/6over3/hako.git",
     "revision": "b06576afc382028cf849fa36e9bfd15115be5a71",
@@ -12,13 +11,13 @@
     "version": "1.0.14"
   },
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",
