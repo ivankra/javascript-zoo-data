@@ -1,25 +1,23 @@
 {
-  "binary": "ucode",
-  "metadata": {
+  "binary": {
     "arch": "arm64",
     "binary_name": "ucode",
     "cc": "gcc 15.2.0 (Debian 15.2.0-16)",
-    "console_log": "print",
     "dist_size": 820408,
     "engine": "ucode",
     "repository": "https://github.com/jow-/ucode.git",
-    "revision": "bda4a0e454de43572988bfb7717cf62bd0851b05",
-    "revision_date": "2026-04-06",
-    "version": "0.0.20250529-135-gbda4a0e"
+    "revision": "b50372e8e8a0fb136df5c61974461bc332a15779",
+    "revision_date": "2026-04-14",
+    "version": "0.0.20250529-153-gb50372e"
   },
-  "time": "2026-04-10 10:43:33.055997 UTC",
+  "time": "2026-04-16 07:09:25.659106 UTC",
   "benchmarks": {
     "Richards": {
-      "score": [68.008, 71.513],
-      "user": [5.1941, 4.9365],
-      "sys": [0.0017, 0.0046],
-      "real": [5.1964, 4.942],
-      "rss_mb": [22.53, 22.39]
+      "score": [69.863],
+      "user": [5.0514],
+      "sys": [0.0067],
+      "real": [5.0588],
+      "rss_mb": [22.38]
     }
   }
 }

@@ -1,11 +1,9 @@
 {
-  "binary": "otto",
-  "metadata": {
+  "binary": {
     "arch": "arm64",
     "binary_name": "otto",
     "binary_sha256": "247298ce70ac4b21904c6f4d55ba56b660cca369cd3838fbbaf27a351ad8a104",
     "binary_size": 4897368,
-    "console_log": "console.log",
     "engine": "otto",
     "go": "1.26.2",
     "repository": "https://github.com/robertkrimen/otto.git",
@@ -13,126 +11,126 @@
     "revision_date": "2025-06-13",
     "version": "0.5.1-2-g3ca7298"
   },
-  "time": "2026-04-10 06:44:16.949209 UTC",
+  "time": "2026-04-16 03:25:09.228083 UTC",
   "benchmarks": {
-    "NavierStokes": {
-      "score": [39.8, 39.6],
-      "user": [86.9411, 87.2696],
-      "sys": [0.4552, 0.4594],
-      "real": [63.5442, 63.9164],
-      "rss_mb": [50.46, 50.33]
-    },
-    "RayTrace": {
-      "score": [70.5, 71.9],
-      "user": [54.4901, 53.481],
-      "sys": [2.2665, 2.2128],
-      "real": [34.6837, 33.9895],
-      "rss_mb": [21.99, 21.98]
-    },
-    "Crypto": {
-      "score": [26.3, 25.7, 26.5, 26.9],
-      "user": [212.5725, 218.9114, 212.9129, 209.8769],
-      "sys": [5.6739, 5.7896, 6.2067, 5.7714],
-      "real": [153.912, 157.5209, 152.8838, 150.5577],
-      "rss_mb": [22.52, 22.53, 22.53, 22.53]
-    },
-    "Box2D": {
-      "score": [116, 117, 116],
-      "user": [62.2557, 63.5457, 63.8033],
-      "sys": [0.7148, 0.6999, 0.7417],
-      "real": [37.4134, 37.0556, 37.5766],
-      "rss_mb": [49.58, 50.46, 50.63]
-    },
     "Splay": {
-      "score": [187],
-      "user": [12.2809],
-      "sys": [0.4957],
-      "real": [6.9019],
-      "rss_mb": [1455.09]
+      "score": [200],
+      "user": [11.71],
+      "sys": [0.453],
+      "real": [6.8511],
+      "rss_mb": [1450.56]
     },
     "SplayLatency": {
-      "score": [1414],
-      "user": [12.2809],
-      "sys": [0.4957],
-      "real": [6.9019],
-      "rss_mb": [1455.09]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: CodeLoad: SyntaxError: (anonymous): Line 1:6524 Invalid regular expression: re2: Invalid \\1 <backreference> (and 7 more errors)",
-      "user": [1.5695, 1.6182],
-      "sys": [0.1214, 0.104],
-      "real": [1.0375, 1.0422],
-      "rss_mb": [346.25, 349.62]
-    },
-    "RegExp": {
-      "error": "SyntaxError: Invalid regular expression: re2: Invalid (?=) <lookahead> (and 1 more errors)",
-      "user": [0.0145, 0.0134],
-      "sys": [0.0031, 0.0045],
-      "real": [0.0133, 0.0132],
-      "rss_mb": [22.66, 22.66]
-    },
-    "DeltaBlue": {
-      "score": [20.9, 20.8, 20.4],
-      "user": [18.972, 19.108, 19.3705],
-      "sys": [0.8401, 0.9064, 0.9293],
-      "real": [11.398, 11.4453, 11.6828],
-      "rss_mb": [21.99, 21.99, 21.99]
-    },
-    "EarleyBoyer": {
-      "score": [85.5, 82.9],
-      "user": [222.7251, 224.7114],
-      "sys": [3.3615, 3.2658],
-      "real": [115.6918, 118.4857],
-      "rss_mb": [117.36, 116.69]
-    },
-    "zlib": {
-      "error": "ReferenceError: zlib: ReferenceError: 'Int32Array' is not defined",
-      "user": [0.0411, 0.0368],
-      "sys": [0.0021, 0.0056],
-      "real": [0.0285, 0.0282],
-      "rss_mb": [22.79, 22.77]
-    },
-    "Mandreel": {
-      "error": "ReferenceError: 'Float64Array' is not defined",
-      "user": [0.3217, 0.3344],
-      "sys": [0.049, 0.0462],
-      "real": [0.2515, 0.255],
-      "rss_mb": [121.69, 121.82]
-    },
-    "MandreelLatency": {
-      "error": "ReferenceError: 'Float64Array' is not defined",
-      "user": [0.3217, 0.3344],
-      "sys": [0.049, 0.0462],
-      "real": [0.2515, 0.255],
-      "rss_mb": [121.69, 121.82]
-    },
-    "PdfJS": {
-      "error": "ReferenceError: 'Uint8Array' is not defined",
-      "user": [0.1201, 0.1234, 0.1213, 0.1307],
-      "sys": [0.02, 0.0142, 0.0172, 0.0109],
-      "real": [0.0913, 0.092, 0.0926, 0.0912],
-      "rss_mb": [47.2, 41.32, 41.82, 49.57]
+      "score": [1469],
+      "user": [11.71],
+      "sys": [0.453],
+      "real": [6.8511],
+      "rss_mb": [1450.56]
     },
     "Gameboy": {
       "error": "FAIL: No scores in the output",
-      "user": [0.0376],
-      "sys": [0.004],
-      "real": [0.0285],
-      "rss_mb": [24.27]
+      "user": [0.0367],
+      "sys": [0.0048],
+      "real": [0.0286],
+      "rss_mb": [24.2]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: (anonymous): Line 1:6524 Invalid regular expression: re2: Invalid \\1 <backreference> (and 7 more errors)",
+      "user": [1.5848],
+      "sys": [0.11],
+      "real": [1.0353],
+      "rss_mb": [318.43]
+    },
+    "Crypto": {
+      "score": [27.1, 26.5],
+      "user": [211.1932, 209.6308],
+      "sys": [6.064, 5.1307],
+      "real": [149.3813, 152.5096],
+      "rss_mb": [22.38, 22.4]
+    },
+    "EarleyBoyer": {
+      "score": [82.2, 84.6, 84.7],
+      "user": [221.3044, 237.1872, 234.5693],
+      "sys": [3.1831, 3.6563, 3.6955],
+      "real": [120.7889, 119.0166, 118.394],
+      "rss_mb": [116.48, 120.51, 119.52]
     },
     "Richards": {
-      "score": [23.8, 23.9],
-      "user": [9.7133, 9.6785],
-      "sys": [0.4882, 0.4747],
-      "real": [6.2262, 6.2087],
-      "rss_mb": [22.0, 21.99]
+      "score": [23.8],
+      "user": [9.7412],
+      "sys": [0.4777],
+      "real": [6.2446],
+      "rss_mb": [22.39]
+    },
+    "Mandreel": {
+      "error": "ReferenceError: 'Float64Array' is not defined",
+      "user": [0.3418],
+      "sys": [0.0484],
+      "real": [0.2579],
+      "rss_mb": [121.82]
+    },
+    "MandreelLatency": {
+      "error": "ReferenceError: 'Float64Array' is not defined",
+      "user": [0.3418],
+      "sys": [0.0484],
+      "real": [0.2579],
+      "rss_mb": [121.82]
+    },
+    "zlib": {
+      "error": "ReferenceError: zlib: ReferenceError: 'Int32Array' is not defined",
+      "user": [0.0335],
+      "sys": [0.0098],
+      "real": [0.0289],
+      "rss_mb": [22.72]
+    },
+    "RegExp": {
+      "error": "SyntaxError: Invalid regular expression: re2: Invalid (?=) <lookahead> (and 1 more errors)",
+      "user": [0.0122, 0.0128],
+      "sys": [0.0061, 0.0049],
+      "real": [0.0137, 0.0134],
+      "rss_mb": [22.64, 22.64]
+    },
+    "NavierStokes": {
+      "score": [39.6],
+      "user": [87.9564],
+      "sys": [0.4011],
+      "real": [63.9299],
+      "rss_mb": [51.05]
+    },
+    "Box2D": {
+      "score": [113],
+      "user": [66.3987],
+      "sys": [0.7364],
+      "real": [38.3879],
+      "rss_mb": [51.09]
     },
     "Typescript": {
       "error": "SyntaxError: Invalid regular expression: re2: Invalid \\2 <backreference> (and 2 more errors)",
-      "user": [0.0678, 0.0657, 0.0689, 0.0667],
-      "sys": [0.0077, 0.0091, 0.0072, 0.0098],
-      "real": [0.063, 0.0625, 0.0633, 0.0635],
-      "rss_mb": [32.19, 32.19, 32.19, 32.18]
+      "user": [0.0676, 0.0668, 0.0687],
+      "sys": [0.0062, 0.008, 0.0073],
+      "real": [0.0622, 0.0629, 0.0632],
+      "rss_mb": [32.39, 32.37, 32.37]
+    },
+    "DeltaBlue": {
+      "score": [20.9],
+      "user": [18.9515],
+      "sys": [0.8934],
+      "real": [11.3871],
+      "rss_mb": [22.4]
+    },
+    "PdfJS": {
+      "error": "ReferenceError: 'Uint8Array' is not defined",
+      "user": [0.1191],
+      "sys": [0.0187],
+      "real": [0.0916],
+      "rss_mb": [40.19]
+    },
+    "RayTrace": {
+      "score": [72.2, 71.3],
+      "user": [53.0994, 54.3292],
+      "sys": [2.2639, 2.7608],
+      "real": [33.829, 34.2867],
+      "rss_mb": [22.38, 22.39]
     }
   }
 }

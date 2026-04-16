@@ -1,9 +1,7 @@
 {
-  "binary": "lebjs",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "lebjs",
-    "console_log": "console.log",
     "dist_size": 410699,
     "engine": "lebjs",
     "jdk": "openjdk version \"25.0.2\" 2026-01-20",
@@ -11,14 +9,14 @@
     "revision": "7b5db4a32e9d97b6881452da59f363f514e61b76",
     "revision_date": "2025-08-14"
   },
-  "time": "2026-04-10 09:20:30.767124 UTC",
+  "time": "2026-04-16 04:17:55.704865 UTC",
   "benchmarks": {
     "Richards": {
       "error": "FAIL: No scores in the output",
-      "user": [11.1171],
-      "sys": [0.0916],
-      "real": [9.9057],
-      "rss_mb": [216.36]
+      "user": [11.4926],
+      "sys": [0.0955],
+      "real": [10.2984],
+      "rss_mb": [216.42]
     }
   }
 }

@@ -1,132 +1,131 @@
 {
-  "binary": "mujs_babel",
-  "metadata": {
+  "binary": {
     "arch": "arm64",
     "binary_name": "mujs_babel",
-    "console_log": "console.log",
-    "dist_size": 24288678,
+    "dist_size": 24314244,
     "engine": "mujs"
   },
-  "time": "2026-04-10 06:44:00.550056 UTC",
+  "time": "2026-04-16 03:24:09.776381 UTC",
   "benchmarks": {
     "zlib": {
       "error": "EvalError: <script>:449: invalid use of 'eval'undefined",
-      "user": [0.3642],
-      "sys": [0.1026],
-      "real": [0.3968],
-      "rss_mb": [113.92]
-    },
-    "RayTrace": {
-      "score": [577, 583, 565],
-      "user": [6.4685, 6.3612, 6.5588],
-      "sys": [0.2365, 0.2087, 0.2401],
-      "real": [6.2071, 6.0959, 6.3123],
-      "rss_mb": [236.17, 236.84, 235.32]
-    },
-    "CodeLoad": {
-      "error": "EvalError: <script>:4386: invalid use of 'eval'undefined",
-      "user": [1.3011, 1.203],
-      "sys": [0.2755, 0.267],
-      "real": [1.0597, 0.9885],
-      "rss_mb": [244.03, 247.39]
+      "user": [0.3581, 0.3701, 0.3837],
+      "sys": [0.1086, 0.1171, 0.1033],
+      "real": [0.398, 0.4139, 0.4121],
+      "rss_mb": [113.56, 113.7, 113.16]
     },
     "NavierStokes": {
-      "score": [648],
-      "user": [6.8839],
-      "sys": [0.2014],
-      "real": [6.6448],
-      "rss_mb": [213.08]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [5.4409, 5.265, 5.2661, 5.153],
-      "sys": [0.5727, 0.631, 0.6163, 0.6034],
-      "real": [3.8907, 3.8428, 3.882, 3.7593],
-      "rss_mb": [760.5, 773.07, 750.05, 781.41]
-    },
-    "Gameboy": {
-      "error": "OOM: >4096MB",
-      "user": [3.0362, 3.0025],
-      "sys": [0.3866, 0.3632],
-      "real": [8.941, 8.896],
-      "rss_mb": [4129.98, 4103.71]
+      "score": [638, 649, 649],
+      "user": [6.9695, 7.0071, 6.9368],
+      "sys": [0.2098, 0.2102, 0.2287],
+      "real": [6.7255, 6.7243, 6.6884],
+      "rss_mb": [209.14, 210.8, 210.83]
     },
     "DeltaBlue": {
-      "score": [485, 487, 485, 484, 487],
-      "user": [3.204, 3.2072, 3.2874, 3.3017, 3.1826],
-      "sys": [0.2425, 0.2378, 0.2218, 0.2207, 0.2373],
-      "real": [2.9773, 2.9855, 3.0053, 3.0254, 2.9612],
-      "rss_mb": [230.26, 230.86, 233.24, 238.27, 232.14]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [0.6532, 0.6307],
-      "sys": [0.1642, 0.1616],
-      "real": [0.6886, 0.67],
-      "rss_mb": [144.2, 144.79]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [0.6532, 0.6307],
-      "sys": [0.1642, 0.1616],
-      "real": [0.6886, 0.67],
-      "rss_mb": [144.2, 144.79]
-    },
-    "RegExp": {
-      "error": "FAIL: No scores in the output",
-      "user": [2.2284],
-      "sys": [0.2938],
-      "real": [1.7867],
-      "rss_mb": [299.07]
-    },
-    "Richards": {
-      "score": [328, 328],
-      "user": [3.159, 3.2353],
-      "sys": [0.2192, 0.2125],
-      "real": [2.9205, 2.9606],
-      "rss_mb": [209.5, 212.86]
-    },
-    "Typescript": {
-      "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: Binding 'arguments' in strict mode. (1917:50)",
-      "user": [0.4889],
-      "sys": [0.1185],
-      "real": [0.482],
-      "rss_mb": [120.94]
-    },
-    "Splay": {
-      "score": [1461, 1589, 1371],
-      "user": [4.1393, 3.9381, 4.3211],
-      "sys": [0.412, 0.4339, 0.447],
-      "real": [4.0756, 3.9427, 4.2691],
-      "rss_mb": [764.98, 816.04, 737.77]
-    },
-    "SplayLatency": {
-      "score": [3383, 3560, 3041],
-      "user": [4.1393, 3.9381, 4.3211],
-      "sys": [0.412, 0.4339, 0.447],
-      "real": [4.0756, 3.9427, 4.2691],
-      "rss_mb": [764.98, 816.04, 737.77]
-    },
-    "Crypto": {
-      "score": [262],
-      "user": [18.9528],
-      "sys": [0.267],
-      "real": [18.5805],
-      "rss_mb": [266.97]
-    },
-    "Box2D": {
-      "score": [396],
-      "user": [13.8912],
-      "sys": [0.3279],
-      "real": [13.0353],
-      "rss_mb": [325.5]
+      "score": [486],
+      "user": [3.2162],
+      "sys": [0.2129],
+      "real": [2.9638],
+      "rss_mb": [232.14]
     },
     "EarleyBoyer": {
       "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: The only valid numeric escape in strict mode is '\\0'. (1484:6)",
-      "user": [16.5465, 14.9187],
-      "sys": [0.1526, 0.1256],
-      "real": [16.615, 14.9737],
-      "rss_mb": [117.27, 115.27]
+      "score": [578, 512],
+      "user": [17.3946, 17.3498],
+      "sys": [0.1411, 0.1492],
+      "real": [17.4547, 17.4155],
+      "rss_mb": [118.02, 115.47]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: jump address integer overflowundefined",
+      "user": [0.6185, 0.6506],
+      "sys": [0.1638, 0.1384],
+      "real": [0.6616, 0.6698],
+      "rss_mb": [142.75, 143.03]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: jump address integer overflowundefined",
+      "user": [0.6185, 0.6506],
+      "sys": [0.1638, 0.1384],
+      "real": [0.6616, 0.6698],
+      "rss_mb": [142.75, 143.03]
+    },
+    "Typescript": {
+      "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: Binding 'arguments' in strict mode. (1917:50)",
+      "user": [0.5146, 0.4908],
+      "sys": [0.1242, 0.1142],
+      "real": [0.5073, 0.483],
+      "rss_mb": [120.67, 123.42]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: jump address integer overflowundefined",
+      "user": [5.6765],
+      "sys": [0.6401],
+      "real": [4.0767],
+      "rss_mb": [776.58]
+    },
+    "CodeLoad": {
+      "error": "EvalError: <script>:4386: invalid use of 'eval'undefined",
+      "user": [1.3414, 1.337],
+      "sys": [0.2738, 0.2684],
+      "real": [1.0768, 1.07],
+      "rss_mb": [247.34, 246.98]
+    },
+    "Splay": {
+      "score": [1404, 1474],
+      "user": [4.2475, 4.1681],
+      "sys": [0.4395, 0.4129],
+      "real": [4.1838, 4.0979],
+      "rss_mb": [737.79, 762.47]
+    },
+    "SplayLatency": {
+      "score": [3206, 3312],
+      "user": [4.2475, 4.1681],
+      "sys": [0.4395, 0.4129],
+      "real": [4.1838, 4.0979],
+      "rss_mb": [737.79, 762.47]
+    },
+    "RayTrace": {
+      "score": [566, 576],
+      "user": [6.5155, 6.5249],
+      "sys": [0.2237, 0.1922],
+      "real": [6.2678, 6.2147],
+      "rss_mb": [237.39, 242.05]
+    },
+    "Box2D": {
+      "score": [402],
+      "user": [13.8257],
+      "sys": [0.3036],
+      "real": [12.9163],
+      "rss_mb": [325.68]
+    },
+    "Crypto": {
+      "score": [262, 261],
+      "user": [18.9548, 19.0005],
+      "sys": [0.2681, 0.298],
+      "real": [18.5794, 18.6227],
+      "rss_mb": [270.05, 267.48]
+    },
+    "Gameboy": {
+      "error": "OOM: >4096MB",
+      "user": [2.9082, 2.9996],
+      "sys": [0.392, 0.3251],
+      "real": [8.8406, 8.8922],
+      "rss_mb": [4121.2, 4131.68]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [2.1767, 2.1666],
+      "sys": [0.2716, 0.2967],
+      "real": [1.7445, 1.7419],
+      "rss_mb": [295.82, 298.96]
+    },
+    "Richards": {
+      "score": [328, 328],
+      "user": [3.1355, 3.2396],
+      "sys": [0.2194, 0.2096],
+      "real": [2.903, 2.9731],
+      "rss_mb": [211.43, 212.32]
     }
   }
 }

@@ -1,138 +1,136 @@
 {
-  "binary": "see",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "see",
     "binary_sha256": "65ae312231fc7d5e650b9e6a6a139c401bb59e080c88e5fc9be59f845db89b45",
     "binary_size": 534416,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
     "engine": "see",
     "repository": "https://github.com/ivankra/SEE.git",
     "revision": "4517d907d319365898929a868a5051d645f3d874",
     "revision_date": "2009-04-26",
     "version": "3.1.1424"
   },
-  "time": "2026-04-10 05:16:56.839241 UTC",
+  "time": "2026-04-16 03:44:30.733997 UTC",
   "benchmarks": {
-    "PdfJS": {
-      "error": "SyntaxError: :0: pdfjs.js:906: expected ':' but got an identifier",
-      "user": [0.0076],
-      "sys": [0.0],
-      "real": [0.0079],
-      "rss_mb": [29.71]
-    },
-    "Splay": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0009],
-      "sys": [0.0019],
-      "real": [0.003],
-      "rss_mb": [23.36]
-    },
-    "SplayLatency": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0009],
-      "sys": [0.0019],
-      "real": [0.003],
-      "rss_mb": [23.36]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: :0: line 557: Backslash immediately followed by end of line",
-      "user": [0.0011],
-      "sys": [0.0011],
-      "real": [0.0024],
-      "rss_mb": [23.56]
-    },
-    "NavierStokes": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0022],
-      "sys": [0.0011],
-      "real": [0.0035],
-      "rss_mb": [23.26]
-    },
-    "zlib": {
-      "error": "SyntaxError: function keyword not allowed here, near 'function'",
-      "user": [0.0],
-      "sys": [0.001],
-      "real": [0.0012],
-      "rss_mb": [23.49]
-    },
-    "Typescript": {
-      "error": "SyntaxError: :0: typescript.js:5197: expected an identifier but got a reserved word",
-      "user": [0.0456],
-      "sys": [0.0099],
-      "real": [0.0558],
-      "rss_mb": [33.53]
-    },
-    "Richards": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0011],
-      "sys": [0.0021],
-      "real": [0.0035],
-      "rss_mb": [23.28]
-    },
-    "Mandreel": {
-      "error": "ReferenceError: Float64Array",
-      "user": [6.5595],
-      "sys": [0.086],
-      "real": [6.6463],
-      "rss_mb": [196.66]
-    },
-    "MandreelLatency": {
-      "error": "ReferenceError: Float64Array",
-      "user": [6.5595],
-      "sys": [0.086],
-      "real": [6.6463],
-      "rss_mb": [196.66]
-    },
-    "EarleyBoyer": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0131],
-      "sys": [0.0171],
-      "real": [0.0306],
-      "rss_mb": [23.5]
-    },
-    "RayTrace": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0038],
-      "sys": [0.001],
-      "real": [0.005],
-      "rss_mb": [23.23]
-    },
-    "RegExp": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0074],
-      "sys": [0.0042],
-      "real": [0.0119],
-      "rss_mb": [23.55]
-    },
-    "Crypto": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0048],
-      "sys": [0.0029],
-      "real": [0.0079],
-      "rss_mb": [23.48]
-    },
-    "Box2D": {
-      "error": "TypeError: Object does not support the 'instanceof' operator",
-      "user": [0.0218],
-      "sys": [0.0099],
-      "real": [0.032],
-      "rss_mb": [23.68]
-    },
     "DeltaBlue": {
       "error": "TypeError: Function is not defined",
-      "user": [0.0019],
-      "sys": [0.0019],
-      "real": [0.0041],
-      "rss_mb": [23.29]
+      "user": [0.002],
+      "sys": [0.002],
+      "real": [0.0042],
+      "rss_mb": [23.35]
     },
     "Gameboy": {
       "error": "SyntaxError: :0: line 760: Backslash immediately followed by end of line",
       "user": [0.0009],
       "sys": [0.0018],
       "real": [0.003],
-      "rss_mb": [25.13]
+      "rss_mb": [25.24]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: :0: line 557: Backslash immediately followed by end of line",
+      "user": [0.0009],
+      "sys": [0.0009],
+      "real": [0.0021],
+      "rss_mb": [23.33]
+    },
+    "NavierStokes": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.0016],
+      "sys": [0.0016],
+      "real": [0.0035],
+      "rss_mb": [23.12]
+    },
+    "EarleyBoyer": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.0122],
+      "sys": [0.0122],
+      "real": [0.0247],
+      "rss_mb": [23.5]
+    },
+    "Mandreel": {
+      "error": "ReferenceError: Float64Array",
+      "user": [6.6241],
+      "sys": [0.093],
+      "real": [6.7179],
+      "rss_mb": [195.16]
+    },
+    "MandreelLatency": {
+      "error": "ReferenceError: Float64Array",
+      "user": [6.6241],
+      "sys": [0.093],
+      "real": [6.7179],
+      "rss_mb": [195.16]
+    },
+    "Crypto": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.0062],
+      "sys": [0.001],
+      "real": [0.0075],
+      "rss_mb": [23.68]
+    },
+    "Typescript": {
+      "error": "SyntaxError: :0: typescript.js:5197: expected an identifier but got a reserved word",
+      "user": [0.049],
+      "sys": [0.008],
+      "real": [0.0573],
+      "rss_mb": [33.16]
+    },
+    "RayTrace": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.0042],
+      "sys": [0.0],
+      "real": [0.0045],
+      "rss_mb": [23.1]
+    },
+    "zlib": {
+      "error": "SyntaxError: function keyword not allowed here, near 'function'",
+      "user": [0.0],
+      "sys": [0.0011],
+      "real": [0.0013],
+      "rss_mb": [23.71]
+    },
+    "Richards": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.001],
+      "sys": [0.002],
+      "real": [0.0032],
+      "rss_mb": [23.42]
+    },
+    "RegExp": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.0061],
+      "sys": [0.0051],
+      "real": [0.0114],
+      "rss_mb": [23.73]
+    },
+    "Splay": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.0019],
+      "sys": [0.001],
+      "real": [0.0031],
+      "rss_mb": [23.66]
+    },
+    "SplayLatency": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.0019],
+      "sys": [0.001],
+      "real": [0.0031],
+      "rss_mb": [23.66]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: :0: pdfjs.js:906: expected ':' but got an identifier",
+      "user": [0.0076],
+      "sys": [0.0],
+      "real": [0.0079],
+      "rss_mb": [29.54]
+    },
+    "Box2D": {
+      "error": "TypeError: Object does not support the 'instanceof' operator",
+      "user": [0.0271],
+      "sys": [0.005],
+      "real": [0.0326],
+      "rss_mb": [23.87]
     }
   }
 }

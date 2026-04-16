@@ -1,138 +1,137 @@
 {
-  "binary": "chakracore_full",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "chakracore_full",
-    "binary_sha256": "6ed45cdf74d88514faeddede40e9c3f3d8c490c21bbbf5ef246ad392e3145f2b",
+    "binary_sha256": "1c2f0794289c250ebc40b4baf2a7993ab2d025889652fc6bd605c840edab1925",
     "binary_size": 40154392,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": ["console.log", "print"],
     "engine": "chakracore",
     "jit": "",
     "repository": "https://github.com/chakra-core/ChakraCore.git",
     "revision": "97e68c9174209413f621deb2f963941550ef6f22",
     "revision_date": "2026-02-19"
   },
-  "time": "2026-04-10 05:10:35.721537 UTC",
+  "flags": [{"if": "test262", "then": "-Test262"}, {"if": "features:host-gc-required", "then": "-CollectGarbage"}, {"if": "flags:module", "then": "--module"}],
+  "time": "2026-04-16 02:05:31.666523 UTC",
   "benchmarks": {
-    "Richards": {
-      "score": [230],
-      "user": [2.0243],
-      "sys": [0.005],
-      "real": [2.0317],
-      "rss_mb": [23.78]
-    },
-    "Gameboy": {
-      "score": [2112, 2146],
-      "user": [5.039, 4.9646],
-      "sys": [0.031, 0.022],
-      "real": [5.0608, 4.9805],
-      "rss_mb": [48.59, 49.54]
-    },
-    "Mandreel": {
+    "zlib": {
       "error": "FAIL: No scores in the output",
-      "user": [1.1746, 1.1529],
-      "sys": [0.049, 0.046],
-      "real": [1.2262, 1.2011],
-      "rss_mb": [97.8, 97.7]
-    },
-    "MandreelLatency": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.1746, 1.1529],
-      "sys": [0.049, 0.046],
-      "real": [1.2262, 1.2011],
-      "rss_mb": [97.8, 97.7]
-    },
-    "EarleyBoyer": {
-      "score": [744],
-      "user": [14.8843],
-      "sys": [0.09],
-      "real": [14.9035],
-      "rss_mb": [135.15]
+      "user": [0.077, 0.0795],
+      "sys": [0.0132, 0.0121],
+      "real": [0.0923, 0.0937],
+      "rss_mb": [160.3, 159.98]
     },
     "Splay": {
       "error": "TIMEOUT: >1800s",
-      "user": [1803.9356],
-      "sys": [0.232],
-      "real": [1800.1016],
-      "rss_mb": [60.93]
+      "user": [1803.9238, 1803.8546],
+      "sys": [0.381, 0.258],
+      "real": [1800.1031, 1800.033],
+      "rss_mb": [60.26, 59.68]
     },
     "SplayLatency": {
       "error": "TIMEOUT: >1800s",
-      "user": [1803.9356],
-      "sys": [0.232],
-      "real": [1800.1016],
-      "rss_mb": [60.93]
+      "user": [1803.9238, 1803.8546],
+      "sys": [0.381, 0.258],
+      "real": [1800.1031, 1800.033],
+      "rss_mb": [60.26, 59.68]
     },
-    "PdfJS": {
-      "score": [2264],
-      "user": [2.84],
-      "sys": [0.112],
-      "real": [2.9201],
-      "rss_mb": [185.21]
-    },
-    "CodeLoad": {
-      "score": [20076, 19189],
-      "user": [1.9187, 1.9402],
-      "sys": [0.231, 0.2012],
-      "real": [2.099, 2.0979],
-      "rss_mb": [307.02, 296.21]
-    },
-    "NavierStokes": {
-      "score": [480],
-      "user": [6.2499],
-      "sys": [0.008],
-      "real": [6.2602],
-      "rss_mb": [23.8]
-    },
-    "DeltaBlue": {
-      "score": [199, 199],
-      "user": [3.1013, 3.0774],
-      "sys": [0.011, 0.013],
-      "real": [3.1122, 3.0907],
-      "rss_mb": [30.5, 30.3]
+    "Typescript": {
+      "score": [4340],
+      "user": [29.6105],
+      "sys": [0.116],
+      "real": [29.4439],
+      "rss_mb": [147.17]
     },
     "RegExp": {
       "error": "FAIL: No scores in the output",
-      "user": [0.077, 0.0645],
-      "sys": [0.009, 0.0131],
-      "real": [0.0882, 0.0797],
-      "rss_mb": [32.84, 32.95]
+      "user": [0.0678, 0.0713],
+      "sys": [0.009, 0.0151],
+      "real": [0.0792, 0.0885],
+      "rss_mb": [32.78, 32.83]
+    },
+    "Richards": {
+      "score": [226, 225, 226],
+      "user": [2.0103, 2.0254, 2.0167],
+      "sys": [0.006, 0.007, 0.007],
+      "real": [2.0186, 2.0347, 2.026],
+      "rss_mb": [23.19, 23.19, 23.13]
+    },
+    "PdfJS": {
+      "score": [2238],
+      "user": [2.8831],
+      "sys": [0.1101],
+      "real": [2.9598],
+      "rss_mb": [185.31]
     },
     "Box2D": {
-      "score": [1270],
-      "user": [3.8774],
-      "sys": [0.024],
-      "real": [3.8882],
-      "rss_mb": [50.99]
-    },
-    "RayTrace": {
-      "score": [466],
-      "user": [6.6624],
-      "sys": [0.1181],
-      "real": [6.681],
-      "rss_mb": [181.79]
-    },
-    "zlib": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0676],
-      "sys": [0.0242],
-      "real": [0.094],
-      "rss_mb": [160.18]
+      "score": [1292, 1244, 1280],
+      "user": [3.8057, 3.9531, 3.8424],
+      "sys": [0.026, 0.031, 0.028],
+      "real": [3.8216, 3.9708, 3.8594],
+      "rss_mb": [53.09, 51.32, 51.5]
     },
     "Crypto": {
       "error": "FAIL: No scores in the output",
-      "user": [2.31],
-      "sys": [0.011],
-      "real": [2.3216],
-      "rss_mb": [35.59]
+      "user": [2.3151],
+      "sys": [0.016],
+      "real": [2.3317],
+      "rss_mb": [35.88]
     },
-    "Typescript": {
-      "score": [4099],
-      "user": [31.263],
-      "sys": [0.183],
-      "real": [31.1841],
-      "rss_mb": [166.58]
+    "NavierStokes": {
+      "score": [474],
+      "user": [6.2889],
+      "sys": [0.006],
+      "real": [6.2966],
+      "rss_mb": [23.43]
+    },
+    "Gameboy": {
+      "score": [2131, 2107],
+      "user": [4.9969, 5.0538],
+      "sys": [0.026, 0.028],
+      "real": [5.0147, 5.0735],
+      "rss_mb": [47.94, 47.99]
+    },
+    "EarleyBoyer": {
+      "score": [759, 729],
+      "user": [14.8167, 15.2909],
+      "sys": [0.111, 0.092],
+      "real": [14.8554, 15.3118],
+      "rss_mb": [140.22, 136.43]
+    },
+    "DeltaBlue": {
+      "score": [248, 198],
+      "user": [2.0415, 3.0229],
+      "sys": [0.012, 0.01],
+      "real": [2.0542, 3.0325],
+      "rss_mb": [32.31, 30.2]
+    },
+    "Mandreel": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.1808],
+      "sys": [0.044],
+      "real": [1.2271],
+      "rss_mb": [97.94]
+    },
+    "MandreelLatency": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.1808],
+      "sys": [0.044],
+      "real": [1.2271],
+      "rss_mb": [97.94]
+    },
+    "RayTrace": {
+      "score": [437, 462, 468, 475],
+      "user": [6.5543, 6.7127, 6.6297, 6.501],
+      "sys": [0.125, 0.102, 0.118, 0.127],
+      "real": [6.5825, 6.7326, 6.6547, 6.5469],
+      "rss_mb": [174.86, 180.02, 182.36, 185.19]
+    },
+    "CodeLoad": {
+      "score": [19592],
+      "user": [1.9013],
+      "sys": [0.2463],
+      "real": [2.0987],
+      "rss_mb": [299.38]
     }
   }
 }

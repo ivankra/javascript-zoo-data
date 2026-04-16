@@ -1,11 +1,9 @@
 {
-  "binary": "starlight",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "starlight",
     "binary_sha256": "a01629ea336d2327c9a5b58787539b32e6108060d4f3003c9b7ff681b77afc68",
     "binary_size": 3096168,
-    "console_log": "print",
     "engine": "starlight",
     "repository": "https://github.com/Starlight-JS/starlight.git",
     "revision": "503e789b9ef53594aee30c45a621018e855dcc17",
@@ -13,14 +11,14 @@
     "rustc": "rustc 1.56.0-nightly (4e282795d 2021-07-31)",
     "version": "0.0.1-55-g503e789"
   },
-  "time": "2026-04-10 08:11:16.467511 UTC",
+  "time": "2026-04-16 04:27:17.168308 UTC",
   "benchmarks": {
     "Richards": {
-      "score": [213.845],
-      "user": [1.9195],
-      "sys": [0.109],
-      "real": [2.029],
-      "rss_mb": [23.09]
+      "score": [221.737, 214.271, 218.872, 219.116],
+      "user": [1.9453, 1.9127, 1.9374, 1.9521],
+      "sys": [0.077, 0.109, 0.077, 0.077],
+      "real": [2.0229, 2.0221, 2.0148, 2.0298],
+      "rss_mb": [23.46, 23.55, 23.31, 23.65]
     }
   }
 }

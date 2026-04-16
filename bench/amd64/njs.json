@@ -1,137 +1,136 @@
 {
-  "binary": "njs",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "njs",
     "binary_sha256": "e4bcfc6788229b83077932c976af4ef2b42cd19feb711e028cee1b9b460ec708",
     "binary_size": 874040,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
     "engine": "njs",
     "repository": "https://github.com/nginx/njs.git",
-    "revision": "79d5b1866738088c359681b62499d27b70f210ea",
-    "revision_date": "2026-04-06"
+    "revision": "c4389399571fe991632fd8da563a5e31ebb291e1",
+    "revision_date": "2026-04-13"
   },
-  "time": "2026-04-10 05:25:21.401700 UTC",
+  "flags": [{"if": "flags:module", "then": "-m"}],
+  "time": "2026-04-16 03:18:47.595535 UTC",
   "benchmarks": {
-    "zlib": {
-      "error": "SyntaxError: Delete of an unqualified identifier",
-      "user": [0.0011],
-      "sys": [0.0022],
-      "real": [0.0041],
-      "rss_mb": [23.94]
-    },
     "Crypto": {
-      "score": [866, 857, 861, 864, 811],
-      "user": [7.3593, 8.2677, 7.3975, 7.3902, 8.6283],
-      "sys": [0.024, 0.019, 0.014, 0.021, 0.025],
-      "real": [7.3842, 8.2897, 7.4133, 7.4132, 8.6557],
-      "rss_mb": [33.78, 34.23, 33.78, 33.7, 32.7]
-    },
-    "NavierStokes": {
-      "error": "TypeError: NavierStokes: TypeError: property set on primitive undefined type",
-      "user": [1.7783, 1.7802, 1.7647],
-      "sys": [0.001, 0.003, 0.006],
-      "real": [1.7799, 1.7837, 1.7718],
-      "rss_mb": [23.32, 23.0, 23.12]
-    },
-    "Richards": {
-      "score": [561],
-      "user": [2.0049],
-      "sys": [0.004],
-      "real": [2.0098],
-      "rss_mb": [23.45]
-    },
-    "Typescript": {
-      "error": "TypeError: Typescript: TypeError: undefined is not a function",
-      "user": [0.1584, 0.1893],
-      "sys": [0.0301, 0.027],
-      "real": [0.1911, 0.2174],
-      "rss_mb": [44.09, 44.11]
-    },
-    "DeltaBlue": {
-      "score": [513],
-      "user": [1.9647],
-      "sys": [0.067],
-      "real": [2.0335],
-      "rss_mb": [118.28]
-    },
-    "RegExp": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.1616, 0.1563],
-      "sys": [0.014, 0.012],
-      "real": [0.1772, 0.1697],
-      "rss_mb": [23.63, 23.8]
-    },
-    "Splay": {
-      "score": [2047],
-      "user": [1.6951],
-      "sys": [0.798],
-      "real": [2.4948],
-      "rss_mb": [1766.49]
-    },
-    "SplayLatency": {
-      "score": [9058],
-      "user": [1.6951],
-      "sys": [0.798],
-      "real": [2.4948],
-      "rss_mb": [1766.49]
-    },
-    "RayTrace": {
-      "score": [653],
-      "user": [4.0481],
-      "sys": [1.308],
-      "real": [5.3858],
-      "rss_mb": [2141.93]
-    },
-    "Box2D": {
-      "score": [1824, 1868, 1877],
-      "user": [2.3803, 2.3017, 2.3066],
-      "sys": [0.096, 0.131, 0.1029],
-      "real": [2.4807, 2.4333, 2.4118],
-      "rss_mb": [186.91, 186.91, 186.89]
-    },
-    "Mandreel": {
-      "error": "RangeError: Mandreel: RangeError: Maximum call stack size exceeded",
-      "user": [1.9521, 1.747],
-      "sys": [0.159, 0.1389],
-      "real": [2.1122, 1.8881],
-      "rss_mb": [265.93, 264.77]
-    },
-    "MandreelLatency": {
-      "error": "RangeError: Mandreel: RangeError: Maximum call stack size exceeded",
-      "user": [1.9521, 1.747],
-      "sys": [0.159, 0.1389],
-      "real": [2.1122, 1.8881],
-      "rss_mb": [265.93, 264.77]
-    },
-    "PdfJS": {
-      "error": "OOM: >4096MB",
-      "user": [0.6101],
-      "sys": [1.7853],
-      "real": [2.3974],
-      "rss_mb": [4159.57]
+      "score": [858, 869, 821, 822, 891],
+      "user": [8.3406, 7.3358, 8.5998, 8.6104, 7.2442],
+      "sys": [0.023, 0.026, 0.03, 0.024, 0.015],
+      "real": [8.3662, 7.3643, 8.6323, 8.6361, 7.2618],
+      "rss_mb": [34.04, 33.64, 33.12, 32.87, 34.74]
     },
     "EarleyBoyer": {
-      "score": [1829, 1680],
-      "user": [7.5576, 7.3614],
-      "sys": [1.1309, 1.3277],
-      "real": [8.6909, 8.6924],
-      "rss_mb": [3124.62, 2846.0]
+      "score": [1724, 1615, 1708],
+      "user": [7.7775, 7.6738, 7.6073],
+      "sys": [1.3869, 1.8477, 1.4649],
+      "real": [9.1664, 9.5232, 9.0748],
+      "rss_mb": [3072.7, 3003.59, 3018.17]
     },
     "CodeLoad": {
       "error": "InternalError: CodeLoad: InternalError: Not implemented",
-      "user": [0.0047],
-      "sys": [0.0012],
-      "real": [0.0077],
-      "rss_mb": [23.65]
+      "user": [0.0038, 0.0031, 0.0028],
+      "sys": [0.0019, 0.002, 0.0028],
+      "real": [0.0072, 0.0062, 0.0065],
+      "rss_mb": [23.42, 23.44, 23.63]
     },
     "Gameboy": {
       "error": "TypeError: Gameboy: TypeError: property set on primitive string type",
-      "user": [0.2079],
-      "sys": [0.5927],
-      "real": [0.8016],
-      "rss_mb": [1164.93]
+      "user": [0.1981, 0.1807, 0.1919, 0.1897, 0.1818],
+      "sys": [0.4703, 0.4921, 0.4907, 0.4883, 0.4996],
+      "real": [0.6697, 0.6744, 0.683, 0.6804, 0.6825],
+      "rss_mb": [1164.94, 1164.7, 1164.91, 1164.91, 1165.0]
+    },
+    "Mandreel": {
+      "error": "RangeError: Mandreel: RangeError: Maximum call stack size exceeded",
+      "user": [1.7777, 1.9655, 1.7693, 1.758, 1.758, 1.7269],
+      "sys": [0.114, 0.146, 0.138, 0.111, 0.1419, 0.1271],
+      "real": [1.8936, 2.113, 1.9097, 1.8696, 1.9013, 1.8555],
+      "rss_mb": [266.51, 265.21, 265.15, 264.93, 266.36, 265.83]
+    },
+    "MandreelLatency": {
+      "error": "RangeError: Mandreel: RangeError: Maximum call stack size exceeded",
+      "user": [1.7777, 1.9655, 1.7693, 1.758, 1.758, 1.7269],
+      "sys": [0.114, 0.146, 0.138, 0.111, 0.1419, 0.1271],
+      "real": [1.8936, 2.113, 1.9097, 1.8696, 1.9013, 1.8555],
+      "rss_mb": [266.51, 265.21, 265.15, 264.93, 266.36, 265.83]
+    },
+    "Box2D": {
+      "score": [2076, 1902],
+      "user": [2.0946, 2.2812],
+      "sys": [0.08, 0.096],
+      "real": [2.1764, 2.3786],
+      "rss_mb": [186.83, 187.09]
+    },
+    "DeltaBlue": {
+      "score": [581],
+      "user": [1.98],
+      "sys": [0.047],
+      "real": [2.0288],
+      "rss_mb": [131.96]
+    },
+    "PdfJS": {
+      "error": "OOM: >4096MB",
+      "user": [0.6226, 0.6374, 0.6908],
+      "sys": [1.7178, 1.7784, 2.1753],
+      "real": [2.3422, 2.446, 2.8678],
+      "rss_mb": [4099.0, 4163.36, 4149.95]
+    },
+    "Splay": {
+      "score": [2066, 2025],
+      "user": [1.6387, 1.7013],
+      "sys": [0.8553, 0.8122],
+      "real": [2.4958, 2.5152],
+      "rss_mb": [1775.38, 1743.26]
+    },
+    "SplayLatency": {
+      "score": [9097, 8956],
+      "user": [1.6387, 1.7013],
+      "sys": [0.8553, 0.8122],
+      "real": [2.4958, 2.5152],
+      "rss_mb": [1775.38, 1743.26]
+    },
+    "zlib": {
+      "error": "SyntaxError: Delete of an unqualified identifier",
+      "user": [0.0012, 0.0008],
+      "sys": [0.0025, 0.0024],
+      "real": [0.0051, 0.0039],
+      "rss_mb": [23.99, 24.11]
+    },
+    "Typescript": {
+      "error": "TypeError: Typescript: TypeError: undefined is not a function",
+      "user": [0.15],
+      "sys": [0.0258],
+      "real": [0.1798],
+      "rss_mb": [43.95]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.1621],
+      "sys": [0.009],
+      "real": [0.1725],
+      "rss_mb": [23.84]
+    },
+    "RayTrace": {
+      "score": [696, 662, 690],
+      "user": [4.2881, 4.035, 4.3755],
+      "sys": [1.1908, 1.402, 1.1419],
+      "real": [5.4814, 5.4389, 5.5182],
+      "rss_mb": [2327.86, 2188.25, 2327.75]
+    },
+    "Richards": {
+      "score": [566, 570, 575, 570],
+      "user": [2.006, 2.0079, 2.0015, 2.008],
+      "sys": [0.005, 0.002, 0.006, 0.005],
+      "real": [2.0119, 2.0121, 2.01, 2.0145],
+      "rss_mb": [23.46, 23.07, 23.46, 23.36]
+    },
+    "NavierStokes": {
+      "error": "TypeError: NavierStokes: TypeError: property set on primitive undefined type",
+      "user": [1.5921, 1.5979, 1.8468, 1.7842, 1.7569],
+      "sys": [0.002, 0.004, 0.007, 0.003, 0.004],
+      "real": [1.5964, 1.6039, 1.8559, 1.7876, 1.7625],
+      "rss_mb": [22.97, 23.31, 22.98, 23.17, 22.86]
     }
   }
 }

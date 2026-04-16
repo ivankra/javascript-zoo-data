@@ -1,137 +1,135 @@
 {
-  "binary": "echosoar",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "echosoar",
-    "binary_sha256": "c67f002b71ccf003b23c183617c50a54140cd4dbff73326c351d4b9535c230d3",
-    "binary_size": 1355312,
-    "console_log": "console.log",
+    "binary_sha256": "575d17496451699467e36a68558af05e3d85ccfd69c87818f53a2eeb538ff609",
+    "binary_size": 1376600,
     "engine": "echosoar",
     "repository": "https://github.com/echosoar/jsi.git",
-    "revision": "3d51b5241aefe6fdd8323fc6b5e58c727c228385",
-    "revision_date": "2026-04-06",
+    "revision": "75fe0943f6965f029d11734b3db1ffe655d2d82b",
+    "revision_date": "2026-04-14",
     "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
-  "time": "2026-04-10 05:10:51.609403 UTC",
+  "time": "2026-04-16 02:06:10.569717 UTC",
   "benchmarks": {
-    "EarleyBoyer": {
-      "error": "SyntaxError: Unexpected token If",
-      "user": [0.0029],
-      "sys": [0.0019],
-      "real": [0.005],
-      "rss_mb": [24.25]
+    "Typescript": {
+      "error": "SyntaxError: Unexpected identifier 'License'",
+      "user": [0.0042],
+      "sys": [0.0062],
+      "real": [0.0107],
+      "rss_mb": [195.93]
     },
     "Splay": {
       "error": "ReferenceError: performance is not defined",
-      "user": [0.0048],
+      "user": [0.0041],
       "sys": [0.001],
-      "real": [0.006],
-      "rss_mb": [23.59]
+      "real": [0.0054],
+      "rss_mb": [23.42]
     },
     "SplayLatency": {
       "error": "ReferenceError: performance is not defined",
-      "user": [0.0048],
+      "user": [0.0041],
       "sys": [0.001],
-      "real": [0.006],
-      "rss_mb": [23.59]
-    },
-    "Crypto": {
-      "error": "SyntaxError: Unexpected identifier 'BI_RC'",
-      "user": [0.0032],
-      "sys": [0.001],
-      "real": [0.0045],
-      "rss_mb": [23.45]
-    },
-    "Box2D": {
-      "error": "SyntaxError: Unexpected token RightBrace",
-      "user": [0.002],
-      "sys": [0.002],
-      "real": [0.0043],
-      "rss_mb": [24.02]
-    },
-    "RegExp": {
-      "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.0031],
-      "sys": [0.001],
-      "real": [0.0044],
-      "rss_mb": [24.59]
+      "real": [0.0054],
+      "rss_mb": [23.42]
     },
     "RayTrace": {
       "error": "ReferenceError: performance is not defined",
-      "user": [0.0052],
-      "sys": [0.0031],
-      "real": [0.0085],
-      "rss_mb": [23.23]
+      "user": [0.0056],
+      "sys": [0.0019],
+      "real": [0.0077],
+      "rss_mb": [23.55]
     },
-    "Richards": {
-      "error": "SyntaxError: Unexpected identifier 'next'",
-      "user": [0.0039],
-      "sys": [0.001],
-      "real": [0.0051],
-      "rss_mb": [23.1]
+    "RegExp": {
+      "error": "SyntaxError: Unexpected token Slash",
+      "user": [0.002],
+      "sys": [0.002],
+      "real": [0.0044],
+      "rss_mb": [24.57]
     },
     "zlib": {
       "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.0022],
+      "user": [0.002],
       "sys": [0.0],
-      "real": [0.0025],
-      "rss_mb": [23.82]
+      "real": [0.0022],
+      "rss_mb": [24.06]
+    },
+    "Richards": {
+      "error": "SyntaxError: Unexpected identifier 'next'",
+      "user": [0.0031],
+      "sys": [0.0021],
+      "real": [0.0054],
+      "rss_mb": [23.7]
     },
     "NavierStokes": {
       "error": "SyntaxError: Unexpected token BitwiseNot",
-      "user": [0.0022],
+      "user": [0.0023],
       "sys": [0.0011],
-      "real": [0.0035],
-      "rss_mb": [23.12]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: Unexpected token RightParenthesis",
-      "user": [0.0059],
-      "sys": [0.0029],
-      "real": [0.0091],
-      "rss_mb": [37.89]
-    },
-    "Typescript": {
-      "error": "SyntaxError: Unexpected identifier 'License'",
-      "user": [0.0074],
-      "sys": [0.0032],
-      "real": [0.011],
-      "rss_mb": [196.84]
-    },
-    "DeltaBlue": {
-      "error": "SyntaxError: Unexpected token This",
-      "user": [0.0021],
-      "sys": [0.0011],
-      "real": [0.0034],
-      "rss_mb": [23.38]
+      "real": [0.0037],
+      "rss_mb": [23.5]
     },
     "CodeLoad": {
       "error": "SyntaxError: Unexpected identifier 'en'",
-      "user": [0.001],
-      "sys": [0.0029],
-      "real": [0.0042],
-      "rss_mb": [23.79]
+      "user": [0.0018],
+      "sys": [0.0018],
+      "real": [0.0039],
+      "rss_mb": [23.94]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: Unexpected token If",
+      "user": [0.0031],
+      "sys": [0.002],
+      "real": [0.0053],
+      "rss_mb": [24.13]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: Unexpected token This",
+      "user": [0.0029],
+      "sys": [0.001],
+      "real": [0.0041],
+      "rss_mb": [23.46]
+    },
+    "Crypto": {
+      "error": "SyntaxError: Unexpected identifier 'BI_RC'",
+      "user": [0.0023],
+      "sys": [0.0011],
+      "real": [0.0036],
+      "rss_mb": [23.32]
     },
     "Mandreel": {
       "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.0158],
-      "sys": [0.0079],
-      "real": [0.0249],
-      "rss_mb": [54.54]
+      "user": [0.012],
+      "sys": [0.011],
+      "real": [0.0233],
+      "rss_mb": [53.66]
     },
     "MandreelLatency": {
       "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.0158],
-      "sys": [0.0079],
-      "real": [0.0249],
-      "rss_mb": [54.54]
+      "user": [0.012],
+      "sys": [0.011],
+      "real": [0.0233],
+      "rss_mb": [53.66]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: Unexpected token RightParenthesis",
+      "user": [0.0069],
+      "sys": [0.002],
+      "real": [0.0092],
+      "rss_mb": [36.39]
     },
     "PdfJS": {
       "error": "SyntaxError: Unexpected identifier 'a'",
-      "user": [0.0043],
-      "sys": [0.0043],
-      "real": [0.0089],
-      "rss_mb": [48.92]
+      "user": [0.0036],
+      "sys": [0.0054],
+      "real": [0.0094],
+      "rss_mb": [49.02]
+    },
+    "Box2D": {
+      "error": "SyntaxError: Unexpected token RightBrace",
+      "user": [0.0032],
+      "sys": [0.0011],
+      "real": [0.0045],
+      "rss_mb": [24.01]
     }
   }
 }

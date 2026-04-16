@@ -1,138 +1,137 @@
 {
-  "binary": "xs_clang",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "xs_clang",
-    "binary_sha256": "8bd6b1c3cdaa8171c2d535e1bd2ce760f635816060b9fee8aa8765e7f93741bd",
-    "binary_size": 2051224,
+    "binary_sha256": "c226d4f71ef7bc7de3942046701cd13b68b218c4d4cbc55e25f1e4aefeb1854a",
+    "binary_size": 2043032,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": "print",
     "engine": "xs",
     "repository": "https://github.com/Moddable-OpenSource/moddable.git",
-    "revision": "fefb4aabee9a9cfe159efad220cd1909c11f6d5d",
-    "revision_date": "2026-03-17",
+    "revision": "b0411457e4577ea5560c780cb7824f3b00c2b2af",
+    "revision_date": "2026-04-13",
     "version": "17.9.1"
   },
-  "time": "2026-04-10 05:19:38.647290 UTC",
+  "flags": [{"if": "flags:module", "then": "-m", "else": "-s"}],
+  "time": "2026-04-16 04:19:06.252023 UTC",
   "benchmarks": {
-    "zlib": {
-      "error": "RangeError: buffer overflow",
-      "user": [0.0029, 0.005, 0.002],
-      "sys": [0.0068, 0.005, 0.0078],
-      "real": [0.01, 0.0102, 0.0101],
-      "rss_mb": [52.05, 52.19, 51.96]
-    },
-    "NavierStokes": {
-      "score": [732],
-      "user": [13.6344],
-      "sys": [0.009],
-      "real": [13.6456],
-      "rss_mb": [68.68]
+    "RayTrace": {
+      "score": [844, 997, 986],
+      "user": [4.2409, 4.1545, 4.2026],
+      "sys": [0.014, 0.01, 0.016],
+      "real": [4.2558, 4.1655, 4.2193],
+      "rss_mb": [101.02, 101.02, 101.06]
     },
     "Typescript": {
       "error": "RangeError: buffer overflow",
-      "user": [0.0021, 0.0029],
-      "sys": [0.0064, 0.0067],
-      "real": [0.0089, 0.0098],
-      "rss_mb": [52.01, 52.12]
+      "user": [0.0029, 0.0072],
+      "sys": [0.0068, 0.0083],
+      "real": [0.0101, 0.0158],
+      "rss_mb": [52.05, 51.96]
+    },
+    "NavierStokes": {
+      "score": [960],
+      "user": [16.8187],
+      "sys": [0.014],
+      "real": [16.8346],
+      "rss_mb": [68.86]
+    },
+    "RegExp": {
+      "score": [129, 77.8],
+      "user": [9.3932, 10.3761],
+      "sys": [4.0736, 10.7861],
+      "real": [13.4687, 21.1646],
+      "rss_mb": [102.94, 102.93]
+    },
+    "Splay": {
+      "score": [399],
+      "user": [3.7312],
+      "sys": [0.03],
+      "real": [3.7618],
+      "rss_mb": [228.43]
+    },
+    "SplayLatency": {
+      "score": [1332],
+      "user": [3.7312],
+      "sys": [0.03],
+      "real": [3.7618],
+      "rss_mb": [228.43]
+    },
+    "Richards": {
+      "score": [213],
+      "user": [2.0301],
+      "sys": [0.006],
+      "real": [2.0364],
+      "rss_mb": [54.42]
     },
     "Gameboy": {
       "error": "RangeError: buffer overflow",
-      "user": [0.0167],
-      "sys": [0.0079],
-      "real": [0.0249],
-      "rss_mb": [57.21]
-    },
-    "DeltaBlue": {
-      "score": [324, 306, 310],
-      "user": [2.0073, 2.033, 2.0265],
-      "sys": [0.004, 0.006, 0.005],
-      "real": [2.0123, 2.0396, 2.032],
-      "rss_mb": [52.71, 52.82, 52.74]
-    },
-    "Splay": {
-      "score": [406],
-      "user": [3.6361],
-      "sys": [0.026],
-      "real": [3.6629],
-      "rss_mb": [228.41]
-    },
-    "SplayLatency": {
-      "score": [1407],
-      "user": [3.6361],
-      "sys": [0.026],
-      "real": [3.6629],
-      "rss_mb": [228.41]
-    },
-    "RegExp": {
-      "score": [77.1],
-      "user": [10.587],
-      "sys": [10.747],
-      "real": [21.3375],
-      "rss_mb": [103.02]
-    },
-    "CodeLoad": {
-      "error": "RangeError: buffer overflow",
-      "user": [0.0056],
-      "sys": [0.0034],
-      "real": [0.0095],
-      "rss_mb": [51.96]
-    },
-    "Crypto": {
-      "score": [336],
-      "user": [14.3922],
-      "sys": [0.01],
-      "real": [14.4038],
-      "rss_mb": [70.13]
+      "user": [0.0128],
+      "sys": [0.0128],
+      "real": [0.026],
+      "rss_mb": [57.19]
     },
     "PdfJS": {
       "error": "RangeError: buffer overflow",
-      "user": [0.0041, 0.004, 0.0031, 0.0041],
-      "sys": [0.0051, 0.0071, 0.0082, 0.0052],
-      "real": [0.0095, 0.0115, 0.0116, 0.0096],
-      "rss_mb": [52.19, 52.14, 52.16, 52.09]
+      "user": [0.005],
+      "sys": [0.005],
+      "real": [0.0103],
+      "rss_mb": [52.25]
     },
-    "RayTrace": {
-      "score": [775, 946, 789],
-      "user": [4.232, 4.0758, 4.1518],
-      "sys": [0.014, 0.017, 0.01],
-      "real": [4.2473, 4.0934, 4.1631],
-      "rss_mb": [101.04, 101.07, 102.96]
-    },
-    "Mandreel": {
-      "score": [10.6],
-      "user": [768.8384],
-      "sys": [0.115],
-      "real": [769.0082],
-      "rss_mb": [268.92]
-    },
-    "MandreelLatency": {
-      "score": [51],
-      "user": [768.8384],
-      "sys": [0.115],
-      "real": [769.0082],
-      "rss_mb": [268.92]
-    },
-    "EarleyBoyer": {
-      "score": [326],
-      "user": [47.2309],
-      "sys": [0.01],
-      "real": [47.2474],
-      "rss_mb": [105.26]
+    "CodeLoad": {
+      "error": "RangeError: buffer overflow",
+      "user": [0.0046],
+      "sys": [0.0046],
+      "real": [0.0095],
+      "rss_mb": [52.01]
     },
     "Box2D": {
-      "score": [1726, 1682],
-      "user": [2.548, 2.6111],
-      "sys": [0.009, 0.012],
-      "real": [2.5577, 2.6237],
-      "rss_mb": [95.33, 95.38]
+      "score": [2486],
+      "user": [2.2067],
+      "sys": [0.011],
+      "real": [2.2182],
+      "rss_mb": [95.29]
     },
-    "Richards": {
-      "score": [207],
-      "user": [2.0155],
-      "sys": [0.009],
-      "real": [2.0251],
-      "rss_mb": [52.55]
+    "EarleyBoyer": {
+      "score": [363],
+      "user": [42.366],
+      "sys": [0.013],
+      "real": [42.3828],
+      "rss_mb": [105.13]
+    },
+    "Crypto": {
+      "score": [365, 365, 358],
+      "user": [12.8815, 13.0471, 13.1725],
+      "sys": [0.009, 0.01, 0.008],
+      "real": [12.8918, 13.0587, 13.1822],
+      "rss_mb": [70.12, 70.07, 70.06]
+    },
+    "DeltaBlue": {
+      "score": [339, 307, 321, 335],
+      "user": [2.0255, 2.02, 2.0243, 2.0201],
+      "sys": [0.008, 0.006, 0.007, 0.006],
+      "real": [2.0342, 2.027, 2.0319, 2.0267],
+      "rss_mb": [52.68, 52.73, 52.79, 52.84]
+    },
+    "zlib": {
+      "error": "RangeError: buffer overflow",
+      "user": [0.0038, 0.004],
+      "sys": [0.0115, 0.007],
+      "real": [0.0157, 0.0114],
+      "rss_mb": [52.02, 52.02]
+    },
+    "Mandreel": {
+      "score": [10.7],
+      "user": [764.8261],
+      "sys": [0.129],
+      "real": [765.0192],
+      "rss_mb": [269.0]
+    },
+    "MandreelLatency": {
+      "score": [51.2],
+      "user": [764.8261],
+      "sys": [0.129],
+      "real": [765.0192],
+      "rss_mb": [269.0]
     }
   }
 }

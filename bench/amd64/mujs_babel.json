@@ -1,132 +1,131 @@
 {
-  "binary": "mujs_babel",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "mujs_babel",
-    "console_log": "console.log",
-    "dist_size": 24510179,
+    "dist_size": 24535745,
     "engine": "mujs"
   },
-  "time": "2026-04-10 05:41:28.604132 UTC",
+  "time": "2026-04-16 03:46:48.317494 UTC",
   "benchmarks": {
-    "DeltaBlue": {
-      "score": [381],
-      "user": [3.4382],
-      "sys": [0.2438],
-      "real": [3.0996],
-      "rss_mb": [233.43]
-    },
-    "Splay": {
-      "score": [877],
-      "user": [4.4331],
-      "sys": [0.5602],
-      "real": [4.4126],
-      "rss_mb": [738.6]
-    },
-    "SplayLatency": {
-      "score": [2355],
-      "user": [4.4331],
-      "sys": [0.5602],
-      "real": [4.4126],
-      "rss_mb": [738.6]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [6.2326],
-      "sys": [0.9621],
-      "real": [4.2867],
-      "rss_mb": [785.86]
-    },
-    "RegExp": {
-      "error": "FAIL: No scores in the output",
-      "user": [2.725],
-      "sys": [0.3267],
-      "real": [2.1119],
-      "rss_mb": [298.39]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: The only valid numeric escape in strict mode is '\\0'. (1484:6)",
-      "user": [20.1188, 19.8339],
-      "sys": [0.1503, 0.1516],
-      "real": [20.1834, 19.8955],
-      "rss_mb": [119.05, 118.9]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [0.7198],
-      "sys": [0.2149],
-      "real": [0.7858],
-      "rss_mb": [145.16]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [0.7198],
-      "sys": [0.2149],
-      "real": [0.7858],
-      "rss_mb": [145.16]
-    },
-    "NavierStokes": {
-      "score": [483],
-      "user": [7.5587],
-      "sys": [0.2202],
-      "real": [7.1974],
-      "rss_mb": [212.11]
-    },
-    "Typescript": {
-      "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: Binding 'arguments' in strict mode. (1917:50)",
-      "user": [0.5621, 0.5666],
-      "sys": [0.1413, 0.1153],
-      "real": [0.5526, 0.5353],
-      "rss_mb": [125.34, 125.98]
-    },
-    "Richards": {
-      "score": [227, 230, 230],
-      "user": [3.5607, 3.515, 3.5495],
-      "sys": [0.2095, 0.2208, 0.2335],
-      "real": [3.141, 3.1338, 3.1731],
-      "rss_mb": [214.81, 213.87, 212.36]
-    },
-    "zlib": {
-      "error": "EvalError: <script>:449: invalid use of 'eval'undefined",
-      "user": [0.4254],
-      "sys": [0.1146],
-      "real": [0.4584],
-      "rss_mb": [116.12]
-    },
     "CodeLoad": {
       "error": "EvalError: <script>:4386: invalid use of 'eval'undefined",
-      "user": [1.4389],
-      "sys": [0.3591],
-      "real": [1.1316],
-      "rss_mb": [246.46]
-    },
-    "RayTrace": {
-      "score": [545],
-      "user": [6.8358],
-      "sys": [0.2824],
-      "real": [6.4769],
-      "rss_mb": [244.86]
-    },
-    "Box2D": {
-      "score": [410],
-      "user": [14.0128],
-      "sys": [0.3612],
-      "real": [12.8345],
-      "rss_mb": [326.93]
+      "user": [1.5859],
+      "sys": [0.2501],
+      "real": [1.1718],
+      "rss_mb": [250.75]
     },
     "Crypto": {
-      "score": [197],
-      "user": [24.0456],
-      "sys": [0.3327],
-      "real": [23.5762],
-      "rss_mb": [269.2]
+      "score": [190],
+      "user": [24.8844],
+      "sys": [0.2541],
+      "real": [24.3429],
+      "rss_mb": [270.67]
+    },
+    "DeltaBlue": {
+      "score": [375, 379, 365],
+      "user": [3.4147, 3.526, 3.5513],
+      "sys": [0.2432, 0.2489, 0.2365],
+      "real": [3.0825, 3.1935, 3.1563],
+      "rss_mb": [234.71, 234.87, 237.03]
+    },
+    "Box2D": {
+      "score": [437],
+      "user": [13.1308],
+      "sys": [0.2789],
+      "real": [11.9541],
+      "rss_mb": [330.44]
     },
     "Gameboy": {
       "error": "OOM: >4096MB",
-      "user": [3.8301, 3.4496],
-      "sys": [0.3453, 0.5303],
-      "real": [10.5241, 11.5107],
-      "rss_mb": [4123.26, 4097.89]
+      "user": [3.7404],
+      "sys": [0.388],
+      "real": [10.5504],
+      "rss_mb": [4122.76]
+    },
+    "RayTrace": {
+      "score": [503, 485],
+      "user": [7.7458, 7.928],
+      "sys": [0.2324, 0.2419],
+      "real": [7.3077, 7.5011],
+      "rss_mb": [245.39, 243.07]
+    },
+    "Richards": {
+      "score": [269],
+      "user": [3.3409],
+      "sys": [0.2876],
+      "real": [3.0405],
+      "rss_mb": [213.27]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.9907, 2.553],
+      "sys": [0.2978, 0.4009],
+      "real": [1.5672, 2.0143],
+      "rss_mb": [299.78, 300.79]
+    },
+    "zlib": {
+      "error": "EvalError: <script>:449: invalid use of 'eval'undefined",
+      "user": [0.4105, 0.4089],
+      "sys": [0.1042, 0.1304],
+      "real": [0.4405, 0.487],
+      "rss_mb": [117.11, 116.29]
+    },
+    "NavierStokes": {
+      "score": [488],
+      "user": [7.5637],
+      "sys": [0.2255],
+      "real": [7.1842],
+      "rss_mb": [214.11]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: jump address integer overflowundefined",
+      "user": [0.7258],
+      "sys": [0.1735],
+      "real": [0.7584],
+      "rss_mb": [144.36]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: jump address integer overflowundefined",
+      "user": [0.7258],
+      "sys": [0.1735],
+      "real": [0.7584],
+      "rss_mb": [144.36]
+    },
+    "Typescript": {
+      "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: Binding 'arguments' in strict mode. (1917:50)",
+      "user": [0.5392],
+      "sys": [0.1427],
+      "real": [0.54],
+      "rss_mb": [126.36]
+    },
+    "Splay": {
+      "score": [876],
+      "user": [4.4569],
+      "sys": [0.548],
+      "real": [4.4248],
+      "rss_mb": [738.66]
+    },
+    "SplayLatency": {
+      "score": [2345],
+      "user": [4.4569],
+      "sys": [0.548],
+      "real": [4.4248],
+      "rss_mb": [738.66]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: jump address integer overflowundefined",
+      "user": [6.1346],
+      "sys": [0.9218],
+      "real": [4.2588],
+      "rss_mb": [757.43]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: The only valid numeric escape in strict mode is '\\0'. (1484:6)",
+      "score": [554],
+      "user": [18.275],
+      "sys": [0.1279],
+      "real": [18.2831],
+      "rss_mb": [123.06]
     }
   }
 }

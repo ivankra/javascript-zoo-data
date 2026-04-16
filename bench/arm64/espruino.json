@@ -1,138 +1,136 @@
 {
-  "binary": "espruino",
-  "metadata": {
+  "binary": {
     "arch": "arm64",
     "binary_name": "espruino",
-    "binary_sha256": "aeed181f667fc5ea0be317cb51d676ca979bb657074ab785d145f82da24e4846",
+    "binary_sha256": "d5136f6b57e2390abf852c960d4a529bb092eae06adf20e5e95a60d65603bbb9",
     "binary_size": 1183488,
     "cc": "gcc 14.2.0 (Debian 14.2.0-19)",
-    "console_log": ["console.log", "print"],
     "engine": "espruino",
     "repository": "https://github.com/espruino/Espruino.git",
-    "revision": "b24e0dc1cefd83ac528efea06bbec46def7169c2",
-    "revision_date": "2026-03-23",
+    "revision": "a9c57e82dbec829d91e2bb56a85ef4ede05ad703",
+    "revision_date": "2026-04-13",
     "version": "2v29"
   },
-  "time": "2026-04-10 06:22:23.373750 UTC",
+  "time": "2026-04-16 03:12:06.255683 UTC",
   "benchmarks": {
-    "Typescript": {
-      "error": "ReferenceError: \"runTypescript\" is not defined",
-      "user": [0.1712],
-      "sys": [0.001],
-      "real": [0.2083],
-      "rss_mb": [32.38]
-    },
     "Richards": {
       "error": "ReferenceError: \"runRichards\" is not defined",
-      "user": [0.003],
-      "sys": [0.004],
-      "real": [0.0522],
-      "rss_mb": [22.18]
-    },
-    "Mandreel": {
-      "error": "ReferenceError: \"runMandreel\" is not defined",
-      "user": [1.5987],
-      "sys": [0.006],
-      "real": [1.6125],
-      "rss_mb": [52.44]
-    },
-    "MandreelLatency": {
-      "error": "ReferenceError: \"runMandreel\" is not defined",
-      "user": [1.5987],
-      "sys": [0.006],
-      "real": [1.6125],
-      "rss_mb": [52.44]
-    },
-    "EarleyBoyer": {
-      "error": "FAIL: Function \"toPrecision\" not found!",
-      "user": [1435.5032],
-      "sys": [0.444],
-      "real": [1435.397],
-      "rss_mb": [58.36]
-    },
-    "Gameboy": {
-      "error": "ReferenceError: \"runGameboy\" is not defined",
-      "user": [0.2137],
-      "sys": [0.002],
-      "real": [0.2529],
-      "rss_mb": [24.26]
+      "user": [0.0036],
+      "sys": [0.0036],
+      "real": [0.0613],
+      "rss_mb": [22.51]
     },
     "zlib": {
       "error": "ReferenceError: \"runZlib\" is not defined",
-      "user": [0.0066],
-      "sys": [0.0038],
-      "real": [0.0525],
-      "rss_mb": [22.79]
+      "user": [0.0077],
+      "sys": [0.0022],
+      "real": [0.0522],
+      "rss_mb": [22.71]
     },
-    "Crypto": {
-      "error": "ReferenceError: \"encrypt\" is not defined",
-      "user": [0.0104],
-      "sys": [0.0031],
-      "real": [0.0523],
-      "rss_mb": [22.51]
+    "EarleyBoyer": {
+      "error": "FAIL: Function \"toPrecision\" not found!",
+      "user": [1440.2168],
+      "sys": [0.5311],
+      "real": [1440.0081],
+      "rss_mb": [58.34]
     },
     "Box2D": {
       "error": "ReferenceError: \"runBox2D\" is not defined",
-      "user": [0.039],
+      "user": [0.0389],
       "sys": [0.003],
-      "real": [0.0525],
-      "rss_mb": [22.65]
+      "real": [0.0524],
+      "rss_mb": [22.77]
     },
     "DeltaBlue": {
       "error": "ReferenceError: \"deltaBlue\" is not defined",
-      "user": [0.0048],
-      "sys": [0.0039],
-      "real": [0.0525],
-      "rss_mb": [22.19]
-    },
-    "Splay": {
-      "error": "ReferenceError: \"SplayRun\" is not defined",
-      "user": [0.0042],
-      "sys": [0.0021],
-      "real": [0.0523],
-      "rss_mb": [22.4]
-    },
-    "SplayLatency": {
-      "error": "ReferenceError: \"SplayRun\" is not defined",
-      "user": [0.0042],
-      "sys": [0.0021],
-      "real": [0.0523],
-      "rss_mb": [22.4]
-    },
-    "NavierStokes": {
-      "error": "ReferenceError: \"runNavierStokes\" is not defined",
-      "user": [0.0017],
-      "sys": [0.0043],
-      "real": [0.0523],
-      "rss_mb": [22.21]
-    },
-    "PdfJS": {
-      "error": "ReferenceError: \"runPdfJS\" is not defined",
-      "user": [0.0437],
-      "sys": [0.004],
-      "real": [0.053],
-      "rss_mb": [29.03]
-    },
-    "RegExp": {
-      "error": "ReferenceError: \"RegExpRun\" is not defined",
-      "user": [0.0057],
-      "sys": [0.0028],
-      "real": [0.0521],
-      "rss_mb": [22.65]
-    },
-    "RayTrace": {
-      "error": "ReferenceError: \"renderScene\" is not defined",
-      "user": [0.0027],
-      "sys": [0.0036],
-      "real": [0.0524],
-      "rss_mb": [22.19]
+      "user": [0.0047],
+      "sys": [0.0038],
+      "real": [0.0522],
+      "rss_mb": [22.52]
     },
     "CodeLoad": {
       "error": "ReferenceError: \"runCodeLoadClosure\" is not defined",
-      "user": [0.0063],
-      "sys": [0.0027],
+      "user": [0.0072],
+      "sys": [0.0018],
+      "real": [0.0522],
+      "rss_mb": [22.65]
+    },
+    "RegExp": {
+      "error": "ReferenceError: \"RegExpRun\" is not defined",
+      "user": [0.0066],
+      "sys": [0.0022],
+      "real": [0.0524],
+      "rss_mb": [22.65]
+    },
+    "Gameboy": {
+      "error": "ReferenceError: \"runGameboy\" is not defined",
+      "user": [0.2085],
+      "sys": [0.006],
+      "real": [0.2539],
+      "rss_mb": [23.78]
+    },
+    "RayTrace": {
+      "error": "ReferenceError: \"renderScene\" is not defined",
+      "user": [0.0028],
+      "sys": [0.0037],
+      "real": [0.0524],
+      "rss_mb": [22.52]
+    },
+    "Typescript": {
+      "error": "ReferenceError: \"runTypescript\" is not defined",
+      "user": [0.1621],
+      "sys": [0.005],
+      "real": [0.2043],
+      "rss_mb": [32.35]
+    },
+    "Crypto": {
+      "error": "ReferenceError: \"encrypt\" is not defined",
+      "user": [0.0097],
+      "sys": [0.0039],
+      "real": [0.0525],
+      "rss_mb": [22.51]
+    },
+    "Mandreel": {
+      "error": "ReferenceError: \"runMandreel\" is not defined",
+      "user": [1.6636],
+      "sys": [0.004],
+      "real": [1.7139],
+      "rss_mb": [52.66]
+    },
+    "MandreelLatency": {
+      "error": "ReferenceError: \"runMandreel\" is not defined",
+      "user": [1.6636],
+      "sys": [0.004],
+      "real": [1.7139],
+      "rss_mb": [52.66]
+    },
+    "Splay": {
+      "error": "ReferenceError: \"SplayRun\" is not defined",
+      "user": [0.0027],
+      "sys": [0.0036],
+      "real": [0.0524],
+      "rss_mb": [22.52]
+    },
+    "SplayLatency": {
+      "error": "ReferenceError: \"SplayRun\" is not defined",
+      "user": [0.0027],
+      "sys": [0.0036],
+      "real": [0.0524],
+      "rss_mb": [22.52]
+    },
+    "PdfJS": {
+      "error": "ReferenceError: \"runPdfJS\" is not defined",
+      "user": [0.0456],
+      "sys": [0.002],
+      "real": [0.0533],
+      "rss_mb": [28.58]
+    },
+    "NavierStokes": {
+      "error": "ReferenceError: \"runNavierStokes\" is not defined",
+      "user": [0.0018],
+      "sys": [0.0044],
       "real": [0.0526],
-      "rss_mb": [22.44]
+      "rss_mb": [22.39]
     }
   }
 }

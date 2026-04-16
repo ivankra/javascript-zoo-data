@@ -1,138 +1,136 @@
 {
-  "binary": "mujs_gcc",
-  "metadata": {
+  "binary": {
     "arch": "arm64",
     "binary_name": "mujs_gcc",
     "binary_sha256": "38109ff47aa4bac5e3d4cf19c301420da5d7d9be9d006eeca5b8bdfb307fbe48",
     "binary_size": 396568,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": ["console.log", "print"],
     "engine": "mujs",
     "repository": "https://codeberg.org/ccxvii/mujs.git",
     "revision": "0b4ed7e4ba37030fdd00f6a17b6de75cd7d7954b",
     "revision_date": "2026-03-31",
     "version": "1.3.8-17-g0b4ed7e"
   },
-  "time": "2026-04-10 06:39:25.826585 UTC",
+  "time": "2026-04-16 04:13:38.057651 UTC",
   "benchmarks": {
-    "PdfJS": {
-      "error": "SyntaxError: jump address integer overflow",
-      "user": [0.1345, 0.1196, 0.1221],
-      "sys": [0.008, 0.0149, 0.013],
-      "real": [0.143, 0.135, 0.1354],
-      "rss_mb": [35.78, 35.79, 35.77]
-    },
-    "CodeLoad": {
-      "error": "EvalError: code-load.js:497: invalid use of 'eval'undefined",
-      "user": [0.0022, 0.0022, 0.0007],
-      "sys": [0.0, 0.0, 0.0015],
-      "real": [0.0024, 0.0026, 0.0025],
-      "rss_mb": [22.44, 22.44, 22.43]
-    },
-    "RegExp": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.13, 0.1256],
-      "sys": [0.003, 0.004],
-      "real": [0.1334, 0.13],
-      "rss_mb": [22.66, 22.66]
-    },
-    "EarleyBoyer": {
-      "score": [609, 577],
-      "user": [15.8984, 16.2038],
-      "sys": [0.031, 0.048],
-      "real": [15.9324, 16.2544],
-      "rss_mb": [94.71, 95.71]
-    },
-    "Richards": {
-      "score": [349, 348, 348],
-      "user": [2.0108, 2.0117, 2.0085],
-      "sys": [0.001, 0.001, 0.002],
-      "real": [2.0123, 2.0132, 2.012],
-      "rss_mb": [22.17, 22.18, 22.18]
-    },
     "Crypto": {
-      "score": [290, 291],
-      "user": [15.9538, 15.9785],
-      "sys": [0.003, 0.002],
-      "real": [15.9594, 15.9828],
-      "rss_mb": [22.54, 22.53]
-    },
-    "RayTrace": {
-      "score": [703, 707],
-      "user": [5.2574, 5.2299],
-      "sys": [0.002, 0.0],
-      "real": [5.2606, 5.2308],
-      "rss_mb": [22.19, 22.19]
-    },
-    "zlib": {
-      "error": "EvalError: zlib.js:449: invalid use of 'eval'undefined",
-      "user": [0.0019, 0.0014, 0.0018],
-      "sys": [0.0009, 0.0014, 0.0009],
-      "real": [0.003, 0.0031, 0.003],
-      "rss_mb": [22.78, 22.79, 22.79]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: jump address integer overflow",
-      "user": [0.1919, 0.1875],
-      "sys": [0.031, 0.0391],
-      "real": [0.2233, 0.2269],
-      "rss_mb": [141.09, 141.09]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: jump address integer overflow",
-      "user": [0.1919, 0.1875],
-      "sys": [0.031, 0.0391],
-      "real": [0.2233, 0.2269],
-      "rss_mb": [141.09, 141.09]
+      "score": [291],
+      "user": [15.9595],
+      "sys": [0.002],
+      "real": [15.9641],
+      "rss_mb": [22.52]
     },
     "Splay": {
-      "score": [1047, 1024, 991],
-      "user": [2.627, 2.6356, 2.7284],
-      "sys": [0.296, 0.309, 0.2799],
-      "real": [2.9238, 2.9455, 3.0096],
-      "rss_mb": [1026.3, 1026.31, 1026.29]
+      "score": [1018],
+      "user": [2.6725],
+      "sys": [0.268],
+      "real": [2.9412],
+      "rss_mb": [1026.3]
     },
     "SplayLatency": {
-      "score": [1965, 1907, 1851],
-      "user": [2.627, 2.6356, 2.7284],
-      "sys": [0.296, 0.309, 0.2799],
-      "real": [2.9238, 2.9455, 3.0096],
-      "rss_mb": [1026.3, 1026.31, 1026.29]
+      "score": [1887],
+      "user": [2.6725],
+      "sys": [0.268],
+      "real": [2.9412],
+      "rss_mb": [1026.3]
     },
-    "Box2D": {
-      "score": [1277, 1221],
-      "user": [3.8564, 4.0277],
-      "sys": [0.01, 0.014],
-      "real": [3.8671, 4.0426],
-      "rss_mb": [32.16, 32.16]
+    "PdfJS": {
+      "error": "SyntaxError: jump address integer overflow",
+      "user": [0.1239, 0.1299, 0.1234],
+      "sys": [0.012, 0.012, 0.012],
+      "real": [0.1364, 0.1422, 0.136],
+      "rss_mb": [35.79, 35.79, 35.79]
+    },
+    "RayTrace": {
+      "score": [684, 681],
+      "user": [5.3976, 5.4267],
+      "sys": [0.002, 0.0],
+      "real": [5.4009, 5.4284],
+      "rss_mb": [22.52, 22.52]
+    },
+    "Richards": {
+      "score": [349, 348],
+      "user": [2.0032, 2.0094],
+      "sys": [0.001, 0.001],
+      "real": [2.0048, 2.011],
+      "rss_mb": [22.52, 22.52]
     },
     "DeltaBlue": {
-      "score": [472, 476],
-      "user": [2.0247, 2.0085],
-      "sys": [0.001, 0.004],
-      "real": [2.0265, 2.0132],
-      "rss_mb": [22.19, 22.19]
-    },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0126, 0.0147, 0.0091],
-      "sys": [0.0042, 0.0011, 0.0071],
-      "real": [0.0171, 0.016, 0.0164],
-      "rss_mb": [24.24, 24.24, 24.26]
-    },
-    "NavierStokes": {
-      "score": [688, 687],
-      "user": [5.4066, 5.4171],
-      "sys": [0.001, 0.003],
-      "real": [5.4086, 5.4225],
-      "rss_mb": [22.21, 22.21]
+      "score": [476, 474],
+      "user": [2.0219, 2.0166],
+      "sys": [0.001, 0.002],
+      "real": [2.0234, 2.0193],
+      "rss_mb": [22.52, 22.52]
     },
     "Typescript": {
       "error": "EXIT: 1",
-      "user": [0.0403, 0.0447],
-      "sys": [0.0121, 0.0089],
-      "real": [0.0527, 0.0539],
-      "rss_mb": [32.38, 32.29]
+      "user": [0.0448],
+      "sys": [0.009],
+      "real": [0.054],
+      "rss_mb": [32.34]
+    },
+    "CodeLoad": {
+      "error": "EvalError: code-load.js:497: invalid use of 'eval'undefined",
+      "user": [0.0, 0.0015, 0.0011, 0.0022],
+      "sys": [0.0022, 0.0007, 0.0011, 0.0],
+      "real": [0.0025, 0.0024, 0.0025, 0.0024],
+      "rss_mb": [22.64, 22.64, 22.64, 22.64]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: jump address integer overflow",
+      "user": [0.1779],
+      "sys": [0.053],
+      "real": [0.2314],
+      "rss_mb": [141.09]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: jump address integer overflow",
+      "user": [0.1779],
+      "sys": [0.053],
+      "real": [0.2314],
+      "rss_mb": [141.09]
+    },
+    "zlib": {
+      "error": "EvalError: zlib.js:449: invalid use of 'eval'undefined",
+      "user": [0.0019],
+      "sys": [0.0009],
+      "real": [0.003],
+      "rss_mb": [22.72]
+    },
+    "EarleyBoyer": {
+      "score": [595],
+      "user": [16.2784],
+      "sys": [0.037],
+      "real": [16.3188],
+      "rss_mb": [93.96]
+    },
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0109, 0.0147],
+      "sys": [0.0059, 0.002],
+      "real": [0.0176, 0.017],
+      "rss_mb": [23.72, 23.7]
+    },
+    "NavierStokes": {
+      "score": [677],
+      "user": [5.4932],
+      "sys": [0.001],
+      "real": [5.4952],
+      "rss_mb": [22.52]
+    },
+    "Box2D": {
+      "score": [1227, 1183, 1178],
+      "user": [4.0134, 4.1607, 4.1736],
+      "sys": [0.012, 0.015, 0.018],
+      "real": [4.0266, 4.1771, 4.1926],
+      "rss_mb": [32.14, 32.05, 32.05]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.1209, 0.1227],
+      "sys": [0.012, 0.007],
+      "real": [0.1332, 0.13],
+      "rss_mb": [22.65, 22.63]
     }
   }
 }

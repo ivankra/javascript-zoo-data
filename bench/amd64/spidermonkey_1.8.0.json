@@ -1,12 +1,10 @@
 {
-  "binary": "spidermonkey_1.8.0",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "spidermonkey_1.8.0",
-    "binary_sha256": "b8bd133cdd65557e50fa0fff4ae67a2404e39f52aa4a8cfb225a68cd513584ba",
+    "binary_sha256": "e39a63a4c4045bdb3cd1b8a86187af13a9679888e323f9619aa73b925f1475f7",
     "binary_size": 1060472,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
     "engine": "spidermonkey",
     "jit": "",
     "loc": 85195,
@@ -15,126 +13,126 @@
     "standard": "ES3",
     "version": "1.8.0"
   },
-  "time": "2026-04-10 05:17:00.020478 UTC",
+  "time": "2026-04-16 04:27:00.737302 UTC",
   "benchmarks": {
-    "DeltaBlue": {
-      "score": [702, 678],
-      "user": [2.0319, 2.0279],
-      "sys": [0.047, 0.057],
-      "real": [2.0794, 2.0855],
-      "rss_mb": [92.36, 89.11]
-    },
-    "RegExp": {
-      "score": [470],
-      "user": [4.697],
-      "sys": [0.073],
-      "real": [4.7708],
-      "rss_mb": [193.91]
-    },
-    "NavierStokes": {
-      "score": [976],
-      "user": [4.1767],
-      "sys": [0.1349],
-      "real": [4.3136],
-      "rss_mb": [69.44]
+    "Box2D": {
+      "score": [1585, 1540],
+      "user": [3.0613, 3.1407],
+      "sys": [0.052, 0.063],
+      "real": [3.1138, 3.2045],
+      "rss_mb": [78.94, 78.97]
     },
     "Crypto": {
-      "score": [502, 536],
-      "user": [10.8693, 10.3406],
-      "sys": [0.007, 0.007],
-      "real": [10.8782, 10.3486],
-      "rss_mb": [23.93, 23.8]
-    },
-    "RayTrace": {
-      "score": [542],
-      "user": [5.3524],
-      "sys": [0.099],
-      "real": [5.4523],
-      "rss_mb": [157.52]
-    },
-    "PdfJS": {
-      "error": "ReferenceError: Uint8Array is not defined",
-      "user": [0.0622],
-      "sys": [0.011],
-      "real": [0.0736],
-      "rss_mb": [31.2]
-    },
-    "Typescript": {
-      "score": [5235],
-      "user": [24.4021],
-      "sys": [0.119],
-      "real": [24.5256],
-      "rss_mb": [207.66]
-    },
-    "Mandreel": {
-      "error": "InternalError: script stack space quota is exhausted",
-      "user": [0.2153],
-      "sys": [0.033],
-      "real": [0.2487],
-      "rss_mb": [53.96]
-    },
-    "MandreelLatency": {
-      "error": "InternalError: script stack space quota is exhausted",
-      "user": [0.2153],
-      "sys": [0.033],
-      "real": [0.2487],
-      "rss_mb": [53.96]
+      "score": [540],
+      "user": [10.2761],
+      "sys": [0.006],
+      "real": [10.2832],
+      "rss_mb": [23.25]
     },
     "CodeLoad": {
-      "score": [19861],
-      "user": [1.9648],
-      "sys": [0.078],
-      "real": [2.0432],
-      "rss_mb": [150.43]
-    },
-    "EarleyBoyer": {
-      "score": [848, 836],
-      "user": [9.6261, 9.8223],
-      "sys": [0.123, 0.094],
-      "real": [9.7507, 9.9175],
-      "rss_mb": [155.03, 155.12]
+      "score": [20040, 19047, 19887],
+      "user": [1.9644, 1.9738, 1.9673],
+      "sys": [0.078, 0.072, 0.082],
+      "real": [2.0429, 2.0463, 2.0499],
+      "rss_mb": [151.52, 147.89, 154.65]
     },
     "zlib": {
       "error": "ReferenceError: zlib: ReferenceError: Int32Array is not defined",
-      "user": [0.0219],
-      "sys": [0.004],
-      "real": [0.0263],
-      "rss_mb": [24.08]
+      "user": [0.0234, 0.0226, 0.0212],
+      "sys": [0.001, 0.0031, 0.003],
+      "real": [0.0246, 0.026, 0.0244],
+      "rss_mb": [23.81, 23.68, 23.99]
+    },
+    "PdfJS": {
+      "error": "ReferenceError: Uint8Array is not defined",
+      "user": [0.0629, 0.0611],
+      "sys": [0.008, 0.011],
+      "real": [0.0712, 0.0724],
+      "rss_mb": [30.82, 32.16]
+    },
+    "EarleyBoyer": {
+      "score": [833],
+      "user": [9.7138],
+      "sys": [0.086],
+      "real": [9.8012],
+      "rss_mb": [155.04]
+    },
+    "RegExp": {
+      "score": [395],
+      "user": [6.0957],
+      "sys": [0.127],
+      "real": [6.2238],
+      "rss_mb": [193.84]
+    },
+    "RayTrace": {
+      "score": [718, 520],
+      "user": [4.3796, 5.5974],
+      "sys": [0.072, 0.085],
+      "real": [4.4523, 5.6832],
+      "rss_mb": [157.83, 157.76]
+    },
+    "Typescript": {
+      "score": [5387],
+      "user": [23.6965],
+      "sys": [0.123],
+      "real": [23.8282],
+      "rss_mb": [245.21]
+    },
+    "Mandreel": {
+      "error": "InternalError: script stack space quota is exhausted",
+      "user": [0.2279, 0.2184],
+      "sys": [0.017, 0.0279],
+      "real": [0.2452, 0.2467],
+      "rss_mb": [53.5, 53.64]
+    },
+    "MandreelLatency": {
+      "error": "InternalError: script stack space quota is exhausted",
+      "user": [0.2279, 0.2184],
+      "sys": [0.017, 0.0279],
+      "real": [0.2452, 0.2467],
+      "rss_mb": [53.5, 53.64]
     },
     "Gameboy": {
       "error": "FAIL: No scores in the output",
-      "user": [0.0171, 0.0169],
-      "sys": [0.001, 0.002],
-      "real": [0.0183, 0.0192],
-      "rss_mb": [26.02, 25.79]
+      "user": [0.014],
+      "sys": [0.004],
+      "real": [0.0182],
+      "rss_mb": [25.61]
     },
     "Richards": {
-      "score": [665, 646],
-      "user": [2.006, 2.0038],
-      "sys": [0.0, 0.003],
-      "real": [2.0065, 2.0072],
-      "rss_mb": [23.78, 23.71]
+      "score": [601],
+      "user": [2.0052],
+      "sys": [0.002],
+      "real": [2.0079],
+      "rss_mb": [23.2]
     },
     "Splay": {
-      "score": [541],
-      "user": [2.6349],
-      "sys": [0.113],
-      "real": [2.7485],
-      "rss_mb": [208.36]
+      "score": [596],
+      "user": [2.6284],
+      "sys": [0.129],
+      "real": [2.7579],
+      "rss_mb": [209.78]
     },
     "SplayLatency": {
-      "score": [1672],
-      "user": [2.6349],
-      "sys": [0.113],
-      "real": [2.7485],
-      "rss_mb": [208.36]
+      "score": [1784],
+      "user": [2.6284],
+      "sys": [0.129],
+      "real": [2.7579],
+      "rss_mb": [209.78]
     },
-    "Box2D": {
-      "score": [1564],
-      "user": [3.105],
-      "sys": [0.05],
-      "real": [3.1557],
-      "rss_mb": [78.81]
+    "NavierStokes": {
+      "score": [1002],
+      "user": [4.0942],
+      "sys": [0.1449],
+      "real": [4.2414],
+      "rss_mb": [69.36]
+    },
+    "DeltaBlue": {
+      "score": [746, 705],
+      "user": [2.0403, 2.0411],
+      "sys": [0.034, 0.036],
+      "real": [2.0764, 2.0776],
+      "rss_mb": [97.4, 92.36]
     }
   }
 }

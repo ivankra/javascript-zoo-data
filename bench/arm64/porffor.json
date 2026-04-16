@@ -1,23 +1,22 @@
 {
-  "binary": "porffor",
-  "metadata": {
+  "binary": {
     "arch": "arm64",
     "binary_name": "porffor",
-    "console_log": "console.log",
     "dist_size": 17877160,
     "engine": "porffor",
     "repository": "https://github.com/CanadaHonk/porffor.git",
     "revision": "84fdcda4741ed2ee1383ae65e15743869cd6c017",
     "revision_date": "2026-03-06"
   },
-  "time": "2026-04-10 10:20:41.868318 UTC",
+  "flags": [{"if": "flags:module", "then": "--module"}],
+  "time": "2026-04-16 04:14:41.525854 UTC",
   "benchmarks": {
     "Richards": {
-      "score": [1189.156, 1191.062, 1195.942],
-      "user": [4.379, 4.3589, 4.3312],
-      "sys": [0.1367, 0.1371, 0.1341],
-      "real": [2.0632, 2.075, 2.0507],
-      "rss_mb": [204.32, 204.46, 200.28]
+      "score": [1198.448, 1196.196, 1189.62, 1192.829, 1204.549],
+      "user": [4.3671, 4.2548, 4.4738, 4.3388, 4.3308],
+      "sys": [0.1113, 0.1497, 0.153, 0.1318, 0.135],
+      "real": [2.0528, 2.0493, 2.0856, 2.0539, 2.0435],
+      "rss_mb": [204.64, 201.76, 205.52, 206.61, 198.17]
     }
   }
 }

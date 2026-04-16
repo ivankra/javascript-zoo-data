@@ -1,12 +1,10 @@
 {
-  "binary": "spidermonkey_1.7",
-  "metadata": {
+  "binary": {
     "arch": "arm64",
     "binary_name": "spidermonkey_1.7",
-    "binary_sha256": "90b9e091ca21a98b667b684a309d02539e199fece5b6bcff841737d077d21db1",
+    "binary_sha256": "7466fe3481c52175846569574be8a8656faf338075297997753a727ed465776b",
     "binary_size": 948520,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "console_log": "print",
     "engine": "spidermonkey",
     "jit": "",
     "loc": 79328,
@@ -15,126 +13,126 @@
     "standard": "ES3",
     "version": "1.7.0"
   },
-  "time": "2026-04-10 06:34:06.462420 UTC",
+  "time": "2026-04-16 03:28:25.101489 UTC",
   "benchmarks": {
-    "EarleyBoyer": {
-      "score": [658, 661, 656],
-      "user": [9.595, 9.5557, 9.6353],
-      "sys": [0.059, 0.061, 0.058],
-      "real": [9.6556, 9.6182, 9.6956],
-      "rss_mb": [202.55, 202.56, 202.56]
-    },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0165, 0.0165],
-      "sys": [0.001, 0.001],
-      "real": [0.0178, 0.0177],
-      "rss_mb": [24.74, 24.75]
-    },
-    "PdfJS": {
-      "error": "ReferenceError: Uint8Array is not defined",
-      "user": [0.209, 0.2304],
-      "sys": [0.01, 0.008],
-      "real": [0.2195, 0.2388],
-      "rss_mb": [30.11, 30.11]
-    },
     "DeltaBlue": {
-      "score": [539],
-      "user": [2.0006],
-      "sys": [0.031],
-      "real": [2.032],
-      "rss_mb": [93.7]
-    },
-    "Richards": {
-      "score": [671, 681],
-      "user": [2.0043, 1.9995],
-      "sys": [0.001, 0.003],
-      "real": [2.0061, 2.0034],
-      "rss_mb": [22.17, 22.17]
+      "score": [541],
+      "user": [1.9866],
+      "sys": [0.039],
+      "real": [2.0262],
+      "rss_mb": [93.64]
     },
     "Mandreel": {
       "error": "ReferenceError: Float64Array is not defined",
-      "user": [0.2563, 0.2536],
-      "sys": [0.02, 0.016],
-      "real": [0.2769, 0.2701],
-      "rss_mb": [57.88, 57.89]
+      "user": [0.2452],
+      "sys": [0.018],
+      "real": [0.2636],
+      "rss_mb": [57.88]
     },
     "MandreelLatency": {
       "error": "ReferenceError: Float64Array is not defined",
-      "user": [0.2563, 0.2536],
-      "sys": [0.02, 0.016],
-      "real": [0.2769, 0.2701],
-      "rss_mb": [57.88, 57.89]
-    },
-    "NavierStokes": {
-      "score": [558, 555, 547],
-      "user": [5.3382, 5.3571, 5.4496],
-      "sys": [0.043, 0.044, 0.033],
-      "real": [5.3821, 5.4023, 5.484],
-      "rss_mb": [73.14, 73.21, 73.22]
-    },
-    "Box2D": {
-      "score": [1411],
-      "user": [3.4644],
-      "sys": [0.025],
-      "real": [3.4903],
-      "rss_mb": [80.45]
-    },
-    "CodeLoad": {
-      "score": [16682, 16253],
-      "user": [2.0776, 2.11],
-      "sys": [0.056, 0.073],
-      "real": [2.1343, 2.1837],
-      "rss_mb": [181.48, 182.05]
-    },
-    "RayTrace": {
-      "score": [635, 656, 640],
-      "user": [5.2782, 5.1397, 5.2297],
-      "sys": [0.094, 0.089, 0.114],
-      "real": [5.3734, 5.2299, 5.3449],
-      "rss_mb": [323.06, 323.06, 323.04]
+      "user": [0.2452],
+      "sys": [0.018],
+      "real": [0.2636],
+      "rss_mb": [57.88]
     },
     "Typescript": {
       "error": "TypeError: Typescript: TypeError: this.currentToken has no properties",
-      "user": [0.9024],
-      "sys": [0.024],
-      "real": [0.9268],
-      "rss_mb": [66.03]
+      "user": [0.8894, 0.8993],
+      "sys": [0.034, 0.018],
+      "real": [0.9238, 0.9179],
+      "rss_mb": [66.04, 66.02]
     },
     "Splay": {
-      "score": [982, 909],
-      "user": [2.796, 2.8131],
-      "sys": [0.127, 0.129],
-      "real": [2.9237, 2.9431],
-      "rss_mb": [401.32, 401.48]
+      "score": [1004],
+      "user": [2.8067],
+      "sys": [0.12],
+      "real": [2.9275],
+      "rss_mb": [401.31]
     },
     "SplayLatency": {
-      "score": [2613, 2417],
-      "user": [2.796, 2.8131],
-      "sys": [0.127, 0.129],
-      "real": [2.9237, 2.9431],
-      "rss_mb": [401.32, 401.48]
+      "score": [2670],
+      "user": [2.8067],
+      "sys": [0.12],
+      "real": [2.9275],
+      "rss_mb": [401.31]
+    },
+    "Crypto": {
+      "score": [687],
+      "user": [8.7834],
+      "sys": [0.007],
+      "real": [8.792],
+      "rss_mb": [22.59]
+    },
+    "NavierStokes": {
+      "score": [562, 536],
+      "user": [5.3074, 5.5497],
+      "sys": [0.029, 0.044],
+      "real": [5.3375, 5.5951],
+      "rss_mb": [73.14, 73.21]
+    },
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0152, 0.0147],
+      "sys": [0.0019, 0.0029],
+      "real": [0.0173, 0.0179],
+      "rss_mb": [24.72, 24.73]
     },
     "RegExp": {
       "score": [436],
-      "user": [5.4719],
-      "sys": [0.056],
-      "real": [5.5291],
+      "user": [5.4695],
+      "sys": [0.068],
+      "real": [5.5386],
       "rss_mb": [181.2]
     },
-    "Crypto": {
-      "score": [688, 680],
-      "user": [8.7638, 8.8472],
-      "sys": [0.007, 0.01],
-      "real": [8.7731, 8.8596],
-      "rss_mb": [22.52, 22.52]
+    "CodeLoad": {
+      "score": [16304, 16294, 16465],
+      "user": [2.0639, 2.1129, 2.081],
+      "sys": [0.071, 0.076, 0.067],
+      "real": [2.1354, 2.1895, 2.1485],
+      "rss_mb": [179.19, 182.93, 182.05]
+    },
+    "Richards": {
+      "score": [680, 679],
+      "user": [2.0052, 2.0088],
+      "sys": [0.0, 0.001],
+      "real": [2.0059, 2.0102],
+      "rss_mb": [22.46, 22.47]
+    },
+    "PdfJS": {
+      "error": "ReferenceError: Uint8Array is not defined",
+      "user": [0.2215, 0.205],
+      "sys": [0.009, 0.01],
+      "real": [0.2308, 0.2153],
+      "rss_mb": [30.22, 30.22]
+    },
+    "RayTrace": {
+      "score": [646, 654],
+      "user": [5.2118, 5.1491],
+      "sys": [0.091, 0.097],
+      "real": [5.3039, 5.2472],
+      "rss_mb": [323.05, 323.06]
+    },
+    "EarleyBoyer": {
+      "score": [658, 661, 650, 655],
+      "user": [9.5898, 9.5539, 9.5563, 9.6609],
+      "sys": [0.062, 0.068, 0.071, 0.071],
+      "real": [9.6537, 9.6239, 9.6284, 9.7339],
+      "rss_mb": [202.55, 202.45, 202.55, 202.5]
     },
     "zlib": {
       "error": "ReferenceError: zlib: ReferenceError: Int32Array is not defined",
-      "user": [0.0158],
-      "sys": [0.0069],
-      "real": [0.0229],
-      "rss_mb": [23.06]
+      "user": [0.0199, 0.0187],
+      "sys": [0.003, 0.0049],
+      "real": [0.0231, 0.0238],
+      "rss_mb": [22.96, 23.09]
+    },
+    "Box2D": {
+      "score": [1425],
+      "user": [3.4295],
+      "sys": [0.025],
+      "real": [3.4552],
+      "rss_mb": [80.51]
     }
   }
 }

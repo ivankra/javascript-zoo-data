@@ -1,9 +1,7 @@
 {
-  "binary": "castl",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "castl",
-    "console_log": "console.log",
     "dist_size": 1535974,
     "engine": "castl",
     "repository": "https://github.com/PaulBernier/castl.git",
@@ -11,126 +9,126 @@
     "revision_date": "2017-03-23",
     "version": "1.2.4"
   },
-  "time": "2026-04-10 05:10:35.379388 UTC",
+  "time": "2026-04-16 02:05:51.228221 UTC",
   "benchmarks": {
-    "Box2D": {
-      "score": [2106, 2502],
-      "user": [2.3457, 2.4361],
-      "sys": [0.0339, 0.0674],
-      "real": [2.2328, 2.3563],
-      "rss_mb": [104.62, 104.44]
-    },
-    "PdfJS": {
-      "error": "TypeError: undefined is not a function",
-      "user": [0.573, 0.5993],
-      "sys": [0.1008, 0.1012],
-      "real": [0.3853, 0.4002],
-      "rss_mb": [160.45, 160.43]
-    },
-    "Splay": {
-      "score": [1809],
-      "user": [2.558],
-      "sys": [0.1944],
-      "real": [2.7372],
-      "rss_mb": [342.22]
-    },
-    "SplayLatency": {
-      "score": [3270],
-      "user": [2.558],
-      "sys": [0.1944],
-      "real": [2.7372],
-      "rss_mb": [342.22]
+    "Typescript": {
+      "error": "TypeError: Typescript: TypeError: Cannot read property 'toLowerCase' of undefined",
+      "user": [0.5191, 0.4942, 0.4705, 0.5093],
+      "sys": [0.1233, 0.1439, 0.1657, 0.1234],
+      "real": [0.4324, 0.4248, 0.4297, 0.422],
+      "rss_mb": [217.72, 217.88, 218.19, 217.97]
     },
     "zlib": {
       "error": "FAIL: No scores in the output",
-      "user": [3.9796],
-      "sys": [0.3695],
-      "real": [4.3255],
-      "rss_mb": [683.63]
-    },
-    "DeltaBlue": {
-      "score": [275],
-      "user": [2.1032],
-      "sys": [0.0292],
-      "real": [2.1128],
-      "rss_mb": [63.14]
+      "user": [3.9733, 4.2473],
+      "sys": [0.2662, 0.2914],
+      "real": [4.2215, 4.5177],
+      "rss_mb": [508.2, 655.21]
     },
     "Richards": {
-      "score": [523],
-      "user": [2.082],
-      "sys": [0.0257],
-      "real": [2.0901],
-      "rss_mb": [60.9]
+      "score": [533, 514],
+      "user": [2.0607, 2.0723],
+      "sys": [0.0252, 0.0329],
+      "real": [2.0711, 2.0842],
+      "rss_mb": [61.16, 60.66]
     },
-    "EarleyBoyer": {
-      "error": "FAIL: function at line 2 has more than 200 local variables",
-      "user": [0.1504, 0.1493, 0.157],
-      "sys": [0.0358, 0.0401, 0.0626],
-      "real": [0.1197, 0.1148, 0.1628],
-      "rss_mb": [71.08, 71.86, 74.16]
+    "Splay": {
+      "score": [1662, 1760, 1948],
+      "user": [2.5007, 2.5211, 2.3454],
+      "sys": [0.1739, 0.2223, 0.1967],
+      "real": [2.6585, 2.7289, 2.9036],
+      "rss_mb": [343.12, 343.44, 341.77]
     },
-    "RegExp": {
-      "error": "FAIL: function at line 54 has more than 200 local variables",
-      "user": [0.1121],
-      "sys": [0.0359],
-      "real": [0.0974],
-      "rss_mb": [71.68]
-    },
-    "Typescript": {
-      "error": "TypeError: Typescript: TypeError: Cannot read property 'toLowerCase' of undefined",
-      "user": [0.4975],
-      "sys": [0.1213],
-      "real": [0.4151],
-      "rss_mb": [217.93]
+    "SplayLatency": {
+      "score": [4168, 3759, 4073],
+      "user": [2.5007, 2.5211, 2.3454],
+      "sys": [0.1739, 0.2223, 0.1967],
+      "real": [2.6585, 2.7289, 2.9036],
+      "rss_mb": [343.12, 343.44, 341.77]
     },
     "RayTrace": {
-      "score": [319, 356],
-      "user": [9.3984, 8.426],
-      "sys": [0.0268, 0.0236],
-      "real": [9.4022, 8.4297],
-      "rss_mb": [67.96, 66.71]
+      "score": [346, 339],
+      "user": [8.6665, 8.8342],
+      "sys": [0.0304, 0.0582],
+      "real": [8.6765, 8.8915],
+      "rss_mb": [67.72, 66.68]
     },
     "CodeLoad": {
       "error": "TypeError: CodeLoad: TypeError: undefined is not a function",
-      "user": [3.607],
-      "sys": [0.1788],
-      "real": [3.7581],
-      "rss_mb": [294.51]
+      "user": [3.4373],
+      "sys": [0.1656],
+      "real": [3.5863],
+      "rss_mb": [299.5]
     },
-    "Crypto": {
-      "score": [308],
-      "user": [15.4244],
-      "sys": [0.0354],
-      "real": [15.4307],
-      "rss_mb": [69.21]
+    "DeltaBlue": {
+      "score": [281, 273],
+      "user": [2.1059, 2.1096],
+      "sys": [0.0298, 0.0553],
+      "real": [2.1172, 2.1559],
+      "rss_mb": [63.03, 65.01]
     },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.2971],
-      "sys": [0.0366],
-      "real": [0.1773],
-      "rss_mb": [88.59]
-    },
-    "NavierStokes": {
-      "score": [562, 548],
-      "user": [5.423, 5.5536],
-      "sys": [0.0291, 0.0335],
-      "real": [5.4334, 5.5714],
-      "rss_mb": [64.24, 64.15]
+    "PdfJS": {
+      "error": "TypeError: undefined is not a function",
+      "user": [0.5827, 0.6223, 0.6439, 0.6276],
+      "sys": [0.0906, 0.0758, 0.1061, 0.1358],
+      "real": [0.3786, 0.3947, 0.4512, 0.4386],
+      "rss_mb": [160.41, 160.8, 160.43, 160.17]
     },
     "Mandreel": {
       "error": "FAIL: function at line 2 has more than 200 local variables",
-      "user": [1.3609],
-      "sys": [0.2499],
-      "real": [0.9918],
-      "rss_mb": [357.21]
+      "user": [1.4585, 1.4057],
+      "sys": [0.1856, 0.2596],
+      "real": [1.0176, 1.0454],
+      "rss_mb": [357.82, 357.99]
     },
     "MandreelLatency": {
       "error": "FAIL: function at line 2 has more than 200 local variables",
-      "user": [1.3609],
-      "sys": [0.2499],
-      "real": [0.9918],
-      "rss_mb": [357.21]
+      "user": [1.4585, 1.4057],
+      "sys": [0.1856, 0.2596],
+      "real": [1.0176, 1.0454],
+      "rss_mb": [357.82, 357.99]
+    },
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.2766, 0.2829, 0.2983, 0.3002],
+      "sys": [0.0909, 0.0416, 0.0486, 0.0488],
+      "real": [0.247, 0.1707, 0.1927, 0.1928],
+      "rss_mb": [88.33, 91.86, 88.31, 87.6]
+    },
+    "Box2D": {
+      "score": [2241, 2168, 2303, 2378, 2312, 2434],
+      "user": [2.7029, 2.2786, 2.6327, 2.5816, 2.6239, 2.4828],
+      "sys": [0.0564, 0.0599, 0.0543, 0.0515, 0.0603, 0.0786],
+      "real": [2.6163, 2.1898, 2.541, 2.4794, 2.5457, 2.4145],
+      "rss_mb": [104.92, 104.41, 104.45, 104.11, 104.02, 104.68]
+    },
+    "EarleyBoyer": {
+      "error": "FAIL: function at line 2 has more than 200 local variables",
+      "user": [0.1088, 0.1557, 0.1683, 0.1462, 0.1531, 0.1687],
+      "sys": [0.0308, 0.0488, 0.0304, 0.0436, 0.0255, 0.0613],
+      "real": [0.0865, 0.1534, 0.126, 0.1178, 0.1069, 0.1856],
+      "rss_mb": [72.59, 70.59, 71.61, 73.29, 71.39, 72.26]
+    },
+    "NavierStokes": {
+      "score": [565, 624, 568],
+      "user": [5.4111, 6.0665, 5.3482],
+      "sys": [0.0283, 0.0358, 0.0357],
+      "real": [5.4221, 6.0888, 5.3679],
+      "rss_mb": [64.21, 64.34, 64.18]
+    },
+    "RegExp": {
+      "error": "FAIL: function at line 54 has more than 200 local variables",
+      "user": [0.1156, 0.1102, 0.1197, 0.1251, 0.1247, 0.1268, 0.1248],
+      "sys": [0.0377, 0.0394, 0.032, 0.0275, 0.0314, 0.0525, 0.0419],
+      "real": [0.1004, 0.0966, 0.0982, 0.0981, 0.1006, 0.1464, 0.1102],
+      "rss_mb": [71.58, 71.71, 71.44, 71.57, 71.53, 71.59, 72.08]
+    },
+    "Crypto": {
+      "score": [395, 291, 306, 309],
+      "user": [12.4509, 16.7713, 15.3876, 15.4234],
+      "sys": [0.0291, 0.0699, 0.0381, 0.0361],
+      "real": [12.4505, 16.8189, 15.3972, 15.426],
+      "rss_mb": [69.58, 68.37, 69.0, 69.23]
     }
   }
 }

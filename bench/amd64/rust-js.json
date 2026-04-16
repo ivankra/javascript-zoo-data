@@ -1,137 +1,135 @@
 {
-  "binary": "rust-js",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "rust-js",
     "binary_sha256": "2a0acce1a745bc4f6c7de89f6c1c5bb4b0cdf071aaed5fc6b24dac6187cc8f0d",
     "binary_size": 2141736,
-    "console_log": "console.log",
     "engine": "rust-js",
     "repository": "https://github.com/rust-js/rjs.git",
     "revision": "61391286b0f0d6ce23720ee13501f62751c26b29",
     "revision_date": "2015-07-19",
     "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
-  "time": "2026-04-10 05:16:46.683588 UTC",
+  "time": "2026-04-16 03:43:09.254561 UTC",
   "benchmarks": {
-    "DeltaBlue": {
-      "score": [24.8],
-      "user": [9.5891],
-      "sys": [0.0],
-      "real": [9.5902],
-      "rss_mb": [40.25]
-    },
-    "Crypto": {
-      "score": [13.5, 13.6],
-      "user": [298.9477, 294.6183],
-      "sys": [0.01, 0.01],
-      "real": [298.9999, 294.6594],
-      "rss_mb": [44.52, 44.55]
+    "PdfJS": {
+      "error": "ReferenceError",
+      "user": [0.3876],
+      "sys": [0.018],
+      "real": [0.4061],
+      "rss_mb": [111.68]
     },
     "RegExp": {
       "error": "SyntaxError: 598:2: Cannot parse '\\'",
-      "user": [0.0021],
-      "sys": [0.0021],
-      "real": [0.0044],
-      "rss_mb": [23.68]
-    },
-    "NavierStokes": {
-      "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
-      "user": [0.5154],
-      "sys": [0.003],
-      "real": [0.5188],
-      "rss_mb": [40.23]
-    },
-    "RayTrace": {
-      "score": [79.7],
-      "user": [31.5624],
-      "sys": [0.004],
-      "real": [31.5703],
-      "rss_mb": [40.31]
-    },
-    "PdfJS": {
-      "error": "ReferenceError",
-      "user": [0.3874, 0.3292],
-      "sys": [0.019, 0.017],
-      "real": [0.4068, 0.3465],
-      "rss_mb": [111.59, 111.66]
-    },
-    "Typescript": {
-      "error": "SyntaxError: 5392:1: Cannot parse expression, got Divide",
-      "user": [0.0474],
-      "sys": [0.0061],
-      "real": [0.0538],
-      "rss_mb": [33.28]
+      "user": [0.0009],
+      "sys": [0.0034],
+      "real": [0.0046],
+      "rss_mb": [23.61]
     },
     "Mandreel": {
       "error": "SyntaxError: 1400:1: Newline cannot appear in string constant",
-      "user": [0.0125],
-      "sys": [0.0067],
-      "real": [0.0196],
-      "rss_mb": [53.68]
+      "user": [0.0145],
+      "sys": [0.0052],
+      "real": [0.02],
+      "rss_mb": [53.79]
     },
     "MandreelLatency": {
       "error": "SyntaxError: 1400:1: Newline cannot appear in string constant",
-      "user": [0.0125],
-      "sys": [0.0067],
-      "real": [0.0196],
-      "rss_mb": [53.68]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: CodeLoad: SyntaxError: 1:1924: Unexpected token; expected Comma, got Literal(String(Name(-432), true))",
-      "user": [0.0207, 0.0205],
-      "sys": [0.001, 0.002],
-      "real": [0.0219, 0.0228],
-      "rss_mb": [23.45, 23.59]
-    },
-    "EarleyBoyer": {
-      "error": "TypeError: EarleyBoyer: TypeError: Value is not a function",
-      "user": [0.0415],
-      "sys": [0.003],
-      "real": [0.0449],
-      "rss_mb": [23.61]
-    },
-    "zlib": {
-      "error": "ReferenceError: zlib: ReferenceError",
-      "user": [0.1128, 0.1074],
-      "sys": [0.003, 0.006],
-      "real": [0.1162, 0.1138],
-      "rss_mb": [40.57, 40.57]
-    },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0741, 0.0677, 0.0751, 0.0763, 0.0729],
-      "sys": [0.003, 0.005, 0.003, 0.002, 0.005],
-      "real": [0.0775, 0.073, 0.0784, 0.0787, 0.0782],
-      "rss_mb": [27.74, 27.72, 27.61, 27.85, 27.8]
-    },
-    "Richards": {
-      "score": [21.4, 21.4],
-      "user": [6.915, 6.7492],
-      "sys": [0.004, 0.007],
-      "real": [6.9202, 6.7576],
-      "rss_mb": [40.22, 40.2]
+      "user": [0.0145],
+      "sys": [0.0052],
+      "real": [0.02],
+      "rss_mb": [53.79]
     },
     "Splay": {
       "error": "OOM: >4096MB",
-      "user": [11.9526],
-      "sys": [2.1131],
-      "real": [14.0716],
-      "rss_mb": [4107.34]
+      "user": [11.7765],
+      "sys": [1.5539],
+      "real": [13.3342],
+      "rss_mb": [4112.59]
     },
     "SplayLatency": {
       "error": "OOM: >4096MB",
-      "user": [11.9526],
-      "sys": [2.1131],
-      "real": [14.0716],
-      "rss_mb": [4107.34]
+      "user": [11.7765],
+      "sys": [1.5539],
+      "real": [13.3342],
+      "rss_mb": [4112.59]
+    },
+    "RayTrace": {
+      "score": [89.3],
+      "user": [28.1738],
+      "sys": [0.006],
+      "real": [28.1835],
+      "rss_mb": [40.39]
+    },
+    "Richards": {
+      "score": [21.4],
+      "user": [6.9169],
+      "sys": [0.004],
+      "real": [6.9224],
+      "rss_mb": [40.16]
+    },
+    "EarleyBoyer": {
+      "error": "TypeError: EarleyBoyer: TypeError: Value is not a function",
+      "user": [0.0379],
+      "sys": [0.0031],
+      "real": [0.0414],
+      "rss_mb": [23.52]
+    },
+    "NavierStokes": {
+      "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
+      "user": [0.4919, 0.4545],
+      "sys": [0.002, 0.006],
+      "real": [0.4943, 0.4608],
+      "rss_mb": [40.18, 40.36]
+    },
+    "zlib": {
+      "error": "ReferenceError: zlib: ReferenceError",
+      "user": [0.1032],
+      "sys": [0.0079],
+      "real": [0.1114],
+      "rss_mb": [40.45]
     },
     "Box2D": {
       "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
-      "user": [0.1209],
-      "sys": [0.007],
-      "real": [0.1283],
-      "rss_mb": [45.27]
+      "user": [0.1235, 0.1248],
+      "sys": [0.008, 0.004],
+      "real": [0.1318, 0.1292],
+      "rss_mb": [45.11, 45.07]
+    },
+    "DeltaBlue": {
+      "score": [24.3],
+      "user": [9.7975],
+      "sys": [0.001],
+      "real": [9.7997],
+      "rss_mb": [40.38]
+    },
+    "Crypto": {
+      "score": [13.5],
+      "user": [297.5563],
+      "sys": [0.014],
+      "real": [297.597],
+      "rss_mb": [44.66]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: 1:1924: Unexpected token; expected Comma, got Literal(String(Name(-432), true))",
+      "user": [0.0214, 0.0189],
+      "sys": [0.001, 0.003],
+      "real": [0.0227, 0.0222],
+      "rss_mb": [23.8, 23.61]
+    },
+    "Typescript": {
+      "error": "SyntaxError: 5392:1: Cannot parse expression, got Divide",
+      "user": [0.0391, 0.05],
+      "sys": [0.013, 0.003],
+      "real": [0.0525, 0.0534],
+      "rss_mb": [33.46, 33.34]
+    },
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.073, 0.0739],
+      "sys": [0.005, 0.004],
+      "real": [0.0785, 0.0783],
+      "rss_mb": [27.68, 27.84]
     }
   }
 }

@@ -1,9 +1,7 @@
 {
-  "binary": "jispy",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "jispy",
-    "console_log": ["console.log", "print"],
     "dist_size": 82861,
     "engine": "jispy",
     "repository": "https://github.com/polydojo/jispy.git",
@@ -11,126 +9,126 @@
     "revision_date": "2017-09-05",
     "version": "1.0.0"
   },
-  "time": "2026-04-10 05:37:49.354605 UTC",
+  "time": "2026-04-16 03:14:25.968834 UTC",
   "benchmarks": {
-    "Box2D": {
+    "Mandreel": {
       "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.0815],
-      "sys": [0.0098],
-      "real": [0.0914],
-      "rss_mb": [23.92]
+      "user": [0.7374],
+      "sys": [0.0298],
+      "real": [0.7675],
+      "rss_mb": [58.3]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: unexpected keyword typeof",
+      "user": [0.7374],
+      "sys": [0.0298],
+      "real": [0.7675],
+      "rss_mb": [58.3]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.3022],
+      "sys": [0.0147],
+      "real": [0.3172],
+      "rss_mb": [29.6]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.0531],
+      "sys": [0.0076],
+      "real": [0.0609],
+      "rss_mb": [23.61]
     },
     "Gameboy": {
       "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0502],
-      "sys": [0.0129],
-      "real": [0.0633],
-      "rss_mb": [25.43]
+      "user": [0.0499],
+      "sys": [0.012],
+      "real": [0.0621],
+      "rss_mb": [24.88]
     },
     "NavierStokes": {
       "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.0521],
-      "sys": [0.0085],
-      "real": [0.0607],
-      "rss_mb": [23.15]
+      "user": [0.049],
+      "sys": [0.0081],
+      "real": [0.0573],
+      "rss_mb": [23.68]
     },
     "RayTrace": {
       "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.0499],
-      "sys": [0.0116],
-      "real": [0.0616],
-      "rss_mb": [23.19]
+      "user": [0.0474],
+      "sys": [0.0141],
+      "real": [0.0617],
+      "rss_mb": [23.6]
     },
-    "zlib": {
+    "RegExp": {
       "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0519],
-      "sys": [0.0068],
-      "real": [0.0588],
-      "rss_mb": [23.96]
+      "user": [0.0524],
+      "sys": [0.0058],
+      "real": [0.0583],
+      "rss_mb": [23.8]
     },
     "Splay": {
       "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.051],
-      "sys": [0.0117],
-      "real": [0.0629],
-      "rss_mb": [23.59]
+      "user": [0.0511],
+      "sys": [0.0088],
+      "real": [0.0601],
+      "rss_mb": [23.43]
     },
     "SplayLatency": {
       "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.051],
-      "sys": [0.0117],
-      "real": [0.0629],
+      "user": [0.0511],
+      "sys": [0.0088],
+      "real": [0.0601],
+      "rss_mb": [23.43]
+    },
+    "Crypto": {
+      "error": "SyntaxError: unexpected keyword typeof",
+      "user": [0.0513],
+      "sys": [0.0141],
+      "real": [0.0656],
       "rss_mb": [23.59]
     },
     "CodeLoad": {
       "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0455],
-      "sys": [0.0137],
-      "real": [0.0594],
-      "rss_mb": [23.39]
+      "user": [0.0492],
+      "sys": [0.0115],
+      "real": [0.0608],
+      "rss_mb": [23.84]
     },
-    "RegExp": {
+    "zlib": {
       "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0487],
-      "sys": [0.0129],
-      "real": [0.0617],
-      "rss_mb": [23.83]
+      "user": [0.0523],
+      "sys": [0.0126],
+      "real": [0.0652],
+      "rss_mb": [23.68]
     },
-    "DeltaBlue": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0472],
-      "sys": [0.0149],
-      "real": [0.0623],
-      "rss_mb": [23.29]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0539],
-      "sys": [0.0086],
-      "real": [0.0626],
-      "rss_mb": [23.59]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.3035],
-      "sys": [0.0208],
-      "real": [0.3245],
-      "rss_mb": [29.85]
-    },
-    "Richards": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0508],
-      "sys": [0.0118],
-      "real": [0.0635],
-      "rss_mb": [23.12]
-    },
-    "Mandreel": {
+    "Box2D": {
       "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.6992],
-      "sys": [0.0449],
-      "real": [0.7443],
-      "rss_mb": [58.35]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.6992],
-      "sys": [0.0449],
-      "real": [0.7443],
-      "rss_mb": [58.35]
-    },
-    "Crypto": {
-      "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.0573],
-      "sys": [0.007],
-      "real": [0.0645],
-      "rss_mb": [23.65]
+      "user": [0.0742],
+      "sys": [0.022],
+      "real": [0.0964],
+      "rss_mb": [23.5]
     },
     "Typescript": {
       "error": "SyntaxError: EOL while scanning string literal",
-      "user": [26.8559],
-      "sys": [0.0158],
-      "real": [26.8744],
-      "rss_mb": [33.05]
+      "user": [21.5944],
+      "sys": [0.0168],
+      "real": [21.6128],
+      "rss_mb": [33.52]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.0524],
+      "sys": [0.0077],
+      "real": [0.0603],
+      "rss_mb": [23.48]
+    },
+    "Richards": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.0509],
+      "sys": [0.0046],
+      "real": [0.0557],
+      "rss_mb": [23.53]
     }
   }
 }

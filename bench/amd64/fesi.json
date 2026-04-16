@@ -1,9 +1,7 @@
 {
-  "binary": "fesi",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "fesi",
-    "console_log": "writeln",
     "dist_size": 955225,
     "engine": "fesi",
     "jdk": "openjdk version \"25.0.2\" 2026-01-20",
@@ -12,126 +10,126 @@
     "revision_date": "2026-02-24",
     "version": "1.1.8"
   },
-  "time": "2026-04-10 05:19:27.838295 UTC",
+  "time": "2026-04-16 03:03:53.334669 UTC",
   "benchmarks": {
-    "DeltaBlue": {
+    "Typescript": {
       "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1594],
-      "sys": [0.0278],
-      "real": [0.1214],
-      "rss_mb": [53.05]
-    },
-    "RegExp": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.133],
-      "sys": [0.0289],
-      "real": [0.1054],
-      "rss_mb": [53.19]
+      "user": [0.1536],
+      "sys": [0.0525],
+      "real": [0.1529],
+      "rss_mb": [52.65]
     },
     "Richards": {
       "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1589],
-      "sys": [0.0299],
-      "real": [0.1202],
-      "rss_mb": [52.93]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1544],
-      "sys": [0.0332],
-      "real": [0.123],
-      "rss_mb": [53.12]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1479],
-      "sys": [0.0373],
-      "real": [0.1181],
-      "rss_mb": [52.89]
-    },
-    "NavierStokes": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1689],
-      "sys": [0.0327],
-      "real": [0.1304],
-      "rss_mb": [53.06]
-    },
-    "Box2D": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1526],
-      "sys": [0.0408],
-      "real": [0.1254],
-      "rss_mb": [52.86]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1684],
-      "sys": [0.0466],
-      "real": [0.1668],
-      "rss_mb": [53.52]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1684],
-      "sys": [0.0466],
-      "real": [0.1668],
-      "rss_mb": [53.52]
-    },
-    "Crypto": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1831],
-      "sys": [0.02],
-      "real": [0.1305],
-      "rss_mb": [52.82]
-    },
-    "RayTrace": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1555],
-      "sys": [0.0333],
-      "real": [0.1209],
-      "rss_mb": [52.73]
-    },
-    "Typescript": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1494],
-      "sys": [0.0652],
-      "real": [0.1573],
-      "rss_mb": [52.79]
+      "user": [0.1772],
+      "sys": [0.0523],
+      "real": [0.1733],
+      "rss_mb": [53.15]
     },
     "Splay": {
       "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1642],
-      "sys": [0.0337],
-      "real": [0.1404],
-      "rss_mb": [53.04]
+      "user": [0.1362],
+      "sys": [0.0443],
+      "real": [0.1442],
+      "rss_mb": [52.88]
     },
     "SplayLatency": {
       "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1642],
-      "sys": [0.0337],
-      "real": [0.1404],
-      "rss_mb": [53.04]
+      "user": [0.1362],
+      "sys": [0.0443],
+      "real": [0.1442],
+      "rss_mb": [52.88]
     },
-    "PdfJS": {
-      "error": "SyntaxError: detected near line 12, column 29, after \"=\"",
-      "user": [0.155],
-      "sys": [0.0485],
-      "real": [0.1516],
-      "rss_mb": [52.76]
-    },
-    "CodeLoad": {
+    "RayTrace": {
       "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1684],
-      "sys": [0.0302],
-      "real": [0.132],
-      "rss_mb": [52.96]
+      "user": [0.1439],
+      "sys": [0.0285],
+      "real": [0.1232],
+      "rss_mb": [53.31]
+    },
+    "RegExp": {
+      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
+      "user": [0.1669],
+      "sys": [0.0321],
+      "real": [0.1426],
+      "rss_mb": [52.95]
     },
     "zlib": {
       "error": "SyntaxError: detected near line 12, column 3, after \"{\"",
-      "user": [0.1394],
-      "sys": [0.0367],
-      "real": [0.1128],
+      "user": [0.1626],
+      "sys": [0.0446],
+      "real": [0.1598],
+      "rss_mb": [53.18]
+    },
+    "NavierStokes": {
+      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
+      "user": [0.1755],
+      "sys": [0.0391],
+      "real": [0.1528],
+      "rss_mb": [52.91]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
+      "user": [0.182],
+      "sys": [0.0513],
+      "real": [0.1678],
       "rss_mb": [53.02]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
+      "user": [0.1792],
+      "sys": [0.0493],
+      "real": [0.1612],
+      "rss_mb": [52.66]
+    },
+    "Crypto": {
+      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
+      "user": [0.1365],
+      "sys": [0.073],
+      "real": [1.1737],
+      "rss_mb": [53.15]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
+      "user": [0.1867],
+      "sys": [0.0531],
+      "real": [0.1719],
+      "rss_mb": [54.04]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
+      "user": [0.1867],
+      "sys": [0.0531],
+      "real": [0.1719],
+      "rss_mb": [54.04]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
+      "user": [0.1597],
+      "sys": [0.0354],
+      "real": [0.1366],
+      "rss_mb": [52.75]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
+      "user": [0.1664],
+      "sys": [0.0657],
+      "real": [0.1673],
+      "rss_mb": [52.52]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: detected near line 12, column 29, after \"=\"",
+      "user": [0.171],
+      "sys": [0.0545],
+      "real": [0.1745],
+      "rss_mb": [52.79]
+    },
+    "Box2D": {
+      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
+      "user": [0.1814],
+      "sys": [0.0452],
+      "real": [0.1603],
+      "rss_mb": [53.19]
     }
   }
 }

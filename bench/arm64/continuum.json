@@ -1,135 +1,136 @@
 {
-  "binary": "continuum",
-  "metadata": {
+  "binary": {
     "arch": "arm64",
     "binary_name": "continuum",
-    "console_log": "console.log",
     "dist_size": 882640,
     "engine": "continuum",
     "repository": "https://github.com/ivankra/continuum.git",
     "revision": "9647c7d9c4c7b1ce770ccdd1683597b4319a9e1c",
     "revision_date": "2014-06-25"
   },
-  "time": "2026-04-10 06:24:06.003939 UTC",
+  "time": "2026-04-16 02:37:28.579187 UTC",
   "benchmarks": {
-    "Splay": {
-      "error": "TypeError: Cannot convert undefined to object; Cannot convert null to object; Cannot convert undefined to object",
-      "user": [0.6361],
-      "sys": [0.0779],
-      "real": [0.4412],
-      "rss_mb": [149.55]
-    },
-    "SplayLatency": {
-      "error": "TypeError: Cannot convert undefined to object; Cannot convert null to object; Cannot convert undefined to object",
-      "user": [0.6361],
-      "sys": [0.0779],
-      "real": [0.4412],
-      "rss_mb": [149.55]
-    },
-    "Typescript": {
-      "error": "ReferenceError: label is not defined",
-      "user": [1.7541],
-      "sys": [0.1586],
-      "real": [1.2173],
-      "rss_mb": [375.09]
-    },
-    "EarleyBoyer": {
-      "error": "TypeError: Cannot convert undefined to object",
-      "user": [1.3276],
-      "sys": [0.1376],
-      "real": [0.9068],
-      "rss_mb": [251.6]
-    },
-    "zlib": {
-      "error": "ReferenceError: label is not defined",
-      "user": [1.3833],
-      "sys": [0.1294],
-      "real": [0.9011],
-      "rss_mb": [304.87]
-    },
-    "Richards": {
-      "error": "TypeError: Cannot convert undefined to object",
-      "user": [16.7165],
-      "sys": [0.263],
-      "real": [16.4694],
-      "rss_mb": [408.75]
-    },
-    "Mandreel": {
-      "error": "ReferenceError: label is not defined",
-      "user": [9.387],
-      "sys": [0.6282],
-      "real": [7.2679],
-      "rss_mb": [1492.26]
-    },
-    "MandreelLatency": {
-      "error": "ReferenceError: label is not defined",
-      "user": [9.387],
-      "sys": [0.6282],
-      "real": [7.2679],
-      "rss_mb": [1492.26]
-    },
-    "DeltaBlue": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'Get')",
-      "user": [0.6347],
-      "sys": [0.0646],
-      "real": [0.4323],
-      "rss_mb": [151.5]
-    },
-    "NavierStokes": {
-      "error": "TypeError: Cannot convert undefined to object",
-      "user": [131.5965],
-      "sys": [9.0649],
-      "real": [136.3387],
-      "rss_mb": [1685.16]
-    },
     "RayTrace": {
+      "score": [6.62],
       "error": "TypeError: Cannot convert undefined to object",
-      "user": [363.5288],
-      "sys": [0.329],
-      "real": [363.2549],
-      "rss_mb": [265.85]
+      "user": [369.7368],
+      "sys": [0.3451],
+      "real": [369.373],
+      "rss_mb": [265.91]
     },
     "PdfJS": {
       "error": "TypeError: Cannot read properties of undefined (reading 'Get')",
-      "user": [2.4268],
-      "sys": [0.2],
-      "real": [1.7188],
-      "rss_mb": [470.0]
+      "user": [2.3899, 2.4774],
+      "sys": [0.1868, 0.1954],
+      "real": [1.6902, 1.7579],
+      "rss_mb": [462.38, 469.53]
     },
     "Gameboy": {
       "error": "TypeError: Cannot convert undefined to object; decode64 is not defined; Cannot convert undefined to object",
-      "user": [222.4503],
-      "sys": [0.398],
-      "real": [221.8683],
-      "rss_mb": [452.56]
+      "user": [224.1495],
+      "sys": [0.314],
+      "real": [223.5103],
+      "rss_mb": [451.26]
     },
-    "CodeLoad": {
-      "error": "TypeError: Cannot convert undefined to object; goog is not defined; Cannot convert undefined to object",
-      "user": [0.6665],
-      "sys": [0.0667],
-      "real": [0.4487],
-      "rss_mb": [153.0]
+    "Mandreel": {
+      "error": "ReferenceError: label is not defined",
+      "user": [8.9073, 9.4604, 9.4834, 9.6826, 9.0642],
+      "sys": [0.5919, 0.6847, 0.6959, 0.6994, 0.5869],
+      "real": [7.1727, 7.3108, 7.4484, 7.5835, 6.9863],
+      "rss_mb": [1485.37, 1476.82, 1490.73, 1488.18, 1476.33]
+    },
+    "MandreelLatency": {
+      "error": "ReferenceError: label is not defined",
+      "user": [8.9073, 9.4604, 9.4834, 9.6826, 9.0642],
+      "sys": [0.5919, 0.6847, 0.6959, 0.6994, 0.5869],
+      "real": [7.1727, 7.3108, 7.4484, 7.5835, 6.9863],
+      "rss_mb": [1485.37, 1476.82, 1490.73, 1488.18, 1476.33]
     },
     "Box2D": {
       "error": "TypeError: Cannot read properties of undefined (reading 'Get')",
-      "user": [1.3618],
-      "sys": [0.1454],
-      "real": [0.8942],
-      "rss_mb": [285.82]
+      "user": [1.2307, 1.3113],
+      "sys": [0.122, 0.1352],
+      "real": [0.8254, 0.8686],
+      "rss_mb": [284.04, 280.46]
+    },
+    "zlib": {
+      "error": "ReferenceError: label is not defined",
+      "user": [1.4523, 1.3489],
+      "sys": [0.1553, 0.1364],
+      "real": [0.955, 0.896],
+      "rss_mb": [303.36, 305.24]
     },
     "RegExp": {
       "error": "TypeError: Cannot convert undefined to object; exec is not a function; Cannot convert undefined to object",
-      "user": [70.7746],
-      "sys": [0.193],
-      "real": [70.3479],
-      "rss_mb": [278.0]
+      "user": [73.7338, 71.1299],
+      "sys": [0.242, 0.1989],
+      "real": [73.2557, 70.6493],
+      "rss_mb": [278.41, 278.88]
+    },
+    "EarleyBoyer": {
+      "error": "TypeError: Cannot convert undefined to object",
+      "user": [1.3047],
+      "sys": [0.1209],
+      "real": [0.8825],
+      "rss_mb": [250.57]
+    },
+    "DeltaBlue": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'Get')",
+      "user": [0.6802],
+      "sys": [0.0753],
+      "real": [0.463],
+      "rss_mb": [153.56]
     },
     "Crypto": {
       "error": "TypeError: Cannot convert undefined to object",
-      "user": [90.1706],
-      "sys": [0.2459],
-      "real": [89.7496],
-      "rss_mb": [280.73]
+      "user": [90.4819, 88.969],
+      "sys": [0.22, 0.226],
+      "real": [90.0525, 88.5011],
+      "rss_mb": [279.27, 273.74]
+    },
+    "NavierStokes": {
+      "error": "TypeError: Cannot convert undefined to object",
+      "score": [18.6, 18.5],
+      "user": [131.4946, 131.7209],
+      "sys": [9.1749, 9.4379],
+      "real": [136.4447, 137.0531],
+      "rss_mb": [1684.43, 1682.72]
+    },
+    "Splay": {
+      "error": "TypeError: Cannot convert undefined to object; Cannot convert null to object; Cannot convert undefined to object",
+      "user": [0.6405, 0.6397],
+      "sys": [0.0674, 0.0786],
+      "real": [0.4392, 0.4455],
+      "rss_mb": [147.88, 149.43]
+    },
+    "SplayLatency": {
+      "error": "TypeError: Cannot convert undefined to object; Cannot convert null to object; Cannot convert undefined to object",
+      "user": [0.6405, 0.6397],
+      "sys": [0.0674, 0.0786],
+      "real": [0.4392, 0.4455],
+      "rss_mb": [147.88, 149.43]
+    },
+    "Richards": {
+      "error": "TypeError: Cannot convert undefined to object",
+      "score": [7.6, 7.58],
+      "user": [17.0792, 17.1475],
+      "sys": [0.2831, 0.2838],
+      "real": [16.8156, 16.8729],
+      "rss_mb": [425.51, 426.8]
+    },
+    "CodeLoad": {
+      "error": "TypeError: Cannot convert undefined to object; goog is not defined; Cannot convert undefined to object",
+      "user": [0.7414],
+      "sys": [0.0765],
+      "real": [0.4999],
+      "rss_mb": [154.75]
+    },
+    "Typescript": {
+      "error": "ReferenceError: label is not defined",
+      "user": [1.7015],
+      "sys": [0.1717],
+      "real": [1.1945],
+      "rss_mb": [374.98]
     }
   }
 }

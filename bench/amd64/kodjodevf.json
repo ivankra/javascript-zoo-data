@@ -1,136 +1,134 @@
 {
-  "binary": "kodjodevf",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "kodjodevf",
-    "binary_sha256": "24c3f25c0399e193c413e4aeb2dcfeddc5a14ae04f36c4127bb15db409b39d19",
-    "binary_size": 9484680,
-    "console_log": "console.log",
+    "binary_sha256": "3b19134a038db45e8c0781ba5ed943206353bfd524fd3059faff7dad02efbf93",
+    "binary_size": 9632280,
     "engine": "kodjodevf",
     "repository": "https://github.com/kodjodevf/js_interpreter.git",
-    "revision": "ab43292f098c1383ac8e6b4d8cabb29e430b524b",
-    "revision_date": "2026-03-27"
+    "revision": "57321554b290f372cb996d0faa4415c90c44a1e8",
+    "revision_date": "2026-04-14"
   },
-  "time": "2026-04-10 05:14:04.598253 UTC",
+  "time": "2026-04-16 04:22:57.836828 UTC",
   "benchmarks": {
-    "Mandreel": {
-      "error": "FAIL: No scores in the output",
-      "user": [15.2536],
-      "sys": [0.2003],
-      "real": [14.6299],
-      "rss_mb": [336.99]
+    "Box2D": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.1156],
+      "sys": [0.0322],
+      "real": [0.1367],
+      "rss_mb": [58.81]
     },
-    "MandreelLatency": {
-      "error": "FAIL: No scores in the output",
-      "user": [15.2536],
-      "sys": [0.2003],
-      "real": [14.6299],
-      "rss_mb": [336.99]
-    },
-    "Typescript": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'None')",
-      "user": [0.2999, 0.3109],
-      "sys": [0.0409, 0.049],
-      "real": [0.292, 0.3053],
-      "rss_mb": [78.55, 78.75]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: Unexpected token at 7914:15: Expected ';' after expression",
-      "user": [0.063, 0.0683],
-      "sys": [0.043, 0.0275],
-      "real": [0.0974, 0.089],
-      "rss_mb": [54.93, 54.93]
-    },
-    "RegExp": {
-      "score": [21.6],
-      "user": [74.7627],
-      "sys": [0.106],
-      "real": [74.8346],
-      "rss_mb": [55.71]
-    },
-    "Richards": {
-      "score": [0.396, 0.393, 0.407, 0.388],
-      "user": [289.5498, 291.6311, 282.1136, 295.7366],
-      "sys": [0.0671, 0.0671, 0.0591, 0.0771],
-      "real": [289.5463, 291.6258, 282.1324, 295.7547],
-      "rss_mb": [47.57, 47.46, 46.99, 47.57]
-    },
-    "Splay": {
-      "score": [18.9, 18.3],
-      "user": [40.2831, 41.4079],
-      "sys": [0.5291, 0.5212],
-      "real": [38.3465, 39.4345],
-      "rss_mb": [828.46, 829.48]
-    },
-    "SplayLatency": {
-      "score": [205, 198],
-      "user": [40.2831, 41.4079],
-      "sys": [0.5291, 0.5212],
-      "real": [38.3465, 39.4345],
-      "rss_mb": [828.46, 829.48]
-    },
-    "RayTrace": {
-      "score": [2.41],
-      "user": [1000.1091],
-      "sys": [0.5561],
-      "real": [1000.334],
-      "rss_mb": [70.39]
+    "zlib": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0148],
+      "sys": [0.0028],
+      "real": [0.0179],
+      "rss_mb": [23.53]
     },
     "Crypto": {
-      "score": [6.66],
-      "user": [740.7806],
-      "sys": [0.4771],
-      "real": [741.0812],
-      "rss_mb": [54.79]
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0203],
+      "sys": [0.0107],
+      "real": [0.0301],
+      "rss_mb": [24.78]
     },
-    "EarleyBoyer": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.1242],
-      "sys": [0.0185],
-      "real": [0.1381],
-      "rss_mb": [51.12]
+    "Splay": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0054],
+      "sys": [0.0065],
+      "real": [0.0118],
+      "rss_mb": [23.36]
     },
-    "NavierStokes": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.8763, 1799.8937, 1799.9277],
-      "sys": [0.157, 0.15, 0.124],
-      "real": [1800.0473, 1800.0989, 1800.0656],
-      "rss_mb": [75.93, 75.71, 75.85]
+    "SplayLatency": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0054],
+      "sys": [0.0065],
+      "real": [0.0118],
+      "rss_mb": [23.36]
+    },
+    "Mandreel": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [2.8398],
+      "sys": [0.2184],
+      "real": [2.0818],
+      "rss_mb": [353.69]
+    },
+    "MandreelLatency": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [2.8398],
+      "sys": [0.2184],
+      "real": [2.0818],
+      "rss_mb": [353.69]
     },
     "PdfJS": {
       "error": "SyntaxError: Unexpected token at 2381:7: Identifier 'imageData' has already been declared",
-      "user": [0.1514, 0.1399],
-      "sys": [0.0341, 0.049],
-      "real": [0.1666, 0.1683],
-      "rss_mb": [80.2, 80.97]
+      "user": [0.1385],
+      "sys": [0.0582],
+      "real": [0.1748],
+      "rss_mb": [80.39]
     },
-    "Box2D": {
-      "score": [59.3, 59, 59.5],
-      "user": [73.4009, 73.8394, 73.2185],
-      "sys": [0.106, 0.0951, 0.0661],
-      "real": [73.425, 73.8621, 73.2343],
-      "rss_mb": [75.33, 75.35, 75.56]
+    "Richards": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0047],
+      "sys": [0.0085],
+      "real": [0.013],
+      "rss_mb": [23.5]
     },
-    "CodeLoad": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0125, 0.0136],
-      "sys": [0.0062, 0.0049],
-      "real": [0.0187, 0.0183],
-      "rss_mb": [23.64, 23.56]
+    "NavierStokes": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0084],
+      "sys": [0.0042],
+      "real": [0.0124],
+      "rss_mb": [23.56]
     },
-    "zlib": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0213, 0.0242, 0.025],
-      "sys": [0.0122, 0.0087, 0.0073],
-      "real": [0.0329, 0.0324, 0.0319],
-      "rss_mb": [23.84, 23.83, 23.58]
+    "EarleyBoyer": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0846],
+      "sys": [0.0328],
+      "real": [0.1109],
+      "rss_mb": [52.37]
     },
     "DeltaBlue": {
-      "score": [0.53],
-      "user": [405.1675],
-      "sys": [0.1772],
-      "real": [405.1747],
-      "rss_mb": [75.83]
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0092],
+      "sys": [0.0072],
+      "real": [0.0162],
+      "rss_mb": [23.37]
+    },
+    "RegExp": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0247],
+      "sys": [0.0276],
+      "real": [0.0512],
+      "rss_mb": [40.66]
+    },
+    "RayTrace": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0088],
+      "sys": [0.0117],
+      "real": [0.02],
+      "rss_mb": [23.62]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: Unexpected token at 10987:5: Identifier 'typedArrayTemp' has already been declared",
+      "user": [0.071],
+      "sys": [0.035],
+      "real": [0.0991],
+      "rss_mb": [55.16]
+    },
+    "Typescript": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.3743],
+      "sys": [0.0473],
+      "real": [0.358],
+      "rss_mb": [79.61]
+    },
+    "CodeLoad": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0099],
+      "sys": [0.0049],
+      "real": [0.0148],
+      "rss_mb": [23.86]
     }
   }
 }

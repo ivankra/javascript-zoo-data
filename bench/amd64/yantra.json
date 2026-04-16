@@ -1,137 +1,135 @@
 {
-  "binary": "yantra",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "yantra",
-    "console_log": "console.log",
-    "dist_size": 23009960,
-    "dotnet": "10.0.201",
+    "dist_size": 23010472,
+    "dotnet": "10.0.202",
     "engine": "yantra",
     "repository": "https://github.com/yantrajs/yantra.git",
-    "revision": "32f185d0c1dc416bbb7c80ac0483ba841b6d7f55",
-    "revision_date": "2026-03-31",
-    "version": "1.2.324-4-g32f185d0"
+    "revision": "e768962efc71102929e67327122cb17007c5e8e5",
+    "revision_date": "2026-04-12",
+    "version": "1.2.332"
   },
-  "time": "2026-04-10 05:56:36.760950 UTC",
+  "time": "2026-04-16 04:31:28.491188 UTC",
   "benchmarks": {
-    "Mandreel": {
-      "error": "SyntaxError: assert is already defined in current scope at 3791, 9",
-      "user": [0.2497, 0.2357],
-      "sys": [0.2749, 0.2864],
-      "real": [0.9604, 0.9452],
-      "rss_mb": [104.25, 104.38]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: assert is already defined in current scope at 3791, 9",
-      "user": [0.2497, 0.2357],
-      "sys": [0.2749, 0.2864],
-      "real": [0.9604, 0.9452],
-      "rss_mb": [104.25, 104.38]
-    },
-    "Typescript": {
-      "error": "SyntaxError: Unexpected token BracketEnd: ) at 5302, 34",
-      "user": [0.237, 0.2629, 0.2557],
-      "sys": [0.1993, 0.2417, 0.2435],
-      "real": [0.7272, 0.9119, 0.8504],
-      "rss_mb": [88.52, 90.02, 94.29]
-    },
-    "zlib": {
-      "error": "SyntaxError: zlib: SyntaxError: Cannot delete a variable in Strict Mode",
-      "user": [290.9924, 298.4434],
-      "sys": [1.8587, 1.9948],
-      "real": [292.4117, 299.9834],
-      "rss_mb": [287.04, 283.42]
-    },
-    "RegExp": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.9823],
-      "sys": [0.0846],
-      "real": [1.0515],
-      "rss_mb": [115.07]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: log is already defined in current scope at 30128, 16",
-      "user": [0.4948, 0.6328],
-      "sys": [0.2941, 0.2826],
-      "real": [1.3764, 1.4625],
-      "rss_mb": [126.93, 127.83]
-    },
     "DeltaBlue": {
-      "score": [639, 670],
-      "user": [2.4906, 2.4977],
-      "sys": [0.0759, 0.0649],
-      "real": [2.4332, 2.4328],
-      "rss_mb": [95.21, 95.64]
+      "score": [678, 683],
+      "user": [2.4948, 2.4557],
+      "sys": [0.0696, 0.095],
+      "real": [2.4404, 2.4178],
+      "rss_mb": [95.37, 95.33]
     },
-    "NavierStokes": {
-      "error": "TypeError: NavierStokes: TypeError: Cannot set property 493 of undefined",
-      "user": [6.1973, 7.5441],
-      "sys": [0.1459, 0.1612],
-      "real": [6.2158, 7.5505],
-      "rss_mb": [124.2, 124.52]
-    },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [2.046],
-      "sys": [0.3953],
-      "real": [2.2711],
-      "rss_mb": [228.25]
-    },
-    "RayTrace": {
-      "score": [520],
-      "user": [7.0256],
-      "sys": [0.1309],
-      "real": [6.9539],
-      "rss_mb": [95.07]
+    "Box2D": {
+      "score": [5810],
+      "user": [3.6117],
+      "sys": [0.0976],
+      "real": [3.3083],
+      "rss_mb": [186.72]
     },
     "Crypto": {
       "error": "FAIL: No scores in the output",
-      "user": [0.5011, 0.4997, 0.4905, 0.5467],
-      "sys": [0.07, 0.0706, 0.0752, 0.0653],
-      "real": [0.5591, 0.5573, 0.5527, 0.5964],
-      "rss_mb": [106.21, 106.21, 106.24, 106.27]
-    },
-    "Splay": {
-      "score": [157],
-      "user": [7.3102],
-      "sys": [0.853],
-      "real": [7.2445],
-      "rss_mb": [1493.11]
-    },
-    "SplayLatency": {
-      "score": [632],
-      "user": [7.3102],
-      "sys": [0.853],
-      "real": [7.2445],
-      "rss_mb": [1493.11]
-    },
-    "Richards": {
-      "score": [601],
-      "user": [2.4191],
-      "sys": [0.0907],
-      "real": [2.4467],
-      "rss_mb": [90.68]
-    },
-    "EarleyBoyer": {
-      "score": [615, 575],
-      "user": [16.6817, 18.0553],
-      "sys": [1.2435, 1.3812],
-      "real": [16.7743, 18.1242],
-      "rss_mb": [251.98, 251.44]
+      "user": [0.4944, 0.4852, 0.5277, 0.4952],
+      "sys": [0.0678, 0.0947, 0.069, 0.0791],
+      "real": [0.5501, 0.5677, 0.5822, 0.5631],
+      "rss_mb": [106.21, 106.88, 106.11, 105.77]
     },
     "CodeLoad": {
-      "error": "SyntaxError: CodeLoad: SyntaxError: Unexpected token BracketEnd: ) at 1, 1095",
-      "user": [0.3849],
-      "sys": [0.0559],
-      "real": [0.4261],
-      "rss_mb": [84.29]
+      "score": [263, 276, 257, 257, 255, 262],
+      "user": [13.9207, 13.6236, 13.8393, 13.703, 13.6616, 13.6448],
+      "sys": [0.4832, 0.4225, 0.5494, 0.5438, 0.4789, 0.5874],
+      "real": [11.4567, 11.2921, 11.2518, 11.1605, 11.2015, 11.2107],
+      "rss_mb": [600.66, 617.06, 556.7, 551.91, 577.5, 576.48]
     },
-    "Box2D": {
-      "score": [5219],
-      "user": [3.741],
-      "sys": [0.1528],
-      "real": [3.4773],
-      "rss_mb": [172.83]
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [2.0902, 2.1436],
+      "sys": [0.4012, 0.3843],
+      "real": [2.2888, 2.2468],
+      "rss_mb": [227.62, 231.31]
+    },
+    "RayTrace": {
+      "score": [491, 469, 447, 497],
+      "user": [6.921, 7.1169, 6.8966, 6.7999],
+      "sys": [0.149, 0.1699, 0.1447, 0.1535],
+      "real": [6.8667, 7.0822, 6.8366, 6.7482],
+      "rss_mb": [94.44, 94.45, 94.66, 94.74]
+    },
+    "Richards": {
+      "score": [553, 568, 553],
+      "user": [2.4252, 2.4229, 2.427],
+      "sys": [0.0765, 0.0808, 0.0778],
+      "real": [2.416, 2.4129, 2.4163],
+      "rss_mb": [90.33, 90.37, 90.5]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.7379, 0.9792, 0.967],
+      "sys": [0.0834, 0.0734, 0.091],
+      "real": [0.8086, 1.0388, 1.04],
+      "rss_mb": [114.5, 114.56, 114.91]
+    },
+    "NavierStokes": {
+      "error": "TypeError: NavierStokes: TypeError: Cannot set property 493 of undefined",
+      "user": [6.4943, 6.1854],
+      "sys": [0.1218, 0.1488],
+      "real": [6.5097, 6.2148],
+      "rss_mb": [124.59, 124.58]
+    },
+    "zlib": {
+      "error": "SyntaxError: zlib: SyntaxError: Cannot delete a variable in Strict Mode",
+      "user": [312.9093],
+      "sys": [2.0923],
+      "real": [314.5656],
+      "rss_mb": [283.73]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: assert is already defined in current scope at 3791, 9",
+      "user": [0.2283, 0.2436, 0.2306],
+      "sys": [0.2842, 0.2674, 0.2608],
+      "real": [0.9188, 0.9098, 0.8926],
+      "rss_mb": [104.31, 104.32, 104.71]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: assert is already defined in current scope at 3791, 9",
+      "user": [0.2283, 0.2436, 0.2306],
+      "sys": [0.2842, 0.2674, 0.2608],
+      "real": [0.9188, 0.9098, 0.8926],
+      "rss_mb": [104.31, 104.32, 104.71]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: log is already defined in current scope at 30128, 16",
+      "user": [0.5175, 0.5317, 0.5147, 0.5041],
+      "sys": [0.3238, 0.3205, 0.3066, 0.3084],
+      "real": [1.3837, 1.3649, 1.3457, 1.3343],
+      "rss_mb": [131.97, 131.99, 126.38, 126.73]
+    },
+    "Splay": {
+      "score": [138, 118, 124, 138],
+      "user": [7.8235, 7.9774, 9.016, 8.112],
+      "sys": [0.8113, 1.0619, 1.0278, 0.8356],
+      "real": [7.6702, 7.9511, 8.7972, 7.9606],
+      "rss_mb": [1516.91, 1598.08, 1529.11, 1565.4]
+    },
+    "SplayLatency": {
+      "score": [641, 554, 538, 600],
+      "user": [7.8235, 7.9774, 9.016, 8.112],
+      "sys": [0.8113, 1.0619, 1.0278, 0.8356],
+      "real": [7.6702, 7.9511, 8.7972, 7.9606],
+      "rss_mb": [1516.91, 1598.08, 1529.11, 1565.4]
+    },
+    "Typescript": {
+      "error": "EXIT: -6",
+      "user": [3.9676, 4.2425, 4.2449, 4.3369, 4.1355],
+      "sys": [0.9705, 0.9306, 0.945, 0.9197, 0.9499],
+      "real": [6.627, 6.9494, 7.0795, 7.066, 6.9508],
+      "rss_mb": [486.22, 487.41, 485.28, 485.86, 487.84]
+    },
+    "EarleyBoyer": {
+      "score": [575, 587],
+      "user": [18.5771, 17.7573],
+      "sys": [1.1127, 1.2383],
+      "real": [18.5698, 17.7233],
+      "rss_mb": [271.77, 256.3]
     }
   }
 }

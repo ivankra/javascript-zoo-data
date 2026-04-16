@@ -1,137 +1,136 @@
 {
-  "binary": "ssrlive",
-  "metadata": {
+  "binary": {
     "arch": "arm64",
     "binary_name": "ssrlive",
-    "binary_sha256": "3672a4c3815b647018e39fe997c5b92fea0bf850869905b55752124ae5e1547d",
-    "binary_size": 7280024,
-    "console_log": "console.log",
+    "binary_sha256": "6b4fdb1aa7dba13a54957930b3d3910389c83489ac10cb35c43ac68187522750",
+    "binary_size": 8197528,
     "engine": "ssrlive",
     "repository": "https://github.com/ssrlive/javascript.git",
-    "revision": "747a62793bbf06acf10a21e9f95512f58e2195e2",
-    "revision_date": "2026-04-08",
+    "revision": "ff6c6e4eb900513d31b1a1f412288f814d69efc8",
+    "revision_date": "2026-04-15",
     "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
   },
-  "time": "2026-04-10 07:13:10.647457 UTC",
+  "flags": [{"if": "flags:module", "then": "--module"}],
+  "time": "2026-04-16 03:28:30.468894 UTC",
   "benchmarks": {
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [1218.629, 1230.9719, 1227.9947],
-      "sys": [0.394, 0.215, 0.239],
-      "real": [1219.171, 1231.2264, 1228.3943],
-      "rss_mb": [627.28, 626.77, 627.3]
-    },
-    "Typescript": {
-      "error": "SyntaxError: 'arguments' can't be defined or assigned to in strict mode code",
-      "user": [0.1999, 0.1913],
-      "sys": [0.007, 0.016],
-      "real": [0.2073, 0.2075],
-      "rss_mb": [35.48, 35.47]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: CodeLoad: SyntaxError: Unexpected token",
-      "user": [0.0092, 0.0106],
-      "sys": [0.002, 0.0011],
-      "real": [0.0114, 0.0119],
-      "rss_mb": [22.24, 22.24]
-    },
-    "Richards": {
-      "score": [26.9, 26.9, 26.9],
-      "user": [5.2594, 5.2517, 5.2536],
-      "sys": [0.002, 0.003, 0.004],
-      "real": [5.262, 5.2556, 5.2583],
-      "rss_mb": [21.99, 21.98, 21.99]
-    },
-    "Splay": {
-      "score": [277, 277, 281],
-      "user": [4.6157, 4.6237, 4.6111],
-      "sys": [0.357, 0.3659, 0.3509],
-      "real": [4.9733, 4.9906, 4.9632],
-      "rss_mb": [813.04, 813.05, 822.92]
-    },
-    "SplayLatency": {
-      "score": [2203, 2198, 2209],
-      "user": [4.6157, 4.6237, 4.6111],
-      "sys": [0.357, 0.3659, 0.3509],
-      "real": [4.9733, 4.9906, 4.9632],
-      "rss_mb": [813.04, 813.05, 822.92]
-    },
-    "RayTrace": {
-      "error": "TypeError: RayTrace: TypeError: Value is not a function",
-      "user": [0.0104],
-      "sys": [0.0021],
-      "real": [0.0129],
-      "rss_mb": [21.99]
-    },
-    "NavierStokes": {
-      "error": "SyntaxError: Unexpected token",
-      "user": [0.0037],
-      "sys": [0.0028],
-      "real": [0.0066],
-      "rss_mb": [22.52]
-    },
     "DeltaBlue": {
-      "score": [32],
-      "user": [8.2691],
-      "sys": [0.037],
-      "real": [8.3079],
-      "rss_mb": [75.64]
-    },
-    "RegExp": {
-      "error": "TypeError: RegExp: TypeError: is not a constructor",
-      "user": [0.0242],
-      "sys": [0.002],
-      "real": [0.0265],
-      "rss_mb": [22.66]
-    },
-    "zlib": {
-      "error": "SyntaxError: zlib: SyntaxError: Unexpected token",
-      "user": [0.0718, 0.0671, 0.0699],
-      "sys": [0.0051, 0.009, 0.006],
-      "real": [0.0771, 0.0764, 0.0762],
-      "rss_mb": [22.79, 22.77, 22.77]
-    },
-    "Crypto": {
-      "error": "OOM: >4096MB",
-      "user": [1198.0009],
-      "sys": [2.1257],
-      "real": [1200.2912],
-      "rss_mb": [4096.53]
-    },
-    "Box2D": {
-      "error": "TypeError: Box2D: TypeError: Cannot read properties of undefined (reading 'bullet')",
-      "user": [0.0975, 0.1, 0.0974],
-      "sys": [0.0139, 0.01, 0.0109],
-      "real": [0.1117, 0.1103, 0.1087],
-      "rss_mb": [23.07, 23.07, 23.05]
+      "score": [29.3],
+      "user": [9.0062],
+      "sys": [0.056],
+      "real": [9.0636],
+      "rss_mb": [86.02]
     },
     "Mandreel": {
       "error": "SyntaxError: Unexpected token",
-      "user": [0.9153, 0.9164],
-      "sys": [0.052, 0.05],
-      "real": [0.9678, 0.9667],
-      "rss_mb": [154.22, 154.21]
+      "user": [0.9436, 0.9335],
+      "sys": [0.054, 0.065],
+      "real": [0.998, 0.9989],
+      "rss_mb": [207.09, 207.09]
     },
     "MandreelLatency": {
       "error": "SyntaxError: Unexpected token",
-      "user": [0.9153, 0.9164],
-      "sys": [0.052, 0.05],
-      "real": [0.9678, 0.9667],
-      "rss_mb": [154.22, 154.21]
+      "user": [0.9436, 0.9335],
+      "sys": [0.054, 0.065],
+      "real": [0.998, 0.9989],
+      "rss_mb": [207.09, 207.09]
     },
-    "EarleyBoyer": {
+    "Typescript": {
+      "error": "SyntaxError: 'arguments' can't be defined or assigned to in strict mode code",
+      "user": [0.2028],
+      "sys": [0.021],
+      "real": [0.2244],
+      "rss_mb": [57.22]
+    },
+    "Splay": {
+      "score": [236],
+      "user": [6.0199],
+      "sys": [0.3819],
+      "real": [6.4034],
+      "rss_mb": [911.03]
+    },
+    "SplayLatency": {
+      "score": [1730],
+      "user": [6.0199],
+      "sys": [0.3819],
+      "real": [6.4034],
+      "rss_mb": [911.03]
+    },
+    "Crypto": {
+      "error": "OOM: >4096MB",
+      "user": [1237.2581],
+      "sys": [2.1247],
+      "real": [1239.5667],
+      "rss_mb": [4096.8]
+    },
+    "NavierStokes": {
       "error": "SyntaxError: Unexpected token",
-      "user": [0.0318, 0.0304, 0.0286],
-      "sys": [0.002, 0.0029, 0.0049],
-      "real": [0.034, 0.0335, 0.0338],
-      "rss_mb": [22.65, 22.65, 22.65]
+      "user": [0.0045],
+      "sys": [0.0022],
+      "real": [0.0069],
+      "rss_mb": [22.38]
+    },
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [1236.5935],
+      "sys": [0.233],
+      "real": [1236.9633],
+      "rss_mb": [631.96]
+    },
+    "RegExp": {
+      "error": "TypeError: RegExp: TypeError: is not a constructor",
+      "user": [0.0286],
+      "sys": [0.002],
+      "real": [0.0309],
+      "rss_mb": [22.64]
+    },
+    "CodeLoad": {
+      "error": "ReferenceError: CodeLoad: ReferenceError: Uncaught: ReferenceError: script is not defined",
+      "user": [1.3584, 1.3401],
+      "sys": [0.089, 0.0849],
+      "real": [1.4483, 1.4258],
+      "rss_mb": [219.87, 219.64]
+    },
+    "Richards": {
+      "score": [23.6],
+      "user": [6.3008],
+      "sys": [0.005],
+      "real": [6.3066],
+      "rss_mb": [22.39]
     },
     "PdfJS": {
       "error": "SyntaxError: Unterminated regex literal",
-      "user": [0.1104, 0.1108, 0.1096],
-      "sys": [0.013, 0.012, 0.0139],
-      "real": [0.1237, 0.123, 0.124],
-      "rss_mb": [28.91, 28.91, 28.91]
+      "user": [0.1099],
+      "sys": [0.02],
+      "real": [0.1303],
+      "rss_mb": [40.85]
+    },
+    "RayTrace": {
+      "error": "TypeError: RayTrace: TypeError: Value is not a function",
+      "user": [0.0078],
+      "sys": [0.0068],
+      "real": [0.0149],
+      "rss_mb": [22.39]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: Octal escape sequences are not allowed in strict mode",
+      "user": [0.0051],
+      "sys": [0.0031],
+      "real": [0.0084],
+      "rss_mb": [22.64]
+    },
+    "zlib": {
+      "error": "SyntaxError: Delete of an unqualified identifier in strict mode",
+      "user": [0.0085, 0.0077, 0.0085],
+      "sys": [0.0011, 0.0019, 0.0011],
+      "real": [0.0098, 0.0099, 0.0098],
+      "rss_mb": [22.72, 22.7, 22.72]
+    },
+    "Box2D": {
+      "score": [102, 99.4],
+      "user": [42.5981, 43.8501],
+      "sys": [0.246, 0.256],
+      "real": [42.8519, 44.1147],
+      "rss_mb": [467.04, 467.05]
     }
   }
 }

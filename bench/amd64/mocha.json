@@ -1,25 +1,23 @@
 {
-  "binary": "mocha",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "mocha",
     "binary_sha256": "71f325312a532e62fd467147e4a296ff0590d61ac9a1e589bd3062021f1cb98f",
     "binary_size": 186768,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": "print",
     "engine": "mocha",
     "repository": "https://github.com/doodlewind/mocha1995.git",
     "revision": "3d109cbf6d185c3665da2982e92ce198406cca01",
     "revision_date": "2024-10-12"
   },
-  "time": "2026-04-10 08:06:51.013305 UTC",
+  "time": "2026-04-16 03:16:48.778990 UTC",
   "benchmarks": {
     "Richards": {
-      "score": [100.172, 98.55],
-      "user": [2.0362, 2.0258],
-      "sys": [0.003, 0.002],
-      "real": [2.0396, 2.0283],
-      "rss_mb": [23.34, 23.36]
+      "score": [96.718, 94.936, 82.578],
+      "user": [2.0495, 2.0132, 2.0516],
+      "sys": [0.001, 0.001, 0.005],
+      "real": [2.0511, 2.0153, 2.0573],
+      "rss_mb": [23.49, 23.73, 23.65]
     }
   }
 }

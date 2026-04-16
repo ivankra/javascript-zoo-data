@@ -1,136 +1,134 @@
 {
-  "binary": "asynkron",
-  "metadata": {
+  "binary": {
     "arch": "amd64",
     "binary_name": "asynkron",
-    "console_log": ["console.log", "print"],
     "dist_size": 4336222,
-    "dotnet": "10.0.201",
+    "dotnet": "10.0.202",
     "engine": "asynkron",
     "repository": "https://github.com/asynkron/Asynkron.JsEngine.git",
     "revision": "00fecd1de76491afe557d7a07b4f373ed40c93eb",
     "revision_date": "2026-04-06"
   },
-  "time": "2026-04-10 05:10:33.463368 UTC",
+  "time": "2026-04-16 02:05:05.666759 UTC",
   "benchmarks": {
-    "CodeLoad": {
-      "error": "SyntaxError: CodeLoad: SyntaxError: Unexpected token '}'. at line 1, column 1606",
-      "user": [0.4403],
-      "sys": [0.0371],
-      "real": [0.4801],
-      "rss_mb": [64.98]
+    "zlib": {
+      "error": "SyntaxError: zlib: SyntaxError: Unexpected token '}'. at line 1, column 116377",
+      "user": [0.6036],
+      "sys": [0.0716],
+      "real": [0.6715],
+      "rss_mb": [96.64]
     },
-    "Mandreel": {
-      "error": "CRASH: SIGABRT",
-      "user": [4.2269, 4.2023, 4.4128, 4.278],
-      "sys": [0.7003, 0.7027, 0.7556, 0.7068],
-      "real": [5.6706, 5.6275, 5.7171, 5.7216],
-      "rss_mb": [368.7, 370.82, 373.37, 370.42]
+    "Splay": {
+      "score": [67.4],
+      "user": [17.8615],
+      "sys": [1.1101],
+      "real": [17.1484],
+      "rss_mb": [1777.18]
     },
-    "MandreelLatency": {
-      "error": "CRASH: SIGABRT",
-      "user": [4.2269, 4.2023, 4.4128, 4.278],
-      "sys": [0.7003, 0.7027, 0.7556, 0.7068],
-      "real": [5.6706, 5.6275, 5.7171, 5.7216],
-      "rss_mb": [368.7, 370.82, 373.37, 370.42]
-    },
-    "Richards": {
-      "score": [12.7],
-      "user": [11.6077],
-      "sys": [0.1339],
-      "real": [10.6543],
-      "rss_mb": [92.76]
-    },
-    "Typescript": {
-      "error": "TypeError: Typescript: TypeError: Attempted to call a non-callable value.",
-      "user": [7.8483],
-      "sys": [0.1672],
-      "real": [6.0661],
-      "rss_mb": [176.98]
-    },
-    "Crypto": {
-      "score": [23.9],
-      "user": [170.4345],
-      "sys": [0.2935],
-      "real": [169.206],
-      "rss_mb": [122.82]
-    },
-    "RayTrace": {
-      "score": [39.1],
-      "user": [64.923],
-      "sys": [0.2889],
-      "real": [63.6803],
-      "rss_mb": [97.41]
-    },
-    "Box2D": {
-      "error": "SyntaxError: Unexpected token '}'. at line 616, column 340",
-      "user": [0.3407],
-      "sys": [0.0492],
-      "real": [0.3918],
-      "rss_mb": [76.41]
+    "SplayLatency": {
+      "score": [551],
+      "user": [17.8615],
+      "sys": [1.1101],
+      "real": [17.1484],
+      "rss_mb": [1777.18]
     },
     "RegExp": {
       "error": "SyntaxError: RegExp: SyntaxError: Invalid pattern '\\A[",
-      "user": [2.2953],
-      "sys": [0.0849],
-      "real": [1.9095],
-      "rss_mb": [98.7]
+      "user": [1.9416],
+      "sys": [0.0539],
+      "real": [1.6082],
+      "rss_mb": [107.84]
     },
-    "NavierStokes": {
-      "score": [75.4, 73.1],
-      "user": [35.8104, 36.8247],
-      "sys": [0.1125, 0.1127],
-      "real": [34.8427, 35.8441],
-      "rss_mb": [105.19, 104.74]
+    "Typescript": {
+      "error": "TypeError: Typescript: TypeError: Attempted to call a non-callable value.",
+      "user": [6.7951, 6.7851],
+      "sys": [0.1242, 0.184],
+      "real": [5.3017, 5.3466],
+      "rss_mb": [184.61, 177.75]
     },
-    "zlib": {
-      "error": "SyntaxError: zlib: SyntaxError: Unexpected token '}'. at line 1, column 116377",
-      "user": [0.6053],
-      "sys": [0.073],
-      "real": [0.6721],
-      "rss_mb": [96.79]
-    },
-    "Splay": {
-      "score": [79.2, 79.6],
-      "user": [16.3635, 16.3426],
-      "sys": [1.2505, 1.306],
-      "real": [15.7204, 15.7324],
-      "rss_mb": [1769.46, 1769.83]
-    },
-    "SplayLatency": {
-      "score": [645, 644],
-      "user": [16.3635, 16.3426],
-      "sys": [1.2505, 1.306],
-      "real": [15.7204, 15.7324],
-      "rss_mb": [1769.46, 1769.83]
-    },
-    "EarleyBoyer": {
-      "error": "OOM: >4096MB",
-      "user": [46.1366, 45.8426],
-      "sys": [2.8368, 2.4466],
-      "real": [44.5667, 44.2775],
-      "rss_mb": [4098.57, 4102.26]
+    "Richards": {
+      "score": [11.5],
+      "user": [12.3225],
+      "sys": [0.1011],
+      "real": [11.368],
+      "rss_mb": [92.52]
     },
     "PdfJS": {
       "error": "TypeError: PdfJS: TypeError: Cannot read properties of null or undefined",
-      "user": [5.131, 4.5772],
-      "sys": [0.3241, 0.3484],
-      "real": [3.977, 3.5493],
-      "rss_mb": [286.94, 286.19]
+      "user": [5.5106],
+      "sys": [0.324],
+      "real": [4.1675],
+      "rss_mb": [288.51]
     },
-    "DeltaBlue": {
-      "score": [10.6],
-      "user": [23.1394],
-      "sys": [0.153],
-      "real": [22.0591],
-      "rss_mb": [124.93]
+    "Box2D": {
+      "error": "SyntaxError: Unexpected token '}'. at line 616, column 340",
+      "user": [0.3437],
+      "sys": [0.0423],
+      "real": [0.3865],
+      "rss_mb": [76.29]
+    },
+    "Crypto": {
+      "score": [22.8],
+      "user": [177.6085],
+      "sys": [0.3861],
+      "real": [176.4382],
+      "rss_mb": [124.14]
+    },
+    "NavierStokes": {
+      "score": [73.8],
+      "user": [36.495],
+      "sys": [0.0971],
+      "real": [35.4847],
+      "rss_mb": [104.69]
     },
     "Gameboy": {
-      "score": [118, 120, 114],
-      "user": [92.1347, 90.5305, 94.972],
-      "sys": [0.551, 0.5389, 0.413],
-      "real": [90.9203, 89.3524, 93.7456],
-      "rss_mb": [443.5, 444.01, 443.46]
+      "score": [113],
+      "user": [96.2419],
+      "sys": [0.4336],
+      "real": [94.9845],
+      "rss_mb": [444.13]
+    },
+    "EarleyBoyer": {
+      "error": "OOM: >4096MB",
+      "user": [44.4528, 46.823],
+      "sys": [2.8897, 2.523],
+      "real": [42.8972, 45.1234],
+      "rss_mb": [4098.62, 4101.81]
+    },
+    "DeltaBlue": {
+      "score": [14.6],
+      "user": [17.2191],
+      "sys": [0.1575],
+      "real": [16.5589],
+      "rss_mb": [118.25]
+    },
+    "Mandreel": {
+      "error": "CRASH: SIGABRT",
+      "user": [4.5732],
+      "sys": [0.7814],
+      "real": [5.8797],
+      "rss_mb": [371.91]
+    },
+    "MandreelLatency": {
+      "error": "CRASH: SIGABRT",
+      "user": [4.5732],
+      "sys": [0.7814],
+      "real": [5.8797],
+      "rss_mb": [371.91]
+    },
+    "RayTrace": {
+      "score": [36.1],
+      "user": [70.254],
+      "sys": [0.265],
+      "real": [69.0259],
+      "rss_mb": [106.25]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: Unexpected token '}'. at line 1, column 1606",
+      "user": [0.4296],
+      "sys": [0.0558],
+      "real": [0.4859],
+      "rss_mb": [65.13]
     }
   }
 }

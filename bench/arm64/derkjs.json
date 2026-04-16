@@ -1,138 +1,136 @@
 {
-  "binary": "derkjs",
-  "metadata": {
+  "binary": {
     "arch": "arm64",
     "binary_name": "derkjs",
     "binary_sha256": "d72e3e6470e5970d0d4b0c291a8bed054a72494d646d9b1f567ad6ceb06f227f",
     "binary_size": 1909424,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": "console.log",
     "engine": "derkjs",
     "repository": "https://github.com/DrkWithT/DerkJS-Redux.git",
     "revision": "a0e388cd9bff0ee0eb5c393f5300216259c71bf5",
-    "revision_date": "2026-03-22",
-    "run_script_cmd": "$BINARY -r $FILE"
+    "revision_date": "2026-03-22"
   },
-  "time": "2026-04-10 06:15:43.869392 UTC",
+  "flags": ["-r"],
+  "time": "2026-04-16 02:11:38.735839 UTC",
   "benchmarks": {
-    "PdfJS": {
-      "error": "SyntaxError: SyntaxError [ln 360, col 22]:",
-      "user": [0.0041],
-      "sys": [0.001],
-      "real": [0.0054],
-      "rss_mb": [28.76]
-    },
     "Mandreel": {
       "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
-      "user": [0.017],
-      "sys": [0.007],
-      "real": [0.0243],
-      "rss_mb": [52.24]
+      "user": [0.0172],
+      "sys": [0.0071],
+      "real": [0.0246],
+      "rss_mb": [52.69]
     },
     "MandreelLatency": {
       "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
-      "user": [0.017],
-      "sys": [0.007],
-      "real": [0.0243],
-      "rss_mb": [52.24]
+      "user": [0.0172],
+      "sys": [0.0071],
+      "real": [0.0246],
+      "rss_mb": [52.69]
     },
-    "CodeLoad": {
+    "RayTrace": {
+      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
+      "user": [0.001],
+      "sys": [0.0],
+      "real": [0.0013],
+      "rss_mb": [22.4]
+    },
+    "RegExp": {
+      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
+      "user": [0.0013],
+      "sys": [0.0],
+      "real": [0.0015],
+      "rss_mb": [22.65]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
+      "user": [0.0009],
+      "sys": [0.0009],
+      "real": [0.002],
+      "rss_mb": [22.64]
+    },
+    "Gameboy": {
       "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
       "user": [0.0],
-      "sys": [0.0013],
-      "real": [0.0014],
-      "rss_mb": [22.24]
-    },
-    "Richards": {
-      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
-      "user": [0.0],
-      "sys": [0.001],
-      "real": [0.0012],
-      "rss_mb": [21.99]
+      "sys": [0.0025],
+      "real": [0.0027],
+      "rss_mb": [24.21]
     },
     "Box2D": {
       "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
       "user": [0.0014],
       "sys": [0.0],
-      "real": [0.0016],
-      "rss_mb": [22.78]
+      "real": [0.0017],
+      "rss_mb": [22.64]
     },
-    "RayTrace": {
+    "PdfJS": {
+      "error": "SyntaxError: SyntaxError [ln 360, col 22]:",
+      "user": [0.0017],
+      "sys": [0.0035],
+      "real": [0.0054],
+      "rss_mb": [28.8]
+    },
+    "zlib": {
+      "error": "SyntaxError: SyntaxError [ln 295, col 21]:",
+      "user": [0.0007],
+      "sys": [0.0007],
+      "real": [0.0016],
+      "rss_mb": [22.71]
+    },
+    "Typescript": {
+      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
+      "user": [0.0032],
+      "sys": [0.0043],
+      "real": [0.0079],
+      "rss_mb": [32.38]
+    },
+    "Splay": {
       "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
       "user": [0.0],
       "sys": [0.001],
       "real": [0.0012],
-      "rss_mb": [21.98]
+      "rss_mb": [22.38]
+    },
+    "SplayLatency": {
+      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
+      "user": [0.0],
+      "sys": [0.001],
+      "real": [0.0012],
+      "rss_mb": [22.38]
     },
     "NavierStokes": {
       "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
       "user": [0.001],
       "sys": [0.0],
-      "real": [0.0012],
+      "real": [0.0018],
+      "rss_mb": [22.39]
+    },
+    "Crypto": {
+      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
+      "user": [0.0006],
+      "sys": [0.0006],
+      "real": [0.0013],
+      "rss_mb": [22.39]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
+      "user": [0.0012],
+      "sys": [0.0],
+      "real": [0.0014],
+      "rss_mb": [22.64]
+    },
+    "Richards": {
+      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
+      "user": [0.0],
+      "sys": [0.001],
+      "real": [0.0013],
       "rss_mb": [22.39]
     },
     "DeltaBlue": {
       "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
       "user": [0.0],
-      "sys": [0.001],
-      "real": [0.0014],
-      "rss_mb": [21.99]
-    },
-    "Typescript": {
-      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
-      "user": [0.0011],
-      "sys": [0.0066],
-      "real": [0.0079],
-      "rss_mb": [32.18]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
-      "user": [0.0017],
-      "sys": [0.0008],
-      "real": [0.0027],
-      "rss_mb": [24.27]
-    },
-    "Crypto": {
-      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
-      "user": [0.0011],
-      "sys": [0.0],
+      "sys": [0.0011],
       "real": [0.0013],
-      "rss_mb": [22.52]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
-      "user": [0.0016],
-      "sys": [0.0],
-      "real": [0.002],
-      "rss_mb": [22.65]
-    },
-    "zlib": {
-      "error": "SyntaxError: SyntaxError [ln 295, col 21]:",
-      "user": [0.0],
-      "sys": [0.0015],
-      "real": [0.0017],
-      "rss_mb": [22.76]
-    },
-    "Splay": {
-      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
-      "user": [0.001],
-      "sys": [0.0],
-      "real": [0.0013],
-      "rss_mb": [22.53]
-    },
-    "SplayLatency": {
-      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
-      "user": [0.001],
-      "sys": [0.0],
-      "real": [0.0013],
-      "rss_mb": [22.53]
-    },
-    "RegExp": {
-      "error": "SyntaxError: SyntaxError [ln 351, col 22]:",
-      "user": [0.0007],
-      "sys": [0.0007],
-      "real": [0.0015],
-      "rss_mb": [22.65]
+      "rss_mb": [22.39]
     }
   }
 }
