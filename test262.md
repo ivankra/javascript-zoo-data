@@ -11,10 +11,13 @@
 * 97.466 libjs_gcc
 * 97.374 escargot_full
 * 96.761 boa
+* 95.578 deno
 * 93.691 kiesel
 * 92.138 jsc_exp
 * 89.008 asynkron
 * 87.792 engine262
+* 86.0 node_exp
+* 85.88 node
 * 85.804 engine262_d8
 * 85.723 engine262_jsc
 * 85.584 jsc_gcc
@@ -49,6 +52,7 @@
 * 74.458 primjs
 * 74.078 hermes_clang
 * 74.078 hermes
+* 73.454 bun
 * 73.379 nocturnejs
 * 72.886 okojo
 * 71.054 syoyo
@@ -149,12 +153,15 @@
 * 97.608 libjs_gcc
 * 97.55 escargot_full
 * 96.983 boa
+* 95.815 deno
 * 93.878 kiesel
 * 91.989 jsc_exp
 * 89.416 asynkron
 * 87.75 engine262
 * 85.826 engine262_d8
 * 85.743 engine262_jsc
+* 85.623 node_exp
+* 85.503 node
 * 85.339 jsc_gcc
 * 85.325 jsc
 * 85.323 jsc_jitless
@@ -187,6 +194,7 @@
 * 74.652 hermes_full
 * 74.1 hermes_clang
 * 74.1 hermes
+* 73.394 bun
 * 73.278 okojo
 * 72.866 nocturnejs
 * 71.438 syoyo
@@ -287,12 +295,15 @@
 * 98.178 escargot_full
 * 97.94 libjs
 * 97.444 libjs_gcc
+* 96.267 deno
 * 95.637 jsc_exp
 * 94.793 kiesel
 * 93.627 engine262
 * 91.776 asynkron
 * 91.571 engine262_d8
 * 91.482 engine262_jsc
+* 89.023 node_exp
+* 88.895 node
 * 88.661 jsc_gcc
 * 88.655 graaljs
 * 88.645 jsc
@@ -326,6 +337,7 @@
 * 79.076 hermes_full
 * 77.825 nocturnejs
 * 75.958 yavashark
+* 75.919 bun
 * 75.753 okojo
 * 72.889 modernc-quickjs
 * 72.277 syoyo
@@ -425,6 +437,7 @@
 * 98.153 escargot_full
 * 97.895 libjs
 * 97.387 libjs_gcc
+* 96.383 deno
 * 95.623 kiesel
 * 95.538 jsc_exp
 * 95.416 engine262
@@ -433,6 +446,8 @@
 * 91.635 asynkron
 * 88.983 xs_clang
 * 88.983 xs
+* 88.828 node_exp
+* 88.697 node
 * 88.45 graaljs
 * 88.403 jsc_gcc
 * 88.386 jsc
@@ -465,6 +480,7 @@
 * 77.39 nocturnejs
 * 76.867 okojo
 * 76.104 yavashark
+* 75.888 bun
 * 72.983 syoyo
 * 72.45 modernc-quickjs
 * 72.008 sval
@@ -569,6 +585,8 @@
 * 99.198 v8_full
 * 99.198 v8_exp
 * 99.125 quickjs-ng_262
+* 99.109 node_exp
+* 99.109 node
 * 99.09 escargot_full
 * 98.874 libjs
 * 98.339 spidermonkey_jitless
@@ -583,6 +601,7 @@
 * 97.617 escargot_clang
 * 97.617 escargot
 * 97.514 brimstone
+* 97.088 deno
 * 96.825 kiesel
 * 96.05 engine262
 * 94.483 starlingmonkey
@@ -602,6 +621,7 @@
 * 89.33 hermes_full
 * 87.951 nocturnejs
 * 86.675 okojo
+* 85.491 bun
 * 81.78 modernc-quickjs
 * 81.197 sobek
 * 80.745 sval
@@ -700,6 +720,7 @@
 * 97.751 kiesel
 * 97.466 boa
 * 96.132 jint
+* 94.243 deno
 * 93.973 escargot_full
 * 92.009 graaljs_exp
 * 85.967 yavashark
@@ -718,4 +739,5 @@
 * 0.03 jsc_gcc
 * 0.03 jsc
 * 0.03 graaljs
+* 0.03 bun
 
