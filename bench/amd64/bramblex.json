@@ -8,126 +8,126 @@
     "revision": "ab7133f7435acdf16a86473cbd36ab68d6195fba",
     "revision_date": "2018-03-08"
   },
-  "time": "2026-04-16 02:05:12.568394 UTC",
+  "time": "2026-04-24 02:50:56.681906 UTC",
   "benchmarks": {
-    "Gameboy": {
-      "error": "ReferenceError: 'performance'",
-      "user": [0.1902],
-      "sys": [0.0424],
-      "real": [0.1161],
-      "rss_mb": [81.55]
-    },
-    "DeltaBlue": {
-      "error": "ReferenceError: 'performance'",
-      "user": [0.0524],
-      "sys": [0.0191],
-      "real": [0.0555],
-      "rss_mb": [51.47]
-    },
-    "EarleyBoyer": {
-      "error": "ReferenceError: 'performance'",
-      "user": [0.1137],
-      "sys": [0.0196],
-      "real": [0.0772],
-      "rss_mb": [68.39]
-    },
-    "CodeLoad": {
-      "error": "ReferenceError: 'performance'",
-      "user": [0.0506],
-      "sys": [0.0099],
-      "real": [0.0489],
-      "rss_mb": [55.87]
-    },
-    "Crypto": {
-      "error": "ReferenceError: 'performance'",
-      "user": [0.0719],
-      "sys": [0.0207],
-      "real": [0.064],
-      "rss_mb": [59.65]
-    },
     "Mandreel": {
       "error": "ReferenceError: 'performance'",
-      "user": [1.3474],
-      "sys": [0.2435],
-      "real": [0.798],
-      "rss_mb": [422.61]
+      "user": [1.3673],
+      "sys": [0.258],
+      "real": [0.8162],
+      "rss_mb": [423.01]
     },
     "MandreelLatency": {
       "error": "ReferenceError: 'performance'",
-      "user": [1.3474],
-      "sys": [0.2435],
-      "real": [0.798],
-      "rss_mb": [422.61]
-    },
-    "RayTrace": {
-      "error": "ReferenceError: 'performance'",
-      "user": [0.0568],
-      "sys": [0.0147],
-      "real": [0.0557],
-      "rss_mb": [51.87]
-    },
-    "NavierStokes": {
-      "error": "ReferenceError: 'performance'",
-      "user": [0.0557],
-      "sys": [0.0109],
-      "real": [0.0513],
-      "rss_mb": [51.42]
-    },
-    "Richards": {
-      "error": "ReferenceError: 'performance'",
-      "user": [0.0538],
-      "sys": [0.0112],
-      "real": [0.0547],
-      "rss_mb": [50.57]
-    },
-    "Typescript": {
-      "error": "ReferenceError: 'performance'",
-      "user": [0.3357],
-      "sys": [0.0534],
-      "real": [0.2062],
-      "rss_mb": [117.27]
+      "user": [1.3673],
+      "sys": [0.258],
+      "real": [0.8162],
+      "rss_mb": [423.01]
     },
     "RegExp": {
       "error": "ReferenceError: 'performance'",
-      "user": [0.0924],
-      "sys": [0.0228],
-      "real": [0.0739],
-      "rss_mb": [63.62]
-    },
-    "zlib": {
-      "error": "ReferenceError: 'performance'",
-      "user": [0.0389],
-      "sys": [0.0154],
-      "real": [0.0401],
-      "rss_mb": [56.46]
-    },
-    "Box2D": {
-      "error": "ReferenceError: 'performance'",
-      "user": [0.1945],
-      "sys": [0.0385],
-      "real": [0.1225],
-      "rss_mb": [83.3]
+      "user": [0.0869],
+      "sys": [0.0225],
+      "real": [0.0693],
+      "rss_mb": [62.97]
     },
     "Splay": {
       "error": "ReferenceError: 'performance'",
-      "user": [0.0562],
-      "sys": [0.0074],
-      "real": [0.0487],
-      "rss_mb": [51.25]
+      "user": [0.0469],
+      "sys": [0.0188],
+      "real": [0.0518],
+      "rss_mb": [50.75]
     },
     "SplayLatency": {
       "error": "ReferenceError: 'performance'",
-      "user": [0.0562],
-      "sys": [0.0074],
-      "real": [0.0487],
-      "rss_mb": [51.25]
+      "user": [0.0469],
+      "sys": [0.0188],
+      "real": [0.0518],
+      "rss_mb": [50.75]
+    },
+    "Crypto": {
+      "error": "ReferenceError: 'performance'",
+      "user": [0.079],
+      "sys": [0.0179],
+      "real": [0.0685],
+      "rss_mb": [60.18]
+    },
+    "zlib": {
+      "error": "ReferenceError: 'performance'",
+      "user": [0.0474],
+      "sys": [0.0227],
+      "real": [0.0519],
+      "rss_mb": [56.3]
+    },
+    "CodeLoad": {
+      "error": "ReferenceError: 'performance'",
+      "user": [0.0503],
+      "sys": [0.0101],
+      "real": [0.0453],
+      "rss_mb": [56.13]
+    },
+    "DeltaBlue": {
+      "error": "ReferenceError: 'performance'",
+      "user": [0.0561],
+      "sys": [0.0138],
+      "real": [0.0552],
+      "rss_mb": [51.11]
+    },
+    "Typescript": {
+      "error": "ReferenceError: 'performance'",
+      "user": [0.2507],
+      "sys": [0.0566],
+      "real": [0.1679],
+      "rss_mb": [117.41]
+    },
+    "NavierStokes": {
+      "error": "ReferenceError: 'performance'",
+      "user": [0.0521],
+      "sys": [0.0164],
+      "real": [0.0512],
+      "rss_mb": [52.07]
+    },
+    "EarleyBoyer": {
+      "error": "ReferenceError: 'performance'",
+      "user": [0.1133],
+      "sys": [0.0172],
+      "real": [0.0777],
+      "rss_mb": [67.82]
+    },
+    "Richards": {
+      "error": "ReferenceError: 'performance'",
+      "user": [0.0469],
+      "sys": [0.011],
+      "real": [0.0461],
+      "rss_mb": [50.78]
+    },
+    "Box2D": {
+      "error": "ReferenceError: 'performance'",
+      "user": [0.2022],
+      "sys": [0.0379],
+      "real": [0.1278],
+      "rss_mb": [83.95]
+    },
+    "RayTrace": {
+      "error": "ReferenceError: 'performance'",
+      "user": [0.0634],
+      "sys": [0.0143],
+      "real": [0.0577],
+      "rss_mb": [52.01]
     },
     "PdfJS": {
       "error": "ReferenceError: 'performance'",
-      "user": [0.4457],
-      "sys": [0.0542],
-      "real": [0.2389],
-      "rss_mb": [142.27]
+      "user": [0.451],
+      "sys": [0.0745],
+      "real": [0.2594],
+      "rss_mb": [142.1]
+    },
+    "Gameboy": {
+      "error": "ReferenceError: 'performance'",
+      "user": [0.1906],
+      "sys": [0.0438],
+      "real": [0.1172],
+      "rss_mb": [81.6]
     }
   }
 }

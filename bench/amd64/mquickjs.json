@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "mquickjs",
-    "binary_sha256": "513ef1a783cfbaee5879c181bc546461ca7c44ba0ab2043caa4b5cd6049e25ef",
+    "binary_sha256": "a210bdc6d07dfc49fe4a46504e11d2baf497d6d84cf551e2ec8b2216fac1d16e",
     "binary_size": 215768,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "mquickjs",
@@ -10,126 +10,126 @@
     "revision": "ee50431eac9b14b99f722b537ec4cac0c8dd75ab",
     "revision_date": "2026-01-15"
   },
-  "time": "2026-04-16 03:16:52.062423 UTC",
+  "time": "2026-04-24 03:51:40.068457 UTC",
   "benchmarks": {
-    "RayTrace": {
-      "error": "TypeError: RayTrace: TypeError: only Date.now() is supported",
-      "user": [0.0055],
-      "sys": [0.0009],
-      "real": [0.0067],
-      "rss_mb": [23.62]
-    },
-    "Richards": {
-      "error": "TypeError: Richards: TypeError: only Date.now() is supported",
-      "user": [0.0035],
-      "sys": [0.0009],
-      "real": [0.0046],
-      "rss_mb": [23.64]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: direct eval is not supported. Use (1,eval) instead for indirect",
-      "user": [0.0367],
-      "sys": [0.002],
-      "real": [0.039],
-      "rss_mb": [31.07]
-    },
-    "Splay": {
-      "error": "InternalError: Splay: InternalError: out of memory",
-      "user": [0.2118],
-      "sys": [0.003],
-      "real": [0.215],
-      "rss_mb": [23.32]
-    },
-    "SplayLatency": {
-      "error": "InternalError: Splay: InternalError: out of memory",
-      "user": [0.2118],
-      "sys": [0.003],
-      "real": [0.215],
-      "rss_mb": [23.32]
+    "CodeLoad": {
+      "error": "TypeError: CodeLoad: TypeError: only Date.now() is supported",
+      "user": [0.0058],
+      "sys": [0.001],
+      "real": [0.0069],
+      "rss_mb": [23.6]
     },
     "Typescript": {
       "error": "SyntaxError: invalid argument name",
-      "user": [0.1854],
-      "sys": [0.007],
-      "real": [0.1928],
-      "rss_mb": [35.68]
-    },
-    "RegExp": {
-      "error": "TypeError: RegExp: TypeError: only Date.now() is supported",
-      "user": [0.2892],
+      "user": [0.1923],
       "sys": [0.003],
-      "real": [0.2925],
-      "rss_mb": [23.32]
-    },
-    "NavierStokes": {
-      "error": "TypeError: NavierStokes: TypeError: only Date.now() is supported",
-      "user": [0.0059],
-      "sys": [0.002],
-      "real": [0.008],
-      "rss_mb": [23.48]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: catch variable already exists",
-      "user": [0.0204],
-      "sys": [0.001],
-      "real": [0.0216],
-      "rss_mb": [25.46]
-    },
-    "CodeLoad": {
-      "error": "TypeError: CodeLoad: TypeError: only Date.now() is supported",
-      "user": [0.0067],
-      "sys": [0.0],
-      "real": [0.0069],
-      "rss_mb": [23.71]
-    },
-    "Box2D": {
-      "error": "TypeError: Box2D: TypeError: only Date.now() is supported",
-      "user": [0.1003],
-      "sys": [0.002],
-      "real": [0.1026],
-      "rss_mb": [23.77]
+      "real": [0.1956],
+      "rss_mb": [35.74]
     },
     "EarleyBoyer": {
       "error": "SyntaxError: invalid escape sequence",
-      "user": [0.0008],
-      "sys": [0.0015],
-      "real": [0.0026],
-      "rss_mb": [23.8]
+      "user": [0.0018],
+      "sys": [0.0],
+      "real": [0.002],
+      "rss_mb": [23.76]
+    },
+    "Splay": {
+      "error": "InternalError: Splay: InternalError: out of memory",
+      "user": [0.2181],
+      "sys": [0.004],
+      "real": [0.2224],
+      "rss_mb": [23.29]
+    },
+    "SplayLatency": {
+      "error": "InternalError: Splay: InternalError: out of memory",
+      "user": [0.2181],
+      "sys": [0.004],
+      "real": [0.2224],
+      "rss_mb": [23.29]
     },
     "DeltaBlue": {
       "error": "TypeError: DeltaBlue: TypeError: only Date.now() is supported",
-      "user": [0.0046],
-      "sys": [0.0012],
-      "real": [0.006],
-      "rss_mb": [23.34]
-    },
-    "Crypto": {
-      "error": "TypeError: invalid array subscript",
-      "user": [0.0107],
-      "sys": [0.0019],
-      "real": [0.0128],
-      "rss_mb": [23.32]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: catch variable already exists",
-      "user": [0.0031],
-      "sys": [0.0042],
-      "real": [0.0075],
-      "rss_mb": [53.82]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: catch variable already exists",
-      "user": [0.0031],
-      "sys": [0.0042],
-      "real": [0.0075],
-      "rss_mb": [53.82]
+      "user": [0.0045],
+      "sys": [0.0011],
+      "real": [0.0059],
+      "rss_mb": [23.53]
     },
     "zlib": {
       "error": "SyntaxError: invalid lvalue for delete",
-      "user": [0.004],
-      "sys": [0.002],
-      "real": [0.0062],
-      "rss_mb": [24.0]
+      "user": [0.0066],
+      "sys": [0.0011],
+      "real": [0.0079],
+      "rss_mb": [24.08]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: catch variable already exists",
+      "user": [0.0191],
+      "sys": [0.001],
+      "real": [0.0204],
+      "rss_mb": [25.73]
+    },
+    "NavierStokes": {
+      "error": "TypeError: NavierStokes: TypeError: only Date.now() is supported",
+      "user": [0.0078],
+      "sys": [0.001],
+      "real": [0.009],
+      "rss_mb": [23.31]
+    },
+    "RayTrace": {
+      "error": "TypeError: RayTrace: TypeError: only Date.now() is supported",
+      "user": [0.0051],
+      "sys": [0.001],
+      "real": [0.0064],
+      "rss_mb": [23.54]
+    },
+    "Richards": {
+      "error": "TypeError: Richards: TypeError: only Date.now() is supported",
+      "user": [0.0042],
+      "sys": [0.0],
+      "real": [0.0044],
+      "rss_mb": [23.47]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: catch variable already exists",
+      "user": [0.0028],
+      "sys": [0.0028],
+      "real": [0.0059],
+      "rss_mb": [53.59]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: catch variable already exists",
+      "user": [0.0028],
+      "sys": [0.0028],
+      "real": [0.0059],
+      "rss_mb": [53.59]
+    },
+    "Box2D": {
+      "error": "TypeError: Box2D: TypeError: only Date.now() is supported",
+      "user": [0.1247],
+      "sys": [0.001],
+      "real": [0.126],
+      "rss_mb": [24.01]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: direct eval is not supported. Use (1,eval) instead for indirect",
+      "user": [0.0324],
+      "sys": [0.001],
+      "real": [0.0337],
+      "rss_mb": [32.09]
+    },
+    "Crypto": {
+      "error": "TypeError: invalid array subscript",
+      "user": [0.0112],
+      "sys": [0.0],
+      "real": [0.0115],
+      "rss_mb": [23.73]
+    },
+    "RegExp": {
+      "error": "TypeError: RegExp: TypeError: only Date.now() is supported",
+      "user": [0.3391],
+      "sys": [0.003],
+      "real": [0.3424],
+      "rss_mb": [23.86]
     }
   }
 }

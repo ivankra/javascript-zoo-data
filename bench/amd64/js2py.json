@@ -2,132 +2,132 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "js2py",
-    "dist_size": 323481564,
+    "dist_size": 323444948,
     "engine": "js2py",
     "repository": "https://github.com/PiotrDabkowski/Js2Py.git",
     "revision": "2e017b86e2f18a6c8a842293b1687f2ce7baa12e",
     "revision_date": "2022-11-06"
   },
-  "time": "2026-04-16 03:14:39.962928 UTC",
+  "time": "2026-04-24 03:49:33.495819 UTC",
   "benchmarks": {
-    "CodeLoad": {
-      "score": [231],
-      "user": [14.0447],
-      "sys": [0.2148],
-      "real": [13.933],
-      "rss_mb": [103.62]
-    },
-    "DeltaBlue": {
-      "score": [4.63, 4.97],
-      "user": [47.8381, 44.5271],
-      "sys": [0.0498, 0.0679],
-      "real": [47.5641, 44.2968],
-      "rss_mb": [56.69, 56.17]
-    },
-    "Crypto": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1800.0175],
-      "sys": [0.1034],
-      "real": [1800.0329],
-      "rss_mb": [59.52]
-    },
-    "EarleyBoyer": {
-      "score": [14.4, 13.6],
-      "user": [648.3339, 678.5753],
-      "sys": [0.2337, 0.2858],
-      "real": [648.3012, 678.6169],
-      "rss_mb": [120.32, 120.07]
-    },
-    "Box2D": {
-      "score": [17.8, 23.8],
-      "user": [246.6299, 184.795],
-      "sys": [0.2117, 0.1725],
-      "real": [246.5444, 184.6922],
-      "rss_mb": [152.24, 152.39]
+    "Typescript": {
+      "error": "SyntaxError: KeyError: b\"'\\x86|\\xc7\\x07W#\\x17\\xf8V\\x99\\xfa`\\xb7\\\\!\"; duplicate argument 'arguments' in function definition",
+      "user": [6.2301, 6.226],
+      "sys": [0.5768, 0.7067],
+      "real": [6.4832, 6.6049],
+      "rss_mb": [269.15, 269.5]
     },
     "Gameboy": {
       "error": "FAIL: OverflowError: Python integer 256 out of bounds for uint8",
-      "user": [77.5381, 77.8893],
-      "sys": [0.8859, 0.9477],
-      "real": [78.1047, 78.518],
-      "rss_mb": [1612.82, 1610.16]
+      "user": [79.5948],
+      "sys": [1.0127],
+      "real": [80.3037],
+      "rss_mb": [1612.52]
     },
-    "NavierStokes": {
-      "score": [3.5],
-      "user": [724.4047],
-      "sys": [0.1268],
-      "real": [724.2846],
-      "rss_mb": [96.74]
-    },
-    "Richards": {
-      "score": [4.13],
-      "user": [29.739],
-      "sys": [0.033],
-      "real": [29.4477],
-      "rss_mb": [45.76]
-    },
-    "Typescript": {
-      "error": "SyntaxError: KeyError: b\"'\\x86|\\xc7\\x07W#\\x17\\xf8V\\x99\\xfa`\\xb7\\\\!\"; duplicate argument 'arguments' in function definition",
-      "user": [6.7138],
-      "sys": [0.8029],
-      "real": [7.2087],
-      "rss_mb": [269.26]
-    },
-    "Splay": {
-      "score": [22.4],
-      "user": [61.769],
-      "sys": [0.9107],
-      "real": [62.3784],
-      "rss_mb": [1671.96]
-    },
-    "SplayLatency": {
-      "score": [67.9],
-      "user": [61.769],
-      "sys": [0.9107],
-      "real": [62.3784],
-      "rss_mb": [1671.96]
-    },
-    "RayTrace": {
-      "score": [10.9],
-      "user": [225.6149],
-      "sys": [0.0538],
-      "real": [225.372],
-      "rss_mb": [49.68]
-    },
-    "PdfJS": {
-      "error": "FAIL: RuntimeError: No lval found \"PyJs_Page_getPageProp_82_\"",
-      "user": [4.3718],
-      "sys": [0.1127],
-      "real": [4.1563],
-      "rss_mb": [180.5]
-    },
-    "zlib": {
-      "error": "FAIL: No scores in the output",
-      "user": [2.3512],
-      "sys": [0.1406],
-      "real": [2.164],
-      "rss_mb": [179.23]
-    },
-    "RegExp": {
-      "error": "FAIL: No scores in the output",
-      "user": [9.0509],
-      "sys": [0.0659],
-      "real": [8.8108],
-      "rss_mb": [70.76]
+    "EarleyBoyer": {
+      "score": [15.4],
+      "user": [602.3552],
+      "sys": [0.1779],
+      "real": [602.3108],
+      "rss_mb": [120.52]
     },
     "Mandreel": {
       "error": "FAIL: No scores in the output",
-      "user": [22.9069],
-      "sys": [1.0245],
-      "real": [23.6478],
-      "rss_mb": [1801.88]
+      "user": [25.9598],
+      "sys": [1.1843],
+      "real": [26.8189],
+      "rss_mb": [1801.44]
     },
     "MandreelLatency": {
       "error": "FAIL: No scores in the output",
-      "user": [22.9069],
-      "sys": [1.0245],
-      "real": [23.6478],
-      "rss_mb": [1801.88]
+      "user": [25.9598],
+      "sys": [1.1843],
+      "real": [26.8189],
+      "rss_mb": [1801.44]
+    },
+    "CodeLoad": {
+      "score": [239],
+      "user": [13.5851],
+      "sys": [0.2218],
+      "real": [13.5011],
+      "rss_mb": [103.3]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [9.6202, 9.0539],
+      "sys": [0.0717, 0.0374],
+      "real": [9.3642, 8.8075],
+      "rss_mb": [70.88, 70.74]
+    },
+    "RayTrace": {
+      "score": [11.1],
+      "user": [219.9341],
+      "sys": [0.042],
+      "real": [219.7757],
+      "rss_mb": [49.88]
+    },
+    "NavierStokes": {
+      "score": [3.77],
+      "user": [671.0372],
+      "sys": [0.0828],
+      "real": [670.8866],
+      "rss_mb": [96.97]
+    },
+    "Richards": {
+      "score": [4.24],
+      "user": [29.0018],
+      "sys": [0.0568],
+      "real": [28.736],
+      "rss_mb": [46.09]
+    },
+    "DeltaBlue": {
+      "score": [4.53],
+      "user": [48.9107],
+      "sys": [0.0598],
+      "real": [48.6529],
+      "rss_mb": [56.52]
+    },
+    "Crypto": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1800.0666, 1800.1342],
+      "sys": [0.1188, 0.1129],
+      "real": [1800.0178, 1800.104],
+      "rss_mb": [59.07, 58.55]
+    },
+    "Splay": {
+      "score": [18.3],
+      "user": [68.4875],
+      "sys": [0.9442],
+      "real": [69.1179],
+      "rss_mb": [1671.78]
+    },
+    "SplayLatency": {
+      "score": [73.4],
+      "user": [68.4875],
+      "sys": [0.9442],
+      "real": [69.1179],
+      "rss_mb": [1671.78]
+    },
+    "Box2D": {
+      "score": [19.6],
+      "user": [223.5732],
+      "sys": [0.1507],
+      "real": [223.4638],
+      "rss_mb": [152.22]
+    },
+    "PdfJS": {
+      "error": "FAIL: RuntimeError: No lval found \"PyJs_Page_getPageProp_82_\"",
+      "user": [4.4093],
+      "sys": [0.1155],
+      "real": [4.1968],
+      "rss_mb": [180.39]
+    },
+    "zlib": {
+      "error": "FAIL: No scores in the output",
+      "user": [2.1642],
+      "sys": [0.095],
+      "real": [1.9733],
+      "rss_mb": [179.66]
     }
   }
 }

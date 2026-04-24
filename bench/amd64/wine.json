@@ -5,129 +5,129 @@
     "dist_size": 1765390,
     "engine": "wine",
     "repository": "https://github.com/wine-mirror/wine.git",
-    "revision": "1b13526a5fcfa55de602b71ed9365ca36022b56a",
-    "revision_date": "2026-04-14"
+    "revision": "9f4295cec027d260c39fcf167b063acd939e5fc6",
+    "revision_date": "2026-04-22"
   },
-  "time": "2026-04-16 04:27:49.596165 UTC",
+  "time": "2026-04-24 04:04:36.606296 UTC",
   "benchmarks": {
-    "CodeLoad": {
-      "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.0238],
-      "sys": [0.0369],
-      "real": [2.5045],
-      "rss_mb": [23.78]
-    },
-    "DeltaBlue": {
-      "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.0146],
-      "sys": [0.0356],
-      "real": [2.4978],
-      "rss_mb": [23.68]
-    },
-    "Box2D": {
-      "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.032],
-      "sys": [0.0186],
-      "real": [2.4481],
-      "rss_mb": [28.61]
-    },
-    "Crypto": {
-      "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.0114],
-      "sys": [0.0387],
-      "real": [2.5047],
-      "rss_mb": [23.49]
-    },
-    "Gameboy": {
-      "error": "SyntaxError",
-      "user": [0.0334],
-      "sys": [0.0326],
-      "real": [2.5417],
-      "rss_mb": [24.7]
-    },
-    "RayTrace": {
-      "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.0229],
-      "sys": [0.0382],
-      "real": [2.5196],
-      "rss_mb": [23.63]
-    },
-    "Richards": {
-      "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.0201],
-      "sys": [0.043],
-      "real": [2.5513],
-      "rss_mb": [23.36]
-    },
-    "RegExp": {
-      "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.011],
-      "sys": [0.0326],
-      "real": [2.4301],
-      "rss_mb": [23.8]
+    "PdfJS": {
+      "error": "FAIL: Expected ')'",
+      "user": [0.0232],
+      "sys": [0.0434],
+      "real": [2.5301],
+      "rss_mb": [30.61]
     },
     "NavierStokes": {
       "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.0202],
-      "sys": [0.0426],
-      "real": [2.544],
-      "rss_mb": [23.61]
+      "user": [0.0191],
+      "sys": [0.0214],
+      "real": [2.4242],
+      "rss_mb": [23.75]
     },
-    "zlib": {
+    "Crypto": {
       "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.0218],
-      "sys": [0.0423],
-      "real": [2.5085],
-      "rss_mb": [23.64]
+      "user": [0.0295],
+      "sys": [0.0386],
+      "real": [2.5829],
+      "rss_mb": [23.56]
     },
-    "Mandreel": {
-      "error": "FAIL: 'Float64Array' is undefined",
-      "user": [0.2452],
-      "sys": [0.0622],
-      "real": [2.7634],
-      "rss_mb": [138.0]
-    },
-    "MandreelLatency": {
-      "error": "FAIL: 'Float64Array' is undefined",
-      "user": [0.2452],
-      "sys": [0.0622],
-      "real": [2.7634],
-      "rss_mb": [138.0]
-    },
-    "PdfJS": {
-      "error": "FAIL: Expected ')'",
-      "user": [0.0318],
-      "sys": [0.0436],
-      "real": [2.5278],
-      "rss_mb": [30.24]
-    },
-    "Splay": {
+    "Box2D": {
       "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.0207],
-      "sys": [0.0409],
-      "real": [2.5155],
-      "rss_mb": [23.46]
-    },
-    "SplayLatency": {
-      "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.0207],
-      "sys": [0.0409],
-      "real": [2.5155],
-      "rss_mb": [23.46]
-    },
-    "Typescript": {
-      "error": "FAIL: Object expected",
-      "user": [0.0702],
-      "sys": [0.0515],
-      "real": [2.5744],
-      "rss_mb": [44.68]
+      "user": [0.0404],
+      "sys": [0.0433],
+      "real": [2.5394],
+      "rss_mb": [25.85]
     },
     "EarleyBoyer": {
       "error": "FAIL: Object doesn't support this property or method",
-      "user": [0.0284],
-      "sys": [0.0298],
-      "real": [2.4491],
-      "rss_mb": [23.76]
+      "user": [0.0283],
+      "sys": [0.0459],
+      "real": [2.5343],
+      "rss_mb": [23.87]
+    },
+    "RayTrace": {
+      "error": "FAIL: Object doesn't support this property or method",
+      "user": [0.0241],
+      "sys": [0.0367],
+      "real": [2.529],
+      "rss_mb": [23.51]
+    },
+    "Typescript": {
+      "error": "FAIL: Object expected",
+      "user": [0.0605],
+      "sys": [0.051],
+      "real": [2.5401],
+      "rss_mb": [44.73]
+    },
+    "Splay": {
+      "error": "FAIL: Object doesn't support this property or method",
+      "user": [0.0236],
+      "sys": [0.0337],
+      "real": [2.5271],
+      "rss_mb": [23.78]
+    },
+    "SplayLatency": {
+      "error": "FAIL: Object doesn't support this property or method",
+      "user": [0.0236],
+      "sys": [0.0337],
+      "real": [2.5271],
+      "rss_mb": [23.78]
+    },
+    "zlib": {
+      "error": "FAIL: Object doesn't support this property or method",
+      "user": [0.0236],
+      "sys": [0.0342],
+      "real": [2.5454],
+      "rss_mb": [23.87]
+    },
+    "Mandreel": {
+      "error": "FAIL: 'Float64Array' is undefined",
+      "user": [0.2437],
+      "sys": [0.0724],
+      "real": [2.7891],
+      "rss_mb": [140.67]
+    },
+    "MandreelLatency": {
+      "error": "FAIL: 'Float64Array' is undefined",
+      "user": [0.2437],
+      "sys": [0.0724],
+      "real": [2.7891],
+      "rss_mb": [140.67]
+    },
+    "CodeLoad": {
+      "error": "FAIL: Object doesn't support this property or method",
+      "user": [0.0198],
+      "sys": [0.0441],
+      "real": [2.5265],
+      "rss_mb": [23.48]
+    },
+    "RegExp": {
+      "error": "FAIL: Object doesn't support this property or method",
+      "user": [0.0222],
+      "sys": [0.0249],
+      "real": [2.4346],
+      "rss_mb": [24.01]
+    },
+    "DeltaBlue": {
+      "error": "FAIL: Object doesn't support this property or method",
+      "user": [0.0166],
+      "sys": [0.0305],
+      "real": [2.4403],
+      "rss_mb": [23.43]
+    },
+    "Gameboy": {
+      "error": "SyntaxError",
+      "user": [0.0214],
+      "sys": [0.0341],
+      "real": [2.5517],
+      "rss_mb": [25.3]
+    },
+    "Richards": {
+      "error": "FAIL: Object doesn't support this property or method",
+      "user": [0.0264],
+      "sys": [0.0347],
+      "real": [2.531],
+      "rss_mb": [23.57]
     }
   }
 }

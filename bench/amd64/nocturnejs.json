@@ -2,133 +2,133 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "nocturnejs",
-    "binary_sha256": "bd289968add8fc13af181ed56cf0f8a8a71b1bdb2b4a21efdc43a1c6cc649d01",
-    "binary_size": 6507240,
+    "binary_sha256": "dcaf0c6f1a610dbc81db6cf82b4e3e4a5fa691b0eff1e3bafa3c476b4a5cf71c",
+    "binary_size": 6503144,
     "engine": "nocturnejs",
     "repository": "https://github.com/Lampese/NocturneJS.git",
     "revision": "a418a962bdeb2933bbb4ff08788e2a7e3b12d5ea",
     "revision_date": "2026-01-30"
   },
-  "time": "2026-04-16 03:18:56.561153 UTC",
+  "time": "2026-04-24 03:54:09.889359 UTC",
   "benchmarks": {
-    "NavierStokes": {
-      "score": [2.92, 3.65],
-      "user": [871.1466, 696.8909],
-      "sys": [0.044, 0.022],
-      "real": [871.2737, 696.9565],
-      "rss_mb": [27.26, 27.55]
-    },
-    "RayTrace": {
-      "score": [2.56],
-      "user": [951.0457],
-      "sys": [3.8797],
-      "real": [954.9984],
-      "rss_mb": [295.54]
-    },
-    "Mandreel": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.7585],
-      "sys": [0.18],
-      "real": [1800.1059],
-      "rss_mb": [1042.02]
-    },
-    "MandreelLatency": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.7585],
-      "sys": [0.18],
-      "real": [1800.1059],
-      "rss_mb": [1042.02]
-    },
-    "RegExp": {
-      "score": [2.62],
-      "user": [629.4303],
-      "sys": [0.08],
-      "real": [629.5629],
-      "rss_mb": [265.46]
-    },
     "Richards": {
-      "score": [0.36],
-      "user": [316.7181],
-      "sys": [0.037],
-      "real": [316.7869],
-      "rss_mb": [257.38]
-    },
-    "Gameboy": {
-      "error": "CRASH: SIGSEGV",
-      "user": [6.2465],
-      "sys": [3.4689],
-      "real": [38.4402],
-      "rss_mb": [1557.84]
-    },
-    "PdfJS": {
-      "error": "ReferenceError: PdfJS: ReferenceError: undefined variable",
-      "user": [16.4436],
-      "sys": [0.072],
-      "real": [16.5272],
-      "rss_mb": [214.06]
-    },
-    "Typescript": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.1429],
-      "sys": [0.742],
-      "real": [1800.1038],
-      "rss_mb": [299.98]
-    },
-    "DeltaBlue": {
-      "score": [0.472, 0.564],
-      "user": [457.613, 383.9518],
-      "sys": [0.216, 0.258],
-      "real": [457.8711, 384.2643],
-      "rss_mb": [259.48, 255.51]
+      "score": [0.355],
+      "user": [322.0934],
+      "sys": [0.053],
+      "real": [322.1829],
+      "rss_mb": [257.34]
     },
     "Crypto": {
       "error": "CRASH: SIGSEGV",
-      "user": [0.454, 0.4689],
-      "sys": [0.7969, 0.8766],
-      "real": [2.4035, 2.5819],
-      "rss_mb": [49.25, 49.07]
+      "user": [0.292, 0.3942],
+      "sys": [0.6272, 0.7599],
+      "real": [1.6481, 1.9153],
+      "rss_mb": [49.16, 49.22]
     },
-    "zlib": {
-      "error": "OOM: >4096MB",
-      "user": [9.1666],
-      "sys": [1.2631],
-      "real": [10.4322],
-      "rss_mb": [4103.45]
+    "RegExp": {
+      "score": [2.97, 2.63],
+      "user": [555.8947, 628.2743],
+      "sys": [0.084, 0.058],
+      "real": [556.0382, 628.3833],
+      "rss_mb": [265.44, 265.37]
     },
     "CodeLoad": {
-      "score": [599],
-      "user": [8.0369],
-      "sys": [0.027],
-      "real": [8.0653],
-      "rss_mb": [164.29]
+      "score": [589],
+      "user": [8.0476],
+      "sys": [0.017],
+      "real": [8.0664],
+      "rss_mb": [161.96]
     },
-    "Box2D": {
-      "score": [4.89],
-      "user": [889.5653],
-      "sys": [0.48],
-      "real": [890.1365],
-      "rss_mb": [268.77]
+    "Splay": {
+      "score": [1.59],
+      "user": [516.2623],
+      "sys": [0.315],
+      "real": [516.6304],
+      "rss_mb": [933.96]
+    },
+    "SplayLatency": {
+      "score": [4.62],
+      "user": [516.2623],
+      "sys": [0.315],
+      "real": [516.6304],
+      "rss_mb": [933.96]
+    },
+    "DeltaBlue": {
+      "score": [0.586],
+      "user": [369.4399],
+      "sys": [0.228],
+      "real": [369.7103],
+      "rss_mb": [259.39]
+    },
+    "Gameboy": {
+      "error": "CRASH: SIGSEGV",
+      "user": [6.159],
+      "sys": [5.4853],
+      "real": [27.2256],
+      "rss_mb": [1558.17]
+    },
+    "NavierStokes": {
+      "score": [3.28],
+      "user": [775.0868],
+      "sys": [0.036],
+      "real": [775.2232],
+      "rss_mb": [27.36]
+    },
+    "Typescript": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.1809],
+      "sys": [0.7039],
+      "real": [1800.0776],
+      "rss_mb": [300.39]
+    },
+    "RayTrace": {
+      "score": [2.46],
+      "user": [989.7763],
+      "sys": [4.0445],
+      "real": [993.9402],
+      "rss_mb": [295.6]
     },
     "EarleyBoyer": {
       "error": "TIMEOUT: >1800s",
-      "user": [1793.0198],
-      "sys": [7.0114],
-      "real": [1800.2672],
-      "rss_mb": [2891.45]
+      "user": [1793.191],
+      "sys": [6.8713],
+      "real": [1800.314],
+      "rss_mb": [2923.39]
     },
-    "Splay": {
-      "score": [1.82],
-      "user": [457.8676],
-      "sys": [0.362],
-      "real": [458.2813],
-      "rss_mb": [933.79]
+    "Mandreel": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.4984],
+      "sys": [0.403],
+      "real": [1800.104],
+      "rss_mb": [1027.54]
     },
-    "SplayLatency": {
-      "score": [5.2],
-      "user": [457.8676],
-      "sys": [0.362],
-      "real": [458.2813],
-      "rss_mb": [933.79]
+    "MandreelLatency": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.4984],
+      "sys": [0.403],
+      "real": [1800.104],
+      "rss_mb": [1027.54]
+    },
+    "zlib": {
+      "error": "OOM: >4096MB",
+      "user": [9.2026],
+      "sys": [1.4481],
+      "real": [10.6532],
+      "rss_mb": [4096.83]
+    },
+    "Box2D": {
+      "score": [5.17, 6.62],
+      "user": [840.921, 656.0353],
+      "sys": [0.4809, 0.5329],
+      "real": [841.5178, 656.6481],
+      "rss_mb": [269.88, 270.05]
+    },
+    "PdfJS": {
+      "error": "ReferenceError: PdfJS: ReferenceError: undefined variable",
+      "user": [20.7502],
+      "sys": [0.0711],
+      "real": [20.8311],
+      "rss_mb": [213.95]
     }
   }
 }

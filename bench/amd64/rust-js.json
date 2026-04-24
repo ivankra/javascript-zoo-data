@@ -8,128 +8,128 @@
     "repository": "https://github.com/rust-js/rjs.git",
     "revision": "61391286b0f0d6ce23720ee13501f62751c26b29",
     "revision_date": "2015-07-19",
-    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
-  "time": "2026-04-16 03:43:09.254561 UTC",
+  "time": "2026-04-24 03:54:43.252077 UTC",
   "benchmarks": {
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0688],
+      "sys": [0.004],
+      "real": [0.073],
+      "rss_mb": [27.55]
+    },
     "PdfJS": {
       "error": "ReferenceError",
-      "user": [0.3876],
-      "sys": [0.018],
-      "real": [0.4061],
-      "rss_mb": [111.68]
-    },
-    "RegExp": {
-      "error": "SyntaxError: 598:2: Cannot parse '\\'",
-      "user": [0.0009],
-      "sys": [0.0034],
-      "real": [0.0046],
-      "rss_mb": [23.61]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: 1400:1: Newline cannot appear in string constant",
-      "user": [0.0145],
-      "sys": [0.0052],
-      "real": [0.02],
-      "rss_mb": [53.79]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: 1400:1: Newline cannot appear in string constant",
-      "user": [0.0145],
-      "sys": [0.0052],
-      "real": [0.02],
-      "rss_mb": [53.79]
-    },
-    "Splay": {
-      "error": "OOM: >4096MB",
-      "user": [11.7765],
-      "sys": [1.5539],
-      "real": [13.3342],
-      "rss_mb": [4112.59]
-    },
-    "SplayLatency": {
-      "error": "OOM: >4096MB",
-      "user": [11.7765],
-      "sys": [1.5539],
-      "real": [13.3342],
-      "rss_mb": [4112.59]
-    },
-    "RayTrace": {
-      "score": [89.3],
-      "user": [28.1738],
-      "sys": [0.006],
-      "real": [28.1835],
-      "rss_mb": [40.39]
+      "user": [0.3174],
+      "sys": [0.012],
+      "real": [0.3297],
+      "rss_mb": [111.67]
     },
     "Richards": {
-      "score": [21.4],
-      "user": [6.9169],
-      "sys": [0.004],
-      "real": [6.9224],
-      "rss_mb": [40.16]
+      "score": [21.6],
+      "user": [6.8696],
+      "sys": [0.003],
+      "real": [6.8737],
+      "rss_mb": [40.21]
     },
-    "EarleyBoyer": {
-      "error": "TypeError: EarleyBoyer: TypeError: Value is not a function",
-      "user": [0.0379],
-      "sys": [0.0031],
-      "real": [0.0414],
-      "rss_mb": [23.52]
+    "RayTrace": {
+      "score": [78.5],
+      "user": [32.0214],
+      "sys": [0.007],
+      "real": [32.034],
+      "rss_mb": [40.34]
+    },
+    "Crypto": {
+      "score": [15],
+      "user": [265.448],
+      "sys": [0.012],
+      "real": [265.4788],
+      "rss_mb": [44.45]
+    },
+    "Typescript": {
+      "error": "SyntaxError: Cannot parse expression, got Divide",
+      "user": [0.0484],
+      "sys": [0.0069],
+      "real": [0.0557],
+      "rss_mb": [33.36]
     },
     "NavierStokes": {
       "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
-      "user": [0.4919, 0.4545],
-      "sys": [0.002, 0.006],
-      "real": [0.4943, 0.4608],
-      "rss_mb": [40.18, 40.36]
-    },
-    "zlib": {
-      "error": "ReferenceError: zlib: ReferenceError",
-      "user": [0.1032],
-      "sys": [0.0079],
-      "real": [0.1114],
-      "rss_mb": [40.45]
-    },
-    "Box2D": {
-      "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
-      "user": [0.1235, 0.1248],
-      "sys": [0.008, 0.004],
-      "real": [0.1318, 0.1292],
-      "rss_mb": [45.11, 45.07]
-    },
-    "DeltaBlue": {
-      "score": [24.3],
-      "user": [9.7975],
-      "sys": [0.001],
-      "real": [9.7997],
-      "rss_mb": [40.38]
-    },
-    "Crypto": {
-      "score": [13.5],
-      "user": [297.5563],
-      "sys": [0.014],
-      "real": [297.597],
-      "rss_mb": [44.66]
+      "user": [0.5109, 0.5205],
+      "sys": [0.002, 0.003],
+      "real": [0.5132, 0.5238],
+      "rss_mb": [40.14, 40.23]
     },
     "CodeLoad": {
       "error": "SyntaxError: CodeLoad: SyntaxError: 1:1924: Unexpected token; expected Comma, got Literal(String(Name(-432), true))",
-      "user": [0.0214, 0.0189],
-      "sys": [0.001, 0.003],
-      "real": [0.0227, 0.0222],
-      "rss_mb": [23.8, 23.61]
+      "user": [0.0221],
+      "sys": [0.0],
+      "real": [0.0224],
+      "rss_mb": [23.51]
     },
-    "Typescript": {
-      "error": "SyntaxError: 5392:1: Cannot parse expression, got Divide",
-      "user": [0.0391, 0.05],
-      "sys": [0.013, 0.003],
-      "real": [0.0525, 0.0534],
-      "rss_mb": [33.46, 33.34]
+    "DeltaBlue": {
+      "score": [24.5, 24.7],
+      "user": [9.7211, 9.6531],
+      "sys": [0.001, 0.004],
+      "real": [9.7235, 9.6585],
+      "rss_mb": [40.3, 40.26]
     },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.073, 0.0739],
-      "sys": [0.005, 0.004],
-      "real": [0.0785, 0.0783],
-      "rss_mb": [27.68, 27.84]
+    "EarleyBoyer": {
+      "error": "TypeError: EarleyBoyer: TypeError: Value is not a function",
+      "user": [0.0418],
+      "sys": [0.0],
+      "real": [0.042],
+      "rss_mb": [23.91]
+    },
+    "Box2D": {
+      "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
+      "user": [0.1368],
+      "sys": [0.007],
+      "real": [0.144],
+      "rss_mb": [45.23]
+    },
+    "RegExp": {
+      "error": "SyntaxError: Cannot parse '\\'",
+      "user": [0.0027],
+      "sys": [0.0018],
+      "real": [0.0049],
+      "rss_mb": [23.91]
+    },
+    "zlib": {
+      "error": "ReferenceError: zlib: ReferenceError",
+      "user": [0.1115],
+      "sys": [0.006],
+      "real": [0.1178],
+      "rss_mb": [40.5]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: Newline cannot appear in string constant",
+      "user": [0.0182],
+      "sys": [0.003],
+      "real": [0.0215],
+      "rss_mb": [53.37]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: Newline cannot appear in string constant",
+      "user": [0.0182],
+      "sys": [0.003],
+      "real": [0.0215],
+      "rss_mb": [53.37]
+    },
+    "Splay": {
+      "error": "OOM: >4096MB",
+      "user": [11.082],
+      "sys": [1.91],
+      "real": [12.9951],
+      "rss_mb": [4106.2]
+    },
+    "SplayLatency": {
+      "error": "OOM: >4096MB",
+      "user": [11.082],
+      "sys": [1.91],
+      "real": [12.9951],
+      "rss_mb": [4106.2]
     }
   }
 }

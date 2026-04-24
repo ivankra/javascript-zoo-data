@@ -2,7 +2,7 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "zhuzilin",
-    "binary_sha256": "0e10fc5cc35e410e5ae90c417169d3974022fb86a0b60cbea90ded70bf4b4580",
+    "binary_sha256": "5ae53c33cbc7fcfcd9b73ed943de68a358171973fa6d7010dcf5a372f26af36c",
     "binary_size": 789424,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "zhuzilin",
@@ -11,126 +11,126 @@
     "revision_date": "2026-02-10",
     "version": "0.2.0"
   },
-  "time": "2026-04-16 03:44:57.783976 UTC",
+  "time": "2026-04-24 03:55:11.183911 UTC",
   "benchmarks": {
     "Gameboy": {
       "error": "CRASH: SIGABRT",
-      "user": [0.6446],
-      "sys": [0.6045],
-      "real": [1.8951],
-      "rss_mb": [548.3]
-    },
-    "PdfJS": {
-      "error": "CRASH: SIGSEGV",
-      "user": [2.0238],
-      "sys": [0.6258],
-      "real": [3.4554],
-      "rss_mb": [646.48]
-    },
-    "zlib": {
-      "error": "SyntaxError: efined\") {",
-      "user": [0.0199],
-      "sys": [0.1315],
-      "real": [0.1517],
-      "rss_mb": [518.53]
-    },
-    "RayTrace": {
-      "error": "CRASH: SIGABRT",
-      "user": [0.0681],
-      "sys": [0.6155],
-      "real": [1.1262],
-      "rss_mb": [518.63]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: readable = {",
-      "user": [0.0582],
-      "sys": [0.1384],
-      "real": [0.197],
-      "rss_mb": [519.63]
+      "user": [0.6295],
+      "sys": [0.5809],
+      "real": [1.7945],
+      "rss_mb": [548.28]
     },
     "Splay": {
       "error": "CRASH: SIGABRT",
-      "user": [0.0369],
-      "sys": [0.5553],
-      "real": [1.1148],
+      "user": [0.0442],
+      "sys": [0.56],
+      "real": [1.1205],
       "rss_mb": [517.4]
     },
     "SplayLatency": {
       "error": "CRASH: SIGABRT",
-      "user": [0.0369],
-      "sys": [0.5553],
-      "real": [1.1148],
+      "user": [0.0442],
+      "sys": [0.56],
+      "real": [1.1205],
       "rss_mb": [517.4]
     },
-    "NavierStokes": {
+    "RegExp": {
       "error": "CRASH: SIGABRT",
-      "user": [0.0479],
-      "sys": [0.5774],
-      "real": [1.142],
-      "rss_mb": [517.89]
-    },
-    "Typescript": {
-      "error": "CRASH: SIGSEGV",
-      "user": [1.644],
-      "sys": [0.742],
-      "real": [3.1178],
-      "rss_mb": [656.28]
-    },
-    "DeltaBlue": {
-      "error": "CRASH: SIGABRT",
-      "user": [0.0561],
-      "sys": [0.5764],
-      "real": [1.1934],
-      "rss_mb": [518.04]
+      "user": [0.2021],
+      "sys": [0.5579],
+      "real": [1.1742],
+      "rss_mb": [524.69]
     },
     "Richards": {
       "error": "CRASH: SIGABRT",
-      "user": [0.0523],
-      "sys": [0.5572],
-      "real": [0.9963],
+      "user": [0.0404],
+      "sys": [0.551],
+      "real": [1.0126],
       "rss_mb": [517.43]
     },
     "Box2D": {
       "error": "CRASH: SIGABRT",
-      "user": [0.6858],
-      "sys": [0.5877],
-      "real": [1.9553],
-      "rss_mb": [540.41]
-    },
-    "RegExp": {
-      "error": "CRASH: SIGABRT",
-      "user": [0.2012],
-      "sys": [0.5731],
-      "real": [1.2235],
-      "rss_mb": [524.69]
+      "user": [0.6824],
+      "sys": [0.656],
+      "real": [1.8403],
+      "rss_mb": [540.42]
     },
     "Mandreel": {
       "error": "CRASH: SIGABRT",
-      "user": [9.8002],
-      "sys": [0.8789],
-      "real": [11.977],
+      "user": [9.7797],
+      "sys": [0.924],
+      "real": [11.9727],
       "rss_mb": [837.01]
     },
     "MandreelLatency": {
       "error": "CRASH: SIGABRT",
-      "user": [9.8002],
-      "sys": [0.8789],
-      "real": [11.977],
+      "user": [9.7797],
+      "sys": [0.924],
+      "real": [11.9727],
       "rss_mb": [837.01]
     },
-    "CodeLoad": {
+    "NavierStokes": {
       "error": "CRASH: SIGABRT",
-      "user": [0.0438],
-      "sys": [0.6531],
-      "real": [1.156],
-      "rss_mb": [521.15]
+      "user": [0.0547],
+      "sys": [0.6355],
+      "real": [1.1224],
+      "rss_mb": [517.89]
+    },
+    "Typescript": {
+      "error": "CRASH: SIGSEGV",
+      "user": [1.6349],
+      "sys": [0.7643],
+      "real": [3.0828],
+      "rss_mb": [656.25]
     },
     "Crypto": {
       "error": "TypeError: calling non-object.",
-      "user": [0.1301],
-      "sys": [0.1341],
-      "real": [0.2647],
+      "user": [0.131],
+      "sys": [0.132],
+      "real": [0.2632],
       "rss_mb": [519.85]
+    },
+    "zlib": {
+      "error": "SyntaxError: efined\") {",
+      "user": [0.011],
+      "sys": [0.1402],
+      "real": [0.1516],
+      "rss_mb": [518.54]
+    },
+    "CodeLoad": {
+      "error": "CRASH: SIGABRT",
+      "user": [0.05],
+      "sys": [0.6264],
+      "real": [1.1072],
+      "rss_mb": [521.15]
+    },
+    "PdfJS": {
+      "error": "CRASH: SIGSEGV",
+      "user": [2.0191],
+      "sys": [0.6535],
+      "real": [3.4717],
+      "rss_mb": [646.46]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: readable = {",
+      "user": [0.0611],
+      "sys": [0.1372],
+      "real": [0.1986],
+      "rss_mb": [519.65]
+    },
+    "RayTrace": {
+      "error": "CRASH: SIGABRT",
+      "user": [0.064],
+      "sys": [0.5799],
+      "real": [1.156],
+      "rss_mb": [518.63]
+    },
+    "DeltaBlue": {
+      "error": "CRASH: SIGABRT",
+      "user": [0.0603],
+      "sys": [0.5637],
+      "real": [1.1319],
+      "rss_mb": [518.04]
     }
   }
 }

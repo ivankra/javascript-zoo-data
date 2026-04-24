@@ -8,126 +8,126 @@
     "revision": "58550fd3a5e4202fdbfda3eb652099667b4c976f",
     "revision_date": "2026-04-12"
   },
-  "time": "2026-04-16 03:29:17.371171 UTC",
+  "time": "2026-04-24 03:36:45.623073 UTC",
   "benchmarks": {
-    "DeltaBlue": {
-      "score": [43.9, 41.6],
-      "user": [6.5428, 6.8623],
-      "sys": [0.048, 0.067],
-      "real": [6.5174, 6.8458],
-      "rss_mb": [100.5, 101.58]
-    },
-    "Mandreel": {
-      "score": [16.8],
-      "user": [496.125],
-      "sys": [2.0988],
-      "real": [474.9666],
-      "rss_mb": [552.18]
-    },
-    "MandreelLatency": {
-      "score": [144],
-      "user": [496.125],
-      "sys": [2.0988],
-      "real": [474.9666],
-      "rss_mb": [552.18]
-    },
     "Typescript": {
       "error": "SyntaxError: Typescript: SyntaxError: Identifier 'arguments' has already been declared",
-      "user": [0.3467, 0.3513],
-      "sys": [0.0625, 0.0471],
-      "real": [0.2406, 0.2349],
-      "rss_mb": [123.81, 123.8]
+      "user": [0.3401, 0.3461],
+      "sys": [0.0436, 0.0507],
+      "real": [0.2301, 0.2384],
+      "rss_mb": [123.6, 123.9]
     },
-    "Splay": {
-      "score": [332, 326],
-      "user": [4.5256, 4.558],
-      "sys": [0.1693, 0.1622],
-      "real": [4.1301, 4.171],
-      "rss_mb": [357.95, 356.93]
-    },
-    "SplayLatency": {
-      "score": [2432, 2403],
-      "user": [4.5256, 4.558],
-      "sys": [0.1693, 0.1622],
-      "real": [4.1301, 4.171],
-      "rss_mb": [357.95, 356.93]
-    },
-    "NavierStokes": {
-      "score": [31.9],
-      "user": [79.3534],
-      "sys": [0.096],
-      "real": [79.3725],
-      "rss_mb": [201.75]
-    },
-    "Crypto": {
-      "score": [28.7],
-      "user": [140.8631],
-      "sys": [0.219],
-      "real": [140.9296],
-      "rss_mb": [155.47]
-    },
-    "Gameboy": {
-      "error": "TypeError: Gameboy: TypeError: Cannot assign to read only property 'length' of string '\u00af\u00e0O\u00c9\u0098\u0084g\u0000>\u0001\u00e0O\u00c9 (m\u00e1*\u00ea\u0000 *V#\u00e5bo\u00e9$ff8\u00e1*\u00e5\u00ea\u0000 \u00c9\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u0018\u0007g\u0000\u0098\u0084g\u0000\u00d9\u00f5\u00fa\u00ff\u007f\u00f5\u00c5\u00d5\u00e5!\u0013\u00ca6\u0001\u00cd\u00f5\u00ff\u00e1\u00d1\u00c1\u00f1\u00ea\u0000 \u00fa\u0012\u00ca\u00b7 \u0002\u00f1\u00c9\u00f0\u0080\u00b7(\u0017\u00f0\u0082\u00ee\u0018\u00e0Q>\u0090\u00e0S\u00af\u00e0R\u00e0T...",
-      "user": [0.4284],
-      "sys": [0.0348],
-      "real": [0.3068],
-      "rss_mb": [92.02]
+    "DeltaBlue": {
+      "score": [43.4],
+      "user": [6.5875],
+      "sys": [0.0531],
+      "real": [6.5699],
+      "rss_mb": [101.47]
     },
     "RegExp": {
-      "score": [105, 104, 107],
-      "user": [19.118, 19.2077, 18.5505],
-      "sys": [0.2512, 0.265, 0.2183],
-      "real": [17.0049, 17.0763, 16.5909],
-      "rss_mb": [127.7, 128.75, 128.85]
-    },
-    "CodeLoad": {
-      "error": "ReferenceError: CodeLoad: ReferenceError: MockElement is not defined",
-      "user": [1.1879],
-      "sys": [0.1089],
-      "real": [1.1868],
-      "rss_mb": [173.08]
+      "score": [105, 104],
+      "user": [19.0748, 19.0246],
+      "sys": [0.2405, 0.264],
+      "real": [17.0011, 17.0443],
+      "rss_mb": [127.13, 127.86]
     },
     "PdfJS": {
-      "score": [210],
-      "user": [20.8716],
-      "sys": [0.1727],
-      "real": [20.5573],
-      "rss_mb": [297.98]
-    },
-    "Richards": {
-      "score": [30],
-      "user": [5.4596],
-      "sys": [0.039],
-      "real": [5.4583],
-      "rss_mb": [72.67]
+      "score": [211],
+      "user": [20.7991],
+      "sys": [0.1671],
+      "real": [20.476],
+      "rss_mb": [297.75]
     },
     "RayTrace": {
       "score": [126],
-      "user": [20.1568],
-      "sys": [0.0891],
-      "real": [20.1527],
-      "rss_mb": [99.12]
-    },
-    "EarleyBoyer": {
-      "score": [91.3],
-      "user": [121.5541],
-      "sys": [1.4284],
-      "real": [109.9763],
-      "rss_mb": [275.48]
+      "user": [20.2345],
+      "sys": [0.094],
+      "real": [20.2339],
+      "rss_mb": [98.75]
     },
     "zlib": {
       "error": "ReferenceError: zlib: ReferenceError: print is not defined",
-      "user": [0.0822],
-      "sys": [0.0213],
-      "real": [0.103],
-      "rss_mb": [65.34]
+      "user": [0.0865],
+      "sys": [0.0149],
+      "real": [0.1022],
+      "rss_mb": [65.54]
+    },
+    "EarleyBoyer": {
+      "score": [91.3, 91.6],
+      "user": [121.5022, 121.1444],
+      "sys": [1.5817, 1.4615],
+      "real": [109.8643, 109.6505],
+      "rss_mb": [275.01, 295.15]
+    },
+    "Gameboy": {
+      "error": "TypeError: Gameboy: TypeError: Cannot assign to read only property 'length' of string '\u00af\u00e0O\u00c9\u0098\u0084g\u0000>\u0001\u00e0O\u00c9 (m\u00e1*\u00ea\u0000 *V#\u00e5bo\u00e9$ff8\u00e1*\u00e5\u00ea\u0000 \u00c9\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u0018\u0007g\u0000\u0098\u0084g\u0000\u00d9\u00f5\u00fa\u00ff\u007f\u00f5\u00c5\u00d5\u00e5!\u0013\u00ca6\u0001\u00cd\u00f5\u00ff\u00e1\u00d1\u00c1\u00f1\u00ea\u0000 \u00fa\u0012\u00ca\u00b7 \u0002\u00f1\u00c9\u00f0\u0080\u00b7(\u0017\u00f0\u0082\u00ee\u0018\u00e0Q>\u0090\u00e0S\u00af\u00e0R\u00e0T...",
+      "user": [0.4248],
+      "sys": [0.04],
+      "real": [0.3085],
+      "rss_mb": [92.06]
+    },
+    "Richards": {
+      "score": [29.6],
+      "user": [5.5315],
+      "sys": [0.025],
+      "real": [5.5205],
+      "rss_mb": [74.73]
     },
     "Box2D": {
-      "score": [104],
-      "user": [43.2639],
-      "sys": [0.3273],
-      "real": [41.8023],
-      "rss_mb": [172.02]
+      "score": [103],
+      "user": [43.7295],
+      "sys": [0.3376],
+      "real": [42.2097],
+      "rss_mb": [171.69]
+    },
+    "Mandreel": {
+      "score": [16.8],
+      "user": [496.0696],
+      "sys": [2.0368],
+      "real": [474.7855],
+      "rss_mb": [536.81]
+    },
+    "MandreelLatency": {
+      "score": [145],
+      "user": [496.0696],
+      "sys": [2.0368],
+      "real": [474.7855],
+      "rss_mb": [536.81]
+    },
+    "Splay": {
+      "score": [325],
+      "user": [4.5984],
+      "sys": [0.1777],
+      "real": [4.1857],
+      "rss_mb": [355.71]
+    },
+    "SplayLatency": {
+      "score": [2401],
+      "user": [4.5984],
+      "sys": [0.1777],
+      "real": [4.1857],
+      "rss_mb": [355.71]
+    },
+    "Crypto": {
+      "score": [28.9],
+      "user": [139.4129],
+      "sys": [0.193],
+      "real": [139.4527],
+      "rss_mb": [155.67]
+    },
+    "NavierStokes": {
+      "score": [32],
+      "user": [79.363],
+      "sys": [0.122],
+      "real": [79.3853],
+      "rss_mb": [201.34]
+    },
+    "CodeLoad": {
+      "error": "ReferenceError: CodeLoad: ReferenceError: MockElement is not defined",
+      "user": [1.1827],
+      "sys": [0.1062],
+      "real": [1.1835],
+      "rss_mb": [179.86]
     }
   }
 }

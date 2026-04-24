@@ -2,135 +2,135 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "ant",
-    "binary_sha256": "6c6df25b0636eb230e5b0fe4a1ea991f8072f44d66572d4bdfe51e6557d5b3d8",
-    "binary_size": 8637544,
+    "binary_sha256": "3c892935ca70f84dfe7dddc5908d43497c661d55737954b78968be564e0bac6b",
+    "binary_size": 11342632,
     "engine": "ant",
     "repository": "https://github.com/theMackabu/ant.git",
-    "revision": "291637d5a34087fd7237ec0a2bf91daaac17e4d5",
-    "revision_date": "2026-03-29",
-    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)",
+    "revision": "12d3171b8efcbdebe50107e0b0b21385e168bec6",
+    "revision_date": "2026-04-22",
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)",
     "zig": "0.15.2"
   },
-  "time": "2026-04-16 02:04:59.436561 UTC",
+  "time": "2026-04-24 02:50:39.304718 UTC",
   "benchmarks": {
-    "Mandreel": {
-      "error": "RangeError: Maximum JIT call stack size exceeded",
-      "user": [1098.8951],
-      "sys": [0.13],
-      "real": [1099.1178],
-      "rss_mb": [228.37]
-    },
-    "MandreelLatency": {
-      "error": "RangeError: Maximum JIT call stack size exceeded",
-      "user": [1098.8951],
-      "sys": [0.13],
-      "real": [1099.1178],
-      "rss_mb": [228.37]
-    },
-    "RayTrace": {
-      "error": "RangeError: RayTrace: RangeError: Maximum JIT call stack size exceeded",
-      "user": [0.0403],
-      "sys": [0.0059],
-      "real": [0.072],
-      "rss_mb": [23.43]
-    },
-    "NavierStokes": {
-      "error": "RangeError: NavierStokes: RangeError: Maximum JIT call stack size exceeded",
-      "user": [0.022],
-      "sys": [0.005],
-      "real": [0.0284],
-      "rss_mb": [22.93]
-    },
-    "PdfJS": {
-      "error": "RangeError: PdfJS: RangeError: Maximum JIT call stack size exceeded",
-      "user": [20.0957],
-      "sys": [0.025],
-      "real": [20.1247],
-      "rss_mb": [66.01]
-    },
     "Gameboy": {
       "error": "RangeError: Gameboy: RangeError: Maximum JIT call stack size exceeded",
-      "user": [3.7988],
-      "sys": [0.011],
-      "real": [3.811],
-      "rss_mb": [36.85]
-    },
-    "RegExp": {
-      "error": "RangeError: RegExp: RangeError: Maximum JIT call stack size exceeded",
-      "user": [0.1712],
-      "sys": [0.005],
-      "real": [0.1771],
-      "rss_mb": [23.93]
-    },
-    "Typescript": {
-      "error": "RangeError: Maximum JIT call stack size exceeded",
-      "user": [50.3961],
-      "sys": [0.036],
-      "real": [50.439],
-      "rss_mb": [72.14]
-    },
-    "DeltaBlue": {
-      "error": "RangeError: DeltaBlue: RangeError: Maximum JIT call stack size exceeded",
-      "user": [0.024],
-      "sys": [0.0048],
-      "real": [0.0562],
-      "rss_mb": [23.18]
-    },
-    "Richards": {
-      "error": "RangeError: Richards: RangeError: Maximum JIT call stack size exceeded",
-      "user": [0.0133],
-      "sys": [0.0048],
-      "real": [0.0441],
-      "rss_mb": [23.34]
-    },
-    "Crypto": {
-      "error": "RangeError: Crypto: RangeError: Maximum JIT call stack size exceeded",
-      "user": [0.0902],
-      "sys": [0.0078],
-      "real": [0.1249],
-      "rss_mb": [23.86]
-    },
-    "Box2D": {
-      "error": "RangeError: Box2D: RangeError: Maximum JIT call stack size exceeded",
-      "user": [2.0682],
-      "sys": [0.017],
-      "real": [2.1142],
-      "rss_mb": [38.82]
+      "user": [0.028],
+      "sys": [0.015],
+      "real": [0.0432],
+      "rss_mb": [37.52]
     },
     "zlib": {
       "error": "SyntaxError: zlib: SyntaxError: Unexpected token ')'",
-      "user": [0.0101],
-      "sys": [0.0046],
-      "real": [0.0409],
+      "user": [0.0036],
+      "sys": [0.0045],
+      "real": [0.0334],
+      "rss_mb": [24.39]
+    },
+    "Box2D": {
+      "error": "RangeError: Box2D: RangeError: Maximum JIT call stack size exceeded",
+      "user": [0.0195],
+      "sys": [0.0154],
+      "real": [0.0621],
+      "rss_mb": [35.1]
+    },
+    "RegExp": {
+      "error": "RangeError: RegExp: RangeError: Maximum JIT call stack size exceeded",
+      "user": [0.0062],
+      "sys": [0.0062],
+      "real": [0.0128],
       "rss_mb": [24.0]
     },
-    "CodeLoad": {
-      "error": "SyntaxError: CodeLoad: SyntaxError: Unexpected token ')'",
-      "user": [0.0154],
-      "sys": [0.0041],
-      "real": [0.0458],
-      "rss_mb": [23.47]
+    "Mandreel": {
+      "error": "RangeError: Maximum JIT call stack size exceeded",
+      "user": [0.2259],
+      "sys": [0.1169],
+      "real": [0.3432],
+      "rss_mb": [224.67]
+    },
+    "MandreelLatency": {
+      "error": "RangeError: Maximum JIT call stack size exceeded",
+      "user": [0.2259],
+      "sys": [0.1169],
+      "real": [0.3432],
+      "rss_mb": [224.67]
+    },
+    "NavierStokes": {
+      "error": "RangeError: NavierStokes: RangeError: Maximum JIT call stack size exceeded",
+      "user": [0.0078],
+      "sys": [0.0011],
+      "real": [0.0092],
+      "rss_mb": [23.92]
+    },
+    "Richards": {
+      "error": "RangeError: Richards: RangeError: Maximum JIT call stack size exceeded",
+      "user": [0.004],
+      "sys": [0.004],
+      "real": [0.0334],
+      "rss_mb": [23.55]
+    },
+    "Crypto": {
+      "error": "RangeError: Crypto: RangeError: Maximum JIT call stack size exceeded",
+      "user": [0.009],
+      "sys": [0.009],
+      "real": [0.0447],
+      "rss_mb": [23.97]
+    },
+    "PdfJS": {
+      "error": "RangeError: PdfJS: RangeError: Maximum JIT call stack size exceeded",
+      "user": [0.0919],
+      "sys": [0.0214],
+      "real": [0.1136],
+      "rss_mb": [68.27]
+    },
+    "DeltaBlue": {
+      "error": "RangeError: DeltaBlue: RangeError: Maximum JIT call stack size exceeded",
+      "user": [0.0057],
+      "sys": [0.0048],
+      "real": [0.0381],
+      "rss_mb": [23.88]
     },
     "EarleyBoyer": {
       "error": "RangeError: Maximum JIT call stack size exceeded",
-      "user": [0.2843],
-      "sys": [0.006],
-      "real": [0.2919],
-      "rss_mb": [23.68]
+      "user": [0.012],
+      "sys": [0.003],
+      "real": [0.0172],
+      "rss_mb": [24.38]
+    },
+    "Typescript": {
+      "error": "RangeError: Maximum JIT call stack size exceeded",
+      "user": [0.0522],
+      "sys": [0.0371],
+      "real": [0.0897],
+      "rss_mb": [70.98]
     },
     "Splay": {
       "error": "RangeError: Splay: RangeError: Maximum JIT call stack size exceeded",
-      "user": [0.009],
-      "sys": [0.0054],
-      "real": [0.0156],
+      "user": [0.0059],
+      "sys": [0.002],
+      "real": [0.0081],
       "rss_mb": [23.61]
     },
     "SplayLatency": {
       "error": "RangeError: Splay: RangeError: Maximum JIT call stack size exceeded",
-      "user": [0.009],
-      "sys": [0.0054],
-      "real": [0.0156],
+      "user": [0.0059],
+      "sys": [0.002],
+      "real": [0.0081],
       "rss_mb": [23.61]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: Unexpected token ')'",
+      "user": [0.0042],
+      "sys": [0.0032],
+      "real": [0.0344],
+      "rss_mb": [23.8]
+    },
+    "RayTrace": {
+      "error": "RangeError: RayTrace: RangeError: Maximum JIT call stack size exceeded",
+      "user": [0.0066],
+      "sys": [0.0047],
+      "real": [0.0367],
+      "rss_mb": [23.6]
     }
   }
 }

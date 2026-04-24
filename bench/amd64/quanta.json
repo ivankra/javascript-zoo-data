@@ -10,14 +10,14 @@
     "revision": "04bcf711ebf69bdcc31a4ae6b66411af471b7a7a",
     "revision_date": "2026-04-10"
   },
-  "time": "2026-04-16 08:19:38.855506 UTC",
+  "time": "2026-04-24 05:04:27.704056 UTC",
   "benchmarks": {
     "Richards": {
       "error": "EXIT: 1",
-      "user": [0.0129],
-      "sys": [0.0049],
-      "real": [0.0182],
-      "rss_mb": [23.45]
+      "user": [0.0149],
+      "sys": [0.004],
+      "real": [0.0191],
+      "rss_mb": [23.18]
     }
   }
 }

@@ -1,0 +1,136 @@
+{
+  "binary": {
+    "arch": "amd64",
+    "binary_name": "dowdiness",
+    "binary_sha256": "dadedf8da674ded27cb6f3884d28280ca16396b4cda89eea537278a7c08ceff5",
+    "binary_size": 3725592,
+    "engine": "dowdiness",
+    "repository": "https://github.com/dowdiness/js_engine.git",
+    "revision": "4cb84a6fd4f27ee03cd5236804d7abd13ec54a9b",
+    "revision_date": "2026-04-23",
+    "version": "0.2.0-5-g4cb84a6"
+  },
+  "flags": [{"if": "flags:module", "then": "--module"}],
+  "time": "2026-04-24 02:51:35.649182 UTC",
+  "benchmarks": {
+    "Typescript": {
+      "error": "SyntaxError: Typescript: SyntaxError: Identifier 'arguments' has already been declared",
+      "user": [96.909],
+      "sys": [1.3189],
+      "real": [98.2399],
+      "rss_mb": [59.93]
+    },
+    "CodeLoad": {
+      "score": [1827],
+      "user": [3.0944],
+      "sys": [0.03],
+      "real": [3.125],
+      "rss_mb": [126.33]
+    },
+    "Richards": {
+      "score": [4.73],
+      "user": [25.3671],
+      "sys": [0.004],
+      "real": [25.3749],
+      "rss_mb": [23.61]
+    },
+    "Box2D": {
+      "score": [193],
+      "user": [22.6478],
+      "sys": [0.004],
+      "real": [22.6534],
+      "rss_mb": [32.9]
+    },
+    "Splay": {
+      "score": [51.4],
+      "user": [18.9634],
+      "sys": [0.14],
+      "real": [19.1067],
+      "rss_mb": [458.63]
+    },
+    "SplayLatency": {
+      "score": [482],
+      "user": [18.9634],
+      "sys": [0.14],
+      "real": [19.1067],
+      "rss_mb": [458.63]
+    },
+    "Gameboy": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8133],
+      "sys": [0.087],
+      "real": [1800.1025],
+      "rss_mb": [147.54]
+    },
+    "RayTrace": {
+      "score": [14.3],
+      "user": [170.3518],
+      "sys": [0.007],
+      "real": [170.3729],
+      "rss_mb": [23.37]
+    },
+    "Crypto": {
+      "score": [6.08],
+      "user": [656.4649],
+      "sys": [0.018],
+      "real": [656.5399],
+      "rss_mb": [23.51]
+    },
+    "Mandreel": {
+      "error": "FAIL: No scores in the output",
+      "user": [1005.1425, 1018.2771],
+      "sys": [0.064, 0.111],
+      "real": [1005.2665, 1018.4797],
+      "rss_mb": [373.49, 374.16]
+    },
+    "MandreelLatency": {
+      "error": "FAIL: No scores in the output",
+      "user": [1005.1425, 1018.2771],
+      "sys": [0.064, 0.111],
+      "real": [1005.2665, 1018.4797],
+      "rss_mb": [373.49, 374.16]
+    },
+    "DeltaBlue": {
+      "score": [5.04],
+      "user": [43.2958],
+      "sys": [0.01],
+      "real": [43.3098],
+      "rss_mb": [33.59]
+    },
+    "RegExp": {
+      "error": "SyntaxError: Unterminated regex literal at line 497, col 15",
+      "user": [0.016],
+      "sys": [0.002],
+      "real": [0.0182],
+      "rss_mb": [23.49]
+    },
+    "zlib": {
+      "error": "ReferenceError: zlib: ReferenceError: c is not defined",
+      "user": [2.4028],
+      "sys": [0.053],
+      "real": [2.4563],
+      "rss_mb": [537.87]
+    },
+    "PdfJS": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.7354],
+      "sys": [0.086],
+      "real": [1800.0461],
+      "rss_mb": [57.09]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: Invalid escape sequence at line 1484, col 7",
+      "user": [0.0225],
+      "sys": [0.002],
+      "real": [0.0247],
+      "rss_mb": [23.57]
+    },
+    "NavierStokes": {
+      "score": [4.67],
+      "user": [541.2048],
+      "sys": [0.018],
+      "real": [541.2723],
+      "rss_mb": [23.18]
+    }
+  }
+}

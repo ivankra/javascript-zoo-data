@@ -6,126 +6,126 @@
     "engine": "yaji",
     "jdk": "openjdk version \"25.0.2\" 2026-01-20"
   },
-  "time": "2026-04-16 03:44:54.862209 UTC",
+  "time": "2026-04-24 03:55:08.429678 UTC",
   "benchmarks": {
     "Gameboy": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.2813],
-      "sys": [0.0547],
-      "real": [0.1954],
-      "rss_mb": [63.57]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 169, column 3.",
-      "user": [0.2626],
-      "sys": [0.0529],
-      "real": [0.1793],
-      "rss_mb": [63.64]
-    },
-    "zlib": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 12, column 3.",
-      "user": [0.2721],
-      "sys": [0.0493],
-      "real": [0.1891],
-      "rss_mb": [57.8]
-    },
-    "RayTrace": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.2417],
-      "sys": [0.0668],
-      "real": [0.1806],
-      "rss_mb": [63.66]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.2925],
-      "sys": [0.0543],
-      "real": [0.1998],
-      "rss_mb": [63.99]
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.2669],
+      "sys": [0.0481],
+      "real": [0.1784],
+      "rss_mb": [63.42]
     },
     "Splay": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.2974],
-      "sys": [0.0497],
-      "real": [0.197],
-      "rss_mb": [63.72]
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.2925],
+      "sys": [0.0518],
+      "real": [0.1973],
+      "rss_mb": [63.64]
     },
     "SplayLatency": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.2974],
-      "sys": [0.0497],
-      "real": [0.197],
-      "rss_mb": [63.72]
-    },
-    "NavierStokes": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.2828],
-      "sys": [0.0437],
-      "real": [0.1907],
-      "rss_mb": [63.53]
-    },
-    "Typescript": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.2777],
-      "sys": [0.0522],
-      "real": [0.1868],
-      "rss_mb": [63.93]
-    },
-    "DeltaBlue": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.3055],
-      "sys": [0.0544],
-      "real": [0.2071],
-      "rss_mb": [63.8]
-    },
-    "Richards": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.2873],
-      "sys": [0.049],
-      "real": [0.1946],
-      "rss_mb": [63.53]
-    },
-    "Box2D": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.3099],
-      "sys": [0.0612],
-      "real": [0.2112],
-      "rss_mb": [63.68]
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.2925],
+      "sys": [0.0518],
+      "real": [0.1973],
+      "rss_mb": [63.64]
     },
     "RegExp": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.3133],
-      "sys": [0.0661],
-      "real": [0.2151],
-      "rss_mb": [63.74]
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.3044],
+      "sys": [0.048],
+      "real": [0.1978],
+      "rss_mb": [63.64]
+    },
+    "Richards": {
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.3036],
+      "sys": [0.0571],
+      "real": [0.2033],
+      "rss_mb": [63.76]
+    },
+    "Box2D": {
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.2996],
+      "sys": [0.0494],
+      "real": [0.1988],
+      "rss_mb": [63.78]
     },
     "Mandreel": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.2906],
-      "sys": [0.0524],
-      "real": [0.1961],
-      "rss_mb": [63.72]
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.3075],
+      "sys": [0.0461],
+      "real": [0.2043],
+      "rss_mb": [64.09]
     },
     "MandreelLatency": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.2906],
-      "sys": [0.0524],
-      "real": [0.1961],
-      "rss_mb": [63.72]
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.3075],
+      "sys": [0.0461],
+      "real": [0.2043],
+      "rss_mb": [64.09]
     },
-    "CodeLoad": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.29],
-      "sys": [0.0491],
-      "real": [0.197],
-      "rss_mb": [63.69]
+    "NavierStokes": {
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.2939],
+      "sys": [0.0444],
+      "real": [0.1932],
+      "rss_mb": [63.61]
+    },
+    "Typescript": {
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.2815],
+      "sys": [0.0514],
+      "real": [0.1929],
+      "rss_mb": [63.73]
     },
     "Crypto": {
-      "error": "SyntaxError: detected Encountered \"function\" at line 160, column 3.",
-      "user": [0.2742],
-      "sys": [0.0417],
-      "real": [0.1791],
-      "rss_mb": [63.82]
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.2734],
+      "sys": [0.0538],
+      "real": [0.1868],
+      "rss_mb": [63.55]
+    },
+    "zlib": {
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.278],
+      "sys": [0.0513],
+      "real": [0.1932],
+      "rss_mb": [57.46]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.2706],
+      "sys": [0.0497],
+      "real": [0.1808],
+      "rss_mb": [63.79]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.2697],
+      "sys": [0.0472],
+      "real": [0.1821],
+      "rss_mb": [63.56]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.2841],
+      "sys": [0.0608],
+      "real": [0.1938],
+      "rss_mb": [63.9]
+    },
+    "RayTrace": {
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.3027],
+      "sys": [0.0468],
+      "real": [0.196],
+      "rss_mb": [63.69]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: Encountered \"function\"",
+      "user": [0.2654],
+      "sys": [0.0518],
+      "real": [0.1814],
+      "rss_mb": [63.81]
     }
   }
 }

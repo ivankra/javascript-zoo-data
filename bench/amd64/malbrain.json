@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "malbrain",
-    "binary_sha256": "5956148b3394a7e015dc350191e3a0392cdf0fa11a01dff545c9cde575028188",
+    "binary_sha256": "76561d3ac8d02289d1e3bee89f20f87c2b7bfa3629f88eb1d7f7cb8badd51011",
     "binary_size": 369280,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "malbrain",
@@ -12,126 +12,126 @@
     "smoke_test_js": "print(\"4\"+\"2\");",
     "smoke_test_output": "42"
   },
-  "time": "2026-04-16 03:16:48.169363 UTC",
+  "time": "2026-04-24 03:51:36.252157 UTC",
   "benchmarks": {
-    "RegExp": {
+    "Crypto": {
       "error": "SyntaxError: unexpected FCN, expecting SEMI",
-      "user": [0.0011],
-      "sys": [0.0],
+      "user": [0.0],
+      "sys": [0.0011],
       "real": [0.0013],
-      "rss_mb": [23.43]
-    },
-    "Splay": {
-      "error": "SyntaxError: unexpected FCN, expecting SEMI",
-      "user": [0.0],
-      "sys": [0.001],
-      "real": [0.0012],
       "rss_mb": [23.39]
-    },
-    "SplayLatency": {
-      "error": "SyntaxError: unexpected FCN, expecting SEMI",
-      "user": [0.0],
-      "sys": [0.001],
-      "real": [0.0012],
-      "rss_mb": [23.39]
-    },
-    "RayTrace": {
-      "error": "SyntaxError: unexpected FCN, expecting SEMI",
-      "user": [0.0],
-      "sys": [0.0012],
-      "real": [0.0014],
-      "rss_mb": [23.36]
-    },
-    "Typescript": {
-      "error": "SyntaxError: unexpected FCN, expecting SEMI",
-      "user": [0.001],
-      "sys": [0.0],
-      "real": [0.0012],
-      "rss_mb": [33.39]
     },
     "zlib": {
       "error": "SyntaxError: unexpected DIV, expecting RPAR",
       "user": [0.0],
-      "sys": [0.0012],
-      "real": [0.0014],
-      "rss_mb": [23.72]
-    },
-    "Richards": {
-      "error": "SyntaxError: unexpected FCN, expecting SEMI",
-      "user": [0.0008],
-      "sys": [0.0],
-      "real": [0.001],
-      "rss_mb": [23.7]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: unexpected FCN, expecting SEMI",
-      "user": [0.0],
       "sys": [0.001],
       "real": [0.0012],
-      "rss_mb": [30.55]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: unexpected FCN, expecting SEMI",
-      "user": [0.001],
-      "sys": [0.0],
-      "real": [0.0014],
-      "rss_mb": [53.67]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: unexpected FCN, expecting SEMI",
-      "user": [0.001],
-      "sys": [0.0],
-      "real": [0.0014],
-      "rss_mb": [53.67]
-    },
-    "Box2D": {
-      "error": "SyntaxError: unexpected FCN, expecting SEMI",
-      "user": [0.0],
-      "sys": [0.0013],
-      "real": [0.0015],
-      "rss_mb": [23.63]
-    },
-    "Crypto": {
-      "error": "SyntaxError: unexpected FCN, expecting SEMI",
-      "user": [0.0],
-      "sys": [0.0012],
-      "real": [0.0014],
-      "rss_mb": [23.17]
+      "rss_mb": [23.67]
     },
     "Gameboy": {
       "error": "SyntaxError: unexpected FCN, expecting SEMI",
       "user": [0.0],
       "sys": [0.001],
       "real": [0.0012],
-      "rss_mb": [25.0]
+      "rss_mb": [25.06]
     },
-    "CodeLoad": {
+    "Typescript": {
       "error": "SyntaxError: unexpected FCN, expecting SEMI",
       "user": [0.0],
-      "sys": [0.0011],
-      "real": [0.0024],
-      "rss_mb": [23.48]
+      "sys": [0.0008],
+      "real": [0.001],
+      "rss_mb": [33.5]
     },
     "EarleyBoyer": {
+      "error": "SyntaxError: unexpected FCN, expecting SEMI",
+      "user": [0.0013],
+      "sys": [0.0],
+      "real": [0.0015],
+      "rss_mb": [23.46]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: unexpected FCN, expecting SEMI",
+      "user": [0.0007],
+      "sys": [0.0007],
+      "real": [0.0017],
+      "rss_mb": [53.37]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: unexpected FCN, expecting SEMI",
+      "user": [0.0007],
+      "sys": [0.0007],
+      "real": [0.0017],
+      "rss_mb": [53.37]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: unexpected FCN, expecting SEMI",
+      "user": [0.0],
+      "sys": [0.001],
+      "real": [0.0013],
+      "rss_mb": [29.45]
+    },
+    "RegExp": {
       "error": "SyntaxError: unexpected FCN, expecting SEMI",
       "user": [0.0],
       "sys": [0.0013],
       "real": [0.0015],
-      "rss_mb": [23.68]
+      "rss_mb": [23.46]
     },
-    "DeltaBlue": {
+    "Box2D": {
       "error": "SyntaxError: unexpected FCN, expecting SEMI",
       "user": [0.0],
-      "sys": [0.0009],
-      "real": [0.0022],
-      "rss_mb": [23.52]
+      "sys": [0.001],
+      "real": [0.0012],
+      "rss_mb": [23.88]
+    },
+    "Splay": {
+      "error": "SyntaxError: unexpected FCN, expecting SEMI",
+      "user": [0.0],
+      "sys": [0.0013],
+      "real": [0.0015],
+      "rss_mb": [23.15]
+    },
+    "SplayLatency": {
+      "error": "SyntaxError: unexpected FCN, expecting SEMI",
+      "user": [0.0],
+      "sys": [0.0013],
+      "real": [0.0015],
+      "rss_mb": [23.15]
     },
     "NavierStokes": {
       "error": "SyntaxError: unexpected FCN, expecting SEMI",
       "user": [0.0],
+      "sys": [0.0013],
+      "real": [0.0015],
+      "rss_mb": [23.16]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: unexpected FCN, expecting SEMI",
+      "user": [0.0],
+      "sys": [0.0012],
+      "real": [0.0014],
+      "rss_mb": [23.44]
+    },
+    "RayTrace": {
+      "error": "SyntaxError: unexpected FCN, expecting SEMI",
+      "user": [0.0],
       "sys": [0.0009],
-      "real": [0.0022],
-      "rss_mb": [23.6]
+      "real": [0.0011],
+      "rss_mb": [23.55]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: unexpected FCN, expecting SEMI",
+      "user": [0.001],
+      "sys": [0.0],
+      "real": [0.0012],
+      "rss_mb": [23.38]
+    },
+    "Richards": {
+      "error": "SyntaxError: unexpected FCN, expecting SEMI",
+      "user": [0.0],
+      "sys": [0.0012],
+      "real": [0.0014],
+      "rss_mb": [23.5]
     }
   }
 }

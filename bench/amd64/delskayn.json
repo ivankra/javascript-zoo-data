@@ -8,128 +8,128 @@
     "repository": "https://github.com/DelSkayn/toyjs.git",
     "revision": "11f084fc09723785b4bdb0575509664ca8b05f49",
     "revision_date": "2022-06-04",
-    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
-  "time": "2026-04-16 02:05:34.045697 UTC",
+  "time": "2026-04-24 02:51:37.884724 UTC",
   "benchmarks": {
-    "RayTrace": {
-      "error": "SyntaxError: unexpected token: found 'string' expected 'ident'",
-      "user": [0.0028],
-      "sys": [0.0019],
-      "real": [0.0055],
-      "rss_mb": [19.14]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: unexpected token: found '(' expected '=>'",
-      "user": [0.0037],
-      "sys": [0.0028],
-      "real": [0.0072],
-      "rss_mb": [23.87]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: unexpected token: found 'string' expected 'ident'",
-      "user": [0.0032],
-      "sys": [0.0011],
-      "real": [0.0049],
-      "rss_mb": [20.55]
-    },
     "Mandreel": {
       "error": "SyntaxError: parser encountered an unimplemented path in: crates/parser/src/prime.rs:99, Sorry! token: Operator(Div)",
-      "user": [0.0066],
-      "sys": [0.0075],
-      "real": [0.015],
-      "rss_mb": [39.33]
+      "user": [0.006],
+      "sys": [0.009],
+      "real": [0.0159],
+      "rss_mb": [39.16]
     },
     "MandreelLatency": {
       "error": "SyntaxError: parser encountered an unimplemented path in: crates/parser/src/prime.rs:99, Sorry! token: Operator(Div)",
-      "user": [0.0066],
-      "sys": [0.0075],
-      "real": [0.015],
-      "rss_mb": [39.33]
+      "user": [0.006],
+      "sys": [0.009],
+      "real": [0.0159],
+      "rss_mb": [39.16]
+    },
+    "Box2D": {
+      "error": "TypeError: undefined has no properties",
+      "user": [0.0246],
+      "sys": [0.0089],
+      "real": [0.0341],
+      "rss_mb": [19.17]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: unexpected token: found 'string' expected 'ident'",
+      "user": [0.0022],
+      "sys": [0.0022],
+      "real": [0.0051],
+      "rss_mb": [20.77]
     },
     "RegExp": {
       "error": "SyntaxError: parser encountered an unimplemented path in: crates/parser/src/prime.rs:99, Sorry! token: Operator(Div)",
-      "user": [0.001],
-      "sys": [0.002],
-      "real": [0.0036],
-      "rss_mb": [19.04]
+      "user": [0.0011],
+      "sys": [0.0021],
+      "real": [0.0038],
+      "rss_mb": [19.05]
+    },
+    "zlib": {
+      "error": "SyntaxError: parser encountered an unimplemented path in: crates/parser/src/prime.rs:99, Sorry! token: Operator(Div)",
+      "user": [0.0017],
+      "sys": [0.0008],
+      "real": [0.003],
+      "rss_mb": [19.56]
     },
     "NavierStokes": {
       "error": "TypeError: undefined has no properties",
-      "user": [0.002],
-      "sys": [0.0029],
-      "real": [0.0057],
-      "rss_mb": [19.01]
-    },
-    "Typescript": {
-      "error": "SyntaxError: unexpected token: found '/' expected '=>'",
-      "user": [0.0126],
-      "sys": [0.0107],
-      "real": [0.0244],
-      "rss_mb": [28.9]
-    },
-    "DeltaBlue": {
-      "error": "TypeError: undefined has no properties",
-      "user": [0.0022],
-      "sys": [0.0022],
-      "real": [0.0052],
-      "rss_mb": [18.94]
+      "user": [0.0031],
+      "sys": [0.001],
+      "real": [0.0047],
+      "rss_mb": [18.77]
     },
     "Richards": {
       "error": "TypeError: undefined has no properties",
       "user": [0.0009],
-      "sys": [0.0035],
-      "real": [0.0051],
-      "rss_mb": [19.28]
+      "sys": [0.0027],
+      "real": [0.0041],
+      "rss_mb": [18.92]
     },
-    "Box2D": {
-      "error": "TypeError: undefined has no properties",
-      "user": [0.022],
-      "sys": [0.012],
-      "real": [0.0347],
-      "rss_mb": [19.23]
-    },
-    "zlib": {
-      "error": "SyntaxError: parser encountered an unimplemented path in: crates/parser/src/prime.rs:99, Sorry! token: Operator(Div)",
-      "user": [0.0],
-      "sys": [0.0026],
-      "real": [0.0033],
-      "rss_mb": [19.21]
+    "PdfJS": {
+      "error": "SyntaxError: unexpected token: found '(' expected '=>'",
+      "user": [0.0032],
+      "sys": [0.0032],
+      "real": [0.007],
+      "rss_mb": [23.83]
     },
     "Crypto": {
       "error": "TypeError: undefined has no properties",
-      "user": [0.0054],
-      "sys": [0.0022],
-      "real": [0.0083],
-      "rss_mb": [18.87]
-    },
-    "CodeLoad": {
-      "error": "TypeError: undefined has no properties",
-      "user": [0.0034],
+      "user": [0.0078],
       "sys": [0.0011],
-      "real": [0.0055],
-      "rss_mb": [19.04]
+      "real": [0.0097],
+      "rss_mb": [19.15]
     },
     "EarleyBoyer": {
       "error": "SyntaxError: unexpected token: found 'string' expected 'ident'",
-      "user": [0.0011],
-      "sys": [0.0033],
+      "user": [0.0022],
+      "sys": [0.0022],
+      "real": [0.0051],
+      "rss_mb": [19.04]
+    },
+    "Typescript": {
+      "error": "SyntaxError: unexpected token: found '/' expected '=>'",
+      "user": [0.0165],
+      "sys": [0.0072],
+      "real": [0.0247],
+      "rss_mb": [28.85]
+    },
+    "CodeLoad": {
+      "error": "TypeError: undefined has no properties",
+      "user": [0.0018],
+      "sys": [0.0018],
+      "real": [0.0041],
+      "rss_mb": [19.03]
+    },
+    "DeltaBlue": {
+      "error": "TypeError: undefined has no properties",
+      "user": [0.0023],
+      "sys": [0.0023],
       "real": [0.0053],
-      "rss_mb": [18.93]
+      "rss_mb": [18.92]
+    },
+    "RayTrace": {
+      "error": "SyntaxError: unexpected token: found 'string' expected 'ident'",
+      "user": [0.0018],
+      "sys": [0.0026],
+      "real": [0.0051],
+      "rss_mb": [19.13]
     },
     "Splay": {
       "error": "TypeError: undefined has no properties",
       "user": [0.0],
-      "sys": [0.003],
-      "real": [0.0038],
-      "rss_mb": [18.97]
+      "sys": [0.0035],
+      "real": [0.004],
+      "rss_mb": [19.0]
     },
     "SplayLatency": {
       "error": "TypeError: undefined has no properties",
       "user": [0.0],
-      "sys": [0.003],
-      "real": [0.0038],
-      "rss_mb": [18.97]
+      "sys": [0.0035],
+      "real": [0.004],
+      "rss_mb": [19.0]
     }
   }
 }

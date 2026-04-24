@@ -2,134 +2,134 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "echosoar",
-    "binary_sha256": "575d17496451699467e36a68558af05e3d85ccfd69c87818f53a2eeb538ff609",
-    "binary_size": 1376600,
+    "binary_sha256": "0eedb63c5fe73c278b3562f2f6345bc046b9eb03a2b16311bc9de8568f1e5687",
+    "binary_size": 1368776,
     "engine": "echosoar",
     "repository": "https://github.com/echosoar/jsi.git",
-    "revision": "75fe0943f6965f029d11734b3db1ffe655d2d82b",
-    "revision_date": "2026-04-14",
-    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
+    "revision": "43ec7dc547bb3afd4004f71cd0648538bd815093",
+    "revision_date": "2026-04-19",
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
-  "time": "2026-04-16 02:06:10.569717 UTC",
+  "time": "2026-04-24 02:52:12.766394 UTC",
   "benchmarks": {
-    "Typescript": {
-      "error": "SyntaxError: Unexpected identifier 'License'",
-      "user": [0.0042],
-      "sys": [0.0062],
-      "real": [0.0107],
-      "rss_mb": [195.93]
-    },
-    "Splay": {
-      "error": "ReferenceError: performance is not defined",
-      "user": [0.0041],
+    "Gameboy": {
+      "error": "SyntaxError: Unexpected token RightParenthesis",
+      "user": [0.0078],
       "sys": [0.001],
-      "real": [0.0054],
-      "rss_mb": [23.42]
-    },
-    "SplayLatency": {
-      "error": "ReferenceError: performance is not defined",
-      "user": [0.0041],
-      "sys": [0.001],
-      "real": [0.0054],
-      "rss_mb": [23.42]
+      "real": [0.009],
+      "rss_mb": [37.86]
     },
     "RayTrace": {
-      "error": "ReferenceError: performance is not defined",
-      "user": [0.0056],
-      "sys": [0.0019],
-      "real": [0.0077],
-      "rss_mb": [23.55]
-    },
-    "RegExp": {
-      "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.002],
-      "sys": [0.002],
-      "real": [0.0044],
-      "rss_mb": [24.57]
-    },
-    "zlib": {
-      "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.002],
-      "sys": [0.0],
-      "real": [0.0022],
-      "rss_mb": [24.06]
-    },
-    "Richards": {
-      "error": "SyntaxError: Unexpected identifier 'next'",
-      "user": [0.0031],
-      "sys": [0.0021],
-      "real": [0.0054],
-      "rss_mb": [23.7]
-    },
-    "NavierStokes": {
-      "error": "SyntaxError: Unexpected token BitwiseNot",
+      "error": "SyntaxError: Invalid octal number",
       "user": [0.0023],
       "sys": [0.0011],
       "real": [0.0037],
-      "rss_mb": [23.5]
+      "rss_mb": [23.67]
     },
-    "CodeLoad": {
-      "error": "SyntaxError: Unexpected identifier 'en'",
-      "user": [0.0018],
-      "sys": [0.0018],
-      "real": [0.0039],
-      "rss_mb": [23.94]
+    "NavierStokes": {
+      "error": "SyntaxError: Unexpected identifier 'x'",
+      "user": [0.001],
+      "sys": [0.0029],
+      "real": [0.0041],
+      "rss_mb": [23.35]
     },
-    "EarleyBoyer": {
-      "error": "SyntaxError: Unexpected token If",
-      "user": [0.0031],
-      "sys": [0.002],
-      "real": [0.0053],
-      "rss_mb": [24.13]
+    "zlib": {
+      "error": "SyntaxError: Unexpected token Slash",
+      "user": [0.0009],
+      "sys": [0.0009],
+      "real": [0.002],
+      "rss_mb": [24.09]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0019],
+      "sys": [0.0078],
+      "real": [0.0099],
+      "rss_mb": [53.88]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0019],
+      "sys": [0.0078],
+      "real": [0.0099],
+      "rss_mb": [53.88]
     },
     "DeltaBlue": {
       "error": "SyntaxError: Unexpected token This",
-      "user": [0.0029],
-      "sys": [0.001],
-      "real": [0.0041],
-      "rss_mb": [23.46]
-    },
-    "Crypto": {
-      "error": "SyntaxError: Unexpected identifier 'BI_RC'",
       "user": [0.0023],
       "sys": [0.0011],
-      "real": [0.0036],
-      "rss_mb": [23.32]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.012],
-      "sys": [0.011],
-      "real": [0.0233],
-      "rss_mb": [53.66]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.012],
-      "sys": [0.011],
-      "real": [0.0233],
-      "rss_mb": [53.66]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: Unexpected token RightParenthesis",
-      "user": [0.0069],
-      "sys": [0.002],
-      "real": [0.0092],
-      "rss_mb": [36.39]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: Unexpected identifier 'a'",
-      "user": [0.0036],
-      "sys": [0.0054],
-      "real": [0.0094],
-      "rss_mb": [49.02]
+      "real": [0.0037],
+      "rss_mb": [23.59]
     },
     "Box2D": {
       "error": "SyntaxError: Unexpected token RightBrace",
+      "user": [0.001],
+      "sys": [0.0031],
+      "real": [0.0043],
+      "rss_mb": [24.2]
+    },
+    "Richards": {
+      "error": "SyntaxError: Unexpected identifier 'next'",
+      "user": [0.0027],
+      "sys": [0.0027],
+      "real": [0.0055],
+      "rss_mb": [23.5]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: Unexpected token If",
       "user": [0.0032],
       "sys": [0.0011],
       "real": [0.0045],
-      "rss_mb": [24.01]
+      "rss_mb": [24.27]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: Unexpected identifier 'a'",
+      "user": [0.0039],
+      "sys": [0.0049],
+      "real": [0.0091],
+      "rss_mb": [49.22]
+    },
+    "Typescript": {
+      "error": "SyntaxError: Unexpected token Comma",
+      "user": [0.0168],
+      "sys": [0.0119],
+      "real": [0.0289],
+      "rss_mb": [194.88]
+    },
+    "RegExp": {
+      "error": "SyntaxError: Unexpected token Slash",
+      "user": [0.0017],
+      "sys": [0.0017],
+      "real": [0.0037],
+      "rss_mb": [24.59]
+    },
+    "Splay": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0008],
+      "sys": [0.0024],
+      "real": [0.0034],
+      "rss_mb": [23.59]
+    },
+    "SplayLatency": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0008],
+      "sys": [0.0024],
+      "real": [0.0034],
+      "rss_mb": [23.59]
+    },
+    "Crypto": {
+      "error": "SyntaxError: Unexpected identifier 'BI_RC'",
+      "user": [0.0041],
+      "sys": [0.0],
+      "real": [0.0043],
+      "rss_mb": [23.45]
+    },
+    "CodeLoad": {
+      "error": "ReferenceError: performance is not defined",
+      "user": [0.0026],
+      "sys": [0.0035],
+      "real": [0.0063],
+      "rss_mb": [23.83]
     }
   }
 }

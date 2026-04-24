@@ -8,16 +8,16 @@
     "repository": "https://github.com/maekawatoshiki/rapidus.git",
     "revision": "e2cbce0e2ee7bb640df056d790e7d5e61fde94e0",
     "revision_date": "2023-02-25",
-    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
-  "time": "2026-04-16 05:26:17.344756 UTC",
+  "time": "2026-04-24 07:16:09.093525 UTC",
   "benchmarks": {
     "Richards": {
       "error": "FAIL: No scores in the output",
-      "user": [2.875],
-      "sys": [0.682],
-      "real": [3.5578],
-      "rss_mb": [1459.95]
+      "user": [3.0914],
+      "sys": [0.6639],
+      "real": [3.7562],
+      "rss_mb": [1459.91]
     }
   }
 }

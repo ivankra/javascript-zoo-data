@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "spidermonkey_1.5",
-    "binary_sha256": "0a9800ae092d2d1ce5f5edfaccaf1414f62ce664f68160705da28ba8527acfa7",
+    "binary_sha256": "0689c8f4a9147f4516cff3f4668369e9f9439fe12a052b518956c262d2176f2a",
     "binary_size": 714552,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "spidermonkey",
@@ -13,126 +13,126 @@
     "standard": "ES3",
     "version": "1.5"
   },
-  "time": "2026-04-16 03:44:46.446134 UTC",
+  "time": "2026-04-24 03:55:04.022796 UTC",
   "benchmarks": {
-    "DeltaBlue": {
-      "score": [384, 506],
-      "user": [1.9965, 1.9862],
-      "sys": [0.042, 0.048],
-      "real": [2.039, 2.0347],
-      "rss_mb": [59.04, 76.84]
-    },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0249, 0.0263],
-      "sys": [0.003, 0.002],
-      "real": [0.0281, 0.0286],
-      "rss_mb": [25.54, 25.46]
-    },
-    "NavierStokes": {
-      "score": [456],
-      "user": [6.1584],
-      "sys": [0.1],
-      "real": [6.2594],
-      "rss_mb": [74.05]
-    },
-    "CodeLoad": {
-      "score": [15008, 15049, 14282],
-      "user": [2.1006, 2.0758, 2.1029],
-      "sys": [0.049, 0.059, 0.079],
-      "real": [2.15, 2.1352, 2.1824],
-      "rss_mb": [149.36, 149.14, 143.14]
-    },
-    "EarleyBoyer": {
-      "score": [463, 424],
-      "user": [13.7089, 14.4067],
-      "sys": [0.049, 0.084],
-      "real": [13.7599, 14.4934],
-      "rss_mb": [142.97, 141.25]
-    },
-    "Mandreel": {
-      "error": "ReferenceError: Float64Array is not defined",
-      "user": [0.3684],
-      "sys": [0.043],
-      "real": [0.4117],
-      "rss_mb": [94.02]
-    },
-    "MandreelLatency": {
-      "error": "ReferenceError: Float64Array is not defined",
-      "user": [0.3684],
-      "sys": [0.043],
-      "real": [0.4117],
-      "rss_mb": [94.02]
-    },
-    "Crypto": {
-      "score": [330, 329],
-      "user": [14.1767, 14.2756],
-      "sys": [0.021, 0.021],
-      "real": [14.2002, 14.2984],
-      "rss_mb": [29.75, 30.05]
-    },
-    "Typescript": {
-      "error": "SyntaxError: missing variable name:",
-      "user": [0.026, 0.0265],
-      "sys": [0.003, 0.002],
-      "real": [0.0292, 0.0288],
-      "rss_mb": [35.54, 35.5]
-    },
-    "RayTrace": {
-      "score": [423],
-      "user": [7.3221],
-      "sys": [0.073],
-      "real": [7.3964],
-      "rss_mb": [133.66]
-    },
-    "zlib": {
-      "error": "ReferenceError: zlib: ReferenceError: Int32Array is not defined",
-      "user": [0.0192],
-      "sys": [0.004],
-      "real": [0.0235],
-      "rss_mb": [23.95]
-    },
-    "Richards": {
-      "score": [405],
-      "user": [2.008],
-      "sys": [0.002],
-      "real": [2.0104],
-      "rss_mb": [23.35]
-    },
-    "RegExp": {
-      "score": [257],
-      "user": [7.1488],
-      "sys": [0.091],
-      "real": [7.2406],
-      "rss_mb": [172.67]
+    "Box2D": {
+      "score": [891],
+      "user": [4.9105],
+      "sys": [0.025],
+      "real": [4.9361],
+      "rss_mb": [80.8]
     },
     "Splay": {
       "score": [616],
-      "user": [3.3613],
-      "sys": [0.212],
-      "real": [3.5742],
-      "rss_mb": [360.23]
+      "user": [3.3557],
+      "sys": [0.183],
+      "real": [3.5393],
+      "rss_mb": [360.27]
     },
     "SplayLatency": {
-      "score": [1850],
-      "user": [3.3613],
-      "sys": [0.212],
-      "real": [3.5742],
-      "rss_mb": [360.23]
+      "score": [1923],
+      "user": [3.3557],
+      "sys": [0.183],
+      "real": [3.5393],
+      "rss_mb": [360.27]
+    },
+    "DeltaBlue": {
+      "score": [507],
+      "user": [1.9908],
+      "sys": [0.039],
+      "real": [2.0302],
+      "rss_mb": [76.73]
+    },
+    "Richards": {
+      "score": [487, 417],
+      "user": [2.0044, 2.0107],
+      "sys": [0.002, 0.003],
+      "real": [2.0068, 2.0142],
+      "rss_mb": [23.43, 23.57]
+    },
+    "Mandreel": {
+      "error": "ReferenceError: Float64Array is not defined",
+      "user": [0.3474],
+      "sys": [0.0489],
+      "real": [0.3967],
+      "rss_mb": [93.96]
+    },
+    "MandreelLatency": {
+      "error": "ReferenceError: Float64Array is not defined",
+      "user": [0.3474],
+      "sys": [0.0489],
+      "real": [0.3967],
+      "rss_mb": [93.96]
+    },
+    "Typescript": {
+      "error": "SyntaxError: missing variable name:",
+      "user": [0.0209, 0.026],
+      "sys": [0.008, 0.003],
+      "real": [0.0292, 0.0292],
+      "rss_mb": [35.48, 35.57]
+    },
+    "EarleyBoyer": {
+      "score": [421],
+      "user": [14.4176],
+      "sys": [0.104],
+      "real": [14.5231],
+      "rss_mb": [142.82]
     },
     "PdfJS": {
       "error": "ReferenceError: Uint8Array is not defined",
-      "user": [0.2146],
-      "sys": [0.01],
-      "real": [0.2249],
-      "rss_mb": [31.08]
+      "user": [0.1457],
+      "sys": [0.0141],
+      "real": [0.1601],
+      "rss_mb": [32.62]
     },
-    "Box2D": {
-      "score": [852, 860],
-      "user": [5.1167, 5.062],
-      "sys": [0.041, 0.049],
-      "real": [5.1585, 5.1129],
-      "rss_mb": [80.81, 80.96]
+    "Crypto": {
+      "score": [266],
+      "user": [17.2531],
+      "sys": [0.028],
+      "real": [17.2846],
+      "rss_mb": [26.73]
+    },
+    "zlib": {
+      "error": "ReferenceError: zlib: ReferenceError: Int32Array is not defined",
+      "user": [0.021],
+      "sys": [0.005],
+      "real": [0.0262],
+      "rss_mb": [24.06]
+    },
+    "RegExp": {
+      "score": [254, 258],
+      "user": [7.3269, 7.1025],
+      "sys": [0.096, 0.094],
+      "real": [7.4239, 7.1973],
+      "rss_mb": [172.59, 172.64]
+    },
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0242],
+      "sys": [0.004],
+      "real": [0.0285],
+      "rss_mb": [25.73]
+    },
+    "CodeLoad": {
+      "score": [14895],
+      "user": [2.1232],
+      "sys": [0.061],
+      "real": [2.1846],
+      "rss_mb": [149.57]
+    },
+    "NavierStokes": {
+      "score": [412],
+      "user": [7.5498],
+      "sys": [0.079],
+      "real": [7.63],
+      "rss_mb": [74.06]
+    },
+    "RayTrace": {
+      "score": [418],
+      "user": [7.419],
+      "sys": [0.062],
+      "real": [7.4829],
+      "rss_mb": [133.59]
     }
   }
 }

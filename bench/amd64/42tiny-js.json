@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "42tiny-js",
-    "binary_sha256": "e7e01581d66dd65c792c21ca800735d6694a89292068ea526669c20ead70c485",
+    "binary_sha256": "f5c5850a03cda90f703a94a44c1becbefab5cdb4182424375f0f9e703f0b06cd",
     "binary_size": 808344,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "42tiny-js",
@@ -10,126 +10,126 @@
     "revision": "d61b911e56801489e2f72bd27304dcd15eeb60c1",
     "revision_date": "2014-10-19"
   },
-  "time": "2026-04-16 02:04:58.826719 UTC",
+  "time": "2026-04-24 02:50:38.721305 UTC",
   "benchmarks": {
-    "CodeLoad": {
-      "error": "ReferenceError: Date is undefined",
-      "user": [0.0021],
-      "sys": [0.0021],
-      "real": [0.0071],
-      "rss_mb": [23.78]
-    },
-    "EarleyBoyer": {
-      "error": "ReferenceError: Date is undefined",
-      "user": [0.0065],
-      "sys": [0.0037],
-      "real": [0.0119],
-      "rss_mb": [23.55]
-    },
-    "Crypto": {
-      "error": "SyntaxError: invalid decrement operand",
-      "user": [0.001],
-      "sys": [0.0029],
-      "real": [0.0069],
-      "rss_mb": [23.15]
-    },
-    "DeltaBlue": {
-      "error": "SyntaxError: invalid increment operand",
-      "user": [0.0021],
-      "sys": [0.001],
-      "real": [0.0048],
-      "rss_mb": [23.34]
-    },
     "Box2D": {
       "error": "SyntaxError: Got '}' expected 'ID'",
-      "user": [0.0015],
-      "sys": [0.0023],
-      "real": [0.0056],
-      "rss_mb": [23.86]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: invalid decrement operand",
-      "user": [0.0098],
-      "sys": [0.0011],
-      "real": [0.0135],
-      "rss_mb": [25.16]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: invalid increment operand",
-      "user": [0.0494],
-      "sys": [0.0109],
-      "real": [0.0628],
-      "rss_mb": [30.71]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: unterminated string literal",
-      "user": [0.002],
-      "sys": [0.0061],
-      "real": [0.01],
-      "rss_mb": [53.59]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: unterminated string literal",
-      "user": [0.002],
-      "sys": [0.0061],
-      "real": [0.01],
-      "rss_mb": [53.59]
-    },
-    "RegExp": {
-      "error": "SyntaxError: unterminated regular expression literal",
-      "user": [0.0048],
-      "sys": [0.0],
-      "real": [0.0075],
-      "rss_mb": [23.32]
-    },
-    "Splay": {
-      "error": "ReferenceError: Date is undefined",
-      "user": [0.0026],
+      "user": [0.0025],
       "sys": [0.0013],
-      "real": [0.006],
-      "rss_mb": [23.42]
-    },
-    "SplayLatency": {
-      "error": "ReferenceError: Date is undefined",
-      "user": [0.0026],
-      "sys": [0.0013],
-      "real": [0.006],
-      "rss_mb": [23.42]
-    },
-    "zlib": {
-      "error": "ReferenceError: unescape is not defined",
-      "user": [0.0029],
-      "sys": [0.002],
-      "real": [0.0065],
-      "rss_mb": [23.62]
+      "real": [0.0061],
+      "rss_mb": [23.72]
     },
     "RayTrace": {
       "error": "ReferenceError: Date is undefined",
-      "user": [0.0013],
-      "sys": [0.0033],
-      "real": [0.007],
+      "user": [0.0044],
+      "sys": [0.0],
+      "real": [0.0062],
+      "rss_mb": [23.32]
+    },
+    "Richards": {
+      "error": "ReferenceError: Date is undefined",
+      "user": [0.002],
+      "sys": [0.002],
+      "real": [0.0053],
       "rss_mb": [23.54]
     },
     "Typescript": {
       "error": "SyntaxError: Got 'return' expected ';'",
-      "user": [0.01],
-      "sys": [0.004],
-      "real": [0.028],
-      "rss_mb": [33.49]
+      "user": [0.0135],
+      "sys": [0.0094],
+      "real": [0.0248],
+      "rss_mb": [33.37]
     },
-    "Richards": {
+    "Gameboy": {
+      "error": "SyntaxError: invalid decrement operand",
+      "user": [0.0067],
+      "sys": [0.0038],
+      "real": [0.0123],
+      "rss_mb": [24.98]
+    },
+    "CodeLoad": {
       "error": "ReferenceError: Date is undefined",
-      "user": [0.0023],
-      "sys": [0.0035],
-      "real": [0.0072],
+      "user": [0.0011],
+      "sys": [0.0033],
+      "real": [0.0059],
+      "rss_mb": [23.46]
+    },
+    "Splay": {
+      "error": "ReferenceError: Date is undefined",
+      "user": [0.0013],
+      "sys": [0.0019],
+      "real": [0.0099],
+      "rss_mb": [23.52]
+    },
+    "SplayLatency": {
+      "error": "ReferenceError: Date is undefined",
+      "user": [0.0013],
+      "sys": [0.0019],
+      "real": [0.0099],
+      "rss_mb": [23.52]
+    },
+    "Crypto": {
+      "error": "SyntaxError: invalid decrement operand",
+      "user": [0.0029],
+      "sys": [0.001],
+      "real": [0.006],
+      "rss_mb": [23.34]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: unterminated string literal",
+      "user": [0.0009],
+      "sys": [0.0074],
+      "real": [0.0101],
+      "rss_mb": [53.57]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: unterminated string literal",
+      "user": [0.0009],
+      "sys": [0.0074],
+      "real": [0.0101],
+      "rss_mb": [53.57]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: invalid increment operand",
+      "user": [0.003],
+      "sys": [0.0],
+      "real": [0.0055],
+      "rss_mb": [23.36]
+    },
+    "RegExp": {
+      "error": "SyntaxError: unterminated regular expression literal",
+      "user": [0.0022],
+      "sys": [0.0022],
+      "real": [0.0066],
       "rss_mb": [23.59]
+    },
+    "zlib": {
+      "error": "ReferenceError: unescape is not defined",
+      "user": [0.0024],
+      "sys": [0.0056],
+      "real": [0.0117],
+      "rss_mb": [24.04]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: invalid increment operand",
+      "user": [0.0474],
+      "sys": [0.0128],
+      "real": [0.0619],
+      "rss_mb": [29.64]
     },
     "NavierStokes": {
       "error": "ReferenceError: Date is undefined",
-      "user": [0.0023],
-      "sys": [0.0012],
-      "real": [0.0054],
-      "rss_mb": [23.65]
+      "user": [0.005],
+      "sys": [0.001],
+      "real": [0.0081],
+      "rss_mb": [23.36]
+    },
+    "EarleyBoyer": {
+      "error": "ReferenceError: Date is undefined",
+      "user": [0.008],
+      "sys": [0.0027],
+      "real": [0.0127],
+      "rss_mb": [23.56]
     }
   }
 }

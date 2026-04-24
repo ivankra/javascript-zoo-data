@@ -9,126 +9,126 @@
     "revision_date": "2017-09-05",
     "version": "1.0.0"
   },
-  "time": "2026-04-16 04:50:50.018506 UTC",
+  "time": "2026-04-24 03:28:58.181958 UTC",
   "benchmarks": {
-    "Gameboy": {
+    "CodeLoad": {
       "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0471],
-      "sys": [0.0117],
-      "real": [0.059],
-      "rss_mb": [24.2]
-    },
-    "RayTrace": {
-      "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.0458],
-      "sys": [0.0117],
-      "real": [0.0576],
-      "rss_mb": [22.39]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.7156],
-      "sys": [0.0269],
-      "real": [0.7428],
-      "rss_mb": [57.56]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.7156],
-      "sys": [0.0269],
-      "real": [0.7428],
-      "rss_mb": [57.56]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.2706],
-      "sys": [0.0097],
-      "real": [0.2805],
-      "rss_mb": [28.8]
-    },
-    "Box2D": {
-      "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.0731],
-      "sys": [0.0116],
-      "real": [0.0847],
-      "rss_mb": [22.62]
-    },
-    "RegExp": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0494],
-      "sys": [0.0078],
-      "real": [0.0573],
-      "rss_mb": [22.63]
-    },
-    "zlib": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0493],
-      "sys": [0.0097],
-      "real": [0.0591],
-      "rss_mb": [22.72]
-    },
-    "DeltaBlue": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0462],
-      "sys": [0.0118],
-      "real": [0.0582],
-      "rss_mb": [22.38]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0464],
-      "sys": [0.0116],
-      "real": [0.0582],
-      "rss_mb": [22.65]
+      "user": [0.0445],
+      "sys": [0.0099],
+      "real": [0.0545],
+      "rss_mb": [22.75]
     },
     "Richards": {
       "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0425],
-      "sys": [0.0096],
-      "real": [0.0525],
-      "rss_mb": [22.37]
+      "user": [0.0426],
+      "sys": [0.009],
+      "real": [0.0517],
+      "rss_mb": [22.64]
     },
-    "NavierStokes": {
+    "Mandreel": {
       "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.0458],
-      "sys": [0.0109],
-      "real": [0.0569],
-      "rss_mb": [22.4]
+      "user": [0.7026],
+      "sys": [0.027],
+      "real": [0.7299],
+      "rss_mb": [57.59]
     },
-    "Crypto": {
+    "MandreelLatency": {
       "error": "SyntaxError: unexpected keyword typeof",
-      "user": [0.0518],
-      "sys": [0.0099],
-      "real": [0.0619],
-      "rss_mb": [22.38]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0457],
-      "sys": [0.0087],
-      "real": [0.0545],
-      "rss_mb": [22.65]
-    },
-    "Splay": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0457],
-      "sys": [0.0099],
-      "real": [0.0558],
-      "rss_mb": [22.39]
-    },
-    "SplayLatency": {
-      "error": "SyntaxError: EOL while scanning string literal",
-      "user": [0.0457],
-      "sys": [0.0099],
-      "real": [0.0558],
-      "rss_mb": [22.39]
+      "user": [0.7026],
+      "sys": [0.027],
+      "real": [0.7299],
+      "rss_mb": [57.59]
     },
     "Typescript": {
       "error": "SyntaxError: EOL while scanning string literal",
-      "user": [19.7283],
-      "sys": [0.0127],
-      "real": [19.7433],
-      "rss_mb": [32.37]
+      "user": [20.5686],
+      "sys": [0.0168],
+      "real": [20.589],
+      "rss_mb": [32.36]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.0439],
+      "sys": [0.0087],
+      "real": [0.0528],
+      "rss_mb": [22.64]
+    },
+    "Splay": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.0486],
+      "sys": [0.0077],
+      "real": [0.0564],
+      "rss_mb": [22.64]
+    },
+    "SplayLatency": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.0486],
+      "sys": [0.0077],
+      "real": [0.0564],
+      "rss_mb": [22.64]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.0485],
+      "sys": [0.0102],
+      "real": [0.0588],
+      "rss_mb": [22.77]
+    },
+    "Crypto": {
+      "error": "SyntaxError: unexpected keyword typeof",
+      "user": [0.0555],
+      "sys": [0.0049],
+      "real": [0.0606],
+      "rss_mb": [22.65]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.2661],
+      "sys": [0.009],
+      "real": [0.2753],
+      "rss_mb": [29.02]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.0469],
+      "sys": [0.0094],
+      "real": [0.0564],
+      "rss_mb": [24.36]
+    },
+    "NavierStokes": {
+      "error": "SyntaxError: unexpected keyword typeof",
+      "user": [0.0447],
+      "sys": [0.0097],
+      "real": [0.0545],
+      "rss_mb": [22.63]
+    },
+    "Box2D": {
+      "error": "SyntaxError: unexpected keyword typeof",
+      "user": [0.0802],
+      "sys": [0.0108],
+      "real": [0.0911],
+      "rss_mb": [22.89]
+    },
+    "zlib": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.0485],
+      "sys": [0.0059],
+      "real": [0.0545],
+      "rss_mb": [22.86]
+    },
+    "RegExp": {
+      "error": "SyntaxError: EOL while scanning string literal",
+      "user": [0.0472],
+      "sys": [0.007],
+      "real": [0.0543],
+      "rss_mb": [22.75]
+    },
+    "RayTrace": {
+      "error": "SyntaxError: unexpected keyword typeof",
+      "user": [0.0521],
+      "sys": [0.0047],
+      "real": [0.0569],
+      "rss_mb": [22.63]
     }
   }
 }

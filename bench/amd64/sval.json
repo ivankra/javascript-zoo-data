@@ -8,126 +8,126 @@
     "revision": "58550fd3a5e4202fdbfda3eb652099667b4c976f",
     "revision_date": "2026-04-12"
   },
-  "time": "2026-04-16 03:45:08.917789 UTC",
+  "time": "2026-04-24 04:12:02.021189 UTC",
   "benchmarks": {
     "NavierStokes": {
-      "score": [28.6],
-      "user": [88.5212],
-      "sys": [0.159],
-      "real": [88.5532],
-      "rss_mb": [203.61]
+      "score": [39.9],
+      "user": [63.4793],
+      "sys": [0.129],
+      "real": [63.5287],
+      "rss_mb": [204.08]
     },
-    "RayTrace": {
-      "score": [115],
-      "user": [22.0805],
-      "sys": [0.0561],
-      "real": [22.0147],
-      "rss_mb": [100.0]
-    },
-    "Gameboy": {
-      "error": "TypeError: Gameboy: TypeError: Cannot assign to read only property 'length' of string '\u00af\u00e0O\u00c9\u0098\u0084g\u0000>\u0001\u00e0O\u00c9 (m\u00e1*\u00ea\u0000 *V#\u00e5bo\u00e9$ff8\u00e1*\u00e5\u00ea\u0000 \u00c9\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u0018\u0007g\u0000\u0098\u0084g\u0000\u00d9\u00f5\u00fa\u00ff\u007f\u00f5\u00c5\u00d5\u00e5!\u0013\u00ca6\u0001\u00cd\u00f5\u00ff\u00e1\u00d1\u00c1\u00f1\u00ea\u0000 \u00fa\u0012\u00ca\u00b7 \u0002\u00f1\u00c9\u00f0\u0080\u00b7(\u0017\u00f0\u0082\u00ee\u0018\u00e0Q>\u0090\u00e0S\u00af\u00e0R\u00e0T...",
-      "user": [0.5199, 0.5711],
-      "sys": [0.0313, 0.0376],
-      "real": [0.3542, 0.3924],
-      "rss_mb": [94.13, 95.28]
-    },
-    "Richards": {
-      "score": [25.8],
-      "user": [5.678],
-      "sys": [0.046],
-      "real": [5.6654],
-      "rss_mb": [76.72]
-    },
-    "PdfJS": {
-      "score": [202],
-      "user": [22.0324],
-      "sys": [0.1432],
-      "real": [21.5088],
-      "rss_mb": [301.45]
+    "EarleyBoyer": {
+      "score": [82.6],
+      "user": [133.7353],
+      "sys": [0.7355],
+      "real": [121.4895],
+      "rss_mb": [279.11]
     },
     "RegExp": {
-      "score": [95.8],
-      "user": [20.7524],
-      "sys": [0.1398],
-      "real": [18.6015],
-      "rss_mb": [130.12]
+      "score": [92],
+      "user": [20.5518],
+      "sys": [0.1441],
+      "real": [18.366],
+      "rss_mb": [131.57]
     },
-    "DeltaBlue": {
-      "score": [37.6],
-      "user": [7.6779],
-      "sys": [0.0722],
-      "real": [7.6241],
-      "rss_mb": [104.48]
+    "PdfJS": {
+      "score": [199],
+      "user": [22.2207],
+      "sys": [0.259],
+      "real": [21.8257],
+      "rss_mb": [300.72]
+    },
+    "Splay": {
+      "score": [301],
+      "user": [4.9483],
+      "sys": [0.2832],
+      "real": [4.4853],
+      "rss_mb": [359.38]
+    },
+    "SplayLatency": {
+      "score": [2243],
+      "user": [4.9483],
+      "sys": [0.2832],
+      "real": [4.4853],
+      "rss_mb": [359.38]
     },
     "Mandreel": {
-      "score": [16],
-      "user": [527.5462],
-      "sys": [1.1608],
-      "real": [501.1153],
-      "rss_mb": [540.93]
+      "score": [16.5],
+      "user": [506.7462],
+      "sys": [1.6772],
+      "real": [482.9709],
+      "rss_mb": [516.39]
     },
     "MandreelLatency": {
-      "score": [139],
-      "user": [527.5462],
-      "sys": [1.1608],
-      "real": [501.1153],
-      "rss_mb": [540.93]
-    },
-    "Typescript": {
-      "error": "SyntaxError: Typescript: SyntaxError: Identifier 'arguments' has already been declared",
-      "user": [0.4778],
-      "sys": [0.0825],
-      "real": [0.3254],
-      "rss_mb": [127.0]
-    },
-    "Crypto": {
-      "score": [26.6],
-      "user": [151.9018],
-      "sys": [0.134],
-      "real": [151.8264],
-      "rss_mb": [160.69]
-    },
-    "zlib": {
-      "error": "ReferenceError: zlib: ReferenceError: print is not defined",
-      "user": [0.1026, 0.1038],
-      "sys": [0.0282, 0.0211],
-      "real": [0.1291, 0.1225],
-      "rss_mb": [69.3, 68.79]
-    },
-    "Box2D": {
-      "score": [96.3],
-      "user": [47.2472],
-      "sys": [0.1787],
-      "real": [45.3624],
-      "rss_mb": [172.29]
+      "score": [143],
+      "user": [506.7462],
+      "sys": [1.6772],
+      "real": [482.9709],
+      "rss_mb": [516.39]
     },
     "CodeLoad": {
       "error": "ReferenceError: CodeLoad: ReferenceError: MockElement is not defined",
-      "user": [1.2035],
-      "sys": [0.1494],
-      "real": [1.212],
-      "rss_mb": [174.25]
+      "user": [1.228, 1.1566],
+      "sys": [0.1031, 0.0916],
+      "real": [1.2022, 1.2072],
+      "rss_mb": [174.13, 172.1]
     },
-    "Splay": {
-      "score": [296],
-      "user": [5.0651],
-      "sys": [0.2113],
-      "real": [4.4615],
-      "rss_mb": [362.4]
+    "Box2D": {
+      "score": [97.2],
+      "user": [46.796],
+      "sys": [0.1978],
+      "real": [44.9439],
+      "rss_mb": [170.61]
     },
-    "SplayLatency": {
-      "score": [2188],
-      "user": [5.0651],
-      "sys": [0.2113],
-      "real": [4.4615],
-      "rss_mb": [362.4]
+    "Crypto": {
+      "score": [25.8],
+      "user": [156.3573],
+      "sys": [0.171],
+      "real": [156.3021],
+      "rss_mb": [159.33]
     },
-    "EarleyBoyer": {
-      "score": [82.3],
-      "user": [133.718],
-      "sys": [0.7364],
-      "real": [121.5156],
-      "rss_mb": [280.86]
+    "DeltaBlue": {
+      "score": [37.1],
+      "user": [7.756],
+      "sys": [0.0582],
+      "real": [7.6955],
+      "rss_mb": [102.16]
+    },
+    "zlib": {
+      "error": "ReferenceError: zlib: ReferenceError: print is not defined",
+      "user": [0.1028],
+      "sys": [0.0239],
+      "real": [0.1226],
+      "rss_mb": [69.78]
+    },
+    "RayTrace": {
+      "score": [117],
+      "user": [21.7287],
+      "sys": [0.0811],
+      "real": [21.6891],
+      "rss_mb": [99.68]
+    },
+    "Gameboy": {
+      "error": "TypeError: Gameboy: TypeError: Cannot assign to read only property 'length' of string '\u00af\u00e0O\u00c9\u0098\u0084g\u0000>\u0001\u00e0O\u00c9 (m\u00e1*\u00ea\u0000 *V#\u00e5bo\u00e9$ff8\u00e1*\u00e5\u00ea\u0000 \u00c9\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u0018\u0007g\u0000\u0098\u0084g\u0000\u00d9\u00f5\u00fa\u00ff\u007f\u00f5\u00c5\u00d5\u00e5!\u0013\u00ca6\u0001\u00cd\u00f5\u00ff\u00e1\u00d1\u00c1\u00f1\u00ea\u0000 \u00fa\u0012\u00ca\u00b7 \u0002\u00f1\u00c9\u00f0\u0080\u00b7(\u0017\u00f0\u0082\u00ee\u0018\u00e0Q>\u0090\u00e0S\u00af\u00e0R\u00e0T...",
+      "user": [0.5175],
+      "sys": [0.0312],
+      "real": [0.349],
+      "rss_mb": [95.35]
+    },
+    "Richards": {
+      "score": [27.1],
+      "user": [5.4288],
+      "sys": [0.03],
+      "real": [5.3968],
+      "rss_mb": [76.41]
+    },
+    "Typescript": {
+      "error": "SyntaxError: Typescript: SyntaxError: Identifier 'arguments' has already been declared",
+      "user": [0.4831],
+      "sys": [0.067],
+      "real": [0.3191],
+      "rss_mb": [125.85]
     }
   }
 }

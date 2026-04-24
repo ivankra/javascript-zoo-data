@@ -11,126 +11,126 @@
     "revision_date": "2025-06-13",
     "version": "0.5.1-2-g3ca7298"
   },
-  "time": "2026-04-16 03:25:09.228083 UTC",
+  "time": "2026-04-24 03:34:27.672712 UTC",
   "benchmarks": {
-    "Splay": {
-      "score": [200],
-      "user": [11.71],
-      "sys": [0.453],
-      "real": [6.8511],
-      "rss_mb": [1450.56]
-    },
-    "SplayLatency": {
-      "score": [1469],
-      "user": [11.71],
-      "sys": [0.453],
-      "real": [6.8511],
-      "rss_mb": [1450.56]
-    },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0367],
-      "sys": [0.0048],
-      "real": [0.0286],
-      "rss_mb": [24.2]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: CodeLoad: SyntaxError: (anonymous): Line 1:6524 Invalid regular expression: re2: Invalid \\1 <backreference> (and 7 more errors)",
-      "user": [1.5848],
-      "sys": [0.11],
-      "real": [1.0353],
-      "rss_mb": [318.43]
-    },
-    "Crypto": {
-      "score": [27.1, 26.5],
-      "user": [211.1932, 209.6308],
-      "sys": [6.064, 5.1307],
-      "real": [149.3813, 152.5096],
-      "rss_mb": [22.38, 22.4]
-    },
-    "EarleyBoyer": {
-      "score": [82.2, 84.6, 84.7],
-      "user": [221.3044, 237.1872, 234.5693],
-      "sys": [3.1831, 3.6563, 3.6955],
-      "real": [120.7889, 119.0166, 118.394],
-      "rss_mb": [116.48, 120.51, 119.52]
-    },
-    "Richards": {
-      "score": [23.8],
-      "user": [9.7412],
-      "sys": [0.4777],
-      "real": [6.2446],
-      "rss_mb": [22.39]
-    },
-    "Mandreel": {
-      "error": "ReferenceError: 'Float64Array' is not defined",
-      "user": [0.3418],
-      "sys": [0.0484],
-      "real": [0.2579],
-      "rss_mb": [121.82]
-    },
-    "MandreelLatency": {
-      "error": "ReferenceError: 'Float64Array' is not defined",
-      "user": [0.3418],
-      "sys": [0.0484],
-      "real": [0.2579],
-      "rss_mb": [121.82]
+    "NavierStokes": {
+      "score": [39.7],
+      "user": [87.6649],
+      "sys": [0.4688],
+      "real": [63.7183],
+      "rss_mb": [49.85]
     },
     "zlib": {
       "error": "ReferenceError: zlib: ReferenceError: 'Int32Array' is not defined",
-      "user": [0.0335],
-      "sys": [0.0098],
-      "real": [0.0289],
-      "rss_mb": [22.72]
+      "user": [0.0377],
+      "sys": [0.0075],
+      "real": [0.0293],
+      "rss_mb": [22.86]
     },
-    "RegExp": {
-      "error": "SyntaxError: Invalid regular expression: re2: Invalid (?=) <lookahead> (and 1 more errors)",
-      "user": [0.0122, 0.0128],
-      "sys": [0.0061, 0.0049],
-      "real": [0.0137, 0.0134],
-      "rss_mb": [22.64, 22.64]
+    "Splay": {
+      "score": [192],
+      "user": [12.2606],
+      "sys": [0.5029],
+      "real": [7.0092],
+      "rss_mb": [1466.28]
     },
-    "NavierStokes": {
-      "score": [39.6],
-      "user": [87.9564],
-      "sys": [0.4011],
-      "real": [63.9299],
-      "rss_mb": [51.05]
+    "SplayLatency": {
+      "score": [1430],
+      "user": [12.2606],
+      "sys": [0.5029],
+      "real": [7.0092],
+      "rss_mb": [1466.28]
     },
-    "Box2D": {
-      "score": [113],
-      "user": [66.3987],
-      "sys": [0.7364],
-      "real": [38.3879],
-      "rss_mb": [51.09]
+    "Crypto": {
+      "score": [26.3],
+      "user": [211.5939],
+      "sys": [5.6932],
+      "real": [153.7555],
+      "rss_mb": [22.64]
     },
     "Typescript": {
-      "error": "SyntaxError: Invalid regular expression: re2: Invalid \\2 <backreference> (and 2 more errors)",
-      "user": [0.0676, 0.0668, 0.0687],
-      "sys": [0.0062, 0.008, 0.0073],
-      "real": [0.0622, 0.0629, 0.0632],
-      "rss_mb": [32.39, 32.37, 32.37]
-    },
-    "DeltaBlue": {
-      "score": [20.9],
-      "user": [18.9515],
-      "sys": [0.8934],
-      "real": [11.3871],
-      "rss_mb": [22.4]
+      "error": "SyntaxError: Invalid regular expression: re2: Invalid \\2 <backreference>",
+      "user": [0.071, 0.0704],
+      "sys": [0.0058, 0.005],
+      "real": [0.0632, 0.0631],
+      "rss_mb": [32.34, 32.36]
     },
     "PdfJS": {
       "error": "ReferenceError: 'Uint8Array' is not defined",
-      "user": [0.1191],
-      "sys": [0.0187],
-      "real": [0.0916],
-      "rss_mb": [40.19]
+      "user": [0.1267],
+      "sys": [0.0203],
+      "real": [0.0945],
+      "rss_mb": [49.7]
+    },
+    "Box2D": {
+      "score": [117],
+      "user": [63.4081],
+      "sys": [0.7502],
+      "real": [37.1656],
+      "rss_mb": [50.08]
     },
     "RayTrace": {
-      "score": [72.2, 71.3],
-      "user": [53.0994, 54.3292],
-      "sys": [2.2639, 2.7608],
-      "real": [33.829, 34.2867],
-      "rss_mb": [22.38, 22.39]
+      "score": [68.8, 71.8],
+      "user": [55.4097, 53.4051],
+      "sys": [2.6119, 2.5057],
+      "real": [35.4865, 34.0176],
+      "rss_mb": [22.64, 22.64]
+    },
+    "EarleyBoyer": {
+      "score": [84.8],
+      "user": [219.0994],
+      "sys": [3.1605],
+      "real": [116.5615],
+      "rss_mb": [119.38]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: (anonymous): Line 1:6524 Invalid regular expression: re2: Invalid \\1 <backreference> (and 7 more errors)",
+      "user": [1.5544, 1.5571],
+      "sys": [0.1103, 0.1242],
+      "real": [1.0403, 1.0371],
+      "rss_mb": [336.04, 320.89]
+    },
+    "DeltaBlue": {
+      "score": [21],
+      "user": [18.8575],
+      "sys": [0.8508],
+      "real": [11.3675],
+      "rss_mb": [22.63]
+    },
+    "RegExp": {
+      "error": "SyntaxError: Invalid regular expression: re2: Invalid (?=) <lookahead>",
+      "user": [0.0151],
+      "sys": [0.0023],
+      "real": [0.0129],
+      "rss_mb": [22.75]
+    },
+    "Mandreel": {
+      "error": "ReferenceError: 'Float64Array' is not defined",
+      "user": [0.3354],
+      "sys": [0.0387],
+      "real": [0.2496],
+      "rss_mb": [121.57]
+    },
+    "MandreelLatency": {
+      "error": "ReferenceError: 'Float64Array' is not defined",
+      "user": [0.3354],
+      "sys": [0.0387],
+      "real": [0.2496],
+      "rss_mb": [121.57]
+    },
+    "Richards": {
+      "score": [23.7, 24],
+      "user": [9.8542, 9.6719],
+      "sys": [0.4795, 0.4966],
+      "real": [6.2951, 6.1979],
+      "rss_mb": [22.63, 22.63]
+    },
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0376, 0.0349],
+      "sys": [0.0039, 0.0078],
+      "real": [0.0289, 0.0292],
+      "rss_mb": [24.36, 24.36]
     }
   }
 }

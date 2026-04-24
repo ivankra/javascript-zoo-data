@@ -6,18 +6,18 @@
     "dist_size": 820408,
     "engine": "ucode",
     "repository": "https://github.com/jow-/ucode.git",
-    "revision": "b50372e8e8a0fb136df5c61974461bc332a15779",
-    "revision_date": "2026-04-14",
-    "version": "0.0.20250529-153-gb50372e"
+    "revision": "388ef3f35e0a2bb62a626ed86ed727af12bfff02",
+    "revision_date": "2026-04-21",
+    "version": "0.0.20250529-156-g388ef3f"
   },
-  "time": "2026-04-16 07:09:25.659106 UTC",
+  "time": "2026-04-24 09:02:10.964191 UTC",
   "benchmarks": {
     "Richards": {
-      "score": [69.863],
-      "user": [5.0514],
-      "sys": [0.0067],
-      "real": [5.0588],
-      "rss_mb": [22.38]
+      "score": [70.406],
+      "user": [5.016],
+      "sys": [0.0029],
+      "real": [5.0197],
+      "rss_mb": [22.64]
     }
   }
 }

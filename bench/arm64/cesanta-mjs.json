@@ -2,7 +2,7 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "cesanta-mjs",
-    "binary_sha256": "f1662ddb39bc494e91fd816bf79f9cf89e44d796eba9900c777e23206675bd28",
+    "binary_sha256": "16e45251dca47796b16a513f2c1c636ed85af089f237b032d2f02204ec61e7b0",
     "binary_size": 199688,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "cesanta-mjs",
@@ -11,126 +11,126 @@
     "revision_date": "2026-03-16",
     "version": "2.20.0-32-gcf375c4"
   },
-  "time": "2026-04-16 02:11:15.053594 UTC",
+  "time": "2026-04-24 02:51:19.396076 UTC",
   "benchmarks": {
     "Crypto": {
       "error": "SyntaxError: [else if (t]",
-      "user": [0.0],
-      "sys": [0.0005],
-      "real": [0.0009],
-      "rss_mb": [22.46]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: [else if (t]",
-      "user": [0.0008],
+      "user": [0.0007],
       "sys": [0.0],
-      "real": [0.001],
-      "rss_mb": [23.71]
-    },
-    "zlib": {
-      "error": "SyntaxError: [else if (t]",
-      "user": [0.0],
-      "sys": [0.0006],
       "real": [0.0009],
-      "rss_mb": [22.7]
-    },
-    "Richards": {
-      "error": "SyntaxError: [else if (t]",
-      "user": [0.0006],
-      "sys": [0.0],
-      "real": [0.001],
-      "rss_mb": [22.46]
+      "rss_mb": [22.42]
     },
     "Splay": {
       "error": "SyntaxError: [else if (t]",
       "user": [0.0],
       "sys": [0.0006],
-      "real": [0.001],
-      "rss_mb": [22.47]
+      "real": [0.0008],
+      "rss_mb": [22.39]
     },
     "SplayLatency": {
       "error": "SyntaxError: [else if (t]",
       "user": [0.0],
       "sys": [0.0006],
-      "real": [0.001],
-      "rss_mb": [22.47]
+      "real": [0.0008],
+      "rss_mb": [22.39]
     },
-    "Mandreel": {
-      "error": "SyntaxError: [else if (t]",
-      "user": [0.0],
-      "sys": [0.0021],
-      "real": [0.0024],
-      "rss_mb": [52.66]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: [else if (t]",
-      "user": [0.0],
-      "sys": [0.0021],
-      "real": [0.0024],
-      "rss_mb": [52.66]
-    },
-    "Box2D": {
-      "error": "SyntaxError: [else if (t]",
-      "user": [0.0],
-      "sys": [0.0013],
-      "real": [0.0016],
-      "rss_mb": [22.71]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: [else if (t]",
-      "user": [0.0007],
-      "sys": [0.0],
-      "real": [0.0011],
-      "rss_mb": [22.71]
-    },
-    "RegExp": {
+    "NavierStokes": {
       "error": "SyntaxError: [else if (t]",
       "user": [0.0006],
       "sys": [0.0],
-      "real": [0.0009],
-      "rss_mb": [22.6]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: [else if (t]",
-      "user": [0.0],
-      "sys": [0.0006],
-      "real": [0.001],
-      "rss_mb": [22.6]
-    },
-    "RayTrace": {
-      "error": "SyntaxError: [else if (t]",
-      "user": [0.0006],
-      "sys": [0.0],
-      "real": [0.0011],
-      "rss_mb": [22.46]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: [else if (t]",
-      "user": [0.0],
-      "sys": [0.0013],
-      "real": [0.0016],
-      "rss_mb": [28.59]
-    },
-    "Typescript": {
-      "error": "SyntaxError: [else if (t]",
-      "user": [0.0],
-      "sys": [0.0016],
-      "real": [0.0019],
-      "rss_mb": [32.35]
+      "real": [0.0008],
+      "rss_mb": [22.41]
     },
     "DeltaBlue": {
       "error": "SyntaxError: [else if (t]",
       "user": [0.0],
       "sys": [0.0006],
-      "real": [0.001],
-      "rss_mb": [22.46]
+      "real": [0.0009],
+      "rss_mb": [22.39]
     },
-    "NavierStokes": {
+    "RegExp": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0011],
+      "real": [0.0013],
+      "rss_mb": [22.54]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0007],
+      "sys": [0.0],
+      "real": [0.0009],
+      "rss_mb": [22.53]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0011],
+      "real": [0.0013],
+      "rss_mb": [28.55]
+    },
+    "RayTrace": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0006],
+      "sys": [0.0],
+      "real": [0.0008],
+      "rss_mb": [22.41]
+    },
+    "zlib": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0009],
+      "rss_mb": [22.64]
+    },
+    "Box2D": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0009],
+      "rss_mb": [22.66]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0008],
+      "sys": [0.0],
+      "real": [0.0009],
+      "rss_mb": [24.13]
+    },
+    "Typescript": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0016],
+      "real": [0.0018],
+      "rss_mb": [32.13]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0027],
+      "real": [0.003],
+      "rss_mb": [52.46]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0027],
+      "real": [0.003],
+      "rss_mb": [52.46]
+    },
+    "Richards": {
       "error": "SyntaxError: [else if (t]",
       "user": [0.0],
       "sys": [0.0006],
-      "real": [0.0011],
-      "rss_mb": [22.47]
+      "real": [0.0008],
+      "rss_mb": [22.41]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: [else if (t]",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0009],
+      "rss_mb": [22.54]
     }
   }
 }

@@ -10,126 +10,126 @@
     "revision": "a4730b54e8cb519d6b62f9ef3fe3a51e2072f94d",
     "revision_date": "2018-08-29"
   },
-  "time": "2026-04-16 04:19:12.612362 UTC",
+  "time": "2026-04-24 04:45:00.316079 UTC",
   "benchmarks": {
     "RayTrace": {
       "error": "EXIT: 1",
-      "user": [0.0],
-      "sys": [0.0021],
-      "real": [0.0033],
+      "user": [0.0018],
+      "sys": [0.0],
+      "real": [0.0024],
+      "rss_mb": [18.97]
+    },
+    "Splay": {
+      "error": "EXIT: 1",
+      "user": [0.001],
+      "sys": [0.001],
+      "real": [0.0026],
+      "rss_mb": [19.19]
+    },
+    "SplayLatency": {
+      "error": "EXIT: 1",
+      "user": [0.001],
+      "sys": [0.001],
+      "real": [0.0026],
       "rss_mb": [19.19]
     },
     "RegExp": {
       "error": "CRASH: SIGSEGV",
       "user": [0.0],
-      "sys": [0.0022],
-      "real": [0.0502],
-      "rss_mb": [19.27]
+      "sys": [0.0028],
+      "real": [0.0902],
+      "rss_mb": [19.33]
     },
-    "Typescript": {
+    "Mandreel": {
       "error": "CRASH: SIGSEGV",
       "user": [0.0],
-      "sys": [0.0064],
-      "real": [0.0924],
-      "rss_mb": [28.96]
+      "sys": [0.007],
+      "real": [0.0706],
+      "rss_mb": [39.86]
     },
-    "NavierStokes": {
-      "error": "EXIT: 1",
-      "user": [0.0],
-      "sys": [0.0019],
-      "real": [0.003],
-      "rss_mb": [19.25]
-    },
-    "Splay": {
-      "error": "EXIT: 1",
-      "user": [0.0009],
-      "sys": [0.0009],
-      "real": [0.0026],
-      "rss_mb": [19.09]
-    },
-    "SplayLatency": {
-      "error": "EXIT: 1",
-      "user": [0.0009],
-      "sys": [0.0009],
-      "real": [0.0026],
-      "rss_mb": [19.09]
-    },
-    "Richards": {
-      "error": "EXIT: 1",
-      "user": [0.0],
-      "sys": [0.0019],
-      "real": [0.003],
-      "rss_mb": [19.05]
-    },
-    "Gameboy": {
+    "MandreelLatency": {
       "error": "CRASH: SIGSEGV",
-      "user": [0.0017],
-      "sys": [0.0017],
-      "real": [0.0853],
-      "rss_mb": [20.32]
+      "user": [0.0],
+      "sys": [0.007],
+      "real": [0.0706],
+      "rss_mb": [39.86]
+    },
+    "zlib": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0008],
+      "sys": [0.0021],
+      "real": [0.0866],
+      "rss_mb": [19.29]
+    },
+    "DeltaBlue": {
+      "error": "EXIT: 1",
+      "user": [0.0011],
+      "sys": [0.0011],
+      "real": [0.0028],
+      "rss_mb": [18.87]
     },
     "PdfJS": {
       "error": "CRASH: SIGSEGV",
       "user": [0.0],
-      "sys": [0.0039],
-      "real": [0.074],
-      "rss_mb": [23.71]
+      "sys": [0.0037],
+      "real": [0.0861],
+      "rss_mb": [23.81]
     },
-    "CodeLoad": {
+    "Crypto": {
+      "error": "EXIT: 1",
+      "user": [0.0],
+      "sys": [0.0021],
+      "real": [0.0028],
+      "rss_mb": [19.23]
+    },
+    "EarleyBoyer": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0011],
+      "sys": [0.0018],
+      "real": [0.0717],
+      "rss_mb": [19.24]
+    },
+    "Gameboy": {
       "error": "CRASH: SIGSEGV",
       "user": [0.0],
-      "sys": [0.0031],
-      "real": [0.0742],
-      "rss_mb": [19.29]
+      "sys": [0.0032],
+      "real": [0.0699],
+      "rss_mb": [20.9]
     },
     "Box2D": {
       "error": "CRASH: SIGSEGV",
       "user": [0.0],
       "sys": [0.0022],
-      "real": [0.1538],
-      "rss_mb": [19.1]
-    },
-    "EarleyBoyer": {
-      "error": "CRASH: SIGSEGV",
-      "user": [0.0011],
-      "sys": [0.0016],
-      "real": [0.0716],
+      "real": [0.0502],
       "rss_mb": [19.25]
     },
-    "Crypto": {
+    "NavierStokes": {
       "error": "EXIT: 1",
-      "user": [0.001],
-      "sys": [0.001],
-      "real": [0.0031],
-      "rss_mb": [19.07]
+      "user": [0.0],
+      "sys": [0.0019],
+      "real": [0.0027],
+      "rss_mb": [19.21]
     },
-    "DeltaBlue": {
-      "error": "EXIT: 1",
+    "Typescript": {
+      "error": "CRASH: SIGSEGV",
       "user": [0.0012],
-      "sys": [0.0012],
-      "real": [0.0035],
-      "rss_mb": [19.07]
+      "sys": [0.0028],
+      "real": [0.052],
+      "rss_mb": [28.96]
     },
-    "zlib": {
-      "error": "CRASH: SIGSEGV",
+    "Richards": {
+      "error": "EXIT: 1",
       "user": [0.0],
-      "sys": [0.0023],
-      "real": [0.0584],
-      "rss_mb": [19.16]
+      "sys": [0.0022],
+      "real": [0.0032],
+      "rss_mb": [18.91]
     },
-    "Mandreel": {
+    "CodeLoad": {
       "error": "CRASH: SIGSEGV",
-      "user": [0.0],
-      "sys": [0.0073],
-      "real": [0.0739],
-      "rss_mb": [40.36]
-    },
-    "MandreelLatency": {
-      "error": "CRASH: SIGSEGV",
-      "user": [0.0],
-      "sys": [0.0073],
-      "real": [0.0739],
-      "rss_mb": [40.36]
+      "user": [0.001],
+      "sys": [0.0015],
+      "real": [0.0894],
+      "rss_mb": [18.97]
     }
   }
 }

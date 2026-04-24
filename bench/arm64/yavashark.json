@@ -2,135 +2,135 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "yavashark",
-    "binary_sha256": "517b5980e5af5372e2f0f59436f9410b3a0cabdf01f0ce3bd136546cbd010820",
-    "binary_size": 16128040,
+    "binary_sha256": "c4f68d8069a6ba7d2225c22120a7cdfe6732e0527d225b4496818214fde53072",
+    "binary_size": 16193584,
     "engine": "yavashark",
     "repository": "https://github.com/Sharktheone/yavashark.git",
-    "revision": "6ac7c23a027577b1dcaa1bff2a78a95fc5eb7e92",
-    "revision_date": "2026-04-14",
-    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
+    "revision": "c684cdb1b4689e82e2311b02e58c280825442e7d",
+    "revision_date": "2026-04-22",
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
   "flags": ["-i"],
-  "time": "2026-04-16 05:14:05.780139 UTC",
+  "time": "2026-04-24 03:37:08.382118 UTC",
   "benchmarks": {
-    "PdfJS": {
-      "error": "OOM: >4096MB",
-      "user": [107.5375, 111.6265],
-      "sys": [2.1489, 2.2366],
-      "real": [109.6969, 113.8809],
-      "rss_mb": [4129.32, 4114.84]
-    },
     "Gameboy": {
       "error": "FAIL: No scores in the output",
-      "user": [5.308],
-      "sys": [0.3049],
-      "real": [5.6145],
-      "rss_mb": [607.52]
+      "user": [4.8106],
+      "sys": [0.2799],
+      "real": [5.0916],
+      "rss_mb": [604.66]
     },
-    "EarleyBoyer": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0193],
-      "sys": [0.0061],
-      "real": [0.0256],
-      "rss_mb": [22.65]
+    "Crypto": {
+      "score": [21.5],
+      "user": [187.4542],
+      "sys": [0.015],
+      "real": [187.4907],
+      "rss_mb": [22.41]
     },
     "NavierStokes": {
       "error": "FAIL: No scores in the output",
-      "user": [79.2592],
-      "sys": [0.016],
-      "real": [79.2884],
-      "rss_mb": [35.67]
+      "user": [77.2344],
+      "sys": [0.017],
+      "real": [77.254],
+      "rss_mb": [35.81]
     },
-    "zlib": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0144],
-      "sys": [0.0038],
-      "real": [0.0185],
-      "rss_mb": [22.72]
-    },
-    "RayTrace": {
-      "score": [69.1, 69.1],
-      "user": [35.3468, 35.3594],
-      "sys": [0.015, 0.005],
-      "real": [35.3702, 35.3723],
-      "rss_mb": [22.51, 22.51]
-    },
-    "Crypto": {
-      "score": [21.1],
-      "user": [190.8315],
-      "sys": [0.019],
-      "real": [190.8815],
-      "rss_mb": [22.52]
-    },
-    "DeltaBlue": {
-      "score": [17.6, 17.7],
-      "user": [13.4849, 13.4153],
-      "sys": [0.042, 0.036],
-      "real": [13.5289, 13.4528],
-      "rss_mb": [69.59, 69.57]
-    },
-    "Typescript": {
-      "error": "SyntaxError: Nothing to repeat at position 38",
-      "user": [0.0234],
-      "sys": [0.0059],
-      "real": [0.0296],
-      "rss_mb": [32.36]
+    "Box2D": {
+      "score": [713],
+      "user": [6.0669],
+      "sys": [0.052],
+      "real": [6.1203],
+      "rss_mb": [73.09]
     },
     "CodeLoad": {
       "error": "FAIL: No scores in the output",
-      "user": [0.0026],
-      "sys": [0.0018],
-      "real": [0.0046],
-      "rss_mb": [22.64]
+      "user": [0.0022],
+      "sys": [0.0022],
+      "real": [0.0047],
+      "rss_mb": [22.54]
     },
     "RegExp": {
       "error": "SyntaxError: Nothing to repeat at position 41",
-      "user": [0.0],
-      "sys": [0.0041],
-      "real": [0.0044],
-      "rss_mb": [22.63]
+      "user": [0.0029, 0.001],
+      "sys": [0.001, 0.0029],
+      "real": [0.0041, 0.0041],
+      "rss_mb": [22.53, 22.47]
     },
-    "Box2D": {
-      "score": [700],
-      "user": [6.1982],
-      "sys": [0.044],
-      "real": [6.2442],
-      "rss_mb": [72.96]
+    "PdfJS": {
+      "error": "OOM: >4096MB",
+      "user": [103.2752],
+      "sys": [2.0858],
+      "real": [105.3775],
+      "rss_mb": [4115.7]
     },
     "Mandreel": {
       "error": "FAIL: No scores in the output",
-      "user": [19.0713, 19.0539],
-      "sys": [0.096, 0.079],
-      "real": [19.1696, 19.1361],
-      "rss_mb": [276.27, 276.29]
+      "user": [18.7999],
+      "sys": [0.09],
+      "real": [18.892],
+      "rss_mb": [276.42]
     },
     "MandreelLatency": {
       "error": "FAIL: No scores in the output",
-      "user": [19.0713, 19.0539],
-      "sys": [0.096, 0.079],
-      "real": [19.1696, 19.1361],
-      "rss_mb": [276.27, 276.29]
+      "user": [18.7999],
+      "sys": [0.09],
+      "real": [18.892],
+      "rss_mb": [276.42]
+    },
+    "DeltaBlue": {
+      "score": [17.5],
+      "user": [13.5777],
+      "sys": [0.046],
+      "real": [13.6257],
+      "rss_mb": [68.71]
+    },
+    "Splay": {
+      "score": [146],
+      "user": [7.2195],
+      "sys": [0.379],
+      "real": [7.5991],
+      "rss_mb": [1217.84]
+    },
+    "SplayLatency": {
+      "score": [1249],
+      "user": [7.2195],
+      "sys": [0.379],
+      "real": [7.5991],
+      "rss_mb": [1217.84]
+    },
+    "RayTrace": {
+      "score": [69],
+      "user": [35.3999],
+      "sys": [0.006],
+      "real": [35.4135],
+      "rss_mb": [22.41]
+    },
+    "EarleyBoyer": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0188, 0.0194],
+      "sys": [0.0069, 0.0051],
+      "real": [0.026, 0.0247],
+      "rss_mb": [22.54, 22.53]
     },
     "Richards": {
       "score": [16.8],
-      "user": [8.3666],
-      "sys": [0.04],
-      "real": [8.4089],
-      "rss_mb": [22.52]
+      "user": [8.3824],
+      "sys": [0.003],
+      "real": [8.3875],
+      "rss_mb": [22.38]
     },
-    "Splay": {
-      "score": [148, 143],
-      "user": [7.1356, 7.2618],
-      "sys": [0.3809, 0.4279],
-      "real": [7.5179, 7.6915],
-      "rss_mb": [1217.83, 1217.71]
+    "zlib": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0125],
+      "sys": [0.0048],
+      "real": [0.0175],
+      "rss_mb": [22.65]
     },
-    "SplayLatency": {
-      "score": [1262, 1237],
-      "user": [7.1356, 7.2618],
-      "sys": [0.3809, 0.4279],
-      "real": [7.5179, 7.6915],
-      "rss_mb": [1217.83, 1217.71]
+    "Typescript": {
+      "error": "SyntaxError: Nothing to repeat at position 38",
+      "user": [0.0237],
+      "sys": [0.0051],
+      "real": [0.0291],
+      "rss_mb": [32.13]
     }
   }
 }

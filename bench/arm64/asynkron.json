@@ -3,132 +3,132 @@
     "arch": "arm64",
     "binary_name": "asynkron",
     "dist_size": 4335478,
-    "dotnet": "10.0.202",
+    "dotnet": "10.0.203",
     "engine": "asynkron",
     "repository": "https://github.com/asynkron/Asynkron.JsEngine.git",
     "revision": "00fecd1de76491afe557d7a07b4f373ed40c93eb",
     "revision_date": "2026-04-06"
   },
-  "time": "2026-04-16 02:35:05.692147 UTC",
+  "time": "2026-04-24 02:50:49.062106 UTC",
   "benchmarks": {
-    "RayTrace": {
-      "score": [45.2],
-      "user": [56.6534],
-      "sys": [0.249],
-      "real": [55.5282],
-      "rss_mb": [144.95]
-    },
-    "PdfJS": {
-      "error": "TypeError: PdfJS: TypeError: Cannot read properties of null or undefined",
-      "user": [4.4734],
-      "sys": [0.2998],
-      "real": [3.5995],
-      "rss_mb": [384.82]
-    },
-    "Gameboy": {
-      "score": [138],
-      "user": [78.9463],
-      "sys": [0.3548],
-      "real": [77.6169],
-      "rss_mb": [506.51]
-    },
-    "Mandreel": {
-      "error": "CRASH: SIGABRT",
-      "user": [3.6304, 3.7236],
-      "sys": [0.6358, 0.6632],
-      "real": [5.8452, 6.1298],
-      "rss_mb": [493.38, 493.5]
-    },
-    "MandreelLatency": {
-      "error": "CRASH: SIGABRT",
-      "user": [3.6304, 3.7236],
-      "sys": [0.6358, 0.6632],
-      "real": [5.8452, 6.1298],
-      "rss_mb": [493.38, 493.5]
-    },
-    "Box2D": {
-      "error": "SyntaxError: Unexpected token '}'. at line 616, column 340",
-      "user": [0.2931],
-      "sys": [0.0469],
-      "real": [0.3392],
-      "rss_mb": [85.88]
-    },
-    "zlib": {
-      "error": "SyntaxError: zlib: SyntaxError: Unexpected token '}'. at line 1, column 116377",
-      "user": [0.6047, 0.5757],
-      "sys": [0.075, 0.0848],
-      "real": [0.6789, 0.6586],
-      "rss_mb": [127.5, 127.21]
-    },
-    "RegExp": {
-      "error": "SyntaxError: RegExp: SyntaxError: Invalid pattern '\\A[",
-      "user": [2.1135],
-      "sys": [0.1289],
-      "real": [1.9047],
-      "rss_mb": [144.75]
-    },
-    "EarleyBoyer": {
-      "error": "OOM: >4096MB",
-      "user": [35.9037, 39.8453],
-      "sys": [1.6915, 1.7959],
-      "real": [34.9569, 38.3593],
-      "rss_mb": [4109.96, 4104.63]
+    "Richards": {
+      "score": [14, 14.2],
+      "user": [10.8724, 10.998],
+      "sys": [0.146, 0.138],
+      "real": [10.0434, 10.1883],
+      "rss_mb": [140.45, 140.84]
     },
     "DeltaBlue": {
-      "score": [12.4, 12.4, 12.5],
-      "user": [20.0654, 19.9981, 19.9886],
-      "sys": [0.1728, 0.183, 0.1816],
-      "real": [19.0643, 18.9979, 18.959],
-      "rss_mb": [176.4, 175.72, 176.25]
-    },
-    "Crypto": {
-      "score": [27.9],
-      "user": [143.0578],
-      "sys": [0.2758],
-      "real": [141.9009],
-      "rss_mb": [168.46]
-    },
-    "NavierStokes": {
-      "score": [96.1],
-      "user": [28.6534],
-      "sys": [0.1379],
-      "real": [27.7365],
-      "rss_mb": [153.25]
-    },
-    "Splay": {
-      "score": [69],
-      "user": [17.7761],
-      "sys": [0.7127],
-      "real": [16.6726],
-      "rss_mb": [1715.26]
-    },
-    "SplayLatency": {
-      "score": [528],
-      "user": [17.7761],
-      "sys": [0.7127],
-      "real": [16.6726],
-      "rss_mb": [1715.26]
-    },
-    "Richards": {
-      "score": [14.1],
-      "user": [10.9726],
-      "sys": [0.1257],
-      "real": [10.1272],
-      "rss_mb": [140.59]
+      "score": [12.6, 12.5, 12.3],
+      "user": [19.7189, 19.9078, 20.1861],
+      "sys": [0.1668, 0.1737, 0.2149],
+      "real": [18.7037, 18.9305, 19.1841],
+      "rss_mb": [175.57, 175.38, 175.86]
     },
     "CodeLoad": {
       "error": "SyntaxError: CodeLoad: SyntaxError: Unexpected token '}'. at line 1, column 1606",
-      "user": [0.4352, 0.4087],
-      "sys": [0.0511, 0.0649],
-      "real": [0.4845, 0.4728],
-      "rss_mb": [65.17, 65.53]
+      "user": [0.393],
+      "sys": [0.0516],
+      "real": [0.443],
+      "rss_mb": [65.27]
+    },
+    "Mandreel": {
+      "error": "OOM: output >10MB",
+      "user": [3.5855],
+      "sys": [0.2766],
+      "real": [3.4324],
+      "rss_mb": [484.62]
+    },
+    "MandreelLatency": {
+      "error": "OOM: output >10MB",
+      "user": [3.5855],
+      "sys": [0.2766],
+      "real": [3.4324],
+      "rss_mb": [484.62]
+    },
+    "EarleyBoyer": {
+      "error": "OOM: >4096MB",
+      "user": [36.2881],
+      "sys": [1.6899],
+      "real": [35.2897],
+      "rss_mb": [4103.7]
+    },
+    "Crypto": {
+      "score": [28.1],
+      "user": [143.0026],
+      "sys": [0.2867],
+      "real": [141.8983],
+      "rss_mb": [169.56]
+    },
+    "Splay": {
+      "score": [68.6],
+      "user": [17.9102],
+      "sys": [0.6765],
+      "real": [16.7475],
+      "rss_mb": [1714.51]
+    },
+    "SplayLatency": {
+      "score": [530],
+      "user": [17.9102],
+      "sys": [0.6765],
+      "real": [16.7475],
+      "rss_mb": [1714.51]
     },
     "Typescript": {
       "error": "TypeError: Typescript: TypeError: Attempted to call a non-callable value.",
-      "user": [7.2543],
-      "sys": [0.1777],
-      "real": [5.7939],
-      "rss_mb": [224.65]
+      "user": [6.7359],
+      "sys": [0.2039],
+      "real": [5.4879],
+      "rss_mb": [220.29]
+    },
+    "PdfJS": {
+      "error": "TypeError: PdfJS: TypeError: Cannot read properties of null or undefined",
+      "user": [4.4183],
+      "sys": [0.2904],
+      "real": [3.6009],
+      "rss_mb": [383.8]
+    },
+    "zlib": {
+      "error": "SyntaxError: zlib: SyntaxError: Unexpected token '}'. at line 1, column 116377",
+      "user": [0.5537],
+      "sys": [0.0748],
+      "real": [0.627],
+      "rss_mb": [127.21]
+    },
+    "NavierStokes": {
+      "score": [95.4],
+      "user": [28.7238],
+      "sys": [0.1419],
+      "real": [27.8385],
+      "rss_mb": [152.78]
+    },
+    "Box2D": {
+      "error": "SyntaxError: Unexpected token '}'.",
+      "user": [0.3137],
+      "sys": [0.0568],
+      "real": [0.3689],
+      "rss_mb": [85.49]
+    },
+    "Gameboy": {
+      "score": [138],
+      "user": [79.516],
+      "sys": [0.3549],
+      "real": [78.0889],
+      "rss_mb": [503.11]
+    },
+    "RegExp": {
+      "error": "SyntaxError: RegExp: SyntaxError: Invalid pattern '\\A[",
+      "user": [1.9494],
+      "sys": [0.1077],
+      "real": [1.7494],
+      "rss_mb": [144.45]
+    },
+    "RayTrace": {
+      "score": [45.7],
+      "user": [56.1793],
+      "sys": [0.2565],
+      "real": [55.1041],
+      "rss_mb": [144.98]
     }
   }
 }

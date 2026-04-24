@@ -2,7 +2,7 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "42tiny-js",
-    "binary_sha256": "81dd35acc4e3ad4e31fd1916dca0993824d7a82ed1bbed096556d0866801441b",
+    "binary_sha256": "4a57eb72b43e3c5104b173b273de02b37489f3e7cb8b3def9e597ec7d1995f02",
     "binary_size": 791928,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "42tiny-js",
@@ -10,126 +10,126 @@
     "revision": "d61b911e56801489e2f72bd27304dcd15eeb60c1",
     "revision_date": "2014-10-19"
   },
-  "time": "2026-04-16 02:10:50.168044 UTC",
+  "time": "2026-04-24 02:50:46.827545 UTC",
   "benchmarks": {
-    "Richards": {
-      "error": "ReferenceError: Date is undefined",
-      "user": [0.0015],
-      "sys": [0.0008],
-      "real": [0.0024],
-      "rss_mb": [22.52]
-    },
-    "zlib": {
-      "error": "ReferenceError: unescape is not defined",
-      "user": [0.0009],
-      "sys": [0.0019],
-      "real": [0.003],
-      "rss_mb": [22.84]
-    },
-    "EarleyBoyer": {
-      "error": "ReferenceError: Date is undefined",
-      "user": [0.0061],
-      "sys": [0.001],
-      "real": [0.0072],
-      "rss_mb": [22.64]
-    },
-    "DeltaBlue": {
-      "error": "SyntaxError: invalid increment operand",
-      "user": [0.0011],
-      "sys": [0.0011],
-      "real": [0.0025],
-      "rss_mb": [22.52]
-    },
-    "Box2D": {
-      "error": "SyntaxError: Got '}' expected 'ID'",
-      "user": [0.0019],
-      "sys": [0.001],
-      "real": [0.0032],
-      "rss_mb": [22.64]
-    },
     "CodeLoad": {
       "error": "ReferenceError: Date is undefined",
-      "user": [0.0017],
-      "sys": [0.0009],
-      "real": [0.0029],
-      "rss_mb": [22.64]
-    },
-    "RayTrace": {
-      "error": "ReferenceError: Date is undefined",
-      "user": [0.0015],
-      "sys": [0.0015],
-      "real": [0.0033],
-      "rss_mb": [22.51]
-    },
-    "RegExp": {
-      "error": "SyntaxError: unterminated regular expression literal",
-      "user": [0.0007],
-      "sys": [0.0022],
-      "real": [0.0037],
-      "rss_mb": [22.64]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: invalid decrement operand",
-      "user": [0.0067],
-      "sys": [0.001],
-      "real": [0.008],
-      "rss_mb": [23.83]
+      "user": [0.0013],
+      "sys": [0.0013],
+      "real": [0.0028],
+      "rss_mb": [22.54]
     },
     "Typescript": {
       "error": "SyntaxError: Got 'return' expected ';'",
-      "user": [0.0079],
+      "user": [0.008],
       "sys": [0.004],
-      "real": [0.0121],
-      "rss_mb": [32.36]
+      "real": [0.0122],
+      "rss_mb": [32.26]
+    },
+    "Richards": {
+      "error": "ReferenceError: Date is undefined",
+      "user": [0.0024],
+      "sys": [0.0],
+      "real": [0.0026],
+      "rss_mb": [22.41]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: unterminated string literal",
+      "user": [0.0011],
+      "sys": [0.0033],
+      "real": [0.0047],
+      "rss_mb": [52.47]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: unterminated string literal",
+      "user": [0.0011],
+      "sys": [0.0033],
+      "real": [0.0047],
+      "rss_mb": [52.47]
+    },
+    "zlib": {
+      "error": "ReferenceError: unescape is not defined",
+      "user": [0.0018],
+      "sys": [0.0009],
+      "real": [0.003],
+      "rss_mb": [22.75]
+    },
+    "NavierStokes": {
+      "error": "ReferenceError: Date is undefined",
+      "user": [0.0026],
+      "sys": [0.0],
+      "real": [0.0028],
+      "rss_mb": [22.39]
     },
     "Crypto": {
       "error": "SyntaxError: invalid decrement operand",
-      "user": [0.0],
-      "sys": [0.0023],
-      "real": [0.0025],
-      "rss_mb": [22.52]
+      "user": [0.0007],
+      "sys": [0.0015],
+      "real": [0.0024],
+      "rss_mb": [22.4]
     },
     "Splay": {
       "error": "ReferenceError: Date is undefined",
       "user": [0.0011],
       "sys": [0.0011],
       "real": [0.0025],
-      "rss_mb": [22.5]
+      "rss_mb": [22.39]
     },
     "SplayLatency": {
       "error": "ReferenceError: Date is undefined",
       "user": [0.0011],
       "sys": [0.0011],
       "real": [0.0025],
-      "rss_mb": [22.5]
+      "rss_mb": [22.39]
     },
-    "NavierStokes": {
-      "error": "ReferenceError: Date is undefined",
-      "user": [0.0008],
-      "sys": [0.0016],
-      "real": [0.0026],
-      "rss_mb": [22.52]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: unterminated string literal",
-      "user": [0.002],
-      "sys": [0.002],
-      "real": [0.0043],
-      "rss_mb": [52.66]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: unterminated string literal",
-      "user": [0.002],
-      "sys": [0.002],
-      "real": [0.0043],
-      "rss_mb": [52.66]
+    "DeltaBlue": {
+      "error": "SyntaxError: invalid increment operand",
+      "user": [0.0024],
+      "sys": [0.0],
+      "real": [0.0025],
+      "rss_mb": [22.39]
     },
     "PdfJS": {
       "error": "SyntaxError: invalid increment operand",
-      "user": [0.0377],
-      "sys": [0.006],
-      "real": [0.0439],
-      "rss_mb": [28.59]
+      "user": [0.0398],
+      "sys": [0.004],
+      "real": [0.0441],
+      "rss_mb": [28.67]
+    },
+    "EarleyBoyer": {
+      "error": "ReferenceError: Date is undefined",
+      "user": [0.0061],
+      "sys": [0.001],
+      "real": [0.0073],
+      "rss_mb": [22.54]
+    },
+    "RayTrace": {
+      "error": "ReferenceError: Date is undefined",
+      "user": [0.0009],
+      "sys": [0.0018],
+      "real": [0.0029],
+      "rss_mb": [22.41]
+    },
+    "RegExp": {
+      "error": "SyntaxError: unterminated regular expression literal",
+      "user": [0.002],
+      "sys": [0.001],
+      "real": [0.0032],
+      "rss_mb": [22.48]
+    },
+    "Box2D": {
+      "error": "SyntaxError: Got '}' expected 'ID'",
+      "user": [0.0019],
+      "sys": [0.0009],
+      "real": [0.003],
+      "rss_mb": [22.54]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: invalid decrement operand",
+      "user": [0.0048],
+      "sys": [0.0029],
+      "real": [0.0078],
+      "rss_mb": [24.12]
     }
   }
 }

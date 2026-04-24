@@ -2,7 +2,7 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "dmdscript",
-    "binary_sha256": "57eefbcf221611ec12f24e9072549563c0506c95eeba02f71db6a7db1d503fff",
+    "binary_sha256": "396e65e8e4158b6f1046a3d1057b873e3e53de798a3d7bfbb996b67ba302850e",
     "binary_size": 1806448,
     "engine": "dmdscript",
     "repository": "https://github.com/DigitalMars/DMDScript.git",
@@ -10,126 +10,126 @@
     "revision_date": "2026-03-03",
     "version": "2.1.3"
   },
-  "time": "2026-04-16 02:11:39.419264 UTC",
+  "time": "2026-04-24 02:51:31.929917 UTC",
   "benchmarks": {
-    "Richards": {
-      "score": [26.4, 22.1],
-      "user": [5.315, 6.6311],
-      "sys": [0.012, 0.01],
-      "real": [5.328, 6.6426],
-      "rss_mb": [35.44, 35.43]
-    },
-    "zlib": {
-      "error": "SyntaxError: zlib: SyntaxError: eval(7) : Error: found '{' when expecting ';'",
-      "user": [3.7674, 3.77],
-      "sys": [0.002, 0.001],
-      "real": [3.77, 3.7721],
-      "rss_mb": [22.97, 22.97]
-    },
-    "EarleyBoyer": {
-      "score": [140, 138],
-      "user": [71.7692, 73.4602],
-      "sys": [0.484, 0.4789],
-      "real": [72.2597, 73.9532],
-      "rss_mb": [1731.52, 1731.54]
-    },
-    "DeltaBlue": {
-      "score": [30.5],
-      "user": [8.9104],
-      "sys": [0.04],
-      "real": [8.9519],
-      "rss_mb": [149.8]
-    },
-    "Box2D": {
-      "error": "SyntaxError: expression expected, not '}'",
-      "user": [0.0027],
-      "sys": [0.0036],
-      "real": [0.0064],
-      "rss_mb": [23.02]
-    },
     "CodeLoad": {
       "error": "CRASH: SIGSEGV",
-      "user": [1.3626],
-      "sys": [0.005],
-      "real": [1.4356],
-      "rss_mb": [22.78]
-    },
-    "RayTrace": {
-      "score": [142, 167],
-      "user": [17.6927, 15.9627],
-      "sys": [0.008, 0.014],
-      "real": [17.7044, 15.9807],
-      "rss_mb": [22.55, 22.56]
-    },
-    "RegExp": {
-      "error": "SyntaxError: expression expected, not '/='",
-      "user": [0.0011, 0.0011, 0.0, 0.0011],
-      "sys": [0.0011, 0.0011, 0.0025, 0.0011],
-      "real": [0.0024, 0.0024, 0.0027, 0.0024],
-      "rss_mb": [22.77, 22.77, 22.77, 22.77]
-    },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.0718],
-      "sys": [0.005],
-      "real": [1.0773],
-      "rss_mb": [24.2]
-    },
-    "Typescript": {
-      "error": "SyntaxError: identifier expected instead of 'byte'",
-      "user": [0.0291, 0.0297, 0.0288],
-      "sys": [0.005, 0.0049, 0.006],
-      "real": [0.0345, 0.0349, 0.0351],
-      "rss_mb": [34.72, 34.72, 34.73]
-    },
-    "Crypto": {
-      "error": "CRASH: SIGSEGV",
-      "user": [0.0921],
-      "sys": [0.1475],
-      "real": [0.6742],
-      "rss_mb": [137.52]
+      "user": [1.361],
+      "sys": [0.006],
+      "real": [1.4753],
+      "rss_mb": [22.64]
     },
     "Splay": {
       "error": "FAIL: No scores in the output",
-      "user": [0.0017, 0.0014, 0.0018],
-      "sys": [0.0009, 0.0014, 0.0009],
-      "real": [0.0028, 0.003, 0.0029],
-      "rss_mb": [22.52, 22.51, 22.39]
+      "user": [0.0009, 0.0018],
+      "sys": [0.0018, 0.0009],
+      "real": [0.0034, 0.0029],
+      "rss_mb": [22.41, 22.4]
     },
     "SplayLatency": {
       "error": "FAIL: No scores in the output",
-      "user": [0.0017, 0.0014, 0.0018],
-      "sys": [0.0009, 0.0014, 0.0009],
-      "real": [0.0028, 0.003, 0.0029],
-      "rss_mb": [22.52, 22.51, 22.39]
+      "user": [0.0009, 0.0018],
+      "sys": [0.0018, 0.0009],
+      "real": [0.0034, 0.0029],
+      "rss_mb": [22.41, 22.4]
+    },
+    "Richards": {
+      "score": [21.6],
+      "user": [6.7466],
+      "sys": [0.012],
+      "real": [6.7602],
+      "rss_mb": [35.44]
     },
     "NavierStokes": {
       "error": "FAIL: No scores in the output",
-      "user": [5.302],
-      "sys": [0.015],
-      "real": [5.318],
+      "user": [5.3297],
+      "sys": [0.013],
+      "real": [5.3436],
       "rss_mb": [54.84]
+    },
+    "Typescript": {
+      "error": "SyntaxError: identifier expected instead of 'byte'",
+      "user": [0.0315, 0.0281],
+      "sys": [0.003, 0.006],
+      "real": [0.0347, 0.0343],
+      "rss_mb": [34.5, 34.51]
     },
     "Mandreel": {
       "error": "FAIL: No scores in the output",
-      "user": [1.749],
-      "sys": [0.049],
-      "real": [1.7987],
+      "user": [1.8756],
+      "sys": [0.039],
+      "real": [1.9151],
       "rss_mb": [136.1]
     },
     "MandreelLatency": {
       "error": "FAIL: No scores in the output",
-      "user": [1.749],
-      "sys": [0.049],
-      "real": [1.7987],
+      "user": [1.8756],
+      "sys": [0.039],
+      "real": [1.9151],
       "rss_mb": [136.1]
     },
     "PdfJS": {
       "error": "SyntaxError: found 'content' when expecting ':'",
-      "user": [0.0067, 0.0068],
-      "sys": [0.0029, 0.0029],
-      "real": [0.0098, 0.01],
-      "rss_mb": [29.95, 29.96]
+      "user": [0.0084, 0.0076],
+      "sys": [0.001, 0.0022],
+      "real": [0.0096, 0.01],
+      "rss_mb": [29.93, 29.92]
+    },
+    "DeltaBlue": {
+      "score": [27.6, 28.5],
+      "user": [9.5389, 9.2779],
+      "sys": [0.032, 0.04],
+      "real": [9.5725, 9.3191],
+      "rss_mb": [149.8, 149.8]
+    },
+    "RayTrace": {
+      "score": [164],
+      "user": [16.2453],
+      "sys": [0.008],
+      "real": [16.2552],
+      "rss_mb": [22.55]
+    },
+    "zlib": {
+      "error": "SyntaxError: zlib: SyntaxError: eval(7) : Error: found '{' when expecting ';'",
+      "user": [3.7696],
+      "sys": [0.0],
+      "real": [3.7708],
+      "rss_mb": [22.9]
+    },
+    "Crypto": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0894, 0.0857],
+      "sys": [0.1386, 0.1525],
+      "real": [0.537, 0.5697],
+      "rss_mb": [137.52, 137.53]
+    },
+    "Box2D": {
+      "error": "SyntaxError: expression expected, not '}'",
+      "user": [0.0042],
+      "sys": [0.0021],
+      "real": [0.0066],
+      "rss_mb": [22.92]
+    },
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.0726],
+      "sys": [0.004],
+      "real": [1.077],
+      "rss_mb": [24.63]
+    },
+    "RegExp": {
+      "error": "SyntaxError: expression expected, not '/='",
+      "user": [0.0023],
+      "sys": [0.0],
+      "real": [0.0025],
+      "rss_mb": [22.64]
+    },
+    "EarleyBoyer": {
+      "score": [139],
+      "user": [71.9921],
+      "sys": [0.481],
+      "real": [72.4797],
+      "rss_mb": [1731.54]
     }
   }
 }

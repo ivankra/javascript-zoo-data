@@ -9,126 +9,126 @@
     "revision": "139b240463dc485fd0744663272c4c4066801311",
     "revision_date": "2026-02-01"
   },
-  "time": "2026-04-16 04:16:38.814691 UTC",
+  "time": "2026-04-24 04:04:30.653007 UTC",
   "benchmarks": {
+    "RegExp": {
+      "error": "FAIL: performance is not defined",
+      "user": [1.5655],
+      "sys": [0.0571],
+      "real": [0.5518],
+      "rss_mb": [120.08]
+    },
     "CodeLoad": {
       "error": "FAIL: performance is not defined",
-      "user": [1.2624],
-      "sys": [0.0622],
-      "real": [0.4332],
-      "rss_mb": [103.09]
-    },
-    "DeltaBlue": {
-      "error": "FAIL: performance is not defined",
-      "user": [1.1452],
-      "sys": [0.0464],
-      "real": [0.3993],
-      "rss_mb": [95.85]
-    },
-    "Gameboy": {
-      "error": "FAIL: performance is not defined",
-      "user": [2.2314],
-      "sys": [0.0795],
-      "real": [0.7452],
-      "rss_mb": [213.04]
-    },
-    "Crypto": {
-      "error": "FAIL: performance is not defined",
-      "user": [1.1636],
-      "sys": [0.0536],
-      "real": [0.4158],
-      "rss_mb": [95.46]
-    },
-    "EarleyBoyer": {
-      "error": "FAIL: Octal escape sequences are not allowed",
-      "user": [1.0925],
-      "sys": [0.0451],
-      "real": [0.4189],
-      "rss_mb": [93.19]
-    },
-    "NavierStokes": {
-      "error": "FAIL: performance is not defined",
-      "user": [1.2111],
-      "sys": [0.0516],
-      "real": [0.4244],
-      "rss_mb": [99.31]
-    },
-    "Richards": {
-      "error": "FAIL: performance is not defined",
-      "user": [1.2039],
-      "sys": [0.0488],
-      "real": [0.4211],
-      "rss_mb": [102.49]
-    },
-    "Box2D": {
-      "error": "FAIL: performance is not defined",
-      "user": [2.2832],
-      "sys": [0.0521],
-      "real": [0.7787],
-      "rss_mb": [197.61]
-    },
-    "Typescript": {
-      "error": "FAIL: Expected a parameter or a closing brace",
-      "user": [1.6775],
-      "sys": [0.0699],
-      "real": [0.5998],
-      "rss_mb": [222.62]
-    },
-    "Splay": {
-      "error": "FAIL: performance is not defined",
-      "user": [0.7808],
-      "sys": [0.0584],
-      "real": [0.2998],
-      "rss_mb": [95.58]
-    },
-    "SplayLatency": {
-      "error": "FAIL: performance is not defined",
-      "user": [0.7808],
-      "sys": [0.0584],
-      "real": [0.2998],
-      "rss_mb": [95.58]
+      "user": [0.8888],
+      "sys": [0.0535],
+      "real": [0.3124],
+      "rss_mb": [106.01]
     },
     "RayTrace": {
       "error": "FAIL: performance is not defined",
-      "user": [1.2466],
-      "sys": [0.0491],
-      "real": [0.4428],
-      "rss_mb": [97.99]
+      "user": [1.188],
+      "sys": [0.0508],
+      "real": [0.4291],
+      "rss_mb": [108.79]
     },
-    "PdfJS": {
+    "EarleyBoyer": {
+      "error": "FAIL: Octal escape sequences are not allowed",
+      "user": [1.0425],
+      "sys": [0.0497],
+      "real": [0.4079],
+      "rss_mb": [92.09]
+    },
+    "Crypto": {
       "error": "FAIL: performance is not defined",
-      "user": [2.6321],
-      "sys": [0.0653],
-      "real": [0.9091],
-      "rss_mb": [259.59]
-    },
-    "RegExp": {
-      "error": "FAIL: performance is not defined",
-      "user": [1.4177],
-      "sys": [0.0745],
-      "real": [0.5163],
-      "rss_mb": [136.29]
-    },
-    "zlib": {
-      "error": "FAIL: A variable may not be deleted",
-      "user": [1.0299],
-      "sys": [0.0411],
-      "real": [0.3936],
-      "rss_mb": [91.96]
+      "user": [1.2221],
+      "sys": [0.0532],
+      "real": [0.4294],
+      "rss_mb": [102.39]
     },
     "Mandreel": {
       "error": "FAIL: Expected an end of statement",
-      "user": [1.2748],
-      "sys": [0.047],
-      "real": [0.4719],
-      "rss_mb": [159.64]
+      "user": [1.4596],
+      "sys": [0.0632],
+      "real": [0.5255],
+      "rss_mb": [164.96]
     },
     "MandreelLatency": {
       "error": "FAIL: Expected an end of statement",
-      "user": [1.2748],
-      "sys": [0.047],
-      "real": [0.4719],
-      "rss_mb": [159.64]
+      "user": [1.4596],
+      "sys": [0.0632],
+      "real": [0.5255],
+      "rss_mb": [164.96]
+    },
+    "Richards": {
+      "error": "FAIL: performance is not defined",
+      "user": [1.16],
+      "sys": [0.0573],
+      "real": [0.3992],
+      "rss_mb": [95.6]
+    },
+    "Box2D": {
+      "error": "FAIL: performance is not defined",
+      "user": [2.137],
+      "sys": [0.1007],
+      "real": [0.7422],
+      "rss_mb": [210.71]
+    },
+    "zlib": {
+      "error": "FAIL: A variable may not be deleted",
+      "user": [1.0582],
+      "sys": [0.0445],
+      "real": [0.38],
+      "rss_mb": [92.16]
+    },
+    "PdfJS": {
+      "error": "FAIL: performance is not defined",
+      "user": [3.065],
+      "sys": [0.0758],
+      "real": [1.0192],
+      "rss_mb": [255.6]
+    },
+    "DeltaBlue": {
+      "error": "FAIL: performance is not defined",
+      "user": [1.0867],
+      "sys": [0.0607],
+      "real": [0.3948],
+      "rss_mb": [98.86]
+    },
+    "Splay": {
+      "error": "FAIL: performance is not defined",
+      "user": [1.0245],
+      "sys": [0.055],
+      "real": [0.3675],
+      "rss_mb": [94.33]
+    },
+    "SplayLatency": {
+      "error": "FAIL: performance is not defined",
+      "user": [1.0245],
+      "sys": [0.055],
+      "real": [0.3675],
+      "rss_mb": [94.33]
+    },
+    "Gameboy": {
+      "error": "FAIL: performance is not defined",
+      "user": [2.1656],
+      "sys": [0.0767],
+      "real": [0.7264],
+      "rss_mb": [210.93]
+    },
+    "NavierStokes": {
+      "error": "FAIL: performance is not defined",
+      "user": [1.1671],
+      "sys": [0.0557],
+      "real": [0.4209],
+      "rss_mb": [92.74]
+    },
+    "Typescript": {
+      "error": "FAIL: Expected a parameter or a closing brace",
+      "user": [1.5599],
+      "sys": [0.0682],
+      "real": [0.5569],
+      "rss_mb": [210.23]
     }
   }
 }

@@ -10,126 +10,126 @@
     "revision_date": "2026-02-24",
     "version": "1.1.8"
   },
-  "time": "2026-04-16 03:12:09.868989 UTC",
+  "time": "2026-04-24 03:26:17.659361 UTC",
   "benchmarks": {
-    "Mandreel": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1288],
-      "sys": [0.0327],
-      "real": [0.1167],
-      "rss_mb": [52.7]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1288],
-      "sys": [0.0327],
-      "real": [0.1167],
-      "rss_mb": [52.7]
-    },
-    "RayTrace": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1288],
-      "sys": [0.0281],
-      "real": [0.1146],
-      "rss_mb": [47.8]
-    },
-    "RegExp": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1307],
-      "sys": [0.0367],
-      "real": [0.123],
-      "rss_mb": [48.04]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1344],
-      "sys": [0.0419],
-      "real": [0.1298],
-      "rss_mb": [47.9]
-    },
-    "Box2D": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1435],
-      "sys": [0.0341],
-      "real": [0.1314],
-      "rss_mb": [47.92]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1424],
-      "sys": [0.0395],
-      "real": [0.1327],
-      "rss_mb": [47.31]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: detected near line 12, column 29, after \"=\"",
-      "user": [0.1323],
-      "sys": [0.0286],
-      "real": [0.1195],
-      "rss_mb": [47.92]
-    },
-    "Typescript": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1405],
-      "sys": [0.0408],
-      "real": [0.1336],
-      "rss_mb": [48.04]
-    },
-    "Splay": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1269],
-      "sys": [0.0509],
-      "real": [0.1269],
-      "rss_mb": [48.21]
-    },
-    "SplayLatency": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1269],
-      "sys": [0.0509],
-      "real": [0.1269],
-      "rss_mb": [48.21]
-    },
-    "zlib": {
-      "error": "SyntaxError: detected near line 12, column 3, after \"{\"",
-      "user": [0.1339],
-      "sys": [0.0364],
-      "real": [0.124],
-      "rss_mb": [47.74]
-    },
     "CodeLoad": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1246],
-      "sys": [0.0356],
-      "real": [0.1166],
-      "rss_mb": [47.88]
+      "error": "SyntaxError",
+      "user": [0.1339],
+      "sys": [0.0269],
+      "real": [0.1192],
+      "rss_mb": [47.97]
     },
     "Richards": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1399],
-      "sys": [0.0339],
-      "real": [0.1287],
-      "rss_mb": [47.93]
+      "error": "SyntaxError",
+      "user": [0.1413],
+      "sys": [0.0327],
+      "real": [0.1238],
+      "rss_mb": [47.95]
     },
-    "NavierStokes": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1325],
-      "sys": [0.036],
-      "real": [0.1216],
+    "DeltaBlue": {
+      "error": "SyntaxError",
+      "user": [0.1487],
+      "sys": [0.0252],
+      "real": [0.1275],
+      "rss_mb": [48.07]
+    },
+    "Mandreel": {
+      "error": "SyntaxError",
+      "user": [0.1377],
+      "sys": [0.0344],
+      "real": [0.1247],
+      "rss_mb": [52.66]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError",
+      "user": [0.1377],
+      "sys": [0.0344],
+      "real": [0.1247],
+      "rss_mb": [52.66]
+    },
+    "PdfJS": {
+      "error": "SyntaxError",
+      "user": [0.1271],
+      "sys": [0.0421],
+      "real": [0.1225],
+      "rss_mb": [47.88]
+    },
+    "Typescript": {
+      "error": "SyntaxError",
+      "user": [0.1385],
+      "sys": [0.0299],
+      "real": [0.1214],
       "rss_mb": [48.02]
     },
     "Crypto": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1524],
-      "sys": [0.0308],
-      "real": [0.1439],
-      "rss_mb": [47.84]
+      "error": "SyntaxError",
+      "user": [0.1329],
+      "sys": [0.0377],
+      "real": [0.1277],
+      "rss_mb": [47.79]
     },
-    "DeltaBlue": {
-      "error": "SyntaxError: detected near line 43, column 34, after \"||\"",
-      "user": [0.1243],
-      "sys": [0.0369],
-      "real": [0.1196],
-      "rss_mb": [48.01]
+    "Splay": {
+      "error": "SyntaxError",
+      "user": [0.1373],
+      "sys": [0.0372],
+      "real": [0.1302],
+      "rss_mb": [47.91]
+    },
+    "SplayLatency": {
+      "error": "SyntaxError",
+      "user": [0.1373],
+      "sys": [0.0372],
+      "real": [0.1302],
+      "rss_mb": [47.91]
+    },
+    "zlib": {
+      "error": "SyntaxError",
+      "user": [0.1312],
+      "sys": [0.0431],
+      "real": [0.1253],
+      "rss_mb": [47.89]
+    },
+    "NavierStokes": {
+      "error": "SyntaxError",
+      "user": [0.1393],
+      "sys": [0.0377],
+      "real": [0.128],
+      "rss_mb": [47.88]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError",
+      "user": [0.1293],
+      "sys": [0.0371],
+      "real": [0.1259],
+      "rss_mb": [48.03]
+    },
+    "RayTrace": {
+      "error": "SyntaxError",
+      "user": [0.1306],
+      "sys": [0.039],
+      "real": [0.1206],
+      "rss_mb": [48.23]
+    },
+    "RegExp": {
+      "error": "SyntaxError",
+      "user": [0.1425],
+      "sys": [0.0353],
+      "real": [0.1281],
+      "rss_mb": [47.9]
+    },
+    "Box2D": {
+      "error": "SyntaxError",
+      "user": [0.1313],
+      "sys": [0.0415],
+      "real": [0.1284],
+      "rss_mb": [47.88]
+    },
+    "Gameboy": {
+      "error": "SyntaxError",
+      "user": [0.1427],
+      "sys": [0.0384],
+      "real": [0.1309],
+      "rss_mb": [47.77]
     }
   }
 }

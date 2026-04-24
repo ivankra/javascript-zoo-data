@@ -2,7 +2,7 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "jsish",
-    "binary_sha256": "427f841c02fb9427cbb5960e40f569105dd568ac5564987b6d82c7f7a14a9ca3",
+    "binary_sha256": "3515d3a5093525e90024d85880f01fae886b45e7bb9ab480c3a4369723f02ddd",
     "binary_size": 2488056,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "jsish",
@@ -11,126 +11,126 @@
     "revision_date": "2022-08-23",
     "version": "3.0-252-g42c694c"
   },
-  "time": "2026-04-16 03:14:10.766683 UTC",
+  "time": "2026-04-24 03:33:13.864455 UTC",
   "benchmarks": {
+    "Mandreel": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0484],
+      "sys": [0.003],
+      "real": [0.0517],
+      "rss_mb": [52.69]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0484],
+      "sys": [0.003],
+      "real": [0.0517],
+      "rss_mb": [52.69]
+    },
     "Richards": {
       "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0022],
-      "sys": [0.0],
+      "user": [0.0011],
+      "sys": [0.0011],
       "real": [0.0024],
-      "rss_mb": [22.38]
+      "rss_mb": [22.62]
     },
-    "zlib": {
+    "Typescript": {
       "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0018],
-      "sys": [0.0018],
-      "real": [0.0039],
-      "rss_mb": [22.71]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0029],
-      "sys": [0.001],
-      "real": [0.0041],
-      "rss_mb": [22.65]
+      "user": [0.0202],
+      "sys": [0.003],
+      "real": [0.0235],
+      "rss_mb": [32.36]
     },
     "CodeLoad": {
       "error": "SyntaxError: unexpected FUNC, expecting end of file",
       "user": [0.002],
       "sys": [0.001],
       "real": [0.0032],
-      "rss_mb": [22.64]
+      "rss_mb": [22.75]
     },
-    "Box2D": {
+    "PdfJS": {
       "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.003],
-      "sys": [0.001],
-      "real": [0.0042],
+      "user": [0.0111],
+      "sys": [0.004],
+      "real": [0.0154],
+      "rss_mb": [29.01]
+    },
+    "Splay": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0022],
+      "sys": [0.0],
+      "real": [0.0024],
+      "rss_mb": [22.62]
+    },
+    "SplayLatency": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0022],
+      "sys": [0.0],
+      "real": [0.0024],
+      "rss_mb": [22.62]
+    },
+    "NavierStokes": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0022],
+      "sys": [0.0],
+      "real": [0.0024],
       "rss_mb": [22.64]
     },
     "DeltaBlue": {
       "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0],
-      "sys": [0.0022],
-      "real": [0.0024],
-      "rss_mb": [22.39]
-    },
-    "RegExp": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0016],
-      "sys": [0.0016],
-      "real": [0.0035],
-      "rss_mb": [22.62]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0049],
-      "sys": [0.0019],
-      "real": [0.007],
-      "rss_mb": [24.33]
-    },
-    "Typescript": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0198],
-      "sys": [0.004],
-      "real": [0.024],
-      "rss_mb": [32.36]
-    },
-    "RayTrace": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0012],
-      "sys": [0.0012],
-      "real": [0.0026],
-      "rss_mb": [22.4]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0479],
-      "sys": [0.004],
-      "real": [0.0521],
-      "rss_mb": [52.69]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0479],
-      "sys": [0.004],
-      "real": [0.0521],
-      "rss_mb": [52.69]
-    },
-    "Splay": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0011],
-      "sys": [0.0011],
-      "real": [0.0023],
-      "rss_mb": [22.38]
-    },
-    "SplayLatency": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0011],
-      "sys": [0.0011],
-      "real": [0.0023],
-      "rss_mb": [22.38]
-    },
-    "Crypto": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.0017],
-      "sys": [0.0008],
-      "real": [0.0027],
-      "rss_mb": [22.39]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
-      "user": [0.014],
-      "sys": [0.001],
-      "real": [0.0152],
-      "rss_mb": [28.8]
-    },
-    "NavierStokes": {
-      "error": "SyntaxError: unexpected FUNC, expecting end of file",
       "user": [0.0011],
       "sys": [0.0011],
       "real": [0.0025],
-      "rss_mb": [22.39]
+      "rss_mb": [22.64]
+    },
+    "zlib": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0019],
+      "sys": [0.0019],
+      "real": [0.004],
+      "rss_mb": [22.88]
+    },
+    "Box2D": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0039],
+      "sys": [0.0],
+      "real": [0.0042],
+      "rss_mb": [22.88]
+    },
+    "RayTrace": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0023],
+      "sys": [0.0],
+      "real": [0.0025],
+      "rss_mb": [22.63]
+    },
+    "Crypto": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0008],
+      "sys": [0.0017],
+      "real": [0.0027],
+      "rss_mb": [22.64]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0055],
+      "sys": [0.0011],
+      "real": [0.0068],
+      "rss_mb": [24.36]
+    },
+    "RegExp": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0017],
+      "sys": [0.0017],
+      "real": [0.0035],
+      "rss_mb": [22.77]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: unexpected FUNC, expecting end of file",
+      "user": [0.0019],
+      "sys": [0.0019],
+      "real": [0.0041],
+      "rss_mb": [22.75]
     }
   }
 }

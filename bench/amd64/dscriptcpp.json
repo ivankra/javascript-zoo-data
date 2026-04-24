@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "dscriptcpp",
-    "binary_sha256": "91a3cf403a81c270a208ec5bfa204928a23ce883fc44d8f64c9745ec8938add5",
+    "binary_sha256": "b4faa365b90dc3d6efecc66c069b826d074d2642249ae7cf47ee4987c074a96c",
     "binary_size": 1398572,
     "cc": "gcc 14.2.0 (Debian 14.2.0-19)",
     "engine": "dscriptcpp",
@@ -10,14 +10,14 @@
     "revision": "bfa84682939d591c1357da90e4dec109809f49ad",
     "revision_date": "2025-10-11"
   },
-  "time": "2026-04-16 02:14:45.511027 UTC",
+  "time": "2026-04-24 02:52:43.087308 UTC",
   "benchmarks": {
     "Richards": {
-      "score": [49.423],
-      "user": [2.07],
-      "sys": [0.002],
-      "real": [2.0729],
-      "rss_mb": [19.08]
+      "score": [47.659],
+      "user": [2.0948],
+      "sys": [0.006],
+      "real": [2.1022],
+      "rss_mb": [18.96]
     }
   }
 }

@@ -2,134 +2,134 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "stator",
-    "binary_sha256": "1cd1a53c011c3b103aafa796e5f3336cfab0755b02ab38323767867012344e20",
-    "binary_size": 17045040,
+    "binary_sha256": "a4f82cf97d237dc8cd6643811efce9f16cde53410c836184388f9bf850d888a1",
+    "binary_size": 17110576,
     "engine": "stator",
     "repository": "https://github.com/telecos/stator.git",
     "revision": "455b1eb10f919ef9f26533a8b741d61e2b3e98c9",
     "revision_date": "2026-04-02",
-    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
-  "time": "2026-04-16 04:15:47.942527 UTC",
+  "time": "2026-04-24 03:36:45.033007 UTC",
   "benchmarks": {
-    "CodeLoad": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0027],
-      "sys": [0.0018],
-      "real": [0.0048],
-      "rss_mb": [22.64]
-    },
-    "Richards": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.003],
-      "sys": [0.002],
-      "real": [0.0052],
-      "rss_mb": [22.39]
-    },
     "PdfJS": {
       "error": "SyntaxError: unterminated regular expression literal",
-      "user": [0.0388],
-      "sys": [0.0129],
-      "real": [0.052],
-      "rss_mb": [30.77]
+      "user": [0.0371],
+      "sys": [0.011],
+      "real": [0.0484],
+      "rss_mb": [30.66]
     },
-    "NavierStokes": {
+    "Gameboy": {
       "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0041],
-      "sys": [0.001],
-      "real": [0.0053],
-      "rss_mb": [22.39]
+      "user": [0.0398],
+      "sys": [0.009],
+      "real": [0.049],
+      "rss_mb": [37.98]
+    },
+    "DeltaBlue": {
+      "error": "TypeError: CallProperty: callee is not a function (got Undefined)",
+      "user": [0.0047],
+      "sys": [0.0009],
+      "real": [0.0059],
+      "rss_mb": [22.64]
+    },
+    "Typescript": {
+      "error": "InternalError: release_temporary: expected r12, got r8",
+      "user": [0.0621],
+      "sys": [0.034],
+      "real": [0.0964],
+      "rss_mb": [78.27]
     },
     "RegExp": {
       "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0086],
-      "sys": [0.0038],
-      "real": [0.0126],
+      "user": [0.0102],
+      "sys": [0.0031],
+      "real": [0.0135],
+      "rss_mb": [22.77]
+    },
+    "EarleyBoyer": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0275],
+      "sys": [0.0041],
+      "real": [0.0319],
+      "rss_mb": [22.75]
+    },
+    "RayTrace": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0022],
+      "sys": [0.0043],
+      "real": [0.0067],
+      "rss_mb": [22.62]
+    },
+    "Richards": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0038],
+      "sys": [0.0009],
+      "real": [0.0049],
+      "rss_mb": [22.62]
+    },
+    "Box2D": {
+      "error": "TypeError: Cannot set properties of undefined (setting 'prototype')",
+      "user": [0.0411],
+      "sys": [0.011],
+      "real": [0.0524],
+      "rss_mb": [42.96]
+    },
+    "Mandreel": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.6358],
+      "sys": [0.2059],
+      "real": [0.8422],
+      "rss_mb": [680.45]
+    },
+    "MandreelLatency": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.6358],
+      "sys": [0.2059],
+      "real": [0.8422],
+      "rss_mb": [680.45]
+    },
+    "Splay": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0018],
+      "sys": [0.0027],
+      "real": [0.0047],
+      "rss_mb": [22.64]
+    },
+    "SplayLatency": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0018],
+      "sys": [0.0027],
+      "real": [0.0047],
+      "rss_mb": [22.64]
+    },
+    "zlib": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0028],
+      "sys": [0.0019],
+      "real": [0.0049],
+      "rss_mb": [22.86]
+    },
+    "CodeLoad": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0037],
+      "sys": [0.0009],
+      "real": [0.0049],
+      "rss_mb": [22.75]
+    },
+    "NavierStokes": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0031],
+      "sys": [0.002],
+      "real": [0.0053],
       "rss_mb": [22.64]
     },
     "Crypto": {
       "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0091],
-      "sys": [0.002],
-      "real": [0.0113],
-      "rss_mb": [22.39]
-    },
-    "Splay": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0027],
-      "sys": [0.0018],
-      "real": [0.0047],
-      "rss_mb": [22.39]
-    },
-    "SplayLatency": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0027],
-      "sys": [0.0018],
-      "real": [0.0047],
-      "rss_mb": [22.39]
-    },
-    "Box2D": {
-      "error": "TypeError: Cannot set properties of undefined (setting 'prototype')",
-      "user": [0.043],
-      "sys": [0.009],
-      "real": [0.0522],
-      "rss_mb": [43.09]
-    },
-    "Gameboy": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0347],
-      "sys": [0.0149],
-      "real": [0.0498],
-      "rss_mb": [38.21]
-    },
-    "Typescript": {
-      "error": "InternalError: release_temporary: expected r12, got r8",
-      "user": [0.0616],
-      "sys": [0.0238],
-      "real": [0.0861],
-      "rss_mb": [78.51]
-    },
-    "DeltaBlue": {
-      "error": "TypeError: CallProperty: callee is not a function (got Undefined)",
-      "user": [0.0034],
-      "sys": [0.0023],
-      "real": [0.0058],
-      "rss_mb": [22.38]
-    },
-    "Mandreel": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.6788],
-      "sys": [0.1829],
-      "real": [0.8623],
-      "rss_mb": [680.62]
-    },
-    "MandreelLatency": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.6788],
-      "sys": [0.1829],
-      "real": [0.8623],
-      "rss_mb": [680.62]
-    },
-    "EarleyBoyer": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.022],
-      "sys": [0.009],
-      "real": [0.0312],
-      "rss_mb": [22.65]
-    },
-    "RayTrace": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0039],
-      "sys": [0.0029],
-      "real": [0.007],
-      "rss_mb": [22.39]
-    },
-    "zlib": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0038],
-      "sys": [0.001],
-      "real": [0.005],
-      "rss_mb": [22.71]
+      "user": [0.0079],
+      "sys": [0.0039],
+      "real": [0.012],
+      "rss_mb": [22.64]
     }
   }
 }

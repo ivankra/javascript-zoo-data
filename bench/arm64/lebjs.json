@@ -9,14 +9,14 @@
     "revision": "7b5db4a32e9d97b6881452da59f363f514e61b76",
     "revision_date": "2025-08-14"
   },
-  "time": "2026-04-16 06:12:17.933572 UTC",
+  "time": "2026-04-24 08:35:33.092419 UTC",
   "benchmarks": {
     "Richards": {
       "error": "FAIL: No scores in the output",
-      "user": [10.2545],
-      "sys": [0.1257],
-      "real": [9.6304],
-      "rss_mb": [212.06]
+      "user": [10.1753],
+      "sys": [0.1258],
+      "real": [9.4667],
+      "rss_mb": [213.34]
     }
   }
 }

@@ -2,133 +2,133 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "sandboxjs",
-    "dist_size": 241341,
+    "dist_size": 242190,
     "engine": "sandboxjs",
     "repository": "https://github.com/nyariv/SandboxJS.git",
-    "revision": "52625d34585658aad87d0933812a9b2c4c13a863",
-    "revision_date": "2026-04-14",
-    "version": "0.9.3"
+    "revision": "fe79ab4f87a288710d9857c5efbadd80d4651a85",
+    "revision_date": "2026-04-17",
+    "version": "0.9.3-1-gfe79ab4"
   },
-  "time": "2026-04-16 03:28:18.890964 UTC",
+  "time": "2026-04-24 03:38:36.739775 UTC",
   "benchmarks": {
     "PdfJS": {
       "error": "FAIL: SandboxAccessError: Access to prototype of global object is not permitted",
-      "user": [0.3146],
-      "sys": [0.0429],
-      "real": [0.2964],
-      "rss_mb": [135.82]
-    },
-    "Richards": {
-      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.0624],
-      "sys": [0.0181],
-      "real": [0.0582],
-      "rss_mb": [57.68]
-    },
-    "CodeLoad": {
-      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.0786],
-      "sys": [0.0232],
-      "real": [0.0702],
-      "rss_mb": [59.0]
-    },
-    "Box2D": {
-      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.1186],
-      "sys": [0.0198],
-      "real": [0.101],
-      "rss_mb": [71.91]
-    },
-    "NavierStokes": {
-      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.0725],
-      "sys": [0.0153],
-      "real": [0.065],
-      "rss_mb": [57.96]
-    },
-    "Splay": {
-      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.0623],
-      "sys": [0.0122],
-      "real": [0.0546],
-      "rss_mb": [55.63]
-    },
-    "SplayLatency": {
-      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.0623],
-      "sys": [0.0122],
-      "real": [0.0546],
-      "rss_mb": [55.63]
-    },
-    "Crypto": {
-      "error": "SyntaxError: Unexpected token: if(i < 8)",
-      "user": [0.1507],
-      "sys": [0.0301],
-      "real": [0.1128],
-      "rss_mb": [67.75]
-    },
-    "RegExp": {
-      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.1376],
-      "sys": [0.0198],
-      "real": [0.0995],
-      "rss_mb": [71.54]
-    },
-    "Mandreel": {
-      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [4.5374],
-      "sys": [0.2456],
-      "real": [4.2518],
-      "rss_mb": [530.18]
-    },
-    "MandreelLatency": {
-      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [4.5374],
-      "sys": [0.2456],
-      "real": [4.2518],
-      "rss_mb": [530.18]
-    },
-    "DeltaBlue": {
-      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.078],
-      "sys": [0.0123],
-      "real": [0.0634],
-      "rss_mb": [58.29]
+      "user": [0.312],
+      "sys": [0.0436],
+      "real": [0.2961],
+      "rss_mb": [135.72]
     },
     "Typescript": {
       "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.3751],
-      "sys": [0.0714],
-      "real": [0.3833],
-      "rss_mb": [143.33]
+      "user": [0.3876],
+      "sys": [0.0648],
+      "real": [0.3889],
+      "rss_mb": [143.11]
+    },
+    "DeltaBlue": {
+      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
+      "user": [0.081],
+      "sys": [0.0132],
+      "real": [0.0671],
+      "rss_mb": [58.27]
+    },
+    "Box2D": {
+      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
+      "user": [0.124],
+      "sys": [0.0232],
+      "real": [0.1067],
+      "rss_mb": [71.85]
     },
     "zlib": {
       "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.0945],
-      "sys": [0.0136],
-      "real": [0.0751],
-      "rss_mb": [65.25]
+      "user": [0.0817],
+      "sys": [0.0266],
+      "real": [0.0747],
+      "rss_mb": [64.01]
     },
     "RayTrace": {
       "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.0779],
-      "sys": [0.0197],
-      "real": [0.0711],
-      "rss_mb": [57.36]
+      "user": [0.0824],
+      "sys": [0.0186],
+      "real": [0.0731],
+      "rss_mb": [58.18]
     },
-    "EarleyBoyer": {
-      "error": "SyntaxError: Octal Deprecation: 000",
-      "user": [0.0367],
-      "sys": [0.0159],
-      "real": [0.043],
-      "rss_mb": [53.0]
+    "CodeLoad": {
+      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
+      "user": [0.0785],
+      "sys": [0.0186],
+      "real": [0.0678],
+      "rss_mb": [59.71]
+    },
+    "RegExp": {
+      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
+      "user": [0.1204],
+      "sys": [0.0218],
+      "real": [0.0881],
+      "rss_mb": [65.08]
     },
     "Gameboy": {
       "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
-      "user": [0.2593],
-      "sys": [0.0386],
-      "real": [0.1954],
-      "rss_mb": [97.85]
+      "user": [0.2461],
+      "sys": [0.0498],
+      "real": [0.1936],
+      "rss_mb": [97.18]
+    },
+    "Crypto": {
+      "error": "SyntaxError: Unexpected token: if(i < 8)",
+      "user": [0.1527],
+      "sys": [0.0267],
+      "real": [0.1136],
+      "rss_mb": [67.8]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: Octal Deprecation: 000",
+      "user": [0.0391],
+      "sys": [0.011],
+      "real": [0.041],
+      "rss_mb": [52.88]
+    },
+    "Richards": {
+      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
+      "user": [0.0751],
+      "sys": [0.006],
+      "real": [0.0585],
+      "rss_mb": [57.25]
+    },
+    "NavierStokes": {
+      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
+      "user": [0.0618],
+      "sys": [0.0236],
+      "real": [0.0635],
+      "rss_mb": [57.26]
+    },
+    "Splay": {
+      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
+      "user": [0.0607],
+      "sys": [0.0216],
+      "real": [0.0608],
+      "rss_mb": [54.93]
+    },
+    "SplayLatency": {
+      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
+      "user": [0.0607],
+      "sys": [0.0216],
+      "real": [0.0608],
+      "rss_mb": [54.93]
+    },
+    "Mandreel": {
+      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
+      "user": [4.4337],
+      "sys": [0.2282],
+      "real": [4.1476],
+      "rss_mb": [530.75]
+    },
+    "MandreelLatency": {
+      "error": "FAIL: SandboxAccessError: Override prototype property 'valueOf' not allowed",
+      "user": [4.4337],
+      "sys": [0.2282],
+      "real": [4.1476],
+      "rss_mb": [530.75]
     }
   }
 }

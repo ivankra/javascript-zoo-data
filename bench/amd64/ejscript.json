@@ -10,126 +10,126 @@
     "revision_date": "2025-03-09",
     "version": "2.7.7-22-gbb38d46e9"
   },
-  "time": "2026-04-16 02:15:01.226125 UTC",
+  "time": "2026-04-24 02:51:57.639992 UTC",
   "benchmarks": {
-    "zlib": {
-      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
-      "user": [0.0127],
-      "sys": [0.0098],
-      "real": [0.0442],
-      "rss_mb": [19.19]
-    },
-    "Crypto": {
-      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
-      "user": [0.0296],
-      "sys": [0.0217],
-      "real": [0.0738],
-      "rss_mb": [35.01]
-    },
-    "Splay": {
-      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
-      "user": [0.0073],
-      "sys": [0.0146],
-      "real": [0.0436],
-      "rss_mb": [18.77]
-    },
-    "SplayLatency": {
-      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
-      "user": [0.0073],
-      "sys": [0.0146],
-      "real": [0.0436],
-      "rss_mb": [18.77]
-    },
     "Box2D": {
       "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Too many iteration variables; Unexpected input \")\"; Unexpected input \"]\"; Expected input \")\"; Unexpected input \"]\"",
-      "user": [0.0111],
-      "sys": [0.0192],
+      "user": [0.0203],
+      "sys": [0.0117],
       "real": [0.0334],
-      "rss_mb": [19.53]
-    },
-    "EarleyBoyer": {
-      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
-      "user": [0.0605],
-      "sys": [0.0592],
-      "real": [0.1213],
-      "rss_mb": [89.42]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented; Unexpected input \")\"; Unexpected input \"}\"",
-      "user": [0.9044],
-      "sys": [0.0789],
-      "real": [0.9838],
-      "rss_mb": [107.83]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented; Unexpected input \")\"; Unexpected input \"}\"",
-      "user": [0.9044],
-      "sys": [0.0789],
-      "real": [0.9838],
-      "rss_mb": [107.83]
-    },
-    "RayTrace": {
-      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
-      "user": [0.0155],
-      "sys": [0.0134],
-      "real": [0.0306],
-      "rss_mb": [19.01]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Unexpected input \")\"; Attribute \"override\" not supported on local variables; Labeled statements are not yet implemented; Expected input \")\"; Unexpected input \"in\"; U...",
-      "user": [0.5677],
-      "sys": [0.3944],
-      "real": [0.9839],
-      "rss_mb": [592.18]
-    },
-    "NavierStokes": {
-      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
-      "user": [0.0079],
-      "sys": [0.0149],
-      "real": [0.0444],
-      "rss_mb": [19.07]
-    },
-    "DeltaBlue": {
-      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
-      "user": [0.0075],
-      "sys": [0.0191],
-      "real": [0.0493],
-      "rss_mb": [19.08]
-    },
-    "Richards": {
-      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
-      "user": [0.0105],
-      "sys": [0.0113],
-      "real": [0.0234],
-      "rss_mb": [19.05]
+      "rss_mb": [19.62]
     },
     "RegExp": {
       "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Unexpected input \"/=\"",
-      "user": [0.0539],
-      "sys": [0.0399],
-      "real": [0.096],
-      "rss_mb": [50.34]
+      "user": [0.0293],
+      "sys": [0.0454],
+      "real": [0.0762],
+      "rss_mb": [50.36]
     },
-    "Typescript": {
-      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented",
-      "user": [0.5017],
-      "sys": [0.2024],
-      "real": [0.7055],
-      "rss_mb": [372.58]
+    "zlib": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0115],
+      "sys": [0.0135],
+      "real": [0.0265],
+      "rss_mb": [19.56]
     },
-    "Gameboy": {
-      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Expected input \"[\"; Expecting \":\"; Unexpected input \"]\"; Unexpected input \"}\"",
-      "user": [0.0164],
-      "sys": [0.0203],
-      "real": [0.0383],
-      "rss_mb": [20.55]
+    "Splay": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0058],
+      "sys": [0.0175],
+      "real": [0.0249],
+      "rss_mb": [19.11]
+    },
+    "SplayLatency": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0058],
+      "sys": [0.0175],
+      "real": [0.0249],
+      "rss_mb": [19.11]
+    },
+    "Richards": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0099],
+      "sys": [0.0103],
+      "real": [0.0217],
+      "rss_mb": [19.0]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Unexpected input \")\"; Attribute \"override\" not supported on local variables; Labeled statements are not yet implemented; Expected input \")\"; Unexpected input \"in\"; U...",
+      "user": [0.6542],
+      "sys": [0.3066],
+      "real": [0.962],
+      "rss_mb": [592.19]
+    },
+    "EarleyBoyer": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0701],
+      "sys": [0.0482],
+      "real": [0.1205],
+      "rss_mb": [89.59]
     },
     "CodeLoad": {
       "error": "FAIL: Expected input \"[\"; Expecting \":\"",
-      "user": [0.0115],
-      "sys": [0.0073],
-      "real": [0.0416],
-      "rss_mb": [19.17]
+      "user": [0.011],
+      "sys": [0.0102],
+      "real": [0.023],
+      "rss_mb": [18.96]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Expected input \"[\"; Expecting \":\"; Unexpected input \"]\"; Unexpected input \"}\"",
+      "user": [0.0183],
+      "sys": [0.0142],
+      "real": [0.0346],
+      "rss_mb": [20.83]
+    },
+    "Crypto": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0269],
+      "sys": [0.019],
+      "real": [0.0476],
+      "rss_mb": [34.93]
+    },
+    "RayTrace": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0205],
+      "sys": [0.0061],
+      "real": [0.0283],
+      "rss_mb": [19.14]
+    },
+    "Typescript": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented",
+      "user": [0.4735],
+      "sys": [0.2433],
+      "real": [0.7183],
+      "rss_mb": [371.11]
+    },
+    "DeltaBlue": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0127],
+      "sys": [0.0119],
+      "real": [0.0264],
+      "rss_mb": [18.96]
+    },
+    "NavierStokes": {
+      "error": "FAIL: Expected input \"[\"; Expecting \":\"",
+      "user": [0.0096],
+      "sys": [0.0155],
+      "real": [0.0274],
+      "rss_mb": [19.14]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented; Unexpected input \")\"; Unexpected input \"}\"",
+      "user": [0.952],
+      "sys": [0.066],
+      "real": [1.02],
+      "rss_mb": [107.61]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: Expected input \"[\"; Expecting \":\"; Labeled statements are not yet implemented; Unexpected input \")\"; Unexpected input \"}\"",
+      "user": [0.952],
+      "sys": [0.066],
+      "real": [1.02],
+      "rss_mb": [107.61]
     }
   }
 }
