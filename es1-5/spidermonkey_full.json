@@ -2,18 +2,23 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "spidermonkey_full",
-    "binary_sha256": "72822c1a1c56e8fa2407c027da485d14edcfeef7fe3ce343fe0ab542b159c5c0",
-    "binary_size": 38395512,
+    "binary_sha256": "63c59992b6d78b36981277eb9dd1099536dcbf91b1fc764cc8a653371d457186",
+    "binary_size": 38423824,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
     "engine": "spidermonkey",
     "repository": "https://github.com/mozilla-firefox/firefox.git",
-    "revision": "793b60f0f65c2f93c356ee87124bfe4c31a92bac",
-    "revision_date": "2026-04-14",
-    "version": "151.0"
+    "revision": "986b2e474acca54ab469aca8d549b71cdcea33a5",
+    "revision_date": "2026-04-22",
+    "version": "152.0"
   },
   "flags": [
     {"if": "flags:module", "then": "--module"}
   ],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
     "all": {"passed": 420, "pass_percent": 100.0},
     "es1-5": {"passed": 420, "pass_percent": 100.0}

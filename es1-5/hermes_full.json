@@ -2,16 +2,20 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "hermes_full",
-    "binary_sha256": "ace85efb378c8b2cfc20a5eb6eb40ad28319d48fef7a54be3a84a944365049be",
-    "binary_size": 6906984,
+    "binary_sha256": "56ef68a83237d0688d9661fc14c7592b764b79380594620c9ed7795b6e1ea7be",
+    "binary_size": 6956168,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "hermes",
     "repository": "https://github.com/facebook/hermes.git",
-    "revision": "6ebff4359838dbece052a0619cee1fd00e1415d7",
-    "revision_date": "2026-04-14",
-    "version": ""
+    "revision": "cc613ea2043c9bb9f03f8fbe75942ffabaf8b966",
+    "revision_date": "2026-04-22"
   },
   "flags": ["-O", "-w", "-Xasync-generators", "-Xenable-tdz", "-Xes6-block-scoping", "-Xes6-proxy", "-Xhermes-internal-test-methods", "-test262"],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
     "all": {"passed": 415, "failed": 5, "pass_percent": 98.81},
     "es1-5": {"passed": 415, "failed": 5, "pass_percent": 98.81}

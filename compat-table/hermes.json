@@ -2,25 +2,29 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "hermes",
-    "binary_sha256": "3532d0d652b039ff8ecd3c169cd4c94a6c1facfa7ee8090c0fb94663facee18a",
-    "binary_size": 6583240,
+    "binary_sha256": "bb77b8dc2b4f39c4722cafa291cc520f64bea8147918986086b0e4035aee873d",
+    "binary_size": 6632392,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "hermes",
     "repository": "https://github.com/facebook/hermes.git",
-    "revision": "6ebff4359838dbece052a0619cee1fd00e1415d7",
-    "revision_date": "2026-04-14",
-    "version": ""
+    "revision": "cc613ea2043c9bb9f03f8fbe75942ffabaf8b966",
+    "revision_date": "2026-04-22"
   },
   "flags": ["-O", "-w", "-Xasync-generators", "-Xenable-tdz", "-Xes6-block-scoping", "-Xes6-proxy", "-Xhermes-internal-test-methods", "-test262"],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
-    "all": {"passed": 939, "failed": 155, "pass_percent": 85.832, "weight": 469.0, "weighted_pass_percent": 80.764},
+    "all": {"passed": 942, "failed": 152, "pass_percent": 86.106, "weight": 469.0, "weighted_pass_percent": 81.617},
     "es6": {"passed": 649, "failed": 51, "pass_percent": 92.714, "weight": 211.0, "weighted_pass_percent": 91.418},
-    "es2016+": {"passed": 204, "failed": 46, "pass_percent": 81.6, "weight": 151.0, "weighted_pass_percent": 85.967},
+    "es2016+": {"passed": 207, "failed": 43, "pass_percent": 82.8, "weight": 151.0, "weighted_pass_percent": 88.616},
     "esnext": {"passed": 8, "failed": 35, "pass_percent": 18.605, "weight": 33.0, "weighted_pass_percent": 12.121},
     "intl": {"passed": 7, "failed": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0}
   },
   "dirs": {
-    "compat-table": {"passed": 939, "failed": 155, "pass_percent": 85.832, "weight": 469.0, "weighted_pass_percent": 80.764},
+    "compat-table": {"passed": 942, "failed": 152, "pass_percent": 86.106, "weight": 469.0, "weighted_pass_percent": 81.617},
     "compat-table/es5": {"passed": 71, "failed": 2, "pass_percent": 97.26, "weight": 46.0, "weighted_pass_percent": 97.998},
     "compat-table/es6": {"passed": 649, "failed": 51, "pass_percent": 92.714, "weight": 211.0, "weighted_pass_percent": 91.418},
     "compat-table/es2016": {"passed": 14, "pass_percent": 100.0, "weight": 11.0, "weighted_pass_percent": 100.0},
@@ -32,7 +36,7 @@
     "compat-table/es2022": {"passed": 40, "pass_percent": 100.0, "weight": 21.0, "weighted_pass_percent": 100.0},
     "compat-table/es2023": {"passed": 6, "failed": 4, "pass_percent": 60.0, "weight": 5.0, "weighted_pass_percent": 77.143},
     "compat-table/es2024": {"passed": 3, "failed": 10, "pass_percent": 23.077, "weight": 7.0, "weighted_pass_percent": 42.857},
-    "compat-table/es2025": {"passed": 23, "failed": 6, "pass_percent": 79.31, "weight": 19.0, "weighted_pass_percent": 63.158},
+    "compat-table/es2025": {"passed": 26, "failed": 3, "pass_percent": 89.655, "weight": 19.0, "weighted_pass_percent": 84.211},
     "compat-table/intl": {"passed": 7, "failed": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0},
     "compat-table/next": {"passed": 8, "failed": 35, "pass_percent": 18.605, "weight": 33.0, "weighted_pass_percent": 12.121}
   },
@@ -1057,9 +1061,9 @@
     "compat-table/es2025/Set.prototype.symmetricDifference.js": "PASS",
     "compat-table/es2025/Set.prototype.union.js": "PASS",
     "compat-table/es2025/regex.duplicate-named-groups.js": "SyntaxError: Invalid regular expression: Duplicate capture group name",
-    "compat-table/es2025/regex.pattern-modifiers.i.js": "SyntaxError: Invalid regular expression: Quantifier has nothing to repeat",
-    "compat-table/es2025/regex.pattern-modifiers.m.js": "SyntaxError: Invalid regular expression: Quantifier has nothing to repeat",
-    "compat-table/es2025/regex.pattern-modifiers.s.js": "SyntaxError: Invalid regular expression: Quantifier has nothing to repeat",
+    "compat-table/es2025/regex.pattern-modifiers.i.js": "PASS",
+    "compat-table/es2025/regex.pattern-modifiers.m.js": "PASS",
+    "compat-table/es2025/regex.pattern-modifiers.s.js": "PASS",
     "compat-table/intl/Array.prototype.toLocaleString.js": "PASS",
     "compat-table/intl/Date.prototype.toLocaleDateString.js": "PASS",
     "compat-table/intl/Date.prototype.toLocaleString.js": "PASS",

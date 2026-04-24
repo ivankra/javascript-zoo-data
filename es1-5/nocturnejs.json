@@ -2,22 +2,26 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "nocturnejs",
-    "binary_sha256": "bd289968add8fc13af181ed56cf0f8a8a71b1bdb2b4a21efdc43a1c6cc649d01",
-    "binary_size": 6507240,
-    "console_log": "print",
+    "binary_sha256": "dcaf0c6f1a610dbc81db6cf82b4e3e4a5fa691b0eff1e3bafa3c476b4a5cf71c",
+    "binary_size": 6503144,
     "engine": "nocturnejs",
     "repository": "https://github.com/Lampese/NocturneJS.git",
     "revision": "a418a962bdeb2933bbb4ff08788e2a7e3b12d5ea",
     "revision_date": "2026-01-30"
   },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
-    "all": {"pass": 420, "pass_percent": 100.0},
-    "es1-5": {"pass": 420, "pass_percent": 100.0}
+    "all": {"passed": 420, "pass_percent": 100.0},
+    "es1-5": {"passed": 420, "pass_percent": 100.0}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 148, "pass_percent": 100.0},
-    "es5": {"pass": 74, "pass_percent": 100.0}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 148, "pass_percent": 100.0},
+    "es5": {"passed": 74, "pass_percent": 100.0}
   },
   "tests": {
     "es1/Array.js": "PASS",

@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "spidermonkey_1.6",
-    "binary_sha256": "1e3d67a8051d6fba3511fad73e71fa742aaa48ee22ced498ce2cd2759be2eb06",
+    "binary_sha256": "66b938466c8e540c76bde165fd41fdaf353c4b8b88410694a0f64d4a11e4ff50",
     "binary_size": 928312,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "spidermonkey",
@@ -12,6 +12,11 @@
     "sources": "https://archive.mozilla.org/pub/js/js-1.60.tar.gz",
     "standard": "ES3",
     "version": "1.6"
+  },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
   },
   "summary": {
     "all": {"passed": 67, "failed": 1027, "pass_percent": 6.124, "weight": 469.0, "weighted_pass_percent": 7.387},

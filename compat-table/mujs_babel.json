@@ -2,8 +2,13 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "mujs_babel",
-    "dist_size": 24535745,
+    "dist_size": 24548983,
     "engine": "mujs"
+  },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
   },
   "summary": {
     "all": {"passed": 579, "failed": 515, "pass_percent": 52.925, "weight": 469.0, "weighted_pass_percent": 51.656},
@@ -334,7 +339,7 @@
     "compat-table/es6/annex-b.function.hoisted-block-level.js": "ReferenceError: 'g' is not defined",
     "compat-table/es6/annex-b.function.if-statement.js": "PASS",
     "compat-table/es6/annex-b.function.labeled.js": "PASS",
-    "compat-table/es6/annex-b.html-comments.js": "SyntaxError: unexpected token in expression: '>'undefined",
+    "compat-table/es6/annex-b.html-comments.js": "SyntaxError: unexpected token in expression: '>'",
     "compat-table/es6/annex-b.regex.backreferences-octal.js": "SyntaxError: regular expression: invalid back-reference",
     "compat-table/es6/annex-b.regex.hyphens.js": "PASS",
     "compat-table/es6/annex-b.regex.incomplete-patterns.js": "SyntaxError: regular expression: invalid quantifier",
@@ -919,7 +924,7 @@
     "compat-table/es2019/misc.Function-toString.class-explicit-constructor.js": "SyntaxError: (eval):1: unexpected token: (identifier) (expected ')')",
     "compat-table/es2019/misc.Function-toString.class-implicit-constructor.js": "SyntaxError: (eval):1: unexpected token: (identifier) (expected ')')",
     "compat-table/es2019/misc.Function-toString.computed-names.js": "SyntaxError: (eval):1: unexpected token: '[' (expected identifier or keyword)",
-    "compat-table/es2019/misc.Function-toString.native-code.js": "EvalError: <script>:2010: invalid use of 'eval'undefined",
+    "compat-table/es2019/misc.Function-toString.native-code.js": "EvalError: <script>:2010: invalid use of 'eval'",
     "compat-table/es2019/misc.Function-toString.unicode-escapes.js": "SyntaxError: (eval):1: unexpected escape sequence",
     "compat-table/es2019/misc.JSON-stringify-well-formed.js": "PASS",
     "compat-table/es2019/misc.JSON-superset.line-separator.js": "SyntaxError: (eval):1: string not terminated",
@@ -1118,9 +1123,9 @@
     "compat-table/next/await-using.js": "ReferenceError: 'setTimeout' is not defined",
     "compat-table/next/class-decorators.js": "SyntaxError: unexpected token: (identifier) (expected ';')undefined",
     "compat-table/next/function.sent.js": "SyntaxError: unexpected token: '*' (expected identifier)undefined",
-    "compat-table/next/throw-expr.arrow.js": "SyntaxError: unexpected token in expression: ')'undefined",
-    "compat-table/next/throw-expr.conditional.js": "SyntaxError: unexpected token in expression: 'throw'undefined",
-    "compat-table/next/throw-expr.logical.js": "SyntaxError: unexpected token in expression: 'throw'undefined",
+    "compat-table/next/throw-expr.arrow.js": "SyntaxError: unexpected token in expression: ')'",
+    "compat-table/next/throw-expr.conditional.js": "SyntaxError: unexpected token in expression: 'throw'",
+    "compat-table/next/throw-expr.logical.js": "SyntaxError: unexpected token in expression: 'throw'",
     "compat-table/next/throw-expr.param-init.js": "SyntaxError: unexpected token: '=' (expected ')')undefined",
     "compat-table/next/using.for-of.js": "PASS",
     "compat-table/next/using.js": "PASS"

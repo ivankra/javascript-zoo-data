@@ -2,19 +2,24 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jsc_jitless",
-    "binary_sha256": "e19afa4c36afe107cea04127f8406354b20836d6bd4c62d626b8bb8de2b0dacc",
-    "binary_size": 15779232,
+    "binary_sha256": "44de08e3ad6dab614e6d62480df0cea82fddfce20a156537b19f4e0063099281",
+    "binary_size": 15848872,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
     "engine": "jsc",
     "repository": "https://github.com/WebKit/WebKit.git",
-    "revision": "114ad783c3f1c5de848c0832c09d7f698c3257c9",
-    "revision_date": "2026-04-14",
-    "version": "311263"
+    "revision": "6e55859bbed4959e0967ef277ffa0524d1cd8f23",
+    "revision_date": "2026-04-22",
+    "version": "311821"
   },
   "flags": [
     {"if": "flags:CanBlockIsFalse", "then": "--can-block-is-false"},
     {"if": "flags:module", "then": "-m"}
   ],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
     "all": {"passed": 420, "pass_percent": 100.0},
     "es1-5": {"passed": 420, "pass_percent": 100.0}

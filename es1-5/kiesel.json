@@ -2,28 +2,32 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "kiesel",
-    "binary_sha256": "535e6ac2778148ebae0ca8f3cce589bb3a7341475258e36153a6d3fd454a8ba7",
-    "binary_size": 14382104,
-    "console_log": "console.log",
+    "binary_sha256": "885b12e4d8496c03482134d23b9515b4b41e01343e509a420aa337096a8282d9",
+    "binary_size": 13823408,
     "engine": "kiesel",
     "repository": "https://codeberg.org/kiesel-js/kiesel.git",
-    "revision": "96670ab5f18ede0f3a719b74d036fdafb46c589d",
-    "revision_date": "2026-04-05",
-    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)",
-    "version": "0.1.0-dev+96670ab5f",
-    "zig": "0.15.2"
+    "revision": "dccb0db932fea715a6652b8e8fdd4d1a0c9d0bc5",
+    "revision_date": "2026-04-22",
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)",
+    "version": "0.1.0-dev+dccb0db93",
+    "zig": "0.16.0"
   },
   "flags": [
     {"if": "flags:module", "then": "--module"}
   ],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
-    "all": {"pass": 416, "fail": 4, "pass_percent": 99.048},
-    "es1-5": {"pass": 416, "fail": 4, "pass_percent": 99.048}
+    "all": {"passed": 416, "failed": 4, "pass_percent": 99.048},
+    "es1-5": {"passed": 416, "failed": 4, "pass_percent": 99.048}
   },
   "dirs": {
-    "es1": {"pass": 198, "pass_percent": 100.0},
-    "es3": {"pass": 146, "fail": 2, "pass_percent": 98.649},
-    "es5": {"pass": 72, "fail": 2, "pass_percent": 97.297}
+    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es3": {"passed": 146, "failed": 2, "pass_percent": 98.649},
+    "es5": {"passed": 72, "failed": 2, "pass_percent": 97.297}
   },
   "tests": {
     "es1/Array.js": "PASS",

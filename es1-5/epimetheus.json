@@ -2,13 +2,18 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "epimetheus",
-    "binary_sha256": "efdc7b44b05ffa4e2ddd65309839ecc3e32f193f9ec4b78077de66be4c0fb1dd",
+    "binary_sha256": "659371dd699b24efe82affe22e7af95bc1e00065be7f6c60fcc3a7cbe5946dcb",
     "binary_size": 670616,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "epimetheus",
     "repository": "https://github.com/jrmuizel/mozilla-cvs-history.git",
     "revision": "3229d5d8b7f8376cfb7936e7be810635a14a486b",
     "revision_date": "2008-08-12"
+  },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
   },
   "summary": {
     "all": {"passed": 264, "failed": 156, "pass_percent": 62.857},

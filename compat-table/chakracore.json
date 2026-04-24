@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "chakracore",
-    "binary_sha256": "a1d0b5f22eb8f17d540ce0776390edd177799a84802a9cf9e6e1562fe40dc7b2",
+    "binary_sha256": "aaf567ee7d977ff81748d9fabc53353cf3eff6e3507c3a94117126d1f6cf7087",
     "binary_size": 12612976,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
     "engine": "chakracore",
@@ -15,6 +15,11 @@
     {"if": "features:host-gc-required", "then": "-CollectGarbage"},
     {"if": "flags:module", "then": "--module"}
   ],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
     "all": {"passed": 861, "failed": 233, "pass_percent": 78.702, "weight": 469.0, "weighted_pass_percent": 69.64},
     "es6": {"passed": 661, "failed": 39, "pass_percent": 94.429, "weight": 211.0, "weighted_pass_percent": 94.481},

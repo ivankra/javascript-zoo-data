@@ -2,29 +2,34 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "zuqe",
-    "binary_sha256": "5af33db92a5124ef96c4213b29fe30cba3ed0230d39ccaa5284f206fcd2196e0",
-    "binary_size": 2614512,
+    "binary_sha256": "9cb38f2da472aad84ccd854863ac9f8389230f78649aed4241d06e83888e0527",
+    "binary_size": 2591640,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
     "engine": "zuqe",
     "repository": "https://github.com/nupha/zuqe.git",
     "revision": "3d05a00633375b3aa139db116f0763e829957745",
     "revision_date": "2026-03-11",
-    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
   "flags": [
     {"if": "flags:module", "then": "-m"}
   ],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
-    "all": {"passed": 923, "failed": 171, "pass_percent": 84.369, "weight": 469.0, "weighted_pass_percent": 77.532},
-    "es6": {"passed": 672, "failed": 28, "pass_percent": 96.0, "weight": 211.0, "weighted_pass_percent": 93.338},
+    "all": {"passed": 922, "failed": 172, "pass_percent": 84.278, "weight": 469.0, "weighted_pass_percent": 77.425},
+    "es6": {"passed": 671, "failed": 29, "pass_percent": 95.857, "weight": 211.0, "weighted_pass_percent": 93.101},
     "es2016+": {"passed": 175, "failed": 75, "pass_percent": 70.0, "weight": 151.0, "weighted_pass_percent": 76.616},
     "esnext": {"failed": 43, "weight": 33.0},
     "intl": {"passed": 7, "failed": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0}
   },
   "dirs": {
-    "compat-table": {"passed": 923, "failed": 171, "pass_percent": 84.369, "weight": 469.0, "weighted_pass_percent": 77.532},
+    "compat-table": {"passed": 922, "failed": 172, "pass_percent": 84.278, "weight": 469.0, "weighted_pass_percent": 77.425},
     "compat-table/es5": {"passed": 69, "failed": 4, "pass_percent": 94.521, "weight": 46.0, "weighted_pass_percent": 95.633},
-    "compat-table/es6": {"passed": 672, "failed": 28, "pass_percent": 96.0, "weight": 211.0, "weighted_pass_percent": 93.338},
+    "compat-table/es6": {"passed": 671, "failed": 29, "pass_percent": 95.857, "weight": 211.0, "weighted_pass_percent": 93.101},
     "compat-table/es2016": {"passed": 14, "pass_percent": 100.0, "weight": 11.0, "weighted_pass_percent": 100.0},
     "compat-table/es2017": {"passed": 30, "failed": 34, "pass_percent": 46.875, "weight": 25.0, "weighted_pass_percent": 76.706},
     "compat-table/es2018": {"passed": 21, "failed": 1, "pass_percent": 95.455, "weight": 19.0, "weighted_pass_percent": 98.947},
@@ -552,7 +557,7 @@
     "compat-table/es6/let.strict.shadow.js": "PASS",
     "compat-table/es6/let.strict.tdz.js": "PASS",
     "compat-table/es6/let.tdz.js": "PASS",
-    "compat-table/es6/literals.binary.Number.js": "PASS",
+    "compat-table/es6/literals.binary.Number.js": "FAIL",
     "compat-table/es6/literals.binary.js": "PASS",
     "compat-table/es6/literals.object.computed-accessors.js": "PASS",
     "compat-table/es6/literals.object.computed-properties.js": "PASS",

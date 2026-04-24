@@ -2,21 +2,26 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "kodjodevf",
-    "binary_sha256": "3b19134a038db45e8c0781ba5ed943206353bfd524fd3059faff7dad02efbf93",
-    "binary_size": 9632280,
+    "binary_sha256": "c45d35c7c26a63b2f8aed93cdb099d50626110857f1d39e77bc147603bb90a02",
+    "binary_size": 9700848,
     "engine": "kodjodevf",
     "repository": "https://github.com/kodjodevf/js_interpreter.git",
-    "revision": "57321554b290f372cb996d0faa4415c90c44a1e8",
-    "revision_date": "2026-04-14"
+    "revision": "983c28d688a1c1e75b5578893d7c967c16f30e99",
+    "revision_date": "2026-04-21"
+  },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
   },
   "summary": {
-    "all": {"passed": 350, "failed": 70, "pass_percent": 83.333},
-    "es1-5": {"passed": 350, "failed": 70, "pass_percent": 83.333}
+    "all": {"passed": 352, "failed": 68, "pass_percent": 83.81},
+    "es1-5": {"passed": 352, "failed": 68, "pass_percent": 83.81}
   },
   "dirs": {
     "es1": {"passed": 176, "failed": 22, "pass_percent": 88.889},
     "es3": {"passed": 120, "failed": 28, "pass_percent": 81.081},
-    "es5": {"passed": 54, "failed": 20, "pass_percent": 72.973}
+    "es5": {"passed": 56, "failed": 18, "pass_percent": 75.676}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -406,9 +411,9 @@
     "es5/String.indexing.js": "PASS",
     "es5/String.prototype.trim.js": "FAIL: String.prototype.trim not a function",
     "es5/arguments.toStringTag.js": "PASS",
-    "es5/debugger.js": "SyntaxError: Unexpected token at 7:1: Unexpected reserved word",
-    "es5/global.Infinity.immutable.js": "FAIL: Infinity is not a number after assignment; Infinity not positive infinity after assignment",
-    "es5/global.NaN.immutable.js": "FAIL: NaN is not a number after assignment; NaN === NaN after assignment",
+    "es5/debugger.js": "SyntaxError: Unexpected reserved word",
+    "es5/global.Infinity.immutable.js": "PASS",
+    "es5/global.NaN.immutable.js": "PASS",
     "es5/global.parseInt.no-octal.js": "FAIL: parseInt('010') !== 10; parseInt('0100') !== 100; parseInt('077') !== 77",
     "es5/global.undefined.immutable.js": "SyntaxError: Invalid assignment target (line 13)",
     "es5/literals.object.getters.js": "PASS",

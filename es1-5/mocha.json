@@ -5,20 +5,24 @@
     "binary_sha256": "71f325312a532e62fd467147e4a296ff0590d61ac9a1e589bd3062021f1cb98f",
     "binary_size": 186768,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
-    "console_log": "print",
     "engine": "mocha",
     "repository": "https://github.com/doodlewind/mocha1995.git",
     "revision": "3d109cbf6d185c3665da2982e92ce198406cca01",
     "revision_date": "2024-10-12"
   },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
-    "all": {"pass": 151, "fail": 269, "pass_percent": 35.952},
-    "es1-5": {"pass": 151, "fail": 269, "pass_percent": 35.952}
+    "all": {"passed": 151, "failed": 269, "pass_percent": 35.952},
+    "es1-5": {"passed": 151, "failed": 269, "pass_percent": 35.952}
   },
   "dirs": {
-    "es1": {"pass": 145, "fail": 53, "pass_percent": 73.232},
-    "es3": {"pass": 5, "fail": 143, "pass_percent": 3.378},
-    "es5": {"pass": 1, "fail": 73, "pass_percent": 1.351}
+    "es1": {"passed": 145, "failed": 53, "pass_percent": 73.232},
+    "es3": {"passed": 5, "failed": 143, "pass_percent": 3.378},
+    "es5": {"passed": 1, "failed": 73, "pass_percent": 1.351}
   },
   "tests": {
     "es1/Array.js": "FAIL: undefined is not a number",

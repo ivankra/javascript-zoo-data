@@ -2,19 +2,24 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jsc_gcc",
-    "binary_sha256": "5f8d0a47d2fa0a25141b7bdc27afa4082da873dd48e43839abae35f72c351e7f",
-    "binary_size": 37617888,
-    "cc": "gcc 15.2.0 (Debian 15.2.0-16)",
+    "binary_sha256": "96aefbf593252f78f112bc53c1a58b0e591184a06a7a9de7f5d20949dfe06fcb",
+    "binary_size": 39356728,
+    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "jsc",
     "repository": "https://github.com/WebKit/WebKit.git",
-    "revision": "8c1776bc8803ab907dd89b22830c3e14f560b65f",
-    "revision_date": "2026-04-14",
-    "version": "311264"
+    "revision": "6e55859bbed4959e0967ef277ffa0524d1cd8f23",
+    "revision_date": "2026-04-22",
+    "version": "311821"
   },
   "flags": [
     {"if": "flags:CanBlockIsFalse", "then": "--can-block-is-false"},
     {"if": "flags:module", "then": "-m"}
   ],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
     "all": {"passed": 1059, "failed": 35, "pass_percent": 96.801, "weight": 469.0, "weighted_pass_percent": 93.817},
     "es6": {"passed": 700, "pass_percent": 100.0, "weight": 211.0, "weighted_pass_percent": 100.0},

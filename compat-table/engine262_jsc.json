@@ -2,30 +2,35 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "engine262_jsc",
-    "dist_size": 3386186,
+    "dist_size": 3400958,
     "engine": "engine262",
     "repository": "https://github.com/engine262/engine262.git",
-    "revision": "6251716a3fdcbcd73e682754db8bf445c8325ca4",
-    "revision_date": "2026-04-13"
+    "revision": "e23ee39900d3dee972182c98455752d1f578219f",
+    "revision_date": "2026-04-22"
   },
   "flags": [
     "--features=all",
     {"if": "flags:module", "then": "--module"}
   ],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
-    "all": {"passed": 983, "failed": 111, "pass_percent": 89.854, "weight": 469.0, "weighted_pass_percent": 83.726},
+    "all": {"passed": 984, "failed": 110, "pass_percent": 89.945, "weight": 469.0, "weighted_pass_percent": 83.769},
     "es6": {"passed": 681, "failed": 19, "pass_percent": 97.286, "weight": 211.0, "weighted_pass_percent": 95.642},
-    "es2016+": {"passed": 216, "failed": 34, "pass_percent": 86.4, "weight": 151.0, "weighted_pass_percent": 89.65},
+    "es2016+": {"passed": 217, "failed": 33, "pass_percent": 86.8, "weight": 151.0, "weighted_pass_percent": 89.782},
     "esnext": {"passed": 7, "failed": 36, "pass_percent": 16.279, "weight": 33.0, "weighted_pass_percent": 9.091},
     "intl": {"passed": 7, "failed": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0}
   },
   "dirs": {
-    "compat-table": {"passed": 983, "failed": 111, "pass_percent": 89.854, "weight": 469.0, "weighted_pass_percent": 83.726},
+    "compat-table": {"passed": 984, "failed": 110, "pass_percent": 89.945, "weight": 469.0, "weighted_pass_percent": 83.769},
     "compat-table/es5": {"passed": 72, "failed": 1, "pass_percent": 98.63, "weight": 46.0, "weighted_pass_percent": 98.913},
     "compat-table/es6": {"passed": 681, "failed": 19, "pass_percent": 97.286, "weight": 211.0, "weighted_pass_percent": 95.642},
     "compat-table/es2016": {"passed": 14, "pass_percent": 100.0, "weight": 11.0, "weighted_pass_percent": 100.0},
     "compat-table/es2017": {"passed": 46, "failed": 18, "pass_percent": 71.875, "weight": 25.0, "weighted_pass_percent": 80.0},
-    "compat-table/es2018": {"passed": 21, "failed": 1, "pass_percent": 95.455, "weight": 19.0, "weighted_pass_percent": 98.947},
+    "compat-table/es2018": {"passed": 22, "pass_percent": 100.0, "weight": 19.0, "weighted_pass_percent": 100.0},
     "compat-table/es2019": {"passed": 22, "failed": 2, "pass_percent": 91.667, "weight": 16.0, "weighted_pass_percent": 93.75},
     "compat-table/es2020": {"passed": 19, "pass_percent": 100.0, "weight": 14.0, "weighted_pass_percent": 100.0},
     "compat-table/es2021": {"passed": 15, "pass_percent": 100.0, "weight": 14.0, "weighted_pass_percent": 100.0},
@@ -909,7 +914,7 @@
     "compat-table/es2018/regex.unicode-property-escapes.unicode-15.1.js": "PASS",
     "compat-table/es2018/regex.unicode-property-escapes.unicode-15.js": "PASS",
     "compat-table/es2018/regex.unicode-property-escapes.unicode-16.0.js": "PASS",
-    "compat-table/es2018/regex.unicode-property-escapes.unicode-17.0.js": "SyntaxError: Invalid unicode property value",
+    "compat-table/es2018/regex.unicode-property-escapes.unicode-17.0.js": "PASS",
     "compat-table/es2019/Array.prototype.flatMap.js": "PASS",
     "compat-table/es2019/Array.prototype.flat-flatMap.unscopables.js": "PASS",
     "compat-table/es2019/Array.prototype.flat.js": "PASS",

@@ -2,19 +2,24 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "boa",
-    "binary_sha256": "ef45784b2823899cfa76f95d92b33ffab3fb7caac5a60f86cf84388af40b768a",
-    "binary_size": 28329008,
+    "binary_sha256": "48a970703a63c946ea1a2524251fc5538d1c3b33a52203cd0d09ebf8832a7c06",
+    "binary_size": 28339120,
     "engine": "boa",
     "repository": "https://github.com/boa-dev/boa.git",
-    "revision": "da570fd74bb6cd5b0fc01363451eb710b7ab5a0c",
-    "revision_date": "2026-04-14",
-    "rustc": "rustc 1.94.1 (e408947bf 2026-03-25)"
+    "revision": "3ee2b71a306334c2b2a0dcc20ac4b5e1c5a71558",
+    "revision_date": "2026-04-21",
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
   "flags": [
     "--test262-object",
     {"if": "flags:CanBlockIsFalse", "then": "--no-can-block"},
     {"if": "flags:module", "then": "--module"}
   ],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
     "all": {"passed": 1038, "failed": 56, "pass_percent": 94.881, "weight": 469.0, "weighted_pass_percent": 91.393},
     "es6": {"passed": 693, "failed": 7, "pass_percent": 99.0, "weight": 211.0, "weighted_pass_percent": 97.668},
@@ -350,7 +355,7 @@
     "compat-table/es6/annex-b.regex.incomplete-patterns.js": "PASS",
     "compat-table/es6/annex-b.regex.invalid-char-escapes.js": "PASS",
     "compat-table/es6/annex-b.regex.invalid-control-escapes.js": "PASS",
-    "compat-table/es6/annex-b.regex.invalid-hex-escapes.js": "SyntaxError: Invalid regular expression literal: Unbalanced bracket at line 10, col 8",
+    "compat-table/es6/annex-b.regex.invalid-hex-escapes.js": "SyntaxError: Invalid regular expression literal: Unbalanced bracket",
     "compat-table/es6/annex-b.regex.invalid-unicode-escapes.js": "PASS",
     "compat-table/es6/annex-b.regex.octal-escapes.js": "PASS",
     "compat-table/es6/annex-b.__proto__.Object.prototype.absent-from-null.js": "PASS",
@@ -1124,15 +1129,15 @@
     "compat-table/next/Uint8Array.toBase64.js": "TypeError: not a callable function",
     "compat-table/next/Uint8Array.toHex.js": "TypeError: not a callable function",
     "compat-table/next/WeakMap.prototype.upsert.js": "TypeError: not a callable function",
-    "compat-table/next/await-using.for-of.js": "SyntaxError: unexpected token 'using', primary expression at line 57, col 16",
-    "compat-table/next/await-using.js": "SyntaxError: unexpected token 'using', primary expression at line 52, col 13",
-    "compat-table/next/class-decorators.js": "SyntaxError: unexpected '@' at line 10, column 5 at line 10, col 5",
-    "compat-table/next/function.sent.js": "SyntaxError: expected token '(', got '.' in function expression at line 11, col 22",
-    "compat-table/next/throw-expr.arrow.js": "SyntaxError: unexpected token 'throw', primary expression at line 9, col 18",
-    "compat-table/next/throw-expr.conditional.js": "SyntaxError: unexpected token 'throw', primary expression at line 9, col 15",
-    "compat-table/next/throw-expr.logical.js": "SyntaxError: unexpected token 'throw', primary expression at line 11, col 15",
-    "compat-table/next/throw-expr.param-init.js": "SyntaxError: unexpected token 'throw', primary expression at line 9, col 22",
-    "compat-table/next/using.for-of.js": "SyntaxError: unexpected token 'using', primary expression at line 22, col 10",
+    "compat-table/next/await-using.for-of.js": "SyntaxError: unexpected token 'using', primary expression",
+    "compat-table/next/await-using.js": "SyntaxError: unexpected token 'using', primary expression",
+    "compat-table/next/class-decorators.js": "SyntaxError: unexpected '@' at line 10, column 5",
+    "compat-table/next/function.sent.js": "SyntaxError: expected token '(', got '.' in function expression",
+    "compat-table/next/throw-expr.arrow.js": "SyntaxError: unexpected token 'throw', primary expression",
+    "compat-table/next/throw-expr.conditional.js": "SyntaxError: unexpected token 'throw', primary expression",
+    "compat-table/next/throw-expr.logical.js": "SyntaxError: unexpected token 'throw', primary expression",
+    "compat-table/next/throw-expr.param-init.js": "SyntaxError: unexpected token 'throw', primary expression",
+    "compat-table/next/using.for-of.js": "SyntaxError: unexpected token 'using', primary expression",
     "compat-table/next/using.js": "FAIL"
   }
 }

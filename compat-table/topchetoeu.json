@@ -9,6 +9,11 @@
     "revision": "139b240463dc485fd0744663272c4c4066801311",
     "revision_date": "2026-02-01"
   },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
     "all": {"passed": 174, "failed": 920, "pass_percent": 15.905, "weight": 469.0, "weighted_pass_percent": 16.372},
     "es6": {"passed": 112, "failed": 588, "pass_percent": 16.0, "weight": 211.0, "weighted_pass_percent": 17.346},
@@ -200,7 +205,7 @@
     "compat-table/es6/Promise.all.iterable.js": "FAIL: Super constructor must be called before 'this' is accessed",
     "compat-table/es6/Promise.all.js": "FAIL: Value is not a function",
     "compat-table/es6/Promise.constructor-requires-new.js": "PASS",
-    "compat-table/es6/Promise.js": "FAIL: Value is not a function",
+    "compat-table/es6/Promise.js": "FAIL: found both pass and fail markers",
     "compat-table/es6/Promise.prototype-not-instance.js": "PASS",
     "compat-table/es6/Promise.race.iterable.js": "FAIL: Super constructor must be called before 'this' is accessed",
     "compat-table/es6/Promise.race.js": "FAIL: Value is not a function",

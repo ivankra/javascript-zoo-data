@@ -1,5 +1,6 @@
 {
   "binary": {
+    "arch": "amd64",
     "binary_name": "node",
     "version": "25.9.0",
     "v8_version": "14.1.146.11-node.25"
@@ -11,8 +12,8 @@
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "643f694d860ba01c02caf81e2b9591a0df99977e",
-    "revision_date": "2026-04-21"
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
   },
   "summary": {
     "all": {"passed": 420, "pass_percent": 100.0},

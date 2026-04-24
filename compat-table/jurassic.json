@@ -3,11 +3,16 @@
     "arch": "amd64",
     "binary_name": "jurassic",
     "dist_size": 1914640,
-    "dotnet": "10.0.202",
+    "dotnet": "10.0.203",
     "engine": "jurassic",
     "repository": "https://github.com/paulbartrum/jurassic.git",
     "revision": "17f72827150166c79dd7789bfe01a4a2f7bfe4aa",
     "revision_date": "2025-02-04"
+  },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
   },
   "summary": {
     "all": {"passed": 564, "failed": 530, "pass_percent": 51.554, "weight": 469.0, "weighted_pass_percent": 45.216},
@@ -720,8 +725,8 @@
     "compat-table/es6/super.statement.js": "PASS",
     "compat-table/es6/super.static-binding.js": "PASS",
     "compat-table/es6/super.this-binding.js": "PASS",
-    "compat-table/es6/tail-calls.direct.js": "CRASH: SIGABRT",
-    "compat-table/es6/tail-calls.mutual.js": "CRASH: SIGABRT",
+    "compat-table/es6/tail-calls.direct.js": "OOM: output >10MB",
+    "compat-table/es6/tail-calls.mutual.js": "OOM: output >10MB",
     "compat-table/es6/template.basic.js": "PASS",
     "compat-table/es6/template.caching.js": "PASS",
     "compat-table/es6/template.escape-sequences.js": "SyntaxError: Octal escape sequences are not allowed in template strings.",

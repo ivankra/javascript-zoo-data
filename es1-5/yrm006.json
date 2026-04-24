@@ -10,6 +10,11 @@
     "revision": "a4730b54e8cb519d6b62f9ef3fe3a51e2072f94d",
     "revision_date": "2018-08-29"
   },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
     "all": {"passed": 2, "failed": 418, "pass_percent": 0.476},
     "es1-5": {"passed": 2, "failed": 418, "pass_percent": 0.476}
@@ -155,7 +160,7 @@
     "es1/bitwise.unsigned-shift.js": "FAIL",
     "es1/break.js": "TIMEOUT: >60s",
     "es1/comma.js": "CRASH: SIGSEGV",
-    "es1/comments.js": "CRASH: SIGFPE",
+    "es1/comments.js": "CRASH: SIGSEGV",
     "es1/conditional.js": "FAIL: not found.('true')",
     "es1/continue.js": "TIMEOUT: >60s",
     "es1/conversions.ToBoolean.js": "FAIL: not found.('true')",
@@ -361,7 +366,7 @@
     "es3/regex.word-boundary.js": "FAIL: not found.('\\bword')",
     "es3/source.line-terminators.js": "CRASH: SIGSEGV",
     "es3/source.whitespace.js": "FAIL: not found.('y')",
-    "es3/source.whitespace.unicode.js": "FAIL: not found.('x'); ��",
+    "es3/source.whitespace.unicode.js": "FAIL: not found.('x'); @@",
     "es3/strict-equals.js": "CRASH: SIGSEGV",
     "es3/switch.js": "FAIL: not found.('switch')",
     "es3/try-catch-finally.js": "FAIL: too long name.('finally1')",

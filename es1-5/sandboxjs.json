@@ -2,20 +2,25 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "sandboxjs",
-    "dist_size": 241341,
+    "dist_size": 242190,
     "engine": "sandboxjs",
     "repository": "https://github.com/nyariv/SandboxJS.git",
-    "revision": "52625d34585658aad87d0933812a9b2c4c13a863",
-    "revision_date": "2026-04-14",
-    "version": "0.9.3"
+    "revision": "fe79ab4f87a288710d9857c5efbadd80d4651a85",
+    "revision_date": "2026-04-17",
+    "version": "0.9.3-1-gfe79ab4"
+  },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
   },
   "summary": {
-    "all": {"passed": 299, "failed": 121, "pass_percent": 71.19},
-    "es1-5": {"passed": 299, "failed": 121, "pass_percent": 71.19}
+    "all": {"passed": 301, "failed": 119, "pass_percent": 71.667},
+    "es1-5": {"passed": 301, "failed": 119, "pass_percent": 71.667}
   },
   "dirs": {
     "es1": {"passed": 168, "failed": 30, "pass_percent": 84.848},
-    "es3": {"passed": 110, "failed": 38, "pass_percent": 74.324},
+    "es3": {"passed": 112, "failed": 36, "pass_percent": 75.676},
     "es5": {"passed": 21, "failed": 53, "pass_percent": 28.378}
   },
   "tests": {
@@ -313,7 +318,7 @@
     "es3/labelled.break.js": "PASS",
     "es3/labelled.continue.js": "PASS",
     "es3/labelled.statements.js": "SyntaxError: Unexpected token after prop: :: label1: x = 5",
-    "es3/literals.array.elisions.js": "FAIL: array with single elision failed; array with leading elisions failed; array with multiple elisions failed; array with only elision failed",
+    "es3/literals.array.elisions.js": "PASS",
     "es3/literals.array.js": "PASS",
     "es3/literals.array.trailing-comma.js": "PASS",
     "es3/literals.object.decimal.js": "PASS",
@@ -326,7 +331,7 @@
     "es3/literals.regex.empty.js": "PASS",
     "es3/literals.regex.js": "PASS",
     "es3/literals.string.esc-v.js": "PASS",
-    "es3/nested-functions.eval.js": "ReferenceError: B is not defined",
+    "es3/nested-functions.eval.js": "PASS",
     "es3/nested-functions.js": "PASS",
     "es3/regex.backref.js": "PASS",
     "es3/regex.begin.js": "SyntaxError: Unexpected end of expression: !/1/r.test(\"2\")",

@@ -2,22 +2,28 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "okojo",
-    "dist_size": 26808009,
-    "dotnet": "10.0.202",
+    "dist_size": 26890981,
+    "dotnet": "10.0.203",
     "engine": "okojo",
     "repository": "https://github.com/akeit0/okojo.git",
-    "revision": "4ceb96a57a4b590faff69620412ea27f47486690",
-    "revision_date": "2026-04-15"
+    "revision": "ba775f44c6ce8c938397ad3ddbc2ab6dc8ad5e30",
+    "revision_date": "2026-04-18",
+    "version": "0.1.2-preview1"
+  },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
   },
   "summary": {
-    "all": {"passed": 933, "failed": 161, "pass_percent": 85.283, "weight": 469.0, "weighted_pass_percent": 86.727},
+    "all": {"passed": 941, "failed": 153, "pass_percent": 86.015, "weight": 469.0, "weighted_pass_percent": 88.433},
     "es6": {"passed": 619, "failed": 81, "pass_percent": 88.429, "weight": 211.0, "weighted_pass_percent": 91.528},
     "es2016+": {"passed": 218, "failed": 32, "pass_percent": 87.2, "weight": 151.0, "weighted_pass_percent": 94.262},
-    "esnext": {"passed": 6, "failed": 37, "pass_percent": 13.953, "weight": 33.0, "weighted_pass_percent": 6.061},
+    "esnext": {"passed": 14, "failed": 29, "pass_percent": 32.558, "weight": 33.0, "weighted_pass_percent": 30.303},
     "intl": {"passed": 28, "pass_percent": 100.0, "weight": 28.0, "weighted_pass_percent": 100.0}
   },
   "dirs": {
-    "compat-table": {"passed": 933, "failed": 161, "pass_percent": 85.283, "weight": 469.0, "weighted_pass_percent": 86.727},
+    "compat-table": {"passed": 941, "failed": 153, "pass_percent": 86.015, "weight": 469.0, "weighted_pass_percent": 88.433},
     "compat-table/es5": {"passed": 62, "failed": 11, "pass_percent": 84.932, "weight": 46.0, "weighted_pass_percent": 89.76},
     "compat-table/es6": {"passed": 619, "failed": 81, "pass_percent": 88.429, "weight": 211.0, "weighted_pass_percent": 91.528},
     "compat-table/es2016": {"passed": 12, "failed": 2, "pass_percent": 85.714, "weight": 11.0, "weighted_pass_percent": 84.848},
@@ -31,7 +37,7 @@
     "compat-table/es2024": {"passed": 13, "pass_percent": 100.0, "weight": 7.0, "weighted_pass_percent": 100.0},
     "compat-table/es2025": {"passed": 29, "pass_percent": 100.0, "weight": 19.0, "weighted_pass_percent": 100.0},
     "compat-table/intl": {"passed": 28, "pass_percent": 100.0, "weight": 28.0, "weighted_pass_percent": 100.0},
-    "compat-table/next": {"passed": 6, "failed": 37, "pass_percent": 13.953, "weight": 33.0, "weighted_pass_percent": 6.061}
+    "compat-table/next": {"passed": 14, "failed": 29, "pass_percent": 32.558, "weight": 33.0, "weighted_pass_percent": 30.303}
   },
   "tests": {
     "compat-table/es5/Array.isArray.js": "PASS",
@@ -1086,7 +1092,7 @@
     "compat-table/intl/Object.prototype.toLocaleString.js": "PASS",
     "compat-table/intl/String.prototype.localeCompare.js": "PASS",
     "compat-table/next/Array.isTemplateObject.js": "TypeError: Not a function",
-    "compat-table/next/AsyncDisposableStack.js": "ReferenceError: AsyncDisposableStack is not defined",
+    "compat-table/next/AsyncDisposableStack.js": "PASS",
     "compat-table/next/AsyncIterator.extends.js": "ReferenceError: AsyncIterator is not defined",
     "compat-table/next/AsyncIterator.from.async-iterable.js": "ReferenceError: AsyncIterator is not defined",
     "compat-table/next/AsyncIterator.from.iterable.js": "ReferenceError: AsyncIterator is not defined",
@@ -1104,13 +1110,13 @@
     "compat-table/next/AsyncIterator.prototype.some.js": "TypeError: Not a function",
     "compat-table/next/AsyncIterator.prototype.take.js": "TypeError: Not a function",
     "compat-table/next/AsyncIterator.prototype.toArray.js": "TypeError: Not a function",
-    "compat-table/next/DisposableStack.js": "ReferenceError: DisposableStack is not defined",
+    "compat-table/next/DisposableStack.js": "PASS",
     "compat-table/next/Map.prototype.upsert.js": "TypeError: Not a function",
     "compat-table/next/RegExp.1-9.js": "FAIL",
     "compat-table/next/RegExp.lastMatch.js": "FAIL",
     "compat-table/next/ShadowRealm.js": "FAIL",
-    "compat-table/next/SuppressedError.js": "ReferenceError: SuppressedError is not defined",
-    "compat-table/next/Symbol.dispose.bound.js": "FAIL",
+    "compat-table/next/SuppressedError.js": "PASS",
+    "compat-table/next/Symbol.dispose.bound.js": "PASS",
     "compat-table/next/Uint8Array.fromBase64.js": "PASS",
     "compat-table/next/Uint8Array.fromHex.js": "PASS",
     "compat-table/next/Uint8Array.setFromBase64.js": "PASS",
@@ -1118,15 +1124,15 @@
     "compat-table/next/Uint8Array.toBase64.js": "PASS",
     "compat-table/next/Uint8Array.toHex.js": "PASS",
     "compat-table/next/WeakMap.prototype.upsert.js": "TypeError: Not a function",
-    "compat-table/next/await-using.for-of.js": "SyntaxError: Expected Semicolon but found Identifier",
-    "compat-table/next/await-using.js": "SyntaxError: Expected Semicolon but found Identifier",
+    "compat-table/next/await-using.for-of.js": "PASS",
+    "compat-table/next/await-using.js": "PASS",
     "compat-table/next/class-decorators.js": "SyntaxError: Expected object property key",
     "compat-table/next/function.sent.js": "SyntaxError: Expected LeftParen but found Dot",
     "compat-table/next/throw-expr.arrow.js": "SyntaxError: Unexpected token 'throw'",
     "compat-table/next/throw-expr.conditional.js": "SyntaxError: Unexpected token 'throw'",
     "compat-table/next/throw-expr.logical.js": "SyntaxError: Unexpected token 'throw'",
     "compat-table/next/throw-expr.param-init.js": "SyntaxError: Unexpected token 'throw'",
-    "compat-table/next/using.for-of.js": "SyntaxError: Expected Semicolon but found Identifier",
-    "compat-table/next/using.js": "FAIL"
+    "compat-table/next/using.for-of.js": "PASS",
+    "compat-table/next/using.js": "PASS"
   }
 }

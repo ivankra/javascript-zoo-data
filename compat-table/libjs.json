@@ -2,8 +2,8 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "libjs",
-    "binary_sha256": "42507864960fa5d487efebb663c9ac0e97c29121285d6eda689745c5b6ec233e",
-    "binary_size": 46677040,
+    "binary_sha256": "8c0f85841ef1c19a72cfd94f886ce63d9560d4747e67799dba67204c5182ebc1",
+    "binary_size": 46897968,
     "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
     "engine": "libjs",
     "repository": "https://github.com/LadybirdBrowser/ladybird.git",
@@ -15,6 +15,11 @@
     "--use-test262-global",
     {"if": "flags:module", "then": "--as-module"}
   ],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
     "all": {"passed": 1053, "failed": 41, "pass_percent": 96.252, "weight": 469.0, "weighted_pass_percent": 93.07},
     "es6": {"passed": 692, "failed": 8, "pass_percent": 98.857, "weight": 211.0, "weighted_pass_percent": 97.394},
@@ -343,7 +348,7 @@
     "compat-table/es6/annex-b.String.prototype.html.quotes-escaped.js": "PASS",
     "compat-table/es6/annex-b.function.hoisted-block-level.js": "PASS",
     "compat-table/es6/annex-b.function.if-statement.js": "PASS",
-    "compat-table/es6/annex-b.function.labeled.js": "SyntaxError: Not allowed to declare a function here (line: 12, column: 10)",
+    "compat-table/es6/annex-b.function.labeled.js": "SyntaxError: Not allowed to declare a function here",
     "compat-table/es6/annex-b.html-comments.js": "PASS",
     "compat-table/es6/annex-b.regex.backreferences-octal.js": "PASS",
     "compat-table/es6/annex-b.regex.hyphens.js": "PASS",
@@ -1124,14 +1129,14 @@
     "compat-table/next/Uint8Array.toBase64.js": "PASS",
     "compat-table/next/Uint8Array.toHex.js": "PASS",
     "compat-table/next/WeakMap.prototype.upsert.js": "TypeError: undefined is not a function (evaluated from 'map.upsert')",
-    "compat-table/next/await-using.for-of.js": "SyntaxError: Unexpected token Identifier. Expected Semicolon (line: 57, column: 22)",
-    "compat-table/next/await-using.js": "SyntaxError: Unexpected token Identifier. Expected Semicolon (line: 52, column: 19)",
-    "compat-table/next/class-decorators.js": "SyntaxError: Unexpected token Invalid. Expected property key (line: 10, column: 5)",
-    "compat-table/next/function.sent.js": "SyntaxError: Unexpected token Period. Expected ParenOpen (line: 11, column: 22)",
-    "compat-table/next/throw-expr.arrow.js": "SyntaxError: Unexpected token Throw. Expected primary expression (line: 9, column: 18)",
-    "compat-table/next/throw-expr.conditional.js": "SyntaxError: Unexpected token Throw. Expected primary expression (line: 9, column: 15)",
-    "compat-table/next/throw-expr.logical.js": "SyntaxError: Unexpected token Throw. Expected primary expression (line: 11, column: 15)",
-    "compat-table/next/throw-expr.param-init.js": "SyntaxError: Unexpected token Throw. Expected primary expression (line: 9, column: 22)",
+    "compat-table/next/await-using.for-of.js": "SyntaxError: Unexpected token Identifier. Expected Semicolon",
+    "compat-table/next/await-using.js": "SyntaxError: Unexpected token Identifier. Expected Semicolon",
+    "compat-table/next/class-decorators.js": "SyntaxError: Unexpected token Invalid. Expected property key",
+    "compat-table/next/function.sent.js": "SyntaxError: Unexpected token Period. Expected ParenOpen",
+    "compat-table/next/throw-expr.arrow.js": "SyntaxError: Unexpected token Throw. Expected primary expression",
+    "compat-table/next/throw-expr.conditional.js": "SyntaxError: Unexpected token Throw. Expected primary expression",
+    "compat-table/next/throw-expr.logical.js": "SyntaxError: Unexpected token Throw. Expected primary expression",
+    "compat-table/next/throw-expr.param-init.js": "SyntaxError: Unexpected token Throw. Expected primary expression",
     "compat-table/next/using.for-of.js": "TypeError: TODO: UsingDeclaration",
     "compat-table/next/using.js": "TypeError: TODO: UsingDeclaration"
   }

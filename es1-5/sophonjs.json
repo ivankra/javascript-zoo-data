@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "sophonjs",
-    "binary_sha256": "789378b25a7fe1b60592427509d2591e1957d8a43c0be79c95094be2e06d6592",
+    "binary_sha256": "4d1117e2b1a06683d2a48475c1a5508c41caefe810a63dafbc1743fde95ef576",
     "binary_size": 305736,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "sophonjs",
@@ -10,14 +10,19 @@
     "revision": "5012412ed66f76968cd6be87793b25337bda7630",
     "revision_date": "2015-11-10"
   },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
-    "all": {"passed": 353, "failed": 67, "pass_percent": 84.048},
-    "es1-5": {"passed": 353, "failed": 67, "pass_percent": 84.048}
+    "all": {"passed": 354, "failed": 66, "pass_percent": 84.286},
+    "es1-5": {"passed": 354, "failed": 66, "pass_percent": 84.286}
   },
   "dirs": {
     "es1": {"passed": 184, "failed": 14, "pass_percent": 92.929},
     "es3": {"passed": 113, "failed": 35, "pass_percent": 76.351},
-    "es5": {"passed": 56, "failed": 18, "pass_percent": 75.676}
+    "es5": {"passed": 57, "failed": 17, "pass_percent": 77.027}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -388,7 +393,7 @@
     "es5/JSON.parse.js": "SyntaxError: Parse JSON error",
     "es5/JSON.parse.reviver.js": "PASS",
     "es5/JSON.stringify.js": "TypeError: Structure is cyclical",
-    "es5/JSON.stringify.replacer.js": "FAIL: replacer function failed",
+    "es5/JSON.stringify.replacer.js": "FAIL: replacer function failed; replacer array failed",
     "es5/JSON.stringify.space.js": "FAIL: space parameter failed",
     "es5/Object.create.js": "TypeError: Value is not an object",
     "es5/Object.defineProperties.js": "PASS",
@@ -400,7 +405,7 @@
     "es5/Object.isExtensible.js": "PASS",
     "es5/Object.isFrozen.js": "PASS",
     "es5/Object.isSealed.js": "PASS",
-    "es5/Object.keys.js": "FAIL: basic keys failed",
+    "es5/Object.keys.js": "PASS",
     "es5/Object.preventExtensions.js": "PASS",
     "es5/Object.property-shadowing.js": "PASS",
     "es5/Object.seal.js": "PASS",

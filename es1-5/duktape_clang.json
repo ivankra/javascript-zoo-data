@@ -10,6 +10,11 @@
     "revision": "50af773b1b32067170786c2b7c661705ec7425d4",
     "revision_date": "2024-01-29"
   },
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
     "all": {"passed": 419, "failed": 1, "pass_percent": 99.762},
     "es1-5": {"passed": 419, "failed": 1, "pass_percent": 99.762}

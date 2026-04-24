@@ -2,18 +2,23 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "qv4_jitless",
-    "binary_sha256": "c3f0c9e4ef13117c61b1d3e31c283c77f49ed782b6d7fedf16ceab8e77f62d29",
+    "binary_sha256": "250af5f800738f03075b2d070f32bd9cfa05b2887493b14999267ebbcdd48ea6",
     "binary_size": 13731408,
     "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
     "engine": "qv4",
     "jit": "",
     "repository": "https://github.com/qt/qt5.git",
-    "revision": "43a37ecafab8277109868e8a48b06a359624f83b",
-    "revision_date": "2026-04-13"
+    "revision": "3687dbd3e25cf9293717c3fc0555414e2813ab17",
+    "revision_date": "2026-04-22"
   },
   "flags": [
     {"if": "flags:module", "then": "--module"}
   ],
+  "runner": {
+    "repository": "https://github.com/ivankra/javascript-zoo",
+    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
+    "revision_date": "2026-04-23"
+  },
   "summary": {
     "all": {"passed": 412, "failed": 8, "pass_percent": 98.095},
     "es1-5": {"passed": 412, "failed": 8, "pass_percent": 98.095}
