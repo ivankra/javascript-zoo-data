@@ -1,9 +1,9 @@
 Comparing: ../test262/jsc_exp.json ../../dist/arm64/jsc.ci-test262
-Binary revision: MATCH (ours: a085c62693cd, theirs: a085c62693cd)
+Binary revision: MISMATCH (ours: 89dd2f9ec739, theirs: 8ff9ee25d0ec)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: ab1590d83d0c)
-Tests: MISMATCH (ours: 53164, theirs: 52925, shared: 52917)
-Skipped tests: 4105 (ours: 0, theirs: 4110)
+Test262 revision: MISMATCH (ours: 4a1e96230008, theirs: ab1590d83d0c)
+Tests: MISMATCH (ours: 53167, theirs: 52925, shared: 52917)
+Skipped tests: 4104 (ours: 0, theirs: 4109)
 Diffs: 4
 
 test/built-ins/Promise/resolve/arg-uniq-ctor.js: PASS vs TypeError: |this|.constructor is not an Object or undefined

@@ -1,8 +1,8 @@
 Comparing: ../test262/brimstone.json ../../dist/arm64/brimstone.ci-test262
 Binary revision: MATCH (ours: 6a04fef64560, theirs: 6a04fef64560)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: cff568602848)
-Tests: MISMATCH (ours: 53164, theirs: 51255, shared: 51059)
+Test262 revision: MISMATCH (ours: 4a1e96230008, theirs: cff568602848)
+Tests: MISMATCH (ours: 53167, theirs: 51255, shared: 51059)
 Skipped tests: 9889 (ours: 0, theirs: 10078)
 Diffs: 91
 

@@ -1,7 +1,7 @@
 Comparing: ../test262/kiesel.json ../../dist/arm64/kiesel.ci-test262
-Binary revision: ours=fb85ead12dfa833145b287b3aaf2884d94b5f146, theirs=N/A
-Test262 revision: ours=fb4471649cd29c0e08c42eadfbbd59846f8fd333, theirs=N/A
-Tests: MISMATCH (ours: 53164, theirs: 53125, shared: 53123)
+Binary revision: ours=dccb0db932fea715a6652b8e8fdd4d1a0c9d0bc5, theirs=N/A
+Test262 revision: ours=4a1e96230008fe27367233f7e4947ace176aac5a, theirs=N/A
+Tests: MATCH (ours: 53167, theirs: 53167, shared: 53167)
 Skipped tests: 1411 (ours: 0, theirs: 1411)
 Diffs: 70
 

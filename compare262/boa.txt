@@ -1,8 +1,8 @@
 Comparing: ../test262/boa.json ../../dist/arm64/boa.ci-test262
-Binary revision: MATCH (ours: da570fd74bb6, theirs: da570fd74bb6)
+Binary revision: MATCH (ours: 3ee2b71a3063, theirs: 3ee2b71a3063)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 5c8206929d81)
-Tests: MISMATCH (ours: 53164, theirs: 53125, shared: 53123)
+Test262 revision: MISMATCH (ours: 4a1e96230008, theirs: 5c8206929d81)
+Tests: MISMATCH (ours: 53167, theirs: 53125, shared: 53123)
 Skipped tests: 1480 (ours: 0, theirs: 1482)
 Diffs: 20
 

@@ -1,8 +1,8 @@
 Comparing: ../test262/goja.json ../../dist/arm64/goja.ci-test262
 Binary revision: MATCH (ours: 065cd970411c, theirs: 065cd970411c)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 3af36bec45bd)
-Tests: MISMATCH (ours: 53164, theirs: 52892, shared: 52829)
+Test262 revision: MISMATCH (ours: 4a1e96230008, theirs: 3af36bec45bd)
+Tests: MISMATCH (ours: 53167, theirs: 52892, shared: 52829)
 Skipped tests: 21315 (ours: 0, theirs: 21378)
 Diffs: 0
 

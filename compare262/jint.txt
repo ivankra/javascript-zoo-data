@@ -1,10 +1,10 @@
 Comparing: ../test262/jint.json ../../dist/arm64/jint.ci-test262
-Binary revision: MATCH (ours: 2d888388821e, theirs: 2d888388821e)
+Binary revision: MATCH (ours: 67ccb4373ad0, theirs: 67ccb4373ad0)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 2b2ecead6e82)
-Tests: MISMATCH (ours: 53164, theirs: 51434, shared: 51434)
-Skipped tests: 621 (ours: 0, theirs: 621)
-Diffs: 251
+Test262 revision: MISMATCH (ours: 4a1e96230008, theirs: 2b2ecead6e82)
+Tests: MISMATCH (ours: 53167, theirs: 51549, shared: 51549)
+Skipped tests: 274 (ours: 0, theirs: 274)
+Diffs: 254
 
 test/built-ins/Array/prototype/concat/Array.prototype.concat_spreadable-boolean-wrapper.js: CRASH: SIGABRT vs PASS
 test/built-ins/Array/prototype/concat/Array.prototype.concat_spreadable-number-wrapper.js: CRASH: SIGABRT vs PASS
@@ -217,6 +217,9 @@ test/language/expressions/yield/arguments-object-attributes.js: CRASH: SIGABRT v
 test/language/expressions/yield/formal-parameters-after-reassignment-non-strict.js: CRASH: SIGABRT vs PASS
 test/language/expressions/yield/formal-parameters-after-reassignment-strict.js: CRASH: SIGABRT vs PASS
 test/language/global-code/return.js: NOT(SyntaxError): DONOTEVALUATE vs PASS
+test/language/import/import-attributes/text-empty.js: FAIL: Unsupported Directory Import in module 'text-empty.js': './text-empty_FIXTURE' vs PASS
+test/language/import/import-attributes/text-string.js: FAIL: Unsupported Directory Import in module 'text-string.js': './text-string_FIXTURE' vs PASS
+test/language/import/import-attributes/text-via-namespace.js: FAIL: Unsupported Directory Import in module 'text-via-namespace.js': './text-via-namespace_FIXTURE' vs PASS
 test/language/statements/async-function/evaluation-mapped-arguments.js: CRASH: SIGABRT vs PASS
 test/language/statements/async-function/evaluation-unmapped-arguments.js: CRASH: SIGABRT vs PASS
 test/language/statements/async-function/returns-async-arrow-returns-arguments-from-parent-function.js: CRASH: SIGABRT vs PASS

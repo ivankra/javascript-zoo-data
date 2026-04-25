@@ -1,17 +1,17 @@
 Comparing: ../test262/engine262.json ../../dist/arm64/engine262.ci-test262
-Binary revision: MATCH (ours: 6251716a3fdc, theirs: 6251716a3fdc)
+Binary revision: MATCH (ours: e23ee39900d3, theirs: e23ee39900d3)
 Binary arch: MISMATCH (ours: amd64, theirs: arm64)
-Test262 revision: MISMATCH (ours: fb4471649cd2, theirs: 2b2ecead6e82)
-Tests: MISMATCH (ours: 53164, theirs: 50454, shared: 50453)
-Skipped tests: 6275 (ours: 0, theirs: 6276)
-Diffs: 46
+Test262 revision: MATCH (ours: 4a1e96230008, theirs: 4a1e96230008)
+Tests: MISMATCH (ours: 53167, theirs: 50457, shared: 50456)
+Skipped tests: 6279 (ours: 0, theirs: 6280)
+Diffs: 33
 
 test/built-ins/Iterator/zip/basic-longest.js: TIMEOUT: >10s vs PASS
 test/built-ins/Iterator/zip/basic-shortest.js: TIMEOUT: >10s vs PASS
 test/built-ins/Iterator/zip/basic-strict.js: TIMEOUT: >10s vs PASS
 test/built-ins/Iterator/zipKeyed/basic-longest.js: TIMEOUT: >10s vs PASS
 test/built-ins/Iterator/zipKeyed/basic-shortest.js: TIMEOUT: >10s vs PASS
-test/built-ins/Iterator/zipKeyed/basic-strict.js: TIMEOUT: >10s vs PASS
+test/built-ins/Iterator/zipKeyed/basic-strict.js: {"sloppy": "TIMEOUT: >10s", "strict": "PASS"} vs PASS
 test/built-ins/parseFloat/S15.1.2.3_A6.js: TIMEOUT: >10s vs PASS
 test/built-ins/RegExp/character-class-escape-non-whitespace.js: TIMEOUT: >10s vs PASS
 test/built-ins/RegExp/unicode_restricted_identity_escape_alpha.js: Test262Error: IdentityEscape in AtomEscape: 'A' Expected a SyntaxError to be thrown but no exception was thrown at all vs PASS
@@ -26,29 +26,16 @@ test/language/expressions/dynamic-import/eval-rqstd-once.js: FAIL: AssertError: 
 test/language/expressions/dynamic-import/eval-self-once-script.js: FAIL: AssertError: record.Module === result.Value vs PASS
 test/language/expressions/dynamic-import/for-await-resolution-and-error-agen-yield.js: FAIL: AssertError: record.Module === result.Value vs PASS
 test/language/expressions/dynamic-import/import-attributes/2nd-param-with-undefined.js: FAIL: AssertError: record.Module === result.Value vs PASS
+test/language/expressions/dynamic-import/import-defer/import-defer-transitive-async-module/promise-prototype-then-not-called.js: AsyncTestFailure: Promise.prototype.then must not be called by import.defer internals Expected SameValue(«1», «0») to be true vs PASS
 test/language/expressions/dynamic-import/reuse-namespace-object-from-script.js: FAIL: AssertError: record.Module === result.Value vs PASS
 test/language/expressions/dynamic-import/reuse-namespace-object.js: FAIL: AssertError: record.Module === result.Value vs PASS
-test/language/import/import-attributes/json-named-bindings.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
+test/language/import/import-defer/deferred-namespace-object/identity.js: FAIL: AssertError: record.Module === result.Value vs PASS
 test/language/import/import-defer/evaluation-sync/module-imported-defer-and-eager.js: FAIL: AssertError: record.Module === result.Value vs PASS
-test/language/module-code/ambiguous-export-bindings/error-export-from-named-as.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/ambiguous-export-bindings/error-export-from-named.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/ambiguous-export-bindings/error-import-named-as.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/ambiguous-export-bindings/error-import-named.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/ambiguous-export-bindings/import-and-export-propagates-binding.js: FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
+test/language/import/import-defer/evaluation-top-level-await/flattening-order/main.js: Test262Error: Actual [1, 2.1.1 start, 2.2.1, 2.2 start, 3, 2.2 start, 5, 2.1.1 end, 2.2 end, 2.2 end, 4.1 start, 4.1 end] and expected [1, 2.1.1 start, 2.2.1, 2.2 start, 3, 5, 2.1.1 end, 2.2 end, 4.1 start, 4.1 end... vs PASS
+test/language/module-code/ambiguous-export-bindings/import-and-export-propagates-binding.js: SyntaxError: Export "foo" from module "import-and-export-propagates-binding.js" is ambiguous vs PASS
+test/language/module-code/ambiguous-export-bindings/namespace-unambiguous-if-export-star-as-from.js: SyntaxError: Export "foo" from module "namespace-unambiguous-if-export-star-as-from.js" is ambiguous vs PASS
+test/language/module-code/ambiguous-export-bindings/namespace-unambiguous-if-import-star-as-and-export.js: SyntaxError: Export "foo" from module "namespace-unambiguous-if-import-star-as-and-export.js" is ambiguous vs PASS
 test/language/module-code/eval-rqstd-once.js: FAIL: AssertError: record.Module === result.Value vs PASS
-test/language/module-code/import-attributes/allow-nlt-before-with.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-iee-err-circular-as.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-iee-err-circular.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-iee-err-dflt-thru-star-as.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-iee-err-dflt-thru-star.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-iee-err-not-found-as.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-iee-err-not-found.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-named-err-dflt-thru-star-as.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-named-err-dflt-thru-star-dflt.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-named-err-not-found-as.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-named-err-not-found-dflt.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-named-err-not-found.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
-test/language/module-code/instn-star-err-not-found.js: NOT(SyntaxError): FAIL: AssertError: !(handlerResult instanceof AbruptCompletion) vs PASS
 test/language/module-code/top-level-await/dfs-invariant.js: Test262Error: Expected SameValue(«\"async:direct-1:indirect:direct-2\"», «\"async:direct-1:direct-2:indirect\"») to be true vs PASS
 test/language/module-code/top-level-await/pending-async-dep-from-cycle.js: Test262Error: Actual [cycle leaf start, cycle leaf end, cycle root start, cycle root end, cycle leaf start, cycle leaf end, importer of cycle leaf] and expected [cycle leaf start, cycle leaf end, cycle root start, ... vs PASS
 test/staging/sm/RegExp/unicode-disallow-extended.js: Test262Error: Expected a SyntaxError to be thrown but no exception was thrown at all vs PASS
