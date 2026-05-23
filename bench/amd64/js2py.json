@@ -2,132 +2,132 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "js2py",
-    "dist_size": 323444948,
+    "dist_size": 323493596,
     "engine": "js2py",
     "repository": "https://github.com/PiotrDabkowski/Js2Py.git",
     "revision": "2e017b86e2f18a6c8a842293b1687f2ce7baa12e",
     "revision_date": "2022-11-06"
   },
-  "time": "2026-04-24 03:49:33.495819 UTC",
+  "time": "2026-05-22 12:13:50.970004 UTC",
   "benchmarks": {
-    "Typescript": {
-      "error": "SyntaxError: KeyError: b\"'\\x86|\\xc7\\x07W#\\x17\\xf8V\\x99\\xfa`\\xb7\\\\!\"; duplicate argument 'arguments' in function definition",
-      "user": [6.2301, 6.226],
-      "sys": [0.5768, 0.7067],
-      "real": [6.4832, 6.6049],
-      "rss_mb": [269.15, 269.5]
+    "CodeLoad": {
+      "score": [256],
+      "user": [13.0805],
+      "sys": [0.1376],
+      "real": [12.9323],
+      "rss_mb": [104.3]
     },
-    "Gameboy": {
-      "error": "FAIL: OverflowError: Python integer 256 out of bounds for uint8",
-      "user": [79.5948],
-      "sys": [1.0127],
-      "real": [80.3037],
-      "rss_mb": [1612.52]
+    "DeltaBlue": {
+      "score": [4.92],
+      "user": [44.961],
+      "sys": [0.057],
+      "real": [44.7218],
+      "rss_mb": [56.85]
     },
     "EarleyBoyer": {
-      "score": [15.4],
-      "user": [602.3552],
-      "sys": [0.1779],
-      "real": [602.3108],
-      "rss_mb": [120.52]
+      "score": [15],
+      "user": [628.3367],
+      "sys": [0.2638],
+      "real": [628.3616],
+      "rss_mb": [120.12]
     },
-    "Mandreel": {
-      "error": "FAIL: No scores in the output",
-      "user": [25.9598],
-      "sys": [1.1843],
-      "real": [26.8189],
-      "rss_mb": [1801.44]
+    "Typescript": {
+      "error": "SyntaxError: KeyError: b\"'\\x86|\\xc7\\x07W#\\x17\\xf8V\\x99\\xfa`\\xb7\\\\!\"; duplicate argument 'arguments' in function definition",
+      "user": [6.6836],
+      "sys": [0.8307],
+      "real": [7.2076],
+      "rss_mb": [268.95]
     },
-    "MandreelLatency": {
-      "error": "FAIL: No scores in the output",
-      "user": [25.9598],
-      "sys": [1.1843],
-      "real": [26.8189],
-      "rss_mb": [1801.44]
+    "Box2D": {
+      "score": [17.5],
+      "user": [251.2466],
+      "sys": [0.2645],
+      "real": [251.2261],
+      "rss_mb": [152.04]
     },
-    "CodeLoad": {
-      "score": [239],
-      "user": [13.5851],
-      "sys": [0.2218],
-      "real": [13.5011],
-      "rss_mb": [103.3]
+    "Splay": {
+      "score": [18.5],
+      "user": [70.5366],
+      "sys": [1.2597],
+      "real": [71.5032],
+      "rss_mb": [1671.62]
+    },
+    "SplayLatency": {
+      "score": [64.2],
+      "user": [70.5366],
+      "sys": [1.2597],
+      "real": [71.5032],
+      "rss_mb": [1671.62]
     },
     "RegExp": {
       "error": "FAIL: No scores in the output",
-      "user": [9.6202, 9.0539],
-      "sys": [0.0717, 0.0374],
-      "real": [9.3642, 8.8075],
-      "rss_mb": [70.88, 70.74]
+      "user": [9.9799],
+      "sys": [0.064],
+      "real": [9.7162],
+      "rss_mb": [70.68]
     },
-    "RayTrace": {
-      "score": [11.1],
-      "user": [219.9341],
-      "sys": [0.042],
-      "real": [219.7757],
-      "rss_mb": [49.88]
-    },
-    "NavierStokes": {
-      "score": [3.77],
-      "user": [671.0372],
-      "sys": [0.0828],
-      "real": [670.8866],
-      "rss_mb": [96.97]
+    "Gameboy": {
+      "error": "FAIL: OverflowError: Python integer 256 out of bounds for uint8",
+      "user": [77.3498],
+      "sys": [1.2347],
+      "real": [78.2864],
+      "rss_mb": [1613.02]
     },
     "Richards": {
-      "score": [4.24],
-      "user": [29.0018],
-      "sys": [0.0568],
-      "real": [28.736],
-      "rss_mb": [46.09]
-    },
-    "DeltaBlue": {
-      "score": [4.53],
-      "user": [48.9107],
-      "sys": [0.0598],
-      "real": [48.6529],
-      "rss_mb": [56.52]
+      "score": [4.16],
+      "user": [29.5416],
+      "sys": [0.0448],
+      "real": [29.2616],
+      "rss_mb": [45.87]
     },
     "Crypto": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1800.0666, 1800.1342],
-      "sys": [0.1188, 0.1129],
-      "real": [1800.0178, 1800.104],
-      "rss_mb": [59.07, 58.55]
+      "error": "FAIL: No scores in the output",
+      "user": [189.4201],
+      "sys": [0.0651],
+      "real": [189.2046],
+      "rss_mb": [58.81]
     },
-    "Splay": {
-      "score": [18.3],
-      "user": [68.4875],
-      "sys": [0.9442],
-      "real": [69.1179],
-      "rss_mb": [1671.78]
+    "Mandreel": {
+      "error": "FAIL: No scores in the output",
+      "user": [26.8848, 25.8879],
+      "sys": [1.3376, 1.2563],
+      "real": [27.9002, 26.8192],
+      "rss_mb": [1801.19, 1801.37]
     },
-    "SplayLatency": {
-      "score": [73.4],
-      "user": [68.4875],
-      "sys": [0.9442],
-      "real": [69.1179],
-      "rss_mb": [1671.78]
+    "MandreelLatency": {
+      "error": "FAIL: No scores in the output",
+      "user": [26.8848, 25.8879],
+      "sys": [1.3376, 1.2563],
+      "real": [27.9002, 26.8192],
+      "rss_mb": [1801.19, 1801.37]
     },
-    "Box2D": {
-      "score": [19.6],
-      "user": [223.5732],
-      "sys": [0.1507],
-      "real": [223.4638],
-      "rss_mb": [152.22]
+    "NavierStokes": {
+      "score": [3.78],
+      "user": [670.9889],
+      "sys": [0.0807],
+      "real": [670.8584],
+      "rss_mb": [97.16]
     },
     "PdfJS": {
       "error": "FAIL: RuntimeError: No lval found \"PyJs_Page_getPageProp_82_\"",
-      "user": [4.4093],
-      "sys": [0.1155],
-      "real": [4.1968],
-      "rss_mb": [180.39]
+      "user": [4.2978],
+      "sys": [0.139],
+      "real": [4.1278],
+      "rss_mb": [180.46]
     },
     "zlib": {
       "error": "FAIL: No scores in the output",
-      "user": [2.1642],
-      "sys": [0.095],
-      "real": [1.9733],
-      "rss_mb": [179.66]
+      "user": [2.2987],
+      "sys": [0.1781],
+      "real": [2.1709],
+      "rss_mb": [179.41]
+    },
+    "RayTrace": {
+      "score": [12.1],
+      "user": [201.9774],
+      "sys": [0.0569],
+      "real": [201.7582],
+      "rss_mb": [50.1]
     }
   }
 }

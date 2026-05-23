@@ -2,133 +2,133 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "epimetheus",
-    "binary_sha256": "226e9bac9c0f9aee81fb181e9d0029b8a1eee9bdaa8b188de9f4bfe11f00c3f5",
-    "binary_size": 592936,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "fb6bd11ac3d4d9e5e9a71c939a1ea0c66aac702771ceca812d1a0ee31d8f30b1",
+    "binary_size": 592872,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "epimetheus",
     "repository": "https://github.com/jrmuizel/mozilla-cvs-history.git",
     "revision": "3229d5d8b7f8376cfb7936e7be810635a14a486b",
     "revision_date": "2008-08-12"
   },
-  "time": "2026-04-24 02:56:04.809570 UTC",
+  "time": "2026-05-22 11:43:59.919264 UTC",
   "benchmarks": {
+    "RegExp": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.9916],
+      "sys": [0.054],
+      "real": [1800.0813],
+      "rss_mb": [69.58]
+    },
+    "CodeLoad": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8825],
+      "sys": [0.126],
+      "real": [1800.0829],
+      "rss_mb": [68.93]
+    },
+    "Crypto": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.7188],
+      "sys": [0.073],
+      "real": [1800.0588],
+      "rss_mb": [68.03]
+    },
+    "RayTrace": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8198],
+      "sys": [0.094],
+      "real": [1800.009],
+      "rss_mb": [67.49]
+    },
+    "Splay": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.6859],
+      "sys": [0.068],
+      "real": [1800.0406],
+      "rss_mb": [67.11]
+    },
+    "SplayLatency": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.6859],
+      "sys": [0.068],
+      "real": [1800.0406],
+      "rss_mb": [67.11]
+    },
+    "NavierStokes": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1800.0216],
+      "sys": [0.043],
+      "real": [1800.078],
+      "rss_mb": [67.21]
+    },
+    "zlib": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.989],
+      "sys": [0.066],
+      "real": [1800.106],
+      "rss_mb": [69.01]
+    },
+    "Typescript": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.944],
+      "sys": [0.106],
+      "real": [1800.1084],
+      "rss_mb": [112.2]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: : expected",
+      "user": [0.003],
+      "sys": [0.003],
+      "real": [0.0063],
+      "rss_mb": [29.19]
+    },
     "Mandreel": {
       "error": "TIMEOUT: >1800s",
-      "user": [1799.7686],
-      "sys": [0.097],
-      "real": [1800.0508],
+      "user": [1799.9001],
+      "sys": [0.106],
+      "real": [1800.02],
       "rss_mb": [189.41]
     },
     "MandreelLatency": {
       "error": "TIMEOUT: >1800s",
-      "user": [1799.7686],
-      "sys": [0.097],
-      "real": [1800.0508],
+      "user": [1799.9001],
+      "sys": [0.106],
+      "real": [1800.02],
       "rss_mb": [189.41]
     },
     "Richards": {
       "error": "TIMEOUT: >1800s",
-      "user": [1799.8192],
-      "sys": [0.083],
-      "real": [1800.106],
-      "rss_mb": [67.23]
-    },
-    "Typescript": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.6589],
-      "sys": [0.087],
-      "real": [1800.0183],
-      "rss_mb": [112.2]
-    },
-    "CodeLoad": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.8134],
-      "sys": [0.047],
-      "real": [1800.0357],
-      "rss_mb": [68.91]
-    },
-    "NavierStokes": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.7014],
+      "user": [1799.9555],
       "sys": [0.072],
-      "real": [1800.0531],
-      "rss_mb": [67.21]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: : expected",
-      "user": [0.0042],
-      "sys": [0.0021],
-      "real": [0.0064],
-      "rss_mb": [28.54]
-    },
-    "Splay": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.8085],
-      "sys": [0.088],
-      "real": [1800.0989],
-      "rss_mb": [67.13]
-    },
-    "SplayLatency": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.8085],
-      "sys": [0.088],
-      "real": [1800.0989],
-      "rss_mb": [67.13]
-    },
-    "DeltaBlue": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.9668],
-      "sys": [0.066],
-      "real": [1800.1054],
-      "rss_mb": [67.4]
-    },
-    "Crypto": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.948],
-      "sys": [0.077],
-      "real": [1800.0826],
-      "rss_mb": [68.04]
-    },
-    "RayTrace": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.8618],
-      "sys": [0.067],
-      "real": [1800.0132],
-      "rss_mb": [67.49]
-    },
-    "zlib": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.803],
-      "sys": [0.089],
-      "real": [1800.1066],
-      "rss_mb": [69.0]
+      "real": [1800.0874],
+      "rss_mb": [67.23]
     },
     "Box2D": {
       "error": "SyntaxError: Qualified identifier expected",
-      "user": [0.0019],
+      "user": [0.0018],
       "sys": [0.0009],
-      "real": [0.003],
-      "rss_mb": [22.66]
+      "real": [0.0029],
+      "rss_mb": [23.32]
+    },
+    "DeltaBlue": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.7305],
+      "sys": [0.054],
+      "real": [1800.0111],
+      "rss_mb": [67.39]
     },
     "Gameboy": {
       "error": "TIMEOUT: >1800s",
-      "user": [1799.7632],
-      "sys": [0.105],
-      "real": [1800.1078],
+      "user": [1799.6774],
+      "sys": [0.154],
+      "real": [1800.1077],
       "rss_mb": [76.98]
-    },
-    "RegExp": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.7828],
-      "sys": [0.076],
-      "real": [1800.0769],
-      "rss_mb": [69.57]
     },
     "EarleyBoyer": {
       "error": "TIMEOUT: >1800s",
-      "user": [1799.9585],
-      "sys": [0.087],
-      "real": [1800.107],
+      "user": [1799.8818],
+      "sys": [0.096],
+      "real": [1800.0653],
       "rss_mb": [70.88]
     }
   }

@@ -4,19 +4,19 @@
     "binary_name": "lebjs",
     "dist_size": 410699,
     "engine": "lebjs",
-    "jdk": "openjdk version \"25.0.2\" 2026-01-20",
+    "jdk": "openjdk version \"25.0.3\" 2026-04-21",
     "repository": "https://github.com/LebsterFace/LebJS.git",
     "revision": "7b5db4a32e9d97b6881452da59f363f514e61b76",
     "revision_date": "2025-08-14"
   },
-  "time": "2026-04-24 08:35:33.092419 UTC",
+  "time": "2026-05-22 12:17:41.594526 UTC",
   "benchmarks": {
     "Richards": {
       "error": "FAIL: No scores in the output",
-      "user": [10.1753],
-      "sys": [0.1258],
-      "real": [9.4667],
-      "rss_mb": [213.34]
+      "user": [10.1705],
+      "sys": [0.129],
+      "real": [9.4794],
+      "rss_mb": [212.33]
     }
   }
 }

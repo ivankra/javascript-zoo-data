@@ -2,134 +2,134 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "sophonjs",
-    "binary_sha256": "4d1117e2b1a06683d2a48475c1a5508c41caefe810a63dafbc1743fde95ef576",
-    "binary_size": 305736,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "e6ad6fa09eb8373f7cfd48c85822537df61541d33e16aae5f7932a164852f559",
+    "binary_size": 305680,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "sophonjs",
     "repository": "https://github.com/gkmail/SophonJS.git",
     "revision": "5012412ed66f76968cd6be87793b25337bda7630",
     "revision_date": "2015-11-10"
   },
-  "time": "2026-04-24 03:55:03.361212 UTC",
+  "time": "2026-05-22 12:34:15.810112 UTC",
   "benchmarks": {
     "RegExp": {
       "error": "SyntaxError: Parse regexp error",
-      "user": [0.0801, 0.0813],
-      "sys": [0.004, 0.003],
-      "real": [0.0846, 0.085],
-      "rss_mb": [19.18, 19.14]
-    },
-    "Crypto": {
-      "score": [242, 296],
-      "user": [19.0667, 15.9654],
-      "sys": [0.003, 0.003],
-      "real": [19.0736, 15.971],
-      "rss_mb": [18.96, 19.17]
-    },
-    "Typescript": {
-      "error": "TypeError: Value is null or undefined",
-      "user": [0.0929],
-      "sys": [0.008],
-      "real": [0.1016],
-      "rss_mb": [29.0]
+      "user": [0.08, 0.0832],
+      "sys": [0.007, 0.004],
+      "real": [0.0879, 0.0879],
+      "rss_mb": [18.78, 18.79]
     },
     "CodeLoad": {
       "error": "SyntaxError",
-      "user": [0.004],
-      "sys": [0.003],
-      "real": [0.0078],
-      "rss_mb": [18.94]
-    },
-    "DeltaBlue": {
-      "score": [279, 272],
-      "user": [2.0396, 2.0376],
-      "sys": [0.003, 0.003],
-      "real": [2.0435, 2.0417],
-      "rss_mb": [19.12, 18.94]
-    },
-    "zlib": {
-      "error": "SyntaxError: unexpected \"case\", expect \"if\"; unexpected \"default\", expect \"if\"; unexpected \"+=\", expect '?'; unexpected \"case\", expect \"if\"; unexpected \"default\", expect \"if\"; unexpected \"else\", expect \"if\"; unexp...",
-      "user": [0.0423, 0.0432],
-      "sys": [0.002, 0.002],
-      "real": [0.0451, 0.0457],
-      "rss_mb": [19.44, 19.38]
-    },
-    "NavierStokes": {
-      "error": "CRASH: SIGSEGV",
-      "user": [0.0337, 0.0383],
-      "sys": [0.0058, 0.003],
-      "real": [0.1057, 0.1134],
-      "rss_mb": [18.75, 18.77]
-    },
-    "Splay": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0047],
-      "sys": [0.0],
-      "real": [0.0055],
-      "rss_mb": [19.05]
-    },
-    "SplayLatency": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0047],
-      "sys": [0.0],
-      "real": [0.0055],
-      "rss_mb": [19.05]
-    },
-    "Mandreel": {
-      "error": "CRASH: SIGABRT",
-      "user": [0.7293, 0.7035, 0.7327],
-      "sys": [0.0582, 0.061, 0.048],
-      "real": [1.0432, 0.9794, 1.0029],
-      "rss_mb": [38.92, 39.09, 39.16]
-    },
-    "MandreelLatency": {
-      "error": "CRASH: SIGABRT",
-      "user": [0.7293, 0.7035, 0.7327],
-      "sys": [0.0582, 0.061, 0.048],
-      "real": [1.0432, 0.9794, 1.0029],
-      "rss_mb": [38.92, 39.09, 39.16]
-    },
-    "PdfJS": {
-      "error": "SyntaxError",
-      "user": [0.1423, 0.1341],
-      "sys": [0.002, 0.006],
-      "real": [0.1453, 0.141],
-      "rss_mb": [23.79, 23.75]
-    },
-    "EarleyBoyer": {
-      "error": "TypeError: Value is not an clousre",
-      "user": [0.0388, 0.0406],
-      "sys": [0.001, 0.004],
-      "real": [0.0405, 0.0452],
-      "rss_mb": [19.23, 18.96]
+      "user": [0.0062, 0.0041, 0.006],
+      "sys": [0.0021, 0.0041, 0.002],
+      "real": [0.009, 0.0089, 0.0088],
+      "rss_mb": [18.88, 19.07, 18.88]
     },
     "RayTrace": {
-      "score": [555, 563],
-      "user": [5.3349, 5.2515],
-      "sys": [0.002, 0.002],
-      "real": [5.3382, 5.2552],
-      "rss_mb": [18.95, 18.99]
+      "score": [587, 562, 563],
+      "user": [5.0452, 5.2707, 5.2576],
+      "sys": [0.002, 0.001, 0.002],
+      "real": [5.0493, 5.273, 5.2614],
+      "rss_mb": [18.82, 19.05, 18.81]
     },
-    "Gameboy": {
-      "error": "ReferenceError: Binding has not been defined",
-      "user": [0.0455, 0.0414, 0.0432, 0.046],
-      "sys": [0.0, 0.0049, 0.002, 0.0],
-      "real": [0.0461, 0.0471, 0.0457, 0.0468],
-      "rss_mb": [20.7, 20.57, 20.8, 20.55]
+    "Crypto": {
+      "score": [213, 243, 213],
+      "user": [20.2487, 19.0197, 20.2211],
+      "sys": [0.002, 0.003, 0.004],
+      "real": [20.2535, 19.0254, 20.2282],
+      "rss_mb": [18.68, 18.75, 18.84]
     },
     "Box2D": {
       "error": "CRASH: SIGSEGV",
-      "user": [0.0425, 0.0411],
-      "sys": [0.004, 0.006],
-      "real": [0.1214, 0.1443],
-      "rss_mb": [19.32, 19.25]
+      "user": [0.0427, 0.0422],
+      "sys": [0.004, 0.0043],
+      "real": [0.1298, 0.1274],
+      "rss_mb": [19.18, 19.12]
+    },
+    "NavierStokes": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0357, 0.0368, 0.0394, 0.0383],
+      "sys": [0.006, 0.0041, 0.0051, 0.0031],
+      "real": [0.1236, 0.107, 0.117, 0.1141],
+      "rss_mb": [19.05, 19.31, 19.12, 19.09]
+    },
+    "Splay": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0022, 0.004],
+      "sys": [0.0022, 0.0],
+      "real": [0.0052, 0.0047],
+      "rss_mb": [18.66, 18.68]
+    },
+    "SplayLatency": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0022, 0.004],
+      "sys": [0.0022, 0.0],
+      "real": [0.0052, 0.0047],
+      "rss_mb": [18.66, 18.68]
+    },
+    "PdfJS": {
+      "error": "SyntaxError",
+      "user": [0.1411],
+      "sys": [0.003],
+      "real": [0.1449],
+      "rss_mb": [23.78]
+    },
+    "Gameboy": {
+      "error": "ReferenceError: Binding has not been defined",
+      "user": [0.0409, 0.0437, 0.0439],
+      "sys": [0.004, 0.002, 0.002],
+      "real": [0.0457, 0.0464, 0.0467],
+      "rss_mb": [20.38, 20.37, 20.35]
+    },
+    "DeltaBlue": {
+      "score": [275],
+      "user": [2.0193],
+      "sys": [0.001],
+      "real": [2.0214],
+      "rss_mb": [18.91]
     },
     "Richards": {
-      "score": [287, 240, 242],
-      "user": [2.0201, 2.0267, 2.0126],
-      "sys": [0.0, 0.003, 0.002],
-      "real": [2.0214, 2.0306, 2.0153],
-      "rss_mb": [18.91, 18.91, 18.93]
+      "score": [241],
+      "user": [2.0214],
+      "sys": [0.003],
+      "real": [2.0254],
+      "rss_mb": [18.91]
+    },
+    "EarleyBoyer": {
+      "error": "TypeError: Value is not an clousre",
+      "user": [0.0355, 0.0402, 0.0375, 0.0409, 0.04],
+      "sys": [0.0039, 0.004, 0.002, 0.004, 0.007],
+      "real": [0.0402, 0.0452, 0.0402, 0.0457, 0.0477],
+      "rss_mb": [19.09, 19.06, 19.18, 19.06, 19.07]
+    },
+    "Typescript": {
+      "error": "TypeError: Value is null or undefined",
+      "user": [0.1088],
+      "sys": [0.008],
+      "real": [0.1177],
+      "rss_mb": [28.82]
+    },
+    "zlib": {
+      "error": "SyntaxError: unexpected \"case\", expect \"if\"; unexpected \"default\", expect \"if\"; unexpected \"+=\", expect '?'; unexpected \"case\", expect \"if\"; unexpected \"default\", expect \"if\"; unexpected \"else\", expect \"if\"; unexp...",
+      "user": [0.0441, 0.0415, 0.0438],
+      "sys": [0.001, 0.003, 0.001],
+      "real": [0.0458, 0.0454, 0.0455],
+      "rss_mb": [19.29, 19.32, 19.21]
+    },
+    "Mandreel": {
+      "error": "CRASH: SIGABRT",
+      "user": [0.711, 0.731],
+      "sys": [0.0554, 0.0473],
+      "real": [0.9987, 1.0088],
+      "rss_mb": [38.95, 39.67]
+    },
+    "MandreelLatency": {
+      "error": "CRASH: SIGABRT",
+      "user": [0.711, 0.731],
+      "sys": [0.0554, 0.0473],
+      "real": [0.9987, 1.0088],
+      "rss_mb": [38.95, 39.67]
     }
   }
 }

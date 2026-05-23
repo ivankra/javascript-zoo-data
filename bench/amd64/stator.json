@@ -10,126 +10,126 @@
     "revision_date": "2026-04-02",
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
-  "time": "2026-04-24 04:02:15.655673 UTC",
+  "time": "2026-05-22 12:29:09.584228 UTC",
   "benchmarks": {
-    "Richards": {
+    "NavierStokes": {
       "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0089],
-      "sys": [0.001],
-      "real": [0.0077],
-      "rss_mb": [23.52]
-    },
-    "Crypto": {
-      "error": "CRASH: thread '<unnamed>' panicked at crates/stator_core/src/compiler/maglev/range_analysis.rs:408:37:",
-      "user": [0.0105],
-      "sys": [0.0086],
-      "real": [0.0147],
-      "rss_mb": [23.71]
+      "user": [0.0063],
+      "sys": [0.0021],
+      "real": [0.0068],
+      "rss_mb": [23.5]
     },
     "RegExp": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.011],
-      "sys": [0.0077],
-      "real": [0.0172],
-      "rss_mb": [24.05]
-    },
-    "Gameboy": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0611],
-      "sys": [0.0193],
-      "real": [0.0734],
-      "rss_mb": [41.25]
-    },
-    "Splay": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0056],
-      "sys": [0.0028],
-      "real": [0.0066],
-      "rss_mb": [23.63]
-    },
-    "SplayLatency": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0056],
-      "sys": [0.0028],
-      "real": [0.0066],
-      "rss_mb": [23.63]
-    },
-    "DeltaBlue": {
-      "error": "TypeError: CallProperty: callee is not a function (got Undefined)",
-      "user": [0.0072],
-      "sys": [0.0036],
-      "real": [0.0091],
-      "rss_mb": [23.54]
-    },
-    "NavierStokes": {
       "error": "CRASH: thread '<unnamed>' panicked at crates/stator_core/src/compiler/maglev/range_analysis.rs:408:37:",
-      "user": [0.0056],
-      "sys": [0.0047],
-      "real": [0.0086],
-      "rss_mb": [23.61]
+      "user": [0.0134],
+      "sys": [0.0103],
+      "real": [0.0219],
+      "rss_mb": [23.36]
     },
-    "CodeLoad": {
-      "error": "CRASH: thread '<unnamed>' panicked at crates/stator_core/src/compiler/maglev/range_analysis.rs:408:37:",
-      "user": [0.0048],
-      "sys": [0.0048],
-      "real": [0.0078],
-      "rss_mb": [23.45]
-    },
-    "Typescript": {
-      "error": "InternalError: release_temporary: expected r12, got r8",
-      "user": [0.0912],
-      "sys": [0.028],
-      "real": [0.1194],
-      "rss_mb": [79.82]
-    },
-    "zlib": {
+    "Richards": {
       "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0054],
-      "sys": [0.0036],
-      "real": [0.0073],
-      "rss_mb": [24.11]
+      "user": [0.0043],
+      "sys": [0.0054],
+      "real": [0.0077],
+      "rss_mb": [23.27]
     },
     "RayTrace": {
       "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0087],
-      "sys": [0.0048],
-      "real": [0.0103],
-      "rss_mb": [23.23]
+      "user": [0.0104],
+      "sys": [0.0035],
+      "real": [0.0108],
+      "rss_mb": [23.37]
     },
-    "EarleyBoyer": {
+    "CodeLoad": {
+      "error": "CRASH: thread '<unnamed>' panicked at crates/stator_core/src/compiler/maglev/range_analysis.rs:408:37:",
+      "user": [0.0068],
+      "sys": [0.0023],
+      "real": [0.0072],
+      "rss_mb": [23.06]
+    },
+    "Gameboy": {
       "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.0341],
-      "sys": [0.0211],
-      "real": [0.0432],
-      "rss_mb": [26.63]
-    },
-    "Box2D": {
-      "error": "TypeError: Cannot set properties of undefined (setting 'prototype')",
-      "user": [0.0561],
-      "sys": [0.0184],
-      "real": [0.0693],
-      "rss_mb": [45.96]
+      "user": [0.0598],
+      "sys": [0.0243],
+      "real": [0.0769],
+      "rss_mb": [41.57]
     },
     "Mandreel": {
       "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.9052],
-      "sys": [0.2395],
-      "real": [1.1342],
-      "rss_mb": [682.33]
+      "user": [1.0467],
+      "sys": [0.2826],
+      "real": [1.3158],
+      "rss_mb": [682.58]
     },
     "MandreelLatency": {
       "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
-      "user": [0.9052],
-      "sys": [0.2395],
-      "real": [1.1342],
-      "rss_mb": [682.33]
+      "user": [1.0467],
+      "sys": [0.2826],
+      "real": [1.3158],
+      "rss_mb": [682.58]
     },
     "PdfJS": {
       "error": "SyntaxError: unterminated regular expression literal",
-      "user": [0.0606],
-      "sys": [0.0141],
-      "real": [0.0751],
-      "rss_mb": [31.66]
+      "user": [0.061],
+      "sys": [0.02],
+      "real": [0.0814],
+      "rss_mb": [31.82]
+    },
+    "Splay": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0072],
+      "sys": [0.001],
+      "real": [0.0065],
+      "rss_mb": [23.23]
+    },
+    "SplayLatency": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0072],
+      "sys": [0.001],
+      "real": [0.0065],
+      "rss_mb": [23.23]
+    },
+    "zlib": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'NotifyScore')",
+      "user": [0.0044],
+      "sys": [0.0055],
+      "real": [0.008],
+      "rss_mb": [23.6]
+    },
+    "Box2D": {
+      "error": "TypeError: Cannot set properties of undefined (setting 'prototype')",
+      "user": [0.063],
+      "sys": [0.0264],
+      "real": [0.0839],
+      "rss_mb": [45.62]
+    },
+    "Typescript": {
+      "error": "InternalError: release_temporary: expected r12, got r8",
+      "user": [0.0918],
+      "sys": [0.0309],
+      "real": [0.123],
+      "rss_mb": [79.91]
+    },
+    "Crypto": {
+      "error": "CRASH: thread '<unnamed>' panicked at crates/stator_core/src/compiler/maglev/range_analysis.rs:408:37:",
+      "user": [0.014],
+      "sys": [0.007],
+      "real": [0.0158],
+      "rss_mb": [23.42]
+    },
+    "DeltaBlue": {
+      "error": "TypeError: CallProperty: callee is not a function (got Undefined)",
+      "user": [0.0056],
+      "sys": [0.0046],
+      "real": [0.0085],
+      "rss_mb": [23.12]
+    },
+    "EarleyBoyer": {
+      "error": "CRASH: thread '<unnamed>' panicked at crates/stator_core/src/compiler/maglev/range_analysis.rs:408:37:",
+      "user": [0.0438],
+      "sys": [0.0183],
+      "real": [0.0485],
+      "rss_mb": [27.42]
     }
   }
 }

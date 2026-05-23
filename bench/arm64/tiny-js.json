@@ -2,22 +2,22 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "tiny-js",
-    "binary_sha256": "f10a9ce29db69c6eb3698e7e5679e401baed17ec29a68934555832cff7ebecbb",
+    "binary_sha256": "fad13575907f38cb90488bd4b1d31c947d5ab28ed905bf11bdeaa1c83ace27ab",
     "binary_size": 199560,
-    "cc": "gcc 15.2.0 (Debian 15.2.0-16)",
+    "cc": "gcc 15.2.0 (Debian 15.2.0-17)",
     "engine": "tiny-js",
     "repository": "https://github.com/gfwilliams/tiny-js.git",
     "revision": "821447737f3d2f79139cef97be16f4513dd75099",
     "revision_date": "2026-02-24"
   },
-  "time": "2026-04-24 04:03:19.151612 UTC",
+  "time": "2026-05-22 14:00:24.015621 UTC",
   "benchmarks": {
     "Richards": {
       "error": "FAIL: Expecting 'quit' to be a function",
-      "user": [14.0555],
-      "sys": [0.006],
-      "real": [14.0629],
-      "rss_mb": [22.64]
+      "user": [14.0204],
+      "sys": [0.002],
+      "real": [14.0225],
+      "rss_mb": [22.34]
     }
   }
 }

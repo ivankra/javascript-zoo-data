@@ -2,23 +2,23 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "ngs",
-    "binary_sha256": "ef618eb9b5bb10b722fc3f7f85cc16154435787c73f6817eabc9c80f430b3981",
-    "binary_size": 489832,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "e5e5c69e27df174782b99394554f6577d4a7ec8e096f21a05cd14c647a21146c",
+    "binary_size": 489768,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "ngs",
     "repository": "https://github.com/markkurossi/js.git",
     "revision": "fa7bf821e350ebc5ef3c12e9809db3fd8cba3713",
     "revision_date": "2023-12-05",
     "version": "0.2.5"
   },
-  "time": "2026-04-24 04:29:44.995067 UTC",
+  "time": "2026-05-22 13:21:40.311179 UTC",
   "benchmarks": {
     "Richards": {
       "error": "FAIL: illegal function object in jsr",
-      "user": [1.0227],
-      "sys": [0.003],
-      "real": [1.026],
-      "rss_mb": [22.38]
+      "user": [1.0206],
+      "sys": [0.005],
+      "real": [1.0262],
+      "rss_mb": [22.75]
     }
   }
 }

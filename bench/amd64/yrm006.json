@@ -2,134 +2,134 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "yrm006",
-    "binary_sha256": "d462149fe68d2f79ec16fc5bb37f8590a2d97b45c7d057b7f48336498592b961",
-    "binary_size": 51576,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "4f697fb8e13298a825c7451a1e5ffb2bbcd1bf9aad680f022301662f3cd92977",
+    "binary_size": 51520,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "yrm006",
     "repository": "https://github.com/yrm006/miniscript.git",
     "revision": "a4730b54e8cb519d6b62f9ef3fe3a51e2072f94d",
     "revision_date": "2018-08-29"
   },
-  "time": "2026-04-24 04:45:00.316079 UTC",
+  "time": "2026-05-22 12:30:39.050791 UTC",
   "benchmarks": {
-    "RayTrace": {
-      "error": "EXIT: 1",
-      "user": [0.0018],
-      "sys": [0.0],
-      "real": [0.0024],
-      "rss_mb": [18.97]
+    "zlib": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0],
+      "sys": [0.0024],
+      "real": [0.0718],
+      "rss_mb": [19.52]
     },
     "Splay": {
       "error": "EXIT: 1",
-      "user": [0.001],
-      "sys": [0.001],
-      "real": [0.0026],
-      "rss_mb": [19.19]
+      "user": [0.0],
+      "sys": [0.0021],
+      "real": [0.0028],
+      "rss_mb": [18.82]
     },
     "SplayLatency": {
       "error": "EXIT: 1",
-      "user": [0.001],
-      "sys": [0.001],
-      "real": [0.0026],
-      "rss_mb": [19.19]
-    },
-    "RegExp": {
-      "error": "CRASH: SIGSEGV",
       "user": [0.0],
-      "sys": [0.0028],
-      "real": [0.0902],
-      "rss_mb": [19.33]
-    },
-    "Mandreel": {
-      "error": "CRASH: SIGSEGV",
-      "user": [0.0],
-      "sys": [0.007],
-      "real": [0.0706],
-      "rss_mb": [39.86]
-    },
-    "MandreelLatency": {
-      "error": "CRASH: SIGSEGV",
-      "user": [0.0],
-      "sys": [0.007],
-      "real": [0.0706],
-      "rss_mb": [39.86]
-    },
-    "zlib": {
-      "error": "CRASH: SIGSEGV",
-      "user": [0.0008],
       "sys": [0.0021],
-      "real": [0.0866],
-      "rss_mb": [19.29]
+      "real": [0.0028],
+      "rss_mb": [18.82]
+    },
+    "Gameboy": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0012],
+      "sys": [0.0018],
+      "real": [0.0679],
+      "rss_mb": [20.54]
     },
     "DeltaBlue": {
       "error": "EXIT: 1",
+      "user": [0.001],
+      "sys": [0.001],
+      "real": [0.0033],
+      "rss_mb": [18.89]
+    },
+    "Typescript": {
+      "error": "CRASH: SIGSEGV",
       "user": [0.0011],
-      "sys": [0.0011],
-      "real": [0.0028],
-      "rss_mb": [18.87]
+      "sys": [0.0039],
+      "real": [0.0955],
+      "rss_mb": [28.42]
     },
     "PdfJS": {
       "error": "CRASH: SIGSEGV",
       "user": [0.0],
-      "sys": [0.0037],
-      "real": [0.0861],
-      "rss_mb": [23.81]
-    },
-    "Crypto": {
-      "error": "EXIT: 1",
-      "user": [0.0],
-      "sys": [0.0021],
-      "real": [0.0028],
-      "rss_mb": [19.23]
+      "sys": [0.0039],
+      "real": [0.1274],
+      "rss_mb": [23.77]
     },
     "EarleyBoyer": {
       "error": "CRASH: SIGSEGV",
-      "user": [0.0011],
-      "sys": [0.0018],
-      "real": [0.0717],
-      "rss_mb": [19.24]
+      "user": [0.0],
+      "sys": [0.0027],
+      "real": [0.0747],
+      "rss_mb": [19.1]
     },
-    "Gameboy": {
+    "Mandreel": {
       "error": "CRASH: SIGSEGV",
       "user": [0.0],
-      "sys": [0.0032],
-      "real": [0.0699],
-      "rss_mb": [20.9]
+      "sys": [0.0059],
+      "real": [0.0788],
+      "rss_mb": [39.73]
     },
-    "Box2D": {
+    "MandreelLatency": {
       "error": "CRASH: SIGSEGV",
       "user": [0.0],
-      "sys": [0.0022],
-      "real": [0.0502],
-      "rss_mb": [19.25]
+      "sys": [0.0059],
+      "real": [0.0788],
+      "rss_mb": [39.73]
     },
     "NavierStokes": {
       "error": "EXIT: 1",
       "user": [0.0],
-      "sys": [0.0019],
-      "real": [0.0027],
-      "rss_mb": [19.21]
+      "sys": [0.0021],
+      "real": [0.0029],
+      "rss_mb": [19.08]
     },
-    "Typescript": {
+    "CodeLoad": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0],
+      "sys": [0.003],
+      "real": [0.0936],
+      "rss_mb": [18.84]
+    },
+    "Box2D": {
       "error": "CRASH: SIGSEGV",
       "user": [0.0012],
-      "sys": [0.0028],
-      "real": [0.052],
-      "rss_mb": [28.96]
+      "sys": [0.0012],
+      "real": [0.0513],
+      "rss_mb": [19.21]
+    },
+    "RayTrace": {
+      "error": "EXIT: 1",
+      "user": [0.0],
+      "sys": [0.0017],
+      "real": [0.0025],
+      "rss_mb": [18.62]
+    },
+    "RegExp": {
+      "error": "CRASH: SIGSEGV",
+      "user": [0.0],
+      "sys": [0.0027],
+      "real": [0.0894],
+      "rss_mb": [18.88]
+    },
+    "Crypto": {
+      "error": "EXIT: 1",
+      "user": [0.0],
+      "sys": [0.0025],
+      "real": [0.0034],
+      "rss_mb": [18.96]
     },
     "Richards": {
       "error": "EXIT: 1",
       "user": [0.0],
-      "sys": [0.0022],
-      "real": [0.0032],
-      "rss_mb": [18.91]
-    },
-    "CodeLoad": {
-      "error": "CRASH: SIGSEGV",
-      "user": [0.001],
-      "sys": [0.0015],
-      "real": [0.0894],
-      "rss_mb": [18.97]
+      "sys": [0.0025],
+      "real": [0.0035],
+      "rss_mb": [18.6]
     }
   }
 }

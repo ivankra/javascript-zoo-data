@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "bali",
-    "binary_sha256": "c55680efa80b25f2b63a4fffd1d8738aeb8cdc4870b35ee218d311a97d5b989d",
+    "binary_sha256": "75d9d026a680953558d5236d8e73a8abfce74919571f71748d5af0e774a3f9c4",
     "binary_size": 4756000,
     "engine": "bali",
     "repository": "https://github.com/ferus-web/bali.git",
@@ -10,126 +10,126 @@
     "revision_date": "2025-10-29",
     "version": "0.8.2"
   },
-  "time": "2026-04-24 02:50:45.056099 UTC",
+  "time": "2026-05-22 11:39:24.853080 UTC",
   "benchmarks": {
     "EarleyBoyer": {
       "error": "EXIT: 127",
       "user": [0.0],
-      "sys": [0.0011],
-      "real": [0.0019],
-      "rss_mb": [23.86]
+      "sys": [0.0008],
+      "real": [0.0011],
+      "rss_mb": [23.75]
     },
-    "Mandreel": {
-      "error": "EXIT: 127",
-      "user": [0.0],
-      "sys": [0.0012],
-      "real": [0.0018],
-      "rss_mb": [53.6]
-    },
-    "MandreelLatency": {
-      "error": "EXIT: 127",
-      "user": [0.0],
-      "sys": [0.0012],
-      "real": [0.0018],
-      "rss_mb": [53.6]
-    },
-    "Box2D": {
-      "error": "EXIT: 127",
-      "user": [0.0],
-      "sys": [0.0011],
-      "real": [0.0019],
-      "rss_mb": [23.97]
-    },
-    "PdfJS": {
-      "error": "EXIT: 127",
-      "user": [0.0],
-      "sys": [0.0012],
-      "real": [0.0019],
-      "rss_mb": [31.08]
-    },
-    "RegExp": {
-      "error": "EXIT: 127",
-      "user": [0.0011],
-      "sys": [0.0],
-      "real": [0.0019],
-      "rss_mb": [23.9]
-    },
-    "NavierStokes": {
+    "Crypto": {
       "error": "EXIT: 127",
       "user": [0.0],
       "sys": [0.0009],
-      "real": [0.0256],
-      "rss_mb": [23.57]
+      "real": [0.0011],
+      "rss_mb": [23.25]
     },
     "CodeLoad": {
       "error": "EXIT: 127",
-      "user": [0.0009],
-      "sys": [0.0],
-      "real": [0.0017],
-      "rss_mb": [23.52]
+      "user": [0.0],
+      "sys": [0.0009],
+      "real": [0.0011],
+      "rss_mb": [23.12]
     },
-    "Splay": {
+    "Richards": {
       "error": "EXIT: 127",
       "user": [0.0],
-      "sys": [0.001],
-      "real": [0.0018],
-      "rss_mb": [23.66]
-    },
-    "SplayLatency": {
-      "error": "EXIT: 127",
-      "user": [0.0],
-      "sys": [0.001],
-      "real": [0.0018],
-      "rss_mb": [23.66]
-    },
-    "Gameboy": {
-      "error": "EXIT: 127",
-      "user": [0.0008],
-      "sys": [0.0],
-      "real": [0.0017],
-      "rss_mb": [25.59]
-    },
-    "RayTrace": {
-      "error": "EXIT: 127",
-      "user": [0.0],
-      "sys": [0.0012],
-      "real": [0.0022],
-      "rss_mb": [23.24]
-    },
-    "Typescript": {
-      "error": "EXIT: 127",
-      "user": [0.0],
-      "sys": [0.001],
-      "real": [0.0019],
-      "rss_mb": [33.2]
-    },
-    "zlib": {
-      "error": "EXIT: 127",
-      "user": [0.0],
-      "sys": [0.001],
-      "real": [0.002],
-      "rss_mb": [23.86]
+      "sys": [0.0009],
+      "real": [0.0011],
+      "rss_mb": [23.0]
     },
     "DeltaBlue": {
       "error": "EXIT: 127",
       "user": [0.0],
-      "sys": [0.001],
-      "real": [0.0017],
-      "rss_mb": [23.32]
+      "sys": [0.0008],
+      "real": [0.001],
+      "rss_mb": [23.31]
     },
-    "Crypto": {
+    "Mandreel": {
       "error": "EXIT: 127",
-      "user": [0.001],
-      "sys": [0.0],
-      "real": [0.0019],
-      "rss_mb": [23.78]
+      "user": [0.0],
+      "sys": [0.0009],
+      "real": [0.0011],
+      "rss_mb": [53.08]
     },
-    "Richards": {
+    "MandreelLatency": {
       "error": "EXIT: 127",
-      "user": [0.0008],
+      "user": [0.0],
+      "sys": [0.0009],
+      "real": [0.0011],
+      "rss_mb": [53.08]
+    },
+    "Typescript": {
+      "error": "EXIT: 127",
+      "user": [0.0],
+      "sys": [0.0008],
+      "real": [0.001],
+      "rss_mb": [32.82]
+    },
+    "Splay": {
+      "error": "EXIT: 127",
+      "user": [0.0],
+      "sys": [0.0005],
+      "real": [0.0008],
+      "rss_mb": [23.41]
+    },
+    "SplayLatency": {
+      "error": "EXIT: 127",
+      "user": [0.0],
+      "sys": [0.0005],
+      "real": [0.0008],
+      "rss_mb": [23.41]
+    },
+    "Gameboy": {
+      "error": "EXIT: 127",
+      "user": [0.0],
+      "sys": [0.0008],
+      "real": [0.001],
+      "rss_mb": [24.88]
+    },
+    "zlib": {
+      "error": "EXIT: 127",
+      "user": [0.0009],
       "sys": [0.0],
-      "real": [0.0017],
-      "rss_mb": [23.57]
+      "real": [0.0011],
+      "rss_mb": [23.83]
+    },
+    "RegExp": {
+      "error": "EXIT: 127",
+      "user": [0.0],
+      "sys": [0.0008],
+      "real": [0.001],
+      "rss_mb": [23.47]
+    },
+    "NavierStokes": {
+      "error": "EXIT: 127",
+      "user": [0.0007],
+      "sys": [0.0],
+      "real": [0.0008],
+      "rss_mb": [23.45]
+    },
+    "Box2D": {
+      "error": "EXIT: 127",
+      "user": [0.0],
+      "sys": [0.0009],
+      "real": [0.0011],
+      "rss_mb": [23.54]
+    },
+    "PdfJS": {
+      "error": "EXIT: 127",
+      "user": [0.0009],
+      "sys": [0.0],
+      "real": [0.0011],
+      "rss_mb": [30.19]
+    },
+    "RayTrace": {
+      "error": "EXIT: 127",
+      "user": [0.0],
+      "sys": [0.0013],
+      "real": [0.0023],
+      "rss_mb": [23.21]
     }
   }
 }

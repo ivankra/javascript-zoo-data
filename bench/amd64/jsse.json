@@ -2,135 +2,136 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jsse",
-    "binary_sha256": "c5b0057512441c85466211312bef8c1d012f53757cb74ff3a4aa3221b6f3d7f3",
-    "binary_size": 22302568,
+    "binary_sha256": "f823ecacf7f20ae9c7757f5079c69aa210bdbadbc80656c4ef90524de639a24b",
+    "binary_size": 22219848,
     "engine": "jsse",
     "repository": "https://github.com/pmatos/jsse.git",
-    "revision": "78b95414de39af2b956d02a43d982f80c28f72a8",
-    "revision_date": "2026-04-21",
-    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
+    "revision": "52fa9405ff400e3db08bbc2913ada400f149a6a9",
+    "revision_date": "2026-05-21",
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)",
+    "version": "perf-2026-05-07-36-g52fa940"
   },
   "flags": [{"if": "flags:CanBlockIsTrue", "then": "--can-block"}, {"if": "flags:module", "then": "--module"}],
-  "time": "2026-04-24 03:49:50.922302 UTC",
+  "time": "2026-05-22 12:13:13.988022 UTC",
   "benchmarks": {
-    "PdfJS": {
-      "error": "FAIL: No scores in the output",
-      "user": [40.2454],
-      "sys": [0.122],
-      "real": [40.3729],
-      "rss_mb": [292.75]
-    },
-    "Box2D": {
-      "score": [99.6],
-      "user": [43.6221],
-      "sys": [0.064],
-      "real": [43.6985],
-      "rss_mb": [120.92]
-    },
-    "Richards": {
-      "score": [27.4, 21.7],
-      "user": [5.2611, 6.6781],
-      "sys": [0.01, 0.019],
-      "real": [5.2719, 6.6981],
-      "rss_mb": [33.01, 32.91]
-    },
     "RegExp": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.4627],
-      "sys": [0.414],
-      "real": [1800.1026],
-      "rss_mb": [94.07]
+      "score": [26.3],
+      "user": [62.4776],
+      "sys": [0.23],
+      "real": [62.7154],
+      "rss_mb": [57.34]
     },
     "zlib": {
       "error": "TIMEOUT: >1800s",
-      "user": [1799.7978],
-      "sys": [0.107],
-      "real": [1800.0415],
-      "rss_mb": [93.09]
+      "user": [1799.7592],
+      "sys": [0.111],
+      "real": [1800.1022],
+      "rss_mb": [81.17]
     },
-    "CodeLoad": {
-      "score": [1551],
-      "user": [2.012],
-      "sys": [0.045],
-      "real": [2.0576],
-      "rss_mb": [112.18]
-    },
-    "Splay": {
-      "score": [3.68],
-      "user": [169.4961],
-      "sys": [2.0238],
-      "real": [171.5529],
-      "rss_mb": [3174.8]
-    },
-    "SplayLatency": {
-      "score": [40.8],
-      "user": [169.4961],
-      "sys": [2.0238],
-      "real": [171.5529],
-      "rss_mb": [3174.8]
+    "PdfJS": {
+      "score": [134],
+      "user": [31.8878],
+      "sys": [0.1],
+      "real": [31.994],
+      "rss_mb": [185.91]
     },
     "Gameboy": {
-      "score": [184],
-      "user": [58.4988],
-      "sys": [0.147],
-      "real": [58.653],
-      "rss_mb": [290.68]
+      "score": [168],
+      "user": [62.8113],
+      "sys": [0.064],
+      "real": [62.8903],
+      "rss_mb": [87.1]
     },
-    "EarleyBoyer": {
-      "score": [28.8],
-      "user": [390.2334],
-      "sys": [0.139],
-      "real": [390.4693],
-      "rss_mb": [267.17]
+    "NavierStokes": {
+      "score": [57.3],
+      "user": [44.1244],
+      "sys": [0.036],
+      "real": [44.1686],
+      "rss_mb": [34.68]
+    },
+    "Box2D": {
+      "score": [94.1],
+      "user": [46.2131],
+      "sys": [0.083],
+      "real": [46.3024],
+      "rss_mb": [87.97]
+    },
+    "Mandreel": {
+      "score": [17.9],
+      "user": [451.031],
+      "sys": [0.225],
+      "real": [451.3076],
+      "rss_mb": [542.56]
+    },
+    "MandreelLatency": {
+      "score": [171],
+      "user": [451.031],
+      "sys": [0.225],
+      "real": [451.3076],
+      "rss_mb": [542.56]
+    },
+    "CodeLoad": {
+      "score": [3925],
+      "user": [3.1172],
+      "sys": [0.129],
+      "real": [3.2471],
+      "rss_mb": [253.39]
+    },
+    "DeltaBlue": {
+      "score": [18.2],
+      "user": [13.0633],
+      "sys": [0.012],
+      "real": [13.077],
+      "rss_mb": [27.19]
+    },
+    "RayTrace": {
+      "score": [62.6],
+      "user": [38.9729],
+      "sys": [0.034],
+      "real": [39.0151],
+      "rss_mb": [28.29]
+    },
+    "Crypto": {
+      "score": [38.6, 35.7],
+      "user": [108.4443, 116.5527],
+      "sys": [0.019, 0.039],
+      "real": [108.4849, 116.6129],
+      "rss_mb": [48.64, 48.42]
+    },
+    "Richards": {
+      "score": [21.6],
+      "user": [6.6664],
+      "sys": [0.006],
+      "real": [6.6742],
+      "rss_mb": [24.27]
+    },
+    "Splay": {
+      "score": [7.76],
+      "user": [81.7017],
+      "sys": [1.1149],
+      "real": [82.8381],
+      "rss_mb": [1989.78]
+    },
+    "SplayLatency": {
+      "score": [85.3],
+      "user": [81.7017],
+      "sys": [1.1149],
+      "real": [82.8381],
+      "rss_mb": [1989.78]
     },
     "Typescript": {
       "error": "TIMEOUT: >1800s",
-      "user": [1581.8043, 1617.547],
-      "sys": [218.1067, 182.2781],
-      "real": [1800.158, 1800.1473],
-      "rss_mb": [1944.12, 1943.16]
+      "user": [1798.9884],
+      "sys": [0.7049],
+      "real": [1800.0182],
+      "rss_mb": [1363.65]
     },
-    "Crypto": {
-      "score": [45.4, 41.8],
-      "user": [91.5123, 99.0263],
-      "sys": [0.02, 0.047],
-      "real": [91.5498, 99.0863],
-      "rss_mb": [57.6, 57.43]
-    },
-    "Mandreel": {
-      "score": [19.7],
-      "user": [411.2748],
-      "sys": [0.187],
-      "real": [411.5143],
-      "rss_mb": [525.07]
-    },
-    "MandreelLatency": {
-      "score": [213],
-      "user": [411.2748],
-      "sys": [0.187],
-      "real": [411.5143],
-      "rss_mb": [525.07]
-    },
-    "NavierStokes": {
-      "score": [57.9],
-      "user": [43.7518],
-      "sys": [0.075],
-      "real": [43.832],
-      "rss_mb": [133.67]
-    },
-    "DeltaBlue": {
-      "score": [19.5],
-      "user": [12.1998],
-      "sys": [0.025],
-      "real": [12.2266],
-      "rss_mb": [36.95]
-    },
-    "RayTrace": {
-      "score": [61.6],
-      "user": [39.7145],
-      "sys": [0.011],
-      "real": [39.7353],
-      "rss_mb": [36.17]
+    "EarleyBoyer": {
+      "score": [29.5],
+      "user": [364.6366],
+      "sys": [0.099],
+      "real": [364.8103],
+      "rss_mb": [145.32]
     }
   }
 }

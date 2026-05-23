@@ -8,126 +8,126 @@
     "revision": "3d328305436e3d592a3e584c8329b33012c77c96",
     "revision_date": "2022-06-06"
   },
-  "time": "2026-04-24 03:51:36.836394 UTC",
+  "time": "2026-05-22 12:15:17.121779 UTC",
   "benchmarks": {
-    "NavierStokes": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.0565],
-      "sys": [0.0146],
-      "real": [0.0563],
-      "rss_mb": [54.31]
-    },
-    "RegExp": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.0938],
-      "sys": [0.0216],
-      "real": [0.0818],
-      "rss_mb": [82.59]
-    },
     "RayTrace": {
       "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.0551],
-      "sys": [0.0266],
-      "real": [0.0657],
-      "rss_mb": [63.01]
+      "user": [0.06],
+      "sys": [0.0224],
+      "real": [0.0663],
+      "rss_mb": [64.75]
     },
-    "Box2D": {
+    "NavierStokes": {
       "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.2628],
-      "sys": [0.0495],
-      "real": [0.1943],
-      "rss_mb": [138.0]
-    },
-    "Richards": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.0513],
-      "sys": [0.0226],
-      "real": [0.0643],
-      "rss_mb": [53.84]
-    },
-    "Typescript": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.4713],
-      "sys": [0.0852],
-      "real": [0.366],
-      "rss_mb": [231.23]
-    },
-    "EarleyBoyer": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.139],
-      "sys": [0.0322],
-      "real": [0.1152],
-      "rss_mb": [92.88]
-    },
-    "DeltaBlue": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.0533],
-      "sys": [0.0188],
-      "real": [0.0576],
-      "rss_mb": [55.74]
-    },
-    "CodeLoad": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.071],
-      "sys": [0.0185],
-      "real": [0.0622],
-      "rss_mb": [61.51]
-    },
-    "Gameboy": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.2528],
-      "sys": [0.0594],
-      "real": [0.1849],
-      "rss_mb": [123.12]
-    },
-    "Splay": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.0533],
-      "sys": [0.0171],
-      "real": [0.0563],
-      "rss_mb": [54.2]
-    },
-    "SplayLatency": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.0533],
-      "sys": [0.0171],
-      "real": [0.0563],
-      "rss_mb": [54.2]
-    },
-    "Mandreel": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [2.535],
-      "sys": [0.4091],
-      "real": [2.1161],
-      "rss_mb": [1221.04]
-    },
-    "MandreelLatency": {
-      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [2.535],
-      "sys": [0.4091],
-      "real": [2.1161],
-      "rss_mb": [1221.04]
+      "user": [0.0534],
+      "sys": [0.0257],
+      "real": [0.0648],
+      "rss_mb": [57.84]
     },
     "zlib": {
       "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":18,\"column\":18},\"end\":{\"line\":18,\"column\":22}},\"range\":[782,786],\"type\":\"GetValue\",\"name\":\"this\"},\"script\":{\"source\":\"// Single self-conta...",
-      "user": [0.0577],
-      "sys": [0.0129],
-      "real": [0.0556],
-      "rss_mb": [59.72]
+      "user": [0.0615],
+      "sys": [0.0177],
+      "real": [0.0627],
+      "rss_mb": [63.12]
+    },
+    "Mandreel": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [2.5166],
+      "sys": [0.4096],
+      "real": [1.7517],
+      "rss_mb": [1174.3]
+    },
+    "MandreelLatency": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [2.5166],
+      "sys": [0.4096],
+      "real": [1.7517],
+      "rss_mb": [1174.3]
+    },
+    "EarleyBoyer": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.1469],
+      "sys": [0.0399],
+      "real": [0.1203],
+      "rss_mb": [96.23]
+    },
+    "Typescript": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.4198],
+      "sys": [0.1047],
+      "real": [0.3432],
+      "rss_mb": [244.1]
+    },
+    "Gameboy": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.244],
+      "sys": [0.0635],
+      "real": [0.1808],
+      "rss_mb": [130.09]
+    },
+    "Box2D": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.2517],
+      "sys": [0.0576],
+      "real": [0.1952],
+      "rss_mb": [138.96]
     },
     "Crypto": {
       "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
-      "user": [0.0829],
-      "sys": [0.0241],
-      "real": [0.0825],
-      "rss_mb": [68.92]
+      "user": [0.0785],
+      "sys": [0.0339],
+      "real": [0.0859],
+      "rss_mb": [73.49]
+    },
+    "CodeLoad": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0679],
+      "sys": [0.0138],
+      "real": [0.0592],
+      "rss_mb": [63.01]
     },
     "PdfJS": {
       "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":11,\"column\":11},\"end\":{\"line\":11,\"column\":17}},\"range\":[473,479],\"type\":\"GetValue\",\"name\":\"String\"},\"script\":{\"source\":\"// Single self-con...",
-      "user": [0.5717],
-      "sys": [0.0899],
-      "real": [0.3846],
-      "rss_mb": [271.14]
+      "user": [0.6317],
+      "sys": [0.1235],
+      "real": [0.476],
+      "rss_mb": [281.27]
+    },
+    "RegExp": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.1062],
+      "sys": [0.0312],
+      "real": [0.0923],
+      "rss_mb": [83.23]
+    },
+    "Richards": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.054],
+      "sys": [0.0147],
+      "real": [0.0594],
+      "rss_mb": [56.33]
+    },
+    "Splay": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0523],
+      "sys": [0.0237],
+      "real": [0.0644],
+      "rss_mb": [54.49]
+    },
+    "SplayLatency": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0523],
+      "sys": [0.0237],
+      "real": [0.0644],
+      "rss_mb": [54.49]
+    },
+    "DeltaBlue": {
+      "error": "FAIL: {\"type\":\"Error\",\"value\":{},\"location\":{\"loc\":{\"start\":{\"line\":43,\"column\":18},\"end\":{\"line\":43,\"column\":29}},\"range\":[2259,2270],\"type\":\"GetValue\",\"name\":\"performance\"},\"script\":{\"source\":\"// Single s...",
+      "user": [0.0581],
+      "sys": [0.0173],
+      "real": [0.0632],
+      "rss_mb": [58.11]
     }
   }
 }

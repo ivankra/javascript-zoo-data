@@ -2,134 +2,134 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "duktape_clang",
-    "binary_sha256": "4ee8ab8060b841ed52bb5ea82e518643018016108e88a1e7711d151a93954b8d",
+    "binary_sha256": "68590fc551110e833825daffb4810733b1d3af3ebbb980bed3c06574f5a04021",
     "binary_size": 748544,
-    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "cc": "clang 23.0.0 (++20260517082933+46c1fa8d1759-1~exp1~20260517203058.557)",
     "engine": "duktape",
     "repository": "https://github.com/svaarala/duktape.git",
     "revision": "50af773b1b32067170786c2b7c661705ec7425d4",
     "revision_date": "2024-01-29"
   },
-  "time": "2026-04-24 02:51:48.340235 UTC",
+  "time": "2026-05-22 11:40:30.413416 UTC",
   "benchmarks": {
-    "RegExp": {
-      "score": [233],
-      "user": [8.6918],
-      "sys": [0.004],
-      "real": [8.6976],
-      "rss_mb": [23.71]
+    "Gameboy": {
+      "score": [3505],
+      "user": [3.8612],
+      "sys": [0.064],
+      "real": [3.9263],
+      "rss_mb": [25.05]
     },
     "Box2D": {
-      "score": [2116, 1920],
-      "user": [2.0815, 2.2912],
-      "sys": [0.007, 0.006],
-      "real": [2.0891, 2.2977],
-      "rss_mb": [23.83, 24.0]
-    },
-    "EarleyBoyer": {
-      "score": [826, 934],
-      "user": [12.3831, 11.667],
-      "sys": [0.021, 0.023],
-      "real": [12.4079, 11.6931],
-      "rss_mb": [23.95, 23.97]
-    },
-    "Crypto": {
-      "score": [825],
-      "user": [7.5814],
-      "sys": [0.0],
-      "real": [7.5821],
-      "rss_mb": [23.61]
-    },
-    "RayTrace": {
-      "score": [947],
-      "user": [4.0704],
-      "sys": [0.001],
-      "real": [4.0719],
-      "rss_mb": [23.59]
-    },
-    "CodeLoad": {
-      "score": [12722],
-      "user": [2.3634],
-      "sys": [0.078],
-      "real": [2.4419],
-      "rss_mb": [118.39]
-    },
-    "zlib": {
-      "score": [814, 766],
-      "user": [187.5961, 199.3466],
-      "sys": [0.018, 0.019],
-      "real": [187.6354, 199.3844],
-      "rss_mb": [132.5, 132.4]
-    },
-    "Richards": {
-      "score": [393],
-      "user": [2.0153],
-      "sys": [0.002],
-      "real": [2.0177],
-      "rss_mb": [23.61]
-    },
-    "Splay": {
-      "score": [1589],
-      "user": [2.5498],
-      "sys": [0.057],
-      "real": [2.6073],
-      "rss_mb": [152.66]
-    },
-    "SplayLatency": {
-      "score": [3254],
-      "user": [2.5498],
-      "sys": [0.057],
-      "real": [2.6073],
-      "rss_mb": [152.66]
-    },
-    "Mandreel": {
-      "error": "RangeError: const limit (line 240552)",
-      "user": [0.2955],
-      "sys": [0.01],
-      "real": [0.3058],
-      "rss_mb": [53.76]
-    },
-    "MandreelLatency": {
-      "error": "RangeError: const limit (line 240552)",
-      "user": [0.2955],
-      "sys": [0.01],
-      "real": [0.3058],
-      "rss_mb": [53.76]
-    },
-    "DeltaBlue": {
-      "score": [444],
-      "user": [2.0137],
-      "sys": [0.009],
-      "real": [2.0235],
-      "rss_mb": [23.66]
+      "score": [1952],
+      "user": [2.2547],
+      "sys": [0.004],
+      "real": [2.2601],
+      "rss_mb": [23.98]
     },
     "PdfJS": {
-      "score": [509],
-      "user": [31.1121],
-      "sys": [0.028],
-      "real": [31.1436],
-      "rss_mb": [39.25]
+      "score": [519],
+      "user": [27.6792],
+      "sys": [0.023],
+      "real": [27.7065],
+      "rss_mb": [39.34]
     },
-    "Gameboy": {
-      "score": [4109],
-      "user": [3.3979],
-      "sys": [0.038],
-      "real": [3.4364],
-      "rss_mb": [25.08]
+    "EarleyBoyer": {
+      "score": [894],
+      "user": [11.5889],
+      "sys": [0.026],
+      "real": [11.6166],
+      "rss_mb": [23.6]
+    },
+    "RayTrace": {
+      "score": [971],
+      "user": [4.2813],
+      "sys": [0.001],
+      "real": [4.283],
+      "rss_mb": [23.12]
+    },
+    "Splay": {
+      "score": [1358],
+      "user": [2.6139],
+      "sys": [0.049],
+      "real": [2.6634],
+      "rss_mb": [152.86]
+    },
+    "SplayLatency": {
+      "score": [2674],
+      "user": [2.6139],
+      "sys": [0.049],
+      "real": [2.6634],
+      "rss_mb": [152.86]
     },
     "NavierStokes": {
-      "score": [1096, 1159],
-      "user": [3.2531, 3.0905],
-      "sys": [0.006, 0.002],
-      "real": [3.2599, 3.0929],
-      "rss_mb": [23.7, 23.98]
+      "score": [1088],
+      "user": [3.2717],
+      "sys": [0.004],
+      "real": [3.2764],
+      "rss_mb": [23.05]
+    },
+    "RegExp": {
+      "score": [233],
+      "user": [8.6226],
+      "sys": [0.002],
+      "real": [8.6266],
+      "rss_mb": [23.71]
     },
     "Typescript": {
       "error": "TypeError: undefined not callable",
-      "user": [0.0751],
-      "sys": [0.005],
-      "real": [0.0803],
-      "rss_mb": [33.35]
+      "user": [0.0715, 0.0787],
+      "sys": [0.0099, 0.004],
+      "real": [0.0817, 0.083],
+      "rss_mb": [32.96, 33.14]
+    },
+    "Mandreel": {
+      "error": "RangeError: const limit (line 240552)",
+      "user": [0.2842, 0.3126],
+      "sys": [0.008, 0.007],
+      "real": [0.2925, 0.32],
+      "rss_mb": [53.42, 53.32]
+    },
+    "MandreelLatency": {
+      "error": "RangeError: const limit (line 240552)",
+      "user": [0.2842, 0.3126],
+      "sys": [0.008, 0.007],
+      "real": [0.2925, 0.32],
+      "rss_mb": [53.42, 53.32]
+    },
+    "Richards": {
+      "score": [385],
+      "user": [2.0126],
+      "sys": [0.0],
+      "real": [2.013],
+      "rss_mb": [23.33]
+    },
+    "CodeLoad": {
+      "score": [11775],
+      "user": [2.2819],
+      "sys": [0.057],
+      "real": [2.3395],
+      "rss_mb": [124.21]
+    },
+    "Crypto": {
+      "score": [854],
+      "user": [7.3809],
+      "sys": [0.001],
+      "real": [7.383],
+      "rss_mb": [23.38]
+    },
+    "zlib": {
+      "score": [821],
+      "user": [186.1335],
+      "sys": [0.009],
+      "real": [186.161],
+      "rss_mb": [132.46]
+    },
+    "DeltaBlue": {
+      "score": [432, 443],
+      "user": [2.0171, 2.0031],
+      "sys": [0.007, 0.008],
+      "real": [2.025, 2.0115],
+      "rss_mb": [23.33, 23.17]
     }
   }
 }

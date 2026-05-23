@@ -2,133 +2,133 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "engine262",
-    "dist_size": 3976864,
+    "dist_size": 4019411,
     "engine": "engine262",
     "repository": "https://github.com/engine262/engine262.git",
-    "revision": "e23ee39900d3dee972182c98455752d1f578219f",
-    "revision_date": "2026-04-22"
+    "revision": "48fe86658456ac50849dd4caae64a2ee8d2a329c",
+    "revision_date": "2026-05-22"
   },
   "flags": ["--features=all", {"if": "flags:module", "then": "--module"}],
-  "time": "2026-04-24 02:51:58.357797 UTC",
+  "time": "2026-05-22 11:40:35.639629 UTC",
   "benchmarks": {
-    "Gameboy": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1813.6615],
-      "sys": [1.3266],
-      "real": [1800.1512],
-      "rss_mb": [747.7]
+    "Box2D": {
+      "score": [2.62],
+      "user": [1720.3188],
+      "sys": [4.4321],
+      "real": [1660.7347],
+      "rss_mb": [586.91]
+    },
+    "RegExp": {
+      "score": [1.08],
+      "user": [1610.3924],
+      "sys": [9.6188],
+      "real": [1534.6796],
+      "rss_mb": [413.96]
+    },
+    "DeltaBlue": {
+      "score": [0.577],
+      "user": [390.2346],
+      "sys": [1.8222],
+      "real": [377.8429],
+      "rss_mb": [291.21]
     },
     "EarleyBoyer": {
       "error": "TIMEOUT: >1800s",
-      "user": [1830.5546],
-      "sys": [1.7567],
-      "real": [1800.0577],
-      "rss_mb": [666.45]
-    },
-    "Typescript": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1848.6627],
-      "sys": [2.2432],
-      "real": [1800.1125],
-      "rss_mb": [1450.42]
-    },
-    "RayTrace": {
-      "score": [1.54],
-      "user": [1615.3211],
-      "sys": [1.2126],
-      "real": [1590.3804],
-      "rss_mb": [382.62]
-    },
-    "Mandreel": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1825.4957],
-      "sys": [3.0636],
-      "real": [1800.2065],
-      "rss_mb": [2631.24]
-    },
-    "MandreelLatency": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1825.4957],
-      "sys": [3.0636],
-      "real": [1800.2065],
-      "rss_mb": [2631.24]
-    },
-    "RegExp": {
-      "score": [1.05],
-      "user": [1643.5871],
-      "sys": [1.5439],
-      "real": [1578.343],
-      "rss_mb": [523.61]
-    },
-    "NavierStokes": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1807.9345],
-      "sys": [1.5434],
-      "real": [1800.0641],
-      "rss_mb": [433.15]
-    },
-    "CodeLoad": {
-      "score": [411],
-      "user": [10.6273],
-      "sys": [0.7423],
-      "real": [7.652],
-      "rss_mb": [854.42]
+      "user": [1843.1296],
+      "sys": [6.0773],
+      "real": [1800.1356],
+      "rss_mb": [581.93]
     },
     "zlib": {
       "error": "TIMEOUT: >1800s",
-      "user": [1801.9162],
-      "sys": [1.4723],
-      "real": [1800.0664],
-      "rss_mb": [540.94]
+      "user": [1806.6573],
+      "sys": [3.7127],
+      "real": [1800.1406],
+      "rss_mb": [521.18]
     },
-    "DeltaBlue": {
-      "score": [0.489, 0.573],
-      "user": [457.8896, 390.5438],
-      "sys": [0.6687, 0.9118],
-      "real": [446.8377, 381.0636],
-      "rss_mb": [381.92, 382.38]
+    "Typescript": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1902.2091],
+      "sys": [6.2173],
+      "real": [1800.1877],
+      "rss_mb": [1398.77]
     },
-    "Box2D": {
-      "score": [2.76],
-      "user": [1592.9251],
-      "sys": [1.6497],
-      "real": [1575.9146],
-      "rss_mb": [694.47]
+    "NavierStokes": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1813.1635],
+      "sys": [2.9415],
+      "real": [1800.0635],
+      "rss_mb": [327.62]
     },
     "Crypto": {
       "error": "TIMEOUT: >1800s",
-      "user": [1804.927],
-      "sys": [1.0998],
-      "real": [1800.0906],
-      "rss_mb": [360.03]
-    },
-    "PdfJS": {
-      "score": [3.32],
-      "user": [1313.1006],
-      "sys": [1.679],
-      "real": [1298.7187],
-      "rss_mb": [1213.7]
+      "user": [1809.2524],
+      "sys": [4.0182],
+      "real": [1800.0786],
+      "rss_mb": [271.75]
     },
     "Splay": {
-      "score": [3.11],
-      "user": [324.8005],
-      "sys": [1.5403],
-      "real": [311.618],
-      "rss_mb": [1361.04]
+      "score": [3.65],
+      "user": [278.2077],
+      "sys": [2.0168],
+      "real": [263.4059],
+      "rss_mb": [1234.25]
     },
     "SplayLatency": {
-      "score": [30.5],
-      "user": [324.8005],
-      "sys": [1.5403],
-      "real": [311.618],
-      "rss_mb": [1361.04]
+      "score": [35.9],
+      "user": [278.2077],
+      "sys": [2.0168],
+      "real": [263.4059],
+      "rss_mb": [1234.25]
+    },
+    "Gameboy": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1816.8233],
+      "sys": [8.6522],
+      "real": [1800.124],
+      "rss_mb": [615.07]
+    },
+    "PdfJS": {
+      "score": [3.82],
+      "user": [1145.048],
+      "sys": [4.9852],
+      "real": [1129.0194],
+      "rss_mb": [1123.0]
+    },
+    "CodeLoad": {
+      "score": [432, 412],
+      "user": [9.9691, 9.9933],
+      "sys": [0.4704, 0.5779],
+      "real": [7.3312, 7.3441],
+      "rss_mb": [767.63, 739.41]
+    },
+    "Mandreel": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1853.3156],
+      "sys": [3.9842],
+      "real": [1800.2078],
+      "rss_mb": [2269.11]
+    },
+    "MandreelLatency": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1853.3156],
+      "sys": [3.9842],
+      "real": [1800.2078],
+      "rss_mb": [2269.11]
     },
     "Richards": {
-      "score": [0.529],
-      "user": [225.0422],
-      "sys": [0.4855],
-      "real": [220.9543],
-      "rss_mb": [371.24]
+      "score": [0.555],
+      "user": [215.4533],
+      "sys": [0.869],
+      "real": [210.586],
+      "rss_mb": [270.05]
+    },
+    "RayTrace": {
+      "score": [1.78],
+      "user": [1403.269],
+      "sys": [7.1756],
+      "real": [1374.1745],
+      "rss_mb": [281.89]
     }
   }
 }

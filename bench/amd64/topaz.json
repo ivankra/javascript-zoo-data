@@ -3,133 +3,133 @@
     "arch": "amd64",
     "binary_name": "topaz",
     "dist_size": 665785,
-    "dotnet": "10.0.203",
+    "dotnet": "10.0.300",
     "engine": "topaz",
     "repository": "https://github.com/koculu/Topaz.git",
     "revision": "03ef33706098e87e6272a43037fe44b78060f63d",
     "revision_date": "2024-11-14",
     "version": "1.4.1"
   },
-  "time": "2026-04-24 04:04:29.746713 UTC",
+  "time": "2026-05-22 12:29:15.145601 UTC",
   "benchmarks": {
-    "Gameboy": {
+    "CodeLoad": {
       "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1991],
-      "sys": [0.0378],
-      "real": [0.2366],
-      "rss_mb": [63.34]
+      "user": [0.1228],
+      "sys": [0.0194],
+      "real": [0.1439],
+      "rss_mb": [45.39]
     },
     "EarleyBoyer": {
       "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1445],
-      "sys": [0.0228],
-      "real": [0.1694],
-      "rss_mb": [53.05]
-    },
-    "Typescript": {
-      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.2865],
-      "sys": [0.0395],
-      "real": [0.3246],
-      "rss_mb": [76.31]
-    },
-    "CodeLoad": {
-      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1302],
-      "sys": [0.0309],
-      "real": [0.1637],
-      "rss_mb": [45.35]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: Undefined label \"_11\"",
-      "user": [0.2933],
+      "user": [0.1401],
       "sys": [0.0389],
-      "real": [0.3291],
-      "rss_mb": [74.86]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: Undefined label \"_11\"",
-      "user": [0.2933],
-      "sys": [0.0389],
-      "real": [0.3291],
-      "rss_mb": [74.86]
-    },
-    "RegExp": {
-      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1503],
-      "sys": [0.038],
-      "real": [0.1997],
-      "rss_mb": [51.07]
-    },
-    "RayTrace": {
-      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1275],
-      "sys": [0.0291],
-      "real": [0.1595],
-      "rss_mb": [45.3]
-    },
-    "Richards": {
-      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1294],
-      "sys": [0.0281],
-      "real": [0.1578],
-      "rss_mb": [44.28]
-    },
-    "Splay": {
-      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1221],
-      "sys": [0.0308],
-      "real": [0.1528],
-      "rss_mb": [43.71]
-    },
-    "SplayLatency": {
-      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1221],
-      "sys": [0.0308],
-      "real": [0.1528],
-      "rss_mb": [43.71]
+      "real": [0.1788],
+      "rss_mb": [53.17]
     },
     "DeltaBlue": {
       "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1305],
-      "sys": [0.0305],
-      "real": [0.1672],
-      "rss_mb": [44.45]
+      "user": [0.1207],
+      "sys": [0.0321],
+      "real": [0.1536],
+      "rss_mb": [44.55]
     },
-    "NavierStokes": {
+    "Gameboy": {
       "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1059],
-      "sys": [0.0294],
-      "real": [0.1361],
-      "rss_mb": [44.58]
-    },
-    "zlib": {
-      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1227],
-      "sys": [0.0233],
-      "real": [0.1459],
-      "rss_mb": [47.27]
+      "user": [0.1799],
+      "sys": [0.038],
+      "real": [0.2176],
+      "rss_mb": [63.39]
     },
     "Box2D": {
       "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1863],
-      "sys": [0.0397],
-      "real": [0.2399],
-      "rss_mb": [70.61]
+      "user": [0.1931],
+      "sys": [0.0367],
+      "real": [0.2313],
+      "rss_mb": [62.11]
+    },
+    "Splay": {
+      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
+      "user": [0.1161],
+      "sys": [0.0332],
+      "real": [0.1492],
+      "rss_mb": [44.46]
+    },
+    "SplayLatency": {
+      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
+      "user": [0.1161],
+      "sys": [0.0332],
+      "real": [0.1492],
+      "rss_mb": [44.46]
+    },
+    "RegExp": {
+      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
+      "user": [0.1607],
+      "sys": [0.0402],
+      "real": [0.2619],
+      "rss_mb": [49.59]
     },
     "Crypto": {
       "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.1404],
-      "sys": [0.0384],
-      "real": [0.1942],
-      "rss_mb": [47.07]
+      "user": [0.1347],
+      "sys": [0.0368],
+      "real": [0.1724],
+      "rss_mb": [46.78]
+    },
+    "Richards": {
+      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
+      "user": [0.118],
+      "sys": [0.03],
+      "real": [0.1494],
+      "rss_mb": [44.23]
+    },
+    "Typescript": {
+      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
+      "user": [0.2772],
+      "sys": [0.0507],
+      "real": [0.3261],
+      "rss_mb": [75.77]
+    },
+    "zlib": {
+      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
+      "user": [0.1379],
+      "sys": [0.022],
+      "real": [0.1598],
+      "rss_mb": [47.23]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: Undefined label \"_11\"",
+      "user": [0.3805],
+      "sys": [0.0451],
+      "real": [0.3845],
+      "rss_mb": [77.42]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: Undefined label \"_11\"",
+      "user": [0.3805],
+      "sys": [0.0451],
+      "real": [0.3845],
+      "rss_mb": [77.42]
     },
     "PdfJS": {
       "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
-      "user": [0.3844],
-      "sys": [0.0485],
-      "real": [0.4337],
-      "rss_mb": [87.15]
+      "user": [0.3723],
+      "sys": [0.0687],
+      "real": [0.4488],
+      "rss_mb": [86.04]
+    },
+    "NavierStokes": {
+      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
+      "user": [0.1197],
+      "sys": [0.0235],
+      "real": [0.1493],
+      "rss_mb": [43.58]
+    },
+    "RayTrace": {
+      "error": "FAIL: Cannot set object member Tenray.Topaz.TopazFunction.suites = Tenray.Topaz.API.JsArray",
+      "user": [0.132],
+      "sys": [0.0259],
+      "real": [0.1577],
+      "rss_mb": [44.91]
     }
   }
 }

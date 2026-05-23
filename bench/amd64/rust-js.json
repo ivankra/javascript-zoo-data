@@ -10,126 +10,126 @@
     "revision_date": "2015-07-19",
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
-  "time": "2026-04-24 03:54:43.252077 UTC",
+  "time": "2026-05-22 12:27:51.928490 UTC",
   "benchmarks": {
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0688],
-      "sys": [0.004],
-      "real": [0.073],
-      "rss_mb": [27.55]
-    },
-    "PdfJS": {
-      "error": "ReferenceError",
-      "user": [0.3174],
-      "sys": [0.012],
-      "real": [0.3297],
-      "rss_mb": [111.67]
-    },
-    "Richards": {
-      "score": [21.6],
-      "user": [6.8696],
-      "sys": [0.003],
-      "real": [6.8737],
-      "rss_mb": [40.21]
-    },
-    "RayTrace": {
-      "score": [78.5],
-      "user": [32.0214],
-      "sys": [0.007],
-      "real": [32.034],
-      "rss_mb": [40.34]
-    },
-    "Crypto": {
-      "score": [15],
-      "user": [265.448],
-      "sys": [0.012],
-      "real": [265.4788],
-      "rss_mb": [44.45]
-    },
     "Typescript": {
       "error": "SyntaxError: Cannot parse expression, got Divide",
-      "user": [0.0484],
-      "sys": [0.0069],
-      "real": [0.0557],
-      "rss_mb": [33.36]
+      "user": [0.0393],
+      "sys": [0.0091],
+      "real": [0.0486],
+      "rss_mb": [32.72]
     },
-    "NavierStokes": {
-      "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
-      "user": [0.5109, 0.5205],
-      "sys": [0.002, 0.003],
-      "real": [0.5132, 0.5238],
-      "rss_mb": [40.14, 40.23]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: CodeLoad: SyntaxError: 1:1924: Unexpected token; expected Comma, got Literal(String(Name(-432), true))",
-      "user": [0.0221],
-      "sys": [0.0],
-      "real": [0.0224],
-      "rss_mb": [23.51]
-    },
-    "DeltaBlue": {
-      "score": [24.5, 24.7],
-      "user": [9.7211, 9.6531],
-      "sys": [0.001, 0.004],
-      "real": [9.7235, 9.6585],
-      "rss_mb": [40.3, 40.26]
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0769, 0.0712],
+      "sys": [0.006, 0.006],
+      "real": [0.0832, 0.0776],
+      "rss_mb": [27.82, 27.76]
     },
     "EarleyBoyer": {
       "error": "TypeError: EarleyBoyer: TypeError: Value is not a function",
-      "user": [0.0418],
-      "sys": [0.0],
-      "real": [0.042],
-      "rss_mb": [23.91]
+      "user": [0.0379],
+      "sys": [0.005],
+      "real": [0.0432],
+      "rss_mb": [23.75]
     },
-    "Box2D": {
+    "Crypto": {
+      "score": [14.3],
+      "user": [279.2486],
+      "sys": [0.012],
+      "real": [279.2882],
+      "rss_mb": [44.55]
+    },
+    "NavierStokes": {
       "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
-      "user": [0.1368],
-      "sys": [0.007],
-      "real": [0.144],
-      "rss_mb": [45.23]
+      "user": [0.4936],
+      "sys": [0.001],
+      "real": [0.4949],
+      "rss_mb": [40.25]
     },
-    "RegExp": {
-      "error": "SyntaxError: Cannot parse '\\'",
-      "user": [0.0027],
-      "sys": [0.0018],
-      "real": [0.0049],
-      "rss_mb": [23.91]
+    "Richards": {
+      "score": [21],
+      "user": [7.2335],
+      "sys": [0.004],
+      "real": [7.2394],
+      "rss_mb": [40.24]
     },
-    "zlib": {
-      "error": "ReferenceError: zlib: ReferenceError",
-      "user": [0.1115],
-      "sys": [0.006],
-      "real": [0.1178],
-      "rss_mb": [40.5]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: Newline cannot appear in string constant",
-      "user": [0.0182],
-      "sys": [0.003],
-      "real": [0.0215],
-      "rss_mb": [53.37]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: Newline cannot appear in string constant",
-      "user": [0.0182],
-      "sys": [0.003],
-      "real": [0.0215],
-      "rss_mb": [53.37]
+    "DeltaBlue": {
+      "score": [24.2],
+      "user": [9.8461],
+      "sys": [0.002],
+      "real": [9.8498],
+      "rss_mb": [40.29]
     },
     "Splay": {
       "error": "OOM: >4096MB",
-      "user": [11.082],
-      "sys": [1.91],
-      "real": [12.9951],
-      "rss_mb": [4106.2]
+      "user": [11.9255],
+      "sys": [1.5049],
+      "real": [13.4362],
+      "rss_mb": [4116.59]
     },
     "SplayLatency": {
       "error": "OOM: >4096MB",
-      "user": [11.082],
-      "sys": [1.91],
-      "real": [12.9951],
-      "rss_mb": [4106.2]
+      "user": [11.9255],
+      "sys": [1.5049],
+      "real": [13.4362],
+      "rss_mb": [4116.59]
+    },
+    "zlib": {
+      "error": "ReferenceError: zlib: ReferenceError",
+      "user": [0.1095],
+      "sys": [0.005],
+      "real": [0.1147],
+      "rss_mb": [40.56]
+    },
+    "Box2D": {
+      "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
+      "user": [0.1254],
+      "sys": [0.005],
+      "real": [0.1306],
+      "rss_mb": [45.25]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: Newline cannot appear in string constant",
+      "user": [0.0127],
+      "sys": [0.0059],
+      "real": [0.0189],
+      "rss_mb": [53.09]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: Newline cannot appear in string constant",
+      "user": [0.0127],
+      "sys": [0.0059],
+      "real": [0.0189],
+      "rss_mb": [53.09]
+    },
+    "PdfJS": {
+      "error": "ReferenceError",
+      "user": [0.335],
+      "sys": [0.015],
+      "real": [0.3503],
+      "rss_mb": [111.73]
+    },
+    "RayTrace": {
+      "score": [79.8],
+      "user": [31.5198],
+      "sys": [0.005],
+      "real": [31.5289],
+      "rss_mb": [40.45]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: 1:1924: Unexpected token; expected Comma, got Literal(String(Name(-432), true))",
+      "user": [0.0191],
+      "sys": [0.002],
+      "real": [0.0213],
+      "rss_mb": [23.09]
+    },
+    "RegExp": {
+      "error": "SyntaxError: Cannot parse '\\'",
+      "user": [0.0028],
+      "sys": [0.0019],
+      "real": [0.0049],
+      "rss_mb": [23.3]
     }
   }
 }

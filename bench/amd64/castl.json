@@ -9,126 +9,126 @@
     "revision_date": "2017-03-23",
     "version": "1.2.4"
   },
-  "time": "2026-04-24 02:50:57.907360 UTC",
+  "time": "2026-05-22 11:39:38.055369 UTC",
   "benchmarks": {
     "Box2D": {
-      "score": [2153, 2235, 2398, 2065],
-      "user": [2.5484, 2.709, 2.5433, 2.3997],
-      "sys": [0.0588, 0.083, 0.0596, 0.0569],
-      "real": [2.4567, 2.6591, 2.4539, 2.3053],
-      "rss_mb": [105.12, 103.77, 104.89, 105.24]
+      "score": [2117],
+      "user": [2.3366],
+      "sys": [0.0571],
+      "real": [2.2469],
+      "rss_mb": [107.17]
     },
     "Crypto": {
-      "score": [308, 295],
-      "user": [15.465, 15.9639],
-      "sys": [0.0371, 0.0524],
-      "real": [15.4674, 15.9977],
-      "rss_mb": [69.74, 67.88]
+      "score": [300, 309],
+      "user": [15.6302, 15.4851],
+      "sys": [0.0345, 0.0362],
+      "real": [15.6318, 15.4896],
+      "rss_mb": [70.67, 70.52]
     },
-    "EarleyBoyer": {
-      "error": "FAIL: function at line 2 has more than 200 local variables",
-      "user": [0.1571, 0.1566, 0.1562],
-      "sys": [0.0363, 0.0383, 0.0332],
-      "real": [0.1202, 0.1223, 0.1137],
-      "rss_mb": [71.83, 71.93, 72.43]
-    },
-    "Splay": {
-      "score": [1596],
-      "user": [2.4615],
-      "sys": [0.1659],
-      "real": [2.612],
-      "rss_mb": [342.62]
-    },
-    "SplayLatency": {
-      "score": [4176],
-      "user": [2.4615],
-      "sys": [0.1659],
-      "real": [2.612],
-      "rss_mb": [342.62]
-    },
-    "Mandreel": {
-      "error": "FAIL: function at line 2 has more than 200 local variables",
-      "user": [1.4304],
-      "sys": [0.2069],
-      "real": [1.0157],
-      "rss_mb": [358.05]
-    },
-    "MandreelLatency": {
-      "error": "FAIL: function at line 2 has more than 200 local variables",
-      "user": [1.4304],
-      "sys": [0.2069],
-      "real": [1.0157],
-      "rss_mb": [358.05]
-    },
-    "Richards": {
-      "score": [745, 582],
-      "user": [2.0667, 2.0775],
-      "sys": [0.0205, 0.0497],
-      "real": [2.072, 2.1287],
-      "rss_mb": [60.61, 60.36]
-    },
-    "Typescript": {
-      "error": "TypeError: Typescript: TypeError: Cannot read property 'toLowerCase' of undefined",
-      "user": [0.5217, 0.5028],
-      "sys": [0.1134, 0.1243],
-      "real": [0.4226, 0.424],
-      "rss_mb": [217.35, 218.16]
-    },
-    "DeltaBlue": {
-      "score": [363],
-      "user": [2.0658],
-      "sys": [0.0305],
-      "real": [2.0813],
-      "rss_mb": [63.23]
+    "NavierStokes": {
+      "score": [547, 549],
+      "user": [5.5605, 5.5233],
+      "sys": [0.0244, 0.0283],
+      "real": [5.5679, 5.5349],
+      "rss_mb": [66.62, 66.32]
     },
     "PdfJS": {
       "error": "TypeError: undefined is not a function",
-      "user": [0.5691, 0.664],
-      "sys": [0.1033, 0.1167],
-      "real": [0.3838, 0.4577],
-      "rss_mb": [159.98, 160.2]
+      "user": [0.5655, 0.5627, 0.5786],
+      "sys": [0.0816, 0.1108, 0.1148],
+      "real": [0.357, 0.384, 0.3961],
+      "rss_mb": [164.45, 173.25, 171.43]
     },
-    "zlib": {
-      "error": "FAIL: No scores in the output",
-      "user": [3.9891],
-      "sys": [0.3146],
-      "real": [4.2823],
-      "rss_mb": [707.72]
-    },
-    "CodeLoad": {
-      "error": "TypeError: CodeLoad: TypeError: undefined is not a function",
-      "user": [3.6194, 3.6798, 3.4934],
-      "sys": [0.1358, 0.2065, 0.1522],
-      "real": [3.7359, 3.8663, 3.6234],
-      "rss_mb": [281.23, 293.7, 298.53]
-    },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.2831, 0.2964, 0.2969, 0.3021],
-      "sys": [0.0838, 0.0487, 0.0541, 0.0459],
-      "real": [0.2282, 0.1878, 0.1909, 0.1911],
-      "rss_mb": [93.39, 88.94, 89.04, 88.43]
+    "Typescript": {
+      "error": "TypeError: Typescript: TypeError: Cannot read property 'toLowerCase' of undefined",
+      "user": [0.4902, 0.4913, 0.5199, 0.4985],
+      "sys": [0.1101, 0.1264, 0.1714, 0.112],
+      "real": [0.4053, 0.4126, 0.5357, 0.397],
+      "rss_mb": [197.21, 208.4, 200.67, 201.9]
     },
     "RegExp": {
       "error": "FAIL: function at line 54 has more than 200 local variables",
-      "user": [0.1212, 0.1243],
-      "sys": [0.0349, 0.0537],
-      "real": [0.1005, 0.1438],
-      "rss_mb": [72.12, 71.21]
+      "user": [0.1157, 0.1132],
+      "sys": [0.0368, 0.0383],
+      "real": [0.1016, 0.098],
+      "rss_mb": [74.11, 74.07]
+    },
+    "Mandreel": {
+      "error": "FAIL: function at line 2 has more than 200 local variables",
+      "user": [1.3833, 1.3783, 1.3874],
+      "sys": [0.1978, 0.1815, 0.1643],
+      "real": [0.9408, 0.9528, 0.951],
+      "rss_mb": [301.2, 300.82, 301.36]
+    },
+    "MandreelLatency": {
+      "error": "FAIL: function at line 2 has more than 200 local variables",
+      "user": [1.3833, 1.3783, 1.3874],
+      "sys": [0.1978, 0.1815, 0.1643],
+      "real": [0.9408, 0.9528, 0.951],
+      "rss_mb": [301.2, 300.82, 301.36]
+    },
+    "CodeLoad": {
+      "error": "TypeError: CodeLoad: TypeError: undefined is not a function",
+      "user": [3.8335, 3.3418],
+      "sys": [0.1943, 0.222],
+      "real": [4.0031, 3.5448],
+      "rss_mb": [296.26, 303.78]
+    },
+    "Richards": {
+      "score": [558, 508],
+      "user": [2.0722, 2.0777],
+      "sys": [0.0307, 0.0272],
+      "real": [2.0835, 2.0868],
+      "rss_mb": [63.71, 62.64]
+    },
+    "zlib": {
+      "error": "FAIL: No scores in the output",
+      "user": [4.3968, 4.5405],
+      "sys": [0.2756, 0.2619],
+      "real": [4.6601, 4.7801],
+      "rss_mb": [688.54, 653.72]
     },
     "RayTrace": {
-      "score": [311, 344],
-      "user": [9.6117, 8.6983],
-      "sys": [0.0239, 0.0312],
-      "real": [9.6137, 8.7096],
-      "rss_mb": [67.67, 66.77]
+      "score": [354, 355, 333],
+      "user": [8.4159, 8.442, 8.9958],
+      "sys": [0.0306, 0.0282, 0.0533],
+      "real": [8.4259, 8.4512, 9.1607],
+      "rss_mb": [69.25, 69.41, 63.92]
     },
-    "NavierStokes": {
-      "score": [640],
-      "user": [5.9365],
-      "sys": [0.0175],
-      "real": [5.9408],
-      "rss_mb": [64.23]
+    "Splay": {
+      "score": [1799],
+      "user": [2.5307],
+      "sys": [0.1929],
+      "real": [2.7076],
+      "rss_mb": [347.86]
+    },
+    "SplayLatency": {
+      "score": [3845],
+      "user": [2.5307],
+      "sys": [0.1929],
+      "real": [2.7076],
+      "rss_mb": [347.86]
+    },
+    "DeltaBlue": {
+      "score": [318, 308, 298, 263, 268],
+      "user": [2.102, 2.1064, 2.107, 2.0987, 2.0916],
+      "sys": [0.0105, 0.0177, 0.0355, 0.0295, 0.0335],
+      "real": [2.0948, 2.105, 2.1233, 2.1101, 2.1037],
+      "rss_mb": [65.42, 65.54, 65.55, 64.81, 65.19]
+    },
+    "EarleyBoyer": {
+      "error": "FAIL: function at line 2 has more than 200 local variables",
+      "user": [0.1513, 0.16],
+      "sys": [0.0345, 0.0349],
+      "real": [0.1111, 0.1189],
+      "rss_mb": [75.95, 76.08]
+    },
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.3334, 0.226, 0.2606, 0.293],
+      "sys": [0.0933, 0.0881, 0.0507, 0.0482],
+      "real": [0.2964, 0.8065, 0.1681, 0.1866],
+      "rss_mb": [87.79, 94.61, 96.0, 91.17]
     }
   }
 }

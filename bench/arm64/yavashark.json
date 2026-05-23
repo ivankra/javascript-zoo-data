@@ -2,135 +2,135 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "yavashark",
-    "binary_sha256": "c4f68d8069a6ba7d2225c22120a7cdfe6732e0527d225b4496818214fde53072",
-    "binary_size": 16193584,
+    "binary_sha256": "cce0edf35859b6f49f4107a1f650d19ec8b6824e343ec14d91aba62721646ec3",
+    "binary_size": 16062512,
     "engine": "yavashark",
     "repository": "https://github.com/Sharktheone/yavashark.git",
-    "revision": "c684cdb1b4689e82e2311b02e58c280825442e7d",
-    "revision_date": "2026-04-22",
+    "revision": "3e8fd77bd0f6709daf9b9a828c7b62fae2fad7fc",
+    "revision_date": "2026-05-21",
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
   "flags": ["-i"],
-  "time": "2026-04-24 03:37:08.382118 UTC",
+  "time": "2026-05-22 13:24:14.979909 UTC",
   "benchmarks": {
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [4.8106],
-      "sys": [0.2799],
-      "real": [5.0916],
-      "rss_mb": [604.66]
-    },
-    "Crypto": {
-      "score": [21.5],
-      "user": [187.4542],
-      "sys": [0.015],
-      "real": [187.4907],
-      "rss_mb": [22.41]
-    },
     "NavierStokes": {
       "error": "FAIL: No scores in the output",
-      "user": [77.2344],
-      "sys": [0.017],
-      "real": [77.254],
-      "rss_mb": [35.81]
-    },
-    "Box2D": {
-      "score": [713],
-      "user": [6.0669],
-      "sys": [0.052],
-      "real": [6.1203],
-      "rss_mb": [73.09]
-    },
-    "CodeLoad": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0022],
-      "sys": [0.0022],
-      "real": [0.0047],
-      "rss_mb": [22.54]
+      "user": [69.7586],
+      "sys": [0.023],
+      "real": [69.7858],
+      "rss_mb": [32.12]
     },
     "RegExp": {
       "error": "SyntaxError: Nothing to repeat at position 41",
-      "user": [0.0029, 0.001],
-      "sys": [0.001, 0.0029],
-      "real": [0.0041, 0.0041],
-      "rss_mb": [22.53, 22.47]
+      "user": [0.0019],
+      "sys": [0.0019],
+      "real": [0.0039],
+      "rss_mb": [23.0]
     },
-    "PdfJS": {
-      "error": "OOM: >4096MB",
-      "user": [103.2752],
-      "sys": [2.0858],
-      "real": [105.3775],
-      "rss_mb": [4115.7]
-    },
-    "Mandreel": {
+    "CodeLoad": {
       "error": "FAIL: No scores in the output",
-      "user": [18.7999],
-      "sys": [0.09],
-      "real": [18.892],
-      "rss_mb": [276.42]
+      "user": [0.0021],
+      "sys": [0.0021],
+      "real": [0.0045],
+      "rss_mb": [22.86]
     },
-    "MandreelLatency": {
-      "error": "FAIL: No scores in the output",
-      "user": [18.7999],
-      "sys": [0.09],
-      "real": [18.892],
-      "rss_mb": [276.42]
+    "Crypto": {
+      "score": [23.8],
+      "user": [169.2633],
+      "sys": [0.02],
+      "real": [169.2926],
+      "rss_mb": [22.77]
     },
     "DeltaBlue": {
-      "score": [17.5],
-      "user": [13.5777],
-      "sys": [0.046],
-      "real": [13.6257],
-      "rss_mb": [68.71]
-    },
-    "Splay": {
-      "score": [146],
-      "user": [7.2195],
-      "sys": [0.379],
-      "real": [7.5991],
-      "rss_mb": [1217.84]
-    },
-    "SplayLatency": {
-      "score": [1249],
-      "user": [7.2195],
-      "sys": [0.379],
-      "real": [7.5991],
-      "rss_mb": [1217.84]
-    },
-    "RayTrace": {
-      "score": [69],
-      "user": [35.3999],
-      "sys": [0.006],
-      "real": [35.4135],
-      "rss_mb": [22.41]
+      "score": [18.6, 18.6],
+      "user": [12.7356, 12.7736],
+      "sys": [0.032, 0.031],
+      "real": [12.769, 12.8069],
+      "rss_mb": [61.21, 61.2]
     },
     "EarleyBoyer": {
       "error": "FAIL: No scores in the output",
-      "user": [0.0188, 0.0194],
-      "sys": [0.0069, 0.0051],
-      "real": [0.026, 0.0247],
-      "rss_mb": [22.54, 22.53]
+      "user": [0.0193],
+      "sys": [0.0041],
+      "real": [0.0236],
+      "rss_mb": [22.89]
+    },
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.4439],
+      "sys": [0.009],
+      "real": [0.4533],
+      "rss_mb": [27.79]
     },
     "Richards": {
-      "score": [16.8],
-      "user": [8.3824],
-      "sys": [0.003],
-      "real": [8.3875],
-      "rss_mb": [22.38]
+      "score": [18.5],
+      "user": [8.0239],
+      "sys": [0.004],
+      "real": [8.0298],
+      "rss_mb": [22.72]
+    },
+    "PdfJS": {
+      "error": "CRASH: thread 'main' panicked at crates/yavashark_env/src/builtins/string.rs:560:12:",
+      "user": [495.7161],
+      "sys": [8.4979],
+      "real": [504.2949],
+      "rss_mb": [107.3]
+    },
+    "RayTrace": {
+      "score": [62.3, 62.5],
+      "user": [39.1979, 39.0413],
+      "sys": [0.01, 0.01],
+      "real": [39.2147, 39.0526],
+      "rss_mb": [22.72, 22.74]
+    },
+    "Box2D": {
+      "score": [759],
+      "user": [5.7268],
+      "sys": [0.024],
+      "real": [5.7514],
+      "rss_mb": [68.34]
     },
     "zlib": {
       "error": "FAIL: No scores in the output",
-      "user": [0.0125],
-      "sys": [0.0048],
-      "real": [0.0175],
-      "rss_mb": [22.65]
+      "user": [0.0124],
+      "sys": [0.0041],
+      "real": [0.0167],
+      "rss_mb": [23.23]
+    },
+    "Splay": {
+      "score": [158],
+      "user": [7.5583],
+      "sys": [0.3469],
+      "real": [7.9066],
+      "rss_mb": [1059.77]
+    },
+    "SplayLatency": {
+      "score": [1272],
+      "user": [7.5583],
+      "sys": [0.3469],
+      "real": [7.9066],
+      "rss_mb": [1059.77]
+    },
+    "Mandreel": {
+      "error": "FAIL: No scores in the output",
+      "user": [17.9991],
+      "sys": [0.096],
+      "real": [18.0964],
+      "rss_mb": [275.41]
+    },
+    "MandreelLatency": {
+      "error": "FAIL: No scores in the output",
+      "user": [17.9991],
+      "sys": [0.096],
+      "real": [18.0964],
+      "rss_mb": [275.41]
     },
     "Typescript": {
       "error": "SyntaxError: Nothing to repeat at position 38",
-      "user": [0.0237],
+      "user": [0.0224],
       "sys": [0.0051],
-      "real": [0.0291],
-      "rss_mb": [32.13]
+      "real": [0.0277],
+      "rss_mb": [32.44]
     }
   }
 }

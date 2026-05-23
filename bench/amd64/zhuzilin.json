@@ -2,135 +2,135 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "zhuzilin",
-    "binary_sha256": "8363eff7a99549d78892512ba220b26aaf1efcf851f3bd7612cf8e2d7cf5f9f0",
-    "binary_size": 822120,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "f72537dbdd4ab362c53e8f4f2cdbccc9c2b719a81cd93b1c38297bc9d726b746",
+    "binary_size": 822056,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "zhuzilin",
     "repository": "https://github.com/zhuzilin/es.git",
     "revision": "943e5c09470813e26404bd3920b93601fcc5b46b",
     "revision_date": "2026-02-10",
     "version": "0.2.0"
   },
-  "time": "2026-04-24 04:04:44.142442 UTC",
+  "time": "2026-05-22 12:47:09.413287 UTC",
   "benchmarks": {
-    "DeltaBlue": {
-      "error": "CRASH: SIGABRT",
-      "user": [0.0771],
-      "sys": [0.7641],
-      "real": [1.6783],
-      "rss_mb": [520.35]
-    },
-    "zlib": {
-      "error": "SyntaxError: efined\") {",
-      "user": [0.0149],
-      "sys": [0.0189],
-      "real": [0.034],
-      "rss_mb": [520.93]
-    },
     "Crypto": {
       "error": "TypeError: calling non-object.",
-      "user": [0.1891],
-      "sys": [0.063],
-      "real": [0.2525],
-      "rss_mb": [526.23]
-    },
-    "Richards": {
-      "error": "CRASH: SIGABRT",
-      "user": [0.0518],
-      "sys": [0.702],
-      "real": [1.8659],
-      "rss_mb": [519.87]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: readable = {",
-      "user": [0.0608],
-      "sys": [0.0369],
-      "real": [0.0979],
-      "rss_mb": [522.09]
-    },
-    "PdfJS": {
-      "error": "CRASH: SIGSEGV",
-      "user": [2.2501],
-      "sys": [0.7966],
-      "real": [4.1176],
-      "rss_mb": [650.61]
-    },
-    "Typescript": {
-      "error": "CRASH: SIGSEGV",
-      "user": [2.0624],
-      "sys": [0.8722],
-      "real": [3.8048],
-      "rss_mb": [658.64]
-    },
-    "NavierStokes": {
-      "error": "CRASH: SIGABRT",
-      "user": [0.0528],
-      "sys": [0.6998],
-      "real": [1.528],
-      "rss_mb": [520.43]
-    },
-    "RayTrace": {
-      "error": "CRASH: SIGABRT",
-      "user": [0.0763],
-      "sys": [0.9099],
-      "real": [1.8804],
-      "rss_mb": [521.16]
-    },
-    "RegExp": {
-      "error": "CRASH: SIGABRT",
-      "user": [0.222],
-      "sys": [0.8361],
-      "real": [1.8286],
-      "rss_mb": [527.16]
+      "user": [0.1551],
+      "sys": [0.027],
+      "real": [0.1824],
+      "rss_mb": [526.31]
     },
     "CodeLoad": {
       "error": "CRASH: SIGABRT",
-      "user": [0.0566],
-      "sys": [0.7259],
-      "real": [1.5734],
-      "rss_mb": [523.83]
+      "user": [0.0642],
+      "sys": [0.7126],
+      "real": [1.3883],
+      "rss_mb": [523.52]
     },
-    "Gameboy": {
+    "DeltaBlue": {
       "error": "CRASH: SIGABRT",
-      "user": [0.7376],
-      "sys": [0.6456],
-      "real": [1.9847],
-      "rss_mb": [558.69]
+      "user": [0.0696],
+      "sys": [0.7635],
+      "real": [1.4825],
+      "rss_mb": [520.52]
     },
-    "Splay": {
+    "RegExp": {
       "error": "CRASH: SIGABRT",
-      "user": [0.0893],
-      "sys": [0.5503],
-      "real": [1.1947],
-      "rss_mb": [519.82]
+      "user": [0.2472],
+      "sys": [0.7668],
+      "real": [1.6094],
+      "rss_mb": [527.03]
     },
-    "SplayLatency": {
-      "error": "CRASH: SIGABRT",
-      "user": [0.0893],
-      "sys": [0.5503],
-      "real": [1.1947],
-      "rss_mb": [519.82]
+    "PdfJS": {
+      "error": "CRASH: SIGSEGV",
+      "user": [2.1079],
+      "sys": [0.8474],
+      "real": [4.1007],
+      "rss_mb": [650.81]
     },
     "Box2D": {
       "error": "CRASH: SIGABRT",
-      "user": [0.7394],
-      "sys": [0.7604],
-      "real": [2.4687],
-      "rss_mb": [544.43]
+      "user": [0.8264],
+      "sys": [0.7502],
+      "real": [2.2621],
+      "rss_mb": [543.05]
+    },
+    "Typescript": {
+      "error": "CRASH: SIGSEGV",
+      "user": [1.8247],
+      "sys": [0.8758],
+      "real": [3.776],
+      "rss_mb": [659.88]
+    },
+    "RayTrace": {
+      "error": "CRASH: SIGABRT",
+      "user": [0.0673],
+      "sys": [0.9087],
+      "real": [1.8603],
+      "rss_mb": [521.08]
+    },
+    "Richards": {
+      "error": "CRASH: SIGABRT",
+      "user": [0.0497],
+      "sys": [0.7408],
+      "real": [1.3991],
+      "rss_mb": [519.86]
+    },
+    "Splay": {
+      "error": "CRASH: SIGABRT",
+      "user": [0.0432],
+      "sys": [0.7022],
+      "real": [1.3785],
+      "rss_mb": [520.03]
+    },
+    "SplayLatency": {
+      "error": "CRASH: SIGABRT",
+      "user": [0.0432],
+      "sys": [0.7022],
+      "real": [1.3785],
+      "rss_mb": [520.03]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: readable = {",
+      "user": [0.0647],
+      "sys": [0.0438],
+      "real": [0.1089],
+      "rss_mb": [521.87]
     },
     "Mandreel": {
       "error": "CRASH: SIGABRT",
-      "user": [10.962],
-      "sys": [1.1234],
-      "real": [13.6685],
-      "rss_mb": [838.23]
+      "user": [12.2722],
+      "sys": [1.1375],
+      "real": [14.768],
+      "rss_mb": [840.22]
     },
     "MandreelLatency": {
       "error": "CRASH: SIGABRT",
-      "user": [10.962],
-      "sys": [1.1234],
-      "real": [13.6685],
-      "rss_mb": [838.23]
+      "user": [12.2722],
+      "sys": [1.1375],
+      "real": [14.768],
+      "rss_mb": [840.22]
+    },
+    "Gameboy": {
+      "error": "CRASH: SIGABRT",
+      "user": [0.748],
+      "sys": [0.661],
+      "real": [2.0099],
+      "rss_mb": [558.63]
+    },
+    "zlib": {
+      "error": "SyntaxError: efined\") {",
+      "user": [0.0649],
+      "sys": [0.0629],
+      "real": [0.1281],
+      "rss_mb": [520.81]
+    },
+    "NavierStokes": {
+      "error": "CRASH: SIGABRT",
+      "user": [0.0681],
+      "sys": [0.6978],
+      "real": [1.3499],
+      "rss_mb": [520.39]
     }
   }
 }

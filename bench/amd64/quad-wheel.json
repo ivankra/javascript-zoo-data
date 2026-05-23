@@ -2,22 +2,22 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "quad-wheel",
-    "binary_sha256": "2909ae7e1f4d3aed2899f02547a607743e936882153bfe3b06d934cfd5443002",
-    "binary_size": 155120,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "67d0ecca0b822473f88cd9d52bb3b46b58b973e45feb9b0190336783143602ec",
+    "binary_size": 155064,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "quad-wheel",
     "repository": "https://github.com/radare/quad-wheel.git",
     "revision": "ef1747ceeb28fff309de830c3ef863d6cf0b41a1",
     "revision_date": "2012-03-26"
   },
-  "time": "2026-04-24 03:59:46.150716 UTC",
+  "time": "2026-05-22 12:49:47.277116 UTC",
   "benchmarks": {
     "Richards": {
       "error": "FAIL: No scores in the output",
-      "user": [2.9611],
+      "user": [2.7394],
       "sys": [0.003],
-      "real": [2.965],
-      "rss_mb": [23.74]
+      "real": [2.7429],
+      "rss_mb": [23.93]
     }
   }
 }

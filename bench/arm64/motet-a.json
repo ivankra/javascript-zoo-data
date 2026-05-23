@@ -9,126 +9,126 @@
     "revision": "c842ba34240e4b79922b60e970c6f084af8d1ba9",
     "revision_date": "2019-04-12"
   },
-  "time": "2026-04-24 03:29:39.014022 UTC",
+  "time": "2026-05-22 12:54:48.938652 UTC",
   "benchmarks": {
-    "EarleyBoyer": {
+    "RayTrace": {
+      "error": "SyntaxError",
+      "user": [0.0175],
+      "sys": [0.001],
+      "real": [0.019],
+      "rss_mb": [22.75]
+    },
+    "Mandreel": {
+      "error": "SyntaxError",
+      "user": [0.0192],
+      "sys": [0.001],
+      "real": [0.0205],
+      "rss_mb": [52.81]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError",
+      "user": [0.0192],
+      "sys": [0.001],
+      "real": [0.0205],
+      "rss_mb": [52.81]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError",
+      "user": [0.016],
+      "sys": [0.002],
+      "real": [0.0182],
+      "rss_mb": [22.75]
+    },
+    "Box2D": {
       "error": "SyntaxError",
       "user": [0.0183],
       "sys": [0.002],
       "real": [0.0206],
-      "rss_mb": [22.75]
+      "rss_mb": [23.27]
     },
-    "zlib": {
+    "RegExp": {
       "error": "SyntaxError",
-      "user": [0.0192],
-      "sys": [0.001],
-      "real": [0.0204],
+      "user": [0.0175],
+      "sys": [0.0029],
+      "real": [0.0206],
       "rss_mb": [22.88]
     },
     "CodeLoad": {
       "error": "SyntaxError",
-      "user": [0.0183],
-      "sys": [0.002],
-      "real": [0.0205],
-      "rss_mb": [22.77]
-    },
-    "RayTrace": {
-      "error": "SyntaxError",
-      "user": [0.0164],
-      "sys": [0.0019],
-      "real": [0.0186],
-      "rss_mb": [22.63]
-    },
-    "Mandreel": {
-      "error": "SyntaxError",
-      "user": [0.0175],
-      "sys": [0.0031],
-      "real": [0.0209],
-      "rss_mb": [52.69]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError",
-      "user": [0.0175],
-      "sys": [0.0031],
-      "real": [0.0209],
-      "rss_mb": [52.69]
-    },
-    "Box2D": {
-      "error": "SyntaxError",
-      "user": [0.0186],
-      "sys": [0.0021],
-      "real": [0.021],
-      "rss_mb": [22.88]
-    },
-    "Gameboy": {
-      "error": "SyntaxError",
-      "user": [0.0194],
+      "user": [0.0196],
       "sys": [0.001],
-      "real": [0.0206],
-      "rss_mb": [24.36]
-    },
-    "NavierStokes": {
-      "error": "SyntaxError",
-      "user": [0.0151],
-      "sys": [0.002],
-      "real": [0.0173],
-      "rss_mb": [22.64]
-    },
-    "Richards": {
-      "error": "SyntaxError",
-      "user": [0.0161],
-      "sys": [0.001],
-      "real": [0.0173],
-      "rss_mb": [22.63]
+      "real": [0.0208],
+      "rss_mb": [22.86]
     },
     "Crypto": {
       "error": "SyntaxError",
-      "user": [0.0185],
-      "sys": [0.0021],
-      "real": [0.0208],
-      "rss_mb": [22.62]
-    },
-    "DeltaBlue": {
-      "error": "SyntaxError",
-      "user": [0.0171],
+      "user": [0.0193],
       "sys": [0.001],
-      "real": [0.0184],
-      "rss_mb": [22.64]
+      "real": [0.0205],
+      "rss_mb": [22.75]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError",
+      "user": [0.0195],
+      "sys": [0.001],
+      "real": [0.0207],
+      "rss_mb": [23.13]
     },
     "PdfJS": {
       "error": "SyntaxError",
       "user": [0.0175],
-      "sys": [0.0031],
-      "real": [0.0209],
-      "rss_mb": [29.02]
-    },
-    "RegExp": {
-      "error": "SyntaxError",
-      "user": [0.0184],
-      "sys": [0.002],
+      "sys": [0.0029],
       "real": [0.0206],
-      "rss_mb": [22.76]
+      "rss_mb": [29.14]
+    },
+    "zlib": {
+      "error": "SyntaxError",
+      "user": [0.0195],
+      "sys": [0.001],
+      "real": [0.0207],
+      "rss_mb": [23.2]
+    },
+    "NavierStokes": {
+      "error": "SyntaxError",
+      "user": [0.016],
+      "sys": [0.001],
+      "real": [0.0172],
+      "rss_mb": [22.87]
     },
     "Typescript": {
       "error": "SyntaxError",
       "user": [0.0195],
       "sys": [0.001],
-      "real": [0.0207],
-      "rss_mb": [32.36]
+      "real": [0.0208],
+      "rss_mb": [32.72]
+    },
+    "Richards": {
+      "error": "SyntaxError",
+      "user": [0.0173],
+      "sys": [0.0],
+      "real": [0.0175],
+      "rss_mb": [22.75]
+    },
+    "Gameboy": {
+      "error": "SyntaxError",
+      "user": [0.0193],
+      "sys": [0.001],
+      "real": [0.0205],
+      "rss_mb": [24.34]
     },
     "Splay": {
       "error": "SyntaxError",
-      "user": [0.0158],
+      "user": [0.0159],
       "sys": [0.001],
-      "real": [0.017],
-      "rss_mb": [22.62]
+      "real": [0.0171],
+      "rss_mb": [22.75]
     },
     "SplayLatency": {
       "error": "SyntaxError",
-      "user": [0.0158],
+      "user": [0.0159],
       "sys": [0.001],
-      "real": [0.017],
-      "rss_mb": [22.62]
+      "real": [0.0171],
+      "rss_mb": [22.75]
     }
   }
 }

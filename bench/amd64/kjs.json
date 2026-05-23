@@ -2,135 +2,135 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "kjs",
-    "binary_sha256": "e709729bc6de2eda6ca5a1622a43f36af37fbcf5eae053da5e11a948e60071c3",
-    "binary_size": 1116208,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "d3e8674e35436df58723cc0e6a426927ab1357658f5e7341da6e89834146db93",
+    "binary_size": 1116144,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "kjs",
     "repository": "https://github.com/KDE/kjs.git",
     "revision": "5824588da24f797b4255929918efbc8b484baa09",
     "revision_date": "2025-07-28",
     "version": "5.117.0"
   },
-  "time": "2026-04-24 03:51:30.008962 UTC",
+  "time": "2026-05-22 12:14:25.435382 UTC",
   "benchmarks": {
-    "DeltaBlue": {
-      "score": [513, 507, 511, 500],
-      "user": [2.0119, 2.006, 2.0101, 2.001],
-      "sys": [0.004, 0.008, 0.006, 0.008],
-      "real": [2.0163, 2.0148, 2.0165, 2.0095],
-      "rss_mb": [23.79, 23.55, 23.56, 23.77]
-    },
-    "Mandreel": {
-      "error": "ReferenceError: Can't find variable: Float64Array",
-      "user": [0.287],
-      "sys": [0.039],
-      "real": [0.3263],
-      "rss_mb": [100.18]
-    },
-    "MandreelLatency": {
-      "error": "ReferenceError: Can't find variable: Float64Array",
-      "user": [0.287],
-      "sys": [0.039],
-      "real": [0.3263],
-      "rss_mb": [100.18]
-    },
-    "zlib": {
-      "error": "ReferenceError: zlib: ReferenceError: Can't find variable: Int32Array",
-      "user": [0.0351, 0.0325, 0.03, 0.0351],
-      "sys": [0.002, 0.0039, 0.01, 0.005],
-      "real": [0.0374, 0.0366, 0.0403, 0.0403],
-      "rss_mb": [24.12, 24.18, 24.11, 24.18]
-    },
     "Gameboy": {
       "error": "FAIL: No scores in the output",
-      "user": [0.0182, 0.0189],
-      "sys": [0.0061, 0.005],
-      "real": [0.0245, 0.0241],
-      "rss_mb": [25.3, 25.35]
-    },
-    "NavierStokes": {
-      "score": [483],
-      "user": [6.1272],
-      "sys": [0.012],
-      "real": [6.1403],
-      "rss_mb": [23.86]
-    },
-    "RayTrace": {
-      "score": [696, 680],
-      "user": [5.3214, 5.4496],
-      "sys": [0.004, 0.005],
-      "real": [5.326, 5.4554],
-      "rss_mb": [23.61, 23.62]
+      "user": [0.0191, 0.0195, 0.016, 0.0138],
+      "sys": [0.004, 0.0041, 0.007, 0.0088],
+      "real": [0.0234, 0.0238, 0.0232, 0.0228],
+      "rss_mb": [25.07, 25.2, 25.2, 25.19]
     },
     "Richards": {
-      "score": [522, 515, 495, 484],
-      "user": [1.9942, 2.0031, 2.0031, 2.002],
-      "sys": [0.012, 0.007, 0.007, 0.005],
-      "real": [2.0068, 2.0107, 2.0109, 2.0076],
-      "rss_mb": [23.79, 23.73, 23.79, 23.77]
-    },
-    "Box2D": {
-      "score": [1464, 1372, 1390],
-      "user": [3.3498, 3.5795, 3.5247],
-      "sys": [0.013, 0.01, 0.017],
-      "real": [3.3632, 3.592, 3.5422],
-      "rss_mb": [28.63, 28.27, 28.19]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: CodeLoad: SyntaxError: Invalid regular expression",
-      "user": [1.0012, 0.9997, 0.9978],
-      "sys": [0.013, 0.015, 0.017],
-      "real": [1.0146, 1.0153, 1.0154],
-      "rss_mb": [23.73, 23.73, 23.73]
+      "score": [547, 491],
+      "user": [2.0006, 2.0066],
+      "sys": [0.005, 0.004],
+      "real": [2.006, 2.011],
+      "rss_mb": [23.4, 23.33]
     },
     "Typescript": {
       "error": "SyntaxError: Invalid regular expression",
-      "user": [0.0661, 0.0662, 0.0568, 0.0607],
-      "sys": [0.009, 0.011, 0.0139, 0.0129],
-      "real": [0.0754, 0.0775, 0.071, 0.074],
-      "rss_mb": [33.35, 33.32, 33.63, 33.34]
+      "user": [0.0639, 0.064, 0.0631],
+      "sys": [0.014, 0.013, 0.009],
+      "real": [0.0782, 0.0773, 0.0723],
+      "rss_mb": [33.18, 33.41, 33.42]
     },
-    "PdfJS": {
-      "error": "ReferenceError: Can't find variable: Uint8Array",
-      "user": [0.0929, 0.0856, 0.0807],
-      "sys": [0.014, 0.0199, 0.0199],
-      "real": [0.1072, 0.1058, 0.1009],
-      "rss_mb": [30.64, 30.56, 31.05]
-    },
-    "Crypto": {
-      "score": [603, 616],
-      "user": [10.0111, 9.8112],
-      "sys": [0.007, 0.007],
-      "real": [10.0194, 9.8197],
-      "rss_mb": [23.62, 23.74]
+    "DeltaBlue": {
+      "score": [536, 532, 490, 536],
+      "user": [2.0141, 2.0147, 2.0152, 2.0037],
+      "sys": [0.013, 0.006, 0.005, 0.007],
+      "real": [2.0276, 2.0214, 2.0206, 2.0113],
+      "rss_mb": [23.34, 23.52, 23.46, 23.32]
     },
     "RegExp": {
       "error": "SyntaxError: RegExp: SyntaxError: Invalid regular expression",
-      "user": [0.0447],
-      "sys": [0.002],
-      "real": [0.0469],
-      "rss_mb": [23.71]
+      "user": [0.052, 0.0516],
+      "sys": [0.001, 0.001],
+      "real": [0.0534, 0.0529],
+      "rss_mb": [23.47, 23.43]
     },
-    "EarleyBoyer": {
-      "score": [1178, 1156],
-      "user": [10.2105, 11.097],
-      "sys": [0.035, 0.036],
-      "real": [10.2477, 11.1383],
-      "rss_mb": [77.38, 71.27]
+    "zlib": {
+      "error": "ReferenceError: zlib: ReferenceError: Can't find variable: Int32Array",
+      "user": [0.0378],
+      "sys": [0.0041],
+      "real": [0.0422],
+      "rss_mb": [23.57]
+    },
+    "Box2D": {
+      "score": [1325, 1347],
+      "user": [3.6973, 3.6408],
+      "sys": [0.017, 0.012],
+      "real": [3.7149, 3.6537],
+      "rss_mb": [28.34, 28.11]
+    },
+    "Crypto": {
+      "score": [680],
+      "user": [8.7861],
+      "sys": [0.008],
+      "real": [8.7964],
+      "rss_mb": [23.36]
+    },
+    "RayTrace": {
+      "score": [763, 756, 726, 765, 689],
+      "user": [4.2687, 4.2977, 5.3365, 4.2637, 5.3737],
+      "sys": [0.003, 0.007, 0.001, 0.007, 0.002],
+      "real": [4.2725, 4.3059, 5.3389, 4.2719, 5.3769],
+      "rss_mb": [23.36, 23.57, 23.19, 23.48, 23.34]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: Invalid regular expression",
+      "user": [0.9953],
+      "sys": [0.02],
+      "real": [1.0157],
+      "rss_mb": [23.72]
     },
     "Splay": {
-      "score": [877, 902],
-      "user": [2.7321, 2.4659],
-      "sys": [0.3749, 0.4038],
-      "real": [3.1084, 2.8711],
-      "rss_mb": [745.21, 745.22]
+      "score": [906],
+      "user": [2.6691],
+      "sys": [0.4599],
+      "real": [3.1304],
+      "rss_mb": [745.14]
     },
     "SplayLatency": {
-      "score": [1209, 1357],
-      "user": [2.7321, 2.4659],
-      "sys": [0.3749, 0.4038],
-      "real": [3.1084, 2.8711],
-      "rss_mb": [745.21, 745.22]
+      "score": [1213],
+      "user": [2.6691],
+      "sys": [0.4599],
+      "real": [3.1304],
+      "rss_mb": [745.14]
+    },
+    "EarleyBoyer": {
+      "score": [1095, 1163, 1156, 1107],
+      "user": [11.5096, 10.7956, 10.6556, 11.311],
+      "sys": [0.055, 0.062, 0.067, 0.043],
+      "real": [11.5682, 10.862, 10.7254, 11.3561],
+      "rss_mb": [76.64, 88.08, 75.08, 74.36]
+    },
+    "Mandreel": {
+      "error": "ReferenceError: Can't find variable: Float64Array",
+      "user": [0.3467, 0.3375],
+      "sys": [0.035, 0.0379],
+      "real": [0.3819, 0.3757],
+      "rss_mb": [100.04, 100.12]
+    },
+    "MandreelLatency": {
+      "error": "ReferenceError: Can't find variable: Float64Array",
+      "user": [0.3467, 0.3375],
+      "sys": [0.035, 0.0379],
+      "real": [0.3819, 0.3757],
+      "rss_mb": [100.04, 100.12]
+    },
+    "NavierStokes": {
+      "score": [423],
+      "user": [7.3305],
+      "sys": [0.013],
+      "real": [7.3449],
+      "rss_mb": [23.34]
+    },
+    "PdfJS": {
+      "error": "ReferenceError: Can't find variable: Uint8Array",
+      "user": [0.0957, 0.0666, 0.0928, 0.0867],
+      "sys": [0.013, 0.0189, 0.015, 0.0149],
+      "real": [0.1089, 0.0857, 0.108, 0.1019],
+      "rss_mb": [30.89, 30.61, 30.93, 30.58]
     }
   }
 }

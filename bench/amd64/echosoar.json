@@ -2,134 +2,134 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "echosoar",
-    "binary_sha256": "0eedb63c5fe73c278b3562f2f6345bc046b9eb03a2b16311bc9de8568f1e5687",
-    "binary_size": 1368776,
+    "binary_sha256": "57f0cf88f403c18e3960c48b27a22541601c88ca326a95aac3fbcb6b70d489cf",
+    "binary_size": 1548752,
     "engine": "echosoar",
     "repository": "https://github.com/echosoar/jsi.git",
-    "revision": "43ec7dc547bb3afd4004f71cd0648538bd815093",
-    "revision_date": "2026-04-19",
+    "revision": "924246fdf5ff55611817bbcf3aa311ace9168894",
+    "revision_date": "2026-05-04",
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
-  "time": "2026-04-24 02:52:12.766394 UTC",
+  "time": "2026-05-22 11:40:34.990933 UTC",
   "benchmarks": {
+    "RegExp": {
+      "error": "SyntaxError: Unexpected token Slash",
+      "user": [0.002],
+      "sys": [0.002],
+      "real": [0.0042],
+      "rss_mb": [24.52]
+    },
     "Gameboy": {
       "error": "SyntaxError: Unexpected token RightParenthesis",
-      "user": [0.0078],
+      "user": [0.0072],
       "sys": [0.001],
-      "real": [0.009],
-      "rss_mb": [37.86]
-    },
-    "RayTrace": {
-      "error": "SyntaxError: Invalid octal number",
-      "user": [0.0023],
-      "sys": [0.0011],
-      "real": [0.0037],
-      "rss_mb": [23.67]
-    },
-    "NavierStokes": {
-      "error": "SyntaxError: Unexpected identifier 'x'",
-      "user": [0.001],
-      "sys": [0.0029],
-      "real": [0.0041],
-      "rss_mb": [23.35]
-    },
-    "zlib": {
-      "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.0009],
-      "sys": [0.0009],
-      "real": [0.002],
-      "rss_mb": [24.09]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: Invalid octal number",
-      "user": [0.0019],
-      "sys": [0.0078],
-      "real": [0.0099],
-      "rss_mb": [53.88]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: Invalid octal number",
-      "user": [0.0019],
-      "sys": [0.0078],
-      "real": [0.0099],
-      "rss_mb": [53.88]
-    },
-    "DeltaBlue": {
-      "error": "SyntaxError: Unexpected token This",
-      "user": [0.0023],
-      "sys": [0.0011],
-      "real": [0.0037],
-      "rss_mb": [23.59]
+      "real": [0.0085],
+      "rss_mb": [37.44]
     },
     "Box2D": {
       "error": "SyntaxError: Unexpected token RightBrace",
-      "user": [0.001],
-      "sys": [0.0031],
+      "user": [0.002],
+      "sys": [0.002],
       "real": [0.0043],
-      "rss_mb": [24.2]
+      "rss_mb": [24.12]
     },
-    "Richards": {
-      "error": "SyntaxError: Unexpected identifier 'next'",
-      "user": [0.0027],
-      "sys": [0.0027],
-      "real": [0.0055],
-      "rss_mb": [23.5]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: Unexpected token If",
-      "user": [0.0032],
-      "sys": [0.0011],
-      "real": [0.0045],
-      "rss_mb": [24.27]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: Unexpected identifier 'a'",
-      "user": [0.0039],
-      "sys": [0.0049],
-      "real": [0.0091],
-      "rss_mb": [49.22]
+    "RayTrace": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0009],
+      "sys": [0.0028],
+      "real": [0.0039],
+      "rss_mb": [23.39]
     },
     "Typescript": {
       "error": "SyntaxError: Unexpected token Comma",
-      "user": [0.0168],
-      "sys": [0.0119],
-      "real": [0.0289],
-      "rss_mb": [194.88]
+      "user": [0.0211],
+      "sys": [0.008],
+      "real": [0.0293],
+      "rss_mb": [195.84]
     },
-    "RegExp": {
+    "zlib": {
       "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.0017],
-      "sys": [0.0017],
-      "real": [0.0037],
-      "rss_mb": [24.59]
+      "user": [0.0],
+      "sys": [0.0024],
+      "real": [0.0027],
+      "rss_mb": [24.14]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: Unexpected token If",
+      "user": [0.0028],
+      "sys": [0.0028],
+      "real": [0.0057],
+      "rss_mb": [24.1]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: Unexpected token This",
+      "user": [0.0019],
+      "sys": [0.0019],
+      "real": [0.0041],
+      "rss_mb": [23.5]
     },
     "Splay": {
       "error": "SyntaxError: Invalid octal number",
-      "user": [0.0008],
-      "sys": [0.0024],
-      "real": [0.0034],
-      "rss_mb": [23.59]
+      "user": [0.0018],
+      "sys": [0.0018],
+      "real": [0.0038],
+      "rss_mb": [23.26]
     },
     "SplayLatency": {
       "error": "SyntaxError: Invalid octal number",
-      "user": [0.0008],
-      "sys": [0.0024],
-      "real": [0.0034],
-      "rss_mb": [23.59]
+      "user": [0.0018],
+      "sys": [0.0018],
+      "real": [0.0038],
+      "rss_mb": [23.26]
     },
     "Crypto": {
       "error": "SyntaxError: Unexpected identifier 'BI_RC'",
-      "user": [0.0041],
+      "user": [0.0043],
       "sys": [0.0],
-      "real": [0.0043],
-      "rss_mb": [23.45]
+      "real": [0.0046],
+      "rss_mb": [23.2]
+    },
+    "Richards": {
+      "error": "SyntaxError: Unexpected identifier 'next'",
+      "user": [0.0033],
+      "sys": [0.0011],
+      "real": [0.0046],
+      "rss_mb": [23.15]
     },
     "CodeLoad": {
       "error": "ReferenceError: performance is not defined",
-      "user": [0.0026],
-      "sys": [0.0035],
-      "real": [0.0063],
-      "rss_mb": [23.83]
+      "user": [0.006],
+      "sys": [0.0],
+      "real": [0.0062],
+      "rss_mb": [23.78]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0052],
+      "sys": [0.0073],
+      "real": [0.0128],
+      "rss_mb": [54.11]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0052],
+      "sys": [0.0073],
+      "real": [0.0128],
+      "rss_mb": [54.11]
+    },
+    "NavierStokes": {
+      "error": "SyntaxError: Unexpected identifier 'x'",
+      "user": [0.0024],
+      "sys": [0.0012],
+      "real": [0.0037],
+      "rss_mb": [23.43]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: Unexpected identifier 'a'",
+      "user": [0.0037],
+      "sys": [0.0046],
+      "real": [0.0085],
+      "rss_mb": [48.71]
     }
   }
 }

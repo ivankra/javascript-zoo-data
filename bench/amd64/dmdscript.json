@@ -10,126 +10,126 @@
     "revision_date": "2026-03-03",
     "version": "2.1.3"
   },
-  "time": "2026-04-24 02:51:35.002533 UTC",
+  "time": "2026-05-22 11:40:16.107469 UTC",
   "benchmarks": {
-    "PdfJS": {
-      "error": "SyntaxError: found 'content' when expecting ':'",
-      "user": [0.0081],
-      "sys": [0.003],
-      "real": [0.0115],
-      "rss_mb": [31.85]
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: eval(3) : Error: found 'Error' when expecting ';'",
+      "user": [1.4366],
+      "sys": [0.002],
+      "real": [1.4391],
+      "rss_mb": [23.38]
+    },
+    "Richards": {
+      "score": [20],
+      "user": [8.2407],
+      "sys": [0.4866],
+      "real": [7.5526],
+      "rss_mb": [23.34]
     },
     "Mandreel": {
       "error": "FAIL: No scores in the output",
-      "user": [3.3252],
-      "sys": [0.047],
-      "real": [3.2327],
-      "rss_mb": [136.98]
+      "user": [3.88],
+      "sys": [0.021],
+      "real": [3.7722],
+      "rss_mb": [139.39]
     },
     "MandreelLatency": {
       "error": "FAIL: No scores in the output",
-      "user": [3.3252],
-      "sys": [0.047],
-      "real": [3.2327],
-      "rss_mb": [136.98]
+      "user": [3.88],
+      "sys": [0.021],
+      "real": [3.7722],
+      "rss_mb": [139.39]
+    },
+    "zlib": {
+      "error": "SyntaxError: zlib: SyntaxError: eval(7) : Error: found '{' when expecting ';'",
+      "user": [4.5182],
+      "sys": [0.001],
+      "real": [4.5209],
+      "rss_mb": [24.02]
     },
     "RegExp": {
       "error": "SyntaxError: expression expected, not '/='",
-      "user": [0.0016],
-      "sys": [0.0016],
-      "real": [0.0035],
-      "rss_mb": [23.9]
-    },
-    "NavierStokes": {
-      "error": "FAIL: No scores in the output",
-      "user": [4.684, 6.1107],
-      "sys": [0.012, 0.007],
-      "real": [4.6857, 6.1018],
-      "rss_mb": [39.65, 39.56]
-    },
-    "Box2D": {
-      "error": "SyntaxError: expression expected, not '}'",
-      "user": [0.0051],
-      "sys": [0.0064],
-      "real": [0.0098],
-      "rss_mb": [24.0]
-    },
-    "EarleyBoyer": {
-      "score": [134],
-      "user": [84.1012],
-      "sys": [0.3231],
-      "real": [77.9349],
-      "rss_mb": [1005.36]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: CodeLoad: SyntaxError: eval(3) : Error: found 'Error' when expecting ';'",
-      "user": [1.4321],
-      "sys": [0.002],
-      "real": [1.4344],
-      "rss_mb": [23.62]
-    },
-    "Splay": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0],
-      "sys": [0.004],
-      "real": [0.0042],
-      "rss_mb": [23.51]
-    },
-    "SplayLatency": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0],
-      "sys": [0.004],
-      "real": [0.0042],
+      "user": [0.0017],
+      "sys": [0.0017],
+      "real": [0.0036],
       "rss_mb": [23.51]
     },
     "Gameboy": {
       "error": "FAIL: No scores in the output",
-      "user": [1.0532, 1.1381],
-      "sys": [0.007, 0.003],
-      "real": [1.055, 1.1356],
-      "rss_mb": [25.78, 25.71]
+      "user": [1.288],
+      "sys": [0.006],
+      "real": [1.2878],
+      "rss_mb": [25.29]
     },
-    "RayTrace": {
-      "score": [138],
-      "user": [20.6992],
-      "sys": [1.5536],
-      "real": [18.1919],
-      "rss_mb": [23.37]
-    },
-    "zlib": {
-      "error": "SyntaxError: zlib: SyntaxError: eval(7) : Error: found '{' when expecting ';'",
-      "user": [4.0],
-      "sys": [0.019],
-      "real": [4.0203],
-      "rss_mb": [24.1]
+    "EarleyBoyer": {
+      "score": [114],
+      "user": [97.2319],
+      "sys": [0.1719],
+      "real": [89.4044],
+      "rss_mb": [1005.54]
     },
     "DeltaBlue": {
-      "score": [26.2],
-      "user": [10.7316],
-      "sys": [0.0984],
-      "real": [9.9726],
-      "rss_mb": [74.31]
-    },
-    "Richards": {
-      "score": [25.2],
-      "user": [6.2015],
-      "sys": [0.0673],
-      "real": [5.5984],
-      "rss_mb": [23.31]
+      "score": [25.7, 28.1],
+      "user": [10.14, 10.0635],
+      "sys": [0.1371, 0.0744],
+      "real": [9.4729, 9.3656],
+      "rss_mb": [74.26, 74.34]
     },
     "Typescript": {
       "error": "SyntaxError: identifier expected instead of 'byte'",
-      "user": [0.0408],
-      "sys": [0.0071],
-      "real": [0.0458],
-      "rss_mb": [35.78]
+      "user": [0.0415, 0.0426],
+      "sys": [0.0096, 0.0079],
+      "real": [0.0489, 0.0486],
+      "rss_mb": [35.77, 35.6]
+    },
+    "Splay": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0011],
+      "sys": [0.0022],
+      "real": [0.0035],
+      "rss_mb": [22.89]
+    },
+    "SplayLatency": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0011],
+      "sys": [0.0022],
+      "real": [0.0035],
+      "rss_mb": [22.89]
     },
     "Crypto": {
       "error": "CRASH: SIGSEGV",
-      "user": [0.1602],
-      "sys": [0.183],
-      "real": [0.6328],
+      "user": [0.1623],
+      "sys": [0.1829],
+      "real": [0.6291],
       "rss_mb": [129.9]
+    },
+    "NavierStokes": {
+      "error": "FAIL: No scores in the output",
+      "user": [5.005, 6.0528],
+      "sys": [0.004, 0.003],
+      "real": [4.997, 6.0413],
+      "rss_mb": [39.34, 39.56]
+    },
+    "Box2D": {
+      "error": "SyntaxError: expression expected, not '}'",
+      "user": [0.0065, 0.0055],
+      "sys": [0.0055, 0.0066],
+      "real": [0.0103, 0.0104],
+      "rss_mb": [23.85, 23.7]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: found 'content' when expecting ':'",
+      "user": [0.0083],
+      "sys": [0.0021],
+      "real": [0.0106],
+      "rss_mb": [30.92]
+    },
+    "RayTrace": {
+      "score": [125],
+      "user": [22.1277],
+      "sys": [1.0894],
+      "real": [19.9959],
+      "rss_mb": [24.66]
     }
   }
 }

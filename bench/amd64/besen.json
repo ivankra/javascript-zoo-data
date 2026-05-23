@@ -6,38 +6,38 @@
     "binary_size": 2040192,
     "engine": "besen",
     "repository": "https://github.com/BeRo1985/besen.git",
-    "revision": "1c271815cf13291d3e4b636999ff7ecd7aa0993b",
-    "revision_date": "2020-10-21"
+    "revision": "a9985c9bbaaaf3e4069019e286a4f77c779cdb50",
+    "revision_date": "2026-05-01"
   },
-  "time": "2026-04-24 02:50:42.131401 UTC",
+  "time": "2026-05-22 11:39:37.723761 UTC",
   "benchmarks": {
     "Crypto": {
-      "score": [68.3],
-      "user": [54.6602],
-      "sys": [0.096],
-      "real": [54.7608],
-      "rss_mb": [26.67]
-    },
-    "DeltaBlue": {
-      "score": [36.3],
-      "user": [7.6424],
-      "sys": [0.062],
-      "real": [7.7054],
-      "rss_mb": [23.3]
+      "score": [34.1],
+      "user": [113.1207],
+      "sys": [0.161],
+      "real": [113.2993],
+      "rss_mb": [26.75]
     },
     "NavierStokes": {
-      "score": [418],
-      "user": [18.2921],
-      "sys": [0.045],
-      "real": [18.3387],
-      "rss_mb": [94.07]
+      "score": [439, 301],
+      "user": [17.8825, 20.6068],
+      "sys": [0.047, 0.058],
+      "real": [17.9311, 20.6679],
+      "rss_mb": [94.21, 94.16]
     },
     "Richards": {
-      "score": [70.8],
-      "user": [3.1606],
+      "score": [70.9],
+      "user": [3.1575],
       "sys": [0.005],
-      "real": [3.1661],
-      "rss_mb": [23.29]
+      "real": [3.1632],
+      "rss_mb": [23.02]
+    },
+    "DeltaBlue": {
+      "score": [38.1],
+      "user": [7.2723],
+      "sys": [0.059],
+      "real": [7.3332],
+      "rss_mb": [23.09]
     }
   }
 }

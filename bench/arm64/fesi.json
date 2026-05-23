@@ -4,132 +4,132 @@
     "binary_name": "fesi",
     "dist_size": 955225,
     "engine": "fesi",
-    "jdk": "openjdk version \"25.0.2\" 2026-01-20",
+    "jdk": "openjdk version \"25.0.3\" 2026-04-21",
     "repository": "https://github.com/ivankra/FESI.git",
     "revision": "ad4a0511f28f5d6c5cfbb400dd46d604812361f2",
     "revision_date": "2026-02-24",
     "version": "1.1.8"
   },
-  "time": "2026-04-24 03:26:17.659361 UTC",
+  "time": "2026-05-22 12:14:10.375939 UTC",
   "benchmarks": {
-    "CodeLoad": {
+    "Gameboy": {
       "error": "SyntaxError",
-      "user": [0.1339],
-      "sys": [0.0269],
-      "real": [0.1192],
-      "rss_mb": [47.97]
-    },
-    "Richards": {
-      "error": "SyntaxError",
-      "user": [0.1413],
-      "sys": [0.0327],
-      "real": [0.1238],
-      "rss_mb": [47.95]
-    },
-    "DeltaBlue": {
-      "error": "SyntaxError",
-      "user": [0.1487],
-      "sys": [0.0252],
-      "real": [0.1275],
-      "rss_mb": [48.07]
-    },
-    "Mandreel": {
-      "error": "SyntaxError",
-      "user": [0.1377],
-      "sys": [0.0344],
-      "real": [0.1247],
-      "rss_mb": [52.66]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError",
-      "user": [0.1377],
-      "sys": [0.0344],
-      "real": [0.1247],
-      "rss_mb": [52.66]
-    },
-    "PdfJS": {
-      "error": "SyntaxError",
-      "user": [0.1271],
-      "sys": [0.0421],
-      "real": [0.1225],
-      "rss_mb": [47.88]
+      "user": [0.1389],
+      "sys": [0.039],
+      "real": [0.128],
+      "rss_mb": [48.54]
     },
     "Typescript": {
       "error": "SyntaxError",
-      "user": [0.1385],
-      "sys": [0.0299],
-      "real": [0.1214],
-      "rss_mb": [48.02]
-    },
-    "Crypto": {
-      "error": "SyntaxError",
-      "user": [0.1329],
-      "sys": [0.0377],
-      "real": [0.1277],
-      "rss_mb": [47.79]
-    },
-    "Splay": {
-      "error": "SyntaxError",
-      "user": [0.1373],
-      "sys": [0.0372],
-      "real": [0.1302],
-      "rss_mb": [47.91]
-    },
-    "SplayLatency": {
-      "error": "SyntaxError",
-      "user": [0.1373],
-      "sys": [0.0372],
-      "real": [0.1302],
-      "rss_mb": [47.91]
-    },
-    "zlib": {
-      "error": "SyntaxError",
-      "user": [0.1312],
-      "sys": [0.0431],
-      "real": [0.1253],
-      "rss_mb": [47.89]
-    },
-    "NavierStokes": {
-      "error": "SyntaxError",
-      "user": [0.1393],
-      "sys": [0.0377],
-      "real": [0.128],
-      "rss_mb": [47.88]
+      "user": [0.1369],
+      "sys": [0.0347],
+      "real": [0.1278],
+      "rss_mb": [47.86]
     },
     "EarleyBoyer": {
       "error": "SyntaxError",
-      "user": [0.1293],
-      "sys": [0.0371],
-      "real": [0.1259],
-      "rss_mb": [48.03]
+      "user": [0.1359],
+      "sys": [0.0306],
+      "real": [0.124],
+      "rss_mb": [47.87]
     },
-    "RayTrace": {
+    "NavierStokes": {
       "error": "SyntaxError",
-      "user": [0.1306],
-      "sys": [0.039],
-      "real": [0.1206],
-      "rss_mb": [48.23]
+      "user": [0.1324],
+      "sys": [0.0416],
+      "real": [0.1242],
+      "rss_mb": [47.81]
     },
     "RegExp": {
       "error": "SyntaxError",
-      "user": [0.1425],
-      "sys": [0.0353],
-      "real": [0.1281],
+      "user": [0.1386],
+      "sys": [0.0296],
+      "real": [0.1196],
+      "rss_mb": [47.71]
+    },
+    "Crypto": {
+      "error": "SyntaxError",
+      "user": [0.1339],
+      "sys": [0.0337],
+      "real": [0.128],
+      "rss_mb": [47.87]
+    },
+    "RayTrace": {
+      "error": "SyntaxError",
+      "user": [0.137],
+      "sys": [0.0268],
+      "real": [0.1189],
+      "rss_mb": [47.87]
+    },
+    "PdfJS": {
+      "error": "SyntaxError",
+      "user": [0.1381],
+      "sys": [0.0297],
+      "real": [0.1229],
+      "rss_mb": [47.92]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError",
+      "user": [0.1341],
+      "sys": [0.035],
+      "real": [0.1218],
+      "rss_mb": [47.88]
+    },
+    "Richards": {
+      "error": "SyntaxError",
+      "user": [0.131],
+      "sys": [0.0412],
+      "real": [0.1357],
+      "rss_mb": [47.74]
+    },
+    "zlib": {
+      "error": "SyntaxError",
+      "user": [0.1242],
+      "sys": [0.0418],
+      "real": [0.119],
+      "rss_mb": [47.59]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError",
+      "user": [0.1325],
+      "sys": [0.0404],
+      "real": [0.1264],
       "rss_mb": [47.9]
+    },
+    "Mandreel": {
+      "error": "SyntaxError",
+      "user": [0.1291],
+      "sys": [0.0462],
+      "real": [0.1263],
+      "rss_mb": [52.81]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError",
+      "user": [0.1291],
+      "sys": [0.0462],
+      "real": [0.1263],
+      "rss_mb": [52.81]
     },
     "Box2D": {
       "error": "SyntaxError",
-      "user": [0.1313],
-      "sys": [0.0415],
-      "real": [0.1284],
-      "rss_mb": [47.88]
+      "user": [0.1376],
+      "sys": [0.0381],
+      "real": [0.1276],
+      "rss_mb": [48.42]
     },
-    "Gameboy": {
+    "Splay": {
       "error": "SyntaxError",
-      "user": [0.1427],
-      "sys": [0.0384],
-      "real": [0.1309],
-      "rss_mb": [47.77]
+      "user": [0.1354],
+      "sys": [0.0382],
+      "real": [0.1307],
+      "rss_mb": [47.71]
+    },
+    "SplayLatency": {
+      "error": "SyntaxError",
+      "user": [0.1354],
+      "sys": [0.0382],
+      "real": [0.1307],
+      "rss_mb": [47.71]
     }
   }
 }

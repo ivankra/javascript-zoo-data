@@ -10,126 +10,126 @@
     "revision_date": "2015-07-19",
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
-  "time": "2026-04-24 03:35:02.591320 UTC",
+  "time": "2026-05-22 12:20:15.180854 UTC",
   "benchmarks": {
-    "PdfJS": {
-      "error": "ReferenceError",
-      "user": [0.2917],
-      "sys": [0.0599],
-      "real": [0.352],
-      "rss_mb": [102.5]
-    },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.0512],
-      "sys": [0.013],
-      "real": [0.0645],
-      "rss_mb": [24.36]
-    },
-    "DeltaBlue": {
-      "score": [25],
-      "user": [9.5046],
-      "sys": [0.013],
-      "real": [9.521],
-      "rss_mb": [36.75]
+    "Crypto": {
+      "error": "CRASH: thread '<main>' panicked at 'unexpected getrandom error: Operation not permitted (os error 1)', /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.8/src/os.rs:71",
+      "user": [0.0099],
+      "sys": [0.003],
+      "real": [0.0132],
+      "rss_mb": [22.74]
     },
     "Typescript": {
       "error": "SyntaxError: Cannot parse expression, got Divide",
-      "user": [0.0388],
-      "sys": [0.0071],
-      "real": [0.0462],
-      "rss_mb": [32.36]
+      "user": [0.0378, 0.034],
+      "sys": [0.0089, 0.012],
+      "real": [0.047, 0.0463],
+      "rss_mb": [32.73, 32.73]
     },
     "RegExp": {
       "error": "SyntaxError: Cannot parse '\\'",
-      "user": [0.0009],
-      "sys": [0.0027],
-      "real": [0.0038],
-      "rss_mb": [22.75]
+      "user": [0.0023],
+      "sys": [0.0012],
+      "real": [0.0037],
+      "rss_mb": [22.88]
     },
     "EarleyBoyer": {
       "error": "TypeError: EarleyBoyer: TypeError: Value is not a function",
-      "user": [0.0335],
-      "sys": [0.0049],
-      "real": [0.0386],
-      "rss_mb": [22.76]
-    },
-    "RayTrace": {
-      "score": [81.3],
-      "user": [30.9402],
-      "sys": [0.015],
-      "real": [30.9593],
-      "rss_mb": [36.99]
-    },
-    "Richards": {
-      "score": [21.8],
-      "user": [6.8186],
-      "sys": [0.01],
-      "real": [6.8299],
-      "rss_mb": [36.26]
-    },
-    "Box2D": {
-      "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
-      "user": [0.1066],
-      "sys": [0.0179],
-      "real": [0.1249],
-      "rss_mb": [40.85]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: Newline cannot appear in string constant",
-      "user": [0.0092],
-      "sys": [0.0173],
-      "real": [0.0267],
-      "rss_mb": [52.69]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: Newline cannot appear in string constant",
-      "user": [0.0092],
-      "sys": [0.0173],
-      "real": [0.0267],
-      "rss_mb": [52.69]
-    },
-    "Splay": {
-      "error": "OOM: >4096MB",
-      "user": [10.5425],
-      "sys": [2.6216],
-      "real": [13.1666],
-      "rss_mb": [4107.36]
-    },
-    "SplayLatency": {
-      "error": "OOM: >4096MB",
-      "user": [10.5425],
-      "sys": [2.6216],
-      "real": [13.1666],
-      "rss_mb": [4107.36]
+      "user": [0.0314],
+      "sys": [0.0071],
+      "real": [0.0387],
+      "rss_mb": [23.13]
     },
     "zlib": {
       "error": "ReferenceError: zlib: ReferenceError",
-      "user": [0.0796],
-      "sys": [0.0131],
-      "real": [0.0929],
-      "rss_mb": [33.12]
+      "user": [0.0846],
+      "sys": [0.009],
+      "real": [0.0938],
+      "rss_mb": [33.13]
     },
-    "CodeLoad": {
-      "error": "SyntaxError: CodeLoad: SyntaxError: 1:1924: Unexpected token; expected Comma, got Literal(String(Name(-432), true))",
-      "user": [0.0151, 0.0173],
-      "sys": [0.003, 0.001],
-      "real": [0.0184, 0.0185],
-      "rss_mb": [22.75, 22.77]
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.0532],
+      "sys": [0.01],
+      "real": [0.0634],
+      "rss_mb": [24.47]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: Newline cannot appear in string constant",
+      "user": [0.015],
+      "sys": [0.012],
+      "real": [0.0273],
+      "rss_mb": [52.81]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: Newline cannot appear in string constant",
+      "user": [0.015],
+      "sys": [0.012],
+      "real": [0.0273],
+      "rss_mb": [52.81]
     },
     "NavierStokes": {
       "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
-      "user": [0.4745],
-      "sys": [0.017],
-      "real": [0.492],
-      "rss_mb": [36.61]
+      "user": [0.4721, 0.4764],
+      "sys": [0.012, 0.008],
+      "real": [0.4845, 0.4846],
+      "rss_mb": [36.6, 36.59]
     },
-    "Crypto": {
-      "error": "CRASH: thread '<main>' panicked at 'unexpected getrandom error: Operation not permitted (os error 1)', /root/.cargo/registry/src/github.com-1ecc6299db9ec823/rand-0.3.8/src/os.rs:71",
-      "user": [0.0107],
-      "sys": [0.0021],
-      "real": [0.0131],
-      "rss_mb": [22.64]
+    "PdfJS": {
+      "error": "ReferenceError",
+      "user": [0.3003],
+      "sys": [0.0571],
+      "real": [0.3577],
+      "rss_mb": [102.59]
+    },
+    "Splay": {
+      "error": "OOM: >4096MB",
+      "user": [10.2911],
+      "sys": [2.5178],
+      "real": [12.8116],
+      "rss_mb": [4097.79]
+    },
+    "SplayLatency": {
+      "error": "OOM: >4096MB",
+      "user": [10.2911],
+      "sys": [2.5178],
+      "real": [12.8116],
+      "rss_mb": [4097.79]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: CodeLoad: SyntaxError: 1:1924: Unexpected token; expected Comma, got Literal(String(Name(-432), true))",
+      "user": [0.0162],
+      "sys": [0.002],
+      "real": [0.0185],
+      "rss_mb": [22.88]
+    },
+    "Richards": {
+      "score": [21.8],
+      "user": [6.8015],
+      "sys": [0.013],
+      "real": [6.8158],
+      "rss_mb": [36.34]
+    },
+    "DeltaBlue": {
+      "score": [25.1, 25],
+      "user": [9.4757, 9.51],
+      "sys": [0.017, 0.011],
+      "real": [9.4937, 9.523],
+      "rss_mb": [36.77, 36.78]
+    },
+    "Box2D": {
+      "error": "CRASH: thread '<main>' panicked at 'assertion failed: index < self.len()', src/gc/handles/array.rs:105",
+      "user": [0.1061],
+      "sys": [0.017],
+      "real": [0.1233],
+      "rss_mb": [40.87]
+    },
+    "RayTrace": {
+      "score": [79.8],
+      "user": [31.536],
+      "sys": [0.011],
+      "real": [31.5505],
+      "rss_mb": [36.99]
     }
   }
 }

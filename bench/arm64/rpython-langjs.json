@@ -2,132 +2,132 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "rpython-langjs",
-    "dist_size": 1194122033,
+    "dist_size": 1190020710,
     "engine": "rpython-langjs",
     "repository": "https://github.com/progval/rpython-langjs.git",
     "revision": "d31b8ee3be4904200d64a6cbe12c8200f2c3aaf9",
     "revision_date": "2017-10-01"
   },
-  "time": "2026-04-24 03:34:55.303876 UTC",
+  "time": "2026-05-22 13:03:08.690271 UTC",
   "benchmarks": {
-    "DeltaBlue": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.2556],
-      "sys": [0.2182],
-      "real": [6.7746],
-      "rss_mb": [287.52]
-    },
-    "Typescript": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.491],
-      "sys": [0.3212],
-      "real": [6.8933],
-      "rss_mb": [632.65]
-    },
-    "Box2D": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.768],
-      "sys": [0.2342],
-      "real": [7.5164],
-      "rss_mb": [311.57]
-    },
     "PdfJS": {
       "error": "FAIL: No scores in the output",
-      "user": [1.4117],
-      "sys": [0.319],
-      "real": [7.1206],
-      "rss_mb": [525.49]
+      "user": [1.4801],
+      "sys": [0.3101],
+      "real": [7.5045],
+      "rss_mb": [516.82]
     },
     "Gameboy": {
       "error": "FAIL: No scores in the output",
-      "user": [1.7671],
-      "sys": [0.2567],
-      "real": [7.6118],
-      "rss_mb": [338.74]
-    },
-    "EarleyBoyer": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.4992],
-      "sys": [0.2428],
-      "real": [6.9967],
-      "rss_mb": [301.46]
-    },
-    "zlib": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.2117],
-      "sys": [0.2455],
-      "real": [6.9967],
-      "rss_mb": [300.56]
-    },
-    "Mandreel": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.6309],
-      "sys": [0.474],
-      "real": [7.6726],
-      "rss_mb": [759.09]
-    },
-    "MandreelLatency": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.6309],
-      "sys": [0.474],
-      "real": [7.6726],
-      "rss_mb": [759.09]
-    },
-    "CodeLoad": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.2592],
-      "sys": [0.2413],
-      "real": [7.032],
-      "rss_mb": [296.96]
-    },
-    "RegExp": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.1871],
-      "sys": [0.2097],
-      "real": [6.7449],
-      "rss_mb": [290.15]
-    },
-    "NavierStokes": {
-      "error": "FAIL: No scores in the output",
-      "user": [1.341],
-      "sys": [0.2557],
-      "real": [7.4808],
-      "rss_mb": [286.38]
+      "user": [1.7163],
+      "sys": [0.2326],
+      "real": [7.264],
+      "rss_mb": [337.92]
     },
     "RayTrace": {
       "error": "FAIL: No scores in the output",
-      "user": [1.283],
-      "sys": [0.2204],
-      "real": [6.753],
-      "rss_mb": [287.8]
+      "user": [1.3649],
+      "sys": [0.2122],
+      "real": [7.2289],
+      "rss_mb": [287.28]
+    },
+    "Box2D": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.6492],
+      "sys": [0.2548],
+      "real": [7.1798],
+      "rss_mb": [310.96]
+    },
+    "CodeLoad": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.2409],
+      "sys": [0.2442],
+      "real": [6.9135],
+      "rss_mb": [296.48]
     },
     "Crypto": {
       "error": "FAIL: No scores in the output",
-      "user": [1.4807],
-      "sys": [0.2961],
-      "real": [7.5898],
-      "rss_mb": [289.89]
+      "user": [1.3849],
+      "sys": [0.2429],
+      "real": [7.0115],
+      "rss_mb": [350.5]
+    },
+    "DeltaBlue": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.3293],
+      "sys": [0.2303],
+      "real": [7.0995],
+      "rss_mb": [287.14]
+    },
+    "zlib": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.1754],
+      "sys": [0.2287],
+      "real": [6.7225],
+      "rss_mb": [300.24]
+    },
+    "NavierStokes": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.2662],
+      "sys": [0.2085],
+      "real": [6.832],
+      "rss_mb": [286.48]
+    },
+    "Typescript": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.5998],
+      "sys": [0.3594],
+      "real": [7.4461],
+      "rss_mb": [632.2]
+    },
+    "Mandreel": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.6092],
+      "sys": [0.4773],
+      "real": [7.5036],
+      "rss_mb": [750.14]
+    },
+    "MandreelLatency": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.6092],
+      "sys": [0.4773],
+      "real": [7.5036],
+      "rss_mb": [750.14]
     },
     "Splay": {
       "error": "FAIL: No scores in the output",
-      "user": [1.2485],
-      "sys": [0.2363],
-      "real": [7.1199],
-      "rss_mb": [285.7]
+      "user": [1.2823],
+      "sys": [0.2424],
+      "real": [7.0416],
+      "rss_mb": [285.61]
     },
     "SplayLatency": {
       "error": "FAIL: No scores in the output",
-      "user": [1.2485],
-      "sys": [0.2363],
-      "real": [7.1199],
-      "rss_mb": [285.7]
+      "user": [1.2823],
+      "sys": [0.2424],
+      "real": [7.0416],
+      "rss_mb": [285.61]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.1365],
+      "sys": [0.223],
+      "real": [6.5904],
+      "rss_mb": [289.84]
+    },
+    "EarleyBoyer": {
+      "error": "FAIL: No scores in the output",
+      "user": [1.5927],
+      "sys": [0.2628],
+      "real": [7.5386],
+      "rss_mb": [300.92]
     },
     "Richards": {
       "error": "FAIL: No scores in the output",
-      "user": [1.2513],
-      "sys": [0.2286],
-      "real": [6.8155],
-      "rss_mb": [286.08]
+      "user": [1.2479],
+      "sys": [0.2375],
+      "real": [6.9571],
+      "rss_mb": [286.64]
     }
   }
 }

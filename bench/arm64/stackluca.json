@@ -2,134 +2,134 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "stackluca",
-    "binary_sha256": "667aa8a672291c3a8b9339bdb4d8dbc16d5392448719e1d18612ab2e73b21bf9",
-    "binary_size": 134568,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "5adafbcd6c69f62420ffe43c07bcf1badc24b125328747dfb20d9c76c59f4529",
+    "binary_size": 134504,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "stackluca",
     "repository": "https://github.com/stackluca/v3.git",
     "revision": "487412fbb8d2c11b3a6faf2047c0c677689c6751",
     "revision_date": "2016-05-21"
   },
-  "time": "2026-04-24 03:38:57.491632 UTC",
+  "time": "2026-05-22 12:21:42.135127 UTC",
   "benchmarks": {
-    "PdfJS": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0],
-      "sys": [0.0013],
-      "real": [0.0015],
-      "rss_mb": [28.54]
-    },
-    "Typescript": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0],
-      "sys": [0.0019],
-      "real": [0.002],
-      "rss_mb": [32.13]
-    },
-    "DeltaBlue": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0006],
-      "sys": [0.0],
-      "real": [0.0009],
-      "rss_mb": [22.39]
-    },
-    "Box2D": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0008],
-      "sys": [0.0],
-      "real": [0.001],
-      "rss_mb": [22.66]
-    },
-    "zlib": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0],
-      "sys": [0.0008],
-      "real": [0.001],
-      "rss_mb": [22.65]
-    },
-    "RayTrace": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0],
-      "sys": [0.0007],
-      "real": [0.0009],
-      "rss_mb": [22.41]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0007],
-      "sys": [0.0],
-      "real": [0.001],
-      "rss_mb": [22.54]
-    },
-    "RegExp": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0],
-      "sys": [0.0008],
-      "real": [0.001],
-      "rss_mb": [22.57]
-    },
-    "Gameboy": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0],
-      "sys": [0.0009],
-      "real": [0.0011],
-      "rss_mb": [24.13]
-    },
-    "Crypto": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0],
-      "sys": [0.0007],
-      "real": [0.0009],
-      "rss_mb": [22.4]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0],
-      "sys": [0.0007],
-      "real": [0.0009],
-      "rss_mb": [22.54]
-    },
-    "Richards": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0007],
-      "sys": [0.0],
-      "real": [0.0008],
-      "rss_mb": [22.4]
-    },
-    "NavierStokes": {
-      "error": "SyntaxError: unexpected token",
-      "user": [0.0],
-      "sys": [0.0007],
-      "real": [0.0009],
-      "rss_mb": [22.41]
-    },
     "Splay": {
       "error": "SyntaxError: unexpected token",
       "user": [0.0007],
       "sys": [0.0],
       "real": [0.0009],
-      "rss_mb": [22.42]
+      "rss_mb": [22.85]
     },
     "SplayLatency": {
       "error": "SyntaxError: unexpected token",
       "user": [0.0007],
       "sys": [0.0],
       "real": [0.0009],
-      "rss_mb": [22.42]
+      "rss_mb": [22.85]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0009],
+      "rss_mb": [22.73]
+    },
+    "Box2D": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0008],
+      "real": [0.0011],
+      "rss_mb": [23.3]
+    },
+    "zlib": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0008],
+      "real": [0.001],
+      "rss_mb": [23.24]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0004],
+      "sys": [0.0004],
+      "real": [0.0013],
+      "rss_mb": [23.11]
+    },
+    "RayTrace": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0006],
+      "sys": [0.0],
+      "real": [0.0008],
+      "rss_mb": [22.72]
+    },
+    "Crypto": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0006],
+      "sys": [0.0],
+      "real": [0.0009],
+      "rss_mb": [22.87]
+    },
+    "Richards": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0007],
+      "real": [0.0009],
+      "rss_mb": [22.72]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0013],
+      "real": [0.0015],
+      "rss_mb": [29.2]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0007],
+      "sys": [0.0],
+      "real": [0.001],
+      "rss_mb": [22.86]
+    },
+    "Typescript": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0018],
+      "real": [0.0021],
+      "rss_mb": [32.46]
+    },
+    "NavierStokes": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0006],
+      "sys": [0.0],
+      "real": [0.0008],
+      "rss_mb": [22.86]
+    },
+    "Gameboy": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0009],
+      "real": [0.0011],
+      "rss_mb": [24.52]
+    },
+    "RegExp": {
+      "error": "SyntaxError: unexpected token",
+      "user": [0.0],
+      "sys": [0.0008],
+      "real": [0.001],
+      "rss_mb": [22.99]
     },
     "Mandreel": {
       "error": "SyntaxError: unexpected token",
-      "user": [0.0],
-      "sys": [0.0028],
-      "real": [0.0031],
-      "rss_mb": [52.46]
+      "user": [0.0008],
+      "sys": [0.0016],
+      "real": [0.0026],
+      "rss_mb": [52.78]
     },
     "MandreelLatency": {
       "error": "SyntaxError: unexpected token",
-      "user": [0.0],
-      "sys": [0.0028],
-      "real": [0.0031],
-      "rss_mb": [52.46]
+      "user": [0.0008],
+      "sys": [0.0016],
+      "real": [0.0026],
+      "rss_mb": [52.78]
     }
   }
 }

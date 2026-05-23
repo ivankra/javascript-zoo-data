@@ -2,136 +2,135 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "njs",
-    "binary_sha256": "8d8c0be4e495b2545c19c389cffa013e26d6143fd774f0183ad3badf238475a7",
-    "binary_size": 874040,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "f600002f0dfcce22813fed4436182019b65ff2c0d0d5c22f20f1cbea35e18fce",
+    "binary_size": 873984,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "njs",
     "repository": "https://github.com/nginx/njs.git",
-    "revision": "463ee0d52d687bb6b3bb3a81dc53a42bbc6065fc",
-    "revision_date": "2026-04-21",
-    "version": "0.9.7"
+    "revision": "621f7cf9918aaf532cad1bf9244b5d668225fa63",
+    "revision_date": "2026-05-20"
   },
   "flags": [{"if": "flags:module", "then": "-m"}],
-  "time": "2026-04-24 03:52:20.251723 UTC",
+  "time": "2026-05-22 12:17:43.784871 UTC",
   "benchmarks": {
+    "Crypto": {
+      "score": [890],
+      "user": [7.3084],
+      "sys": [0.012],
+      "real": [7.3242],
+      "rss_mb": [34.5]
+    },
+    "EarleyBoyer": {
+      "score": [1603],
+      "user": [7.609],
+      "sys": [1.8938],
+      "real": [9.5345],
+      "rss_mb": [2986.26]
+    },
     "zlib": {
       "error": "SyntaxError: Delete of an unqualified identifier",
       "user": [0.002],
-      "sys": [0.0013],
-      "real": [0.0047],
-      "rss_mb": [24.12]
-    },
-    "Mandreel": {
-      "error": "RangeError: Mandreel: RangeError: Maximum call stack size exceeded",
-      "user": [1.743],
-      "sys": [0.1498],
-      "real": [1.8946],
-      "rss_mb": [265.38]
-    },
-    "MandreelLatency": {
-      "error": "RangeError: Mandreel: RangeError: Maximum call stack size exceeded",
-      "user": [1.743],
-      "sys": [0.1498],
-      "real": [1.8946],
-      "rss_mb": [265.38]
-    },
-    "Gameboy": {
-      "error": "TypeError: Gameboy: TypeError: property set on primitive string type",
-      "user": [0.176, 0.1982],
-      "sys": [0.44, 0.4975],
-      "real": [0.6175, 0.6962],
-      "rss_mb": [1165.02, 1165.0]
-    },
-    "NavierStokes": {
-      "error": "TypeError: NavierStokes: TypeError: property set on primitive undefined type",
-      "user": [1.7705, 1.8494, 1.5988],
-      "sys": [0.004, 0.004, 0.004],
-      "real": [1.7763, 1.8546, 1.6045],
-      "rss_mb": [23.88, 23.91, 23.98]
-    },
-    "Box2D": {
-      "score": [1925, 1864],
-      "user": [2.2498, 2.318],
-      "sys": [0.098, 0.11],
-      "real": [2.3494, 2.4297],
-      "rss_mb": [186.85, 186.96]
-    },
-    "Crypto": {
-      "score": [817, 892],
-      "user": [8.5362, 7.2415],
-      "sys": [0.015, 0.013],
-      "real": [8.555, 7.2567],
-      "rss_mb": [32.46, 34.6]
-    },
-    "Richards": {
-      "score": [607, 560, 575, 566, 575],
-      "user": [2.006, 2.01, 2.0045, 2.0074, 2.0018],
-      "sys": [0.002, 0.004, 0.007, 0.005, 0.006],
-      "real": [2.0094, 2.0145, 2.0125, 2.014, 2.0098],
-      "rss_mb": [23.53, 23.66, 23.57, 23.72, 23.53]
-    },
-    "RegExp": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.1599],
-      "sys": [0.008],
-      "real": [0.1711],
-      "rss_mb": [24.06]
-    },
-    "PdfJS": {
-      "error": "OOM: >4096MB",
-      "user": [0.5691, 0.6396, 0.635, 0.6416],
-      "sys": [1.5883, 1.7386, 1.8049, 1.7599],
-      "real": [2.1597, 2.3865, 2.4415, 2.4041],
-      "rss_mb": [4169.93, 4107.3, 4136.96, 4187.28]
-    },
-    "Splay": {
-      "score": [1995, 2043, 1787, 2076, 2088],
-      "user": [1.6909, 1.7234, 1.6143, 1.6503, 1.6738],
-      "sys": [0.808, 0.7682, 0.9112, 0.8426, 0.8329],
-      "real": [2.5009, 2.503, 2.5484, 2.4953, 2.5072],
-      "rss_mb": [1743.12, 1731.52, 1580.27, 1786.93, 1792.77]
-    },
-    "SplayLatency": {
-      "score": [8951, 8855, 7937, 9153, 9163],
-      "user": [1.6909, 1.7234, 1.6143, 1.6503, 1.6738],
-      "sys": [0.808, 0.7682, 0.9112, 0.8426, 0.8329],
-      "real": [2.5009, 2.503, 2.5484, 2.4953, 2.5072],
-      "rss_mb": [1743.12, 1731.52, 1580.27, 1786.93, 1792.77]
-    },
-    "EarleyBoyer": {
-      "score": [1690, 1618, 1842],
-      "user": [7.4199, 7.7508, 7.532],
-      "sys": [1.3638, 1.8517, 1.116],
-      "real": [8.787, 9.6199, 8.6491],
-      "rss_mb": [2900.52, 3012.25, 3137.55]
-    },
-    "Typescript": {
-      "error": "TypeError: Typescript: TypeError: undefined is not a function",
-      "user": [0.1672, 0.1632],
-      "sys": [0.0232, 0.027],
-      "real": [0.1918, 0.1915],
-      "rss_mb": [44.04, 43.93]
+      "sys": [0.002],
+      "real": [0.0066],
+      "rss_mb": [24.14]
     },
     "CodeLoad": {
       "error": "InternalError: CodeLoad: InternalError: Not implemented",
-      "user": [0.0025, 0.0044],
-      "sys": [0.0025, 0.0011],
-      "real": [0.0072, 0.0065],
-      "rss_mb": [23.91, 23.79]
+      "user": [0.0058],
+      "sys": [0.0],
+      "real": [0.0073],
+      "rss_mb": [23.56]
     },
-    "RayTrace": {
-      "score": [700, 695],
-      "user": [4.3518, 4.4021],
-      "sys": [1.0919, 1.0813],
-      "real": [5.446, 5.5129],
-      "rss_mb": [2327.71, 2327.69]
+    "Gameboy": {
+      "error": "TypeError: Gameboy: TypeError: property set on primitive string type",
+      "user": [0.2229],
+      "sys": [0.6138],
+      "real": [0.8383],
+      "rss_mb": [1164.7]
+    },
+    "Typescript": {
+      "error": "TypeError: Typescript: TypeError: undefined is not a function",
+      "user": [0.1942],
+      "sys": [0.022],
+      "real": [0.2181],
+      "rss_mb": [44.05]
+    },
+    "Richards": {
+      "score": [578, 564],
+      "user": [2.0063, 2.002],
+      "sys": [0.003, 0.004],
+      "real": [2.0118, 2.0075],
+      "rss_mb": [23.39, 23.7]
+    },
+    "Mandreel": {
+      "error": "RangeError: Mandreel: RangeError: Maximum call stack size exceeded",
+      "user": [1.9453, 1.762],
+      "sys": [0.17, 0.133],
+      "real": [2.1169, 1.8968],
+      "rss_mb": [265.73, 265.17]
+    },
+    "MandreelLatency": {
+      "error": "RangeError: Mandreel: RangeError: Maximum call stack size exceeded",
+      "user": [1.9453, 1.762],
+      "sys": [0.17, 0.133],
+      "real": [2.1169, 1.8968],
+      "rss_mb": [265.73, 265.17]
+    },
+    "Splay": {
+      "score": [1995],
+      "user": [1.6335],
+      "sys": [0.8653],
+      "real": [2.5026],
+      "rss_mb": [1696.55]
+    },
+    "SplayLatency": {
+      "score": [8709],
+      "user": [1.6335],
+      "sys": [0.8653],
+      "real": [2.5026],
+      "rss_mb": [1696.55]
+    },
+    "Box2D": {
+      "score": [1881, 1874, 1934, 1911],
+      "user": [2.3055, 2.2932, 2.233, 2.2877],
+      "sys": [0.107, 0.13, 0.106, 0.077],
+      "real": [2.4131, 2.4251, 2.3408, 2.3652],
+      "rss_mb": [186.84, 186.62, 186.8, 186.91]
     },
     "DeltaBlue": {
-      "score": [509],
-      "user": [1.9467],
-      "sys": [0.074],
-      "real": [2.0228],
-      "rss_mb": [115.66]
+      "score": [518],
+      "user": [1.9427],
+      "sys": [0.085],
+      "real": [2.0297],
+      "rss_mb": [117.61]
+    },
+    "NavierStokes": {
+      "error": "TypeError: NavierStokes: TypeError: property set on primitive undefined type",
+      "user": [1.7719, 1.7598, 1.4234],
+      "sys": [0.002, 0.004, 0.005],
+      "real": [1.7768, 1.7665, 1.4289],
+      "rss_mb": [23.38, 23.48, 23.56]
+    },
+    "RayTrace": {
+      "score": [654, 553, 652, 648],
+      "user": [4.0448, 4.0945, 4.13, 4.0116],
+      "sys": [1.3362, 1.4288, 1.3624, 1.3862],
+      "real": [5.384, 5.5502, 5.4949, 5.4194],
+      "rss_mb": [2142.02, 1863.3, 2188.45, 2142.12]
+    },
+    "PdfJS": {
+      "error": "OOM: >4096MB",
+      "user": [0.5805, 0.6701, 0.6808],
+      "sys": [1.6253, 2.0902, 2.1544],
+      "real": [2.208, 2.7631, 2.861],
+      "rss_mb": [4183.71, 4156.11, 4104.0]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.1578, 0.1535],
+      "sys": [0.0149, 0.003],
+      "real": [0.1751, 0.1572],
+      "rss_mb": [23.71, 23.79]
     }
   }
 }

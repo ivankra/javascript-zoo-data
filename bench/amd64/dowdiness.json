@@ -2,135 +2,135 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "dowdiness",
-    "binary_sha256": "dadedf8da674ded27cb6f3884d28280ca16396b4cda89eea537278a7c08ceff5",
-    "binary_size": 3725592,
+    "binary_sha256": "efd3491cbdf9095a1da2e977e97eb17715ecbe3ccc02067cd1d695fdd690b1ae",
+    "binary_size": 2921488,
     "engine": "dowdiness",
     "repository": "https://github.com/dowdiness/js_engine.git",
-    "revision": "4cb84a6fd4f27ee03cd5236804d7abd13ec54a9b",
-    "revision_date": "2026-04-23",
-    "version": "0.2.0-5-g4cb84a6"
+    "revision": "efa3301c04c34b5383a278e28476a827de4658ac",
+    "revision_date": "2026-05-21",
+    "version": "0.2.3-72-gefa3301"
   },
   "flags": [{"if": "flags:module", "then": "--module"}],
-  "time": "2026-04-24 02:51:35.649182 UTC",
+  "time": "2026-05-22 11:40:18.146887 UTC",
   "benchmarks": {
-    "Typescript": {
-      "error": "SyntaxError: Typescript: SyntaxError: Identifier 'arguments' has already been declared",
-      "user": [96.909],
-      "sys": [1.3189],
-      "real": [98.2399],
-      "rss_mb": [59.93]
-    },
-    "CodeLoad": {
-      "score": [1827],
-      "user": [3.0944],
-      "sys": [0.03],
-      "real": [3.125],
-      "rss_mb": [126.33]
-    },
-    "Richards": {
-      "score": [4.73],
-      "user": [25.3671],
-      "sys": [0.004],
-      "real": [25.3749],
-      "rss_mb": [23.61]
-    },
-    "Box2D": {
-      "score": [193],
-      "user": [22.6478],
-      "sys": [0.004],
-      "real": [22.6534],
-      "rss_mb": [32.9]
-    },
-    "Splay": {
-      "score": [51.4],
-      "user": [18.9634],
-      "sys": [0.14],
-      "real": [19.1067],
-      "rss_mb": [458.63]
-    },
-    "SplayLatency": {
-      "score": [482],
-      "user": [18.9634],
-      "sys": [0.14],
-      "real": [19.1067],
-      "rss_mb": [458.63]
-    },
-    "Gameboy": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.8133],
-      "sys": [0.087],
-      "real": [1800.1025],
-      "rss_mb": [147.54]
-    },
-    "RayTrace": {
-      "score": [14.3],
-      "user": [170.3518],
-      "sys": [0.007],
-      "real": [170.3729],
-      "rss_mb": [23.37]
-    },
-    "Crypto": {
-      "score": [6.08],
-      "user": [656.4649],
-      "sys": [0.018],
-      "real": [656.5399],
-      "rss_mb": [23.51]
-    },
     "Mandreel": {
-      "error": "FAIL: No scores in the output",
-      "user": [1005.1425, 1018.2771],
-      "sys": [0.064, 0.111],
-      "real": [1005.2665, 1018.4797],
-      "rss_mb": [373.49, 374.16]
+      "error": "OOM: >4096MB",
+      "user": [22.0428, 24.6811],
+      "sys": [1.3958, 1.1809],
+      "real": [23.4422, 25.8652],
+      "rss_mb": [4106.53, 4106.3]
     },
     "MandreelLatency": {
-      "error": "FAIL: No scores in the output",
-      "user": [1005.1425, 1018.2771],
-      "sys": [0.064, 0.111],
-      "real": [1005.2665, 1018.4797],
-      "rss_mb": [373.49, 374.16]
+      "error": "OOM: >4096MB",
+      "user": [22.0428, 24.6811],
+      "sys": [1.3958, 1.1809],
+      "real": [23.4422, 25.8652],
+      "rss_mb": [4106.53, 4106.3]
     },
-    "DeltaBlue": {
-      "score": [5.04],
-      "user": [43.2958],
-      "sys": [0.01],
-      "real": [43.3098],
-      "rss_mb": [33.59]
+    "Richards": {
+      "score": [18.1, 21.5],
+      "user": [6.6374, 6.5961],
+      "sys": [0.7629, 0.311],
+      "real": [7.4014, 6.9083],
+      "rss_mb": [2226.92, 2462.32]
+    },
+    "Box2D": {
+      "score": [693],
+      "user": [5.9865],
+      "sys": [0.3689],
+      "real": [6.3566],
+      "rss_mb": [1603.65]
     },
     "RegExp": {
       "error": "SyntaxError: Unterminated regex literal at line 497, col 15",
-      "user": [0.016],
-      "sys": [0.002],
-      "real": [0.0182],
-      "rss_mb": [23.49]
+      "user": [0.0039],
+      "sys": [0.001],
+      "real": [0.0052],
+      "rss_mb": [23.29]
+    },
+    "PdfJS": {
+      "error": "ReferenceError: PdfJS: ReferenceError: promise is not defined",
+      "user": [578.5863, 555.3654],
+      "sys": [0.049, 0.033],
+      "real": [578.7051, 555.4589],
+      "rss_mb": [54.42, 54.43]
+    },
+    "RayTrace": {
+      "error": "OOM: >4096MB",
+      "user": [5.9747, 5.6112],
+      "sys": [1.4527, 1.2548],
+      "real": [7.429, 6.8673],
+      "rss_mb": [4119.51, 4101.56]
+    },
+    "DeltaBlue": {
+      "error": "OOM: >4096MB",
+      "user": [7.8064, 7.9553],
+      "sys": [0.9679, 0.855],
+      "real": [8.777, 8.8126],
+      "rss_mb": [4104.34, 4097.57]
+    },
+    "EarleyBoyer": {
+      "error": "OOM: >4096MB",
+      "user": [5.5964, 5.5602],
+      "sys": [1.4309, 1.5205],
+      "real": [7.0284, 7.0835],
+      "rss_mb": [4102.22, 4105.46]
+    },
+    "CodeLoad": {
+      "score": [7279, 7496],
+      "user": [1.9969, 1.9934],
+      "sys": [0.017, 0.024],
+      "real": [2.0144, 2.018],
+      "rss_mb": [388.38, 402.36]
+    },
+    "Crypto": {
+      "error": "OOM: >4096MB",
+      "user": [19.1982, 19.5935],
+      "sys": [1.2049, 1.441],
+      "real": [20.4047, 21.0383],
+      "rss_mb": [4105.87, 4098.17]
+    },
+    "NavierStokes": {
+      "score": [28.2],
+      "user": [89.4707],
+      "sys": [0.04],
+      "real": [89.5209],
+      "rss_mb": [30.3]
+    },
+    "Splay": {
+      "error": "OOM: >4096MB",
+      "user": [3.8099, 3.5455, 4.561],
+      "sys": [1.124, 1.1272, 1.6266],
+      "real": [4.9351, 4.6752, 6.1889],
+      "rss_mb": [4115.11, 4112.36, 4114.18]
+    },
+    "SplayLatency": {
+      "error": "OOM: >4096MB",
+      "user": [3.8099, 3.5455, 4.561],
+      "sys": [1.124, 1.1272, 1.6266],
+      "real": [4.9351, 4.6752, 6.1889],
+      "rss_mb": [4115.11, 4112.36, 4114.18]
+    },
+    "Gameboy": {
+      "error": "OOM: >4096MB",
+      "user": [224.8102, 167.6523],
+      "sys": [1.5098, 1.2489],
+      "real": [226.3427, 168.9238],
+      "rss_mb": [4111.83, 4119.53]
+    },
+    "Typescript": {
+      "error": "SyntaxError: Typescript: SyntaxError: Identifier 'arguments' has already been declared",
+      "user": [18.0329, 18.0281],
+      "sys": [0.034, 0.028],
+      "real": [18.0687, 18.0583],
+      "rss_mb": [62.27, 62.32]
     },
     "zlib": {
       "error": "ReferenceError: zlib: ReferenceError: c is not defined",
-      "user": [2.4028],
-      "sys": [0.053],
-      "real": [2.4563],
-      "rss_mb": [537.87]
-    },
-    "PdfJS": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.7354],
-      "sys": [0.086],
-      "real": [1800.0461],
-      "rss_mb": [57.09]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: Invalid escape sequence at line 1484, col 7",
-      "user": [0.0225],
-      "sys": [0.002],
-      "real": [0.0247],
-      "rss_mb": [23.57]
-    },
-    "NavierStokes": {
-      "score": [4.67],
-      "user": [541.2048],
-      "sys": [0.018],
-      "real": [541.2723],
-      "rss_mb": [23.18]
+      "user": [0.4221],
+      "sys": [0.059],
+      "real": [0.4815],
+      "rss_mb": [612.38]
     }
   }
 }

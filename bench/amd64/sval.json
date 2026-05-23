@@ -8,126 +8,126 @@
     "revision": "58550fd3a5e4202fdbfda3eb652099667b4c976f",
     "revision_date": "2026-04-12"
   },
-  "time": "2026-04-24 04:12:02.021189 UTC",
+  "time": "2026-05-22 12:29:10.161175 UTC",
   "benchmarks": {
-    "NavierStokes": {
-      "score": [39.9],
-      "user": [63.4793],
-      "sys": [0.129],
-      "real": [63.5287],
-      "rss_mb": [204.08]
-    },
-    "EarleyBoyer": {
-      "score": [82.6],
-      "user": [133.7353],
-      "sys": [0.7355],
-      "real": [121.4895],
-      "rss_mb": [279.11]
-    },
-    "RegExp": {
-      "score": [92],
-      "user": [20.5518],
-      "sys": [0.1441],
-      "real": [18.366],
-      "rss_mb": [131.57]
-    },
-    "PdfJS": {
-      "score": [199],
-      "user": [22.2207],
-      "sys": [0.259],
-      "real": [21.8257],
-      "rss_mb": [300.72]
-    },
     "Splay": {
-      "score": [301],
-      "user": [4.9483],
-      "sys": [0.2832],
-      "real": [4.4853],
-      "rss_mb": [359.38]
+      "score": [305, 307],
+      "user": [5.0508, 4.8447],
+      "sys": [0.187, 0.2112],
+      "real": [4.4128, 4.3949],
+      "rss_mb": [303.29, 303.61]
     },
     "SplayLatency": {
-      "score": [2243],
-      "user": [4.9483],
-      "sys": [0.2832],
-      "real": [4.4853],
-      "rss_mb": [359.38]
-    },
-    "Mandreel": {
-      "score": [16.5],
-      "user": [506.7462],
-      "sys": [1.6772],
-      "real": [482.9709],
-      "rss_mb": [516.39]
-    },
-    "MandreelLatency": {
-      "score": [143],
-      "user": [506.7462],
-      "sys": [1.6772],
-      "real": [482.9709],
-      "rss_mb": [516.39]
-    },
-    "CodeLoad": {
-      "error": "ReferenceError: CodeLoad: ReferenceError: MockElement is not defined",
-      "user": [1.228, 1.1566],
-      "sys": [0.1031, 0.0916],
-      "real": [1.2022, 1.2072],
-      "rss_mb": [174.13, 172.1]
-    },
-    "Box2D": {
-      "score": [97.2],
-      "user": [46.796],
-      "sys": [0.1978],
-      "real": [44.9439],
-      "rss_mb": [170.61]
-    },
-    "Crypto": {
-      "score": [25.8],
-      "user": [156.3573],
-      "sys": [0.171],
-      "real": [156.3021],
-      "rss_mb": [159.33]
+      "score": [2269, 2235],
+      "user": [5.0508, 4.8447],
+      "sys": [0.187, 0.2112],
+      "real": [4.4128, 4.3949],
+      "rss_mb": [303.29, 303.61]
     },
     "DeltaBlue": {
-      "score": [37.1],
-      "user": [7.756],
-      "sys": [0.0582],
-      "real": [7.6955],
-      "rss_mb": [102.16]
+      "score": [39.1],
+      "user": [7.3548],
+      "sys": [0.1023],
+      "real": [7.3125],
+      "rss_mb": [107.05]
     },
     "zlib": {
       "error": "ReferenceError: zlib: ReferenceError: print is not defined",
-      "user": [0.1028],
-      "sys": [0.0239],
-      "real": [0.1226],
-      "rss_mb": [69.78]
+      "user": [0.1],
+      "sys": [0.0323],
+      "real": [0.1381],
+      "rss_mb": [70.39]
     },
-    "RayTrace": {
-      "score": [117],
-      "user": [21.7287],
-      "sys": [0.0811],
-      "real": [21.6891],
-      "rss_mb": [99.68]
+    "CodeLoad": {
+      "error": "ReferenceError: CodeLoad: ReferenceError: MockElement is not defined",
+      "user": [1.1418, 1.1616],
+      "sys": [0.1151, 0.0964],
+      "real": [1.208, 1.2071],
+      "rss_mb": [172.84, 168.95]
     },
-    "Gameboy": {
-      "error": "TypeError: Gameboy: TypeError: Cannot assign to read only property 'length' of string '\u00af\u00e0O\u00c9\u0098\u0084g\u0000>\u0001\u00e0O\u00c9 (m\u00e1*\u00ea\u0000 *V#\u00e5bo\u00e9$ff8\u00e1*\u00e5\u00ea\u0000 \u00c9\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u0018\u0007g\u0000\u0098\u0084g\u0000\u00d9\u00f5\u00fa\u00ff\u007f\u00f5\u00c5\u00d5\u00e5!\u0013\u00ca6\u0001\u00cd\u00f5\u00ff\u00e1\u00d1\u00c1\u00f1\u00ea\u0000 \u00fa\u0012\u00ca\u00b7 \u0002\u00f1\u00c9\u00f0\u0080\u00b7(\u0017\u00f0\u0082\u00ee\u0018\u00e0Q>\u0090\u00e0S\u00af\u00e0R\u00e0T...",
-      "user": [0.5175],
-      "sys": [0.0312],
-      "real": [0.349],
-      "rss_mb": [95.35]
+    "Mandreel": {
+      "score": [15.9],
+      "user": [529.8922],
+      "sys": [2.0197],
+      "real": [501.7029],
+      "rss_mb": [457.15]
+    },
+    "MandreelLatency": {
+      "score": [139],
+      "user": [529.8922],
+      "sys": [2.0197],
+      "real": [501.7029],
+      "rss_mb": [457.15]
+    },
+    "RegExp": {
+      "score": [97.1],
+      "user": [20.3381],
+      "sys": [0.2505],
+      "real": [18.3453],
+      "rss_mb": [159.18]
+    },
+    "Crypto": {
+      "score": [26.9],
+      "user": [149.807],
+      "sys": [0.2324],
+      "real": [149.5864],
+      "rss_mb": [162.12]
+    },
+    "EarleyBoyer": {
+      "score": [85.7],
+      "user": [131.6438],
+      "sys": [1.0916],
+      "real": [118.9404],
+      "rss_mb": [187.7]
     },
     "Richards": {
-      "score": [27.1],
-      "user": [5.4288],
-      "sys": [0.03],
-      "real": [5.3968],
-      "rss_mb": [76.41]
+      "score": [26],
+      "user": [5.695],
+      "sys": [0.0413],
+      "real": [5.646],
+      "rss_mb": [77.6]
     },
     "Typescript": {
       "error": "SyntaxError: Typescript: SyntaxError: Identifier 'arguments' has already been declared",
-      "user": [0.4831],
-      "sys": [0.067],
-      "real": [0.3191],
-      "rss_mb": [125.85]
+      "user": [0.4828],
+      "sys": [0.0721],
+      "real": [0.3333],
+      "rss_mb": [128.8]
+    },
+    "Gameboy": {
+      "error": "TypeError: Gameboy: TypeError: Cannot assign to read only property 'length' of string '\u00af\u00e0O\u00c9\u0098\u0084g\u0000>\u0001\u00e0O\u00c9 (m\u00e1*\u00ea\u0000 *V#\u00e5bo\u00e9$ff8\u00e1*\u00e5\u00ea\u0000 \u00c9\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u00ff\u0018\u0007g\u0000\u0098\u0084g\u0000\u00d9\u00f5\u00fa\u00ff\u007f\u00f5\u00c5\u00d5\u00e5!\u0013\u00ca6\u0001\u00cd\u00f5\u00ff\u00e1\u00d1\u00c1\u00f1\u00ea\u0000 \u00fa\u0012\u00ca\u00b7 \u0002\u00f1\u00c9\u00f0\u0080\u00b7(\u0017\u00f0\u0082\u00ee\u0018\u00e0Q>\u0090\u00e0S\u00af\u00e0R\u00e0T...",
+      "user": [0.5127],
+      "sys": [0.0525],
+      "real": [0.3604],
+      "rss_mb": [103.4]
+    },
+    "NavierStokes": {
+      "score": [30.7],
+      "user": [82.7853],
+      "sys": [0.1121],
+      "real": [82.6277],
+      "rss_mb": [145.52]
+    },
+    "PdfJS": {
+      "score": [199, 194],
+      "user": [22.351, 22.9219],
+      "sys": [0.1713, 0.1825],
+      "real": [21.8071, 22.3459],
+      "rss_mb": [225.45, 226.68]
+    },
+    "Box2D": {
+      "score": [105],
+      "user": [43.4946],
+      "sys": [0.3118],
+      "real": [41.6418],
+      "rss_mb": [176.18]
+    },
+    "RayTrace": {
+      "score": [120],
+      "user": [21.3237],
+      "sys": [0.1313],
+      "real": [21.2526],
+      "rss_mb": [101.93]
     }
   }
 }

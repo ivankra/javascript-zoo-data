@@ -2,133 +2,133 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "kodjodevf",
-    "binary_sha256": "c45d35c7c26a63b2f8aed93cdb099d50626110857f1d39e77bc147603bb90a02",
-    "binary_size": 9700848,
+    "binary_sha256": "364ba3e169e827e5c5fb12d88406c68dfca6f1264adfb0d1c7cc448ba98a3cf4",
+    "binary_size": 10009904,
     "engine": "kodjodevf",
     "repository": "https://github.com/kodjodevf/js_interpreter.git",
-    "revision": "983c28d688a1c1e75b5578893d7c967c16f30e99",
-    "revision_date": "2026-04-21"
+    "revision": "6acf8aef4bf711ab4340a194eeea51dcaf1b93cf",
+    "revision_date": "2026-05-15"
   },
-  "time": "2026-04-24 03:51:32.602469 UTC",
+  "time": "2026-05-22 12:14:26.069243 UTC",
   "benchmarks": {
-    "PdfJS": {
-      "error": "SyntaxError: Identifier 'imageData' has already been declared",
-      "user": [0.1449],
-      "sys": [0.0413],
-      "real": [0.1684],
-      "rss_mb": [80.52]
-    },
-    "Box2D": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.1237],
-      "sys": [0.0349],
-      "real": [0.145],
-      "rss_mb": [59.12]
-    },
-    "Richards": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.0009],
-      "sys": [0.0102],
-      "real": [0.0109],
-      "rss_mb": [23.68]
-    },
     "RegExp": {
       "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.0266],
-      "sys": [0.0286],
-      "real": [0.0541],
-      "rss_mb": [41.1]
+      "user": [0.0353],
+      "sys": [0.0161],
+      "real": [0.0501],
+      "rss_mb": [41.41]
     },
-    "CodeLoad": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.007],
-      "sys": [0.009],
-      "real": [0.0159],
-      "rss_mb": [23.48]
-    },
-    "Splay": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.005],
-      "sys": [0.009],
-      "real": [0.014],
-      "rss_mb": [23.32]
-    },
-    "SplayLatency": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.005],
-      "sys": [0.009],
-      "real": [0.014],
-      "rss_mb": [23.32]
-    },
-    "zlib": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.0144],
-      "sys": [0.0052],
-      "real": [0.0195],
-      "rss_mb": [23.69]
+    "PdfJS": {
+      "error": "SyntaxError: Identifier 'imageData' has already been declared",
+      "user": [0.1544],
+      "sys": [0.0438],
+      "real": [0.1743],
+      "rss_mb": [81.2]
     },
     "Gameboy": {
       "error": "SyntaxError: Identifier 'typedArrayTemp' has already been declared",
-      "user": [0.0802],
-      "sys": [0.0213],
-      "real": [0.0955],
-      "rss_mb": [54.6]
-    },
-    "EarleyBoyer": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.0863],
-      "sys": [0.0284],
-      "real": [0.1092],
-      "rss_mb": [52.6]
-    },
-    "Crypto": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.0165],
-      "sys": [0.0124],
-      "real": [0.0278],
-      "rss_mb": [24.86]
-    },
-    "Mandreel": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [2.9233],
-      "sys": [0.2243],
-      "real": [2.1358],
-      "rss_mb": [407.38]
-    },
-    "MandreelLatency": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [2.9233],
-      "sys": [0.2243],
-      "real": [2.1358],
-      "rss_mb": [407.38]
-    },
-    "Typescript": {
-      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.3814],
-      "sys": [0.0535],
-      "real": [0.364],
-      "rss_mb": [79.33]
+      "user": [0.0742],
+      "sys": [0.0325],
+      "real": [0.1],
+      "rss_mb": [55.27]
     },
     "NavierStokes": {
       "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.0107],
-      "sys": [0.0049],
-      "real": [0.0153],
-      "rss_mb": [23.16]
+      "user": [0.0112],
+      "sys": [0.0051],
+      "real": [0.016],
+      "rss_mb": [23.44]
+    },
+    "Box2D": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.1202],
+      "sys": [0.0434],
+      "real": [0.1478],
+      "rss_mb": [59.18]
+    },
+    "Mandreel": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [2.7806],
+      "sys": [0.1855],
+      "real": [2.0485],
+      "rss_mb": [318.22]
+    },
+    "MandreelLatency": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [2.7806],
+      "sys": [0.1855],
+      "real": [2.0485],
+      "rss_mb": [318.22]
+    },
+    "zlib": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0181],
+      "sys": [0.0032],
+      "real": [0.0211],
+      "rss_mb": [23.88]
+    },
+    "CodeLoad": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0085],
+      "sys": [0.0085],
+      "real": [0.0168],
+      "rss_mb": [23.64]
     },
     "DeltaBlue": {
       "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.0105],
-      "sys": [0.0063],
-      "real": [0.0165],
-      "rss_mb": [23.43]
+      "user": [0.012],
+      "sys": [0.007],
+      "real": [0.0188],
+      "rss_mb": [23.42]
+    },
+    "Crypto": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0246],
+      "sys": [0.0051],
+      "real": [0.0291],
+      "rss_mb": [25.8]
     },
     "RayTrace": {
       "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
-      "user": [0.0087],
-      "sys": [0.0097],
-      "real": [0.018],
-      "rss_mb": [23.34]
+      "user": [0.0105],
+      "sys": [0.0126],
+      "real": [0.0225],
+      "rss_mb": [23.43]
+    },
+    "Richards": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0085],
+      "sys": [0.0042],
+      "real": [0.0125],
+      "rss_mb": [23.18]
+    },
+    "Splay": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0102],
+      "sys": [0.0023],
+      "real": [0.0127],
+      "rss_mb": [23.24]
+    },
+    "SplayLatency": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0102],
+      "sys": [0.0023],
+      "real": [0.0127],
+      "rss_mb": [23.24]
+    },
+    "Typescript": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.402],
+      "sys": [0.074],
+      "real": [0.3908],
+      "rss_mb": [79.86]
+    },
+    "EarleyBoyer": {
+      "error": "TypeError: Cannot read properties of undefined (reading 'indexOf')",
+      "user": [0.0895],
+      "sys": [0.0312],
+      "real": [0.1139],
+      "rss_mb": [52.04]
     }
   }
 }

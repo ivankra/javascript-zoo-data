@@ -2,134 +2,134 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "echosoar",
-    "binary_sha256": "73ceccb2701f13c90291c91336639b07f232190429a21a83418d0aa3b25d9f15",
-    "binary_size": 1315592,
+    "binary_sha256": "c18d409e0dda87e9262dcb234ead592ced9b31d49ca7b3b33afc499b5837ad2d",
+    "binary_size": 1446664,
     "engine": "echosoar",
     "repository": "https://github.com/echosoar/jsi.git",
-    "revision": "43ec7dc547bb3afd4004f71cd0648538bd815093",
-    "revision_date": "2026-04-19",
+    "revision": "924246fdf5ff55611817bbcf3aa311ace9168894",
+    "revision_date": "2026-05-04",
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
-  "time": "2026-04-24 02:51:30.359319 UTC",
+  "time": "2026-05-22 11:43:56.920422 UTC",
   "benchmarks": {
-    "Richards": {
-      "error": "SyntaxError: Unexpected identifier 'next'",
-      "user": [0.0038],
-      "sys": [0.0],
-      "real": [0.0039],
-      "rss_mb": [22.52]
-    },
-    "NavierStokes": {
-      "error": "SyntaxError: Unexpected identifier 'x'",
-      "user": [0.0009],
-      "sys": [0.0018],
-      "real": [0.003],
-      "rss_mb": [22.39]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: Invalid octal number",
-      "user": [0.0063],
-      "sys": [0.0084],
-      "real": [0.0151],
-      "rss_mb": [52.47]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: Invalid octal number",
-      "user": [0.0063],
-      "sys": [0.0084],
-      "real": [0.0151],
-      "rss_mb": [52.47]
-    },
-    "Crypto": {
-      "error": "SyntaxError: Unexpected identifier 'BI_RC'",
-      "user": [0.0],
-      "sys": [0.0031],
-      "real": [0.0033],
-      "rss_mb": [22.54]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: Unexpected identifier 'a'",
-      "user": [0.002],
-      "sys": [0.0039],
-      "real": [0.0061],
-      "rss_mb": [47.68]
-    },
-    "CodeLoad": {
-      "error": "ReferenceError: performance is not defined",
-      "user": [0.0027],
-      "sys": [0.0018],
-      "real": [0.0047],
-      "rss_mb": [22.9]
-    },
-    "zlib": {
-      "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.0008],
-      "sys": [0.0008],
-      "real": [0.0018],
-      "rss_mb": [23.14]
-    },
-    "Splay": {
-      "error": "SyntaxError: Invalid octal number",
-      "user": [0.0011],
-      "sys": [0.0011],
-      "real": [0.0025],
-      "rss_mb": [22.53]
-    },
-    "SplayLatency": {
-      "error": "SyntaxError: Invalid octal number",
-      "user": [0.0011],
-      "sys": [0.0011],
-      "real": [0.0025],
-      "rss_mb": [22.53]
-    },
-    "Typescript": {
-      "error": "SyntaxError: Unexpected token Comma",
-      "user": [0.0168],
-      "sys": [0.0059],
-      "real": [0.0229],
-      "rss_mb": [193.64]
-    },
-    "DeltaBlue": {
-      "error": "SyntaxError: Unexpected token This",
-      "user": [0.0026],
-      "sys": [0.0],
-      "real": [0.0027],
-      "rss_mb": [22.5]
+    "Gameboy": {
+      "error": "SyntaxError: Unexpected token RightParenthesis",
+      "user": [0.0052],
+      "sys": [0.001],
+      "real": [0.0065],
+      "rss_mb": [36.02]
     },
     "EarleyBoyer": {
       "error": "SyntaxError: Unexpected token If",
-      "user": [0.0019],
-      "sys": [0.0019],
-      "real": [0.004],
-      "rss_mb": [22.89]
+      "user": [0.0018],
+      "sys": [0.0018],
+      "real": [0.0039],
+      "rss_mb": [23.37]
     },
-    "RayTrace": {
-      "error": "SyntaxError: Invalid octal number",
-      "user": [0.0008],
-      "sys": [0.0017],
-      "real": [0.0027],
-      "rss_mb": [22.52]
+    "Typescript": {
+      "error": "SyntaxError: Unexpected token Comma",
+      "user": [0.0157],
+      "sys": [0.0069],
+      "real": [0.0229],
+      "rss_mb": [194.04]
+    },
+    "NavierStokes": {
+      "error": "SyntaxError: Unexpected identifier 'x'",
+      "user": [0.0014],
+      "sys": [0.0014],
+      "real": [0.003],
+      "rss_mb": [22.86]
     },
     "RegExp": {
       "error": "SyntaxError: Unexpected token Slash",
-      "user": [0.002],
-      "sys": [0.001],
-      "real": [0.0032],
-      "rss_mb": [23.64]
+      "user": [0.0029],
+      "sys": [0.0],
+      "real": [0.0031],
+      "rss_mb": [24.09]
+    },
+    "Crypto": {
+      "error": "SyntaxError: Unexpected identifier 'BI_RC'",
+      "user": [0.0031],
+      "sys": [0.0],
+      "real": [0.0033],
+      "rss_mb": [23.0]
+    },
+    "RayTrace": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0016],
+      "sys": [0.0008],
+      "real": [0.0026],
+      "rss_mb": [22.85]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: Unexpected identifier 'a'",
+      "user": [0.0061],
+      "sys": [0.0],
+      "real": [0.0063],
+      "rss_mb": [48.32]
+    },
+    "DeltaBlue": {
+      "error": "SyntaxError: Unexpected token This",
+      "user": [0.0017],
+      "sys": [0.0009],
+      "real": [0.0028],
+      "rss_mb": [22.86]
+    },
+    "zlib": {
+      "error": "SyntaxError: Unexpected token Slash",
+      "user": [0.0],
+      "sys": [0.0017],
+      "real": [0.0019],
+      "rss_mb": [23.75]
     },
     "Box2D": {
       "error": "SyntaxError: Unexpected token RightBrace",
       "user": [0.001],
-      "sys": [0.002],
-      "real": [0.0032],
-      "rss_mb": [23.02]
+      "sys": [0.0021],
+      "real": [0.0033],
+      "rss_mb": [23.82]
     },
-    "Gameboy": {
-      "error": "SyntaxError: Unexpected token RightParenthesis",
-      "user": [0.0051],
-      "sys": [0.001],
-      "real": [0.0064],
-      "rss_mb": [35.62]
+    "CodeLoad": {
+      "error": "ReferenceError: performance is not defined",
+      "user": [0.0034],
+      "sys": [0.0011],
+      "real": [0.0047],
+      "rss_mb": [23.24]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0061],
+      "sys": [0.0081],
+      "real": [0.0144],
+      "rss_mb": [53.65]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0061],
+      "sys": [0.0081],
+      "real": [0.0144],
+      "rss_mb": [53.65]
+    },
+    "Richards": {
+      "error": "SyntaxError: Unexpected identifier 'next'",
+      "user": [0.0019],
+      "sys": [0.0019],
+      "real": [0.0039],
+      "rss_mb": [22.86]
+    },
+    "Splay": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0008],
+      "sys": [0.0016],
+      "real": [0.0026],
+      "rss_mb": [23.0]
+    },
+    "SplayLatency": {
+      "error": "SyntaxError: Invalid octal number",
+      "user": [0.0008],
+      "sys": [0.0016],
+      "real": [0.0026],
+      "rss_mb": [23.0]
     }
   }
 }

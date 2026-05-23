@@ -2,22 +2,22 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "quanta",
-    "binary_sha256": "2586771625d6023ed2487e7281e7137548a942e0cfea1f4380d218257f73f4d0",
-    "binary_size": 2600944,
-    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "binary_sha256": "4a920f63fad94a2db53792561c895f012d14912c906060c8fa26e90d802674e1",
+    "binary_size": 2605032,
+    "cc": "clang 23.0.0 (++20260517082933+46c1fa8d1759-1~exp1~20260517203058.557)",
     "engine": "quanta",
     "repository": "https://github.com/solarbrowser/quanta.git",
     "revision": "04bcf711ebf69bdcc31a4ae6b66411af471b7a7a",
     "revision_date": "2026-04-10"
   },
-  "time": "2026-04-24 05:04:27.704056 UTC",
+  "time": "2026-05-22 13:33:31.716703 UTC",
   "benchmarks": {
     "Richards": {
       "error": "EXIT: 1",
-      "user": [0.0149],
-      "sys": [0.004],
-      "real": [0.0191],
-      "rss_mb": [23.18]
+      "user": [0.0124],
+      "sys": [0.0062],
+      "real": [0.0188],
+      "rss_mb": [23.06]
     }
   }
 }

@@ -2,134 +2,134 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "yantra",
-    "dist_size": 23010472,
-    "dotnet": "10.0.203",
+    "dist_size": 23053564,
+    "dotnet": "10.0.300",
     "engine": "yantra",
     "repository": "https://github.com/yantrajs/yantra.git",
-    "revision": "284d019dbaafc900381dfa6bc7a5401a35da7b87",
-    "revision_date": "2026-04-19",
-    "version": "1.2.334"
+    "revision": "b0b2495e3131eec4421107f819034b4accbc79c2",
+    "revision_date": "2026-05-19",
+    "version": "1.2.368"
   },
-  "time": "2026-04-24 04:04:41.260987 UTC",
+  "time": "2026-05-22 12:29:31.268169 UTC",
   "benchmarks": {
-    "PdfJS": {
-      "error": "SyntaxError: log is already defined in current scope at 30128, 16",
-      "user": [0.5763],
-      "sys": [0.335],
-      "real": [1.517],
-      "rss_mb": [138.96]
+    "EarleyBoyer": {
+      "score": [554, 585],
+      "user": [19.9128, 17.5336],
+      "sys": [1.2464, 1.1328],
+      "real": [19.9411, 17.5806],
+      "rss_mb": [274.95, 275.45]
     },
     "NavierStokes": {
-      "error": "TypeError: NavierStokes: TypeError: Cannot set property 493 of undefined",
-      "user": [6.446],
-      "sys": [0.1036],
-      "real": [6.4227],
-      "rss_mb": [132.61]
-    },
-    "Crypto": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.5134, 0.5141],
-      "sys": [0.0941, 0.0687],
-      "real": [0.6281, 0.57],
-      "rss_mb": [105.43, 105.9]
-    },
-    "Box2D": {
-      "score": [6275, 4670],
-      "user": [3.5028, 3.7473],
-      "sys": [0.1704, 0.1588],
-      "real": [3.3877, 3.4718],
-      "rss_mb": [171.77, 171.76]
-    },
-    "EarleyBoyer": {
-      "score": [526, 506],
-      "user": [20.7838, 20.8852],
-      "sys": [1.7221, 1.2269],
-      "real": [20.8672, 20.4983],
-      "rss_mb": [251.4, 252.04]
-    },
-    "RayTrace": {
-      "score": [493, 475],
-      "user": [6.7663, 6.9467],
-      "sys": [0.1285, 0.165],
-      "real": [6.6996, 6.9032],
-      "rss_mb": [94.57, 94.5]
-    },
-    "Typescript": {
-      "error": "EXIT: -6",
-      "user": [4.0046],
-      "sys": [0.9417],
-      "real": [6.7327],
-      "rss_mb": [488.71]
-    },
-    "Splay": {
-      "score": [146, 126],
-      "user": [7.5219, 8.819],
-      "sys": [0.8524, 1.0191],
-      "real": [7.3342, 8.576],
-      "rss_mb": [1456.0, 1544.95]
-    },
-    "SplayLatency": {
-      "score": [642, 547],
-      "user": [7.5219, 8.819],
-      "sys": [0.8524, 1.0191],
-      "real": [7.3342, 8.576],
-      "rss_mb": [1456.0, 1544.95]
-    },
-    "zlib": {
-      "error": "SyntaxError: zlib: SyntaxError: Cannot delete a variable in Strict Mode",
-      "user": [384.409],
-      "sys": [2.5308],
-      "real": [386.4202],
-      "rss_mb": [285.2]
+      "error": "TypeError: NavierStokes: TypeError: Cannot set property $result of undefined",
+      "user": [5.2698],
+      "sys": [0.1449],
+      "real": [5.3008],
+      "rss_mb": [103.38]
     },
     "Mandreel": {
       "error": "SyntaxError: assert is already defined in current scope at 3791, 9",
-      "user": [0.2526, 0.238],
-      "sys": [0.2748, 0.2675],
-      "real": [0.9604, 0.9295],
-      "rss_mb": [104.64, 104.32]
+      "user": [0.2309],
+      "sys": [0.2689],
+      "real": [0.8331],
+      "rss_mb": [104.48]
     },
     "MandreelLatency": {
       "error": "SyntaxError: assert is already defined in current scope at 3791, 9",
-      "user": [0.2526, 0.238],
-      "sys": [0.2748, 0.2675],
-      "real": [0.9604, 0.9295],
-      "rss_mb": [104.64, 104.32]
+      "user": [0.2309],
+      "sys": [0.2689],
+      "real": [0.8331],
+      "rss_mb": [104.48]
     },
-    "RegExp": {
+    "PdfJS": {
+      "error": "SyntaxError: log is already defined in current scope at 30128, 16",
+      "user": [0.4941, 0.5272, 0.5635, 0.5199],
+      "sys": [0.3044, 0.2867, 0.3212, 0.2974],
+      "real": [1.3208, 1.3341, 1.4492, 1.3382],
+      "rss_mb": [126.82, 126.85, 134.05, 126.65]
+    },
+    "Crypto": {
       "error": "FAIL: No scores in the output",
-      "user": [0.9055, 1.0084, 0.9727],
-      "sys": [0.0838, 0.0974, 0.094],
-      "real": [0.9786, 1.1088, 1.053],
-      "rss_mb": [128.0, 114.04, 114.84]
+      "user": [0.4741, 0.5125],
+      "sys": [0.1071, 0.0573],
+      "real": [0.667, 0.5563],
+      "rss_mb": [99.06, 102.28]
     },
     "DeltaBlue": {
-      "score": [649, 602, 646],
-      "user": [2.502, 2.517, 2.4805],
-      "sys": [0.0608, 0.0787, 0.0747],
-      "real": [2.4321, 2.4494, 2.4155],
-      "rss_mb": [100.07, 95.05, 95.85]
+      "score": [650, 703],
+      "user": [2.5236, 2.5237],
+      "sys": [0.0857, 0.0799],
+      "real": [2.4901, 2.4487],
+      "rss_mb": [94.87, 95.85]
     },
-    "CodeLoad": {
-      "score": [260, 261, 264],
-      "user": [12.9759, 13.7413, 13.637],
-      "sys": [0.5452, 0.5047, 0.491],
-      "real": [10.6141, 11.3041, 11.1691],
-      "rss_mb": [561.03, 585.55, 578.09]
+    "Typescript": {
+      "error": "EXIT: -6",
+      "user": [4.1658],
+      "sys": [0.8727],
+      "real": [6.7299],
+      "rss_mb": [429.02]
     },
     "Gameboy": {
       "error": "FAIL: No scores in the output",
-      "user": [2.2654, 2.1161],
-      "sys": [0.4487, 0.3353],
-      "real": [2.4669, 2.2187],
-      "rss_mb": [229.16, 227.83]
+      "user": [3.2865, 3.0341, 3.1187],
+      "sys": [0.9443, 0.746, 0.8881],
+      "real": [3.4617, 3.2033, 3.4483],
+      "rss_mb": [226.71, 214.35, 222.57]
+    },
+    "zlib": {
+      "error": "SyntaxError: zlib: SyntaxError: Cannot delete a variable in Strict Mode",
+      "user": [396.6699],
+      "sys": [2.7076],
+      "real": [398.9598],
+      "rss_mb": [282.32]
+    },
+    "RayTrace": {
+      "score": [380],
+      "user": [8.4288],
+      "sys": [0.1829],
+      "real": [8.4072],
+      "rss_mb": [94.17]
     },
     "Richards": {
-      "score": [475, 467],
-      "user": [2.44, 2.4563],
-      "sys": [0.0739, 0.0558],
-      "real": [2.4232, 2.4126],
-      "rss_mb": [90.4, 90.38]
+      "score": [510],
+      "user": [2.4487],
+      "sys": [0.0809],
+      "real": [2.4491],
+      "rss_mb": [88.44]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.9127, 0.94, 0.9605, 0.9517],
+      "sys": [0.0697, 0.0979, 0.0799, 0.091],
+      "real": [0.9805, 1.017, 1.0397, 1.0288],
+      "rss_mb": [121.9, 113.5, 119.72, 111.16]
+    },
+    "Box2D": {
+      "score": [6034, 5402, 4127, 6448, 6137],
+      "user": [3.5254, 3.5846, 3.7266, 3.4169, 3.4044],
+      "sys": [0.1219, 0.1471, 0.1229, 0.1352, 0.1299],
+      "real": [3.4134, 3.4869, 3.6013, 3.3198, 3.3173],
+      "rss_mb": [153.16, 153.36, 154.33, 153.62, 153.68]
+    },
+    "Splay": {
+      "score": [250, 280],
+      "user": [7.3678, 5.6715],
+      "sys": [0.7866, 0.7924],
+      "real": [7.0201, 5.4716],
+      "rss_mb": [1177.69, 1181.3]
+    },
+    "SplayLatency": {
+      "score": [1371, 1712],
+      "user": [7.3678, 5.6715],
+      "sys": [0.7866, 0.7924],
+      "real": [7.0201, 5.4716],
+      "rss_mb": [1177.69, 1181.3]
+    },
+    "CodeLoad": {
+      "error": "TypeError: CodeLoad: TypeError: Cannot set property $height of undefined",
+      "user": [2.2247, 1.7905, 2.2246],
+      "sys": [0.1565, 0.1162, 0.1353],
+      "real": [2.2775, 1.8037, 2.1928],
+      "rss_mb": [155.33, 173.9, 165.22]
     }
   }
 }

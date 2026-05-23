@@ -2,134 +2,134 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "syoyo",
-    "binary_sha256": "a510faf084682c7787c7485adfc574a67a2e3713c0dad829639793225b56e3d7",
-    "binary_size": 12671048,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "e15fca7db0c1a8922ccfef9491ccb6e73f4d571e7232d3f73ece4f051d0d7102",
+    "binary_size": 12675088,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "syoyo",
     "repository": "https://github.com/syoyo/lightjs.git",
-    "revision": "f7c09511aeb9282b3e36dd9d9e94a69b0b0f65e6",
-    "revision_date": "2026-04-13"
+    "revision": "3f18478e6f42a677dc09c1c22ff5207d5922b1df",
+    "revision_date": "2026-05-07"
   },
-  "time": "2026-04-24 04:02:16.314863 UTC",
+  "time": "2026-05-22 12:46:33.938581 UTC",
   "benchmarks": {
-    "CodeLoad": {
-      "error": "FAIL: No scores in the output",
-      "user": [132.7324],
-      "sys": [0.012],
-      "real": [132.7591],
-      "rss_mb": [23.19]
-    },
-    "Splay": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1798.0623],
-      "sys": [1.8058],
-      "real": [1800.1138],
-      "rss_mb": [1296.68]
-    },
-    "SplayLatency": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1798.0623],
-      "sys": [1.8058],
-      "real": [1800.1138],
-      "rss_mb": [1296.68]
-    },
-    "RayTrace": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1798.0637],
-      "sys": [1.7309],
-      "real": [1800.0291],
-      "rss_mb": [1319.94]
-    },
     "Box2D": {
       "error": "SyntaxError",
-      "user": [0.1807],
-      "sys": [0.008],
-      "real": [0.1891],
-      "rss_mb": [36.62]
-    },
-    "Crypto": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1798.0751],
-      "sys": [1.8098],
-      "real": [1800.1076],
-      "rss_mb": [871.54]
-    },
-    "Typescript": {
-      "error": "SyntaxError: Error in file 'typescript.js': SyntaxError: Invalid regular expression",
-      "user": [0.2878],
-      "sys": [0.012],
-      "real": [0.3],
-      "rss_mb": [33.25]
-    },
-    "Mandreel": {
-      "error": "FAIL: No scores in the output",
-      "user": [831.3288],
-      "sys": [0.511],
-      "real": [831.9049],
-      "rss_mb": [1353.32]
-    },
-    "MandreelLatency": {
-      "error": "FAIL: No scores in the output",
-      "user": [831.3288],
-      "sys": [0.511],
-      "real": [831.9049],
-      "rss_mb": [1353.32]
-    },
-    "Richards": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1798.146],
-      "sys": [1.6558],
-      "real": [1800.0914],
-      "rss_mb": [810.48]
-    },
-    "Gameboy": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1798.6335],
-      "sys": [1.2169],
-      "real": [1800.1077],
-      "rss_mb": [816.27]
-    },
-    "NavierStokes": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1799.8093],
-      "sys": [0.074],
-      "real": [1800.052],
-      "rss_mb": [41.89]
-    },
-    "DeltaBlue": {
-      "error": "TIMEOUT: >1800s",
-      "user": [1798.4248],
-      "sys": [1.4619],
-      "real": [1800.1031],
-      "rss_mb": [1098.53]
+      "user": [0.1905],
+      "sys": [0.015],
+      "real": [0.2057],
+      "rss_mb": [36.09]
     },
     "PdfJS": {
       "error": "FAIL: No scores in the output",
-      "user": [1198.6769],
-      "sys": [0.093],
-      "real": [1198.8921],
-      "rss_mb": [139.92]
+      "user": [1315.0974],
+      "sys": [0.174],
+      "real": [1315.4359],
+      "rss_mb": [139.56]
+    },
+    "CodeLoad": {
+      "error": "FAIL: No scores in the output",
+      "user": [147.3171],
+      "sys": [0.012],
+      "real": [147.3438],
+      "rss_mb": [23.21]
+    },
+    "Mandreel": {
+      "error": "FAIL: No scores in the output",
+      "user": [913.6177],
+      "sys": [0.518],
+      "real": [914.2192],
+      "rss_mb": [1353.46]
+    },
+    "MandreelLatency": {
+      "error": "FAIL: No scores in the output",
+      "user": [913.6177],
+      "sys": [0.518],
+      "real": [914.2192],
+      "rss_mb": [1353.46]
+    },
+    "NavierStokes": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1799.8489],
+      "sys": [0.08],
+      "real": [1800.1014],
+      "rss_mb": [41.22]
+    },
+    "RayTrace": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1798.5999],
+      "sys": [1.2549],
+      "real": [1800.1076],
+      "rss_mb": [1188.75]
+    },
+    "Richards": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1798.3367],
+      "sys": [1.4589],
+      "real": [1800.0216],
+      "rss_mb": [845.12]
+    },
+    "Crypto": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1798.0203],
+      "sys": [1.8538],
+      "real": [1800.1098],
+      "rss_mb": [811.6]
     },
     "EarleyBoyer": {
       "error": "TIMEOUT: >1800s",
-      "user": [1798.1644],
-      "sys": [1.6748],
-      "real": [1800.0746],
-      "rss_mb": [1356.37]
-    },
-    "zlib": {
-      "error": "FAIL: No scores in the output",
-      "user": [0.2763],
-      "sys": [0.021],
-      "real": [0.2977],
-      "rss_mb": [49.58]
+      "user": [1798.4226],
+      "sys": [1.3889],
+      "real": [1800.0637],
+      "rss_mb": [1225.78]
     },
     "RegExp": {
       "error": "SyntaxError: Error in file 'regexp.js': SyntaxError: Invalid regular expression",
-      "user": [0.0435],
-      "sys": [0.002],
-      "real": [0.0457],
-      "rss_mb": [23.69]
+      "user": [0.0487],
+      "sys": [0.005],
+      "real": [0.054],
+      "rss_mb": [23.25]
+    },
+    "DeltaBlue": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1798.3672],
+      "sys": [1.4969],
+      "real": [1800.0818],
+      "rss_mb": [1062.93]
+    },
+    "Splay": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1797.0607],
+      "sys": [2.7498],
+      "real": [1800.0457],
+      "rss_mb": [1347.23]
+    },
+    "SplayLatency": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1797.0607],
+      "sys": [2.7498],
+      "real": [1800.0457],
+      "rss_mb": [1347.23]
+    },
+    "Typescript": {
+      "error": "SyntaxError: Error in file 'typescript.js': SyntaxError: Invalid regular expression",
+      "user": [0.2651],
+      "sys": [0.014],
+      "real": [0.2797],
+      "rss_mb": [32.82]
+    },
+    "Gameboy": {
+      "error": "TIMEOUT: >1800s",
+      "user": [1798.5242],
+      "sys": [1.3819],
+      "real": [1800.1141],
+      "rss_mb": [682.3]
+    },
+    "zlib": {
+      "error": "FAIL: No scores in the output",
+      "user": [0.2812],
+      "sys": [0.023],
+      "real": [0.3052],
+      "rss_mb": [49.55]
     }
   }
 }

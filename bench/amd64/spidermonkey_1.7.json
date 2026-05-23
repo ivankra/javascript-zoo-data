@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "spidermonkey_1.7",
-    "binary_sha256": "89c8ad13124ef0f123d9b40ac2ef5261ad8db3a55113adb8be3f819d8a78be28",
-    "binary_size": 1010840,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "cc80e998c42065ec622196e1c050668ef2a09cfc69f1b4cea81be3a553088703",
+    "binary_size": 1014880,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "spidermonkey",
     "jit": "",
     "loc": 79328,
@@ -13,126 +13,126 @@
     "standard": "ES3",
     "version": "1.7.0"
   },
-  "time": "2026-04-24 03:55:10.149407 UTC",
+  "time": "2026-05-22 12:34:22.562054 UTC",
   "benchmarks": {
     "RegExp": {
-      "score": [357],
-      "user": [5.6745],
-      "sys": [0.093],
-      "real": [5.7685],
-      "rss_mb": [181.65]
-    },
-    "Crypto": {
-      "score": [732],
-      "user": [8.2746],
-      "sys": [0.009],
-      "real": [8.2859],
-      "rss_mb": [23.44]
-    },
-    "Typescript": {
-      "error": "TypeError: Typescript: TypeError: this.currentToken has no properties",
-      "user": [0.7779],
-      "sys": [0.033],
-      "real": [0.8111],
-      "rss_mb": [66.61]
+      "score": [358],
+      "user": [5.653],
+      "sys": [0.125],
+      "real": [5.7788],
+      "rss_mb": [181.52]
     },
     "CodeLoad": {
-      "score": [14166],
-      "user": [2.0202],
-      "sys": [0.073],
-      "real": [2.0935],
-      "rss_mb": [150.36]
+      "score": [13401],
+      "user": [1.9898],
+      "sys": [0.101],
+      "real": [2.0938],
+      "rss_mb": [144.34]
     },
-    "DeltaBlue": {
-      "score": [424, 536],
-      "user": [1.9991, 1.9593],
-      "sys": [0.038, 0.069],
-      "real": [2.0375, 2.0289],
-      "rss_mb": [75.86, 92.46]
+    "RayTrace": {
+      "score": [551],
+      "user": [5.3677],
+      "sys": [0.175],
+      "real": [5.5435],
+      "rss_mb": [323.43]
     },
-    "zlib": {
-      "error": "ReferenceError: zlib: ReferenceError: Int32Array is not defined",
-      "user": [0.0268, 0.0255],
-      "sys": [0.003, 0.0029],
-      "real": [0.0299, 0.0286],
-      "rss_mb": [23.88, 23.83]
+    "Crypto": {
+      "score": [778, 744, 775],
+      "user": [8.3666, 8.2073, 7.4299],
+      "sys": [0.011, 0.012, 0.014],
+      "real": [8.3792, 8.2206, 7.4451],
+      "rss_mb": [23.49, 23.39, 23.49]
+    },
+    "Box2D": {
+      "score": [1353],
+      "user": [3.5957],
+      "sys": [0.049],
+      "real": [3.6456],
+      "rss_mb": [81.12]
     },
     "NavierStokes": {
-      "score": [630],
-      "user": [5.8727],
-      "sys": [0.065],
-      "real": [5.9393],
-      "rss_mb": [73.6]
+      "score": [601, 532],
+      "user": [6.1415, 5.5716],
+      "sys": [0.071, 0.037],
+      "real": [6.2135, 5.6094],
+      "rss_mb": [73.81, 73.69]
     },
     "Splay": {
-      "score": [774],
-      "user": [3.0924],
-      "sys": [0.235],
-      "real": [3.3281],
-      "rss_mb": [401.84]
+      "score": [804],
+      "user": [3.0893],
+      "sys": [0.1571],
+      "real": [3.2495],
+      "rss_mb": [401.91]
     },
     "SplayLatency": {
-      "score": [1702],
-      "user": [3.0924],
-      "sys": [0.235],
-      "real": [3.3281],
-      "rss_mb": [401.84]
-    },
-    "Mandreel": {
-      "error": "ReferenceError: Float64Array is not defined",
-      "user": [0.3182],
-      "sys": [0.022],
-      "real": [0.3406],
-      "rss_mb": [58.34]
-    },
-    "MandreelLatency": {
-      "error": "ReferenceError: Float64Array is not defined",
-      "user": [0.3182],
-      "sys": [0.022],
-      "real": [0.3406],
-      "rss_mb": [58.34]
+      "score": [1966],
+      "user": [3.0893],
+      "sys": [0.1571],
+      "real": [3.2495],
+      "rss_mb": [401.91]
     },
     "PdfJS": {
       "error": "ReferenceError: Uint8Array is not defined",
-      "user": [0.1663],
-      "sys": [0.015],
-      "real": [0.1817],
-      "rss_mb": [31.87]
-    },
-    "EarleyBoyer": {
-      "score": [579],
-      "user": [11.4085],
-      "sys": [0.088],
-      "real": [11.4983],
-      "rss_mb": [204.75]
-    },
-    "RayTrace": {
-      "score": [514],
-      "user": [6.1344],
-      "sys": [0.158],
-      "real": [6.2936],
-      "rss_mb": [323.61]
+      "user": [0.1677],
+      "sys": [0.0121],
+      "real": [0.1801],
+      "rss_mb": [30.91]
     },
     "Gameboy": {
       "error": "FAIL: No scores in the output",
-      "user": [0.0201],
-      "sys": [0.002],
-      "real": [0.0223],
-      "rss_mb": [25.68]
+      "user": [0.0207, 0.0203, 0.0212],
+      "sys": [0.002, 0.0, 0.001],
+      "real": [0.0229, 0.0205, 0.0224],
+      "rss_mb": [25.59, 25.66, 25.49]
     },
-    "Box2D": {
-      "score": [1259],
-      "user": [3.8755],
-      "sys": [0.038],
-      "real": [3.9141],
-      "rss_mb": [80.95]
+    "DeltaBlue": {
+      "score": [537],
+      "user": [1.9905],
+      "sys": [0.052],
+      "real": [2.043],
+      "rss_mb": [94.23]
     },
     "Richards": {
-      "score": [729],
-      "user": [2.0042],
+      "score": [688],
+      "user": [2.0028],
       "sys": [0.001],
-      "real": [2.0059],
-      "rss_mb": [23.53]
+      "real": [2.0042],
+      "rss_mb": [23.19]
+    },
+    "EarleyBoyer": {
+      "score": [583],
+      "user": [11.4352],
+      "sys": [0.087],
+      "real": [11.5234],
+      "rss_mb": [204.82]
+    },
+    "Typescript": {
+      "error": "TypeError: Typescript: TypeError: this.currentToken has no properties",
+      "user": [0.9758, 1.0676],
+      "sys": [0.029, 0.04],
+      "real": [1.0051, 1.1079],
+      "rss_mb": [66.51, 66.5]
+    },
+    "zlib": {
+      "error": "ReferenceError: zlib: ReferenceError: Int32Array is not defined",
+      "user": [0.0265],
+      "sys": [0.002],
+      "real": [0.0287],
+      "rss_mb": [23.98]
+    },
+    "Mandreel": {
+      "error": "ReferenceError: Float64Array is not defined",
+      "user": [0.2997],
+      "sys": [0.037],
+      "real": [0.3371],
+      "rss_mb": [58.5]
+    },
+    "MandreelLatency": {
+      "error": "ReferenceError: Float64Array is not defined",
+      "user": [0.2997],
+      "sys": [0.037],
+      "real": [0.3371],
+      "rss_mb": [58.5]
     }
   }
 }

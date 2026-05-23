@@ -2,130 +2,130 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "mujs_babel",
-    "dist_size": 24323330,
+    "dist_size": 24399681,
     "engine": "mujs"
   },
-  "time": "2026-04-24 03:33:56.504097 UTC",
+  "time": "2026-05-22 12:18:45.068356 UTC",
   "benchmarks": {
-    "RayTrace": {
-      "score": [559],
-      "user": [6.4099],
-      "sys": [0.224],
-      "real": [6.1735],
-      "rss_mb": [234.78]
-    },
-    "zlib": {
-      "error": "EvalError: <script>:449: invalid use of 'eval'",
-      "user": [0.3955],
-      "sys": [0.0954],
-      "real": [0.417],
-      "rss_mb": [116.58]
+    "Typescript": {
+      "error": "FAIL: cannot open file 'fs.js': No such file or directory",
+      "user": [0.5176, 0.4807],
+      "sys": [0.1182, 0.1107],
+      "real": [0.5036, 0.4686],
+      "rss_mb": [121.98, 125.81]
     },
     "EarleyBoyer": {
       "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: The only valid numeric escape in strict mode is '\\0'. (1484:6)",
-      "score": [606],
-      "user": [16.3054],
-      "sys": [0.1338],
-      "real": [16.3632],
-      "rss_mb": [119.14]
+      "score": [506, 557],
+      "user": [17.4729, 17.5015],
+      "sys": [0.1469, 0.1247],
+      "real": [17.5065, 17.5199],
+      "rss_mb": [118.15, 118.32]
     },
     "CodeLoad": {
       "error": "EvalError: <script>:4386: invalid use of 'eval'",
-      "user": [1.3546],
-      "sys": [0.2537],
-      "real": [1.0675],
-      "rss_mb": [244.66]
-    },
-    "Box2D": {
-      "score": [501, 408],
-      "user": [11.4638, 13.5972],
-      "sys": [0.3071, 0.3047],
-      "real": [10.6245, 12.6853],
-      "rss_mb": [325.75, 332.98]
-    },
-    "RegExp": {
-      "error": "FAIL: No scores in the output",
-      "user": [2.2548, 2.1591],
-      "sys": [0.2918, 0.3136],
-      "real": [1.8007, 1.7688],
-      "rss_mb": [293.09, 300.12]
-    },
-    "Crypto": {
-      "score": [262],
-      "user": [18.9465],
-      "sys": [0.2539],
-      "real": [18.5592],
-      "rss_mb": [271.64]
-    },
-    "Richards": {
-      "score": [326],
-      "user": [3.2425],
-      "sys": [0.2019],
-      "real": [2.9727],
-      "rss_mb": [210.41]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [0.6728],
-      "sys": [0.1269],
-      "real": [0.6719],
-      "rss_mb": [141.04]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [0.6728],
-      "sys": [0.1269],
-      "real": [0.6719],
-      "rss_mb": [141.04]
-    },
-    "DeltaBlue": {
-      "score": [486],
-      "user": [3.2079],
-      "sys": [0.2453],
-      "real": [2.9766],
-      "rss_mb": [230.28]
+      "user": [1.2673, 1.4288, 1.2842],
+      "sys": [0.2436, 0.2874, 0.2236],
+      "real": [1.0018, 1.1251, 1.0],
+      "rss_mb": [219.36, 214.29, 216.66]
     },
     "Gameboy": {
       "error": "OOM: >4096MB",
-      "user": [2.7967],
-      "sys": [0.3636],
-      "real": [8.6916],
-      "rss_mb": [4119.63]
+      "user": [2.945, 2.9156],
+      "sys": [0.3195, 0.3004],
+      "real": [8.792, 8.7389],
+      "rss_mb": [4110.06, 4101.15]
+    },
+    "RegExp": {
+      "error": "FAIL: No scores in the output",
+      "user": [2.0643, 2.0649, 2.1177],
+      "sys": [0.2659, 0.2723, 0.2656],
+      "real": [1.6495, 1.6541, 1.6721],
+      "rss_mb": [236.43, 239.85, 237.02]
     },
     "Splay": {
-      "score": [1542],
-      "user": [4.0203],
-      "sys": [0.4229],
-      "real": [4.0003],
-      "rss_mb": [791.1]
+      "score": [1516],
+      "user": [4.063],
+      "sys": [0.3996],
+      "real": [4.0035],
+      "rss_mb": [782.73]
     },
     "SplayLatency": {
-      "score": [3453],
-      "user": [4.0203],
-      "sys": [0.4229],
-      "real": [4.0003],
-      "rss_mb": [791.1]
+      "score": [3375],
+      "user": [4.063],
+      "sys": [0.3996],
+      "real": [4.0035],
+      "rss_mb": [782.73]
+    },
+    "DeltaBlue": {
+      "score": [483, 483],
+      "user": [3.1693, 3.1821],
+      "sys": [0.1943, 0.229],
+      "real": [2.8873, 2.9187],
+      "rss_mb": [209.51, 206.46]
+    },
+    "RayTrace": {
+      "score": [572, 564],
+      "user": [6.4298, 6.4357],
+      "sys": [0.2256, 0.2178],
+      "real": [6.1215, 6.1525],
+      "rss_mb": [211.62, 221.27]
+    },
+    "zlib": {
+      "error": "EvalError: <script>:449: invalid use of 'eval'",
+      "user": [0.4073],
+      "sys": [0.1061],
+      "real": [0.4162],
+      "rss_mb": [119.12]
+    },
+    "Crypto": {
+      "score": [261, 261, 262],
+      "user": [18.8944, 18.8438, 18.9157],
+      "sys": [0.2301, 0.2368, 0.2256],
+      "real": [18.5086, 18.4665, 18.541],
+      "rss_mb": [227.51, 231.18, 228.57]
     },
     "PdfJS": {
       "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [5.4944, 5.3471],
-      "sys": [0.6273, 0.6139],
-      "real": [3.9875, 3.8139],
-      "rss_mb": [758.74, 791.22]
+      "user": [5.3354],
+      "sys": [0.653],
+      "real": [3.8787],
+      "rss_mb": [752.86]
     },
-    "Typescript": {
-      "error": "FAIL: cannot open file 'fs.js': No such file or directory",
-      "user": [0.5265],
-      "sys": [0.1146],
-      "real": [0.506],
-      "rss_mb": [119.98]
+    "Richards": {
+      "score": [328, 327],
+      "user": [3.1826, 3.1596],
+      "sys": [0.2149, 0.2169],
+      "real": [2.9369, 2.9118],
+      "rss_mb": [207.02, 205.15]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: jump address integer overflowundefined",
+      "user": [0.6414],
+      "sys": [0.1651],
+      "real": [0.685],
+      "rss_mb": [144.21]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: jump address integer overflowundefined",
+      "user": [0.6414],
+      "sys": [0.1651],
+      "real": [0.685],
+      "rss_mb": [144.21]
+    },
+    "Box2D": {
+      "score": [491, 405, 486],
+      "user": [11.6376, 13.5791, 11.7304],
+      "sys": [0.2999, 0.2923, 0.2787],
+      "real": [10.7801, 12.6793, 10.8595],
+      "rss_mb": [274.32, 272.7, 279.13]
     },
     "NavierStokes": {
-      "score": [642, 649, 648],
-      "user": [6.9573, 6.9315, 7.0156],
-      "sys": [0.2293, 0.2232, 0.2148],
-      "real": [6.7283, 6.6868, 6.7343],
-      "rss_mb": [214.42, 212.35, 209.74]
+      "score": [653],
+      "user": [6.8606],
+      "sys": [0.2315],
+      "real": [6.6188],
+      "rss_mb": [209.86]
     }
   }
 }

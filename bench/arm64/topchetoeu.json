@@ -2,133 +2,133 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "topchetoeu",
-    "dist_size": 7054291,
+    "dist_size": 7055590,
     "engine": "topchetoeu",
-    "jdk": "openjdk version \"21.0.10\" 2026-01-20",
+    "jdk": "openjdk version \"21.0.11\" 2026-04-21",
     "repository": "https://github.com/ivankra/topchetoeu.git",
     "revision": "139b240463dc485fd0744663272c4c4066801311",
     "revision_date": "2026-02-01"
   },
-  "time": "2026-04-24 03:36:47.059415 UTC",
+  "time": "2026-05-22 12:53:03.919809 UTC",
   "benchmarks": {
-    "NavierStokes": {
+    "CodeLoad": {
       "error": "FAIL: performance is not defined",
-      "user": [0.7138],
-      "sys": [0.0659],
-      "real": [0.284],
-      "rss_mb": [92.88]
-    },
-    "EarleyBoyer": {
-      "error": "FAIL: Octal escape sequences are not allowed",
-      "user": [0.7511],
-      "sys": [0.081],
-      "real": [0.2931],
-      "rss_mb": [103.41]
+      "user": [0.7932],
+      "sys": [0.0669],
+      "real": [0.3007],
+      "rss_mb": [98.52]
     },
     "RayTrace": {
       "error": "FAIL: performance is not defined",
-      "user": [0.7744],
-      "sys": [0.08],
-      "real": [0.3098],
-      "rss_mb": [91.54]
-    },
-    "DeltaBlue": {
-      "error": "FAIL: performance is not defined",
-      "user": [0.8175],
-      "sys": [0.0716],
-      "real": [0.3137],
-      "rss_mb": [115.35]
-    },
-    "Crypto": {
-      "error": "FAIL: performance is not defined",
-      "user": [0.8535],
-      "sys": [0.0726],
-      "real": [0.3297],
-      "rss_mb": [91.79]
+      "user": [0.772],
+      "sys": [0.0715],
+      "real": [0.2913],
+      "rss_mb": [110.99]
     },
     "Splay": {
       "error": "FAIL: performance is not defined",
-      "user": [0.7499],
-      "sys": [0.0781],
-      "real": [0.2874],
-      "rss_mb": [108.91]
+      "user": [0.7128],
+      "sys": [0.0883],
+      "real": [0.3024],
+      "rss_mb": [90.52]
     },
     "SplayLatency": {
       "error": "FAIL: performance is not defined",
-      "user": [0.7499],
-      "sys": [0.0781],
-      "real": [0.2874],
-      "rss_mb": [108.91]
+      "user": [0.7128],
+      "sys": [0.0883],
+      "real": [0.3024],
+      "rss_mb": [90.52]
     },
-    "PdfJS": {
+    "DeltaBlue": {
       "error": "FAIL: performance is not defined",
-      "user": [2.0596],
-      "sys": [0.1146],
-      "real": [0.7435],
-      "rss_mb": [251.53]
+      "user": [0.8006],
+      "sys": [0.0611],
+      "real": [0.3153],
+      "rss_mb": [90.58]
     },
-    "RegExp": {
-      "error": "FAIL: performance is not defined",
-      "user": [1.0475],
-      "sys": [0.0795],
-      "real": [0.3896],
-      "rss_mb": [133.55]
+    "EarleyBoyer": {
+      "error": "FAIL: Octal escape sequences are not allowed",
+      "user": [0.721],
+      "sys": [0.0681],
+      "real": [0.2891],
+      "rss_mb": [92.03]
     },
     "Gameboy": {
       "error": "FAIL: performance is not defined",
-      "user": [1.4273],
-      "sys": [0.1121],
-      "real": [0.5228],
-      "rss_mb": [206.25]
-    },
-    "zlib": {
-      "error": "FAIL: A variable may not be deleted",
-      "user": [0.7053],
-      "sys": [0.0866],
-      "real": [0.2815],
-      "rss_mb": [111.04]
-    },
-    "Richards": {
-      "error": "FAIL: performance is not defined",
-      "user": [0.8387],
-      "sys": [0.082],
-      "real": [0.3276],
-      "rss_mb": [112.87]
+      "user": [1.3565],
+      "sys": [0.1108],
+      "real": [0.5171],
+      "rss_mb": [205.01]
     },
     "Mandreel": {
       "error": "FAIL: Expected an end of statement",
-      "user": [1.1808],
-      "sys": [0.112],
-      "real": [0.4478],
-      "rss_mb": [167.75]
+      "user": [1.0524],
+      "sys": [0.089],
+      "real": [0.4007],
+      "rss_mb": [159.22]
     },
     "MandreelLatency": {
       "error": "FAIL: Expected an end of statement",
-      "user": [1.1808],
-      "sys": [0.112],
-      "real": [0.4478],
-      "rss_mb": [167.75]
+      "user": [1.0524],
+      "sys": [0.089],
+      "real": [0.4007],
+      "rss_mb": [159.22]
+    },
+    "NavierStokes": {
+      "error": "FAIL: performance is not defined",
+      "user": [0.775],
+      "sys": [0.0584],
+      "real": [0.2989],
+      "rss_mb": [91.13]
     },
     "Typescript": {
       "error": "FAIL: Expected a parameter or a closing brace",
-      "user": [0.9699],
-      "sys": [0.0975],
-      "real": [0.3808],
-      "rss_mb": [200.73]
+      "user": [0.9881],
+      "sys": [0.105],
+      "real": [0.3986],
+      "rss_mb": [203.22]
+    },
+    "RegExp": {
+      "error": "FAIL: performance is not defined",
+      "user": [0.9522],
+      "sys": [0.079],
+      "real": [0.3597],
+      "rss_mb": [121.01]
+    },
+    "Richards": {
+      "error": "FAIL: performance is not defined",
+      "user": [0.7104],
+      "sys": [0.0564],
+      "real": [0.2893],
+      "rss_mb": [95.87]
     },
     "Box2D": {
       "error": "FAIL: performance is not defined",
-      "user": [1.4073],
-      "sys": [0.1161],
-      "real": [0.5191],
-      "rss_mb": [206.83]
+      "user": [1.4451],
+      "sys": [0.1082],
+      "real": [0.534],
+      "rss_mb": [206.88]
     },
-    "CodeLoad": {
+    "Crypto": {
       "error": "FAIL: performance is not defined",
-      "user": [0.7706],
-      "sys": [0.0852],
-      "real": [0.3273],
-      "rss_mb": [92.95]
+      "user": [0.8803],
+      "sys": [0.0781],
+      "real": [0.3315],
+      "rss_mb": [104.96]
+    },
+    "zlib": {
+      "error": "FAIL: A variable may not be deleted",
+      "user": [0.6709],
+      "sys": [0.0624],
+      "real": [0.2618],
+      "rss_mb": [97.36]
+    },
+    "PdfJS": {
+      "error": "FAIL: performance is not defined",
+      "user": [1.871],
+      "sys": [0.1361],
+      "real": [0.7028],
+      "rss_mb": [248.83]
     }
   }
 }

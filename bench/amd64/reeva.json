@@ -4,131 +4,131 @@
     "binary_name": "reeva",
     "dist_size": 26070597,
     "engine": "reeva",
-    "jdk": "openjdk version \"21.0.10\" 2026-01-20",
+    "jdk": "openjdk version \"21.0.11\" 2026-04-21",
     "repository": "https://github.com/ReevaJS/reeva.git",
     "revision": "f715163354ea06e37a97bd4e5e0bddc9c195c886",
     "revision_date": "2024-01-18"
   },
-  "time": "2026-04-24 03:54:33.091674 UTC",
+  "time": "2026-05-22 12:31:29.529823 UTC",
   "benchmarks": {
-    "RegExp": {
-      "error": "FAIL: IllegalStateException: Encountered unreachable() call",
-      "user": [4.4313],
-      "sys": [0.0849],
-      "real": [1.4509],
-      "rss_mb": [221.71]
-    },
-    "Crypto": {
-      "error": "ReferenceError: Crypto: ReferenceError: \"i\" is not defined",
-      "user": [5.3736],
-      "sys": [0.0972],
-      "real": [2.5277],
-      "rss_mb": [259.51]
-    },
-    "Typescript": {
-      "error": "SyntaxError: \"identifier\" is a reserved word and cannot be used as an identifier",
-      "user": [1.2833],
-      "sys": [0.0743],
-      "real": [0.4387],
-      "rss_mb": [213.43]
-    },
-    "CodeLoad": {
-      "error": "ReferenceError: CodeLoad: ReferenceError: \"parseFloat\" is not defined",
-      "user": [0.4735],
-      "sys": [0.0408],
-      "real": [0.1784],
-      "rss_mb": [77.23]
-    },
     "Splay": {
       "error": "TIMEOUT: >1800s",
-      "user": [1803.4408],
-      "sys": [3.1234],
-      "real": [1800.0596],
-      "rss_mb": [361.28]
+      "user": [1806.5619],
+      "sys": [0.5506],
+      "real": [1800.0802],
+      "rss_mb": [360.05]
     },
     "SplayLatency": {
       "error": "TIMEOUT: >1800s",
-      "user": [1803.4408],
-      "sys": [3.1234],
-      "real": [1800.0596],
-      "rss_mb": [361.28]
+      "user": [1806.5619],
+      "sys": [0.5506],
+      "real": [1800.0802],
+      "rss_mb": [360.05]
     },
-    "DeltaBlue": {
-      "error": "ReferenceError: DeltaBlue: ReferenceError: \"i\" is not defined",
-      "user": [4.7955],
-      "sys": [0.0823],
-      "real": [2.2806],
-      "rss_mb": [363.67]
+    "RegExp": {
+      "error": "FAIL: IllegalStateException: Encountered unreachable() call",
+      "user": [3.6461],
+      "sys": [0.1172],
+      "real": [1.196],
+      "rss_mb": [221.37]
     },
-    "zlib": {
-      "error": "SyntaxError: zlib: SyntaxError: expected identifier, but found }",
-      "user": [0.7389],
-      "sys": [0.0684],
-      "real": [0.2674],
-      "rss_mb": [122.68]
-    },
-    "NavierStokes": {
-      "error": "ReferenceError: NavierStokes: ReferenceError: \"i\" is not defined",
-      "user": [5.7834],
-      "sys": [0.0793],
-      "real": [4.3981],
-      "rss_mb": [253.0]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: cannot redeclare function declaration \"dump\" as a lexical declaration",
-      "user": [6.6054],
-      "sys": [0.2922],
-      "real": [2.9826],
-      "rss_mb": [740.92]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: cannot redeclare function declaration \"dump\" as a lexical declaration",
-      "user": [6.6054],
-      "sys": [0.2922],
-      "real": [2.9826],
-      "rss_mb": [740.92]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: cannot redeclare function declaration \"log\" as a lexical declaration",
-      "user": [2.8601],
-      "sys": [0.0933],
-      "real": [0.9481],
-      "rss_mb": [254.01]
-    },
-    "EarleyBoyer": {
-      "error": "FAIL: NotImplementedError: Try-statement finally blocks",
-      "user": [1.4485],
-      "sys": [0.0615],
-      "real": [0.4424],
-      "rss_mb": [130.35]
+    "CodeLoad": {
+      "error": "ReferenceError: CodeLoad: ReferenceError: \"parseFloat\" is not defined",
+      "user": [0.4899],
+      "sys": [0.0544],
+      "real": [0.1974],
+      "rss_mb": [74.06]
     },
     "RayTrace": {
       "error": "ReferenceError: RayTrace: ReferenceError: \"i\" is not defined",
-      "user": [5.4071],
-      "sys": [0.0924],
-      "real": [2.9688],
-      "rss_mb": [363.75]
+      "user": [5.1547],
+      "sys": [0.1012],
+      "real": [2.7827],
+      "rss_mb": [358.3]
     },
-    "Gameboy": {
-      "error": "ReferenceError: Gameboy: ReferenceError: \"decode64\" is not defined",
-      "user": [4.2597],
-      "sys": [0.1043],
-      "real": [1.405],
-      "rss_mb": [274.99]
+    "NavierStokes": {
+      "error": "ReferenceError: NavierStokes: ReferenceError: \"i\" is not defined",
+      "user": [6.0481],
+      "sys": [0.0813],
+      "real": [4.6506],
+      "rss_mb": [246.98]
+    },
+    "Crypto": {
+      "error": "ReferenceError: Crypto: ReferenceError: \"i\" is not defined",
+      "user": [5.3845],
+      "sys": [0.1109],
+      "real": [2.4506],
+      "rss_mb": [305.67]
     },
     "Box2D": {
       "error": "SyntaxError: expected identifier, but found }",
-      "user": [0.8847],
-      "sys": [0.0646],
-      "real": [0.3179],
-      "rss_mb": [115.4]
+      "user": [0.84],
+      "sys": [0.0718],
+      "real": [0.3545],
+      "rss_mb": [115.37]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: cannot redeclare function declaration \"log\" as a lexical declaration",
+      "user": [2.8907],
+      "sys": [0.1006],
+      "real": [0.9799],
+      "rss_mb": [271.7]
+    },
+    "Gameboy": {
+      "error": "ReferenceError: Gameboy: ReferenceError: \"decode64\" is not defined",
+      "user": [4.5875],
+      "sys": [0.1101],
+      "real": [1.4122],
+      "rss_mb": [285.09]
+    },
+    "DeltaBlue": {
+      "error": "ReferenceError: DeltaBlue: ReferenceError: \"i\" is not defined",
+      "user": [5.116],
+      "sys": [0.0858],
+      "real": [2.3148],
+      "rss_mb": [356.84]
     },
     "Richards": {
       "error": "ReferenceError: Richards: ReferenceError: \"i\" is not defined",
-      "user": [3.5575],
-      "sys": [0.084],
-      "real": [2.2387],
-      "rss_mb": [350.95]
+      "user": [3.5893],
+      "sys": [0.0911],
+      "real": [2.2242],
+      "rss_mb": [347.31]
+    },
+    "EarleyBoyer": {
+      "error": "FAIL: NotImplementedError: Try-statement finally blocks",
+      "user": [1.5223],
+      "sys": [0.048],
+      "real": [0.458],
+      "rss_mb": [124.36]
+    },
+    "Typescript": {
+      "error": "SyntaxError: \"identifier\" is a reserved word and cannot be used as an identifier",
+      "user": [1.8051],
+      "sys": [0.08],
+      "real": [0.6338],
+      "rss_mb": [207.74]
+    },
+    "zlib": {
+      "error": "SyntaxError: zlib: SyntaxError: expected identifier, but found }",
+      "user": [0.7967],
+      "sys": [0.0672],
+      "real": [0.3007],
+      "rss_mb": [122.31]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: cannot redeclare function declaration \"dump\" as a lexical declaration",
+      "user": [6.651],
+      "sys": [0.1542],
+      "real": [2.738],
+      "rss_mb": [713.11]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: cannot redeclare function declaration \"dump\" as a lexical declaration",
+      "user": [6.651],
+      "sys": [0.1542],
+      "real": [2.738],
+      "rss_mb": [713.11]
     }
   }
 }

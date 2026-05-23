@@ -2,7 +2,7 @@
   "binary": {
     "arch": "arm64",
     "binary_name": "ssrlive",
-    "binary_sha256": "c00419fdc3e3a42e225a342759563b0f6dd1ba3d9751c61c7f5b9ee5920746a6",
+    "binary_sha256": "ca8edec371c476761b28494313f9c315e446d041b0afad849c8821b453a5e617",
     "binary_size": 10098312,
     "engine": "ssrlive",
     "repository": "https://github.com/ssrlive/javascript.git",
@@ -11,126 +11,126 @@
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
   "flags": [{"if": "flags:module", "then": "--module"}],
-  "time": "2026-04-24 03:36:37.672466 UTC",
+  "time": "2026-05-22 12:21:41.546358 UTC",
   "benchmarks": {
-    "Typescript": {
-      "error": "SyntaxError: Invalid assignment target 'arguments'",
-      "user": [0.2068],
-      "sys": [0.03],
-      "real": [0.2372],
-      "rss_mb": [57.23]
-    },
-    "DeltaBlue": {
-      "score": [30.9],
-      "user": [8.558],
-      "sys": [0.044],
-      "real": [8.6033],
-      "rss_mb": [87.18]
-    },
-    "RegExp": {
-      "error": "TypeError: RegExp: TypeError: is not a constructor",
-      "user": [0.0239],
-      "sys": [0.007],
-      "real": [0.0311],
-      "rss_mb": [22.75]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: Unterminated regex literal",
-      "user": [0.1068],
-      "sys": [0.018],
-      "real": [0.1251],
-      "rss_mb": [40.73]
+    "NavierStokes": {
+      "error": "SyntaxError: Unexpected token",
+      "user": [0.004],
+      "sys": [0.003],
+      "real": [0.0072],
+      "rss_mb": [22.88]
     },
     "RayTrace": {
       "error": "TypeError: RayTrace: TypeError: Value is not a function",
-      "user": [0.0119],
-      "sys": [0.004],
-      "real": [0.0161],
-      "rss_mb": [22.63]
+      "user": [0.01],
+      "sys": [0.006],
+      "real": [0.0162],
+      "rss_mb": [22.75]
     },
-    "zlib": {
-      "error": "RangeError: zlib: RangeError: Uncaught: RangeError: ArrayBuffer allocation failed",
-      "user": [0.1131],
-      "sys": [0.013],
-      "real": [0.1263],
-      "rss_mb": [33.53]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: Octal escape sequences are not allowed in strict mode",
-      "user": [0.0062],
-      "sys": [0.0021],
-      "real": [0.0084],
-      "rss_mb": [22.74]
-    },
-    "Gameboy": {
-      "error": "FAIL: No scores in the output",
-      "user": [1662.8833],
-      "sys": [0.239],
-      "real": [1663.3185],
-      "rss_mb": [639.4]
+    "RegExp": {
+      "error": "TypeError: RegExp: TypeError: is not a constructor",
+      "user": [0.0277],
+      "sys": [0.0031],
+      "real": [0.031],
+      "rss_mb": [22.88]
     },
     "Richards": {
       "score": [24.6],
-      "user": [6.0258],
-      "sys": [0.003],
-      "real": [6.0298],
-      "rss_mb": [22.64]
-    },
-    "Box2D": {
-      "score": [108],
-      "user": [40.5066],
-      "sys": [0.242],
-      "real": [40.7513],
-      "rss_mb": [468.26]
-    },
-    "Mandreel": {
-      "error": "SyntaxError: Unexpected token",
-      "user": [0.8962],
-      "sys": [0.054],
-      "real": [0.9506],
-      "rss_mb": [207.08]
-    },
-    "MandreelLatency": {
-      "error": "SyntaxError: Unexpected token",
-      "user": [0.8962],
-      "sys": [0.054],
-      "real": [0.9506],
-      "rss_mb": [207.08]
+      "user": [6.0453],
+      "sys": [0.004],
+      "real": [6.0504],
+      "rss_mb": [22.75]
     },
     "Splay": {
       "score": [251],
-      "user": [5.8083],
-      "sys": [0.4159],
-      "real": [6.2258],
-      "rss_mb": [932.43]
+      "user": [5.7915],
+      "sys": [0.394],
+      "real": [6.1864],
+      "rss_mb": [932.44]
     },
     "SplayLatency": {
-      "score": [1803],
-      "user": [5.8083],
-      "sys": [0.4159],
-      "real": [6.2258],
-      "rss_mb": [932.43]
+      "score": [1805],
+      "user": [5.7915],
+      "sys": [0.394],
+      "real": [6.1864],
+      "rss_mb": [932.44]
+    },
+    "Typescript": {
+      "error": "SyntaxError: Invalid assignment target 'arguments'",
+      "user": [0.2271],
+      "sys": [0.021],
+      "real": [0.2485],
+      "rss_mb": [57.23]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: Octal escape sequences are not allowed in strict mode",
+      "user": [0.0051, 0.0062],
+      "sys": [0.003, 0.0021],
+      "real": [0.0083, 0.0084],
+      "rss_mb": [23.12, 23.13]
+    },
+    "Mandreel": {
+      "error": "SyntaxError: Unexpected token",
+      "user": [0.9294],
+      "sys": [0.06],
+      "real": [0.9898],
+      "rss_mb": [207.38]
+    },
+    "MandreelLatency": {
+      "error": "SyntaxError: Unexpected token",
+      "user": [0.9294],
+      "sys": [0.06],
+      "real": [0.9898],
+      "rss_mb": [207.38]
+    },
+    "DeltaBlue": {
+      "score": [30.9, 30.9],
+      "user": [8.5655, 8.5475],
+      "sys": [0.05, 0.054],
+      "real": [8.6193, 8.6026],
+      "rss_mb": [87.18, 87.18]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: Unterminated regex literal",
+      "user": [0.1173],
+      "sys": [0.012],
+      "real": [0.1296],
+      "rss_mb": [40.71]
     },
     "Crypto": {
       "error": "OOM: >4096MB",
-      "user": [316.6967],
-      "sys": [1.9196],
-      "real": [318.686],
-      "rss_mb": [4096.94]
+      "user": [316.2983],
+      "sys": [1.9936],
+      "real": [318.3594],
+      "rss_mb": [4096.77]
     },
-    "NavierStokes": {
-      "error": "SyntaxError: Unexpected token",
-      "user": [0.0048],
-      "sys": [0.0019],
-      "real": [0.007],
-      "rss_mb": [22.64]
+    "Gameboy": {
+      "error": "FAIL: No scores in the output",
+      "user": [1670.5132],
+      "sys": [0.232],
+      "real": [1670.7808],
+      "rss_mb": [640.53]
+    },
+    "Box2D": {
+      "score": [109],
+      "user": [40.1394],
+      "sys": [0.233],
+      "real": [40.379],
+      "rss_mb": [468.25]
     },
     "CodeLoad": {
       "error": "ReferenceError: CodeLoad: ReferenceError: Uncaught: ReferenceError: written is not defined",
-      "user": [1.1162],
-      "sys": [0.129],
-      "real": [1.2456],
-      "rss_mb": [281.7]
+      "user": [1.1166],
+      "sys": [0.117],
+      "real": [1.2341],
+      "rss_mb": [277.91]
+    },
+    "zlib": {
+      "error": "RangeError: zlib: RangeError: Uncaught: RangeError: ArrayBuffer allocation failed",
+      "user": [0.1194],
+      "sys": [0.013],
+      "real": [0.1327],
+      "rss_mb": [33.53]
     }
   }
 }

@@ -2,130 +2,130 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "mujs_babel",
-    "dist_size": 24548983,
+    "dist_size": 24625334,
     "engine": "mujs"
   },
-  "time": "2026-04-24 03:51:41.649457 UTC",
+  "time": "2026-05-22 12:16:02.587488 UTC",
   "benchmarks": {
-    "Richards": {
-      "score": [233],
-      "user": [3.4086],
-      "sys": [0.229],
-      "real": [3.0518],
-      "rss_mb": [216.28]
-    },
-    "DeltaBlue": {
-      "score": [366],
-      "user": [3.5369],
-      "sys": [0.2335],
-      "real": [3.1416],
-      "rss_mb": [239.03]
-    },
-    "zlib": {
-      "error": "EvalError: <script>:449: invalid use of 'eval'",
-      "user": [0.2895],
-      "sys": [0.1125],
-      "real": [0.3444],
-      "rss_mb": [116.44]
-    },
-    "Crypto": {
-      "score": [224],
-      "user": [21.6043],
-      "sys": [0.2231],
-      "real": [21.0673],
-      "rss_mb": [271.69]
-    },
     "Typescript": {
       "error": "FAIL: cannot open file 'fs.js': No such file or directory",
-      "user": [0.5662],
-      "sys": [0.1223],
-      "real": [0.5418],
-      "rss_mb": [124.16]
-    },
-    "EarleyBoyer": {
-      "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: The only valid numeric escape in strict mode is '\\0'. (1484:6)",
-      "score": [541],
-      "user": [19.4],
-      "sys": [0.1506],
-      "real": [19.4678],
-      "rss_mb": [120.27]
-    },
-    "PdfJS": {
-      "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [6.147],
-      "sys": [0.6979],
-      "real": [4.1267],
-      "rss_mb": [777.0]
-    },
-    "NavierStokes": {
-      "score": [484],
-      "user": [7.5745],
-      "sys": [0.1995],
-      "real": [7.1915],
-      "rss_mb": [211.03]
-    },
-    "Gameboy": {
-      "error": "OOM: >4096MB",
-      "user": [3.2252],
-      "sys": [0.3244],
-      "real": [9.6407],
-      "rss_mb": [4107.6]
-    },
-    "RayTrace": {
-      "score": [490, 509],
-      "user": [7.9744, 7.939],
-      "sys": [0.2399, 0.2529],
-      "real": [7.5218, 7.5604],
-      "rss_mb": [238.48, 242.21]
+      "user": [0.5733],
+      "sys": [0.147],
+      "real": [0.56],
+      "rss_mb": [125.63]
     },
     "CodeLoad": {
       "error": "EvalError: <script>:4386: invalid use of 'eval'",
-      "user": [1.6508],
-      "sys": [0.2736],
-      "real": [1.2298],
-      "rss_mb": [248.4]
+      "user": [1.4384],
+      "sys": [0.3249],
+      "real": [1.0907],
+      "rss_mb": [224.05]
+    },
+    "Richards": {
+      "score": [265, 261],
+      "user": [3.4098, 3.3994],
+      "sys": [0.2745, 0.3203],
+      "real": [3.059, 3.1545],
+      "rss_mb": [206.99, 205.15]
+    },
+    "Crypto": {
+      "score": [198],
+      "user": [22.7295],
+      "sys": [0.3265],
+      "real": [22.2411],
+      "rss_mb": [226.03]
+    },
+    "PdfJS": {
+      "error": "SyntaxError: jump address integer overflowundefined",
+      "user": [6.4914],
+      "sys": [0.6774],
+      "real": [4.2754],
+      "rss_mb": [742.53]
     },
     "RegExp": {
       "error": "FAIL: No scores in the output",
-      "user": [2.7091, 2.5786],
-      "sys": [0.2845, 0.2981],
-      "real": [2.0494, 1.9911],
-      "rss_mb": [310.01, 306.23]
+      "user": [2.4677],
+      "sys": [0.3211],
+      "real": [1.884],
+      "rss_mb": [239.93]
+    },
+    "DeltaBlue": {
+      "score": [377],
+      "user": [3.3888],
+      "sys": [0.2664],
+      "real": [3.0448],
+      "rss_mb": [216.23]
+    },
+    "RayTrace": {
+      "score": [508],
+      "user": [7.6328],
+      "sys": [0.2304],
+      "real": [7.1997],
+      "rss_mb": [213.84]
+    },
+    "Box2D": {
+      "score": [395],
+      "user": [14.257],
+      "sys": [0.4022],
+      "real": [13.1315],
+      "rss_mb": [277.74]
+    },
+    "EarleyBoyer": {
+      "error": "SyntaxError: [!] (plugin commonjs--resolver) SyntaxError: <script>: The only valid numeric escape in strict mode is '\\0'. (1484:6)",
+      "score": [462],
+      "user": [20.7069],
+      "sys": [0.1665],
+      "real": [20.7493],
+      "rss_mb": [125.1]
     },
     "Mandreel": {
       "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [0.7409, 0.7369, 0.7551],
-      "sys": [0.1667, 0.196, 0.1595],
-      "real": [0.7661, 0.7832, 0.7755],
-      "rss_mb": [144.04, 144.12, 144.11]
+      "user": [0.7362],
+      "sys": [0.2236],
+      "real": [0.8087],
+      "rss_mb": [144.38]
     },
     "MandreelLatency": {
       "error": "SyntaxError: jump address integer overflowundefined",
-      "user": [0.7409, 0.7369, 0.7551],
-      "sys": [0.1667, 0.196, 0.1595],
-      "real": [0.7661, 0.7832, 0.7755],
-      "rss_mb": [144.04, 144.12, 144.11]
+      "user": [0.7362],
+      "sys": [0.2236],
+      "real": [0.8087],
+      "rss_mb": [144.38]
+    },
+    "Gameboy": {
+      "error": "OOM: >4096MB",
+      "user": [3.4109, 3.4976],
+      "sys": [0.2981, 0.4744],
+      "real": [9.5975, 11.4703],
+      "rss_mb": [4100.66, 4101.44]
     },
     "Splay": {
-      "score": [1185],
-      "user": [4.5135],
-      "sys": [0.4078],
-      "real": [4.3825],
-      "rss_mb": [738.63]
+      "score": [689],
+      "user": [4.4184],
+      "sys": [0.7316],
+      "real": [4.5593],
+      "rss_mb": [738.66]
     },
     "SplayLatency": {
-      "score": [2659],
-      "user": [4.5135],
-      "sys": [0.4078],
-      "real": [4.3825],
-      "rss_mb": [738.63]
+      "score": [1787],
+      "user": [4.4184],
+      "sys": [0.7316],
+      "real": [4.5593],
+      "rss_mb": [738.66]
     },
-    "Box2D": {
-      "score": [312],
-      "user": [17.683],
-      "sys": [0.336],
-      "real": [16.3753],
-      "rss_mb": [329.43]
+    "zlib": {
+      "error": "EvalError: <script>:449: invalid use of 'eval'",
+      "user": [0.4322],
+      "sys": [0.0869],
+      "real": [0.4217],
+      "rss_mb": [120.32]
+    },
+    "NavierStokes": {
+      "score": [512],
+      "user": [7.1124],
+      "sys": [0.2995],
+      "real": [6.8034],
+      "rss_mb": [211.61]
     }
   }
 }

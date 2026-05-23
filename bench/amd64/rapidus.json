@@ -10,14 +10,14 @@
     "revision_date": "2023-02-25",
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
-  "time": "2026-04-24 07:16:09.093525 UTC",
+  "time": "2026-05-22 13:11:24.114162 UTC",
   "benchmarks": {
     "Richards": {
       "error": "FAIL: No scores in the output",
-      "user": [3.0914],
-      "sys": [0.6639],
-      "real": [3.7562],
-      "rss_mb": [1459.91]
+      "user": [2.7933],
+      "sys": [0.8118],
+      "real": [3.6058],
+      "rss_mb": [1460.0]
     }
   }
 }

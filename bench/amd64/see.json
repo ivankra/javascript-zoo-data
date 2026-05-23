@@ -11,126 +11,126 @@
     "revision_date": "2009-04-26",
     "version": "3.1.1424"
   },
-  "time": "2026-04-24 03:54:50.637383 UTC",
+  "time": "2026-05-22 12:27:53.227186 UTC",
   "benchmarks": {
+    "PdfJS": {
+      "error": "SyntaxError: expected ':' but got an identifier",
+      "user": [0.0044],
+      "sys": [0.0033],
+      "real": [0.0079],
+      "rss_mb": [29.77]
+    },
     "Box2D": {
       "error": "TypeError: Object does not support the 'instanceof' operator",
-      "user": [0.0186],
-      "sys": [0.0127],
-      "real": [0.0314],
-      "rss_mb": [24.08]
-    },
-    "Splay": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0009],
-      "sys": [0.0018],
-      "real": [0.0029],
-      "rss_mb": [23.63]
-    },
-    "SplayLatency": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0009],
-      "sys": [0.0018],
-      "real": [0.0029],
-      "rss_mb": [23.63]
-    },
-    "DeltaBlue": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.001],
-      "sys": [0.002],
-      "real": [0.0032],
-      "rss_mb": [23.62]
+      "user": [0.0204],
+      "sys": [0.0132],
+      "real": [0.0339],
+      "rss_mb": [23.71]
     },
     "Richards": {
       "error": "TypeError: Function is not defined",
-      "user": [0.0009],
-      "sys": [0.0018],
-      "real": [0.0029],
-      "rss_mb": [23.74]
+      "user": [0.0021],
+      "sys": [0.001],
+      "real": [0.0033],
+      "rss_mb": [23.36]
     },
-    "Mandreel": {
-      "error": "ReferenceError: Float64Array",
-      "user": [6.5968],
-      "sys": [0.093],
-      "real": [6.6907],
-      "rss_mb": [196.88]
-    },
-    "MandreelLatency": {
-      "error": "ReferenceError: Float64Array",
-      "user": [6.5968],
-      "sys": [0.093],
-      "real": [6.6907],
-      "rss_mb": [196.88]
-    },
-    "Typescript": {
-      "error": "SyntaxError: expected an identifier but got a reserved word",
-      "user": [0.0456],
-      "sys": [0.0091],
-      "real": [0.0549],
-      "rss_mb": [33.53]
-    },
-    "EarleyBoyer": {
+    "Splay": {
       "error": "TypeError: Function is not defined",
-      "user": [0.0162],
-      "sys": [0.0141],
-      "real": [0.0306],
-      "rss_mb": [24.18]
+      "user": [0.002],
+      "sys": [0.001],
+      "real": [0.0032],
+      "rss_mb": [23.34]
     },
-    "PdfJS": {
-      "error": "SyntaxError: expected ':' but got an identifier",
-      "user": [0.0053],
-      "sys": [0.0032],
-      "real": [0.0087],
-      "rss_mb": [30.28]
+    "SplayLatency": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.002],
+      "sys": [0.001],
+      "real": [0.0032],
+      "rss_mb": [23.34]
+    },
+    "RegExp": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.008],
+      "sys": [0.004],
+      "real": [0.0123],
+      "rss_mb": [23.47]
     },
     "Crypto": {
       "error": "TypeError: Function is not defined",
-      "user": [0.0058],
-      "sys": [0.0019],
-      "real": [0.008],
-      "rss_mb": [23.62]
+      "user": [0.0051],
+      "sys": [0.002],
+      "real": [0.0074],
+      "rss_mb": [23.34]
+    },
+    "Mandreel": {
+      "error": "ReferenceError: Float64Array",
+      "user": [7.1243],
+      "sys": [0.112],
+      "real": [7.2374],
+      "rss_mb": [197.34]
+    },
+    "MandreelLatency": {
+      "error": "ReferenceError: Float64Array",
+      "user": [7.1243],
+      "sys": [0.112],
+      "real": [7.2374],
+      "rss_mb": [197.34]
+    },
+    "NavierStokes": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.0017],
+      "sys": [0.0017],
+      "real": [0.0036],
+      "rss_mb": [23.57]
+    },
+    "RayTrace": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.0019],
+      "sys": [0.0028],
+      "real": [0.0049],
+      "rss_mb": [23.32]
+    },
+    "Typescript": {
+      "error": "SyntaxError: expected an identifier but got a reserved word",
+      "user": [0.0478],
+      "sys": [0.008],
+      "real": [0.056],
+      "rss_mb": [33.1]
+    },
+    "CodeLoad": {
+      "error": "SyntaxError: Backslash immediately followed by end of line",
+      "user": [0.0011],
+      "sys": [0.0011],
+      "real": [0.0025],
+      "rss_mb": [23.67]
     },
     "zlib": {
       "error": "SyntaxError: function keyword not allowed here, near 'function'",
       "user": [0.0],
-      "sys": [0.0008],
-      "real": [0.001],
-      "rss_mb": [24.05]
+      "sys": [0.001],
+      "real": [0.0012],
+      "rss_mb": [23.88]
     },
-    "RegExp": {
+    "DeltaBlue": {
       "error": "TypeError: Function is not defined",
-      "user": [0.0076],
-      "sys": [0.0038],
-      "real": [0.0116],
-      "rss_mb": [23.76]
+      "user": [0.0026],
+      "sys": [0.0009],
+      "real": [0.0037],
+      "rss_mb": [23.46]
+    },
+    "EarleyBoyer": {
+      "error": "TypeError: Function is not defined",
+      "user": [0.0151],
+      "sys": [0.0131],
+      "real": [0.0284],
+      "rss_mb": [23.82]
     },
     "Gameboy": {
       "error": "SyntaxError: Backslash immediately followed by end of line",
-      "user": [0.0008],
-      "sys": [0.0025],
-      "real": [0.0036],
-      "rss_mb": [25.34]
-    },
-    "RayTrace": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0028],
-      "sys": [0.0018],
-      "real": [0.0048],
-      "rss_mb": [23.61]
-    },
-    "CodeLoad": {
-      "error": "SyntaxError: Backslash immediately followed by end of line",
-      "user": [0.0009],
-      "sys": [0.0009],
-      "real": [0.0021],
-      "rss_mb": [23.9]
-    },
-    "NavierStokes": {
-      "error": "TypeError: Function is not defined",
-      "user": [0.0019],
-      "sys": [0.0009],
-      "real": [0.003],
-      "rss_mb": [23.74]
+      "user": [0.002],
+      "sys": [0.001],
+      "real": [0.0031],
+      "rss_mb": [25.43]
     }
   }
 }
