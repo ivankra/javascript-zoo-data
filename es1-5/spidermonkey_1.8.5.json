@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "spidermonkey_1.8.5",
-    "binary_sha256": "e5637475d55d3e00875424d6a72e402500caeede915cb6d102e6a7cc168b1d97",
-    "binary_size": 3908072,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "783d3c8c0b366747e8e2b62e6ec6a12c48a3d9247a7b409f05d9606fdb35c360",
+    "binary_size": 3908016,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "spidermonkey",
     "loc": 206521,
     "regex": "YARR",
@@ -16,8 +16,8 @@
   "flags": ["-j", "-m"],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 404, "failed": 16, "pass_percent": 96.19},

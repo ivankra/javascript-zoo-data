@@ -16,8 +16,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 15414, "failed": 37753, "pass_percent": 28.992},
@@ -336,34 +336,34 @@
     "strict": "PASS"
   },
   "rusage": {
-    "started_at": "2026-04-24 11:04:57 UTC",
-    "duration_sec": 4401.689,
-    "total_user_sec": 13373.29,
-    "total_sys_sec": 3598.379,
-    "peak_rss_mb": 2580.0,
+    "started_at": "2026-05-22 16:31:33 UTC",
+    "duration_sec": 4729.84,
+    "total_user_sec": 14763.181,
+    "total_sys_sec": 3551.835,
+    "peak_rss_mb": 2224.2,
     "run_duration_sec": {
-      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.sloppy.js": 60.069,
-      "test/built-ins/Array/length/S15.4.5.2_A3_T4.strict.js": 60.065,
+      "test/staging/sm/Array/length-truncate-with-indexed.sloppy.js": 60.066,
+      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.sloppy.js": 60.065,
+      "test/harness/propertyhelper-verifywritable-array-length.strict.js": 60.065,
       "test/built-ins/Array/length/S15.4.5.2_A3_T4.sloppy.js": 60.065,
-      "test/staging/sm/Array/length-truncate-with-indexed.sloppy.js": 60.065,
-      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.strict.js": 60.065,
+      "test/built-ins/Array/length/S15.4.5.2_A3_T4.strict.js": 60.065,
       "test/staging/sm/Array/length-truncate-with-indexed.strict.js": 60.064,
-      "test/harness/propertyhelper-verifywritable-array-length.sloppy.js": 60.064,
-      "test/harness/propertyhelper-verifywritable-array-length.strict.js": 60.064,
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 34.96,
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 34.913
+      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.strict.js": 60.064,
+      "test/harness/propertyhelper-verifywritable-array-length.sloppy.js": 60.063,
+      "test/staging/sm/Function/return-finally.sloppy.js": 37.731,
+      "test/staging/sm/Function/return-finally.strict.js": 37.047
     },
     "run_rss_mb": {
-      "test/staging/sm/Function/return-finally.strict.js": 2580.0,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 2579.8,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 2579.8,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-cross-realm-constructor.sloppy.js": 2579.8,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-cross-realm-constructor.strict.js": 2579.8,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-distinct.sloppy.js": 2579.8,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-distinct.strict.js": 2579.8,
-      "test/annexB/built-ins/String/prototype/bold/length.sloppy.js": 2579.8,
-      "test/annexB/built-ins/String/prototype/bold/length.strict.js": 2579.8,
-      "test/annexB/built-ins/escape/length.sloppy.js": 2579.8
+      "test/staging/sm/Function/return-finally.strict.js": 2224.2,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-not-regexp-constructor.sloppy.js": 2223.8,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-not-regexp-constructor.strict.js": 2223.8,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-string.sloppy.js": 2223.8,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-string.strict.js": 2223.8,
+      "test/annexB/built-ins/String/prototype/sub/B.2.3.13.sloppy.js": 2223.8,
+      "test/annexB/built-ins/String/prototype/sub/B.2.3.13.strict.js": 2223.8,
+      "test/annexB/built-ins/escape/name.sloppy.js": 2223.8,
+      "test/annexB/built-ins/escape/name.strict.js": 2223.8,
+      "test/annexB/built-ins/unescape/empty-string.sloppy.js": 2223.8
     }
   },
   "tests": {

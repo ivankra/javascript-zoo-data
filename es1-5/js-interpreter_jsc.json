@@ -2,25 +2,25 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "js-interpreter_jsc",
-    "dist_size": 206629,
+    "dist_size": 206878,
     "engine": "js-interpreter",
     "repository": "https://github.com/NeilFraser/JS-Interpreter.git",
-    "revision": "37e73f830051d4bcfdf0e6b466e7bd8dc1d45709",
-    "revision_date": "2025-02-27"
+    "revision": "174c2e73298336162e924ae06c051fa553f05f45",
+    "revision_date": "2026-05-12"
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
-    "all": {"passed": 344, "failed": 76, "pass_percent": 81.905},
-    "es1-5": {"passed": 344, "failed": 76, "pass_percent": 81.905}
+    "all": {"passed": 345, "failed": 75, "pass_percent": 82.143},
+    "es1-5": {"passed": 345, "failed": 75, "pass_percent": 82.143}
   },
   "dirs": {
-    "es1": {"passed": 195, "failed": 3, "pass_percent": 98.485},
-    "es3": {"passed": 98, "failed": 50, "pass_percent": 66.216},
-    "es5": {"passed": 51, "failed": 23, "pass_percent": 68.919}
+    "es1": {"passed": 193, "failed": 5, "pass_percent": 97.475},
+    "es3": {"passed": 99, "failed": 49, "pass_percent": 66.892},
+    "es5": {"passed": 53, "failed": 21, "pass_percent": 71.622}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -31,8 +31,8 @@
     "es1/Array.prototype.join.js": "PASS",
     "es1/Array.prototype.reverse.generic.js": "PASS",
     "es1/Array.prototype.reverse.js": "PASS",
-    "es1/Array.prototype.sort.generic.js": "PASS",
-    "es1/Array.prototype.sort.js": "PASS",
+    "es1/Array.prototype.sort.generic.js": "TypeError: invalid Array.prototype.sort argument",
+    "es1/Array.prototype.sort.js": "TypeError: invalid Array.prototype.sort argument",
     "es1/Array.prototype.toString.js": "PASS",
     "es1/Boolean.js": "PASS",
     "es1/Boolean.prototype.constructor.js": "PASS",
@@ -287,7 +287,7 @@
     "es3/String.prototype.slice.generic.js": "PASS",
     "es3/String.prototype.slice.js": "PASS",
     "es3/String.prototype.split.bugs.js": "FAIL: Regular expressions not supported: /(?:ab)*/",
-    "es3/String.prototype.split.limit.js": "FAIL: split with limit 0 failed",
+    "es3/String.prototype.split.limit.js": "PASS",
     "es3/String.prototype.split.regex.js": "FAIL: Regular expressions not supported: /\\d/",
     "es3/String.prototype.toLocaleLowerCase.js": "PASS",
     "es3/String.prototype.toLocaleUpperCase.js": "PASS",
@@ -369,7 +369,7 @@
     "es3/switch.js": "PASS",
     "es3/try-catch-finally.js": "PASS",
     "es3/try-catch-throw.js": "PASS",
-    "es5/Array.isArray.js": "FAIL: null not array failed; undefined not array failed",
+    "es5/Array.isArray.js": "PASS",
     "es5/Array.prototype.every.js": "PASS",
     "es5/Array.prototype.filter.js": "PASS",
     "es5/Array.prototype.forEach.js": "PASS",
@@ -379,14 +379,14 @@
     "es5/Array.prototype.reduceRight.js": "PASS",
     "es5/Array.prototype.reduce.js": "PASS",
     "es5/Array.prototype.some.js": "PASS",
-    "es5/Array.prototype.sort.TypeError.js": "FAIL",
-    "es5/Array.prototype.sort.undefined-comparefn.js": "PASS",
+    "es5/Array.prototype.sort.TypeError.js": "PASS",
+    "es5/Array.prototype.sort.undefined-comparefn.js": "TypeError: invalid Array.prototype.sort argument",
     "es5/Date.now.js": "PASS",
     "es5/Date.prototype.toISOString.js": "PASS",
     "es5/Date.prototype.toJSON.js": "PASS",
     "es5/Function.prototype-not-enumerable.js": "PASS",
     "es5/Function.prototype.apply.array-like.js": "PASS",
-    "es5/Function.prototype.bind.js": "FAIL: length property incorrect",
+    "es5/Function.prototype.bind.js": "PASS",
     "es5/JSON.js": "PASS",
     "es5/JSON.parse.js": "PASS",
     "es5/JSON.parse.reviver.js": "FAIL: failed to apply reviver function; failed to delete property for which reviver returned undefined",

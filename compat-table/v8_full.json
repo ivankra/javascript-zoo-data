@@ -2,14 +2,14 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "v8_full",
-    "binary_sha256": "130f00fc37e42807e06bacdb64a456f8eaac3fad4ba9b646e5f59452509c6a90",
-    "binary_size": 45616304,
-    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "binary_sha256": "d527425466cfeca33f0047b554fca2714bf1e42a11c6e9f897f46546cea327f4",
+    "binary_size": 44453200,
+    "cc": "clang 23.0.0 (++20260517082933+46c1fa8d1759-1~exp1~20260517203058.557)",
     "engine": "v8",
     "repository": "https://chromium.googlesource.com/v8/v8.git",
-    "revision": "863bc0d099db5255ac22b45d3511d63e5ae59b39",
-    "revision_date": "2026-04-14",
-    "rustc": "rustc 1.97.0-nightly (913e4bea8 2026-04-22)",
+    "revision": "5b5f77018c9296911170b4f886570c1735e97919",
+    "revision_date": "2026-05-21",
+    "rustc": "rustc 1.97.0-nightly (e96c36b6f 2026-05-21)",
     "v8_build_config": {
       "DEBUG_defined": false,
       "arch": "x64",
@@ -40,6 +40,7 @@
       "i18n": true,
       "is_android": false,
       "is_ios": false,
+      "is_linux": true,
       "js_shared_memory": true,
       "lite_mode": false,
       "local_off_stack_check": false,
@@ -51,13 +52,14 @@
       "official_build": true,
       "pointer_compression": true,
       "pointer_compression_shared_cage": true,
-      "runtime_call_stats": true,
+      "runtime_call_stats": false,
       "sandbox": true,
       "sandbox_hardware_support": false,
       "simd_mips": false,
       "simulator_run": false,
       "single_generation": false,
       "slow_dchecks": false,
+      "sparkplug_plus": true,
       "target_cpu": "x64",
       "temporal": true,
       "tsan": false,
@@ -72,7 +74,7 @@
       "verify_predictable": false,
       "wasm_random_fuzzers": false
     },
-    "version": "14.9.102"
+    "version": "15.0.188"
   },
   "flags": [
     "--ignore-unhandled-promises",
@@ -84,8 +86,8 @@
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 1061, "failed": 33, "pass_percent": 96.984, "weight": 469.0, "weighted_pass_percent": 94.528},

@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "quad-wheel",
-    "binary_sha256": "2909ae7e1f4d3aed2899f02547a607743e936882153bfe3b06d934cfd5443002",
-    "binary_size": 155120,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "67d0ecca0b822473f88cd9d52bb3b46b58b973e45feb9b0190336783143602ec",
+    "binary_size": 155064,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "quad-wheel",
     "repository": "https://github.com/radare/quad-wheel.git",
     "revision": "ef1747ceeb28fff309de830c3ef863d6cf0b41a1",
@@ -17,8 +17,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 4629, "failed": 48538, "pass_percent": 8.707},
@@ -337,34 +337,34 @@
     "strict": "SyntaxError: unexpected IDENTIFIER"
   },
   "rusage": {
-    "started_at": "2026-04-24 12:13:03 UTC",
-    "duration_sec": 75.845,
-    "total_user_sec": 24.266,
-    "total_sys_sec": 118.364,
-    "peak_rss_mb": 40.2,
+    "started_at": "2026-05-22 16:26:18 UTC",
+    "duration_sec": 78.831,
+    "total_user_sec": 24.402,
+    "total_sys_sec": 131.142,
+    "peak_rss_mb": 38.5,
     "run_duration_sec": {
-      "test/language/expressions/array/S11.1.4_A1.7.sloppy.js": 0.023,
-      "test/built-ins/RegExp/property-escapes/generated/Script_Extensions_-_Nushu.strict.js": 0.022,
-      "test/built-ins/SuppressedError/prototype/message.strict.js": 0.015,
-      "test/language/expressions/class/dstr/gen-meth-static-ary-ptrn-elem-ary-empty-init.sloppy.js": 0.014,
-      "test/language/statements/class/async-gen-method/forbidden-ext/b2/cls-decl-async-gen-meth-forbidden-ext-indirect-access-own-prop-caller-get.js": 0.014,
-      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-4-3.strict.js": 0.014,
-      "test/built-ins/Array/prototype/forEach/resizable-buffer-shrink-mid-iteration.sloppy.js": 0.014,
-      "test/built-ins/Object/create/15.2.3.5-4-310.strict.js": 0.013,
-      "test/language/statements/class/dstr/async-gen-meth-ary-ptrn-rest-not-final-ary.sloppy.js": 0.012,
-      "test/built-ins/parseInt/S15.1.2.2_A7.3_T1.strict.js": 0.012
+      "test/built-ins/TypedArray/prototype/fill/BigInt/return-this.sloppy.js": 0.023,
+      "test/language/literals/bigint/numeric-separators/numeric-separator-literal-bil-bd-nsl-bd.strict.js": 0.022,
+      "test/built-ins/Temporal/PlainMonthDay/prototype/toJSON/name.strict.js": 0.013,
+      "test/language/statements/class/dstr/async-private-gen-meth-ary-name-iter-val.sloppy.js": 0.012,
+      "test/language/statements/class/dstr/private-gen-meth-static-ary-ptrn-elision-exhausted.strict.js": 0.012,
+      "test/built-ins/Temporal/Instant/get-prototype-from-constructor-throws.sloppy.js": 0.012,
+      "test/language/expressions/await/await-in-nested-function.strict.js": 0.012,
+      "test/language/expressions/class/elements/multiple-definitions-literal-names-asi.sloppy.js": 0.011,
+      "test/language/expressions/array/spread-err-mult-err-itr-get-get.sloppy.js": 0.01,
+      "test/language/statements/for-await-of/async-gen-dstr-const-obj-ptrn-id-init-fn-name-cover.sloppy.js": 0.01
     },
     "run_rss_mb": {
-      "test/annexB/language/eval-code/direct/global-if-decl-else-stmt-eval-global-existing-var-update.js": 40.2,
-      "test/annexB/language/eval-code/direct/global-switch-dflt-eval-global-existing-var-update.js": 40.2,
-      "test/annexB/language/eval-code/indirect/global-block-decl-eval-global-no-skip-try.js": 40.2,
-      "test/annexB/language/global-code/if-decl-else-stmt-global-init.js": 40.2,
-      "test/built-ins/Array/fromAsync/mapfn-async-throws-close-sync-iterator.sloppy.js": 40.2,
-      "test/built-ins/Array/fromAsync/mapfn-async-throws-close-sync-iterator.strict.js": 40.2,
-      "test/built-ins/Array/of/does-not-use-prototype-properties.sloppy.js": 40.2,
-      "test/built-ins/Array/of/does-not-use-prototype-properties.strict.js": 40.2,
-      "test/built-ins/Array/prototype/every/15.4.4.16-7-c-i-28.sloppy.js": 40.2,
-      "test/built-ins/Array/prototype/every/15.4.4.16-7-c-i-28.strict.js": 40.2
+      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-not-regexp-constructor.sloppy.js": 38.5,
+      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-not-regexp-constructor.strict.js": 38.5,
+      "test/annexB/built-ins/String/prototype/fixed/this-val-tostring-err.sloppy.js": 38.5,
+      "test/annexB/built-ins/String/prototype/fixed/this-val-tostring-err.strict.js": 38.5,
+      "test/annexB/built-ins/String/prototype/fontsize/name.sloppy.js": 38.5,
+      "test/annexB/built-ins/String/prototype/fontsize/name.strict.js": 38.5,
+      "test/annexB/built-ins/unescape/four-ignore-end-str.sloppy.js": 38.5,
+      "test/annexB/built-ins/unescape/four-ignore-end-str.strict.js": 38.5,
+      "test/annexB/built-ins/unescape/two-ignore-non-hex.sloppy.js": 38.5,
+      "test/annexB/built-ins/unescape/two-ignore-non-hex.strict.js": 38.5
     }
   },
   "tests": {

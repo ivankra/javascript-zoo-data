@@ -2,13 +2,13 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "xs",
-    "binary_sha256": "dd0f64f17741952ff5ed7745e35023ef8e1984607e3e386e087f15984db9651a",
-    "binary_size": 2247848,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "619cf7f0ede3ebceb48fcc60142f49a1d054f53dfacde13a93531eb5078586ae",
+    "binary_size": 2247792,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "xs",
     "repository": "https://github.com/Moddable-OpenSource/moddable.git",
-    "revision": "5516726818906190d3a042d8be90219ce9d51b45",
-    "revision_date": "2026-04-22",
+    "revision": "fdd139210b9828e4a76ea6e477bbcbe6b635d8a5",
+    "revision_date": "2026-05-11",
     "version": "17.9.1"
   },
   "flags": [
@@ -16,8 +16,8 @@
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 1022, "failed": 72, "pass_percent": 93.419, "weight": 469.0, "weighted_pass_percent": 88.94},

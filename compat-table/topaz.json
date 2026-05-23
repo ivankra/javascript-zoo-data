@@ -3,7 +3,7 @@
     "arch": "amd64",
     "binary_name": "topaz",
     "dist_size": 665785,
-    "dotnet": "10.0.203",
+    "dotnet": "10.0.300",
     "engine": "topaz",
     "repository": "https://github.com/koculu/Topaz.git",
     "revision": "03ef33706098e87e6272a43037fe44b78060f63d",
@@ -12,8 +12,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 114, "failed": 980, "pass_percent": 10.42, "weight": 469.0, "weighted_pass_percent": 11.835},
@@ -726,7 +726,7 @@
     "compat-table/es6/super.statement.js": "FAIL: exception: Tenray.Topaz.TopazException: Esprima.Ast.ClassDeclaration is not supported.; at Tenray.Topaz.ErrorHandling.Exceptions.ThrowNotImplemented(Node statement, ScriptExecutor scope) in /_/src/Top...",
     "compat-table/es6/super.static-binding.js": "FAIL: exception: Tenray.Topaz.TopazException: Esprima.Ast.ClassDeclaration is not supported.; at Tenray.Topaz.ErrorHandling.Exceptions.ThrowNotImplemented(Node statement, ScriptExecutor scope) in /_/src/Top...",
     "compat-table/es6/super.this-binding.js": "FAIL: exception: Tenray.Topaz.TopazException: Esprima.Ast.ClassDeclaration is not supported.; at Tenray.Topaz.ErrorHandling.Exceptions.ThrowNotImplemented(Node statement, ScriptExecutor scope) in /_/src/Top...",
-    "compat-table/es6/tail-calls.direct.js": "CRASH: SIGABRT",
+    "compat-table/es6/tail-calls.direct.js": "OOM: output >10MB",
     "compat-table/es6/tail-calls.mutual.js": "OOM: output >10MB",
     "compat-table/es6/template.basic.js": "FAIL: exception: Tenray.Topaz.TopazException: Function b.toLowerCase is not defined.; at Tenray.Topaz.ErrorHandling.Exceptions.ThrowFunctionIsNotDefined(Object callee, ScriptExecutor scope) in /_/src/Topaz/...",
     "compat-table/es6/template.caching.js": "FAIL",

@@ -2,13 +2,13 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "qv4_clang",
-    "binary_sha256": "d492f07bfe6c689fad4afb16756e729ee09cf76995d7a9cb09636f21805415d6",
-    "binary_size": 12648904,
-    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "binary_sha256": "6ea94f03a97c3556a64b101c602d263f73f0be75bc10eddc5a88a62af11d30b5",
+    "binary_size": 12661192,
+    "cc": "clang 23.0.0 (++20260517082933+46c1fa8d1759-1~exp1~20260517203058.557)",
     "engine": "qv4",
     "repository": "https://github.com/qt/qt5.git",
-    "revision": "3687dbd3e25cf9293717c3fc0555414e2813ab17",
-    "revision_date": "2026-04-22"
+    "revision": "8dc4442f30fb2868857bf7f5a8e9d50717864c73",
+    "revision_date": "2026-05-16"
   },
   "flags": [
     {"if": "flags:module", "then": "--module"}
@@ -20,8 +20,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 26483, "failed": 26684, "pass_percent": 49.811},
@@ -340,34 +340,34 @@
     "strict": "PASS"
   },
   "rusage": {
-    "started_at": "2026-04-24 12:18:08 UTC",
-    "duration_sec": 451.733,
-    "total_user_sec": 782.429,
-    "total_sys_sec": 582.614,
-    "peak_rss_mb": 4107.1,
+    "started_at": "2026-05-22 17:09:13 UTC",
+    "duration_sec": 416.741,
+    "total_user_sec": 748.627,
+    "total_sys_sec": 574.277,
+    "peak_rss_mb": 4175.8,
     "run_duration_sec": {
       "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.064,
       "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.064,
-      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.sloppy.js": 52.528,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 51.69,
-      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.strict.js": 51.514,
-      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.sloppy.js": 49.761,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 48.744,
-      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.strict.js": 48.449,
-      "test/staging/sm/regress/regress-610026.strict.js": 29.962,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 28.1
+      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.sloppy.js": 58.216,
+      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.strict.js": 57.286,
+      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.sloppy.js": 51.261,
+      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.strict.js": 47.62,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 45.973,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 29.398,
+      "test/staging/sm/regress/regress-610026.strict.js": 28.197,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 27.644
     },
     "run_rss_mb": {
-      "test/staging/sm/String/replace-math.strict.js": 4107.1,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 4106.9,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 4106.9,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 4106.9,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 4106.9,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 4106.9,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 4106.9,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 4106.9,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 4106.9,
-      "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.sloppy.js": 4106.9
+      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 4175.8,
+      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 4175.8,
+      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 4175.8,
+      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 4175.8,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 4175.8,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 4175.8,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 4175.8,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 4175.8,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.sloppy.js": 4175.8,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.strict.js": 4175.8
     }
   },
   "tests": {
@@ -29371,7 +29371,7 @@
     "test/language/eval-code/direct/var-env-func-strict-caller.js": "PASS",
     "test/language/eval-code/direct/var-env-func-strict-source.js": "PASS",
     "test/language/eval-code/direct/var-env-gloabl-lex-strict-caller.js": "PASS",
-    "test/language/eval-code/direct/var-env-global-lex-non-strict.js": "NOT(SyntaxError): PASS",
+    "test/language/eval-code/direct/var-env-global-lex-non-strict.js": "NOT(SyntaxError): FAIL",
     "test/language/eval-code/direct/var-env-global-lex-strict-source.js": "PASS",
     "test/language/eval-code/direct/var-env-lower-lex-non-strict.js": "Test262Error: Expected a SyntaxError to be thrown but no exception was thrown at all",
     "test/language/eval-code/direct/var-env-lower-lex-strict-caller.js": "PASS",
@@ -40768,7 +40768,7 @@
     "test/language/global-code/decl-func.js": "PASS",
     "test/language/global-code/decl-lex-configurable-global.js": "PASS",
     "test/language/global-code/decl-lex-deletion.js": "PASS",
-    "test/language/global-code/decl-lex-restricted-global.js": "NOT(SyntaxError): PASS",
+    "test/language/global-code/decl-lex-restricted-global.js": "NOT(SyntaxError): FAIL: decl-lex-restricted-global.js:19:19 Variable \"undefined\" is used before its declaration at 225:5.; decl-lex-restricted-global.js:45:19 Variable \"undefined\" is used before its declaration at 225:5.; de...",
     "test/language/global-code/decl-lex.js": "PASS",
     "test/language/global-code/decl-var.js": "PASS",
     "test/language/global-code/export.js": "PASS",
@@ -41081,7 +41081,7 @@
     "test/language/identifier-resolution/S10.2.2_A1_T9.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T1.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T2.js": "PASS",
-    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): PASS",
+    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): FAIL",
     "test/language/identifier-resolution/static-init-invalid-await.js": "PASS",
     "test/language/identifier-resolution/unscopables.js": "PASS",
     "test/language/import/dup-bound-names.js": "NOT(SyntaxError): FAIL: Could not load module file",

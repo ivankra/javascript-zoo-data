@@ -2,12 +2,12 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "sandboxjs",
-    "dist_size": 242190,
+    "dist_size": 246166,
     "engine": "sandboxjs",
     "repository": "https://github.com/nyariv/SandboxJS.git",
-    "revision": "fe79ab4f87a288710d9857c5efbadd80d4651a85",
-    "revision_date": "2026-04-17",
-    "version": "0.9.3-1-gfe79ab4"
+    "revision": "826865251232611ec94078bab5a18ec875dad4a5",
+    "revision_date": "2026-05-09",
+    "version": "0.9.3-3-g8268652"
   },
   "test262": {
     "repository": "https://github.com/tc39/test262",
@@ -16,8 +16,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 3669, "failed": 49498, "pass_percent": 6.901},
@@ -318,7 +318,7 @@
     "RangeError": "PASS",
     "ReferenceError": "PASS",
     "SyntaxError": "PASS",
-    "Test262Error": "FAIL: SandboxAccessError: Override prototype property 'toString' not allowed stderr=\"/dist/sandboxjs:4499\\n      if (err) throw err.error;\\n               ^\\n\\nSandboxAccessError: Override prototype property 'toString' not allowed\\n    at Object.assignCheck (/dist/sandboxjs:4357:118)\\n    at /dist/sandboxjs:3487:30\\n    at performOp (/dist/sandboxjs:4667:9)\\n    at execSync (/dist/sandboxjs:4600:9)\\n    at _executeWithDoneSync (/dist/sandboxjs:4794:11)\\n    at executeTreeWithDone (/dist/sandboxjs:4783:30)\\n    at /dist/sandboxjs:4760:33\\n    at syncDone (/dist/sandboxjs:4495:7)\\n    at Object.executeTree (/dist/sandboxjs:4760:14)\\n    at Sandbox2.executeTree (/dist/sandboxjs:5358:39)\\n\\nNode.js v25.9.0\"",
+    "Test262Error": "FAIL: SandboxAccessError: Override prototype property 'toString' not allowed stderr=\"/dist/sandboxjs:4556\\n      if (err) throw err.error;\\n               ^\\n\\nSandboxAccessError: Override prototype property 'toString' not allowed\\n    at Object.assignCheck (/dist/sandboxjs:4414:118)\\n    at /dist/sandboxjs:3544:30\\n    at performOp (/dist/sandboxjs:4724:9)\\n    at execSync (/dist/sandboxjs:4657:9)\\n    at _executeWithDoneSync (/dist/sandboxjs:4851:11)\\n    at executeTreeWithDone (/dist/sandboxjs:4840:30)\\n    at /dist/sandboxjs:4817:33\\n    at syncDone (/dist/sandboxjs:4552:7)\\n    at Object.executeTree (/dist/sandboxjs:4817:14)\\n    at Sandbox2.executeTree (/dist/sandboxjs:5414:39)\\n\\nNode.js v26.2.0\"",
     "TypeError": "PASS",
     "annexB": "PASS",
     "assert.js": "FAIL: SandboxAccessError: Override prototype property 'toString' not allowed",
@@ -336,34 +336,34 @@
     "strict": "FAIL"
   },
   "rusage": {
-    "started_at": "2026-04-24 13:31:46 UTC",
-    "duration_sec": 3256.513,
-    "total_user_sec": 10511.318,
-    "total_sys_sec": 2091.071,
-    "peak_rss_mb": 260.9,
+    "started_at": "2026-05-22 20:34:39 UTC",
+    "duration_sec": 3177.663,
+    "total_user_sec": 9907.799,
+    "total_sys_sec": 2423.117,
+    "peak_rss_mb": 209.7,
     "run_duration_sec": {
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 1.842,
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 1.826,
-      "test/staging/sm/extensions/dataview.strict.js": 0.369,
-      "test/staging/sm/extensions/dataview.sloppy.js": 0.322,
-      "test/language/expressions/left-shift/S11.7.1_A4_T4.strict.js": 0.315,
-      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T4.strict.js": 0.311,
-      "test/built-ins/Array/prototype/sort/stability-2048-elements.sloppy.js": 0.31,
-      "test/language/expressions/left-shift/S11.7.1_A4_T2.sloppy.js": 0.308,
-      "test/language/expressions/right-shift/S11.7.2_A4_T1.strict.js": 0.308,
-      "test/language/identifiers/start-unicode-10.0.0-escaped.sloppy.js": 0.306
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 1.65,
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 1.577,
+      "test/staging/sm/extensions/dataview.strict.js": 0.321,
+      "test/built-ins/RegExp/property-escapes/generated/strings/RGI_Emoji.sloppy.js": 0.317,
+      "test/intl402/ListFormat/constructor/supportedLocalesOf/locales-invalid.strict.js": 0.315,
+      "test/staging/sm/RegExp/unicode-ignoreCase.sloppy.js": 0.311,
+      "test/language/expressions/left-shift/S11.7.1_A4_T2.strict.js": 0.302,
+      "test/language/expressions/left-shift/S11.7.1_A4_T1.strict.js": 0.295,
+      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T1.sloppy.js": 0.294,
+      "test/language/expressions/unsigned-right-shift/S11.7.3_A4_T1.strict.js": 0.292
     },
     "run_rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 260.9,
-      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 260.9,
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 260.9,
-      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 260.9,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 260.9,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.strict.js": 260.9,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 260.9,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.strict.js": 260.9,
-      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.sloppy.js": 260.9,
-      "test/annexB/built-ins/RegExp/incomplete_hex_unicode_escape.strict.js": 260.9
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 209.7,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 209.7,
+      "test/annexB/built-ins/RegExp/prototype/Symbol.split/toint32-limit-recompiles-source.sloppy.js": 209.7,
+      "test/annexB/built-ins/RegExp/prototype/Symbol.split/toint32-limit-recompiles-source.strict.js": 209.7,
+      "test/annexB/built-ins/RegExp/prototype/compile/length.sloppy.js": 209.7,
+      "test/annexB/built-ins/RegExp/prototype/compile/length.strict.js": 209.7,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-flags-defined.sloppy.js": 209.7,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-flags-defined.strict.js": 209.7,
+      "test/annexB/built-ins/String/prototype/big/B.2.3.3.sloppy.js": 209.7,
+      "test/annexB/built-ins/String/prototype/big/B.2.3.3.strict.js": 209.7
     }
   },
   "tests": {

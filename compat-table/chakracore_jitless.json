@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "chakracore_jitless",
-    "binary_sha256": "79da34b70dacc6b47c2171ba730f5f8eece2d82ffe4027ed486a007d2ce5e921",
+    "binary_sha256": "5acdb71470f737139d763284e3f38cf7eb8416c23d7f4e651ef6767cf7974a04",
     "binary_size": 9188312,
-    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "cc": "clang 23.0.0 (++20260517082933+46c1fa8d1759-1~exp1~20260517203058.557)",
     "engine": "chakracore",
     "jit": "",
     "repository": "https://github.com/chakra-core/ChakraCore.git",
@@ -17,8 +17,8 @@
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 861, "failed": 233, "pass_percent": 78.702, "weight": 469.0, "weighted_pass_percent": 69.64},

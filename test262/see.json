@@ -18,8 +18,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 8804, "failed": 44363, "pass_percent": 16.559},
@@ -338,34 +338,34 @@
     "strict": "FAIL"
   },
   "rusage": {
-    "started_at": "2026-04-24 15:45:06 UTC",
-    "duration_sec": 272.297,
-    "total_user_sec": 138.872,
-    "total_sys_sec": 133.839,
-    "peak_rss_mb": 1657.9,
+    "started_at": "2026-05-22 16:12:46 UTC",
+    "duration_sec": 272.02,
+    "total_user_sec": 129.947,
+    "total_sys_sec": 147.975,
+    "peak_rss_mb": 1658.0,
     "run_duration_sec": {
-      "test/staging/sm/regress/regress-610026.strict.js": 5.097,
-      "test/staging/sm/regress/regress-610026.sloppy.js": 4.482,
-      "test/built-ins/encodeURI/S15.1.3.3_A2.3_T1.strict.js": 3.76,
-      "test/built-ins/encodeURI/S15.1.3.3_A2.3_T1.sloppy.js": 2.583,
-      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.sloppy.js": 2.064,
-      "test/language/expressions/left-shift/S11.7.1_A4_T2.sloppy.js": 1.922,
-      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.strict.js": 1.879,
-      "test/language/statements/switch/tco-dftl-body.js": 1.639,
-      "test/staging/sm/extensions/eval-native-callback-is-indirect.js": 1.543,
-      "test/language/import/import-defer/evaluation-triggers/ignore-symbol-other-hasProperty-in-prototype.mjs": 1.474
+      "test/staging/sm/regress/regress-610026.strict.js": 7.64,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 3.944,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.sloppy.js": 3.839,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.3_T1.strict.js": 3.083,
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.strict.js": 2.53,
+      "test/built-ins/encodeURI/S15.1.3.3_A2.3_T1.sloppy.js": 2.024,
+      "test/built-ins/Object/defineProperty/15.2.3.6-4-267.sloppy.js": 1.545,
+      "test/language/expressions/class/dstr/gen-meth-static-obj-ptrn-prop-ary-init.strict.js": 1.226,
+      "test/language/statements/class/elements/same-line-async-gen-rs-static-generator-method-privatename-identifier.strict.js": 1.207,
+      "test/built-ins/RegExp/prototype/multiline/this-val-invalid-obj.strict.js": 1.174
     },
     "run_rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 1657.9,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 1657.9,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 1657.9,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 1657.9,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 1657.9,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 1657.9,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 1657.9,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 1657.9,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 1657.9,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.strict.js": 1657.9
+      "test/built-ins/encodeURIComponent/S15.1.3.4_A2.3_T1.strict.js": 1658.0,
+      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 1657.8,
+      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 1657.8,
+      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 1657.8,
+      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 1657.8,
+      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 1657.8,
+      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 1657.8,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 1657.8,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 1657.8,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 1657.8
     }
   },
   "tests": {
@@ -41079,7 +41079,7 @@
     "test/language/identifier-resolution/S10.2.2_A1_T9.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T1.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T2.js": "TypeError: Object does not support the 'instanceof' operator",
-    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): PASS",
+    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): FAIL",
     "test/language/identifier-resolution/static-init-invalid-await.js": "PASS",
     "test/language/identifier-resolution/unscopables.js": "ReferenceError: Symbol",
     "test/language/import/dup-bound-names.js": "PASS",
@@ -41263,8 +41263,8 @@
     "test/language/line-terminators/comment-multi-ps.js": "PASS",
     "test/language/line-terminators/comment-single-cr.js": "PASS",
     "test/language/line-terminators/comment-single-lf.js": "PASS",
-    "test/language/line-terminators/comment-single-ls.js": "NOT(Test262Error): PASS",
-    "test/language/line-terminators/comment-single-ps.js": "NOT(Test262Error): PASS",
+    "test/language/line-terminators/comment-single-ls.js": "NOT(Test262Error): FAIL",
+    "test/language/line-terminators/comment-single-ps.js": "NOT(Test262Error): FAIL",
     "test/language/line-terminators/invalid-comment-single-cr.js": "PASS",
     "test/language/line-terminators/invalid-comment-single-lf.js": "PASS",
     "test/language/line-terminators/invalid-comment-single-ls.js": "NOT(SyntaxError): DONOTEVALUATE",

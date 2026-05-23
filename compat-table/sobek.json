@@ -2,33 +2,33 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "sobek",
-    "binary_sha256": "724f01a575f2f555ce2dd69fd6e024db4327d15862b8a3dbf394d66b090ee4b7",
-    "binary_size": 10202648,
+    "binary_sha256": "8b4e9f9d91af5d6440148811d6e7d65e0b6d865f31d6621bcac4f9871a8b5ebd",
+    "binary_size": 10206744,
     "engine": "sobek",
-    "go": "1.26.2",
+    "go": "1.26.3",
     "repository": "https://github.com/grafana/sobek.git",
-    "revision": "6d789dcdd1773496f3069ea095d54fb21c9fd941",
-    "revision_date": "2026-04-06"
+    "revision": "a66d4790012b6d507a27ae554c154b349e68057a",
+    "revision_date": "2026-04-29"
   },
   "flags": [
     {"if": "flags:module", "then": "-module"}
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
-    "all": {"passed": 913, "failed": 181, "pass_percent": 83.455, "weight": 469.0, "weighted_pass_percent": 76.143},
-    "es6": {"passed": 682, "failed": 18, "pass_percent": 97.429, "weight": 211.0, "weighted_pass_percent": 96.935},
+    "all": {"passed": 914, "failed": 180, "pass_percent": 83.547, "weight": 469.0, "weighted_pass_percent": 76.569},
+    "es6": {"passed": 683, "failed": 17, "pass_percent": 97.571, "weight": 211.0, "weighted_pass_percent": 97.882},
     "es2016+": {"passed": 152, "failed": 98, "pass_percent": 60.8, "weight": 151.0, "weighted_pass_percent": 66.225},
     "esnext": {"failed": 43, "weight": 33.0},
     "intl": {"passed": 7, "failed": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0}
   },
   "dirs": {
-    "compat-table": {"passed": 913, "failed": 181, "pass_percent": 83.455, "weight": 469.0, "weighted_pass_percent": 76.143},
+    "compat-table": {"passed": 914, "failed": 180, "pass_percent": 83.547, "weight": 469.0, "weighted_pass_percent": 76.569},
     "compat-table/es5": {"passed": 72, "failed": 1, "pass_percent": 98.63, "weight": 46.0, "weighted_pass_percent": 99.085},
-    "compat-table/es6": {"passed": 682, "failed": 18, "pass_percent": 97.429, "weight": 211.0, "weighted_pass_percent": 96.935},
+    "compat-table/es6": {"passed": 683, "failed": 17, "pass_percent": 97.571, "weight": 211.0, "weighted_pass_percent": 97.882},
     "compat-table/es2016": {"passed": 13, "failed": 1, "pass_percent": 92.857, "weight": 11.0, "weighted_pass_percent": 90.909},
     "compat-table/es2017": {"passed": 25, "failed": 39, "pass_percent": 39.062, "weight": 25.0, "weighted_pass_percent": 68.0},
     "compat-table/es2018": {"passed": 9, "failed": 13, "pass_percent": 40.909, "weight": 19.0, "weighted_pass_percent": 63.158},
@@ -729,7 +729,7 @@
     "compat-table/es6/super.statement.js": "PASS",
     "compat-table/es6/super.static-binding.js": "PASS",
     "compat-table/es6/super.this-binding.js": "PASS",
-    "compat-table/es6/tail-calls.direct.js": "TIMEOUT: >60s",
+    "compat-table/es6/tail-calls.direct.js": "PASS",
     "compat-table/es6/tail-calls.mutual.js": "PASS",
     "compat-table/es6/template.basic.js": "PASS",
     "compat-table/es6/template.caching.js": "PASS",

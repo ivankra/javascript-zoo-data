@@ -2,12 +2,12 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "boa",
-    "binary_sha256": "48a970703a63c946ea1a2524251fc5538d1c3b33a52203cd0d09ebf8832a7c06",
-    "binary_size": 28339120,
+    "binary_sha256": "1753e7c29e7f78fdeb65223c4bf4a9e410992a074bce0eabbf2ca7e917d5a026",
+    "binary_size": 28361392,
     "engine": "boa",
     "repository": "https://github.com/boa-dev/boa.git",
-    "revision": "3ee2b71a306334c2b2a0dcc20ac4b5e1c5a71558",
-    "revision_date": "2026-04-21",
+    "revision": "8f5ef6542d641fd22320e51234e914b59e623717",
+    "revision_date": "2026-05-20",
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
   "flags": [
@@ -17,8 +17,8 @@
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 1038, "failed": 56, "pass_percent": 94.881, "weight": 469.0, "weighted_pass_percent": 91.393},

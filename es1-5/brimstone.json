@@ -2,12 +2,12 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "brimstone",
-    "binary_sha256": "55579b9b660ba2a6ce1707fb3ebd0a54a4203137ef615d78d1416440f910fb7d",
-    "binary_size": 6522152,
+    "binary_sha256": "537a7cbc7e0657dba593e8ec77fa461b60833c5b1585c7e258eeec3a5cc8e98a",
+    "binary_size": 6336992,
     "engine": "brimstone",
     "repository": "https://github.com/Hans-Halverson/brimstone.git",
-    "revision": "6a04fef645608b7995fa119b445e3f18e2281473",
-    "revision_date": "2025-12-17",
+    "revision": "deb3f5a5a636716e717235efaa7b46a9edc3c4e0",
+    "revision_date": "2026-05-20",
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
   "flags": [
@@ -19,8 +19,8 @@
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 420, "pass_percent": 100.0},

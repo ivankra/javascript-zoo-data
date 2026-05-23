@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "cesanta-mjs",
-    "binary_sha256": "b126cf8a834fb2ece97f91f8310fda7db4d4d7225345c80a388e91729ae0fc5f",
-    "binary_size": 203576,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "e22098f3838fa1182466af645cbfb8738744fd9336c1136f7123c2cf978eaae0",
+    "binary_size": 203520,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "cesanta-mjs",
     "repository": "https://github.com/cesanta/mjs.git",
     "revision": "cf375c40f6f15447af4925c33cd7c549b54deb2c",
@@ -18,8 +18,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 4627, "failed": 48540, "pass_percent": 8.703},
@@ -338,34 +338,34 @@
     "strict": "PASS"
   },
   "rusage": {
-    "started_at": "2026-04-24 07:14:34 UTC",
-    "duration_sec": 58.682,
-    "total_user_sec": 33.122,
-    "total_sys_sec": 46.541,
-    "peak_rss_mb": 38.3,
+    "started_at": "2026-05-22 15:21:30 UTC",
+    "duration_sec": 54.868,
+    "total_user_sec": 32.207,
+    "total_sys_sec": 47.92,
+    "peak_rss_mb": 40.0,
     "run_duration_sec": {
-      "test/built-ins/RegExp/S15.10.2.6_A2_T9.strict.js": 0.015,
-      "test/built-ins/Object/seal/seal-int16array.strict.js": 0.012,
-      "test/intl402/Temporal/PlainYearMonth/prototype/since/infinity-throws-rangeerror.sloppy.js": 0.012,
-      "test/language/expressions/class/async-gen-method-static/yield-star-getiter-sync-not-callable-string-throw.strict.js": 0.01,
-      "test/language/expressions/class/dstr/gen-meth-static-ary-ptrn-elem-id-init-fn-name-cover.sloppy.js": 0.009,
-      "test/built-ins/Temporal/PlainDateTime/prototype/round/roundingmode-halfexpand-is-default.sloppy.js": 0.009,
-      "test/language/statements/for-await-of/async-gen-dstr-var-ary-ptrn-rest-ary-rest.strict.js": 0.009,
-      "test/built-ins/Array/prototype/concat/Array.prototype.concat_spreadable-string-wrapper.sloppy.js": 0.009,
-      "test/language/expressions/class/dstr/meth-static-dflt-obj-ptrn-prop-ary-init.sloppy.js": 0.008,
-      "test/built-ins/BigInt/asIntN/arithmetic.sloppy.js": 0.008
+      "test/language/statementList/fn-array-literal.sloppy.js": 0.012,
+      "test/language/statements/class/dstr/gen-meth-static-obj-ptrn-prop-id-init-throws.strict.js": 0.009,
+      "test/built-ins/Date/prototype/setMinutes/this-value-invalid-date.strict.js": 0.009,
+      "test/language/expressions/class/dstr/meth-ary-ptrn-empty.sloppy.js": 0.008,
+      "test/built-ins/Array/prototype/every/15.4.4.16-7-b-7.sloppy.js": 0.007,
+      "test/language/function-code/10.4.3-1-59gs.strict.js": 0.007,
+      "test/language/literals/regexp/S7.8.5_A4.1.strict.js": 0.007,
+      "test/built-ins/Temporal/PlainDateTime/prototype/millisecond/prop-desc.sloppy.js": 0.007,
+      "test/language/expressions/dynamic-import/namespace/promise-then-ns-prop-descs.sloppy.js": 0.006,
+      "test/language/statements/let/dstr/ary-ptrn-rest-ary-elision.strict.js": 0.006
     },
     "run_rss_mb": {
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 38.3,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 38.3,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 38.3,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.strict.js": 38.3,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.sloppy.js": 38.3,
-      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-not-regexp-constructor.strict.js": 38.3,
-      "test/annexB/built-ins/String/prototype/blink/name.sloppy.js": 38.3,
-      "test/annexB/built-ins/String/prototype/blink/name.strict.js": 38.3,
-      "test/annexB/built-ins/String/prototype/fixed/B.2.3.6.sloppy.js": 38.3,
-      "test/annexB/built-ins/String/prototype/fixed/B.2.3.6.strict.js": 38.3
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 40.0,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 40.0,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 40.0,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 40.0,
+      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 40.0,
+      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 40.0,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.sloppy.js": 40.0,
+      "test/annexB/built-ins/Function/createdynfn-html-open-comment-params.strict.js": 40.0,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.sloppy.js": 40.0,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-subclass-constructor.strict.js": 40.0
     }
   },
   "tests": {

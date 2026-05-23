@@ -2,7 +2,7 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "twostroke",
-    "dist_size": 2814184,
+    "dist_size": 2814275,
     "engine": "twostroke",
     "repository": "https://github.com/charliesome/twostroke.git",
     "revision": "3e6d5366bad603e987f78027d472255707ec26fa",
@@ -10,8 +10,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 239, "failed": 181, "pass_percent": 56.905},
@@ -231,7 +231,7 @@
     "es3/Array.prototype.slice.generic.js": "PASS",
     "es3/Array.prototype.slice.js": "PASS",
     "es3/Array.prototype.splice.generic.js": "FAIL: vm_frame.rb:53:in `throw': uncaught throw :exception (UncaughtThrowError); vm_frame.rb:53:in `execute'; vm.rb:16:in `execute'",
-    "es3/Array.prototype.splice.js": "FAIL: twostroke-dist/repl.rb: failed to allocate memory (NoMemoryError)",
+    "es3/Array.prototype.splice.js": "OOM: >4096MB",
     "es3/Array.prototype.toLocaleString.js": "FAIL: vm_frame.rb:53:in `throw': uncaught throw :exception (UncaughtThrowError); vm_frame.rb:53:in `execute'; vm.rb:16:in `execute'",
     "es3/Array.prototype.unshift.generic.js": "FAIL: vm_frame.rb:53:in `throw': uncaught throw :exception (UncaughtThrowError); vm_frame.rb:53:in `execute'; vm.rb:16:in `execute'",
     "es3/Array.prototype.unshift.js": "FAIL: unshift multiple elements failed; unshift on empty array failed",
@@ -297,7 +297,7 @@
     "es3/function-expressions.js": "PASS",
     "es3/global.EvalError.js": "FAIL: name failed",
     "es3/global.RangeError.js": "FAIL: name failed",
-    "es3/global.RangeError.thrown.js": "FAIL: twostroke-dist/repl.rb: failed to allocate memory (NoMemoryError)",
+    "es3/global.RangeError.thrown.js": "OOM: >4096MB",
     "es3/global.ReferenceError.js": "FAIL: name failed",
     "es3/global.ReferenceError.thrown.js": "PASS",
     "es3/global.SyntaxError.js": "FAIL: name failed",

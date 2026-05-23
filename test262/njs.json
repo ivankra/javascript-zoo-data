@@ -2,14 +2,13 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "njs",
-    "binary_sha256": "8d8c0be4e495b2545c19c389cffa013e26d6143fd774f0183ad3badf238475a7",
-    "binary_size": 874040,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "f600002f0dfcce22813fed4436182019b65ff2c0d0d5c22f20f1cbea35e18fce",
+    "binary_size": 873984,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "njs",
     "repository": "https://github.com/nginx/njs.git",
-    "revision": "463ee0d52d687bb6b3bb3a81dc53a42bbc6065fc",
-    "revision_date": "2026-04-21",
-    "version": "0.9.7"
+    "revision": "621f7cf9918aaf532cad1bf9244b5d668225fa63",
+    "revision_date": "2026-05-20"
   },
   "flags": [
     {"if": "flags:module", "then": "-m"}
@@ -21,8 +20,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 18998, "failed": 34169, "pass_percent": 35.733},
@@ -341,34 +340,34 @@
     "strict": "PASS"
   },
   "rusage": {
-    "started_at": "2026-04-24 13:16:51 UTC",
-    "duration_sec": 134.098,
-    "total_user_sec": 221.648,
-    "total_sys_sec": 146.064,
-    "peak_rss_mb": 4145.2,
+    "started_at": "2026-05-22 17:54:41 UTC",
+    "duration_sec": 131.701,
+    "total_user_sec": 214.016,
+    "total_sys_sec": 151.626,
+    "peak_rss_mb": 4144.7,
     "run_duration_sec": {
-      "test/staging/sm/String/replace-math.sloppy.js": 2.988,
-      "test/staging/sm/String/replace-math.strict.js": 2.759,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 2.27,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 2.25,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 2.181,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 2.175,
-      "test/staging/sm/Date/dst-offset-caching-2-of-8.strict.js": 2.175,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 2.162,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 2.143,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 2.14
+      "test/staging/sm/String/replace-math.sloppy.js": 2.952,
+      "test/staging/sm/String/replace-math.strict.js": 2.867,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 1.912,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 1.898,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 1.875,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 1.871,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 1.866,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 1.866,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.strict.js": 1.863,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 1.859
     },
     "run_rss_mb": {
-      "test/staging/sm/String/replace-math.strict.js": 4145.2,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-subclass-constructor.sloppy.js": 4145.2,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-subclass-constructor.strict.js": 4145.2,
-      "test/annexB/built-ins/String/prototype/strike/not-a-constructor.sloppy.js": 4145.2,
-      "test/annexB/built-ins/String/prototype/strike/not-a-constructor.strict.js": 4145.2,
-      "test/annexB/language/comments/single-line-html-open.sloppy.js": 4145.2,
-      "test/annexB/language/comments/single-line-html-open.strict.js": 4145.2,
-      "test/annexB/language/eval-code/direct/func-switch-dflt-eval-func-update.js": 4145.2,
-      "test/annexB/language/eval-code/direct/global-switch-case-eval-global-block-scoping.js": 4145.2,
-      "test/annexB/language/eval-code/indirect/global-if-decl-else-decl-a-eval-global-existing-global-init.js": 4145.2
+      "test/annexB/built-ins/Date/prototype/getYear/nan.sloppy.js": 4144.7,
+      "test/annexB/built-ins/Date/prototype/getYear/nan.strict.js": 4144.7,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.sloppy.js": 4144.7,
+      "test/annexB/built-ins/Date/prototype/getYear/not-a-constructor.strict.js": 4144.7,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 4144.7,
+      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 4144.7,
+      "test/annexB/built-ins/Date/prototype/setYear/name.sloppy.js": 4144.7,
+      "test/annexB/built-ins/Date/prototype/setYear/name.strict.js": 4144.7,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 4144.7,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 4144.7
     }
   },
   "tests": {
@@ -41264,10 +41263,10 @@
     "test/language/line-terminators/comment-multi-lf.js": "PASS",
     "test/language/line-terminators/comment-multi-ls.js": "PASS",
     "test/language/line-terminators/comment-multi-ps.js": "PASS",
-    "test/language/line-terminators/comment-single-cr.js": "NOT(Test262Error): PASS",
+    "test/language/line-terminators/comment-single-cr.js": "NOT(Test262Error): FAIL",
     "test/language/line-terminators/comment-single-lf.js": "PASS",
-    "test/language/line-terminators/comment-single-ls.js": "NOT(Test262Error): PASS",
-    "test/language/line-terminators/comment-single-ps.js": "NOT(Test262Error): PASS",
+    "test/language/line-terminators/comment-single-ls.js": "NOT(Test262Error): FAIL",
+    "test/language/line-terminators/comment-single-ps.js": "NOT(Test262Error): FAIL",
     "test/language/line-terminators/invalid-comment-single-cr.js": "NOT(SyntaxError): DONOTEVALUATE",
     "test/language/line-terminators/invalid-comment-single-lf.js": "PASS",
     "test/language/line-terminators/invalid-comment-single-ls.js": "NOT(SyntaxError): DONOTEVALUATE",

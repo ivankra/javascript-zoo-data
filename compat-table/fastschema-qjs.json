@@ -2,10 +2,10 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "fastschema-qjs",
-    "binary_sha256": "facc3bd728000f6f36519555f82888e44e3c0b890673e5c4d8e8e9cf3c2983cd",
-    "binary_size": 6305600,
+    "binary_sha256": "a0484efc4f19c6b390c8c0514895808d774af1d45a571d857ff983c9817f90ac",
+    "binary_size": 6309696,
     "engine": "fastschema-qjs",
-    "go": "1.26.2",
+    "go": "1.26.3",
     "repository": "https://github.com/fastschema/qjs.git",
     "revision": "461716f4f380f81ffd09378751f1812919cddbca",
     "revision_date": "2025-10-28",
@@ -16,8 +16,8 @@
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 992, "failed": 102, "pass_percent": 90.676, "weight": 469.0, "weighted_pass_percent": 84.731},

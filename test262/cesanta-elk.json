@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "cesanta-elk",
-    "binary_sha256": "55c74aee82b9da999895274b8ad2ac3d9aa0dfe90879b007e539c4da105f6314",
-    "binary_size": 47544,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "f4d20d652b34e99b029b1daaedc547101a845e7eafea73940189ca9b05267299",
+    "binary_size": 47488,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "cesanta-elk",
     "repository": "https://github.com/cesanta/elk.git",
     "revision": "71a86fa2fef146696be9ae66715bf3f91d0a5f2c",
@@ -18,8 +18,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 4626, "failed": 48541, "pass_percent": 8.701},
@@ -338,34 +338,34 @@
     "strict": "SyntaxError"
   },
   "rusage": {
-    "started_at": "2026-04-24 07:50:03 UTC",
-    "duration_sec": 59.014,
-    "total_user_sec": 31.507,
-    "total_sys_sec": 45.702,
-    "peak_rss_mb": 38.4,
+    "started_at": "2026-05-22 15:48:13 UTC",
+    "duration_sec": 54.523,
+    "total_user_sec": 30.166,
+    "total_sys_sec": 49.891,
+    "peak_rss_mb": 37.9,
     "run_duration_sec": {
-      "test/language/statements/switch/syntax/redeclaration/let-name-redeclaration-attempt-with-let.strict.js": 0.016,
-      "test/language/statements/for-await-of/async-func-decl-dstr-array-elem-put-unresolvable-strict.js": 0.015,
-      "test/built-ins/Iterator/prototype/Symbol.iterator/name.strict.js": 0.011,
-      "test/built-ins/String/prototype/substring/S15.5.4.15_A3_T6.sloppy.js": 0.011,
-      "test/intl402/RelativeTimeFormat/prototype/formatToParts/pl-pl-style-narrow.strict.js": 0.01,
-      "test/built-ins/RegExp/property-escapes/generated/strings/Basic_Emoji-negative-P.strict.js": 0.01,
-      "test/intl402/Temporal/ZonedDateTime/prototype/year/epoch-year.strict.js": 0.01,
-      "test/built-ins/Temporal/PlainDateTime/prototype/withPlainTime/argument-string-multiple-time-zone.strict.js": 0.01,
-      "test/language/block-scope/shadowing/catch-parameter-shadowing-catch-parameter.sloppy.js": 0.009,
-      "test/language/expressions/greater-than-or-equal/S11.8.4_A4.2.sloppy.js": 0.009
+      "test/language/white-space/S7.2_A2.3_T2.strict.js": 0.009,
+      "test/built-ins/Array/prototype/concat/Array.prototype.concat_holey-sloppy-arguments.sloppy.js": 0.009,
+      "test/language/statements/generators/dstr/dflt-obj-ptrn-prop-id-get-value-err.sloppy.js": 0.009,
+      "test/intl402/Temporal/PlainDateTime/prototype/toLocaleString/lone-options-accepted.sloppy.js": 0.008,
+      "test/built-ins/Array/prototype/reduceRight/prop-desc.sloppy.js": 0.008,
+      "test/built-ins/Date/prototype/setSeconds/prop-desc.strict.js": 0.008,
+      "test/built-ins/Temporal/PlainYearMonth/prototype/since/largestunit-wrong-type.sloppy.js": 0.008,
+      "test/staging/built-ins/Reflect/preventExtensions/preventExtensions-variable-length-typed-arrays.sloppy.js": 0.007,
+      "test/language/statements/generators/dstr/ary-ptrn-rest-not-final-ary.sloppy.js": 0.007,
+      "test/language/statements/class/dstr/gen-meth-ary-ptrn-rest-init-obj.strict.js": 0.007
     },
     "run_rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 38.4,
-      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 38.4,
-      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.sloppy.js": 38.4,
-      "test/annexB/built-ins/Date/prototype/getYear/this-not-date.strict.js": 38.4,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 38.4,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 38.4,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 38.4,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 38.4,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.sloppy.js": 38.4,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.strict.js": 38.4
+      "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 37.9,
+      "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 37.9,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 37.9,
+      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 37.9,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 37.9,
+      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.strict.js": 37.9,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.sloppy.js": 37.9,
+      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-not-regexp-constructor.strict.js": 37.9,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.sloppy.js": 37.9,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/this-cross-realm-constructor.strict.js": 37.9
     }
   },
   "tests": {

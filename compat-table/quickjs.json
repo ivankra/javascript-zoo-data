@@ -2,13 +2,13 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "quickjs",
-    "binary_sha256": "a7ed97e9c229fee4b33b4c316d99dca608c37ff11d084f16ac6a0d0c8aaa8076",
-    "binary_size": 1117520,
-    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "binary_sha256": "10eec7f62314d7f0eab35c841251da37d16d1b2dc7c947bef3d418f7369bf33d",
+    "binary_size": 1178960,
+    "cc": "clang 23.0.0 (++20260517082933+46c1fa8d1759-1~exp1~20260517203058.557)",
     "engine": "quickjs",
     "repository": "https://github.com/bellard/quickjs.git",
-    "revision": "d7ae12ae71dfd6ab2997527d295014a8996fa0f9",
-    "revision_date": "2026-03-23"
+    "revision": "d73189dd5a582c19c565774bd56fed4e72d33c99",
+    "revision_date": "2026-05-21"
   },
   "flags": [
     "--no-unhandled-rejection",
@@ -16,18 +16,18 @@
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
-    "all": {"passed": 1016, "failed": 78, "pass_percent": 92.87, "weight": 469.0, "weighted_pass_percent": 87.13},
+    "all": {"passed": 1022, "failed": 72, "pass_percent": 93.419, "weight": 469.0, "weighted_pass_percent": 87.557},
     "es6": {"passed": 686, "failed": 14, "pass_percent": 98.0, "weight": 211.0, "weighted_pass_percent": 96.986},
     "es2016+": {"passed": 250, "pass_percent": 100.0, "weight": 151.0, "weighted_pass_percent": 100.0},
-    "esnext": {"failed": 43, "weight": 33.0},
+    "esnext": {"passed": 6, "failed": 37, "pass_percent": 13.953, "weight": 33.0, "weighted_pass_percent": 6.061},
     "intl": {"passed": 7, "failed": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0}
   },
   "dirs": {
-    "compat-table": {"passed": 1016, "failed": 78, "pass_percent": 92.87, "weight": 469.0, "weighted_pass_percent": 87.13},
+    "compat-table": {"passed": 1022, "failed": 72, "pass_percent": 93.419, "weight": 469.0, "weighted_pass_percent": 87.557},
     "compat-table/es5": {"passed": 73, "pass_percent": 100.0, "weight": 46.0, "weighted_pass_percent": 100.0},
     "compat-table/es6": {"passed": 686, "failed": 14, "pass_percent": 98.0, "weight": 211.0, "weighted_pass_percent": 96.986},
     "compat-table/es2016": {"passed": 14, "pass_percent": 100.0, "weight": 11.0, "weighted_pass_percent": 100.0},
@@ -41,7 +41,7 @@
     "compat-table/es2024": {"passed": 13, "pass_percent": 100.0, "weight": 7.0, "weighted_pass_percent": 100.0},
     "compat-table/es2025": {"passed": 29, "pass_percent": 100.0, "weight": 19.0, "weighted_pass_percent": 100.0},
     "compat-table/intl": {"passed": 7, "failed": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0},
-    "compat-table/next": {"failed": 43, "weight": 33.0}
+    "compat-table/next": {"passed": 6, "failed": 37, "pass_percent": 13.953, "weight": 33.0, "weighted_pass_percent": 6.061}
   },
   "tests": {
     "compat-table/es5/Array.isArray.js": "PASS",
@@ -1121,12 +1121,12 @@
     "compat-table/next/ShadowRealm.js": "FAIL",
     "compat-table/next/SuppressedError.js": "SyntaxError: expecting ';'",
     "compat-table/next/Symbol.dispose.bound.js": "SyntaxError: expecting ';'",
-    "compat-table/next/Uint8Array.fromBase64.js": "TypeError: not a function",
-    "compat-table/next/Uint8Array.fromHex.js": "TypeError: not a function",
-    "compat-table/next/Uint8Array.setFromBase64.js": "TypeError: not a function",
-    "compat-table/next/Uint8Array.setFromHex.js": "TypeError: not a function",
-    "compat-table/next/Uint8Array.toBase64.js": "TypeError: not a function",
-    "compat-table/next/Uint8Array.toHex.js": "TypeError: not a function",
+    "compat-table/next/Uint8Array.fromBase64.js": "PASS",
+    "compat-table/next/Uint8Array.fromHex.js": "PASS",
+    "compat-table/next/Uint8Array.setFromBase64.js": "PASS",
+    "compat-table/next/Uint8Array.setFromHex.js": "PASS",
+    "compat-table/next/Uint8Array.toBase64.js": "PASS",
+    "compat-table/next/Uint8Array.toHex.js": "PASS",
     "compat-table/next/WeakMap.prototype.upsert.js": "TypeError: not a function",
     "compat-table/next/await-using.for-of.js": "SyntaxError: unexpected token in expression: 'await'",
     "compat-table/next/await-using.js": "SyntaxError: expecting ';'",

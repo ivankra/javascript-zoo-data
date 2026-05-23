@@ -2,29 +2,29 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jint",
-    "binary_sha256": "1224aeb9ecb2f083c58670e8c66a7b05593d065f02e0e32597bef6ae6887fff7",
-    "binary_size": 11352712,
-    "dotnet": "10.0.203",
+    "binary_sha256": "2c80e9a9a7113ce452b1b1d92c9ef46f072f58c369ce74957bf6c4feb97f3bda",
+    "binary_size": 12008952,
+    "dotnet": "10.0.300",
     "engine": "jint",
     "repository": "https://github.com/sebastienros/jint.git",
-    "revision": "67ccb4373ad078f7aef3eae042124abea8626abd",
-    "revision_date": "2026-04-21"
+    "revision": "5da22552b0906ab8c95c16ca3954dc2cb68d1204",
+    "revision_date": "2026-05-19"
   },
   "flags": [
     {"if": "flags:module", "then": "--module"}
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
-    "all": {"passed": 418, "failed": 2, "pass_percent": 99.524},
-    "es1-5": {"passed": 418, "failed": 2, "pass_percent": 99.524}
+    "all": {"passed": 419, "failed": 1, "pass_percent": 99.762},
+    "es1-5": {"passed": 419, "failed": 1, "pass_percent": 99.762}
   },
   "dirs": {
     "es1": {"passed": 198, "pass_percent": 100.0},
-    "es3": {"passed": 147, "failed": 1, "pass_percent": 99.324},
+    "es3": {"passed": 148, "pass_percent": 100.0},
     "es5": {"passed": 73, "failed": 1, "pass_percent": 98.649}
   },
   "tests": {
@@ -226,7 +226,7 @@
     "es1/void.typeof.js": "PASS",
     "es1/while.js": "PASS",
     "es1/with.js": "PASS",
-    "es3/Array.prototype.concat.js": "CRASH: SIGABRT",
+    "es3/Array.prototype.concat.js": "PASS",
     "es3/Array.prototype.pop.generic.js": "PASS",
     "es3/Array.prototype.pop.js": "PASS",
     "es3/Array.prototype.push.generic.js": "PASS",

@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "derkjs",
-    "binary_sha256": "794aff1ac75fae31cec5eaee8e37a297c464528e9d93407ca094ff5c82dc7d04",
-    "binary_size": 2123040,
-    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "binary_sha256": "c7881618cb0e8243761be15ca5f47c099c0f6201dcef0a0c09a306c24918e6a2",
+    "binary_size": 2131232,
+    "cc": "clang 23.0.0 (++20260517082933+46c1fa8d1759-1~exp1~20260517203058.557)",
     "engine": "derkjs",
     "repository": "https://github.com/DrkWithT/DerkJS-Redux.git",
     "revision": "a0e388cd9bff0ee0eb5c393f5300216259c71bf5",
@@ -18,8 +18,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 4629, "failed": 48538, "pass_percent": 8.707},
@@ -338,34 +338,34 @@
     "strict": "SyntaxError"
   },
   "rusage": {
-    "started_at": "2026-04-24 07:36:42 UTC",
-    "duration_sec": 78.291,
-    "total_user_sec": 95.765,
-    "total_sys_sec": 47.908,
-    "peak_rss_mb": 38.7,
+    "started_at": "2026-05-22 15:46:41 UTC",
+    "duration_sec": 72.604,
+    "total_user_sec": 99.457,
+    "total_sys_sec": 47.95,
+    "peak_rss_mb": 38.3,
     "run_duration_sec": {
-      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-5-23.sloppy.js": 0.024,
-      "test/built-ins/TypedArray/prototype/map/callbackfn-set-value-during-interaction.strict.js": 0.02,
-      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.019,
-      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.019,
-      "test/built-ins/String/prototype/repeat/repeat.strict.js": 0.018,
-      "test/built-ins/Array/prototype/join/coerced-separator-shrink.strict.js": 0.015,
-      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-5-23.strict.js": 0.014,
-      "test/built-ins/Map/prototype/size/this-not-object-throw.strict.js": 0.013,
-      "test/intl402/Temporal/ZonedDateTime/prototype/toString/calendarname-wrong-type.strict.js": 0.012,
-      "test/built-ins/String/fromCodePoint/to-number-conversions.sloppy.js": 0.012
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.02,
+      "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.02,
+      "test/language/statements/class/dstr/meth-obj-ptrn-rest-val-obj.strict.js": 0.015,
+      "test/intl402/Temporal/PlainDate/prototype/with/mutually-exclusive-fields-gregory.sloppy.js": 0.013,
+      "test/language/statements/using/syntax/block-scope-syntax-using-declarations-mixed-with-without-initializer.strict.js": 0.01,
+      "test/language/expressions/class/dstr/gen-meth-dflt-ary-ptrn-elem-id-iter-val-array-prototype.strict.js": 0.01,
+      "test/language/statements/for-await-of/async-func-dstr-const-obj-ptrn-id-init-fn-name-gen.sloppy.js": 0.01,
+      "test/built-ins/TypedArrayConstructors/from/BigInt/custom-ctor-returns-other-instance.strict.js": 0.009,
+      "test/built-ins/Atomics/wait/bigint/false-for-timeout.sloppy.js": 0.009,
+      "test/language/identifiers/part-unicode-7.0.0-escaped.sloppy.js": 0.009
     },
     "run_rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 38.7,
-      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 38.7,
-      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 38.7,
-      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 38.7,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 38.7,
-      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 38.7,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.sloppy.js": 38.7,
-      "test/annexB/built-ins/Function/createdynfn-html-close-comment-body.strict.js": 38.7,
-      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-not-capturing.sloppy.js": 38.7,
-      "test/annexB/built-ins/RegExp/RegExp-decimal-escape-not-capturing.strict.js": 38.7
+      "test/annexB/language/eval-code/direct/func-block-decl-eval-func-skip-early-err.js": 38.3,
+      "test/annexB/language/eval-code/direct/global-if-decl-else-decl-b-eval-global-skip-early-err-for-of.js": 38.3,
+      "test/annexB/language/eval-code/indirect/global-if-decl-else-stmt-eval-global-skip-early-err.js": 38.3,
+      "test/annexB/language/expressions/assignmenttargettype/callexpression-in-compound-assignment.js": 38.3,
+      "test/annexB/language/function-code/if-decl-else-decl-b-func-block-scoping.js": 38.3,
+      "test/annexB/language/function-code/if-decl-no-else-func-existing-fn-update.js": 38.3,
+      "test/annexB/language/global-code/if-stmt-else-decl-global-existing-var-no-init.js": 38.3,
+      "test/annexB/language/global-code/switch-case-global-existing-non-enumerable-global-init.js": 38.3,
+      "test/built-ins/AggregateError/length.sloppy.js": 38.3,
+      "test/built-ins/AggregateError/length.strict.js": 38.3
     }
   },
   "tests": {

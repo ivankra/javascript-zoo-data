@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "yrm006",
-    "binary_sha256": "d462149fe68d2f79ec16fc5bb37f8590a2d97b45c7d057b7f48336498592b961",
-    "binary_size": 51576,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "4f697fb8e13298a825c7451a1e5ffb2bbcd1bf9aad680f022301662f3cd92977",
+    "binary_size": 51520,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "yrm006",
     "repository": "https://github.com/yrm006/miniscript.git",
     "revision": "a4730b54e8cb519d6b62f9ef3fe3a51e2072f94d",
@@ -12,8 +12,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 2, "failed": 418, "pass_percent": 0.476},
@@ -160,7 +160,7 @@
     "es1/bitwise.unsigned-shift.js": "FAIL",
     "es1/break.js": "TIMEOUT: >60s",
     "es1/comma.js": "CRASH: SIGSEGV",
-    "es1/comments.js": "CRASH: SIGSEGV",
+    "es1/comments.js": "CRASH: SIGFPE",
     "es1/conditional.js": "FAIL: not found.('true')",
     "es1/continue.js": "TIMEOUT: >60s",
     "es1/conversions.ToBoolean.js": "FAIL: not found.('true')",
@@ -366,7 +366,7 @@
     "es3/regex.word-boundary.js": "FAIL: not found.('\\bword')",
     "es3/source.line-terminators.js": "CRASH: SIGSEGV",
     "es3/source.whitespace.js": "FAIL: not found.('y')",
-    "es3/source.whitespace.unicode.js": "FAIL: not found.('x'); @@",
+    "es3/source.whitespace.unicode.js": "FAIL: not found.('x'); \u0010\u0010",
     "es3/strict-equals.js": "CRASH: SIGSEGV",
     "es3/switch.js": "FAIL: not found.('switch')",
     "es3/try-catch-finally.js": "FAIL: too long name.('finally1')",

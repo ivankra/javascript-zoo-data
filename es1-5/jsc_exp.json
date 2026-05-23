@@ -2,14 +2,14 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jsc",
-    "binary_sha256": "a9bd2db57a25013f9a6bf76241480230ef344dd9df9d5414cea917e1c338b2ae",
-    "binary_size": 32286200,
-    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "binary_sha256": "ad52e3a43a6e260adb27cfd1863d5867d81621c71606f43c282f8b322075718a",
+    "binary_size": 30782968,
+    "cc": "clang 23.0.0 (++20260517082933+46c1fa8d1759-1~exp1~20260517203058.557)",
     "engine": "jsc",
     "repository": "https://github.com/WebKit/WebKit.git",
-    "revision": "89dd2f9ec73985c4f68a7a8bb299e1121b2a78b5",
-    "revision_date": "2026-04-22",
-    "version": "311817"
+    "revision": "cf9c1ca91a47666c6aa6c80310936ed064f122e0",
+    "revision_date": "2026-05-21",
+    "version": "313706"
   },
   "flags": [
     {"if": "flags:CanBlockIsFalse", "then": "--can-block-is-false"},
@@ -25,8 +25,8 @@
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 420, "pass_percent": 100.0},

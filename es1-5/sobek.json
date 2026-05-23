@@ -2,21 +2,21 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "sobek",
-    "binary_sha256": "724f01a575f2f555ce2dd69fd6e024db4327d15862b8a3dbf394d66b090ee4b7",
-    "binary_size": 10202648,
+    "binary_sha256": "8b4e9f9d91af5d6440148811d6e7d65e0b6d865f31d6621bcac4f9871a8b5ebd",
+    "binary_size": 10206744,
     "engine": "sobek",
-    "go": "1.26.2",
+    "go": "1.26.3",
     "repository": "https://github.com/grafana/sobek.git",
-    "revision": "6d789dcdd1773496f3069ea095d54fb21c9fd941",
-    "revision_date": "2026-04-06"
+    "revision": "a66d4790012b6d507a27ae554c154b349e68057a",
+    "revision_date": "2026-04-29"
   },
   "flags": [
     {"if": "flags:module", "then": "-module"}
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 416, "failed": 4, "pass_percent": 99.048},

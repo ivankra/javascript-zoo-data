@@ -2,14 +2,14 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "spidermonkey_full",
-    "binary_sha256": "63c59992b6d78b36981277eb9dd1099536dcbf91b1fc764cc8a653371d457186",
-    "binary_size": 38423824,
-    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "binary_sha256": "e952713737daccbb3859b7f86d3b4a567bb733919def09b301b07cb6270783dd",
+    "binary_size": 38740144,
+    "cc": "clang 23.0.0 (++20260517082933+46c1fa8d1759-1~exp1~20260517203058.557)",
     "engine": "spidermonkey",
     "repository": "https://github.com/mozilla-firefox/firefox.git",
-    "revision": "986b2e474acca54ab469aca8d549b71cdcea33a5",
-    "revision_date": "2026-04-22",
-    "version": "152.0"
+    "revision": "1f7030c8de8f2b349c7d91d7b5a3253c109a1cc1",
+    "revision_date": "2026-05-21",
+    "version": "153.0"
   },
   "flags": [
     "--enable-iterator-helpers",
@@ -18,6 +18,7 @@
     "--enable-top-level-await",
     "--enable-iterator-sequencing",
     "--enable-error-iserror",
+    "--enable-error-stack-trace-limit",
     "--enable-iterator-range",
     "--enable-joint-iteration",
     "--enable-atomics-pause",
@@ -29,14 +30,18 @@
     "--enable-arraybuffer-immutable",
     "--enable-iterator-chunking",
     "--enable-iterator-join",
+    "--enable-iterator-includes",
+    "--enable-intl-locale-info",
     "--enable-source-phase-imports",
     "--enable-source-phase-imports-test262-module-source",
-    {"if": "flags:module", "then": "--module"}
+    "--enable-wasm-esm-integration",
+    {"if": "flags:module", "then": "--module"},
+    {"if": "bench", "then": "--strict-benchmark-mode"}
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 1078, "failed": 16, "pass_percent": 98.537, "weight": 469.0, "weighted_pass_percent": 95.974},

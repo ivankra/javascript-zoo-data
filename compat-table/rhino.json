@@ -2,30 +2,30 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "rhino",
-    "dist_size": 2802732,
+    "dist_size": 2819376,
     "engine": "rhino",
-    "jdk": "openjdk version \"25.0.2\" 2026-01-20",
+    "jdk": "openjdk version \"25.0.3\" 2026-04-21",
     "repository": "https://github.com/mozilla/rhino.git",
-    "revision": "ade3da64abe5c7f4bb88d5ea8f4a61825fc3b2c0",
-    "revision_date": "2026-04-22",
+    "revision": "ec8c04debbf0f0a504227cb2f7b1e042b39681cf",
+    "revision_date": "2026-05-21",
     "version": "2.0.0-SNAPSHOT"
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
-    "all": {"passed": 720, "failed": 374, "pass_percent": 65.814, "weight": 469.0, "weighted_pass_percent": 62.752},
-    "es6": {"passed": 508, "failed": 192, "pass_percent": 72.571, "weight": 211.0, "weighted_pass_percent": 73.189},
+    "all": {"passed": 721, "failed": 373, "pass_percent": 65.905, "weight": 469.0, "weighted_pass_percent": 62.79},
+    "es6": {"passed": 509, "failed": 191, "pass_percent": 72.714, "weight": 211.0, "weighted_pass_percent": 73.271},
     "es2016+": {"passed": 139, "failed": 111, "pass_percent": 55.6, "weight": 151.0, "weighted_pass_percent": 58.774},
     "esnext": {"passed": 2, "failed": 41, "pass_percent": 4.651, "weight": 33.0, "weighted_pass_percent": 6.061},
     "intl": {"passed": 7, "failed": 21, "pass_percent": 25.0, "weight": 28.0, "weighted_pass_percent": 25.0}
   },
   "dirs": {
-    "compat-table": {"passed": 720, "failed": 374, "pass_percent": 65.814, "weight": 469.0, "weighted_pass_percent": 62.752},
+    "compat-table": {"passed": 721, "failed": 373, "pass_percent": 65.905, "weight": 469.0, "weighted_pass_percent": 62.79},
     "compat-table/es5": {"passed": 64, "failed": 9, "pass_percent": 87.671, "weight": 46.0, "weighted_pass_percent": 91.59},
-    "compat-table/es6": {"passed": 508, "failed": 192, "pass_percent": 72.571, "weight": 211.0, "weighted_pass_percent": 73.189},
+    "compat-table/es6": {"passed": 509, "failed": 191, "pass_percent": 72.714, "weight": 211.0, "weighted_pass_percent": 73.271},
     "compat-table/es2016": {"passed": 14, "pass_percent": 100.0, "weight": 11.0, "weighted_pass_percent": 100.0},
     "compat-table/es2017": {"passed": 21, "failed": 43, "pass_percent": 32.812, "weight": 25.0, "weighted_pass_percent": 46.5},
     "compat-table/es2018": {"passed": 12, "failed": 10, "pass_percent": 54.545, "weight": 19.0, "weighted_pass_percent": 70.526},
@@ -755,7 +755,7 @@
     "compat-table/es6/typed-arrays.Uint8ClampedArray.js": "PASS",
     "compat-table/es6/typed-arrays.Uint16Array.js": "PASS",
     "compat-table/es6/typed-arrays.Uint32Array.js": "PASS",
-    "compat-table/es6/typed-arrays.constructor-iterables.js": "FAIL: invalid argument",
+    "compat-table/es6/typed-arrays.constructor-iterables.js": "PASS",
     "compat-table/es6/typed-arrays.constructor-requires-new.js": "PASS",
     "compat-table/es6/typed-arrays.correct-prototype-chains.js": "PASS",
     "compat-table/es6/typed-arrays.from.js": "PASS",

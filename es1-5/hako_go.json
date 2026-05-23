@@ -2,18 +2,18 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "hako_go",
-    "binary_sha256": "b0bb09bfe8cf3e676f3bec1610b4a3aabc14e5dd7381c8597308d5963e0d376a",
-    "binary_size": 10623227,
+    "binary_sha256": "f900fe0f066a4169c3453ea7bd1a2e497051cb873a4ec9ea0ba0146aba837652",
+    "binary_size": 10627075,
     "engine": "hako",
-    "go": "1.26.2",
+    "go": "1.26.3",
     "repository": "https://github.com/6over3/hako.git",
     "revision": "6255dec9e627aeb01cab73d2df932d6b8e0b2cb6",
     "revision_date": "2025-12-13"
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 420, "pass_percent": 100.0},

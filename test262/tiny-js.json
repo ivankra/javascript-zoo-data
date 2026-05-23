@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "tiny-js",
-    "binary_sha256": "65db9035606fc1728709d084947c58b17c3bb6022875ad41f39ab4eaf3fa8d4e",
+    "binary_sha256": "80a47b2eddb9668c76fa1071a6cbec22d2ce1a55a1961caabb57c9426aca6692",
     "binary_size": 158576,
-    "cc": "gcc 15.2.0 (Debian 15.2.0-16)",
+    "cc": "gcc 15.2.0 (Debian 15.2.0-17)",
     "engine": "tiny-js",
     "repository": "https://github.com/gfwilliams/tiny-js.git",
     "revision": "821447737f3d2f79139cef97be16f4513dd75099",
@@ -17,8 +17,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 4633, "failed": 48534, "pass_percent": 8.714},
@@ -337,34 +337,34 @@
     "strict": "SyntaxError: Got '(' expected EOF"
   },
   "rusage": {
-    "started_at": "2026-04-24 14:27:45 UTC",
-    "duration_sec": 85.014,
-    "total_user_sec": 76.497,
-    "total_sys_sec": 98.016,
-    "peak_rss_mb": 38.4,
+    "started_at": "2026-05-22 18:09:41 UTC",
+    "duration_sec": 81.956,
+    "total_user_sec": 77.584,
+    "total_sys_sec": 100.635,
+    "peak_rss_mb": 38.5,
     "run_duration_sec": {
-      "test/language/expressions/async-function/named-dflt-params-abrupt.strict.js": 0.059,
-      "test/built-ins/Array/prototype/reduce/15.4.4.21-9-c-i-2.sloppy.js": 0.019,
-      "test/built-ins/AggregateError/is-a-constructor.sloppy.js": 0.018,
-      "test/language/expressions/class/dstr/meth-static-obj-ptrn-rest-val-obj.sloppy.js": 0.018,
-      "test/built-ins/Array/prototype/reduce/15.4.4.21-3-21.strict.js": 0.015,
-      "test/language/function-code/10.4.3-1-19gs.js": 0.013,
-      "test/built-ins/Atomics/wait/negative-timeout.strict.js": 0.012,
+      "test/language/expressions/dynamic-import/syntax/invalid/nested-else-braceless-typeof-import-call-source-property.strict.js": 0.028,
+      "test/staging/sm/class/innerBinding.strict.js": 0.025,
+      "test/built-ins/TypedArray/prototype/join/this-is-not-object.strict.js": 0.014,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-2.strict.js": 0.013,
+      "test/language/statements/class/async-gen-method-static/forbidden-ext/b2/cls-decl-async-gen-meth-static-forbidden-ext-indirect-access-own-prop-caller-get.js": 0.012,
+      "test/staging/sm/String/string-upper-lower-mapping.sloppy.js": 0.012,
       "test/staging/sm/String/string-upper-lower-mapping.strict.js": 0.011,
-      "test/built-ins/Iterator/prototype/filter/predicate-filters.sloppy.js": 0.011,
-      "test/built-ins/TypedArrayConstructors/from/new-instance-without-mapfn.sloppy.js": 0.011
+      "test/language/identifiers/val-void-via-escape-hex4.sloppy.js": 0.011,
+      "test/intl402/Temporal/ZonedDateTime/prototype/subtract/basic-buddhist.strict.js": 0.01,
+      "test/built-ins/TypedArrayConstructors/of/new-instance-empty.strict.js": 0.01
     },
     "run_rss_mb": {
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.sloppy.js": 38.4,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.strict.js": 38.4,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.sloppy.js": 38.4,
-      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.strict.js": 38.4,
-      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.sloppy.js": 38.4,
-      "test/annexB/built-ins/RegExp/named-groups/non-unicode-malformed-lookbehind.strict.js": 38.4,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-same.sloppy.js": 38.4,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-same.strict.js": 38.4,
-      "test/annexB/built-ins/RegExp/prototype/compile/this-obj-not-regexp.sloppy.js": 38.4,
-      "test/annexB/built-ins/RegExp/prototype/compile/this-obj-not-regexp.strict.js": 38.4
+      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 38.5,
+      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 38.5,
+      "test/annexB/built-ins/Date/prototype/setYear/length.sloppy.js": 38.5,
+      "test/annexB/built-ins/Date/prototype/setYear/length.strict.js": 38.5,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 38.5,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 38.5,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 38.5,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 38.5,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 38.5,
+      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.strict.js": 38.5
     }
   },
   "tests": {

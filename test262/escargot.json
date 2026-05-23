@@ -2,13 +2,13 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "escargot",
-    "binary_sha256": "7258d6f1df6bae452c07b83db069e7ae2f877b6d437f8245cb28db4682346e8c",
-    "binary_size": 5374816,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "a9137c4d62ee825bc3563aff0673a16e4f40e9352c161810c90ce26f860ff598",
+    "binary_size": 5366568,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "escargot",
     "repository": "https://github.com/Samsung/escargot.git",
-    "revision": "633fe63795cd470e1bf2893cd5ce6f98ff3ce70b",
-    "revision_date": "2026-04-16"
+    "revision": "36f5fb58366a67b713c02f6fd985e924fcc09e31",
+    "revision_date": "2026-05-21"
   },
   "flags": [
     {"if": "flags:CanBlockIsFalse", "then": "--canblock-is-false"},
@@ -21,8 +21,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 44635, "failed": 8532, "pass_percent": 83.952},
@@ -341,34 +341,34 @@
     "strict": "PASS"
   },
   "rusage": {
-    "started_at": "2026-04-24 09:58:31 UTC",
-    "duration_sec": 480.963,
-    "total_user_sec": 855.813,
-    "total_sys_sec": 351.859,
-    "peak_rss_mb": 1032.6,
+    "started_at": "2026-05-22 16:57:19 UTC",
+    "duration_sec": 474.428,
+    "total_user_sec": 837.665,
+    "total_sys_sec": 361.991,
+    "peak_rss_mb": 1032.4,
     "run_duration_sec": {
-      "test/staging/sm/extensions/recursion.js": 60.063,
-      "test/staging/sm/class/superPropProxies.strict.js": 51.785,
-      "test/staging/sm/class/superPropProxies.sloppy.js": 50.181,
-      "test/language/statements/try/tco-catch.js": 43.911,
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 14.047,
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 13.773,
-      "test/staging/sm/BigInt/large-bit-length.sloppy.js": 9.013,
-      "test/staging/sm/BigInt/large-bit-length.strict.js": 7.874,
-      "test/staging/sm/Date/two-digit-years.strict.js": 6.963,
-      "test/staging/sm/Date/two-digit-years.sloppy.js": 6.94
+      "test/staging/sm/extensions/recursion.js": 60.064,
+      "test/staging/sm/class/superPropProxies.sloppy.js": 55.609,
+      "test/staging/sm/class/superPropProxies.strict.js": 49.807,
+      "test/language/statements/try/tco-catch.js": 49.084,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 14.77,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 14.674,
+      "test/staging/sm/BigInt/large-bit-length.sloppy.js": 9.915,
+      "test/staging/sm/BigInt/large-bit-length.strict.js": 8.194,
+      "test/staging/sm/Date/two-digit-years.sloppy.js": 5.779,
+      "test/staging/sm/Date/two-digit-years.strict.js": 5.461
     },
     "run_rss_mb": {
-      "test/staging/sm/BigInt/large-bit-length.strict.js": 1032.6,
-      "test/staging/sm/BigInt/large-bit-length.sloppy.js": 1032.6,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.sloppy.js": 1032.5,
-      "test/annexB/built-ins/Date/prototype/getYear/B.2.4.strict.js": 1032.5,
-      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 1032.5,
-      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 1032.5,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 1032.5,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 1032.5,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 1032.5,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 1032.5
+      "test/staging/sm/BigInt/large-bit-length.sloppy.js": 1032.4,
+      "test/staging/sm/BigInt/large-bit-length.strict.js": 1032.4,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 1032.4,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 1032.4,
+      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 1032.4,
+      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 1032.4,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 1032.4,
+      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 1032.4,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 1032.4,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 1032.4
     }
   },
   "tests": {
@@ -41082,7 +41082,7 @@
     "test/language/identifier-resolution/S10.2.2_A1_T9.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T1.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T2.js": "PASS",
-    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): PASS",
+    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): FAIL",
     "test/language/identifier-resolution/static-init-invalid-await.js": "PASS",
     "test/language/identifier-resolution/unscopables.js": "PASS",
     "test/language/import/dup-bound-names.js": "PASS",
@@ -51398,7 +51398,7 @@
     "test/language/statements/try/static-init-await-binding-invalid.js": "PASS",
     "test/language/statements/try/static-init-await-binding-valid.js": "PASS",
     "test/language/statements/try/tco-catch-finally.js": "RangeError: Maximum call stack size exceeded",
-    "test/language/statements/try/tco-catch.js": "CRASH: SIGSEGV",
+    "test/language/statements/try/tco-catch.js": "CRASH: SIGABRT",
     "test/language/statements/try/tco-finally.js": "RangeError: Maximum call stack size exceeded",
     "test/language/statements/using/Symbol.dispose-getter.js": "PASS",
     "test/language/statements/using/Symbol.dispose-method-called-with-correct-this.js": "PASS",

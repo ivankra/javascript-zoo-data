@@ -2,10 +2,10 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "graaljs",
-    "dist_size": 188076777,
+    "dist_size": 185499968,
     "engine": "graaljs",
-    "revision": "029293cb5e2ebc563837bbf8740a1e77f34a4e88",
-    "revision_date": "2026-04-22",
+    "revision": "e440a712bb04c2d9775ba15278b90670fb1e1fed",
+    "revision_date": "2026-05-22",
     "version": "25.1.0"
   },
   "flags": [
@@ -24,8 +24,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 45476, "failed": 7691, "pass_percent": 85.534},
@@ -344,34 +344,34 @@
     "strict": "PASS"
   },
   "rusage": {
-    "started_at": "2026-04-24 08:56:21 UTC",
-    "duration_sec": 1168.089,
-    "total_user_sec": 2633.532,
-    "total_sys_sec": 1736.076,
-    "peak_rss_mb": 2385.6,
+    "started_at": "2026-05-22 15:09:20 UTC",
+    "duration_sec": 1028.502,
+    "total_user_sec": 2428.265,
+    "total_sys_sec": 1416.45,
+    "peak_rss_mb": 3734.2,
     "run_duration_sec": {
-      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.strict.js": 60.076,
-      "test/staging/sm/Array/length-truncate-nonconfigurable-sparse.js": 60.07,
+      "test/built-ins/Object/defineProperty/15.2.3.6-4-116.strict.js": 60.072,
       "test/built-ins/Object/defineProperty/15.2.3.6-4-116.sloppy.js": 60.068,
-      "test/staging/sm/regress/regress-610026.strict.js": 20.492,
-      "test/staging/sm/regress/regress-610026.sloppy.js": 20.491,
-      "test/language/statements/block/tco-stmt.js": 5.658,
-      "test/staging/sm/extensions/recursion.js": 5.381,
-      "test/language/literals/regexp/S7.8.5_A2.4_T2.strict.js": 5.29,
-      "test/language/literals/regexp/S7.8.5_A2.1_T2.strict.js": 5.204,
-      "test/language/literals/regexp/S7.8.5_A2.1_T2.sloppy.js": 5.083
+      "test/staging/sm/Array/length-truncate-nonconfigurable-sparse.js": 60.067,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 23.983,
+      "test/staging/sm/regress/regress-610026.strict.js": 23.501,
+      "test/staging/sm/extensions/recursion.js": 6.057,
+      "test/language/expressions/call/tco-non-eval-with.js": 4.722,
+      "test/language/expressions/call/tco-non-eval-function.js": 4.564,
+      "test/language/statements/try/tco-catch.js": 4.54,
+      "test/language/expressions/coalesce/tco-pos-undefined.js": 4.5
     },
     "run_rss_mb": {
-      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 2385.6,
-      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 2385.6,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 2385.6,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 2385.6,
-      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class-range.sloppy.js": 2385.6,
-      "test/annexB/built-ins/RegExp/RegExp-invalid-control-escape-character-class-range.strict.js": 2385.6,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 2385.6,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.strict.js": 2385.6,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 2385.6,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.strict.js": 2385.6
+      "test/staging/sm/regress/regress-610026.strict.js": 3734.2,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 3734.1,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 1600.5,
+      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 1600.5,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 1600.5,
+      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 1600.5,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 1600.5,
+      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 1600.5,
+      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-cross-realm-constructor.sloppy.js": 1600.5,
+      "test/annexB/built-ins/RegExp/legacy-accessors/rightContext/this-cross-realm-constructor.strict.js": 1600.5
     }
   },
   "tests": {

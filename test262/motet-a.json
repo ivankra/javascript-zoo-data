@@ -16,8 +16,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 4633, "failed": 48534, "pass_percent": 8.714},
@@ -336,34 +336,34 @@
     "strict": "SyntaxError"
   },
   "rusage": {
-    "started_at": "2026-04-24 14:02:46 UTC",
-    "duration_sec": 514.961,
-    "total_user_sec": 1780.794,
-    "total_sys_sec": 98.119,
-    "peak_rss_mb": 39.0,
+    "started_at": "2026-05-22 18:10:25 UTC",
+    "duration_sec": 507.57,
+    "total_user_sec": 1788.691,
+    "total_sys_sec": 88.216,
+    "peak_rss_mb": 39.6,
     "run_duration_sec": {
-      "test/annexB/language/eval-code/indirect/global-if-decl-no-else-eval-global-existing-var-no-init.js": 0.275,
-      "test/language/statements/for/dstr/var-ary-ptrn-rest-id-iter-close.sloppy.js": 0.197,
-      "test/language/statements/for-await-of/async-func-dstr-const-obj-ptrn-prop-obj-init.sloppy.js": 0.139,
-      "test/language/expressions/template-literal/unicode-escape-nls-err.strict.js": 0.101,
-      "test/built-ins/Array/prototype/filter/15.4.4.20-9-c-ii-11.strict.js": 0.074,
-      "test/language/statements/class/dstr/gen-meth-obj-ptrn-id-init-unresolvable.sloppy.js": 0.06,
-      "test/built-ins/DataView/prototype/getUint32/return-value-clean-arraybuffer.sloppy.js": 0.059,
-      "test/language/statements/for-await-of/async-gen-decl-dstr-array-elem-iter-rtrn-close-null.strict.js": 0.056,
-      "test/intl402/Temporal/PlainYearMonth/prototype/with/basic-islamic-tbla.strict.js": 0.056,
-      "test/language/statements/class/dstr/async-gen-meth-static-dflt-obj-ptrn-prop-id-trailing-comma.sloppy.js": 0.051
+      "test/language/expressions/assignmenttargettype/parenthesized-equalityexpression-abstract-not-equal-relationalexpression-1.sloppy.js": 0.115,
+      "test/language/expressions/arrow-function/dstr/ary-ptrn-rest-ary-rest.sloppy.js": 0.095,
+      "test/language/literals/numeric/numeric-separators/numeric-separator-literal-lol-0_1-err.sloppy.js": 0.079,
+      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-3-20.sloppy.js": 0.077,
+      "test/built-ins/TypedArrayConstructors/Float64Array/prototype/proto.sloppy.js": 0.063,
+      "test/built-ins/Temporal/PlainYearMonth/prototype/since/roundingincrement-nan.sloppy.js": 0.062,
+      "test/language/expressions/assignmenttargettype/parenthesized-equalityexpression-abstract-not-equal-relationalexpression-1.strict.js": 0.057,
+      "test/language/expressions/assignment/dstr/obj-prop-identifier-resolution-lone.sloppy.js": 0.057,
+      "test/language/statementList/block-with-statment-array-literal-with-item.sloppy.js": 0.049,
+      "test/built-ins/TypedArray/prototype/fill/BigInt/fill-values-symbol-throws.strict.js": 0.049
     },
     "run_rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/length.sloppy.js": 39.0,
-      "test/annexB/built-ins/Date/prototype/getYear/length.strict.js": 39.0,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 39.0,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 39.0,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.sloppy.js": 39.0,
-      "test/annexB/built-ins/Date/prototype/toGMTString/prop-desc.strict.js": 39.0,
-      "test/annexB/built-ins/RegExp/RegExp-trailing-escape.sloppy.js": 39.0,
-      "test/annexB/built-ins/RegExp/RegExp-trailing-escape.strict.js": 39.0,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.sloppy.js": 39.0,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.strict.js": 39.0
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.sloppy.js": 39.6,
+      "test/annexB/built-ins/Array/from/iterator-method-emulates-undefined.strict.js": 39.6,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 39.6,
+      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 39.6,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/prop-desc.sloppy.js": 39.6,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastMatch/prop-desc.strict.js": 39.6,
+      "test/annexB/built-ins/RegExp/prototype/Symbol.split/Symbol.match-getter-recompiles-source.sloppy.js": 39.6,
+      "test/annexB/built-ins/RegExp/prototype/Symbol.split/Symbol.match-getter-recompiles-source.strict.js": 39.6,
+      "test/annexB/built-ins/RegExp/prototype/compile/flags-string-invalid.sloppy.js": 39.6,
+      "test/annexB/built-ins/RegExp/prototype/compile/flags-string-invalid.strict.js": 39.6
     }
   },
   "tests": {

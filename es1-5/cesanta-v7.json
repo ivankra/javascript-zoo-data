@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "cesanta-v7",
-    "binary_sha256": "c89668fa403dee131b49b269d0b810a2cdd742371d43d75bb4a6cd26fff3cc30",
-    "binary_size": 428848,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "382f25b66324065cc2a4cb5b1914ee8f368da4eb74b2139e6d5ce843ddb66c62",
+    "binary_size": 428792,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "cesanta-v7",
     "repository": "https://github.com/cesanta/v7.git",
     "revision": "ce5212ae42dfd93247c56fbc233f65367e9def27",
@@ -13,8 +13,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 293, "failed": 127, "pass_percent": 69.762},

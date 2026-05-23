@@ -2,14 +2,14 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "qv4_jitless",
-    "binary_sha256": "250af5f800738f03075b2d070f32bd9cfa05b2887493b14999267ebbcdd48ea6",
-    "binary_size": 13731408,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "6d3edade95ae8582625d7ac5b838d9defbe4738be3bc5b3e12bfeb2b599a17ca",
+    "binary_size": 13727256,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "qv4",
     "jit": "",
     "repository": "https://github.com/qt/qt5.git",
-    "revision": "3687dbd3e25cf9293717c3fc0555414e2813ab17",
-    "revision_date": "2026-04-22"
+    "revision": "8dc4442f30fb2868857bf7f5a8e9d50717864c73",
+    "revision_date": "2026-05-16"
   },
   "flags": [
     {"if": "flags:module", "then": "--module"}
@@ -21,8 +21,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 26483, "failed": 26684, "pass_percent": 49.811},
@@ -341,34 +341,34 @@
     "strict": "PASS"
   },
   "rusage": {
-    "started_at": "2026-04-24 13:51:46 UTC",
-    "duration_sec": 364.756,
-    "total_user_sec": 787.602,
-    "total_sys_sec": 341.7,
-    "peak_rss_mb": 4108.9,
+    "started_at": "2026-05-22 19:10:56 UTC",
+    "duration_sec": 416.601,
+    "total_user_sec": 770.75,
+    "total_sys_sec": 552.842,
+    "peak_rss_mb": 4132.3,
     "run_duration_sec": {
-      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.063,
+      "test/staging/sm/regress/regress-1507322-deep-weakmap.strict.js": 60.065,
       "test/staging/sm/regress/regress-1507322-deep-weakmap.sloppy.js": 60.063,
-      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.sloppy.js": 58.584,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 57.274,
-      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.strict.js": 56.532,
-      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.strict.js": 54.524,
-      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.sloppy.js": 52.576,
-      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 36.59,
-      "test/staging/sm/regress/regress-610026.sloppy.js": 25.52,
-      "test/staging/sm/regress/regress-610026.strict.js": 23.788
+      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.sloppy.js": 60.063,
+      "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.strict.js": 57.768,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.strict.js": 54.346,
+      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.sloppy.js": 54.304,
+      "test/built-ins/Array/prototype/reduceRight/length-near-integer-limit.sloppy.js": 47.961,
+      "test/built-ins/Array/prototype/concat/arg-length-exceeding-integer-limit.strict.js": 34.613,
+      "test/staging/sm/regress/regress-610026.sloppy.js": 27.284,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 25.698
     },
     "run_rss_mb": {
-      "test/staging/sm/String/replace-math.sloppy.js": 4108.9,
-      "test/annexB/built-ins/Date/prototype/getYear/name.sloppy.js": 4108.7,
-      "test/annexB/built-ins/Date/prototype/getYear/name.strict.js": 4108.7,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 4108.7,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.strict.js": 4108.7,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 4108.7,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 4108.7,
-      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.sloppy.js": 4108.7,
-      "test/annexB/built-ins/Function/createdynfn-no-line-terminator-html-close-comment-params.strict.js": 4108.7,
-      "test/annexB/built-ins/Object/is/emulates-undefined.sloppy.js": 4108.7
+      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 4132.3,
+      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 4132.3,
+      "test/annexB/built-ins/RegExp/RegExp-trailing-escape.sloppy.js": 4132.3,
+      "test/annexB/built-ins/RegExp/RegExp-trailing-escape.strict.js": 4132.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.sloppy.js": 4132.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.strict.js": 4132.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.sloppy.js": 4132.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/lastParen/this-not-regexp-constructor.strict.js": 4132.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-subclass-constructor.sloppy.js": 4132.3,
+      "test/annexB/built-ins/RegExp/legacy-accessors/leftContext/this-subclass-constructor.strict.js": 4132.3
     }
   },
   "tests": {
@@ -3165,7 +3165,7 @@
     "test/built-ins/Array/prototype/lastIndexOf/coerced-position-grow.js": "ReferenceError: BigInt64Array is not defined",
     "test/built-ins/Array/prototype/lastIndexOf/coerced-position-shrink.js": "ReferenceError: BigInt64Array is not defined",
     "test/built-ins/Array/prototype/lastIndexOf/fromindex-zero-conversion.js": "PASS",
-    "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.js": "Test262Error: Expected SameValue(«-1», «9007199254740988») to be true",
+    "test/built-ins/Array/prototype/lastIndexOf/length-near-integer-limit.js": {"sloppy": "TIMEOUT: >60s", "strict": "Test262Error: Expected SameValue(«-1», «9007199254740988») to be true"},
     "test/built-ins/Array/prototype/lastIndexOf/length-zero-returns-minus-one.js": "PASS",
     "test/built-ins/Array/prototype/lastIndexOf/length.js": "PASS",
     "test/built-ins/Array/prototype/lastIndexOf/name.js": "PASS",
@@ -29372,7 +29372,7 @@
     "test/language/eval-code/direct/var-env-func-strict-caller.js": "PASS",
     "test/language/eval-code/direct/var-env-func-strict-source.js": "PASS",
     "test/language/eval-code/direct/var-env-gloabl-lex-strict-caller.js": "PASS",
-    "test/language/eval-code/direct/var-env-global-lex-non-strict.js": "NOT(SyntaxError): PASS",
+    "test/language/eval-code/direct/var-env-global-lex-non-strict.js": "NOT(SyntaxError): FAIL",
     "test/language/eval-code/direct/var-env-global-lex-strict-source.js": "PASS",
     "test/language/eval-code/direct/var-env-lower-lex-non-strict.js": "Test262Error: Expected a SyntaxError to be thrown but no exception was thrown at all",
     "test/language/eval-code/direct/var-env-lower-lex-strict-caller.js": "PASS",
@@ -40769,7 +40769,7 @@
     "test/language/global-code/decl-func.js": "PASS",
     "test/language/global-code/decl-lex-configurable-global.js": "PASS",
     "test/language/global-code/decl-lex-deletion.js": "PASS",
-    "test/language/global-code/decl-lex-restricted-global.js": "NOT(SyntaxError): PASS",
+    "test/language/global-code/decl-lex-restricted-global.js": "NOT(SyntaxError): FAIL: decl-lex-restricted-global.js:19:19 Variable \"undefined\" is used before its declaration at 225:5.; decl-lex-restricted-global.js:45:19 Variable \"undefined\" is used before its declaration at 225:5.; de...",
     "test/language/global-code/decl-lex.js": "PASS",
     "test/language/global-code/decl-var.js": "PASS",
     "test/language/global-code/export.js": "PASS",
@@ -41082,7 +41082,7 @@
     "test/language/identifier-resolution/S10.2.2_A1_T9.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T1.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T2.js": "PASS",
-    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): PASS",
+    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): FAIL",
     "test/language/identifier-resolution/static-init-invalid-await.js": "PASS",
     "test/language/identifier-resolution/unscopables.js": "PASS",
     "test/language/import/dup-bound-names.js": "NOT(SyntaxError): FAIL: Could not load module file",

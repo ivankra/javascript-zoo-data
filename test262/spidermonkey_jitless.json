@@ -2,18 +2,19 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "spidermonkey_jitless",
-    "binary_sha256": "574c0f1ec774e837353f2b8c1a1ee841148d4773cc43df093a683f6aa5135757",
-    "binary_size": 14994784,
-    "cc": "clang 23.0.0 (++20260318082838+fce100e26e7e-1~exp1~20260318203030.446)",
+    "binary_sha256": "49045ac0bbf648db19110d356bc9be97a4f726c0c3346db302d0c3f665282b8b",
+    "binary_size": 15069392,
+    "cc": "clang 23.0.0 (++20260517082933+46c1fa8d1759-1~exp1~20260517203058.557)",
     "engine": "spidermonkey",
     "jit": "",
     "repository": "https://github.com/mozilla-firefox/firefox.git",
-    "revision": "986b2e474acca54ab469aca8d549b71cdcea33a5",
-    "revision_date": "2026-04-22",
-    "version": "152.0"
+    "revision": "1f7030c8de8f2b349c7d91d7b5a3253c109a1cc1",
+    "revision_date": "2026-05-21",
+    "version": "153.0"
   },
   "flags": [
-    {"if": "flags:module", "then": "--module"}
+    {"if": "flags:module", "then": "--module"},
+    {"if": "bench", "then": "--strict-benchmark-mode"}
   ],
   "test262": {
     "repository": "https://github.com/tc39/test262",
@@ -22,8 +23,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 44169, "failed": 8998, "pass_percent": 83.076},
@@ -342,34 +343,34 @@
     "strict": "PASS"
   },
   "rusage": {
-    "started_at": "2026-04-24 13:43:57 UTC",
-    "duration_sec": 607.964,
-    "total_user_sec": 1485.346,
-    "total_sys_sec": 711.871,
-    "peak_rss_mb": 460.2,
+    "started_at": "2026-05-22 21:18:10 UTC",
+    "duration_sec": 620.778,
+    "total_user_sec": 1432.968,
+    "total_sys_sec": 793.781,
+    "peak_rss_mb": 459.7,
     "run_duration_sec": {
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.sloppy.js": 17.359,
-      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 17.327,
-      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 17.269,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.strict.js": 17.254,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 17.252,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 17.248,
-      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 17.243,
-      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 17.097,
-      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 17.088,
-      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 16.974
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.strict.js": 16.892,
+      "test/staging/sm/Date/dst-offset-caching-8-of-8.sloppy.js": 16.76,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.sloppy.js": 16.663,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.sloppy.js": 16.52,
+      "test/staging/sm/Date/dst-offset-caching-5-of-8.strict.js": 16.475,
+      "test/staging/sm/Date/dst-offset-caching-7-of-8.strict.js": 16.409,
+      "test/staging/sm/Date/dst-offset-caching-2-of-8.sloppy.js": 16.402,
+      "test/staging/sm/Date/dst-offset-caching-6-of-8.sloppy.js": 16.211,
+      "test/staging/sm/Date/dst-offset-caching-3-of-8.strict.js": 16.079,
+      "test/staging/sm/Date/dst-offset-caching-4-of-8.sloppy.js": 16.076
     },
     "run_rss_mb": {
-      "test/staging/sm/regress/regress-610026.strict.js": 460.2,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 460.2,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 460.2,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.sloppy.js": 460.2,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-valid.strict.js": 460.2,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 460.2,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 460.2,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.sloppy.js": 460.2,
-      "test/annexB/built-ins/Date/prototype/setYear/year-to-number-err.strict.js": 460.2,
-      "test/annexB/built-ins/Date/prototype/toGMTString/value.sloppy.js": 460.2
+      "test/staging/sm/regress/regress-610026.strict.js": 459.7,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.sloppy.js": 459.7,
+      "test/annexB/built-ins/Function/createdynfn-html-close-comment-params.strict.js": 459.7,
+      "test/annexB/built-ins/String/prototype/strike/this-val-tostring-err.sloppy.js": 459.7,
+      "test/annexB/built-ins/String/prototype/strike/this-val-tostring-err.strict.js": 459.7,
+      "test/annexB/built-ins/unescape/four-ignore-bad-u.sloppy.js": 459.7,
+      "test/annexB/built-ins/unescape/four-ignore-bad-u.strict.js": 459.7,
+      "test/annexB/language/comments/single-line-html-close-first-line-1.js": 459.7,
+      "test/annexB/language/eval-code/direct/func-if-decl-else-decl-b-eval-func-skip-early-err.js": 459.7,
+      "test/annexB/language/eval-code/direct/func-if-stmt-else-decl-eval-func-skip-early-err-switch.js": 459.7
     }
   },
   "tests": {
@@ -41083,7 +41084,7 @@
     "test/language/identifier-resolution/S10.2.2_A1_T9.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T1.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T2.js": "PASS",
-    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): PASS",
+    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): FAIL",
     "test/language/identifier-resolution/static-init-invalid-await.js": "PASS",
     "test/language/identifier-resolution/unscopables.js": "PASS",
     "test/language/import/dup-bound-names.js": "PASS",

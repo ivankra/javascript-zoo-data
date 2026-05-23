@@ -2,13 +2,13 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "ucode",
-    "cc": "gcc 15.2.0 (Debian 15.2.0-16)",
+    "cc": "gcc 15.2.0 (Debian 15.2.0-17)",
     "dist_size": 451640,
     "engine": "ucode",
     "repository": "https://github.com/jow-/ucode.git",
-    "revision": "388ef3f35e0a2bb62a626ed86ed727af12bfff02",
-    "revision_date": "2026-04-21",
-    "version": "0.0.20250529-156-g388ef3f"
+    "revision": "0beaa9dc244f16c52c0a7dc3f180cca0539124cd",
+    "revision_date": "2026-04-24",
+    "version": "0.0.20250529-158-g0beaa9d"
   },
   "test262": {
     "repository": "https://github.com/tc39/test262",
@@ -17,8 +17,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 4623, "failed": 48544, "pass_percent": 8.695},
@@ -337,34 +337,34 @@
     "strict": "EXIT: 254"
   },
   "rusage": {
-    "started_at": "2026-04-24 14:16:26 UTC",
-    "duration_sec": 268.968,
-    "total_user_sec": 349.975,
-    "total_sys_sec": 406.247,
-    "peak_rss_mb": 40.7,
+    "started_at": "2026-05-22 19:56:49 UTC",
+    "duration_sec": 274.433,
+    "total_user_sec": 376.558,
+    "total_sys_sec": 379.959,
+    "peak_rss_mb": 41.1,
     "run_duration_sec": {
-      "test/language/identifiers/start-unicode-10.0.0-escaped.sloppy.js": 1.419,
-      "test/language/identifiers/start-unicode-10.0.0-class-escaped.sloppy.js": 1.415,
-      "test/language/identifiers/start-unicode-10.0.0-class-escaped.strict.js": 1.41,
-      "test/language/identifiers/start-unicode-10.0.0-escaped.strict.js": 1.404,
-      "test/language/identifiers/start-unicode-10.0.0.sloppy.js": 1.362,
-      "test/language/identifiers/start-unicode-10.0.0.strict.js": 1.351,
-      "test/language/identifiers/start-unicode-10.0.0-class.strict.js": 1.335,
-      "test/language/identifiers/start-unicode-10.0.0-class.sloppy.js": 1.331,
-      "test/language/identifiers/start-unicode-9.0.0-class-escaped.strict.js": 1.113,
-      "test/language/identifiers/start-unicode-9.0.0-class-escaped.sloppy.js": 1.106
+      "test/language/identifiers/start-unicode-10.0.0-escaped.strict.js": 1.511,
+      "test/language/identifiers/start-unicode-10.0.0-escaped.sloppy.js": 1.502,
+      "test/language/identifiers/start-unicode-10.0.0-class-escaped.strict.js": 1.493,
+      "test/language/identifiers/start-unicode-10.0.0-class.sloppy.js": 1.443,
+      "test/language/identifiers/start-unicode-10.0.0.strict.js": 1.436,
+      "test/language/identifiers/start-unicode-10.0.0.sloppy.js": 1.435,
+      "test/language/identifiers/start-unicode-10.0.0-class.strict.js": 1.432,
+      "test/language/identifiers/start-unicode-10.0.0-class-escaped.sloppy.js": 1.392,
+      "test/language/identifiers/start-unicode-9.0.0-escaped.sloppy.js": 1.14,
+      "test/language/identifiers/start-unicode-9.0.0-class-escaped.strict.js": 1.139
     },
     "run_rss_mb": {
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.sloppy.js": 40.7,
-      "test/annexB/built-ins/Date/prototype/getYear/return-value.strict.js": 40.7,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.sloppy.js": 40.7,
-      "test/annexB/built-ins/RegExp/RegExp-control-escape-russian-letter.strict.js": 40.7,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.sloppy.js": 40.7,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape-BMP.strict.js": 40.7,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.sloppy.js": 40.7,
-      "test/annexB/built-ins/RegExp/legacy-accessors/input/this-subclass-constructor.strict.js": 40.7,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-undefined.sloppy.js": 40.7,
-      "test/annexB/built-ins/RegExp/prototype/compile/pattern-undefined.strict.js": 40.7
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.sloppy.js": 41.1,
+      "test/annexB/built-ins/Date/prototype/setYear/this-time-nan.strict.js": 41.1,
+      "test/annexB/built-ins/RegExp/prototype/flags/order-after-compile.sloppy.js": 41.1,
+      "test/annexB/built-ins/RegExp/prototype/flags/order-after-compile.strict.js": 41.1,
+      "test/annexB/built-ins/String/prototype/bold/name.sloppy.js": 41.1,
+      "test/annexB/built-ins/String/prototype/bold/name.strict.js": 41.1,
+      "test/annexB/built-ins/String/prototype/fixed/B.2.3.6.sloppy.js": 41.1,
+      "test/annexB/built-ins/String/prototype/fixed/B.2.3.6.strict.js": 41.1,
+      "test/annexB/built-ins/String/prototype/fixed/not-a-constructor.sloppy.js": 41.1,
+      "test/annexB/built-ins/String/prototype/fixed/not-a-constructor.strict.js": 41.1
     }
   },
   "tests": {

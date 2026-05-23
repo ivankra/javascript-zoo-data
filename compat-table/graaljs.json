@@ -2,10 +2,10 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "graaljs",
-    "dist_size": 188076777,
+    "dist_size": 185499968,
     "engine": "graaljs",
-    "revision": "029293cb5e2ebc563837bbf8740a1e77f34a4e88",
-    "revision_date": "2026-04-22",
+    "revision": "e440a712bb04c2d9775ba15278b90670fb1e1fed",
+    "revision_date": "2026-05-22",
     "version": "25.1.0"
   },
   "flags": [
@@ -19,8 +19,8 @@
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 1057, "failed": 37, "pass_percent": 96.618, "weight": 469.0, "weighted_pass_percent": 92.964},

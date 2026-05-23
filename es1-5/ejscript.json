@@ -2,8 +2,8 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "ejscript",
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
-    "dist_size": 1971144,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
+    "dist_size": 1962458,
     "engine": "ejscript",
     "repository": "https://github.com/embedthis/ejscript.git",
     "revision": "bb38d46e96ad20e923821d31d4a37e64de926d5a",
@@ -12,8 +12,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 244, "failed": 176, "pass_percent": 58.095},
@@ -29,11 +29,11 @@
     "es1/Array.length.assignment.js": "PASS",
     "es1/Array.length.js": "PASS",
     "es1/Array.prototype.constructor.js": "FAIL: Array.prototype.constructor failed",
-    "es1/Array.prototype.join.generic.js": "FAIL",
+    "es1/Array.prototype.join.generic.js": "CRASH: SIGSEGV",
     "es1/Array.prototype.join.js": "FAIL: join() without separator failed",
-    "es1/Array.prototype.reverse.generic.js": "CRASH: SIGSEGV",
+    "es1/Array.prototype.reverse.generic.js": "FAIL",
     "es1/Array.prototype.reverse.js": "PASS",
-    "es1/Array.prototype.sort.generic.js": "FAIL",
+    "es1/Array.prototype.sort.generic.js": "CRASH: SIGSEGV",
     "es1/Array.prototype.sort.js": "FAIL: sort with comparefn failed; reverse comparefn failed",
     "es1/Array.prototype.toString.js": "PASS",
     "es1/Boolean.js": "FAIL: new Boolean(true) failed; new Boolean() failed",

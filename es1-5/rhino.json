@@ -2,25 +2,25 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "rhino",
-    "dist_size": 2802732,
+    "dist_size": 2819376,
     "engine": "rhino",
-    "jdk": "openjdk version \"25.0.2\" 2026-01-20",
+    "jdk": "openjdk version \"25.0.3\" 2026-04-21",
     "repository": "https://github.com/mozilla/rhino.git",
-    "revision": "ade3da64abe5c7f4bb88d5ea8f4a61825fc3b2c0",
-    "revision_date": "2026-04-22",
+    "revision": "ec8c04debbf0f0a504227cb2f7b1e042b39681cf",
+    "revision_date": "2026-05-21",
     "version": "2.0.0-SNAPSHOT"
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
-    "all": {"passed": 410, "failed": 10, "pass_percent": 97.619},
-    "es1-5": {"passed": 410, "failed": 10, "pass_percent": 97.619}
+    "all": {"passed": 409, "failed": 11, "pass_percent": 97.381},
+    "es1-5": {"passed": 409, "failed": 11, "pass_percent": 97.381}
   },
   "dirs": {
-    "es1": {"passed": 198, "pass_percent": 100.0},
+    "es1": {"passed": 197, "failed": 1, "pass_percent": 99.495},
     "es3": {"passed": 148, "pass_percent": 100.0},
     "es5": {"passed": 64, "failed": 10, "pass_percent": 86.486}
   },
@@ -142,7 +142,7 @@
     "es1/annex-b.Date.prototype.getYear.js": "PASS",
     "es1/annex-b.Date.prototype.setYear.js": "PASS",
     "es1/annex-b.Date.prototype.toGMTString.js": "PASS",
-    "es1/annex-b.global.escape.js": "PASS",
+    "es1/annex-b.global.escape.js": "FAIL",
     "es1/annex-b.global.unescape.js": "PASS",
     "es1/annex-b.literals.octal.js": "PASS",
     "es1/annex-b.literals.string.octal.js": "PASS",

@@ -2,18 +2,18 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "hako_wasmtime_go",
-    "binary_sha256": "a1e124a99858ee6031c2d958dfb96f0c4a46edfc30501f14de3ecee79e94c486",
-    "binary_size": 28375792,
+    "binary_sha256": "94717eacc19b508cb7a902361e71f4bd9c39305ca7e0c6302d014523c761df15",
+    "binary_size": 28380296,
     "engine": "hako",
-    "go": "1.26.2"
+    "go": "1.26.3"
   },
   "flags": [
     {"if": "flags:module", "then": "--module"}
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 420, "pass_percent": 100.0},

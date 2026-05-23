@@ -2,13 +2,14 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "jsse",
-    "binary_sha256": "c5b0057512441c85466211312bef8c1d012f53757cb74ff3a4aa3221b6f3d7f3",
-    "binary_size": 22302568,
+    "binary_sha256": "f823ecacf7f20ae9c7757f5079c69aa210bdbadbc80656c4ef90524de639a24b",
+    "binary_size": 22219848,
     "engine": "jsse",
     "repository": "https://github.com/pmatos/jsse.git",
-    "revision": "78b95414de39af2b956d02a43d982f80c28f72a8",
-    "revision_date": "2026-04-21",
-    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
+    "revision": "52fa9405ff400e3db08bbc2913ada400f149a6a9",
+    "revision_date": "2026-05-21",
+    "rustc": "rustc 1.95.0 (59807616e 2026-04-14)",
+    "version": "perf-2026-05-07-36-g52fa940"
   },
   "flags": [
     {"if": "flags:CanBlockIsTrue", "then": "--can-block"},
@@ -16,8 +17,8 @@
   ],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 1058, "failed": 36, "pass_percent": 96.709, "weight": 469.0, "weighted_pass_percent": 94.825},
@@ -220,7 +221,7 @@
     "compat-table/es6/Proxy.handler.apply.invariants.js": "FAIL",
     "compat-table/es6/Proxy.handler.apply.js": "PASS",
     "compat-table/es6/Proxy.handler.construct.invariants.js": "PASS",
-    "compat-table/es6/Proxy.handler.construct.js": "TypeError: object (class=Object, callable=false, id=1072, keys=[]) is not a function",
+    "compat-table/es6/Proxy.handler.construct.js": "TypeError: object (class=Object, callable=false, id=1073, keys=[]) is not a function",
     "compat-table/es6/Proxy.handler.defineProperty.invariants.js": "PASS",
     "compat-table/es6/Proxy.handler.defineProperty.js": "PASS",
     "compat-table/es6/Proxy.handler.deleteProperty.invariants.js": "PASS",

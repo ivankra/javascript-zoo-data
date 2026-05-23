@@ -2,28 +2,28 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "yavashark",
-    "binary_sha256": "2f574b5d755d7187e743e7329c58bc0989f0ad93d5b0ee3e6730b5e976ed5c01",
-    "binary_size": 18286728,
+    "binary_sha256": "2b49c0362537c9ff75b5d2cd704fcfe4917cbcb90e9c56864b04b8b18d674645",
+    "binary_size": 17696688,
     "engine": "yavashark",
     "repository": "https://github.com/Sharktheone/yavashark.git",
-    "revision": "c684cdb1b4689e82e2311b02e58c280825442e7d",
-    "revision_date": "2026-04-22",
+    "revision": "3e8fd77bd0f6709daf9b9a828c7b62fae2fad7fc",
+    "revision_date": "2026-05-21",
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)"
   },
   "flags": ["-i"],
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
-    "all": {"passed": 370, "failed": 50, "pass_percent": 88.095},
-    "es1-5": {"passed": 370, "failed": 50, "pass_percent": 88.095}
+    "all": {"passed": 371, "failed": 49, "pass_percent": 88.333},
+    "es1-5": {"passed": 371, "failed": 49, "pass_percent": 88.333}
   },
   "dirs": {
     "es1": {"passed": 182, "failed": 16, "pass_percent": 91.919},
     "es3": {"passed": 137, "failed": 11, "pass_percent": 92.568},
-    "es5": {"passed": 51, "failed": 23, "pass_percent": 68.919}
+    "es5": {"passed": 52, "failed": 22, "pass_percent": 70.27}
   },
   "tests": {
     "es1/Array.js": "PASS",
@@ -405,11 +405,11 @@
     "es5/Object.getPrototypeOf.js": "PASS",
     "es5/Object.isExtensible.js": "PASS",
     "es5/Object.isFrozen.js": "PASS",
-    "es5/Object.isSealed.js": "FAIL: sealed object failed; frozen object is sealed failed",
+    "es5/Object.isSealed.js": "FAIL: frozen object is sealed failed",
     "es5/Object.keys.js": "PASS",
     "es5/Object.preventExtensions.js": "PASS",
     "es5/Object.property-shadowing.js": "PASS",
-    "es5/Object.seal.js": "FAIL: prevented property addition failed; prevented property deletion failed",
+    "es5/Object.seal.js": "PASS",
     "es5/String.indexing.js": "PASS",
     "es5/String.prototype.trim.js": "PASS",
     "es5/arguments.toStringTag.js": "PASS",

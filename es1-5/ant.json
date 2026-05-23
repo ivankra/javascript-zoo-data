@@ -2,19 +2,19 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "ant",
-    "binary_sha256": "3c892935ca70f84dfe7dddc5908d43497c661d55737954b78968be564e0bac6b",
-    "binary_size": 11342632,
+    "binary_sha256": "c02ef04a3f677a67a2de897440daf209204aa5a1c6d5ad2ef84eb8e858d590ec",
+    "binary_size": 10705576,
     "engine": "ant",
     "repository": "https://github.com/theMackabu/ant.git",
-    "revision": "12d3171b8efcbdebe50107e0b0b21385e168bec6",
-    "revision_date": "2026-04-22",
+    "revision": "124bd4ef8b1a0ff0644e27c62d554d6edf733714",
+    "revision_date": "2026-05-20",
     "rustc": "rustc 1.95.0 (59807616e 2026-04-14)",
     "zig": "0.15.2"
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 420, "pass_percent": 100.0},

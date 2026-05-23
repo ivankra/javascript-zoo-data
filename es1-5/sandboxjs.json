@@ -2,26 +2,26 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "sandboxjs",
-    "dist_size": 242190,
+    "dist_size": 246166,
     "engine": "sandboxjs",
     "repository": "https://github.com/nyariv/SandboxJS.git",
-    "revision": "fe79ab4f87a288710d9857c5efbadd80d4651a85",
-    "revision_date": "2026-04-17",
-    "version": "0.9.3-1-gfe79ab4"
+    "revision": "826865251232611ec94078bab5a18ec875dad4a5",
+    "revision_date": "2026-05-09",
+    "version": "0.9.3-3-g8268652"
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
-    "all": {"passed": 301, "failed": 119, "pass_percent": 71.667},
-    "es1-5": {"passed": 301, "failed": 119, "pass_percent": 71.667}
+    "all": {"passed": 300, "failed": 120, "pass_percent": 71.429},
+    "es1-5": {"passed": 300, "failed": 120, "pass_percent": 71.429}
   },
   "dirs": {
     "es1": {"passed": 168, "failed": 30, "pass_percent": 84.848},
     "es3": {"passed": 112, "failed": 36, "pass_percent": 75.676},
-    "es5": {"passed": 21, "failed": 53, "pass_percent": 28.378}
+    "es5": {"passed": 20, "failed": 54, "pass_percent": 27.027}
   },
   "tests": {
     "es1/Array.js": "FAIL: Array.prototype failed",
@@ -435,7 +435,7 @@
     "es5/strict.no-duplicate-parameters.js": "FAIL",
     "es5/strict.no-eval-or-arguments-assignment.js": "FAIL: SandboxAccessError: Cannot assign property 'eval' of a global object",
     "es5/strict.no-eval-or-arguments-bindings.js": "FAIL",
-    "es5/strict.no-function-caller-or-arguments.js": "PASS",
+    "es5/strict.no-function-caller-or-arguments.js": "FAIL: SandboxAccessError: Access to 'caller' property is not permitted",
     "es5/strict.no-octal-literals.js": "FAIL",
     "es5/strict.no-with.js": "FAIL",
     "es5/strict.reserved-words.js": "FAIL: 'var interface' did not throw in strict mode",

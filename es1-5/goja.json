@@ -2,18 +2,18 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "goja",
-    "binary_sha256": "e02fc6e2ba4e89f26f8cd63f293790af33b4c541ca45af0f2451ded816fdc6b6",
-    "binary_size": 10050264,
+    "binary_sha256": "1ab2fb07f363ee69c0d66f2222065f6424b553cce2a22a535d8b595813398ee3",
+    "binary_size": 10054360,
     "engine": "goja",
-    "go": "1.26.2",
+    "go": "1.26.3",
     "repository": "https://github.com/dop251/goja.git",
     "revision": "065cd970411c0201a267efd3a4d5ac26d6e4e8a9",
     "revision_date": "2026-03-11"
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 416, "failed": 4, "pass_percent": 99.048},

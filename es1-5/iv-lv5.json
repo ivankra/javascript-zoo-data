@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "iv-lv5",
-    "binary_sha256": "1098992b9d67a443a1d5ce391f98a09e38471d0916bd1f0bf76765275f96c13c",
-    "binary_size": 7335664,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "9e6944b8ee0b02986abbc17f67953293fbe233f0dfd1909130b83c3c62565b36",
+    "binary_size": 7331512,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "iv-lv5",
     "jit": "true",
     "repository": "https://github.com/Constellation/iv.git",
@@ -13,8 +13,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 414, "failed": 6, "pass_percent": 98.571},

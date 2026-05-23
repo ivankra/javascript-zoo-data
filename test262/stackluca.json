@@ -2,9 +2,9 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "stackluca",
-    "binary_sha256": "af12ef89f76895e5e10d86b5955b9ec723281ed8621ca596bb0bdf08f486614d",
-    "binary_size": 73184,
-    "cc": "gcc 16.0.1 20260322 (experimental) [trunk r16-8246-g569ace1fa50] (Debian 16-20260322-1)",
+    "binary_sha256": "8040e1c5493b7adebeebbeeefef7b8d4195a51944e666016073705e4eaa340f5",
+    "binary_size": 73120,
+    "cc": "gcc 16.1.0 (Debian 16.1.0-1)",
     "engine": "stackluca",
     "repository": "https://github.com/stackluca/v3.git",
     "revision": "487412fbb8d2c11b3a6faf2047c0c677689c6751",
@@ -17,8 +17,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 4617, "failed": 48550, "pass_percent": 8.684},
@@ -337,34 +337,34 @@
     "strict": "SyntaxError: unexpected token"
   },
   "rusage": {
-    "started_at": "2026-04-24 15:07:59 UTC",
-    "duration_sec": 85.872,
-    "total_user_sec": 32.337,
-    "total_sys_sec": 57.235,
+    "started_at": "2026-05-22 19:58:44 UTC",
+    "duration_sec": 76.104,
+    "total_user_sec": 30.865,
+    "total_sys_sec": 59.366,
     "peak_rss_mb": 38.3,
     "run_duration_sec": {
-      "test/language/expressions/dynamic-import/syntax/valid/nested-async-arrow-function-return-await-import-source-script-code-valid.sloppy.js": 0.377,
-      "test/built-ins/RegExp/nullable-quantifier.sloppy.js": 0.353,
-      "test/built-ins/Temporal/Instant/prototype/until/invalid-increments.strict.js": 0.193,
-      "test/language/comments/hashbang/preceding-whitespace.js": 0.15,
-      "test/language/comments/hashbang/escaped-bang-041.js": 0.122,
-      "test/intl402/NumberFormat/supportedLocalesOf/builtin.sloppy.js": 0.12,
-      "test/language/comments/hashbang/module.mjs": 0.118,
-      "test/language/comments/hashbang/escaped-bang-u0021.js": 0.117,
-      "test/language/comments/hashbang/not-empty.js": 0.116,
-      "test/language/statements/function/S13.2.2_A16_T1.strict.js": 0.114
+      "test/language/statements/const/dstr/ary-ptrn-elem-ary-elision-iter.strict.js": 0.134,
+      "test/language/comments/hashbang/preceding-whitespace.js": 0.121,
+      "test/language/comments/hashbang/line-terminator-carriage-return.js": 0.116,
+      "test/language/comments/hashbang/escaped-bang-041.js": 0.113,
+      "test/language/comments/hashbang/escaped-hash-x23.js": 0.112,
+      "test/language/comments/hashbang/use-strict.js": 0.11,
+      "test/language/comments/hashbang/escaped-bang-u21.js": 0.108,
+      "test/language/comments/hashbang/preceding-directive-prologue-sc.js": 0.108,
+      "test/language/comments/hashbang/line-terminator-line-separator.js": 0.107,
+      "test/language/comments/hashbang/escaped-hash-u0023.js": 0.107
     },
     "run_rss_mb": {
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.sloppy.js": 38.3,
-      "test/annexB/built-ins/Date/prototype/setYear/date-value-read-before-tonumber-when-date-is-invalid.strict.js": 38.3,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.sloppy.js": 38.3,
-      "test/annexB/built-ins/Date/prototype/setYear/not-a-constructor.strict.js": 38.3,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.sloppy.js": 38.3,
-      "test/annexB/built-ins/Date/prototype/setYear/this-time-valid.strict.js": 38.3,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.sloppy.js": 38.3,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-absolute.strict.js": 38.3,
-      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.sloppy.js": 38.3,
-      "test/annexB/built-ins/Function/createdynfn-html-open-comment-body.strict.js": 38.3
+      "test/annexB/built-ins/String/prototype/bold/this-val-tostring-err.sloppy.js": 38.3,
+      "test/annexB/built-ins/String/prototype/bold/this-val-tostring-err.strict.js": 38.3,
+      "test/annexB/language/expressions/coalesce/emulates-undefined.sloppy.js": 38.3,
+      "test/annexB/language/expressions/coalesce/emulates-undefined.strict.js": 38.3,
+      "test/annexB/language/expressions/logical-assignment/emulates-undefined-or.sloppy.js": 38.3,
+      "test/annexB/language/expressions/logical-assignment/emulates-undefined-or.strict.js": 38.3,
+      "test/annexB/language/function-code/if-decl-else-decl-a-func-skip-early-err-switch.js": 38.3,
+      "test/built-ins/AggregateError/newtarget-is-undefined.sloppy.js": 38.3,
+      "test/built-ins/AggregateError/newtarget-is-undefined.strict.js": 38.3,
+      "test/built-ins/Array/S15.4.1_A2.1_T1.sloppy.js": 38.3
     }
   },
   "tests": {

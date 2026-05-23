@@ -2,28 +2,28 @@
   "binary": {
     "arch": "amd64",
     "binary_name": "sandboxjs",
-    "dist_size": 242190,
+    "dist_size": 246166,
     "engine": "sandboxjs",
     "repository": "https://github.com/nyariv/SandboxJS.git",
-    "revision": "fe79ab4f87a288710d9857c5efbadd80d4651a85",
-    "revision_date": "2026-04-17",
-    "version": "0.9.3-1-gfe79ab4"
+    "revision": "826865251232611ec94078bab5a18ec875dad4a5",
+    "revision_date": "2026-05-09",
+    "version": "0.9.3-3-g8268652"
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
-    "all": {"passed": 329, "failed": 765, "pass_percent": 30.073, "weight": 469.0, "weighted_pass_percent": 35.248},
+    "all": {"passed": 328, "failed": 766, "pass_percent": 29.982, "weight": 469.0, "weighted_pass_percent": 35.158},
     "es6": {"passed": 192, "failed": 508, "pass_percent": 27.429, "weight": 211.0, "weighted_pass_percent": 33.01},
     "es2016+": {"passed": 96, "failed": 154, "pass_percent": 38.4, "weight": 151.0, "weighted_pass_percent": 42.297},
     "esnext": {"passed": 4, "failed": 39, "pass_percent": 9.302, "weight": 33.0, "weighted_pass_percent": 8.081},
     "intl": {"passed": 14, "failed": 14, "pass_percent": 50.0, "weight": 28.0, "weighted_pass_percent": 50.0}
   },
   "dirs": {
-    "compat-table": {"passed": 329, "failed": 765, "pass_percent": 30.073, "weight": 469.0, "weighted_pass_percent": 35.248},
-    "compat-table/es5": {"passed": 23, "failed": 50, "pass_percent": 31.507, "weight": 46.0, "weighted_pass_percent": 32.887},
+    "compat-table": {"passed": 328, "failed": 766, "pass_percent": 29.982, "weight": 469.0, "weighted_pass_percent": 35.158},
+    "compat-table/es5": {"passed": 22, "failed": 51, "pass_percent": 30.137, "weight": 46.0, "weighted_pass_percent": 31.971},
     "compat-table/es6": {"passed": 192, "failed": 508, "pass_percent": 27.429, "weight": 211.0, "weighted_pass_percent": 33.01},
     "compat-table/es2016": {"passed": 5, "failed": 9, "pass_percent": 35.714, "weight": 11.0, "weighted_pass_percent": 30.303},
     "compat-table/es2017": {"passed": 13, "failed": 51, "pass_percent": 20.312, "weight": 25.0, "weighted_pass_percent": 36.0},
@@ -103,7 +103,7 @@
     "compat-table/es5/strict.delete-non-configurable-error.js": "FAIL: SandboxAccessError: Static method or property access not permitted: Object.prototype",
     "compat-table/es5/strict.eval-arguments-bindings-error.js": "FAIL",
     "compat-table/es5/strict.eval-no-bindings.js": "FAIL",
-    "compat-table/es5/strict.function-caller-arguments-error.js": "PASS",
+    "compat-table/es5/strict.function-caller-arguments-error.js": "FAIL: SandboxAccessError: Access to 'caller' property is not permitted",
     "compat-table/es5/strict.function-expr-matching-name-arg.js": "PASS",
     "compat-table/es5/strict.legacy-octal-error.js": "FAIL",
     "compat-table/es5/strict.repeated-params-error.js": "FAIL",
@@ -609,7 +609,7 @@
     "compat-table/es6/misc.Proxy.get.RegExp.Symbol.match.js": "ReferenceError: global is not defined",
     "compat-table/es6/misc.Proxy.get.RegExp.Symbol.replace.js": "ReferenceError: global is not defined",
     "compat-table/es6/misc.Proxy.get.RegExp.Symbol.search.js": "ReferenceError: Proxy is not defined",
-    "compat-table/es6/misc.Proxy.get.RegExp.Symbol.split.js": "FAIL: SandboxAccessError: Cannot assign property 'undefined' of a global object",
+    "compat-table/es6/misc.Proxy.get.RegExp.Symbol.split.js": "ReferenceError: Proxy is not defined",
     "compat-table/es6/misc.Proxy.get.RegExp.flags.js": "ReferenceError: global is not defined",
     "compat-table/es6/misc.Proxy.get.RegExp.test.js": "ReferenceError: Proxy is not defined",
     "compat-table/es6/misc.Proxy.get.RegExp.toString.js": "ReferenceError: Proxy is not defined",

@@ -17,8 +17,8 @@
   },
   "runner": {
     "repository": "https://github.com/ivankra/javascript-zoo",
-    "revision": "8a5c2f9fcb315120290bb01f479de73ae8414516",
-    "revision_date": "2026-04-23"
+    "revision": "301129da7371acdb148417acc6dd3c2175b21ab7",
+    "revision_date": "2026-05-22"
   },
   "summary": {
     "all": {"passed": 9598, "failed": 43569, "pass_percent": 18.053},
@@ -314,7 +314,7 @@
     "$262.gc": "FAIL",
     "$262.global": "FAIL",
     "DONOTEVALUATE": "PASS",
-    "EvalError": "FAIL: foo stderr='1 source files\\ndmdscript.script.ScriptException@engine/source/dmdscript/script.d(66): foo\\n----------------\\n??:? [0x55c832cc7d46]\\n??:? [0x55c832cc79b2]\\n??:? [0x55c832cf037e]\\n??:? [0x55c832cd08ec]\\n??:? [0x55c832c2cbdf]\\n??:? [0x55c832c19012]\\n??:? [0x55c832cd05cc]\\n??:? [0x55c832cd04c7]\\n??:? [0x55c832cd031c]\\n??:? [0x7f421bdbfca7]\\n??:? __libc_start_main [0x7f421bdbfd64]\\n??:? [0x55c832c18ae0]'",
+    "EvalError": "FAIL: foo stderr='1 source files\\ndmdscript.script.ScriptException@engine/source/dmdscript/script.d(66): foo\\n----------------\\n??:? [0x55d7b3f8ed46]\\n??:? [0x55d7b3f8e9b2]\\n??:? [0x55d7b3fb737e]\\n??:? [0x55d7b3f978ec]\\n??:? [0x55d7b3ef3bdf]\\n??:? [0x55d7b3ee0012]\\n??:? [0x55d7b3f975cc]\\n??:? [0x55d7b3f974c7]\\n??:? [0x55d7b3f9731c]\\n??:? [0x7f879e7a7ca7]\\n??:? __libc_start_main [0x7f879e7a7d64]\\n??:? [0x55d7b3edfae0]'",
     "Intl": "FAIL",
     "RangeError": "PASS",
     "ReferenceError": "PASS",
@@ -337,34 +337,34 @@
     "strict": "FAIL"
   },
   "rusage": {
-    "started_at": "2026-04-24 08:00:13 UTC",
-    "duration_sec": 420.716,
-    "total_user_sec": 830.163,
-    "total_sys_sec": 157.366,
-    "peak_rss_mb": 4138.2,
+    "started_at": "2026-05-22 20:23:29 UTC",
+    "duration_sec": 457.527,
+    "total_user_sec": 823.755,
+    "total_sys_sec": 211.904,
+    "peak_rss_mb": 4140.7,
     "run_duration_sec": {
-      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-5-16.sloppy.js": 60.189,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-9-9.sloppy.js": 60.159,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-9-9.strict.js": 60.091,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.sloppy.js": 60.088,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.strict.js": 60.083,
-      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-8-9.sloppy.js": 60.071,
-      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-5-16.strict.js": 60.069,
-      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.strict.js": 60.067,
-      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-5-12.sloppy.js": 60.067,
-      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-5-12.strict.js": 60.067
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.strict.js": 60.221,
+      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-5-12.sloppy.js": 60.188,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-12.sloppy.js": 60.151,
+      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-8-9.sloppy.js": 60.134,
+      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-5-12.strict.js": 60.103,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.sloppy.js": 60.098,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-5-16.strict.js": 60.088,
+      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-8-9.strict.js": 60.079,
+      "test/built-ins/Array/prototype/lastIndexOf/15.4.4.15-5-16.sloppy.js": 60.072,
+      "test/built-ins/Array/prototype/indexOf/15.4.4.14-9-9.strict.js": 60.071
     },
     "run_rss_mb": {
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.sloppy.js": 4138.2,
-      "test/annexB/built-ins/Date/prototype/setYear/B.2.5.strict.js": 4138.2,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.sloppy.js": 4138.2,
-      "test/annexB/built-ins/Date/prototype/setYear/time-clip.strict.js": 4138.2,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.sloppy.js": 4138.2,
-      "test/annexB/built-ins/Date/prototype/setYear/year-number-relative.strict.js": 4138.2,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.sloppy.js": 4138.2,
-      "test/annexB/built-ins/Date/prototype/toGMTString/not-a-constructor.strict.js": 4138.2,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.sloppy.js": 4138.2,
-      "test/annexB/built-ins/RegExp/RegExp-leading-escape.strict.js": 4138.2
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.sloppy.js": 4140.7,
+      "test/annexB/built-ins/Date/prototype/setYear/this-not-date.strict.js": 4140.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.sloppy.js": 4140.7,
+      "test/annexB/built-ins/RegExp/legacy-accessors/index/this-cross-realm-constructor.strict.js": 4140.7,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-distinct.sloppy.js": 4140.7,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-regexp-distinct.strict.js": 4140.7,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-string-invalid-u.sloppy.js": 4140.7,
+      "test/annexB/built-ins/RegExp/prototype/compile/pattern-string-invalid-u.strict.js": 4140.7,
+      "test/annexB/built-ins/String/prototype/fontcolor/B.2.3.7.sloppy.js": 4140.7,
+      "test/annexB/built-ins/String/prototype/fontcolor/B.2.3.7.strict.js": 4140.7
     }
   },
   "tests": {
@@ -6171,7 +6171,7 @@
     "test/built-ins/Date/UTC/nans.js": "Test262Error: date Expected SameValue(«-86400000», «NaN») to be true",
     "test/built-ins/Date/UTC/non-integer-values.js": "Test262Error: negative non-integer values Expected SameValue(«NaN», «-124334438400000») to be true",
     "test/built-ins/Date/UTC/not-a-constructor.js": "SyntaxError: expression expected, not ''",
-    "test/built-ins/Date/UTC/no-arg.js": {"sloppy": "Test262Error: missing non-optional year argument Expected SameValue(«1777017654924», «NaN») to be true", "strict": "Test262Error: missing non-optional year argument Expected SameValue(«1777017654929», «NaN») to be true"},
+    "test/built-ins/Date/UTC/no-arg.js": {"sloppy": "Test262Error: missing non-optional year argument Expected SameValue(«1779481690178», «NaN») to be true", "strict": "Test262Error: missing non-optional year argument Expected SameValue(«1779481690183», «NaN») to be true"},
     "test/built-ins/Date/UTC/overflow-make-day.js": "Test262Error: month: 12 Expected SameValue(«1483142400000», «1483228800000») to be true",
     "test/built-ins/Date/UTC/overflow-make-time.js": "PASS",
     "test/built-ins/Date/UTC/prop-desc.js": "FAIL: No [[DefaultValue]]",
@@ -41078,7 +41078,7 @@
     "test/language/identifier-resolution/S10.2.2_A1_T9.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T1.js": "PASS",
     "test/language/identifier-resolution/S11.1.2_A1_T2.js": "PASS",
-    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): PASS",
+    "test/language/identifier-resolution/assign-to-global-undefined.js": "NOT(ReferenceError): FAIL",
     "test/language/identifier-resolution/static-init-invalid-await.js": "PASS",
     "test/language/identifier-resolution/unscopables.js": "ReferenceError: 'Symbol' is not defined",
     "test/language/import/dup-bound-names.js": "PASS",
